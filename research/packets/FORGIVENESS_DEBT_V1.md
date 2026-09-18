@@ -1,6 +1,6 @@
 # Forgiveness and Debt V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Cluster
 
@@ -57,6 +57,83 @@ Forgiveness must not be written as:
 - cancellation of accountability.
 
 Those are modern ethical distinctions, but they prevent the final book from weaponizing ancient forgiveness language.
+
+## Witness-control advance — debt, sin, and Didache transmission
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-FORGIVENESS-DEBT-MATT-LUKE-DIDACHE`
+- `VAR-LUKE-11-2-4-LORDS-PRAYER`
+- `sources/P0_SOURCE_LEDGER.yaml`
+- `SRC-DIDACHE`
+- `sources/WITNESS_REGISTRY_V1.yaml`
+- `WIT-DIDACHE-H54-HIEROSOLYMITANUS`
+
+The prayer forms make a real semantic distinction visible.
+
+Matthew asks for forgiveness of debts.
+
+Luke asks for forgiveness of sins while retaining debt language in the reciprocal half:
+others are indebted to the disciple.
+
+Didache 8.2 preserves debt/debtor language close to the Matthean form.
+
+That pattern supports historical interaction between:
+- fiscal debt;
+- moral obligation;
+- sin;
+- release/forgiveness.
+
+It does not prove that those categories were interchangeable in every saying.
+
+### Didache control
+
+Didache 8.2 is physically bound to Codex Hierosolymitanus 54.
+
+Its relation to Matthew remains disputed.
+
+The Didache therefore contributes:
+- early Christian prayer/reception evidence;
+- a materially related debt form.
+
+It does not automatically provide an independent historical-Yeshua vote.
+
+### Semantic separation
+
+Testament must keep distinct:
+- monetary debt;
+- moral offense;
+- sin;
+- divine forgiveness;
+- interpersonal release;
+- reconciliation;
+- restored relationship;
+- refusal of vengeance.
+
+The ancient traditions may connect these fields.
+They do not make them synonyms.
+
+### Ethical-layer guard
+
+Book VIII may argue that forgiveness can end retaliation without restoring unsafe access.
+
+That is an authored ethical synthesis.
+
+It is not to be placed into Book III as though first-century debt/forgiveness language already encoded the modern boundary distinction explicitly.
+
+### Current historical ceiling
+
+Established:
+- debt and forgiveness imagery are deeply embedded in Jesus tradition;
+- Matthew and Didache preserve debt/debtor language;
+- Luke places sin and indebtedness within one prayer petition.
+
+Not established:
+- one exact original wording;
+- one universal mechanism of forgiveness;
+- that forgiveness necessarily means reconciliation;
+- Didache's independence from Matthew;
+- a one-to-one equation between financial debt and moral sin.
 
 ## Historical ceiling
 
