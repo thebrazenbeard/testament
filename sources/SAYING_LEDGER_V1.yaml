@@ -169,6 +169,12 @@ clusters:
       - Thomas_65_66
     dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
     packet: research/packets/WICKED_TENANTS_V1.md
+    source_controls:
+      - SRC-GOSPEL-THOMAS
+    variant_controls:
+      - VAR-WICKED-TENANTS-THOMAS-65-66
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-FIRST-LAST
     topic: reversal
