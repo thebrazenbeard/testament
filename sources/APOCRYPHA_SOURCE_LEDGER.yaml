@@ -54,6 +54,15 @@ records:
           greek: NONE_SURVIVING_CURRENTLY_BOUND
           distinctive_form: "The lost sheep is the largest, and the shepherd says he loves it more than the ninety-nine."
           guard: "Do not cite P.Oxy. 1, 654, or 655 as Greek witnesses for logion 107."
+      first_last_cluster:
+        direct_witnesses:
+          - WIT-POXY-654-GOSPEL-THOMAS
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_4:
+          greek: WIT-POXY-654-GOSPEL-THOMAS
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          transmission_difference: "Greek P.Oxy. 654 includes reciprocal last-to-first wording absent from the extant Coptic NHC II form."
+          guard: "Do not resolve the Greek/Coptic divergence by silently normalizing either witness to the Synoptic maxim."
     source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
     limits:
       - "Composition history and relation to Synoptics remain debated."
