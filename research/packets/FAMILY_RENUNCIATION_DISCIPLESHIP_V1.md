@@ -1,6 +1,6 @@
 # Family Renunciation and Discipleship V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Primary forms
 
@@ -47,6 +47,83 @@ Other traditions preserve:
 - women/households supporting itinerants.
 
 Therefore "Yeshua rejected family as such" is too simple.
+
+## Witness-control advance — Thomas 55 and 101
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-FAMILY-RENUNCIATION-THOMAS-55-101`
+- `sources/WITNESS_REGISTRY_V1.yaml`
+- `WIT-NHC-II-GOSPEL-THOMAS`
+
+Thomas 55 and Thomas 101 are directly extant in the Coptic Gospel of Thomas in Nag Hammadi Codex II.
+
+No surviving Greek Thomas fragment currently bound by Testament reaches either saying:
+- P.Oxy. 654 stops within logion 7;
+- P.Oxy. 1 preserves portions of logia 26–33;
+- P.Oxy. 655 preserves logion 24 and portions of 36–39.
+
+Therefore both sayings are currently Coptic-only evidence for this cluster.
+
+### Thomas 55
+
+Thomas 55 combines:
+- hatred of father and mother;
+- hatred of brothers and sisters;
+- cross-bearing;
+- worthiness/disciple language.
+
+That combination overlaps materially with Luke 14:26–27, Matthew 10:37–38, and the broader Synoptic cross-bearing tradition.
+
+Some scholars, notably J. P. Meier, treat this as evidence of conflation from Synoptic forms.
+
+That is a serious dependence argument.
+It is not promoted to settled project fact.
+
+### Thomas 101
+
+Thomas 101 reuses family-renunciation language but develops it differently:
+- hate-family language;
+- a contrasting love-family clause;
+- a distinction involving Jesus's mother / true mother.
+
+The surviving Coptic text is damaged.
+
+That damage matters.
+
+Testament does not fill the lacunae as though one reconstruction were manuscript fact.
+
+### Same work is not multiple independent attestation
+
+Thomas 55 and 101 form an internal Thomas doublet / related pair.
+
+Their coexistence tells us something about Thomasine transmission, reuse, or redaction.
+
+It does **not** give us two independent historical witnesses to Yeshua.
+
+The current count is:
+- one Thomas source;
+- two related internal Thomas forms;
+- one surviving physical Coptic witness for both.
+
+### Dependence ceiling
+
+Established:
+- severe kinship-renunciation tradition appears in Synoptic material;
+- Thomas 55 and 101 preserve related forms;
+- Thomas 55 combines family and cross/worthiness language;
+- Thomas 101 is textually damaged and develops a hate/love contrast.
+
+Unresolved:
+- direct Thomas dependence on Matthew/Luke;
+- independent shared tradition;
+- exact redactional relationship between Thomas 55 and 101;
+- exact restoration of Thomas 101;
+- historical scope of the demand.
+
+Reference:
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics":
+  DOI 10.1093/oxfordhb/9780190887452.013.27
 
 ## Historical ceiling
 
