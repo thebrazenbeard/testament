@@ -930,6 +930,57 @@ variants:
     manuscript_rule: "Book III may discuss the Bezae Sabbath-worker addition only as a typed textual variant. Book II must narrate Sabbath disputes as Jewish interpretive conflict, not Christianity-versus-legalistic-Judaism."
 
 
+
+  - id: VAR-DIVORCE-PAUL-1COR-7-RECEPTION
+    saying: SAY-DIVORCE
+    control_kind: GOSPEL_FORM_VARIATION_PLUS_EARLY_PAULINE_LORD_COMMAND_RECEPTION
+    passages:
+      - Mark_10_2_12
+      - Matthew_5_31_32
+      - Matthew_19_3_12
+      - Luke_16_18
+      - First_Corinthians_7_10_11
+    consequence: DIVORCE_EXCEPTION_GENDER_AND_PRE_GOSPEL_RECEPTION
+
+    gospel_control:
+      Mark:
+        form_note: "Restrictive divorce teaching rooted in creation; includes reciprocal gender formulation."
+        guard: "Mark's woman-divorcing-husband formulation may reflect Greco-Roman social/legal context and is not automatically retrojected into Palestinian wording."
+      Matthew:
+        form_note: "Preserves exception language absent from Mark/Luke and reworks the legal argument."
+        guard: "Exception clauses must remain visible rather than harmonized away or treated as self-evident dilution."
+      Luke:
+        form_note: "Preserves a compact absolute-looking form in a different literary setting."
+        guard: "Compactness is not automatically earlier."
+
+    paul_reception:
+      source: SRC-PAUL-1CORINTHIANS
+      physical_witness: WIT-P46-PAULINE-CODEX
+      passage: First_Corinthians_7_10_11
+      state: EARLY_LORD_COMMAND_RECEPTION
+      form_note: "Paul distinguishes this instruction as 'not I, but the Lord' and applies a no-separation/remarriage rule in Corinth."
+      chronology_guard: "Paul's letter predates the extant written Gospels, but P46 is a later physical witness to Paul's text."
+      wording_guard: "Paul is evidence that an authoritative divorce command attributed to the Lord circulated early; he is not a manuscript witness to exact Mark/Matthew/Luke wording."
+
+    historical_ceiling:
+      strong:
+        - "A restrictive divorce command associated with the Lord circulated by the time of 1 Corinthians."
+        - "The Gospel forms materially differ in exception structure, gender formulation, and setting."
+        - "P46 physically witnesses 1 Corinthians 7:10-11."
+      not_secure:
+        - "The exact wording of the historical saying."
+        - "That Paul's received command corresponds verbatim to any one surviving Gospel form."
+        - "That Matthew's exception clauses are either certainly original or certainly secondary."
+        - "That Mark's reciprocal gender formulation reflects the earliest Palestinian form."
+        - "One harmonized divorce rule combining all source forms."
+
+    ethical_guard:
+      rule: "Ancient restriction of divorce must not be converted in Book VIII into compulsory endurance of abuse or loss of safety."
+      layer: AUTHORED_ETHICAL_APPLICATION_NOT_HISTORICAL_RECONSTRUCTION
+
+    manuscript_rule: "Book III must present Paul as early reception of a Lord-command, not as a fifth Gospel manuscript. Mark, Matthew, Luke, and Paul remain distinct source forms."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
