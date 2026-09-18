@@ -116,6 +116,11 @@ witnesses:
         reading_note: "Eubank treats Sinaiticus as an important early witness containing the prayer; correction/doubt history means a simple codex-level binary is inadequate."
         scholarship:
           - doi: "10.2307/25765950"
+      - passage: Matthew_5_44
+        reading_state: SHORTER_FORM
+        reading_note: "Published textual notes report Sinaiticus among witnesses to the shorter form: love enemies and pray for persecutors without the Luke-like expansion."
+        scholarship:
+          - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
     limitations:
       - "Corrector sequence for Luke 23:34a remains apparatus/image-verification work."
       - "One codex does not define an earliest reading by itself."
@@ -139,6 +144,11 @@ witnesses:
         reading_note: "Eubank reports the forgiveness prayer absent in Vaticanus."
         scholarship:
           - doi: "10.2307/25765950"
+      - passage: Matthew_5_44
+        reading_state: SHORTER_FORM
+        reading_note: "Published textual notes report Vaticanus among witnesses to the shorter form without the Luke 6:27-28-like expansion."
+        scholarship:
+          - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
     limitations:
       - "Variant readings are presently bound through published scholarship/apparatus reports, not Testament autoptic collation."
 
@@ -158,6 +168,11 @@ witnesses:
         reading_note: "Eubank reports the forgiveness prayer absent in Codex W."
         scholarship:
           - doi: "10.2307/25765950"
+      - passage: Matthew_5_44
+        reading_state: EXPANDED_LUKE_LIKE_FORM
+        reading_note: "Published textual notes report Washingtonianus among witnesses to the expanded Matthew 5:44 form."
+        scholarship:
+          - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
     limitations:
       - "The Smithsonian metadata establishes physical identity/date; the Luke 23:34a reading is currently taken from scholarly report."
 
@@ -176,6 +191,11 @@ witnesses:
         reading_note: "Eubank reports the forgiveness prayer absent in Codex Koridethi."
         scholarship:
           - doi: "10.2307/25765950"
+      - passage: Matthew_5_44
+        reading_state: EXPANDED_LUKE_LIKE_FORM
+        reading_note: "Published textual notes report Koridethi/Theta among witnesses to the expanded Matthew 5:44 form."
+        scholarship:
+          - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
     limitations:
       - "Later witness date does not make the reading late."
       - "Testament has not performed autoptic collation."
