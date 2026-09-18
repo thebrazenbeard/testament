@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v8
+schema_version: testament.hostile_review_book_iii.v9
 overall_status: ACTIVE
 complete: false
 
@@ -84,6 +84,17 @@ tranche_8:
   reviewed_debt:
     - P46_1COR7_LEAF_LOCALIZATION
 
+
+tranche_9:
+  original_target: 74be5c1578850d4a0cf58cf0e71131a8fdfddfb0
+  repair_target: dde50284ea7e4e63736d36408918b65715de2004
+  review_report_commit: c8674e84e8fc1913ff202158d69785ea84e9499a
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE9_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-006..HR-BIII-006
+  repaired_findings:
+    - HR-BIII-006_MARCION_SPIRIT_PETITION_CONFLATION
+
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
   - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
@@ -125,7 +136,7 @@ next_scope:
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_9
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_10
 
 invariants:
   - "Tranche PASS is exact-head-bound."
