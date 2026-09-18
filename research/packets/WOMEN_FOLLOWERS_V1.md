@@ -8,7 +8,7 @@ Later Christian reception repeatedly transforms named women, so historical work 
 
 ## Mary Magdalene
 
-A 2026 Oxford Research Encyclopedia article summarizes Mary Magdalene as a first-century disciple who, with other women, followed Yeshua's Galilean ministry, appears in the Jerusalem/passion sequence, and occupies a central role in Gospel death/burial/resurrection traditions.
+The canonical Gospel traditions portray Mary Magdalene as a follower associated with Yeshua's movement and place her prominently in passion/burial/resurrection sequences. A 2026 Oxford Research Encyclopedia article argues historically that Mary, with other women, followed Yeshua's Galilean ministry.
 
 Reference:
 - Jennifer V. Pietz, "Mary Magdalene and the Early Jesus Movement":
@@ -42,12 +42,13 @@ That later prominence is important reception evidence; it does not automatically
 
 ## Historical ceiling
 
-Strong:
-- women were part of early Jesus tradition, not a late medieval invention;
+Strong at the textual/reception level:
+- women are integral to early Gospel Jesus tradition, not a late medieval invention;
 - Mary Magdalene is especially prominent across passion/resurrection narratives;
-- later conflations distorted her identity.
+- later conflations distorted her literary/reception identity.
 
-Plausible:
+Historically plausible:
+- Mary Magdalene was an actual follower of Yeshua;
 - women materially supported and traveled with at least some phase of the movement.
 
 Unresolved:

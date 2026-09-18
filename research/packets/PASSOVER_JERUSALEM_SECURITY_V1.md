@@ -60,4 +60,4 @@ Local elite involvement may be historically plausible/significant, but:
 
 The final week should feel like a collision of institutions under pressure.
 
-Yeshua need not command an army to be perceived as risky during a volatile pilgrimage festival.
+Yeshua need not command an army to be perceived as risky during a politically sensitive pilgrimage festival with elevated public-order concern.
