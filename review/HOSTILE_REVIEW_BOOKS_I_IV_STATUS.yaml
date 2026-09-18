@@ -31,3 +31,11 @@ invariants:
   - "Tranche PASS is exact-head-bound."
   - "Overall review remains ACTIVE until all declared review scopes close."
   - "No hostile-review pass authorizes merge or manuscript promotion."
+
+tranche_5:
+  original_target: 135470ab33b05a24544f9c350dce06d4b438a0b9
+  status: FAIL_REPAIRABLE
+  complete: false
+  finding_range: HR-IIV-033..HR-IIV-037
+  blocking_partial:
+    - VAR-LUKE-23-34A-FORGIVENESS
