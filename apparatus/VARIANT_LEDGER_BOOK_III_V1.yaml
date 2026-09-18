@@ -28,8 +28,18 @@ variants:
           - kind: CRITICAL_EDITION_APPARATUS
             source: SBLGNT
             report: "SBLGNT flags the expansion after the opening address."
-        witness_binding: EDITION_SIGNAL_ONLY
-        state: SIGNIFICANT_VARIANT_REQUIRES_DEEPER_WITNESS_BINDING
+          - kind: PUBLISHED_APPARATUS_SUMMARY
+            source: Bruce_Terry_Student_Guide_Luke_11_2
+            report: "The simple 'Father' is reported for P75, Sinaiticus, Vaticanus and others; the expanded 'Our Father in heaven' is reported for Bezae and a broad later stream."
+        witness_support:
+          shorter:
+            - WIT-P75-HANNA-1
+            - WIT-01-CODEX-SINAITICUS
+            - WIT-03-CODEX-VATICANUS
+          expansion:
+            - WIT-D05-CODEX-BEZAE
+        witness_binding: SCHOLARLY_APPARATUS_REPORT_NOT_AUTOPTIC
+        state: NAMED_WITNESS_BINDING_ACTIVE_HARMONIZATION_TOWARD_MATTHEW_PLAUSIBLE
 
       - id: LUKE11-2-WILL-PETITION
         shorter_form: "No Matthean 'your will be done ... on earth' petition."
@@ -59,15 +69,21 @@ variants:
             report: "SBLGNT flags the deliverance petition as an addition in the alternative tradition."
           - kind: PUBLISHED_TEXTUAL_NOTE
             source: NET_Bible_Luke_11_4
-            report: "The omission is reported for P75 and Vaticanus among other witnesses; the expansion is reported in a broad stream including Bezae. Sinaiticus has hand/corrector complexity and is intentionally not normalized here."
+            report: "The omission is reported for P75 and Vaticanus among other witnesses; the expansion is reported in a broad stream including Bezae."
+          - kind: PUBLISHED_HAND_STATE_SUMMARY
+            source: Codex_Sinaiticus_Luke_11_4
+            report: "Sinaiticus is reported with the petition in the original text, a first-corrector doubt mark, and a later corrector removing that doubt mark."
         witness_support:
           shorter:
             - WIT-P75-HANNA-1
             - WIT-03-CODEX-VATICANUS
           expansion:
             - WIT-D05-CODEX-BEZAE
-        witness_binding: SCHOLARLY_TEXTUAL_NOTE_NOT_AUTOPTIC
-        state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE
+          hand_state_complex:
+            - WIT-01-CODEX-SINAITICUS
+        hand_state_note: "Sinaiticus is not collapsed into either the simple shorter or expansion bucket because its correction history is materially relevant."
+        witness_binding: SCHOLARLY_TEXTUAL_AND_HAND_STATE_REPORT_NOT_AUTOPTIC
+        state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE_WITH_SINAITICUS_HAND_STATE_BOUND
 
     source_relation:
       Matthew_Luke:
