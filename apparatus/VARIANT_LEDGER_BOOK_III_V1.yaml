@@ -738,6 +738,74 @@ variants:
     manuscript_rule: "Book III must present the judgment cluster as potentially composite and preserve Thomas 26 as a distinct transmitted speck/log form. Missing Greek Thomas wording remains reconstruction."
 
 
+
+  - id: VAR-KINGDOM-WITHIN-THOMAS-3-113
+    saying: SAY-KINGDOM-WITHIN-AMONG
+    control_kind: TRANSLATION_SEMANTICS_PLUS_THOMAS_GREEK_COPTIC_WITNESS_ASYMMETRY
+    passages:
+      - Luke_17_20_21
+      - Thomas_3
+      - Thomas_113
+    consequence: ENTOS_TRANSLATION_THOMAS_DEPENDENCE_AND_PROJECT_THESIS_RISK
+
+    luke_control:
+      passage: Luke_17_20_21
+      working_text: ED-SBLGNT
+      key_phrase: "entos hymon"
+      translation_state: DISPUTED
+      live_options:
+        - "within you"
+        - "among you"
+        - "in your midst"
+      guard: "No English gloss is treated as lexically certain enough to carry Book VIII's agency thesis by itself."
+
+    thomas_3:
+      greek_witness: WIT-POXY-654-GOSPEL-THOMAS
+      coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+      greek_state: EXTANT_FRAGMENTARY_GREEK
+      coptic_state: EXTANT_COPTIC
+      form_note: "Thomas 3 develops kingdom location through inside/outside language rather than simply reproducing Luke 17:21."
+      guard: "P.Oxy. 654 is lacunose in parts of logion 3; Coptic completion is not direct Greek readback."
+
+    thomas_113:
+      coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      form_note: "Thomas 113 describes the kingdom as spread upon the earth while people fail to see it."
+      guard: "Do not infer extant Greek Thomas 113 or use Thomas 113 to settle Luke's Greek semantics."
+
+    dependence_control:
+      Luke_vs_Thomas_3_113:
+        state: RELATED_KINGDOM_TRADITIONS_DIRECTION_UNRESOLVED
+        scholarship:
+          - author: Colin_H_Roberts
+            title: "The Kingdom of Heaven (Lk. XVII.21)"
+            doi: "10.1017/S0017816000019313"
+          - author: Melissa_Harl_Sellew
+            title: "The Gospel of Thomas and the Synoptics"
+            year: 2023
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        guard: "Thomas may illuminate reception/development of kingdom-location sayings but does not adjudicate Luke's exact lexical force."
+
+    project_bias_guard:
+      risk: HIGH
+      reason: "The Testament's agency thesis has strong literary interest in 'the kingdom within.'"
+      rule: "Book III must preserve the Luke translation dispute and explicitly separate it from later authored use of 'kingdom within' language."
+
+    historical_ceiling:
+      strong:
+        - "Luke preserves a kingdom saying that resists simple observable localization."
+        - "Thomas 3 is directly witnessed in fragmentary Greek P.Oxy. 654 and complete Coptic NHC II."
+        - "Thomas 113 is directly extant in Coptic NHC II and has no currently bound Greek witness."
+      not_secure:
+        - "That Luke 17:21 certainly means 'within you.'"
+        - "That Luke 17:21 certainly means 'among you.'"
+        - "That Thomas 3 or 113 directly preserves Luke's source."
+        - "That Thomas 3/113 can settle the historical wording of Yeshua."
+        - "A direct lexical bridge from Luke's entos hymon to the project's authored agency thesis."
+
+    manuscript_rule: "Book III must keep Luke's translation dispute explicit, distinguish Thomas 3 from Thomas 113, and keep Greek/Coptic witness asymmetry visible. Book VIII may inherit 'kingdom within' only as authored synthesis, not lexical certainty."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
