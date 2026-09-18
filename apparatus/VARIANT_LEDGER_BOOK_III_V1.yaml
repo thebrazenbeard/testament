@@ -653,6 +653,23 @@ variants:
       Thomas_101:
         state: EXTANT_COPTIC_WITH_LACUNAE
         form_note: "Reuses family-renunciation material in a hate/love antithesis; the surviving text is damaged around the mother language."
+        edition_binding:
+          critical_edition:
+            editor: Bentley_Layton
+            title: "Nag Hammadi Codex II, 2-7"
+            year: 1989
+            publisher: Brill
+          commentary:
+            author: Simon_Gathercole
+            title: "The Gospel of Thomas: Introduction and Commentary"
+            year: 2014
+            publisher: Brill
+            ebook_isbn: "9789004273252"
+        restoration_semantics:
+          bracketed_words: "Editorial restorations where the published text/translation does not preserve fully readable wording."
+          key_lacuna: "The mother clause contains a larger unresolved gap before the contrast with the true mother who gave life."
+          rule: "Restored words and the large lacuna remain reconstruction; neither is promoted to extant manuscript wording."
+        edition_state: EDITION_BOUND_AUTOPTIC_CONFIRMATION_PENDING
       internal_relation:
         state: SAME_WORK_RELATED_FORMS_NOT_INDEPENDENT_WITNESSES
         guard: "Thomas 55 and 101 are not counted as two independent historical attestations merely because the work contains both."
