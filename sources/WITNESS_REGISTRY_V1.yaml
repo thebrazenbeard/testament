@@ -147,6 +147,79 @@ witnesses:
       - "The 1 Corinthians 7:10-11 leaf is now localized to CBL BP II folio 45v; direct Chester Beatty image readback remains pending."
 
 
+
+  - id: WIT-162-BARB-GR-449
+    witness_of: [SRC-LUKE-ACTS]
+    witness_scope_note: "This node concerns Gospel Luke."
+    witness_kind: Greek_parchment_minuscule_Gospels
+    Gregory_Aland: "162"
+    Soden: "epsilon_214"
+    common_name: Codex_Barberinianus_11
+    repository: Vatican_Apostolic_Library
+    shelfmark: "Barb.gr.449"
+    witness_date:
+      precision: "colophon dated 13 May 1153 CE"
+    language: Greek
+    physical_scope: "Four Gospels; DigiVatLib catalogues Luke at ff. 119r-187v."
+    access_mode: INSTITUTIONAL_DIGITAL_MANUSCRIPT_PLUS_SCHOLARLY_PASSAGE_REPORT
+    locators:
+      - passage: Luke_11_2_spirit_for_kingdom
+        reading_state: EXTANT_GREEK_MINORITY_SPIRIT_PETITION
+        manuscript_locator:
+          folio: "151"
+          side: UNSPECIFIED_IN_CURRENT_SCHOLARLY_REPORT
+        reading_note: "Published critical commentary reports 162 replacing 'your kingdom come' with a Holy-Spirit petition. Compared with 700, 162 has the sequence 'your Spirit, the Holy' and omits the 'upon us' phrase."
+        reported_form: "May your Holy Spirit come and cleanse us."
+        wording_difference_from_700:
+          word_order: "162 places the possessive before 'Spirit' in the reported form."
+          omission: "162 omits the phrase corresponding to 'upon us' that appears in 700."
+        scholarship:
+          - source: Metzger_Textual_Commentary_Luke_11_2
+          - url: "https://digi.vatlib.it/view/MSS_Barb.gr.449"
+          - url: "https://pinakes.irht.cnrs.fr/notices/cote/64992/"
+    institutional_metadata:
+      - "DigiVatLib identifies Barb.gr.449 as a Greek Tetravangelo and places Luke at ff. 119r-187v."
+      - "Pinakes identifies Barb. gr. 449 with Aland minuscule 162."
+    limitations:
+      - "Folio 151 is currently bound through scholarly passage-level reporting; Testament has not yet performed direct image readback at that folio."
+      - "This late witness proves medieval transmission of the variant, not early historical origin."
+
+  - id: WIT-700-EGERTON-2610
+    witness_of: [SRC-LUKE-ACTS]
+    witness_scope_note: "This node concerns Gospel Luke."
+    witness_kind: Greek_parchment_minuscule_Gospels
+    Gregory_Aland: "700"
+    Scrivener: "evan_604"
+    Soden: "epsilon_133"
+    repository: British_Library
+    shelfmark: "Egerton MS 2610"
+    witness_date:
+      precision: "11th century CE"
+    language: Greek
+    physical_scope: "Four Gospels; British Library catalogues Luke at ff. 145r-229v."
+    access_mode: INSTITUTIONAL_CATALOGUE_PLUS_SCHOLARLY_PASSAGE_REPORT
+    locators:
+      - passage: Luke_11_2_spirit_for_kingdom
+        reading_state: EXTANT_GREEK_MINORITY_SPIRIT_PETITION
+        manuscript_locator:
+          folio: "184"
+          side: UNSPECIFIED_IN_CURRENT_SCHOLARLY_REPORT
+        reading_note: "Published critical commentary reports 700 replacing 'your kingdom come' with a Holy-Spirit petition that includes the phrase 'upon us.'"
+        reported_form: "May your Holy Spirit come upon us and cleanse us."
+        wording_difference_from_162:
+          addition: "700 includes the phrase corresponding to 'upon us,' absent from 162."
+          word_order: "700's reported word order differs from 162."
+        scholarship:
+          - source: Metzger_Textual_Commentary_Luke_11_2
+          - url: "https://searcharchives.bl.uk/"
+    institutional_metadata:
+      - "British Library catalogue identifies Egerton MS 2610 as Gregory-Aland 700, an 11th-century Four Gospels manuscript."
+      - "British Library catalogues the Gospel of Luke at ff. 145r-229v."
+    limitations:
+      - "Folio 184 is currently bound through scholarly passage-level reporting; the British Library legacy digital images are presently unavailable through the catalogue surface."
+      - "This late witness proves medieval transmission of the variant, not early historical origin."
+
+
   - id: WIT-P75-HANNA-1
     witness_of: [SRC-LUKE-ACTS, SRC-JOHN]
     witness_scope_note: "P75 witnesses Gospel Luke and Gospel John, not Acts."
