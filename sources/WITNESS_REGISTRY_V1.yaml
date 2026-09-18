@@ -313,6 +313,9 @@ witnesses:
       - passage: Thomas_100
         reading_state: EXTANT_COPTIC
         reading_note: "Directly preserves the Caesar/God saying with Thomas's additional final demand that what belongs to Jesus be given to him; no currently bound Greek Thomas fragment preserves logion 100."
+      - passage: Thomas_107
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves the lost-sheep parable with the distinctive largest-sheep and love-more-than-the-ninety-nine motifs; no currently bound Greek Thomas fragment preserves logion 107."
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/cairo-coptic-museum-inv-10544-nag-hammadi-codex-ii/"
