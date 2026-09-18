@@ -46,6 +46,14 @@ records:
           greek: NONE_SURVIVING_CURRENTLY_BOUND
           distinctive_form: "Caesar/God division plus an additional final claim by Jesus absent from the Synoptic forms."
           guard: "Do not cite P.Oxy. 1, 654, or 655 as Greek witnesses for logion 100."
+      lost_sheep_cluster:
+        direct_witnesses:
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_107:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          distinctive_form: "The lost sheep is the largest, and the shepherd says he loves it more than the ninety-nine."
+          guard: "Do not cite P.Oxy. 1, 654, or 655 as Greek witnesses for logion 107."
     source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
     limits:
       - "Composition history and relation to Synoptics remain debated."
