@@ -20,8 +20,9 @@ witnesses:
     witness_kind: Greek_Latin_diglot_codex
     common_name: Codex Bezae Cantabrigiensis
     Gregory_Aland: D_05
+    shelfmark: "Cambridge University Library MS Nn.2.41"
     witness_date:
-      precision: commonly_fifth_century
+      precision: "around 400 CE / late fourth to early fifth century"
     access_mode: SCHOLARLY_WITNESS_REPORT
     locators:
       - passage: Luke_3_22
@@ -36,6 +37,24 @@ witnesses:
     limitations:
       - "Testament has not performed autoptic manuscript collation."
       - "D05's age does not establish that every distinctive reading is earlier than rival readings."
+
+  - id: WIT-CURETONIAN-SYRIAC
+    witness_of: SRC-LUKE-ACTS
+    witness_kind: Old_Syriac_Gospel_manuscript
+    common_name: Curetonian_Gospels
+    shelfmark: "British Library Add MS 14451"
+    witness_date:
+      precision: "450-470 CE catalogue range"
+    access_mode: SCHOLARLY_WITNESS_REPORT
+    locators:
+      - passage: Luke_22_15_20
+        reading_note: "Participates in the non-uniform shorter textual tradition discussed alongside Codex Bezae."
+        scholarship:
+          - doi: "10.1093/jts/flae045"
+          - doi: "10.1093/jts/flae073"
+    limitations:
+      - "The manuscript date is not the date of the Syriac translation or underlying Greek tradition."
+      - "Testament has not performed autoptic collation of Add MS 14451."
 
   - id: WIT-MARK-SINAITICUS-ENDING
     witness_of: SRC-MARK

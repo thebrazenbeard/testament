@@ -1,0 +1,144 @@
+schema_version: testament.variant_ledger.books_i_iv.v1
+status: ACTIVE
+review_head: 264220f65fb4ea177e1f7df10a97f78ddf9bcb09
+
+rules:
+  - "A textual variant is an evidence object, not a nuisance to be normalized away."
+  - "Witness date, translation date, work composition date, and proposed age of a reading remain separate."
+  - "The default SBLGNT working text does not erase significant variants."
+  - "A variant with historical/theological consequences blocks prose that silently chooses one reading."
+  - "Where the earliest attainable reading is disputed, Testament preserves the dispute."
+
+variants:
+  - id: VAR-LUKE-3-22-BAPTISM-VOICE
+    passage: Luke_3_22
+    scene: SCN-II-BAPTISM
+    consequence: CHRISTOLOGY_AND_BAPTISM_PHENOMENOLOGY
+    readings:
+      - id: LUKE3_22-BELOVED_SON_FORM
+        description: "The dominant modern critical-text form identifies Jesus as the beloved Son with divine favor language."
+        base_status: DEFAULT_WORKING_TEXT_FORM
+      - id: LUKE3_22-PSALM2_7_FORM
+        description: "A Psalm 2:7-type form includes 'today I have begotten you.'"
+        witnesses:
+          - WIT-D05-CODEX-BEZAE
+        other_evidence: "Old Latin and patristic evidence are reported in textual-critical scholarship."
+    scholarship:
+      - author: Peter_Doble
+        doi: "10.1163/9789004273931_010"
+        position: "Argues internally for the Psalm 2:7-type reading."
+      - author: Shaily_Shashikant_Patel
+        doi: "10.1163/15685365-12341684"
+        position: "Reconsiders the variant through external, intrinsic and transcriptional evidence and argues for a corruption history shaped by Christological controversy."
+    state: CONTESTED_EARLIEST_READING
+    manuscript_rule: "No exact Lukan baptismal voice may be quoted without declaring the selected text/witness; no adoptionist or anti-adoptionist historical conclusion follows merely from selecting one reading."
+
+  - id: VAR-LUKE-22-15-20-FINAL-MEAL
+    passage: Luke_22_15_20
+    scene: SCN-II-FINAL-MEAL
+    consequence: LAST_MEAL_SEQUENCE_AND_EUCHARISTIC_WORDING
+    readings:
+      - id: LUKE22-LONGER_FAMILY
+        description: "Forms containing the fuller cup/bread/cup sequence familiar from modern critical texts."
+      - id: LUKE22-SHORTER_FAMILIES
+        description: "Several shorter forms omit or rearrange material; they are not one uniform 'short text.'"
+        witnesses:
+          - WIT-D05-CODEX-BEZAE
+          - WIT-CURETONIAN-SYRIAC
+    scholarship:
+      - author: Rob_James
+        doi: "10.1093/jts/flae045"
+        correction: "10.1093/jts/flae073"
+        position: "Argues that a simple longer-versus-shorter binary obscures important variation within shorter witnesses."
+    state: COMPLEX_TRANSMISSION_CONTESTED
+    manuscript_rule: "No synthetic Lukan institution wording or cup sequence may be presented as uncontested; exact wording requires declared textual base."
+
+  - id: VAR-MARK-16-ENDING
+    passage: Mark_16_8_20
+    scene: SCN-IV-TOMB
+    consequence: RESURRECTION_NARRATIVE_AND_APPEARANCE_SEQUENCE
+    readings:
+      - id: MARK-ENDS-16_8
+        description: "The earliest attainable text in current ECM editorial consensus ends after Mark 16:8."
+        witnesses:
+          - WIT-MARK-SINAITICUS-ENDING
+          - WIT-MARK-VATICANUS-ENDING
+      - id: MARK-LONGER-ENDING-16_9_20
+        description: "The Longer Ending is an important later manuscript, canonical and reception form."
+      - id: MARK-OTHER-ENDINGS
+        description: "Additional ending configurations occur in the transmission and remain textual-history evidence."
+    scholarship:
+      - author: H_A_G_Houghton
+        title: "Unfinished Business: The Ending of Mark in Two Catena Manuscripts"
+        venue: New_Testament_Studies
+        year: 2023
+        position: "Reports that ECM Mark reaffirms 16:8 as the earliest attainable ending while reassessing catena witnesses."
+    state: EARLIEST_ATTAINABLE_TEXT_CONTROLLED_RECEPTION_MULTIFORM
+    manuscript_rule: "Mark 16:9-20 may inform reception/canonical history but cannot be silently used as the earliest recoverable Markan appearance narrative."
+
+  - id: VAR-LUKE-3-23-38-GENEALOGY
+    passage: Luke_3_23_38
+    scene: SCN-I-BIRTH
+    consequence: GENEALOGY_COMPARISON_AND_NAME_SEQUENCE
+    readings:
+      - id: LUKE3-GENEALOGY-MULTIFORM
+        description: "Greek manuscripts exhibit substantial variation in genealogy names/order, with page/column layout contributing to copying errors."
+    scholarship:
+      - author: Andrew_J_Patton
+        doi: "10.1093/jts/flag024"
+        year: 2026
+        position: "Finds significant variation and argues columnar formatting contributed to errors in nearly ten percent of extant Luke manuscripts."
+    state: TRANSMISSION_VARIABILITY_CONFIRMED
+    manuscript_rule: "Exact genealogy names/order must be tied to a declared critical text or witness; Matthew/Luke disagreement must not be discussed as though Luke's transmission were variation-free."
+
+  - id: VAR-MARK-6-3-MATRONYMIC
+    passage: Mark_6_3
+    scene: SCN-II-FAMILY
+    consequence: OCCUPATION_MATRONYMIC_AND_PATERNITY_INFERENCE
+    readings:
+      - id: MARK6-CARPENTER-SON-OF-MARY
+        description: "The widely attested critical reading calls Jesus the carpenter and son of Mary."
+      - id: MARK6-SON-OF-CARPENTER-AND-MARY
+        description: "An early alternative removes the stark matronymic and makes the carpenter Jesus' father."
+        upstream_witness_note: "On-Theo has a pending WIT-P45-MARK-6-3 witness record; P45 is difficult/uncertain at this location."
+    scholarship:
+      - title: "Mark's Mothers and the Matronymic: Linking 'The Son of Mary' (Mk 6.3) to 'The Daughter of Herodias' (Mk 6.22)"
+        venue: New_Testament_Studies
+        year: 2025
+        position: "Treats the matronymic as a literary feature and notes the early alternative reading; follows the majority critical judgment favoring 'the carpenter, the son of Mary.'"
+    upstream:
+      repo: thebrazenbeard/on-theo
+      commit: 5e6db919ab3b40615c14257e2a56751579cb72fe
+      packets:
+        - research/packets/mark6-matronymic-v1.md
+    state: CRITICAL_READING_STRONG_INTERPRETATION_CONTESTED
+    manuscript_rule: "Neither the matronymic nor the variant establishes illegitimacy or Panthera paternity; any paternity-stigma inference remains separate and contested."
+
+  - id: VAR-LUKE-23-34A-FORGIVENESS
+    passage: Luke_23_34a
+    scene: SCN-II-CRUCIFIXION
+    consequence: CROSS_SAYING_FORGIVENESS_AND_SEVEN_WORDS_HARMONY
+    readings:
+      - id: LUKE23_34A-PRESENT
+        description: "Jesus prays for forgiveness of those acting against him."
+      - id: LUKE23_34A-ABSENT
+        description: "The saying is absent from a significant early textual stream, including Old Latin evidence."
+    scholarship:
+      - authors: [Jason_A_Whitlark, Mikeal_C_Parsons]
+        doi: "10.1017/S0028688506000117"
+        position: "Argue external evidence favors omission from earliest Luke and propose later insertion connected with the seven-last-words tradition."
+      - author: Nathan_Eubank
+        title: "A Disconcerting Prayer: On the Originality of Luke 23:34a"
+        venue: Journal_of_Biblical_Literature
+        year: 2010
+        position: "Defends originality; cited in current scholarship as an important counterposition."
+      - author: Shelly_Matthews
+        doi: "10.1093/acprof:oso/9780195393323.003.0004"
+        position: "Interprets the prayer's Lukan/early-Christian reception and argues scribal omission as a plausible transmission explanation."
+    state: GENUINELY_CONTESTED_EARLIEST_READING
+    manuscript_rule: "The saying cannot be treated as an uncontested historical last word; the project must not use a harmonized 'Seven Last Words' sequence as recovered transcript."
+
+review_requirements:
+  - "Add exact witness IDs only after manuscript/apparatus-level confirmation."
+  - "Autoptic claims require image/manuscript readback; scholarly reports remain labeled as such."
+  - "Any new wording-sensitive scene must query this ledger before prose promotion."
