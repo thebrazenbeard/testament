@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v1
+schema_version: testament.hostile_review_book_iii.v2
 overall_status: ACTIVE
 complete: false
 
@@ -12,14 +12,16 @@ tranche_1:
   repaired_findings:
     - HR-BIII-001_STALE_DIDACHE_8_2_PHYSICAL_WITNESS_DEBT
     - HR-BIII-002_LORDS_PRAYER_PACKET_STATUS_LAG
-  remaining_debt:
-    - LUKE11_2_OPENING_ADDRESS_DEEPER_WITNESS_BINDING
-    - LUKE11_4_SINAITICUS_HAND_CORRECTOR_NORMALIZATION
-    - VERSIONAL_AND_PATRISTIC_WITNESS_EXPANSION
-    - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-    - THOMAS_101_LACUNA_EDITION_BINDING
-    - THOMAS_SYNOPIC_DEPENDENCE_BIBLIOGRAPHY_DEEPENING
-    - REMAINING_BOOK_III_CLUSTERS
+
+tranche_2:
+  original_target: 0e74e982cbd654252fc694575a74b710321fbd05
+  repair_target: 1937e11d764eb1e84b3c98dea2e50e18bee364bd
+  review_report_commit: faa3be87762aa4fe746a7419f212e1506c707e12
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE2_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-003..HR-BIII-003
+  repaired_findings:
+    - HR-BIII-003_LUKE17_21_TRANSLATION_FIELD_NARROWING
 
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
@@ -31,12 +33,26 @@ reviewed_controls:
   - VAR-LOST-SHEEP-THOMAS-107
   - VAR-FIRST-LAST-THOMAS-4
   - VAR-FAMILY-RENUNCIATION-THOMAS-55-101
+  - VAR-JUDGE-SPECK-THOMAS-26
+  - VAR-KINGDOM-WITHIN-THOMAS-3-113
+  - VAR-WICKED-TENANTS-THOMAS-65-66
+
+remaining_debt:
+  - LUKE11_2_OPENING_ADDRESS_DEEPER_WITNESS_BINDING
+  - LUKE11_4_SINAITICUS_HAND_CORRECTOR_NORMALIZATION
+  - VERSIONAL_AND_PATRISTIC_WITNESS_EXPANSION
+  - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
+  - THOMAS_101_LACUNA_EDITION_BINDING
+  - THOMAS_SYNOPTIC_DEPENDENCE_BIBLIOGRAPHY_DEEPENING
+  - THOMAS_3_AND_26_EXACT_GREEK_COPTIC_COLLATION
+  - LUKE17_21_ENTOS_LEXICAL_DEEPENING
+  - REMAINING_BOOK_III_CLUSTERS
 
 next_scope:
   - REMAINING_BOOK_III_CLUSTER_MATURATION
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_2
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_3
 
 invariants:
   - "Tranche PASS is exact-head-bound."
@@ -45,4 +61,5 @@ invariants:
   - "Multiple forms within one work do not become independent historical attestations by counting."
   - "Witness date never becomes composition date."
   - "Greek reconstruction never becomes extant manuscript text."
+  - "Project theological preference never resolves an evidence-layer translation dispute."
   - "No hostile-review pass authorizes merge or manuscript promotion."
