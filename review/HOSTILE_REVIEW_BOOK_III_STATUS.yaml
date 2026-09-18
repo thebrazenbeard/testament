@@ -1,0 +1,48 @@
+schema_version: testament.hostile_review_book_iii.v1
+overall_status: ACTIVE
+complete: false
+
+tranche_1:
+  original_target: 0fd7e1c2770fa43846485590b52dfa060150e473
+  repair_target: 82bbfa216371a8b9432a12b56a7ee064112f7bbf
+  review_report_commit: f181959ca97dc28a103b2e6fccd5db75a1889913
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE1_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-001..HR-BIII-002
+  repaired_findings:
+    - HR-BIII-001_STALE_DIDACHE_8_2_PHYSICAL_WITNESS_DEBT
+    - HR-BIII-002_LORDS_PRAYER_PACKET_STATUS_LAG
+  remaining_debt:
+    - LUKE11_2_OPENING_ADDRESS_DEEPER_WITNESS_BINDING
+    - LUKE11_4_SINAITICUS_HAND_CORRECTOR_NORMALIZATION
+    - VERSIONAL_AND_PATRISTIC_WITNESS_EXPANSION
+    - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
+    - THOMAS_101_LACUNA_EDITION_BINDING
+    - THOMAS_SYNOPIC_DEPENDENCE_BIBLIOGRAPHY_DEEPENING
+    - REMAINING_BOOK_III_CLUSTERS
+
+reviewed_controls:
+  - VAR-LUKE-11-2-4-LORDS-PRAYER
+  - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
+  - VAR-BEATITUDES-POOR-MATT-LUKE-THOMAS
+  - VAR-ASK-SEEK-KNOCK-THOMAS-2-92
+  - VAR-SOWER-MUSTARD-THOMAS-9-20
+  - VAR-CAESAR-THOMAS-100
+  - VAR-LOST-SHEEP-THOMAS-107
+  - VAR-FIRST-LAST-THOMAS-4
+  - VAR-FAMILY-RENUNCIATION-THOMAS-55-101
+
+next_scope:
+  - REMAINING_BOOK_III_CLUSTER_MATURATION
+  - EXACT_VARIANT_APPARATUS_DEEPENING
+  - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_2
+
+invariants:
+  - "Tranche PASS is exact-head-bound."
+  - "PASS may preserve explicitly typed unresolved research debt."
+  - "SOURCE != WITNESS != CLAIM."
+  - "Multiple forms within one work do not become independent historical attestations by counting."
+  - "Witness date never becomes composition date."
+  - "Greek reconstruction never becomes extant manuscript text."
+  - "No hostile-review pass authorizes merge or manuscript promotion."
