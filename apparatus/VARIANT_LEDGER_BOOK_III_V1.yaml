@@ -981,6 +981,54 @@ variants:
     manuscript_rule: "Book III must present Paul as early reception of a Lord-command, not as a fifth Gospel manuscript. Mark, Matthew, Luke, and Paul remain distinct source forms."
 
 
+
+  - id: VAR-CROSS-DISCIPLESHIP-THOMAS-55
+    saying: SAY-TAKE-CROSS
+    control_kind: CROSS_BEARING_REDACTION_PLUS_THOMAS_55_RELATED_FORM
+    passages:
+      - Mark_8_34
+      - Matthew_16_24
+      - Luke_9_23
+      - Matthew_10_38
+      - Luke_14_27
+      - Thomas_55
+    consequence: CROSS_METAPHOR_PRE_EASTER_PLAUSIBILITY_AND_POST_EASTER_RETROJECTION
+
+    synoptic_control:
+      Mark:
+        form_note: "Cross-bearing is embedded in a passion-prediction and discipleship sequence."
+      Matthew:
+        form_note: "Preserves cross-bearing in more than one literary context."
+      Luke:
+        form_note: "Adds 'daily' in Luke 9:23 and preserves another cross-bearing form in Luke 14:27."
+      guard: "Multiple literary placements are not counted as multiple independent historical occasions."
+
+    thomas_control:
+      source: SRC-GOSPEL-THOMAS
+      witness: WIT-NHC-II-GOSPEL-THOMAS
+      passage: Thomas_55
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      form_note: "Thomas 55 joins family-renunciation language to cross-bearing and worthiness."
+      same_work_guard: "Thomas 55 is already part of the family-renunciation control and does not become a new independent source merely because this control focuses on a different motif."
+
+    historical_plausibility:
+      state: PLAUSIBLE_NOT_AUTHENTICATED
+      reason: "Roman crucifixion imagery was available before Yeshua's death, so pre-death use is possible; post-crucifixion community retrojection remains independently plausible."
+      guard: "Historical plausibility is not authenticity."
+
+    historical_ceiling:
+      strong:
+        - "Cross-bearing language is embedded in multiple early Christian discipleship forms."
+        - "Thomas 55 directly preserves related cross-bearing language in Coptic NHC II."
+      not_secure:
+        - "Exact pre-death wording by Yeshua."
+        - "That Luke's 'daily' belongs to the earliest form."
+        - "That every cross-bearing placement reflects a separate historical utterance."
+        - "That Thomas 55 is independent of the Synoptics."
+
+    manuscript_rule: "Book III may include the cross-bearing tradition only with the retrojection problem exposed. Book II must not repeatedly script Yeshua predicting his exact mode of execution as settled history."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
