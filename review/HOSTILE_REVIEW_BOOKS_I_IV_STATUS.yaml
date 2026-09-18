@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_i_iv.v3
+schema_version: testament.hostile_review_i_iv.v4
 overall_status: ACTIVE
 complete: false
 
@@ -20,22 +20,30 @@ tranche_3:
   status: PASS_FOR_TRANCHE
   finding_range: HR-IIV-024..HR-IIV-029
 
-next_scope:
-  - textual_base_policy
-  - source_work_witness_claim_separation
-  - variant_sensitive_pericope_packets
-  - primary_text_scene_comparisons
-  - remaining_partial_source_gate_packets
-
-invariants:
-  - "Tranche PASS is exact-head-bound."
-  - "Overall review remains ACTIVE until all declared review scopes close."
-  - "No hostile-review pass authorizes merge or manuscript promotion."
+tranche_4:
+  original_target: 85928cb5bd56af202f4be4a716964ee7bd9da634
+  repair_target: 660649b81d36410363c9f288eff071f2d28c7132
+  status: PASS_AFTER_INLINE_REPAIR
+  finding_range: HR-IIV-030..HR-IIV-032
 
 tranche_5:
   original_target: 135470ab33b05a24544f9c350dce06d4b438a0b9
-  status: FAIL_REPAIRABLE
-  complete: false
+  repair_target: 9a30ab343cc8955541db11f87aa27c4b07337d41
+  status: PASS_FOR_TRANCHE
   finding_range: HR-IIV-033..HR-IIV-037
-  blocking_partial:
-    - VAR-LUKE-23-34A-FORGIVENESS
+  governed_partial:
+    - id: VAR-LUKE-23-34A-FORGIVENESS
+      state: EXACT_WITNESS_BINDING_PENDING
+
+next_scope:
+  - exact_variant_witness_binding
+  - Book_III_variant_and_witness_controls
+  - remaining_partial_source_gate_packets
+  - primary_text_scene_comparisons
+  - grief_vision_and_postdeath_experience_literature
+
+invariants:
+  - "Tranche PASS is exact-head-bound."
+  - "PASS may preserve an explicitly governed unresolved research question."
+  - "Overall review remains ACTIVE until all declared review scopes close."
+  - "No hostile-review pass authorizes merge or manuscript promotion."
