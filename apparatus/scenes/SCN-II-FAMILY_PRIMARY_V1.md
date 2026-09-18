@@ -57,12 +57,13 @@ later Panthera accusation -> reinterpret Mark 6:3/John 8:41 as first-century pro
 
 ## Historical minimum
 
-Strong:
-- Yeshua had family traditions involving mother, brothers, and sisters;
-- James was identified by Paul in familial relation to "the Lord";
-- hometown association with Nazareth/Galilee is strong.
+Strong source-level facts:
+- Paul identifies James as "brother of the Lord" and refers to "brothers of the Lord";
+- early Gospel tradition names Yeshua's mother, brothers, and sisters;
+- Nazareth/Galilee is strongly associated with Yeshua.
 
-Plausible:
+Historically plausible:
+- James was Yeshua's brother in an ordinary familial sense;
 - some family tension or distance existed during at least part of the movement.
 
 Unresolved:

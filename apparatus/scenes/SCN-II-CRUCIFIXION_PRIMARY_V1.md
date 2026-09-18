@@ -41,7 +41,7 @@ Do not infer:
 Very strong:
 - Yeshua was crucified under Pontius Pilate;
 - Roman authority was responsible for the execution;
-- execution occurred around Passover in the early 30s CE, with exact year unresolved.
+- execution occurred around Passover within the project's safer roughly 29–34 CE window; 30 and 33 CE remain common proposals, not facts.
 
 Plausible:
 - political/royal charge language such as "King of the Jews" belongs to the execution's Roman intelligibility.

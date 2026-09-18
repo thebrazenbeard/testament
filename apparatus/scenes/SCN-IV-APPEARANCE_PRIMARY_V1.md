@@ -85,7 +85,7 @@ See:
 Strong:
 - resurrection/appearance belief is early;
 - Cephas and James are named in early Pauline tradition;
-- multiple later communities preserve embodied/revelatory encounter narratives.
+- later Gospel texts preserve multiple embodied/revelatory encounter narratives.
 
 Unresolved:
 - what generated the experiences;
