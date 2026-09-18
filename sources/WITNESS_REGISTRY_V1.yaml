@@ -48,6 +48,12 @@ witnesses:
         reading_note: "Published textual notes report Bezae among witnesses to the expanded form importing Luke 6:27-28-like clauses into Matthew 5:44."
         scholarship:
           - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
+      - passage: Luke_6_5_Sabbath_worker_addition
+        reading_state: DISTINCTIVE_BEZAE_ADDITION
+        reading_note: "Codex Bezae inserts a Sabbath-worker saying after Luke 6:5 in which knowing what one is doing determines blessing versus transgression. Published textual commentary reports this as a distinctive Bezae reading; Testament does not promote it to original Luke or historical Yeshua speech."
+        scholarship:
+          - url: "https://greeknewtestament.net/lk6-5"
+          - url: "https://www.newadvent.org/cathen/04083a.htm"
     limitations:
       - "Testament has not performed autoptic manuscript collation."
       - "D05's age does not establish that every distinctive reading is earlier than rival readings."
@@ -71,6 +77,30 @@ witnesses:
     limitations:
       - "The manuscript date is not the date of the Syriac translation or underlying Greek tradition."
       - "Testament has not performed autoptic collation of Add MS 14451."
+
+
+  - id: WIT-P46-PAULINE-CODEX
+    witness_of: [SRC-PAUL-1CORINTHIANS]
+    witness_kind: Greek_papyrus_codex
+    common_name: Papyrus_46_Chester_Beatty_II
+    Gregory_Aland: P46
+    repositories:
+      - Chester_Beatty_Library_Dublin
+      - University_of_Michigan_Ann_Arbor
+    witness_date:
+      precision: "late second to early third century CE; broadly ca. 175-225 CE"
+    language: Greek
+    physical_scope: "Substantial Pauline corpus including most of 1 Corinthians"
+    access_mode: SCHOLARLY_MANUSCRIPT_METADATA
+    locators:
+      - passage: First_Corinthians_7_10_11
+        reading_state: EXTANT
+        reading_note: "Physically witnesses Paul's early divorce instruction invoking a command of 'the Lord.' This is evidence for Paul's text and early reception of a Lord-command, not a manuscript witness to Mark/Matthew/Luke wording."
+    limitations:
+      - "Witness date is not the date of Paul's composition."
+      - "Paul's 'not I but the Lord' does not by itself preserve the exact wording or historical setting of the Gospel divorce sayings."
+      - "Testament has not performed autoptic collation of P46."
+
 
   - id: WIT-P75-HANNA-1
     witness_of: [SRC-LUKE-ACTS, SRC-JOHN]
