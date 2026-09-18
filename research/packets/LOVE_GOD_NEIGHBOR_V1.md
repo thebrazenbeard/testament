@@ -1,6 +1,6 @@
 # Love of God and Neighbor V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Primary forms
 
@@ -48,6 +48,66 @@ That literary setting changes the question from command ranking toward:
 "who is my neighbor?"
 
 Luke's form must therefore be treated as redactionally integrated into his own narrative.
+
+## Witness-control advance — Torah intertext and Synoptic framing
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-DOUBLE-LOVE-TORAH-SUMMARY`
+- `sources/SCRIPTURAL_INTERTEXT_LEDGER.yaml`
+- `INT-DOUBLE-LOVE-DEUT6-LEV19`
+
+The double-love tradition is not historically interesting because Christianity invented love.
+
+Its scriptural inputs are already Jewish:
+- Deuteronomy 6:4–5;
+- Leviticus 19:18.
+
+The historical question is how the Jesus tradition is remembered as combining, ordering, and interpreting those commands.
+
+### Synoptic framing
+
+Mark:
+- presents an extended exchange with a scribe;
+- includes Shema language;
+- joins love of God and neighbor;
+- includes the scribe's affirmation;
+- compares the commands favorably with sacrifice.
+
+Matthew:
+- abbreviates Mark;
+- makes the two commands explicitly support the law and prophets.
+
+Luke:
+- relocates the double command into the lawyer / Good Samaritan sequence.
+
+Those literary settings matter.
+They are not automatically three independent historical scenes.
+
+### Anti-supersession guard
+
+Book III must not narrate the sequence as:
+
+> Judaism had law; Jesus replaced it with love.
+
+That proposition is contradicted by the source structure itself.
+
+The double-love saying is a Jewish Torah interpretation preserved in early Christian texts.
+
+### Current historical ceiling
+
+Established:
+- the paired commands derive from Torah;
+- Mark, Matthew, and Luke preserve related double-love forms;
+- their narrative framing differs materially.
+
+Plausible:
+- Yeshua used Torah-summary reasoning centered on love of God and neighbor.
+
+Not established:
+- exact historical setting;
+- exact original order or wording;
+- that Mark's full exchange is a verbatim transcript.
 
 ## Historical ceiling
 
