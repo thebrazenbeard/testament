@@ -10,6 +10,14 @@ records:
       - "P.Oxy. 1, Greek fragment"
       - "P.Oxy. 654, Greek fragment"
       - "P.Oxy. 655, Greek fragment"
+    witness_control:
+      direct_cluster_witness:
+        - WIT-NHC-II-GOSPEL-THOMAS
+      current_cluster_scope:
+        - Thomas_54
+        - Thomas_68
+        - Thomas_69
+      greek_fragment_guard: "P.Oxy. 1, 654 and 655 do not preserve Thomas 54, 68 or 69; do not cite them as Greek witnesses for the Beatitudes cluster."
     source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
     limits:
       - "Composition history and relation to Synoptics remain debated."
