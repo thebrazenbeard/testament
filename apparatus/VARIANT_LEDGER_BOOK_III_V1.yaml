@@ -757,6 +757,9 @@ variants:
         - "within you"
         - "among you"
         - "in your midst"
+      additional_attested_option:
+        - "within your reach/power"
+      option_note: "The reach/power rendering is less common but remains part of the documented interpretive field and is not silently excluded."
       guard: "No English gloss is treated as lexically certain enough to carry Book VIII's agency thesis by itself."
 
     thomas_3:
