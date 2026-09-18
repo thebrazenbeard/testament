@@ -194,15 +194,40 @@ witnesses:
         scholarship:
           - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
       - passage: Luke_11_2_opening_address
-        reading_state: SHORTER_FATHER_ONLY
-        reading_note: "Published apparatus summaries report Sinaiticus supporting the simple opening 'Father.'"
+        reading_state: SHORTER_FATHER_ONLY_DIRECT_ELECTRONIC_TRANSCRIPTION
+        manuscript_locator:
+          library: British_Library
+          folio: "236b"
+          page_scope: "Luke 10:21-11:6"
+          scribe: A
+        reading_note: "The official Codex Sinaiticus electronic transcription at BL folio 236b displays the simple opening 'Father.' This is direct project transcription linked to the manuscript page, not Testament image-level autopsy."
         scholarship:
+          - url: "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=10&verse=32"
           - source: "Bruce_Terry_Student_Guide_Luke_11_2"
-      - passage: Luke_11_4_deliverance_petition
-        reading_state: BASE_TEXT_PRESENT_FIRST_CORRECTOR_DOUBTFUL_LATER_DOUBT_REMOVED
-        reading_note: "Published summaries report the deliverance petition included by the original scribe, marked doubtful by the first corrector, with a later corrector removing the doubt mark. This is hand-state evidence and must not be collapsed to a simple codex-level present/absent binary."
+      - passage: Luke_11_2_will_petition
+        reading_state: EXPANDED_WILL_PETITION_DIRECT_ELECTRONIC_TRANSCRIPTION
+        manuscript_locator:
+          library: British_Library
+          folio: "236b"
+          page_scope: "Luke 10:21-11:6"
+          scribe: A
+        reading_note: "The official Codex Sinaiticus electronic transcription visibly includes the Matthean-style will petition in Luke 11:2."
         scholarship:
-          - source: "Codex_Sinaiticus_published_variant_summary_Luke_11_4"
+          - url: "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=10&verse=32"
+      - passage: Luke_11_4_deliverance_petition
+        reading_state: CORRECTION_STATE_CONFLICT_DIRECT_POPUP_READBACK_REQUIRED
+        manuscript_locator:
+          library: British_Library
+          folio: "236b"
+          page_scope: "Luke 10:21-11:6"
+          scribe: A
+        visible_electronic_transcription: "The indexed Codex Sinaiticus transcription ends Luke 11:4 after the testing petition and does not display the deliverance phrase in plain extracted text."
+        apparatus_conflict: "NET published apparatus assigns the longer deliverance reading to Sinaiticus corrector 1 and the shorter reading to the original hand and corrector 2, while older secondary summaries report a different hand-sequence description. The exact correction history is therefore not normalized here."
+        reading_note: "Testament withdraws its earlier asserted hand sequence. Direct interaction with the Codex Sinaiticus correction popup / image-linked apparatus is required before assigning original/corrector stages."
+        scholarship:
+          - url: "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=10&verse=32"
+          - url: "https://classic.net.bible.org/passage.php?passage=Luk+11%3A4"
+        guard: "Visible electronic transcription and published apparatus may encode different display layers. Do not infer hand chronology from plain text extraction alone."
     limitations:
       - "Corrector sequence for Luke 23:34a remains apparatus/image-verification work."
       - "One codex does not define an earliest reading by itself."
