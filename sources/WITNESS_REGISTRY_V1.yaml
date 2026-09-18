@@ -50,10 +50,14 @@ witnesses:
           - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
       - passage: Luke_6_5D_Sabbath_worker_addition
         reading_state: DISTINCTIVE_BEZAE_ADDITION
-        reading_note: "Codex Bezae inserts the Sabbath-worker saying immediately after Luke 6:4 in its sequence; the reading is conventionally referred to as Luke 6:5D. Published textual commentary reports it as a distinctive Bezae reading; Testament does not promote it to original Luke or historical Yeshua speech."
+        manuscript_locator:
+          folios: "205b/206a"
+          sequence_note: "Addition follows Luke 6:4 in Bezae's sequence and is conventionally cited as Luke 6:5D / the Cambridge pericope."
+        reading_note: "Codex Bezae inserts the Sabbath-worker saying immediately after Luke 6:4 in its sequence. Ernst Bammel identifies the manuscript location as fol. 205b/206a. Testament has not yet performed direct digital-image readback and does not promote the reading to original Luke or historical Yeshua speech."
         scholarship:
+          - doi: "10.1017/S0028688500013655"
+          - url: "https://www.cambridge.org/core/journals/new-testament-studies/article/abs/cambridge-pericope-the-addition-to-luke-64-in-codex-bezae/D3426B5A234ED8EE21B2A26E40CD8CD0"
           - url: "https://greeknewtestament.net/lk6-5"
-          - url: "https://www.newadvent.org/cathen/04083a.htm"
       - passage: Luke_11_2_opening_address
         reading_state: EXPANDED_MATTHEAN_STYLE_ADDRESS
         reading_note: "Published apparatus summaries report Bezae with the expanded 'Our Father in heaven' form."
