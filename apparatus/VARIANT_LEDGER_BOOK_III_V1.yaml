@@ -325,6 +325,83 @@ variants:
     manuscript_rule: "Book III must present Matthew, Luke, Thomas 2 Greek/Coptic, and Thomas 92 as distinct extant/transmitted forms. Do not reconstruct one mega-saying or cite a Greek Thomas 92 that does not survive."
 
 
+
+  - id: VAR-SOWER-MUSTARD-THOMAS-9-20
+    sayings:
+      - SAY-SOWER
+      - SAY-MUSTARD
+    control_kind: CROSS_SOURCE_PARABLE_FORMS_WITH_COPTIC_ONLY_THOMAS_WITNESS
+    passages:
+      - Mark_4_3_20
+      - Matthew_13_3_23
+      - Luke_8_5_15
+      - Thomas_9
+      - Mark_4_30_32
+      - Matthew_13_31_32
+      - Luke_13_18_19
+      - Thomas_20
+    consequence: PARABLE_FORM_DEPENDENCE_INTERPRETATION_AND_FALSE_SHORTER_EQUALS_EARLIER
+
+    thomas_witness_control:
+      physical_witness: WIT-NHC-II-GOSPEL-THOMAS
+      language: Coptic
+      direct_logia:
+        - Thomas_9
+        - Thomas_20
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      fragment_scope_guard:
+        P_Oxy_654: "opening lines through logion 7"
+        P_Oxy_1: "portions of logia 26-33"
+        P_Oxy_655: "logion 24 and portions of 36-39"
+      rule: "None of the surviving Greek Thomas fragments currently bound by Testament witnesses logion 9 or 20."
+
+    sower_control:
+      Mark:
+        form_note: "Parable plus extended interpretive discourse in Mark 4."
+        guard: "The parable and interpretation are not assumed to come from one historical moment merely because Mark joins them."
+      Matthew_Luke:
+        form_note: "Both reshape the Markan complex within their own narrative/theological settings."
+        guard: "Synoptic repetition does not create independent attestation where literary dependence is probable."
+      Thomas_9:
+        form_note: "The extant Coptic Thomas form preserves the sower without Mark's extended interpretive discourse."
+        guard: "Absence of the interpretation does not by itself prove Thomas preserves an earlier form."
+
+    mustard_control:
+      Mark_Matthew_Luke:
+        form_note: "Synoptic forms share the small-seed/growth image with differing wording, placement, and detail."
+        guard: "Matthew and Luke must be evaluated in light of probable Synoptic dependence."
+      Thomas_20:
+        form_note: "The extant Coptic Thomas form preserves a compact mustard parable."
+        guard: "Compactness is not treated as a chronological timestamp."
+
+    dependence_control:
+      Synoptics:
+        state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
+        guard: "Three Synoptic forms are not counted as three independent witnesses."
+      Thomas_vs_Synoptics:
+        state: DISPUTED
+        scholarship:
+          - author: Melissa_Harl_Sellew
+            title: "The Gospel of Thomas and the Synoptics"
+            year: 2023
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        guard: "Thomasine independence, direct Synoptic dependence, and more complex shared-tradition models remain open per saying."
+
+    historical_ceiling:
+      strong:
+        - "Sower and mustard parables are multiply transmitted across Synoptic and Thomasine textual settings."
+        - "Thomas 9 and 20 are directly extant in Coptic Nag Hammadi Codex II."
+        - "No surviving Greek Thomas fragment currently bound by Testament preserves Thomas 9 or 20."
+      not_secure:
+        - "That Thomas 9 or 20 is independent of the Synoptics."
+        - "That shorter Thomas forms are earlier."
+        - "That Mark's sower interpretation is secondary merely because Thomas lacks it."
+        - "One exact original wording or placement for either parable."
+        - "That multiple dependent Synoptic forms equal multiple independent historical attestations."
+
+    manuscript_rule: "Book III may compare compact and expanded forms, but must preserve source dependence, witness language, and the difference between absence of material and proof of earlier form."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
