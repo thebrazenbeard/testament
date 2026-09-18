@@ -1,6 +1,6 @@
 # Sower and Mustard Seed Parables V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Sower versions
 
@@ -48,6 +48,64 @@ Current Oxford scholarship emphasizes that Thomas/Synoptic comparison is valuabl
 Reference:
 - Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics":
   https://doi.org/10.1093/oxfordhb/9780190887452.013.27
+
+## Witness-control advance — Thomas 9 and 20
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-SOWER-MUSTARD-THOMAS-9-20`
+- `sources/WITNESS_REGISTRY_V1.yaml`
+- `WIT-NHC-II-GOSPEL-THOMAS`
+
+Thomas 9 and Thomas 20 are directly extant in the Coptic Gospel of Thomas preserved in Nag Hammadi Codex II.
+
+The surviving Greek Thomas fragments do not cover either saying:
+- P.Oxy. 654 preserves the opening through logion 7;
+- P.Oxy. 1 preserves portions of logia 26–33;
+- P.Oxy. 655 preserves logion 24 and portions of 36–39.
+
+Therefore Testament has no currently bound Greek manuscript witness for:
+- Thomas 9;
+- Thomas 20.
+
+Any Greek back-translation of those parables is reconstruction.
+
+### Sower
+
+The comparison must keep separate:
+- Mark's parable plus extended interpretation;
+- Matthew and Luke as Synoptic reworkings within a dependence problem;
+- Thomas 9 as a distinct Coptic textual form without Mark's extended interpretation.
+
+Thomas's lack of the Markan interpretation is real textual evidence.
+It is not proof that Thomas preserves the earlier historical parable.
+
+The common shortcut:
+
+> shorter / less allegorized = earlier
+
+is prohibited as a method.
+
+### Mustard
+
+Mark, Matthew, Luke and Thomas 20 all preserve the small-seed/growth image in materially related but non-identical forms.
+
+Again:
+- compactness is not a date;
+- one Coptic Thomas witness is not an independent historical vote by itself;
+- Matthew and Luke cannot be counted independently from Mark without dependence analysis.
+
+### Dependence rule
+
+Melissa Harl Sellew's 2023 treatment remains the current methodological guard for Thomas/Synoptic comparison: useful close comparison does not require pretending that one global dependence theory is already solved.
+
+Reference:
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics":
+  DOI 10.1093/oxfordhb/9780190887452.013.27
+
+For Book III, the practical rule is:
+
+**Show the transmitted forms; expose dependence; do not turn formal simplicity into chronology.**
 
 ## Historical ceiling
 
