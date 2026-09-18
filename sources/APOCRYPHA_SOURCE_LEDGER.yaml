@@ -1,0 +1,81 @@
+schema_version: testament.apocrypha_source_ledger.v1
+status: RESEARCH_ACTIVE
+
+records:
+  - id: SRC-GOSPEL-THOMAS
+    kind: PRIMARY_TEXT_FOR_EARLY_CHRISTIAN_RECEPTION
+    category: sayings_gospel
+    witnesses:
+      - "Nag Hammadi Codex II, complete Coptic copy"
+      - "P.Oxy. 1, Greek fragment"
+      - "P.Oxy. 654, Greek fragment"
+      - "P.Oxy. 655, Greek fragment"
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
+    limits:
+      - "Composition history and relation to Synoptics remain debated."
+      - "Individual sayings may have different histories."
+
+  - id: SRC-GOSPEL-MARY
+    kind: PRIMARY_TEXT_FOR_EARLY_CHRISTIAN_RECEPTION
+    category: revelatory_dialogue
+    witnesses:
+      - "Berlin Codex 8502, Coptic, fourth/fifth century, incomplete"
+      - "P.Ryl. 463, Greek, third century"
+      - "P.Oxy. 3525, Greek, third century"
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-mary/"
+    limits:
+      - "Less than half the work survives."
+      - "Later witness to Mary reception, not automatic first-generation biography."
+
+  - id: SRC-GOSPEL-PETER
+    kind: PRIMARY_TEXT_FOR_CHRISTIAN_RECEPTION
+    category: passion_gospel
+    witnesses:
+      - "BAAM 0522, Greek, sixth/seventh century"
+      - "fragmentary Oxyrhynchus evidence"
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-peter/"
+    limits:
+      - "Physical witness is much later than narrated events."
+      - "Composition and dependence require separate analysis."
+
+  - id: SRC-PROTEVANGELIUM-JAMES
+    kind: PRIMARY_TEXT_FOR_CHRISTIAN_RECEPTION
+    category: infancy_gospel
+    composition: "latter half of second century per current NASSCAL summary"
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/protevangelium-of-james/"
+    limits:
+      - "Major Marian reception source, not first-century biography."
+
+  - id: SRC-INFANCY-GOSPEL-THOMAS
+    kind: PRIMARY_TEXT_FOR_CHRISTIAN_RECEPTION
+    category: infancy_gospel
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/infancy-gospel-of-thomas/"
+    limits:
+      - "Complex multilingual transmission."
+      - "Not evidence that undocumented childhood episodes occurred."
+
+  - id: SRC-GOSPEL-EBIONITES
+    kind: FRAGMENTARY_LATER_PRESERVATION
+    category: jewish_christian_gospel_modern_label
+    preservation: "Known through Epiphanius and other later evidence; non-extant as an independent manuscript."
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-the-ebionites/"
+    limits:
+      - "Modern scholarly title."
+      - "Later heresiological mediation."
+
+  - id: SRC-GOSPEL-HEBREWS
+    kind: FRAGMENTARY_LATER_PRESERVATION
+    category: jewish_christian_gospel
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-the-hebrews/"
+    limits:
+      - "Fragmentary, later citations."
+      - "Relationship to other Jewish-Christian gospel labels disputed."
+
+  - id: SRC-GOSPEL-NAZARENES
+    kind: FRAGMENTARY_LATER_PRESERVATION
+    category: jewish_christian_gospel
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-the-nazarenes/"
+    limits:
+      - "Taxonomy and source identity remain difficult."
+
+completion_rule: "Each record requires composition scholarship, witness-level dates, dependence analysis, and passage-level claims before manuscript use."
