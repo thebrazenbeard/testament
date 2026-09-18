@@ -1,0 +1,89 @@
+schema_version: testament.p0_source_ledger.v1
+status: RESEARCH_ACTIVE
+
+records:
+  - id: SRC-JOSEPHUS-ANTIQUITIES-18-JOHN
+    kind: PRIMARY_TEXT
+    work: Jewish Antiquities
+    author: Flavius Josephus
+    locator: "18.116-119"
+    access: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0146%3Abook%3D18%3Asection%3D116"
+    use: "Independent literary witness to John the Baptist and Herod Antipas."
+    limits: "Later than John's death; Josephus does not establish Jesus-John relationship."
+
+  - id: SCH-FERDA-2020-JOHN-JESUS
+    kind: SCHOLARLY_INTERPRETATION
+    title: "The Historicity of Confusion: Jesus, John the Baptist, and the Construction of Public Identity"
+    venue: Journal of Biblical Literature
+    year: 2020
+    doi: "10.15699/JBL.1394.2020.7"
+
+  - id: SCH-KRAEMER-2006-JOHN-DEATH
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Implicating Herodias and Her Daughter in the Death of John the Baptizer"
+    venue: Journal of Biblical Literature
+    year: 2006
+    doi: "10.2307/27638363"
+
+  - id: MAT-PILATE-INSCRIPTION
+    kind: MATERIAL_EVIDENCE
+    artifact: Caesarea inscription naming Pontius Pilatus as praefectus Iudaeae
+    discovery_year: 1961
+    use: "Pilate identity/title and Roman provincial context."
+    limits: "Says nothing about Yeshua."
+
+  - id: SCH-TAYLOR-2006-PILATE
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Pontius Pilate and the Imperial Cult in Roman Judaea"
+    venue: New Testament Studies
+    year: 2006
+    doi: "10.1017/S0028688506000300"
+
+  - id: MAT-YEHOHANAN-CRUCIFIXION
+    kind: MATERIAL_EVIDENCE
+    artifact: "Calcaneus pierced by iron nail from first-century Jerusalem burial"
+    use: "Direct evidence of at least one crucifixion technique in Judaea."
+    limits: "Does not determine Yeshua's exact crucifixion mechanics."
+
+  - id: SCH-COOK-2011-CRUCIFIXION-BURIAL
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Crucifixion and Burial"
+    venue: New Testament Studies
+    year: 2011
+    doi: "10.1017/S0028688510000214"
+
+  - id: SCH-MAGNESS-2012-JEWISH-BURIAL
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Ancient Jewish Tombs and Burial Customs (to 70 C.E.)"
+    work: The Archaeology of the Holy Land
+    year: 2012
+    url: "https://www.cambridge.org/core/books/abs/archaeology-of-the-holy-land/ancient-jewish-tombs-and-burial-customs-to-70-ce/0C0B48471EC795D191D583248B24FD92"
+
+  - id: SCH-WARE-2014-1COR15
+    kind: SCHOLARLY_INTERPRETATION
+    title: "The Resurrection of Jesus in the Pre-Pauline Formula of 1 Cor 15.3-5"
+    venue: New Testament Studies
+    year: 2014
+    doi: "10.1017/S0028688514000150"
+
+  - id: SCH-COOK-2017-EMPTY-TOMB-PAUL
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Resurrection in Paganism and the Question of an Empty Tomb in 1 Corinthians 15"
+    venue: New Testament Studies
+    year: 2017
+    doi: "10.1017/S002868851600028X"
+
+  - id: SCH-PIETZ-2026-MARY-MAGDALENE
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Mary Magdalene and the Early Jesus Movement"
+    venue: Oxford Research Encyclopedia of Gender and Women's History
+    year: 2026
+    doi: "10.1093/9780197852675.003.0155"
+
+  - id: SCH-ANDRADE-2025-KILLING-MESSIAH
+    kind: SCHOLARLY_INTERPRETATION
+    title: Killing the Messiah
+    publisher: Oxford University Press
+    year: 2025
+    url: "https://academic.oup.com/book/59249"
+    limits: "Recent reconstruction to test against alternative historical models; not project fact."
