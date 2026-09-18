@@ -2,6 +2,8 @@
 
 Purpose: construct the strongest narratively coherent life possible without hiding uncertainty.
 
+The chapter order is a literary synthesis. It does not claim to recover one exact itinerary or chronology where the Synoptic and Johannine frameworks diverge.
+
 ## Proposed chapters
 
 1. **The Water**
@@ -11,13 +13,13 @@ Purpose: construct the strongest narratively coherent life possible without hidi
    Wilderness/withdrawal and temptation traditions as literary/theological frames; historicity and phenomenology remain open.
 
 3. **The Kingdom**
-   First proclamation; define kingdom/reign historically before later interpretation.
+   Kingdom-proclamation traditions; define kingdom/reign historically before later interpretation rather than claiming one recoverable "first sermon."
 
 4. **The Circle**
    Followers; traditions of Twelve symbolism pending dedicated historicity review; women followers; household networks.
 
 5. **Bodies**
-   Healings, exorcisms, illness, reputation, compassion, magic accusations.
+   Healings, exorcisms, illness, reputation, Gospel compassion portrayals, magic accusations.
 
 6. **Table**
    Food, tax collectors/"sinners," debt, status, hospitality and social-boundary controversy; ritual-purity implications tested per scene rather than assumed.
@@ -34,11 +36,11 @@ Purpose: construct the strongest narratively coherent life possible without hidi
 10. **Who Do You Say**
     Identity claims, Messiah language, Son of Man, secrecy, followers' projections.
 
-11. **The Road South**
-    Jerusalem decision; political/religious escalation.
+11. **Toward Jerusalem**
+    Final Jerusalem approach in Synoptic tradition; exact ministry geography/duration and possible earlier Judean/Jerusalem activity remain unresolved.
 
 12. **The Temple**
-    Action, saying traditions, symbolism, threat perception.
+    Action, saying traditions, symbolism, and possible political/religious risk interpretations.
 
 13. **Night**
     Betrayal/arrest/trial traditions; distinguish Roman and priestly interests.

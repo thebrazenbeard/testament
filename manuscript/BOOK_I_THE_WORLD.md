@@ -19,8 +19,8 @@ Purpose: make first-century Galilee/Judea intelligible enough that Yeshua does n
 5. **Galilee**
    Villages, fields, fishing, debt, Sepphoris, Antipas, local identity.
 
-6. **The End Was Always Near**
-   Danielic/apocalyptic imagination, resurrection, judgment, messianic hopes, angels/adversaries.
+6. **Judgment and the Age to Come**
+   Danielic/apocalyptic imagination, resurrection, judgment, varied messianic/restoration hopes, angels/adversaries; these were important but not uniform beliefs across all Jews.
 
 7. **The River**
    Yohanan/John, baptism, repentance, judgment, and why people went into the wilderness.

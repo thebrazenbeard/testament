@@ -4,11 +4,11 @@ Status: HISTORICAL_CONTEXT_PACKET / REVIEW_REQUIRED
 
 ## Political fact
 
-Most of Yeshua's public Galilean life occurs not in the Roman province of Judaea but in the tetrarchy ruled by Herod Antipas.
+Yeshua's secure association with Galilee places him within the tetrarchy ruled by Herod Antipas rather than inside the Roman province of Judaea for Galilean activity.
 
-That matters.
+That jurisdictional setting matters even though the exact proportion, route, and chronology of Yeshua's ministry remain reconstruction-dependent.
 
-A recent political reconstruction emphasizes that Yeshua was a Galilean subject and that Antipas shaped his political environment even though Pilate and Caiaphas dominate the final Jerusalem narratives.
+A recent political reconstruction emphasizes Yeshua's Galilean subject-status and argues that Antipas shaped his political environment even though Pilate and Caiaphas dominate the final Jerusalem narratives.
 
 Reference:
 - David Lloyd Dusenbury, "Jesus the Galilean":

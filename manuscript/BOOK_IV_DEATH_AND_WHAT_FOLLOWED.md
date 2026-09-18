@@ -1,6 +1,6 @@
 # Book IV — Death and What Followed
 
-Purpose: narrate the transition from executed teacher to resurrected Lord without pretending we can watch the inaccessible causal event from outside history.
+Purpose: narrate how surviving sources and communities move from an executed teacher to a proclaimed risen/exalted Lord without pretending we can watch the inaccessible causal event from outside history.
 
 ## Proposed chapters
 
@@ -11,7 +11,7 @@ Purpose: narrate the transition from executed teacher to resurrected Lord withou
    Burial traditions, Joseph of Arimathea, tomb questions, Roman/Jewish burial context.
 
 3. **Mary**
-   Magdalene traditions; women witnesses; divergent sequences.
+   Magdalene traditions; women-witness traditions; divergent sequences.
 
 4. **Peter**
    appearance traditions; failure traditions; later restoration motifs; authority development.
@@ -31,8 +31,8 @@ Purpose: narrate the transition from executed teacher to resurrected Lord withou
 9. **Saul**
    persecutor/call narrative, Paul's own account versus Acts.
 
-10. **A Death Rewritten**
-    how execution becomes atonement, victory, sacrifice, apocalypse, enthronement.
+10. **A Death Interpreted**
+    how execution is interpreted as atonement, victory, sacrifice, apocalypse, and enthronement.
 
 ## Simulation-layer firewall
 

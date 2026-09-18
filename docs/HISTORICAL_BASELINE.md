@@ -20,7 +20,7 @@ At the level broadly accepted in historical scholarship and already compatible w
 ## Probable but more reconstruction-dependent
 
 - healing/exorcism reputation;
-- conflict over purity, Sabbath, status, and authority;
+- traditions of legal/halakhic dispute involving Sabbath, purity, status, and authority, some plausibly historical but with exact scope unresolved;
 - a disruptive Temple action;
 - expectation of divine transformation/judgment;
 - women followers/supporters;
