@@ -3,6 +3,9 @@
 Status: PRIMARY_BINDING_ACTIVE / NOT_PROSE_READY
 Scene ID: SCN-II-FINAL-MEAL
 
+Variant controls:
+- VAR-LUKE-22-15-20-FINAL-MEAL
+
 ## Historical question
 
 What can be responsibly reconstructed about Yeshua's final meal, its Passover status, and the words later attached to bread/cup tradition?
