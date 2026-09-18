@@ -246,6 +246,12 @@ clusters:
       - First_Corinthians_7_reception
     dependence_state: MULTIPLE_REDACTIONAL_FORMS_PLUS_EARLY_PAULINE_RECEPTION
     packet: research/packets/DIVORCE_MARRIAGE_V1.md
+    source_controls:
+      - SRC-PAUL-1CORINTHIANS
+    variant_controls:
+      - VAR-DIVORCE-PAUL-1COR-7-RECEPTION
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-SABBATH
     topic: Sabbath / human need / healing / authority
@@ -257,6 +263,10 @@ clusters:
       - additional_Luke_John_Sabbath_healings
     dependence_state: MULTIPLE_TRADITIONS_WITH_MARKAN_DEPENDENCE_AND_LATER_EXPANSION
     packet: research/packets/SABBATH_CONTROVERSIES_V1.md
+    variant_controls:
+      - VAR-SABBATH-BEZAE-LUKE-6-5
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-FAMILY-RENUNCIATION
     topic: kinship / discipleship / household rupture
