@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v9
+schema_version: testament.hostile_review_book_iii.v10
 overall_status: ACTIVE
 complete: false
 
@@ -95,6 +95,16 @@ tranche_9:
   repaired_findings:
     - HR-BIII-006_MARCION_SPIRIT_PETITION_CONFLATION
 
+
+tranche_10:
+  review_target: f416ecee142f9c2eff59ee9535eadf15f1b13530
+  review_report_commit: d9d6efb431bdf77f46fea4130b1316df40afb580
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE10_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - BEZAE_LUKE6_DIRECT_DIGITAL_IMAGE_READBACK
+
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
   - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
@@ -136,7 +146,7 @@ next_scope:
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_10
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_11
 
 invariants:
   - "Tranche PASS is exact-head-bound."
