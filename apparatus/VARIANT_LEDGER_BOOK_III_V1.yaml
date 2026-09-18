@@ -71,15 +71,23 @@ variants:
         kingdom_substitution_family:
           ledger_record: VP-LUKE11-2-SPIRIT-FOR-KINGDOM
           relation: REPLACES_KINGDOM_PETITION
-          reported_form_family: "May your Holy Spirit come upon us and cleanse us."
-          reported_support:
-            greek_sigla_unbound:
-              - "162"
-              - "700"
-            patristic:
-              - Gregory_of_Nyssa
-              - Maximus
-          wording_state: REPORTED_FORM_WITH_WITNESS_LEVEL_DIFFERENCES
+          physical_greek_witnesses:
+            - WIT-162-BARB-GR-449
+            - WIT-700-EGERTON-2610
+          patristic:
+            - Gregory_of_Nyssa
+            - Maximus
+          witness_specific_forms:
+            WIT-700-EGERTON-2610:
+              reported_form: "May your Holy Spirit come upon us and cleanse us."
+              folio: "184"
+              state: SCHOLARLY_PASSAGE_LOCATOR_DIRECT_IMAGE_PENDING
+            WIT-162-BARB-GR-449:
+              reported_form: "May your Holy Spirit come and cleanse us."
+              folio: "151"
+              state: SCHOLARLY_PASSAGE_LOCATOR_DIRECT_IMAGE_PENDING
+              difference_from_700: "Different possessive word order and omission of 'upon us.'"
+          wording_state: PHYSICAL_GREEK_WITNESSES_BOUND_NONIDENTICAL_FORMS
         marcion_family:
           ledger_record: PAT-MARCION-LUKE11-SPIRIT-PETITION
           relation: SPIRIT_REQUEST_IN_PLACE_OF_FIRST_PETITION
@@ -89,7 +97,7 @@ variants:
           - kind: PUBLISHED_SCHOLARLY_REPORT
             source: New_Testament_Studies_Lords_Prayer_variant_studies
             report: "Published studies distinguish the kingdom-substitution witness family from Marcion's indirectly attested Spirit request."
-        witness_binding: PUBLISHED_REPORT_AND_INDIRECT_TESTIMONY_NOT_PHYSICAL_COLLATION
+        witness_binding: PHYSICAL_GREEK_WITNESSES_BOUND_PLUS_PUBLISHED_REPORT_AND_INDIRECT_MARCION_TESTIMONY
         state: MINORITY_SPIRIT_TRADITIONS_REAL_RELATION_NOT_NORMALIZED
         guard: "The existence of Spirit-petition traditions is stronger than any single normalized wording or placement. Do not promote theological fit with Luke's pneumatology into originality."
 
