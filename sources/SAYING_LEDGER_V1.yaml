@@ -35,6 +35,12 @@ clusters:
       - Didache_1_3_5
     dependence_state: SHARED_TRADITION_OR_DIRECT_DEPENDENCE_DISPUTED
     packet: research/packets/ENEMY_LOVE_NONRETALIATION_V1.md
+    source_controls:
+      - SRC-DIDACHE
+    variant_controls:
+      - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-DOUBLE-LOVE
     topic: love of God and neighbor
