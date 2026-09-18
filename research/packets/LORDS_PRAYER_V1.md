@@ -84,6 +84,81 @@ At Luke 11:4:
 This improves the apparatus without changing the evidence ceiling:
 named witness binding is not autoptic verification, and the shorter critical form is not automatically the exact historical prayer.
 
+## Versional and patristic expansion — Luke 11
+
+Machine-readable control:
+- `sources/VERSIONAL_PATRISTIC_LEDGER_BOOK_III.yaml`
+
+The Greek apparatus is not the whole transmission history.
+
+### Luke 11:4 — expanded ending
+
+Published textual apparatus reports the Matthean-style deliverance petition in:
+- Old Latin collective witnesses (`it`);
+- Curetonian Syriac (`sy-c`);
+- Peshitta Syriac (`sy-p`);
+- Harklean Syriac (`sy-h`).
+
+The Curetonian reading is now additionally bound to the physical manuscript node:
+- `WIT-CURETONIAN-SYRIAC`
+- British Library Add MS 14451.
+
+This does not mean the Syriac witnesses preserve the original Greek.
+They are versional evidence and may reflect translation history, harmonization, or inherited Greek exemplars.
+
+### Luke 11:4 — shorter ending
+
+Published apparatus reports the shorter ending in:
+- Vulgate (`vg`);
+- Sahidic Coptic (`sa`);
+- Origen.
+
+Origen is especially useful because *On Prayer* explicitly compares Matthew and Luke and quotes a shorter Lukan prayer ending after the testing petition.
+
+Origen is a patristic citation/exegete, not a Gospel manuscript.
+
+His testimony can support textual history without becoming a physical Greek witness.
+
+### Luke 11:2 — Holy-Spirit petition minority tradition
+
+A separate minority tradition replaces the kingdom/first-petition sequence with a petition for the Holy Spirit.
+
+Published scholarship reports support involving:
+- Greek minuscules 162 and 700;
+- Gregory of Nyssa;
+- Maximus.
+
+Marcion's lost Gospel is also relevant through Tertullian's indirect polemical testimony.
+
+Modern reassessment is important here:
+the evidence supports **some kind of Spirit petition** in Marcion's text more securely than it supports any exact reconstructed wording.
+
+Therefore Testament records:
+
+**Spirit-petition tradition = real.  
+Exact Marcionite wording = not recoverable with confidence.**
+
+The variant is particularly tempting because Luke strongly emphasizes the Holy Spirit elsewhere.
+
+That theological fit is not evidence of originality.
+
+References:
+- NET Bible textual note, Luke 11:4.
+- Origen, *On Prayer*, Lord's Prayer exposition.
+- Tertullian, *Against Marcion* IV.26.
+- D. T. Roth, "The Text of the Lord's Prayer in Marcion's Gospel" and later NA28 reassessment.
+
+### Transmission consequence
+
+Versional and patristic evidence makes the history more—not less—complex.
+
+It strengthens three claims:
+- Matthean harmonization pressure was broad enough to cross linguistic traditions;
+- the shorter Luke form also circulated widely and was known to Origen;
+- alternative liturgical/theological petitions could enter the prayer tradition.
+
+It does **not** yield one recoverable universal original recension.
+
 ## Debt / sin
 
 Matthew uses debt language; Luke explicitly uses "sins" while retaining debtor language in the reciprocal clause.
