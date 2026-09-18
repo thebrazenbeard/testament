@@ -887,7 +887,7 @@ variants:
       - Mark_3_1_6
       - Matthew_12_related
       - Luke_6_related
-      - Luke_6_5_Sabbath_worker_addition
+      - Luke_6_5D_Sabbath_worker_addition
     consequence: SABBATH_HALAKHA_TEXTUAL_VARIANT_AND_LATER_EXPANSION
 
     synoptic_control:
@@ -900,9 +900,10 @@ variants:
 
     bezae_addition:
       witness: WIT-D05-CODEX-BEZAE
-      passage: Luke_6_5_Sabbath_worker_addition
+      passage: Luke_6_5D_Sabbath_worker_addition
       state: DISTINCTIVE_WESTERN_ADDITION
       summary: "Bezae inserts a saying about a person working on the Sabbath whose knowledge determines whether the act is blessed or lawbreaking."
+      placement_note: "The addition occurs immediately after Luke 6:4 in Bezae's sequence and is conventionally labeled Luke 6:5D."
       transmission_guard: "The addition is a real manuscript reading but is not ordinary critical Luke and is not promoted to original Luke or historical Yeshua speech."
       scholarship:
         - url: "https://greeknewtestament.net/lk6-5"
