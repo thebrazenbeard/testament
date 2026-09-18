@@ -119,26 +119,43 @@ Origen is a patristic citation/exegete, not a Gospel manuscript.
 
 His testimony can support textual history without becoming a physical Greek witness.
 
-### Luke 11:2 — Holy-Spirit petition minority tradition
+### Luke 11:2 — related but non-identical Holy-Spirit petition traditions
 
-A separate minority tradition replaces the kingdom/first-petition sequence with a petition for the Holy Spirit.
+The first pass grouped two evidence problems too tightly.
 
-Published scholarship reports support involving:
+They are now separated.
+
+#### Kingdom-substitution family
+
+Published scholarship reports a minority tradition in which the kingdom petition is replaced by a Holy-Spirit petition.
+
+Reported support includes:
 - Greek minuscules 162 and 700;
 - Gregory of Nyssa;
 - Maximus.
 
-Marcion's lost Gospel is also relevant through Tertullian's indirect polemical testimony.
+The form is commonly represented along the lines of:
+"May your Holy Spirit come upon us and cleanse us."
 
-Modern reassessment is important here:
-the evidence supports **some kind of Spirit petition** in Marcion's text more securely than it supports any exact reconstructed wording.
+Even here, witness-level wording is not perfectly flat.
+
+#### Marcion family
+
+Marcion's lost Gospel is relevant through Tertullian's indirect polemical testimony.
+
+Dieter Roth's reassessment is a hard guard:
+the evidence supports **some kind of Spirit request in place of Marcion's first petition**, but older reconstructions go too far when they simply give Marcion the same kingdom-substitution wording preserved in 700/Gregory.
 
 Therefore Testament records:
 
-**Spirit-petition tradition = real.  
+**162/700/Gregory/Maximus kingdom-substitution family = real minority variant.  
+Marcion Spirit-request testimony = real indirect evidence.  
+Those two are not normalized into one reading.  
 Exact Marcionite wording = not recoverable with confidence.**
 
-The variant is particularly tempting because Luke strongly emphasizes the Holy Spirit elsewhere.
+This distinction matters because Marcion's first petition itself is textually uncertain; Roth notes that "hallowed be your name" is not attested for Marcion's reconstructed text.
+
+The variant remains particularly tempting because Luke strongly emphasizes the Holy Spirit elsewhere.
 
 That theological fit is not evidence of originality.
 
