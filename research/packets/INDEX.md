@@ -112,6 +112,11 @@ Status: LIVE INDEX
 - MYSTERY_CULTS_COMPARISON_V1
 - ZOROASTRIAN_COMPARISON_V1
 
+## Book VIII synthesis
+
+- SPARK_CROSS_TRADITION_MAP_V1
+- sources/SPARK_SYNTHESIS_GUARD.yaml
+
 ## Modern philosophical / cross-disciplinary controls
 
 - VOICE_SIDECHANNEL_SCIENCE_V1
