@@ -1,6 +1,6 @@
 # Lost Sheep / Recovery V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Primary forms
 
@@ -50,6 +50,72 @@ Other scholars defend greater independence for at least some Thomas sayings.
 
 Therefore:
 Thomas 107 is neither automatically independent nor automatically worthless.
+
+## Witness-control advance — Thomas 107
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-LOST-SHEEP-THOMAS-107`
+- `sources/WITNESS_REGISTRY_V1.yaml`
+- `WIT-NHC-II-GOSPEL-THOMAS`
+
+Thomas 107 is directly extant in the Coptic Gospel of Thomas preserved in Nag Hammadi Codex II.
+
+The surviving Greek Thomas fragments currently bound by Testament do not reach logion 107:
+- P.Oxy. 654: opening through logion 7;
+- P.Oxy. 1: portions of logia 26–33;
+- P.Oxy. 655: logion 24 and portions of 36–39.
+
+Therefore Thomas 107 is currently Coptic-only evidence for this cluster.
+
+### Distinctive Thomas ending
+
+The extant Thomas form materially differs from Matthew and Luke.
+
+Thomas 107:
+- calls the lost sheep the largest;
+- has the shepherd search until he finds it;
+- ends with the shepherd saying that he loves it more than the ninety-nine.
+
+Matthew instead develops the parable toward the Father's will that one of the little ones not be lost.
+
+Luke develops it toward repentance and heavenly joy.
+
+These three endings are evidence for distinct transmitted forms.
+They must not be harmonized.
+
+### Dependence control
+
+John Halsey Wood argues broadly for Thomas dependence on canonical Gospel material.
+
+Other Thomas scholarship, including Melissa Harl Sellew's 2023 Oxford treatment, resists treating the entire Thomas/Synoptic relationship as one globally solved dependence question.
+
+Testament therefore keeps logion 107 at:
+- relationship established;
+- exact literary direction unresolved;
+- independence not presumed;
+- dependence not mechanically presumed from similarity alone.
+
+References:
+- John Halsey Wood, "The New Testament Gospels and the Gospel of Thomas: A New Direction":
+  DOI 10.1017/S0028688505000305
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics":
+  DOI 10.1093/oxfordhb/9780190887452.013.27
+
+### Current historical ceiling
+
+Established:
+- Matthew, Luke and Thomas preserve related lost-sheep forms;
+- Thomas 107 is extant in Coptic NHC II;
+- its largest-sheep and love-more-than-the-ninety-nine ending is distinctive.
+
+Not established:
+- Thomasine independence;
+- Thomasine priority;
+- originality of the valuation motif;
+- originality of Matthew's little-ones application;
+- originality of Luke's repentance application;
+- one harmonized earliest form.
 
 ## Historical ceiling
 
