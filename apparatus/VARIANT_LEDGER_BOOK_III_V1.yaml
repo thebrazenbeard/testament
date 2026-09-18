@@ -806,6 +806,75 @@ variants:
     manuscript_rule: "Book III must keep Luke's translation dispute explicit, distinguish Thomas 3 from Thomas 113, and keep Greek/Coptic witness asymmetry visible. Book VIII may inherit 'kingdom within' only as authored synthesis, not lexical certainty."
 
 
+
+  - id: VAR-WICKED-TENANTS-THOMAS-65-66
+    saying: SAY-WICKED-TENANTS
+    control_kind: CROSS_SOURCE_TENANTS_PARABLE_PLUS_INTRA_THOMAS_ADJACENT_STONE_SAYING
+    passages:
+      - Mark_12_1_12
+      - Matthew_21_33_46
+      - Luke_20_9_19
+      - Thomas_65
+      - Thomas_66
+    consequence: PARABLE_ALLEGORIZATION_STONE_LINKAGE_AND_THOMAS_DEPENDENCE
+
+    synoptic_control:
+      Mark:
+        form_note: "Vineyard/tenants narrative is joined to rejected-stone scripture and Jerusalem authority conflict."
+        guard: "Narrative setting and allegorical force are not assumed to be verbatim historical framing."
+      Matthew:
+        form_note: "Expands the complex and is especially vulnerable to later supersessionist misuse."
+        guard: "Replacement-theology readings are not retrojected into Yeshua's historical voice."
+      Luke:
+        form_note: "Preserves a related Synoptic complex under Markan-dependence questions."
+        guard: "Three Synoptic forms do not become three independent witnesses by counting."
+
+    thomas_control:
+      witness: WIT-NHC-II-GOSPEL-THOMAS
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      Thomas_65:
+        state: EXTANT_COPTIC
+        form_note: "Preserves the vineyard/tenant narrative as one logion."
+      Thomas_66:
+        state: EXTANT_COPTIC
+        form_note: "Preserves the rejected-stone saying as a separate adjacent logion."
+      internal_relation:
+        state: ADJACENT_RELATED_FORMS_SAME_WORK
+        guard: "Adjacency may reflect literary linkage, inherited sequence, or redaction; it does not prove pre-Synoptic independence or separability in the historical tradition."
+
+    dependence_control:
+      Synoptics:
+        state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
+      Thomas_vs_Synoptics:
+        state: DISPUTED
+        evidence:
+          - kind: SCHOLARLY_ARGUMENT
+            source: "Hermeneutics and Early Christian Gospels"
+            report: "The Thomas 65/66 adjacency has been argued to preserve or reshape an earlier linkage between tenants and cornerstone traditions."
+          - kind: COMPARATIVE_METHOD
+            source: Melissa_Harl_Sellew
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        guard: "Neither Thomasine independence nor direct Synoptic dependence is promoted to fact from adjacency alone."
+
+    anti_supersession_guard:
+      risk: HIGH
+      rule: "Book III must not turn the parable into 'God rejected the Jews and transferred the kingdom to Christians.' Later anti-Jewish/supersessionist theology is not allowed to masquerade as recovered historical speech."
+
+    historical_ceiling:
+      strong:
+        - "Synoptic tradition preserves a tenants/vineyard complex in Jerusalem authority-conflict settings."
+        - "Thomas 65 and 66 are directly extant as adjacent but separate Coptic logia in NHC II."
+        - "No currently bound Greek Thomas fragment preserves logion 65 or 66."
+      not_secure:
+        - "That Thomas 65/66 is independent of the Synoptics."
+        - "That separation into two logia proves an earlier historical form."
+        - "That Mark's joining of parable and stone citation is secondary."
+        - "That the son had explicit Christological force in the earliest recoverable parable."
+        - "A supersessionist historical meaning."
+
+    manuscript_rule: "Book III must display the Synoptic joined complex and Thomas's adjacent two-logion arrangement without harmonizing them or converting literary structure into chronology."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
