@@ -43,6 +43,11 @@ witnesses:
         reading_note: "Eubank reports the prayer absent in the first hand of Bezae; later correction history supplies a presence form."
         scholarship:
           - doi: "10.2307/25765950"
+      - passage: Matthew_5_44
+        reading_state: EXPANDED_LUKE_LIKE_FORM
+        reading_note: "Published textual notes report Bezae among witnesses to the expanded form importing Luke 6:27-28-like clauses into Matthew 5:44."
+        scholarship:
+          - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
     limitations:
       - "Testament has not performed autoptic manuscript collation."
       - "D05's age does not establish that every distinctive reading is earlier than rival readings."
@@ -174,6 +179,54 @@ witnesses:
     limitations:
       - "Later witness date does not make the reading late."
       - "Testament has not performed autoptic collation."
+
+  - id: WIT-DIDACHE-H54-HIEROSOLYMITANUS
+    witness_of: [SRC-DIDACHE]
+    witness_kind: Greek_manuscript_codex
+    common_name: Codex_Hierosolymitanus_54
+    siglum: H
+    repository: Greek_Orthodox_Patriarchate_of_Jerusalem
+    shelfmark: "Panagios Taphos 54 / Hierosolymitanus 54"
+    witness_date:
+      precision: "dated by inscription to 11 June 1056 CE"
+    access_mode: SCHOLARLY_WITNESS_REPORT_PLUS_CATALOGUE_METADATA
+    locators:
+      - passage: Didache_1_3_5
+        reading_state: EXTANT_COMPLETE_SECTION_IN_H
+        reading_note: "H is the complete medieval Greek witness used for the Didache 1.3-5 sayings catena, but its late date and textual quality prevent automatic priority."
+        scholarship:
+          - doi: "10.1017/S0017816000029242"
+          - doi: "10.1017/9781108554992.014"
+    limitations:
+      - "Witness date is not composition date."
+      - "Testament has not performed autoptic collation of H."
+      - "H is not assumed to preserve the earliest reading merely because it is complete."
+
+  - id: WIT-POXY-1782-DIDACHE
+    witness_of: [SRC-DIDACHE]
+    witness_kind: Greek_papyrus_fragment
+    common_name: Papyrus_Oxyrhynchus_1782
+    publication_siglum: "P.Oxy. XV 1782"
+    repository: Bodleian_Art_Archaeology_and_Ancient_World_Library_Oxford
+    witness_date:
+      precision: "late fourth century CE / end of fourth century"
+    access_mode: SCHOLARLY_WITNESS_REPORT_PLUS_INSTITUTIONAL_METADATA
+    locators:
+      - passage: Didache_1_3d_4a
+        reading_state: EXTANT_FRAGMENT
+        reading_note: "Recto directly witnesses the enemy-love/non-retaliation sayings section from Didache 1.3d-4a."
+        scholarship:
+          - doi: "10.1017/S0017816000029242"
+      - passage: Didache_2_7b_3_2b
+        reading_state: EXTANT_FRAGMENT
+        reading_note: "Verso preserves a later Two Ways segment, useful for transmission-family control."
+        scholarship:
+          - doi: "10.1017/S0017816000029242"
+    transmission_note: "Layton reports the papyrus and the Vorlage behind Apostolic Constitutions as belonging to a different transmission branch from codex H."
+    limitations:
+      - "Fragmentary survival does not reconstruct the whole Didache section."
+      - "Fourth-century witness date does not date the composition of Didache 1.3-4."
+      - "Testament has not performed autoptic papyrus collation."
 
 edition_nodes:
   - id: ED-SBLGNT
