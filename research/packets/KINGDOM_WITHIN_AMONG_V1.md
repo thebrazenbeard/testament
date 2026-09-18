@@ -1,6 +1,6 @@
 # Kingdom "Within" / "Among" V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Primary text
 
@@ -47,6 +47,90 @@ Reference:
   https://doi.org/10.1017/S0028688512000392
 
 So "among you" should not be used as a shortcut to eliminate future eschatology, nor should "within you" eliminate social/apocalyptic dimensions.
+
+## Witness-control advance — Thomas 3 and 113
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-KINGDOM-WITHIN-THOMAS-3-113`
+- `sources/WITNESS_REGISTRY_V1.yaml`
+- `WIT-POXY-654-GOSPEL-THOMAS`
+- `WIT-NHC-II-GOSPEL-THOMAS`
+
+### Thomas 3: Greek + Coptic
+
+P.Oxy. IV 654 directly preserves portions of Thomas 3 in Greek.
+
+NASSCAL identifies the manuscript as:
+- British Library Papyrus 1531;
+- Greek;
+- ca. 200–250 CE;
+- preserving the Gospel of Thomas opening through logion 7.
+
+The papyrus is fragmentary. Parts of Thomas 3 are lacunose.
+
+Nag Hammadi Codex II preserves the complete Coptic Thomas 3.
+
+Therefore the project may compare Greek and Coptic Thomas 3 where both actually survive, but must mark Coptic completion of Greek gaps as reconstruction rather than papyrus readback.
+
+Reference:
+- NASSCAL, P.Oxy. IV 654:
+  https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/
+
+### Thomas 113: Coptic-only in current witness coverage
+
+Thomas 113 is directly preserved in the Coptic NHC II copy.
+
+None of the three surviving Greek Thomas fragments currently bound by Testament reaches logion 113.
+
+So:
+- Thomas 3 = fragmentary Greek + complete Coptic;
+- Thomas 113 = Coptic-only in the extant witness set currently bound here.
+
+A reconstructed Greek Thomas 113 is not an extant manuscript reading.
+
+### Luke 17:21 remains its own semantic problem
+
+Thomas 3 and 113 are relevant kingdom-location traditions.
+
+They do not settle the Greek phrase `entos hymon` in Luke 17:21.
+
+Current Book III rule:
+- preserve "within you";
+- preserve "among you / in your midst";
+- explain why each has been defended;
+- do not allow Thomas's explicit inside/outside wording to decide Luke's semantics by retrojection.
+
+Colin H. Roberts documents the long-standing interpretive dispute and Thomas's relevance to its reception history.
+
+Reference:
+- Colin H. Roberts, "The Kingdom of Heaven (Lk. XVII.21)":
+  DOI 10.1017/S0017816000019313
+
+### Project-bias guard
+
+This cluster is unusually vulnerable to confirmation bias because `The Testament of the Spark` has a strong authored interest in interiorized divine agency.
+
+Therefore:
+
+**Book VIII's preference for "kingdom within" cannot count as evidence for Book III's translation decision.**
+
+The authored layer may deliberately inherit that phrase.
+The evidence layer must preserve the lexical and historical dispute.
+
+### Current historical ceiling
+
+Established:
+- Luke preserves a difficult kingdom-location saying;
+- Thomas 3 is extant in fragmentary Greek and complete Coptic;
+- Thomas 113 is extant in Coptic;
+- Thomas develops explicit interior/exterior and non-obvious-presence kingdom language.
+
+Not established:
+- lexical certainty for Luke's `entos hymon`;
+- direct Thomas dependence on Luke;
+- direct Luke dependence on Thomas;
+- one historical saying from which Luke 17:21, Thomas 3 and Thomas 113 can simply be reconstructed.
 
 ## Historical ceiling
 
