@@ -677,6 +677,67 @@ variants:
     manuscript_rule: "Book III must keep Luke, Matthew, Thomas 55 and Thomas 101 distinct; mark Thomas 101 lacunae; and never count the Thomas doublet as multiple independent attestation."
 
 
+
+  - id: VAR-JUDGE-SPECK-THOMAS-26
+    saying: SAY-JUDGE-NOT
+    control_kind: COMPOSITE_JUDGMENT_CLUSTER_PLUS_INTRA_THOMAS_GREEK_COPTIC_WITNESS
+    passages:
+      - Matthew_7_1_5
+      - Luke_6_37_42
+      - Mark_4_24
+      - Thomas_26
+    consequence: CLUSTER_COMPOSITION_SEMANTIC_SCOPE_AND_THOMAS_DEPENDENCE
+
+    synoptic_control:
+      Matthew:
+        form_note: "Combines judge-not, measure reciprocity, and speck/log self-examination in one discourse sequence."
+      Luke:
+        form_note: "Combines judge/condemn/forgive, measure, blind-guide/disciple material, and speck/log imagery."
+      Mark:
+        form_note: "Uses a related measure saying in a different literary context."
+      guard: "The cluster may be composite; co-location in Matthew/Luke does not prove one original speech."
+
+    thomas_control:
+      passage: Thomas_26
+      greek_witness: WIT-POXY-1-GOSPEL-THOMAS
+      coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+      greek_state: EXTANT_FRAGMENTARY_GREEK
+      coptic_state: EXTANT_COPTIC
+      form_note: "Thomas preserves the speck/log image without the full Matthean/Lukan judgment-measure cluster."
+      guard: "P.Oxy. 1 begins within logion 26; missing Greek wording cannot be silently supplied from Coptic."
+
+    dependence_control:
+      Synoptics:
+        state: COMPOSITE_WITH_MARKAN_RELATED_MATERIAL
+        guard: "Matthew/Luke overlap is not automatically independent attestation; Mark's separate measure placement complicates reconstruction."
+      Thomas_vs_Synoptics:
+        state: DISPUTED_SAYING_LEVEL_RELATION
+        scholarship:
+          - author: Melissa_Harl_Sellew
+            title: "The Gospel of Thomas and the Synoptics"
+            year: 2023
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        guard: "Thomas 26 may reflect shared tradition, direct dependence, or complex transmission; no direction is promoted to fact."
+
+    semantic_guard:
+      claim: "Judge not"
+      state: POLYSEMOUS_AND_CONTEXT_BOUND
+      rule: "Do not reduce the cluster to 'never evaluate anyone'; condemnation, reciprocity, hypocrisy, and self-examination all remain relevant contextual possibilities."
+
+    historical_ceiling:
+      strong:
+        - "Judgment/measure/self-examination sayings are multiply embedded in early Jesus tradition."
+        - "Thomas 26 is directly witnessed in fragmentary Greek P.Oxy. 1 and complete Coptic NHC II."
+        - "Thomas 26 preserves speck/log imagery without the full Synoptic cluster."
+      not_secure:
+        - "One original discourse containing all cluster components."
+        - "That Thomas 26 is independent of the Synoptics."
+        - "That the surviving Greek fragment provides the complete wording of Thomas 26."
+        - "One exact semantic scope for 'judge' across every occurrence."
+
+    manuscript_rule: "Book III must present the judgment cluster as potentially composite and preserve Thomas 26 as a distinct transmitted speck/log form. Missing Greek Thomas wording remains reconstruction."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
