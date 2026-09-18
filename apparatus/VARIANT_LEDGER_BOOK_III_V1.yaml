@@ -1,0 +1,114 @@
+schema_version: testament.variant_ledger.book_iii.v1
+status: ACTIVE_PARTIAL
+scope: BOOK_III_SAYINGS
+creation_parent: 09fcc02c0e4493c2e41195453f844b9d9f2d14b9
+
+rules:
+  - "Book III wording-sensitive sayings must bind a declared working text before prose promotion."
+  - "A critical-edition reading is not automatically the historical wording."
+  - "Reported manuscript support is labeled as scholarly/apparatus evidence unless Testament has performed autoptic collation."
+  - "Synoptic harmonization is a transmission hypothesis to test, not a license to reconstruct an original prayer."
+  - "Didache parallels remain reception/transmission evidence unless literary independence is separately established."
+
+variants:
+  - id: VAR-LUKE-11-2-4-LORDS-PRAYER
+    saying: SAY-LORDS-PRAYER
+    passage: Luke_11_2_4
+    consequence: PRAYER_WORDING_SOURCE_RELATION_AND_LITURGICAL_HARMONIZATION
+    working_text:
+      edition: ED-SBLGNT
+      state: SHORTER_CRITICAL_FORM
+      guard: "SBLGNT is the reproducible working comparison text, not a claim to the exact historical prayer."
+
+    variant_units:
+      - id: LUKE11-2-OPENING-ADDRESS
+        shorter_form: "Father"
+        expansion_family: "Adds Matthean-style 'our' / heavenly-address wording."
+        evidence:
+          - kind: CRITICAL_EDITION_APPARATUS
+            source: SBLGNT
+            report: "SBLGNT flags the expansion after the opening address."
+        witness_binding: EDITION_SIGNAL_ONLY
+        state: SIGNIFICANT_VARIANT_REQUIRES_DEEPER_WITNESS_BINDING
+
+      - id: LUKE11-2-WILL-PETITION
+        shorter_form: "No Matthean 'your will be done ... on earth' petition."
+        expansion_family: "Adds the Matthean-style will petition."
+        evidence:
+          - kind: CRITICAL_EDITION_APPARATUS
+            source: SBLGNT
+            report: "SBLGNT flags the additional will petition in the alternative tradition."
+          - kind: PUBLISHED_TEXTUAL_NOTE
+            source: NET_Bible_Luke_11_2
+            report: "The shorter reading is reported for P75, Vaticanus and L among other witnesses; the longer expansion is reported in a broad later/alternative stream including Bezae."
+        witness_support:
+          shorter:
+            - WIT-P75-HANNA-1
+            - WIT-03-CODEX-VATICANUS
+          expansion:
+            - WIT-D05-CODEX-BEZAE
+        witness_binding: SCHOLARLY_TEXTUAL_NOTE_NOT_AUTOPTIC
+        state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE
+
+      - id: LUKE11-4-DELIVERANCE-PETITION
+        shorter_form: "Ends after the testing/temptation petition."
+        expansion_family: "Adds the Matthean-style deliverance-from-evil petition."
+        evidence:
+          - kind: CRITICAL_EDITION_APPARATUS
+            source: SBLGNT
+            report: "SBLGNT flags the deliverance petition as an addition in the alternative tradition."
+          - kind: PUBLISHED_TEXTUAL_NOTE
+            source: NET_Bible_Luke_11_4
+            report: "The omission is reported for P75 and Vaticanus among other witnesses; the expansion is reported in a broad stream including Bezae. Sinaiticus has hand/corrector complexity and is intentionally not normalized here."
+        witness_support:
+          shorter:
+            - WIT-P75-HANNA-1
+            - WIT-03-CODEX-VATICANUS
+          expansion:
+            - WIT-D05-CODEX-BEZAE
+        witness_binding: SCHOLARLY_TEXTUAL_NOTE_NOT_AUTOPTIC
+        state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE
+
+    source_relation:
+      Matthew_Luke:
+        state: DISPUTED
+        guard: "Shared material does not by itself prove Q, direct dependence, or multiple autonomous recensions."
+      Didache_8_2:
+        state: DISPUTED
+        guard: "Didache's close relation to the Matthean form may reflect Matthew, Q-like/shared liturgical tradition, or another transmission route; independence is not presumed."
+        scholarship:
+          - author: Olegs_Andrejevs
+            title: "A Source-critical Analysis of the Lord's Prayer: Multiple Autonomous Recensions or Q?"
+            journal: Ephemerides_Theologicae_Lovanienses
+            year: 2020
+            doi: "10.2143/ETL.96.4.3288794"
+
+    historical_ceiling:
+      strong:
+        - "Luke's extant manuscript tradition contains pressure toward a more Matthean form in wording-sensitive parts of the prayer."
+        - "Matthew, Luke and Didache preserve materially related prayer forms."
+      not_secure:
+        - "The exact wording spoken by Yeshua."
+        - "A single recoverable original recension behind all three forms."
+        - "Didache's exact literary dependence on Matthew or an independent Q-like/liturgical source."
+        - "A globally earlier prayer merely by selecting the shorter Lucan form."
+
+    manuscript_rule: "Book III must not print a harmonized Lord's Prayer as recovered speech. Any reconstructed core must mark every inferred word and keep Matthew/Luke/Didache transmission hypotheses visible."
+
+references:
+  - id: SBLGNT_LUKE_11_2_4
+    type: CRITICAL_EDITION_WEB_DISPLAY
+    url: "https://www.biblegateway.com/passage/?search=Luke+11%3A2-4&version=SBLGNT"
+  - id: NET_LUKE_11_2_4
+    type: PUBLISHED_TEXTUAL_NOTES
+    url: "https://netbible.org/bible/Luke+11"
+  - id: ANDREJEVS_2020
+    type: SCHOLARLY_ARTICLE
+    doi: "10.2143/ETL.96.4.3288794"
+
+research_debt:
+  - "Bind the opening-address expansion to exact named witnesses beyond the critical-edition signal."
+  - "Normalize Sinaiticus hand/corrector evidence for Luke 11:4 before assigning a physical-witness reading state."
+  - "Add versional witnesses and patristic citations for the Lucan prayer variants."
+  - "Build a Didache 8.2 witness/source node rather than treating the work title as a physical witness."
+  - "Hostile-review the harmonization inference and source-dependence guard before prose promotion."
