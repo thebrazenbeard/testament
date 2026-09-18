@@ -73,7 +73,7 @@ clusters:
       - Mark_4_24_related
       - Thomas_26_related
     dependence_state: COMPOSITE_CLUSTER
-    status: BACKLOG
+    packet: research/packets/JUDGE_MEASURE_SPECK_V1.md
 
   - id: SAY-ASK-SEEK-KNOCK
     topic: prayer / seeking / divine response
@@ -83,7 +83,7 @@ clusters:
       - Thomas_2_related
       - Thomas_92_related
     dependence_state: DISPUTED
-    status: BACKLOG
+    packet: research/packets/ASK_SEEK_KNOCK_V1.md
 
   - id: SAY-LOST-FOUND
     topic: lost sheep / recovery
@@ -102,7 +102,7 @@ clusters:
       - Luke_13_18_19
       - Thomas_20
     dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
-    status: BACKLOG
+    packet: research/packets/SOWER_MUSTARD_PARABLES_V1.md
 
   - id: SAY-SOWER
     topic: kingdom / reception / interpretation
@@ -112,7 +112,7 @@ clusters:
       - Luke_8_5_15
       - Thomas_9
     dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
-    status: BACKLOG
+    packet: research/packets/SOWER_MUSTARD_PARABLES_V1.md
 
   - id: SAY-WICKED-TENANTS
     topic: vineyard / violence / authority / judgment
@@ -122,7 +122,7 @@ clusters:
       - Luke_20_9_19
       - Thomas_65_66
     dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
-    status: BACKLOG
+    packet: research/packets/WICKED_TENANTS_V1.md
 
   - id: SAY-FIRST-LAST
     topic: reversal
@@ -145,7 +145,7 @@ clusters:
       - Luke_14_27
       - Thomas_55_related
     dependence_state: MULTIPLE_REDACTIONAL_FORMS
-    status: BACKLOG
+    packet: research/packets/CROSS_DISCIPLESHIP_V1.md
 
   - id: SAY-CAESAR
     topic: taxation / God / imperial authority
@@ -155,7 +155,7 @@ clusters:
       - Luke_20_20_26
       - Thomas_100
     dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
-    status: BACKLOG
+    packet: research/packets/CAESAR_TAX_SAYING_V1.md
 
   - id: SAY-KINGDOM-WITHIN-AMONG
     topic: kingdom location / perception
@@ -164,4 +164,38 @@ clusters:
       - Thomas_3_related
       - Thomas_113_related
     dependence_state: NO_SIMPLE_DIRECT_PARALLEL
-    status: BACKLOG
+    packet: research/packets/KINGDOM_WITHIN_AMONG_V1.md
+
+  - id: SAY-DIVORCE
+    topic: divorce / marriage / creation / adultery
+    versions:
+      - Mark_10_2_12
+      - Matthew_5_31_32
+      - Matthew_19_3_12
+      - Luke_16_18
+      - First_Corinthians_7_reception
+    dependence_state: MULTIPLE_REDACTIONAL_FORMS_PLUS_EARLY_PAULINE_RECEPTION
+    packet: research/packets/DIVORCE_MARRIAGE_V1.md
+
+  - id: SAY-SABBATH
+    topic: Sabbath / human need / healing / authority
+    versions:
+      - Mark_2_23_28
+      - Mark_3_1_6
+      - Matthew_12_related
+      - Luke_6_related
+      - additional_Luke_John_Sabbath_healings
+    dependence_state: MULTIPLE_TRADITIONS_WITH_MARKAN_DEPENDENCE_AND_LATER_EXPANSION
+    packet: research/packets/SABBATH_CONTROVERSIES_V1.md
+
+  - id: SAY-FAMILY-RENUNCIATION
+    topic: kinship / discipleship / household rupture
+    versions:
+      - Luke_14_26
+      - Matthew_10_37
+      - Mark_3_31_35_related
+      - Mark_10_28_30_related
+      - Thomas_55_related
+      - Thomas_101_related
+    dependence_state: DOUBLE_TRADITION_PLUS_RELATED_FORMS
+    packet: research/packets/FAMILY_RENUNCIATION_DISCIPLESHIP_V1.md
