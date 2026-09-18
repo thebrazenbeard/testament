@@ -1,0 +1,61 @@
+schema_version: testament.reception_source_ledger.v1
+status: RESEARCH_ACTIVE
+
+records:
+  - id: SRC-QURAN
+    kind: PRIMARY_TEXT_FOR_SEVENTH_CENTURY_ISLAMIC_PROCLAMATION
+    language: Arabic
+    use:
+      - Isa/Jesus
+      - Maryam
+      - Messiah
+      - word/spirit language
+      - crucifixion dispute
+      - anti-divine-sonship Christology
+    manuscript_gateway: "https://corpuscoranicum.de/en/manuscripts"
+    limits:
+      - "Seventh-century source, not first-century eyewitness biography."
+      - "Tafsir/hadith interpretations must be distinguished from Qur'anic wording."
+
+  - id: CORPUS-HEKHALOT
+    kind: LATE_ANTIQUE_JEWISH_ESOTERIC_RECEPTION
+    use:
+      - heavenly ascent
+      - palace/throne imagery
+      - angelology
+      - ritual/magical traditions
+    limits:
+      - "Text-specific dating required."
+      - "Not first-century Jesus evidence."
+
+  - id: SRC-SEFER-YETZIRAH
+    kind: JEWISH_ESOTERIC_COSMOLOGICAL_TEXT
+    use:
+      - letters
+      - creation
+      - sefirot terminology history
+    limits:
+      - "Not simply 'the first Kabbalah book.'"
+      - "Dating/redaction require source-specific treatment."
+
+  - id: SRC-ZOHAR
+    kind: MEDIEVAL_KABBALISTIC_CORPUS
+    use:
+      - sefirot
+      - divine emanation
+      - later Jewish mystical theology
+    historical_horizon: "formative corpus associated by current scholarship with late-thirteenth-century Castile"
+    limits:
+      - "Traditional ancient attribution is not accepted as composition date by critical scholarship."
+
+  - id: TRAD-LURIANIC-KABBALAH
+    kind: EARLY_MODERN_KABBALISTIC_SYSTEM
+    use:
+      - rupture
+      - exile
+      - divine sparks
+      - tikkun / repair
+    limits:
+      - "Sixteenth-century development; never retrojected into Yeshua."
+
+completion_rule: "Reception sources may shape Books VI-VIII without gaining first-century evidentiary weight."
