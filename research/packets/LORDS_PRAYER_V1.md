@@ -49,9 +49,11 @@ The current reproducible working text remains SBLGNT, which prints the shorter L
 - the Matthean "your will be done" petition;
 - the Matthean deliverance-from-evil petition after the testing petition.
 
-Published NET textual notes report the shorter form of the will petition in P75 and Vaticanus among other witnesses, while Bezae belongs to the expanded stream. For the final deliverance petition, P75 and Vaticanus again support omission while Bezae supports the expansion. Testament records these as scholarly/apparatus witness reports, not autoptic collation.
+Published apparatus summaries now bind the opening address directly: P75, Sinaiticus, and Vaticanus support simple "Father," while Bezae supports the expanded Matthean-style "Our Father in heaven." The will-petition control remains bound to P75/Vaticanus on the shorter side and Bezae on the expanded side. For the final deliverance petition, P75 and Vaticanus support omission while Bezae supports expansion.
 
-This is enough to establish a real transmission control: Luke's prayer cannot be treated as textually flat, and later harmonization toward Matthew is strongly plausible in these locations.
+Sinaiticus is now separately typed at Luke 11:4 rather than forced into a binary bucket: the original text includes the deliverance petition, a first corrector marked it doubtful, and a later corrector removed that doubt mark. Testament records all of this as published apparatus/hand-state report, not autoptic collation.
+
+This is enough to establish a deeper transmission control: Luke's prayer cannot be treated as textually flat, and later harmonization toward Matthew is strongly plausible in these locations.
 
 Didache 8.2 is now physically bound to `WIT-DIDACHE-H54-HIEROSOLYMITANUS`, the complete Greek Didache witness in Codex Hierosolymitanus 54. That closes the earlier untyped-work-title debt for this comparison. The codex is dated 1056 CE; that is the date of the surviving witness, not the composition date of Didache or of its prayer tradition.
 
@@ -59,9 +61,28 @@ It is not enough to establish:
 - the exact historical wording spoken by Yeshua;
 - a globally original "short form";
 - a single literary route behind Matthew, Luke, and Didache;
-- a normalized Sinaiticus hand-state at Luke 11:4.
+- autoptic confirmation of the now-bound Sinaiticus hand-state at Luke 11:4.
 
 Andrejevs 2020 remains the source-critical guard against pretending the literary problem is solved: Q, direct dependence, and multiple autonomous/liturgical recensions remain live explanatory models.
+
+## Exact-apparatus deepening — opening address and Luke 11:4
+
+The former opening-address debt is now materially reduced.
+
+Current named-witness binding:
+- P75: simple `Father`;
+- Codex Sinaiticus: simple `Father`;
+- Codex Vaticanus: simple `Father`;
+- Codex Bezae: expanded `Our Father in heaven`.
+
+At Luke 11:4:
+- P75: omits the deliverance petition;
+- Vaticanus: omits it;
+- Bezae: includes it;
+- Sinaiticus: original inclusion, first-corrector doubt, later removal of that doubt.
+
+This improves the apparatus without changing the evidence ceiling:
+named witness binding is not autoptic verification, and the shorter critical form is not automatically the exact historical prayer.
 
 ## Debt / sin
 
