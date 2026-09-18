@@ -15,6 +15,7 @@ variants:
     saying: SAY-LORDS-PRAYER
     passage: Luke_11_2_4
     consequence: PRAYER_WORDING_SOURCE_RELATION_AND_LITURGICAL_HARMONIZATION
+    versional_patristic_ledger: sources/VERSIONAL_PATRISTIC_LEDGER_BOOK_III.yaml
     working_text:
       edition: ED-SBLGNT
       state: SHORTER_CRITICAL_FORM
@@ -60,6 +61,30 @@ variants:
         witness_binding: SCHOLARLY_TEXTUAL_NOTE_NOT_AUTOPTIC
         state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE
 
+      - id: LUKE11-2-HOLY-SPIRIT-PETITION
+        relation: "Minority tradition substitutes a Holy-Spirit petition for the kingdom petition / first petition sequence in Luke 11:2."
+        reconstructed_form_family: "May your Holy Spirit come upon us and cleanse us."
+        evidence:
+          - kind: PUBLISHED_SCHOLARLY_REPORT
+            source: New_Testament_Studies_Lords_Prayer_Matthew_John
+            report: "Published discussion reports Greek witnesses 162 and 700 plus Gregory of Nyssa and Maximus for a Holy-Spirit petition in Luke's prayer."
+          - kind: INDIRECT_MARCION_TESTIMONY
+            source: PAT-MARCION-LUKE11-SPIRIT-PETITION
+            report: "Tertullian supports the existence of some Spirit petition in Marcion's Gospel; modern reassessment warns that exact wording reconstruction exceeds the evidence."
+        reported_support:
+          greek_sigla_unbound:
+            - "162"
+            - "700"
+          patristic:
+            - Gregory_of_Nyssa
+            - Maximus
+          lost_text_testimony:
+            - Marcion_Gospel_via_Tertullian
+        exact_wording_state: NOT_RECOVERABLE_WITH_CONFIDENCE
+        witness_binding: PUBLISHED_REPORT_AND_INDIRECT_TESTIMONY_NOT_PHYSICAL_COLLATION
+        state: MINORITY_VARIANT_REAL_EXACT_FORM_UNCERTAIN
+        guard: "The existence of a Spirit-petition tradition is stronger than any one reconstructed wording. Do not promote theological fit with Luke's pneumatology into originality."
+
       - id: LUKE11-4-DELIVERANCE-PETITION
         shorter_form: "Ends after the testing/temptation petition."
         expansion_family: "Adds the Matthean-style deliverance-from-evil petition."
@@ -82,8 +107,16 @@ variants:
           hand_state_complex:
             - WIT-01-CODEX-SINAITICUS
         hand_state_note: "Sinaiticus is not collapsed into either the simple shorter or expansion bucket because its correction history is materially relevant."
-        witness_binding: SCHOLARLY_TEXTUAL_AND_HAND_STATE_REPORT_NOT_AUTOPTIC
-        state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE_WITH_SINAITICUS_HAND_STATE_BOUND
+        versional_patristic_support:
+          expanded:
+            - VP-LUKE11-4-LONGER-VERSIONAL-STREAMS
+            - WIT-CURETONIAN-SYRIAC
+          shorter:
+            - VP-LUKE11-4-SHORTER-VERSIONAL-STREAMS
+            - PAT-ORIGEN-ON-PRAYER-LUKE11
+        versional_guard: "Old Latin/Syriac/Vulgate/Sahidic and patristic evidence are not counted as physical Greek manuscripts and may reflect translation or harmonization history."
+        witness_binding: SCHOLARLY_TEXTUAL_HAND_STATE_VERSIONAL_PATRISTIC_REPORT_NOT_AUTOPTIC
+        state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE_WITH_SINAITICUS_AND_VERSIONAL_STATE_BOUND
 
     source_relation:
       Matthew_Luke:
@@ -111,6 +144,8 @@ variants:
     historical_ceiling:
       strong:
         - "Luke's extant manuscript tradition contains pressure toward a more Matthean form in wording-sensitive parts of the prayer."
+        - "Versional and patristic evidence confirms that both shorter and expanded Lukan prayer forms circulated across early Christian transmission."
+        - "A minority Holy-Spirit petition tradition is textually/reception-historically real, although its exact Marcionite wording is not securely recoverable."
         - "Matthew, Luke and Didache preserve materially related prayer forms."
       not_secure:
         - "The exact wording spoken by Yeshua."
