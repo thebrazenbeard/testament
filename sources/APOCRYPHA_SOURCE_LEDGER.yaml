@@ -98,6 +98,18 @@ records:
           coptic: WIT-NHC-II-GOSPEL-THOMAS
           greek: NONE_SURVIVING_CURRENTLY_BOUND
           guard: "Do not infer an extant Greek Thomas 113 from the existence of other Oxyrhynchus Thomas fragments."
+      wicked_tenants_cluster:
+        direct_witnesses:
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_65:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          distinctive_form: "Vineyard/tenants narrative survives without the Synoptic rejected-stone citation inside the same logion."
+        Thomas_66:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          distinctive_form: "Rejected-stone saying follows as a separate adjacent logion."
+        guard: "Adjacent Thomas 65 and 66 are one work's literary arrangement, not two independent historical witnesses."
     source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
     limits:
       - "Composition history and relation to Synoptics remain debated."
