@@ -62,28 +62,31 @@ variants:
         state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE
 
       - id: LUKE11-2-HOLY-SPIRIT-PETITION
-        relation: "Minority tradition substitutes a Holy-Spirit petition for the kingdom petition / first petition sequence in Luke 11:2."
-        reconstructed_form_family: "May your Holy Spirit come upon us and cleanse us."
+        control_kind: RELATED_BUT_NONIDENTICAL_SPIRIT_PETITION_TRADITIONS
+        kingdom_substitution_family:
+          ledger_record: VP-LUKE11-2-SPIRIT-FOR-KINGDOM
+          relation: REPLACES_KINGDOM_PETITION
+          reported_form_family: "May your Holy Spirit come upon us and cleanse us."
+          reported_support:
+            greek_sigla_unbound:
+              - "162"
+              - "700"
+            patristic:
+              - Gregory_of_Nyssa
+              - Maximus
+          wording_state: REPORTED_FORM_WITH_WITNESS_LEVEL_DIFFERENCES
+        marcion_family:
+          ledger_record: PAT-MARCION-LUKE11-SPIRIT-PETITION
+          relation: SPIRIT_REQUEST_IN_PLACE_OF_FIRST_PETITION
+          wording_state: NOT_RECOVERABLE_WITH_CONFIDENCE
+          guard: "Do not use the 162/700/Gregory/Maximus wording to reconstruct Marcion's lost Gospel."
         evidence:
           - kind: PUBLISHED_SCHOLARLY_REPORT
-            source: New_Testament_Studies_Lords_Prayer_Matthew_John
-            report: "Published discussion reports Greek witnesses 162 and 700 plus Gregory of Nyssa and Maximus for a Holy-Spirit petition in Luke's prayer."
-          - kind: INDIRECT_MARCION_TESTIMONY
-            source: PAT-MARCION-LUKE11-SPIRIT-PETITION
-            report: "Tertullian supports the existence of some Spirit petition in Marcion's Gospel; modern reassessment warns that exact wording reconstruction exceeds the evidence."
-        reported_support:
-          greek_sigla_unbound:
-            - "162"
-            - "700"
-          patristic:
-            - Gregory_of_Nyssa
-            - Maximus
-          lost_text_testimony:
-            - Marcion_Gospel_via_Tertullian
-        exact_wording_state: NOT_RECOVERABLE_WITH_CONFIDENCE
+            source: New_Testament_Studies_Lords_Prayer_variant_studies
+            report: "Published studies distinguish the kingdom-substitution witness family from Marcion's indirectly attested Spirit request."
         witness_binding: PUBLISHED_REPORT_AND_INDIRECT_TESTIMONY_NOT_PHYSICAL_COLLATION
-        state: MINORITY_VARIANT_REAL_EXACT_FORM_UNCERTAIN
-        guard: "The existence of a Spirit-petition tradition is stronger than any one reconstructed wording. Do not promote theological fit with Luke's pneumatology into originality."
+        state: MINORITY_SPIRIT_TRADITIONS_REAL_RELATION_NOT_NORMALIZED
+        guard: "The existence of Spirit-petition traditions is stronger than any single normalized wording or placement. Do not promote theological fit with Luke's pneumatology into originality."
 
       - id: LUKE11-4-DELIVERANCE-PETITION
         shorter_form: "Ends after the testing/temptation petition."
