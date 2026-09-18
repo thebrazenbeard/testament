@@ -5,7 +5,7 @@ Purpose: narrate the transition from executed teacher to resurrected Lord withou
 ## Proposed chapters
 
 1. **After**
-   Immediate grief, fear, dispersal, uncertainty.
+   Immediate aftermath: what can and cannot be reconstructed about grief, fear, dispersal, regrouping, and uncertainty.
 
 2. **The Body**
    Burial traditions, Joseph of Arimathea, tomb questions, Roman/Jewish burial context.
@@ -14,7 +14,7 @@ Purpose: narrate the transition from executed teacher to resurrected Lord withou
    Magdalene traditions; women witnesses; divergent sequences.
 
 4. **Peter**
-   appearance traditions, failure, authority, restoration.
+   appearance traditions; failure traditions; later restoration motifs; authority development.
 
 5. **James**
    brother of Yeshua and later leadership; appearance tradition from Paul.
@@ -26,7 +26,7 @@ Purpose: narrate the transition from executed teacher to resurrected Lord withou
    visions, appearances, embodiment, grief, revelation, theological interpretation; competing explanatory models.
 
 8. **Jerusalem**
-   earliest community, Temple participation, sharing, conflict.
+   earliest Jerusalem movement reconstructed from Paul, Acts, and other evidence with source controls; Temple participation, sharing, leadership, and conflict tested proposition by proposition.
 
 9. **Saul**
    persecutor/call narrative, Paul's own account versus Acts.

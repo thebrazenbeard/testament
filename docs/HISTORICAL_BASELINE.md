@@ -23,8 +23,8 @@ At the level broadly accepted in historical scholarship and already compatible w
 - conflict over purity, Sabbath, status, and authority;
 - a disruptive Temple action;
 - expectation of divine transformation/judgment;
-- a deliberate symbolic circle of twelve;
-- unusual inclusion of marginal people and women followers;
+- women followers/supporters;
+- meal and association traditions involving tax collectors/"sinners," with their exact historical scope unresolved;
 - some perception by followers or opponents that his activity carried messianic or royal implications.
 
 Each requires source-specific treatment rather than being assumed scene-by-scene.
@@ -36,6 +36,7 @@ Each requires source-specific treatment rather than being assumed scene-by-scene
 - biological paternity;
 - the Panthera/Pandera traditions;
 - exact duration of ministry;
+- historicity, composition, and symbolic intent of "the Twelve" as a group instituted by Yeshua;
 - exact chronology of the final week;
 - exact words at trial/execution;
 - burial details;

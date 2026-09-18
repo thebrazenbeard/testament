@@ -50,7 +50,7 @@ The literary/theological purposes differ.
 ## Historical ceiling
 
 Strong:
-- later first-century Christian communities preserved infancy/birth traditions associated with Bethlehem and Davidic identity.
+- Matthew and Luke preserve distinct infancy/birth traditions associating Yeshua with Bethlehem and Davidic identity.
 
 Plausible:
 - Yeshua was raised in Nazareth/Galilee.
@@ -66,6 +66,6 @@ Unresolved:
 
 ## Manuscript consequence
 
-Book I chapter "A Child With Too Many Stories" should present the birth narratives as competing memories/traditions surrounding a person whose adult life became important enough to draw scriptural meaning backward into infancy.
+Book I chapter "A Child With Too Many Stories" should present the birth narratives as competing literary/traditional narratives surrounding a person whose adult life became important enough to draw scriptural meaning backward into infancy.
 
 The literary text may dramatize uncertainty; it may not disguise harmonization as recovered biography.

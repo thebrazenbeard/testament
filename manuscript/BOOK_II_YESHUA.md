@@ -5,22 +5,22 @@ Purpose: construct the strongest narratively coherent life possible without hidi
 ## Proposed chapters
 
 1. **The Water**
-   Baptism; competing Gospel renderings; historical association; visionary experience left phenomenologically open.
+   Baptism; competing Gospel renderings; historical association with John; reported voice/Spirit/vision traditions kept distinct from the historical floor.
 
-2. **After the Voice**
-   Wilderness/withdrawal tradition; temptation as literary, psychological, theological, and possibly experiential frame.
+2. **After the Water**
+   Wilderness/withdrawal and temptation traditions as literary/theological frames; historicity and phenomenology remain open.
 
 3. **The Kingdom**
    First proclamation; define kingdom/reign historically before later interpretation.
 
 4. **The Circle**
-   Followers, Twelve symbolism, women followers, household networks.
+   Followers; traditions of Twelve symbolism pending dedicated historicity review; women followers; household networks.
 
 5. **Bodies**
    Healings, exorcisms, illness, reputation, compassion, magic accusations.
 
 6. **Table**
-   Food, sinners, purity, debt, status, inclusion and scandal.
+   Food, tax collectors/"sinners," debt, status, hospitality and social-boundary controversy; ritual-purity implications tested per scene rather than assumed.
 
 7. **Torah**
    Sabbath, purity, divorce, oath, enemy, neighbor, intention, authority.
