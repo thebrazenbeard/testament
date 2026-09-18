@@ -78,20 +78,34 @@ records:
     passage: Luke_11_2
     kind: GREEK_AND_PATRISTIC_MINOR_VARIANT_REPORT
     relation: REPLACES_KINGDOM_PETITION
-    reported_form_family: "May your Holy Spirit come upon us and cleanse us."
-    reported_support:
-      - Greek_minuscule_162
-      - Greek_minuscule_700
+    physical_greek_witnesses:
+      - id: WIT-162-BARB-GR-449
+        reported_folio: "151"
+        form_state: SPIRIT_PETITION_WITHOUT_UPON_US
+      - id: WIT-700-EGERTON-2610
+        reported_folio: "184"
+        form_state: SPIRIT_PETITION_WITH_UPON_US
+    patristic_support:
       - Gregory_of_Nyssa
       - Maximus
+    witness_specific_forms:
+      WIT_700:
+        report: "Metzger reports 700 with 'May your Holy Spirit come upon us and cleanse us.'"
+        distinguishing_feature: "Includes the phrase corresponding to 'upon us.'"
+      WIT_162:
+        report: "Metzger reports 162 with a different possessive word order and without the phrase corresponding to 'upon us.'"
+        distinguishing_feature: "Omits 'upon us'; wording is not identical to 700."
     evidence:
+      - source: Metzger_Textual_Commentary_Luke_11_2
+        report: "Critical commentary explicitly distinguishes the forms in 700 and 162."
       - source: Published_Lords_Prayer_variant_studies
-        report: "Published studies describe this witness family as substituting a Holy-Spirit petition for 'your kingdom come.'"
+        report: "Published studies describe the witness family as substituting a Holy-Spirit petition for 'your kingdom come.'"
         url: "https://www.cambridge.org/core/journals/new-testament-studies/article/abs/lords-prayer-in-matthew-and-in-john/A7F43BF0573EA3607BB0DC83A25FD7EB"
-    exact_wording_state: REPORTED_VARIANT_FORM_WITH_WITNESS_LEVEL_DIFFERENCES
+    exact_wording_state: PHYSICAL_GREEK_WITNESSES_BOUND_WORDING_DIFFERENCE_EXPLICIT
     guard:
-      - "Witness 162 is reported with a slightly different form; do not flatten all support into one exact string."
-      - "These sigla/patristic citations are not yet physically bound in Testament's witness registry."
+      - "162 and 700 are related witnesses to a Spirit-petition variant family, not identical strings."
+      - "Gregory and Maximus remain patristic citation evidence, not physical Gospel manuscript nodes."
+      - "Late Greek manuscript preservation does not date the origin of the variant."
 
   - id: PAT-MARCION-LUKE11-SPIRIT-PETITION
     passage: Luke_11_2
