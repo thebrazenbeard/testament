@@ -791,6 +791,7 @@ variants:
       passage: Luke_17_20_21
       working_text: ED-SBLGNT
       key_phrase: "entos hymon"
+      lexicon_control: research/lexicon/ENTOS_WITHIN_AMONG_V1.md
       translation_state: DISPUTED
       live_options:
         - "within you"
@@ -799,6 +800,10 @@ variants:
       additional_attested_option:
         - "within your reach/power"
       option_note: "The reach/power rendering is less common but remains part of the documented interpretive field and is not silently excluded."
+      lexical_evidence:
+        - "The other New Testament use of entos is Matthew 23:26, where it denotes the inside/interior of a cup."
+        - "Roberts notes that Luke uses en tō mesō repeatedly for among/in-the-midst language, so entos should not be flattened into Luke's ordinary midst idiom."
+        - "Roberts's papyrological/patristic argument favors a within-your-power sense; Testament records this as a scholarly argument, not project fact."
       guard: "No English gloss is treated as lexically certain enough to carry Book VIII's agency thesis by itself."
 
     thomas_3:
