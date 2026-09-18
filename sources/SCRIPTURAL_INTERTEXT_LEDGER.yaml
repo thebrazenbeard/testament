@@ -2,6 +2,19 @@ schema_version: testament.scriptural_intertext_ledger.v1
 status: RESEARCH_ACTIVE
 
 relations:
+  - id: INT-DOUBLE-LOVE-DEUT6-LEV19
+    source:
+      - Deuteronomy_6_4_5
+      - Leviticus_19_18
+    reception:
+      - Mark_12_28_34
+      - Matthew_22_34_40
+      - Luke_10_25_28
+    type: TORAH_SUMMARY_AND_COMBINATION
+    historical_claim: "The Jesus tradition combines already-existing Torah commands; Christianity is not treated as inventing love in contrast to Judaism."
+    dependence_guard: "Synoptic differences concern literary framing, ordering, and redaction; the scriptural inputs themselves are prior Jewish sources."
+    supersession_guard: "Do not narrate love as replacing Jewish law; the move is Jewish scriptural interpretation."
+
   - id: INT-ISAIAH40-JOHN
     source: Isaiah_40_3
     reception: [Mark_1, Matthew_3, Luke_3, John_1]
