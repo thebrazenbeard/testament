@@ -25,6 +25,36 @@ Status: LIVE INDEX
 - WOMEN_FOLLOWERS_V1
 - JAMES_PETER_PAUL_V1
 
+## Alternative and apocryphal sources
+
+- ALTERNATIVE_GOSPELS_SOURCE_CONTROL_V1
+- INFANCY_APOCRYPHA_V1
+- MARY_AUTHORITY_RECEPTION_V1
+
+## Later reception and comparative metaphysics
+
+- QURANIC_JESUS_MARY_V1
+- KABBALAH_SPARKS_REPAIR_V1
+- EARLY_CHRISTIAN_DIVERSITY_V1
+- MARCION_AND_SCRIPTURE_V1
+- CANON_FORMATION_V1
+
+## Modern philosophical / cross-disciplinary controls
+
+- VOICE_SIDECHANNEL_SCIENCE_V1
+- SIMULATION_PHILOSOPHY_V1
+
+## Structured ledgers and controls
+
+- sources/P0_SOURCE_LEDGER.yaml
+- sources/APOCRYPHA_SOURCE_LEDGER.yaml
+- sources/RECEPTION_SOURCE_LEDGER.yaml
+- sources/EARLY_CHRISTIAN_DIVERGENCE_LEDGER.yaml
+- speculation/HYPOTHESIS_REGISTRY.yaml
+- speculation/FALSIFICATION_MATRIX.md
+- convergence/YESHUA_CONVERGENCE_V1.md
+- MANUSCRIPT_READINESS.md
+
 ## Upstream specialized research still consumed from On-Theo
 
 - Panthera/Celsus/Origen
