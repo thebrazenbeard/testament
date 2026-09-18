@@ -248,6 +248,83 @@ variants:
     manuscript_rule: "Book III must display Matthew, Luke and Thomas as distinct extant forms. Any Greek back-translation of Thomas 54/68/69 is reconstruction and must be marked as such."
 
 
+
+  - id: VAR-ASK-SEEK-KNOCK-THOMAS-2-92
+    saying: SAY-ASK-SEEK-KNOCK
+    control_kind: CROSS_SOURCE_RELATED_SEEKING_TRADITIONS_PLUS_INTRA_THOMAS_TRANSMISSION
+    passages:
+      - Matthew_7_7_11
+      - Luke_11_9_13
+      - Thomas_2
+      - Thomas_92
+    consequence: SEEKING_PRAYER_WORDING_THOMAS_TRANSMISSION_AND_DEPENDENCE
+
+    synoptic_forms:
+      Matthew_7_7_11:
+        working_text: ED-SBLGNT
+        form_note: "Ask/receive, seek/find, knock/opened, followed by parent-child gift analogy and 'good things' climax."
+        guard: "Matthew's climax is not harmonized with Luke's."
+      Luke_11_9_13:
+        working_text: ED-SBLGNT
+        form_note: "Ask/receive, seek/find, knock/opened, followed by parent-child gift analogy and Holy Spirit climax."
+        guard: "Luke's Holy Spirit climax remains a distinct extant form rather than being normalized to Matthew."
+
+    thomas_forms:
+      Thomas_2:
+        greek_witness: WIT-POXY-654-GOSPEL-THOMAS
+        coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+        relation_to_synoptics: RELATED_SEEK_FIND_TRADITION_NOT_EXACT_ASK_SEEK_KNOCK_PARALLEL
+        transmission_state: GREEK_AND_COPTIC_FORMS_NOT_IDENTICAL
+        published_comparison:
+          greek_fragment: "Published reconstructions of fragmentary P.Oxy. 654 preserve seek/find and a progression through astonishment/reigning/rest."
+          coptic_form: "The Coptic NHC II form preserves seek/find followed by disturbance/astonishment and reigning, without the same final rest clause."
+        guard: "The Greek papyrus is fragmentary; restored lacunae remain scholarly reconstruction. Neither form is promoted to the exact historical wording."
+      Thomas_92:
+        coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+        greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+        relation_to_synoptics: RELATED_SEEK_FIND_TRADITION
+        form_note: "The extant Coptic saying begins with seek/find language but develops into a saying about questions formerly asked and no longer being sought."
+        guard: "Thomas 92 must not be treated as if P.Oxy. 654 or another Greek fragment directly witnesses it."
+
+    greek_fragment_control:
+      P_Oxy_654:
+        witness: WIT-POXY-654-GOSPEL-THOMAS
+        date: "ca. 200-250 CE"
+        scope: "opening lines through logion 7"
+        directly_relevant_to_cluster:
+          - Thomas_2
+        not_witnessed:
+          - Thomas_92
+      conclusion: "This cluster contains one Thomas saying with Greek+Coptic evidence and another with currently bound Coptic-only evidence."
+
+    dependence_control:
+      Matthew_Luke:
+        state: DISPUTED
+        guard: "Double-tradition similarity is compatible with Q-like shared tradition or direct literary dependence under competing Synoptic models."
+      Thomas_2_92_vs_Synoptics:
+        state: RELATED_TRADITION_DIRECTION_UNRESOLVED
+        guard: "Shared seek/find language does not establish direct copying, independence, priority, or one recoverable original."
+      Thomas_internal:
+        state: TRANSMISSION_VARIATION_ESTABLISHED_FOR_LOGION_2
+        guard: "Greek/Coptic divergence in Thomas 2 is evidence of textual transmission, not permission to select whichever form better fits a reconstruction."
+
+    historical_ceiling:
+      strong:
+        - "Matthew and Luke preserve closely related ask/seek/knock complexes with distinct climactic wording."
+        - "Thomas 2 is directly witnessed in both fragmentary Greek P.Oxy. 654 and Coptic NHC II."
+        - "Thomas 92 is directly witnessed in NHC II but has no surviving Greek witness currently bound by Testament."
+        - "The Greek and Coptic forms of Thomas 2 are not textually identical."
+      not_secure:
+        - "That Thomas 2 or 92 derives directly from Matthew or Luke."
+        - "That Matthew or Luke derives directly from Thomas."
+        - "That Q uniquely explains the Matthew/Luke relation."
+        - "That P.Oxy. 654 supplies a complete, unrestored Greek text of Thomas 2."
+        - "That the Greek Thomas 2 form is automatically earlier in composition because its surviving witness is earlier."
+        - "A single original saying combining all Synoptic and Thomas elements."
+
+    manuscript_rule: "Book III must present Matthew, Luke, Thomas 2 Greek/Coptic, and Thomas 92 as distinct extant/transmitted forms. Do not reconstruct one mega-saying or cite a Greek Thomas 92 that does not survive."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
