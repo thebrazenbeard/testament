@@ -100,6 +100,12 @@ clusters:
       - Thomas_92_related
     dependence_state: DISPUTED
     packet: research/packets/ASK_SEEK_KNOCK_V1.md
+    source_controls:
+      - SRC-GOSPEL-THOMAS
+    variant_controls:
+      - VAR-ASK-SEEK-KNOCK-THOMAS-2-92
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-LOST-FOUND
     topic: lost sheep / recovery
