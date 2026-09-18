@@ -95,6 +95,85 @@ variants:
 
     manuscript_rule: "Book III must not print a harmonized Lord's Prayer as recovered speech. Any reconstructed core must mark every inferred word and keep Matthew/Luke/Didache transmission hypotheses visible."
 
+
+  - id: VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
+    saying: SAY-ENEMY-LOVE
+    passage: Matthew_5_44
+    parallels:
+      - Luke_6_27_28
+      - Didache_1_3_4
+    consequence: ENEMY_LOVE_WORDING_AND_INTERTEXTUAL_HARMONIZATION
+    working_text:
+      edition: ED-SBLGNT
+      state: SHORTER_MATTHEAN_FORM
+      guard: "The critical working form does not by itself establish the wording spoken by Yeshua."
+
+    variant_units:
+      - id: MATT5-44-LUKE-LIKE-EXPANSION
+        shorter_form: "Love enemies; pray for persecutors."
+        expansion_family: "Adds clauses corresponding closely to Luke 6:27-28: blessing those who curse, doing good to those who hate, and prayer for mistreatment/persecution."
+        evidence:
+          - kind: PUBLISHED_TEXTUAL_NOTE
+            source: NET_Bible_Matthew_5_44
+            report: "The shorter form is reported in Sinaiticus and Vaticanus among other witnesses; the expanded form is reported in Bezae, Washingtonianus, Koridethi/Theta and a broad later stream."
+          - kind: TEXTUAL_CAUSATION_ASSESSMENT
+            source: NET_Bible_Matthew_5_44
+            report: "The expansion is assessed as motivated assimilation to Luke 6:27-28."
+        witness_support:
+          shorter:
+            - WIT-01-CODEX-SINAITICUS
+            - WIT-03-CODEX-VATICANUS
+          expansion:
+            - WIT-D05-CODEX-BEZAE
+            - WIT-032-CODEX-WASHINGTONIANUS
+            - WIT-038-CODEX-KORIDETHI
+        witness_binding: SCHOLARLY_TEXTUAL_NOTE_NOT_AUTOPTIC
+        state: STRONG_HARMONIZATION_CONTROL
+
+    didache_parallel:
+      source: SRC-DIDACHE
+      passage: Didache_1_3d_4a
+      physical_witnesses:
+        - WIT-POXY-1782-DIDACHE
+        - WIT-DIDACHE-H54-HIEROSOLYMITANUS
+      transmission_state: MULTIBRANCH_TEXTUAL_HISTORY
+      evidence:
+        - kind: SCHOLARLY_WITNESS_REPORT
+          source: Bentley_Layton
+          doi: "10.1017/S0017816000029242"
+          report: "P.Oxy. 1782 directly preserves Didache 1.3d-4a; H preserves the complete section. Layton places the papyrus/Apostolic-Constitutions line in a different transmission branch from H."
+      guard: "A physical Didache witness establishes the Didache text's transmission, not independent historical attestation of Yeshua's wording."
+
+    source_relation:
+      Matthew_Luke:
+        state: DISPUTED
+        guard: "The shared enemy-love complex may be explained through Q-like shared tradition or direct literary dependence under competing Synoptic models."
+      Didache_Synoptics:
+        state: HIGHLY_DISPUTED
+        positions:
+          - scholar: Bentley_Layton
+            position: "Treats the Didache compositor in this section as using Matthean material, including Matthew 5:39-42 and 5:43-48."
+            doi: "10.1017/S0017816000029242"
+          - scholar: Alan_Garrow
+            position: "Under the Matthew Conflator hypothesis, proposes Didache 1.2-5a as an extant source-like instance feeding Luke and ultimately Matthew."
+            doi: "10.1017/S0028688516000072"
+        guard: "Neither direction of dependence is promoted to project fact; oral/shared sayings and other compositional models remain live."
+
+    historical_ceiling:
+      strong:
+        - "Matthew 5:44 underwent textual harmonization toward the fuller Lukan wording in a substantial manuscript stream."
+        - "Didache 1.3d-4a is physically attested by P.Oxy. 1782 by the late fourth century and by the complete H manuscript in 1056."
+        - "The enemy-love/non-retaliation complex circulated in multiple early Christian textual settings."
+      not_secure:
+        - "That Matthew's shorter critical form is the exact historical wording."
+        - "That Luke preserves a verbatim fuller original."
+        - "That Didache is independent of Matthew and Luke."
+        - "That Didache is a source for Luke or Matthew."
+        - "That three extant literary forms equal three independent historical witnesses."
+
+    manuscript_rule: "Book III comparison must use the shorter critical Matthew 5:44 as the working Matthean form while exposing the Luke-like expansion. Didache may be shown as a distinct transmitted form, but its independence must remain unresolved."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
