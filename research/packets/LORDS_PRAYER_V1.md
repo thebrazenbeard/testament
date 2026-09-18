@@ -166,15 +166,33 @@ They are now separated.
 
 Published scholarship reports a minority tradition in which the kingdom petition is replaced by a Holy-Spirit petition.
 
-Reported support includes:
-- Greek minuscules 162 and 700;
-- Gregory of Nyssa;
-- Maximus.
+The two Greek manuscripts are now physically bound:
 
-The form is commonly represented along the lines of:
-"May your Holy Spirit come upon us and cleanse us."
+- `WIT-162-BARB-GR-449`
+  - Vatican Apostolic Library `Barb.gr.449`;
+  - dated by colophon to 13 May 1153;
+  - Luke occupies ff. 119r–187v;
+  - scholarly passage locator: folio 151.
 
-Even here, witness-level wording is not perfectly flat.
+- `WIT-700-EGERTON-2610`
+  - British Library `Egerton MS 2610`;
+  - 11th century;
+  - Luke occupies ff. 145r–229v;
+  - scholarly passage locator: folio 184.
+
+Gregory of Nyssa and Maximus remain patristic citation evidence rather than manuscript identities.
+
+The two Greek witnesses are **not textually identical**.
+
+Metzger's critical commentary reports:
+- 700 with the fuller form corresponding to "May your Holy Spirit come **upon us** and cleanse us";
+- 162 with a different possessive word order and **without** the "upon us" phrase.
+
+Therefore Testament no longer stores one normalized Greek string for the whole family.
+
+Current state:
+
+**same variant family / two physically identified late Greek witnesses / non-identical wording / direct image collation pending.**
 
 #### Marcion family
 
