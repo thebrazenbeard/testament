@@ -307,6 +307,9 @@ witnesses:
       - passage: Thomas_92
         reading_state: EXTANT_COPTIC_ONLY_CURRENTLY_BOUND
         reading_note: "Directly preserves a seek/find saying related to the Synoptic ask/seek/knock cluster; Testament has no surviving Greek manuscript witness for logion 92."
+      - passage: Thomas_20
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves the mustard-seed parable in the Coptic Gospel of Thomas; no currently bound Greek Thomas fragment preserves logion 20."
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/cairo-coptic-museum-inv-10544-nag-hammadi-codex-ii/"
