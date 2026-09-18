@@ -11,7 +11,7 @@ This file exists to prevent outlines from being mistaken for research completion
 | V — The Many Christs | SUBSTANTIAL FOUNDATION | deeper primary Valentinian/Marcionite/Johannine text packets, ritual/community comparison, exact witness controls |
 | VI — Echoes | SUBSTANTIAL FOUNDATION | early tafsir/hadith, more Syriac/Ethiopic/Armenian reception, councils after Nicaea, rabbinic manuscript deepening |
 | VII — The Kingdom Within | STRONG CONCEPTUAL / EVIDENCE ACTIVE | predictive-processing/agency, philosophy of mind, observer effects, stronger discriminators for speculative models |
-| VIII — Testament of the Spark | THESIS DEFINED / PROSE INTENTIONALLY DEFERRED | cross-tradition spark/immanence map and dependence on reviewed Books I–VII |
+| VIII — Testament of the Spark | SYNTHESIS ARCHITECTURE STRONG / PROSE DEFERRED | hostile review of cross-tradition map and dependence on reviewed Books I–VII |
 
 ## What changed
 
@@ -41,6 +41,6 @@ Sustained canonical manuscript prose should wait until the relevant scene or say
 1. Finish Book III's remaining major sayings clusters and witness-level lexical checks.
 2. Run hostile review across the historical spine for Books I–IV.
 3. Deepen Book V–VI primary-text packets rather than relying on overview scholarship.
-4. Build a cross-tradition "spark / immanence / agency" map for Book VIII without collapsing distinct traditions.
+4. Hostile-review the cross-tradition "spark / immanence / agency" map, including the early-Buddhist countermodel and naturalist control.
 
 Do not merge Foundation V1 until exact-head review and Patrick's explicit merge authorization.
