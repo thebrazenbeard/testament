@@ -82,7 +82,7 @@ A scene with a listed variant must name the stable variant ID and satisfy its ma
 3. Mark 16 ending — earliest attainable Markan text is currently judged by ECM scholarship to end at 16:8; later endings remain reception/canonical evidence but cannot be silently attributed to the earliest recoverable Markan form.
 4. Lukan genealogy — manuscript formatting and transmission produce substantial variation across witnesses; genealogy comparison must not assume zero textual instability.
 5. Mark 6:3 — "the carpenter, the son of Mary" versus an early alternative "son of the carpenter and Mary"; textual choice does not establish paternity stigma.
-6. Luke 23:34a — the forgiveness prayer is absent from an important early textual stream but defended as original by other scholarship; exact local witness binding remains pending and the project treats the earliest reading as contested.
+6. Luke 23:34a — the forgiveness prayer is absent from an important early textual stream but defended as original by other scholarship; named physical witnesses are now bound through published scholarship/institutional metadata, autoptic collation remains undone, and the earliest reading remains contested.
 
 ## Stop condition
 
