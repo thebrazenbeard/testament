@@ -1,22 +1,32 @@
-schema_version: testament.hostile_review_i_iv.v2
+schema_version: testament.hostile_review_i_iv.v3
 overall_status: ACTIVE
 complete: false
+
 tranche_1:
   original_target: ffe4cf8e8531afdbe7980175474413637635b193
   repair_target: 6729d637c870040f38f0012462607b1938bbad2b
   status: PASS_FOR_TRANCHE
   finding_range: HR-IIV-001..HR-IIV-014
+
 tranche_2:
   original_target: 6729d637c870040f38f0012462607b1938bbad2b
   repair_target: 34bacd484eb0cc9fa012a39d489d6d900b552491
   status: PASS_FOR_TRANCHE
   finding_range: HR-IIV-015..HR-IIV-023
+
+tranche_3:
+  original_target: 76c8ed9942968ca3144cef2037e3b1c77bf83cc5
+  repair_target: 7b98cb029581e23792efcec9d40bfa65dee6ae39
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-IIV-024..HR-IIV-029
+
 next_scope:
-  - primary_source_and_witness_checks
-  - literary_dependence
-  - exact_chronology
-  - scene_level_construction_budgets
-  - contradiction_register_instantiation
+  - textual_base_policy
+  - source_work_witness_claim_separation
+  - variant_sensitive_pericope_packets
+  - primary_text_scene_comparisons
+  - remaining_partial_source_gate_packets
+
 invariants:
   - "Tranche PASS is exact-head-bound."
   - "Overall review remains ACTIVE until all declared review scopes close."
