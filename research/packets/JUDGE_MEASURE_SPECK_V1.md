@@ -74,6 +74,29 @@ Reference:
 - NASSCAL, P.Oxy. I 1:
   https://www.nasscal.com/manuscripta-apocryphorum/oxford-bodleian-library-ms-gr-th-e-7-p-p-oxy-i-1/
 
+### Exact Greek/Coptic overlap — Thomas 26
+
+The Greek/Coptic comparison is now bound more narrowly.
+
+P.Oxy. I 1 begins within Thomas 26 and preserves only the latter portion of the saying.
+
+The surviving Greek overlap includes the concluding sequence in which clearer sight follows and the speck is removed from the sibling's eye.
+
+NHC II preserves the complete Coptic saying, including the earlier beam/speck setup.
+
+Therefore Testament records:
+- genuine Greek/Coptic overlap in the conclusion;
+- no complete Greek witness to Thomas 26;
+- no license to reconstruct the opening Greek wording from Coptic;
+- no secure whole-logion variant map from the surviving fragment.
+
+The correct collation result is:
+**limited overlap, not a recovered Greek saying.**
+
+Reference:
+- P.Oxy. I 1 manuscript scope: NASSCAL.
+- Published Greek/Coptic comparison: GospelThomas.com / Attridge and Layton translations.
+
 ### Cluster control
 
 Thomas 26 preserves the speck/log image.
