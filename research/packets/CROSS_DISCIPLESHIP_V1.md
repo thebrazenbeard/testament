@@ -1,6 +1,6 @@
 # Carrying the Cross / Discipleship V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Primary forms
 
@@ -37,6 +37,67 @@ Luke adds "daily" in 9:23, which may represent Lukan redactional intensification
 Matthew preserves the saying in more than one literary context.
 
 The forms cannot all be treated as separate historical occasions without argument.
+
+## Witness-control advance — Thomas 55 and retrojection risk
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-CROSS-DISCIPLESHIP-THOMAS-55`
+- `sources/WITNESS_REGISTRY_V1.yaml`
+- `WIT-NHC-II-GOSPEL-THOMAS`
+
+Thomas 55 is already physically bound in Nag Hammadi Codex II.
+
+For this cluster it matters because Thomas 55 joins:
+- family renunciation;
+- cross-bearing;
+- worthiness/disciple language.
+
+No surviving Greek Thomas fragment currently bound by Testament reaches logion 55.
+
+### Plausibility is not authenticity
+
+The Roman world makes pre-crucifixion cross imagery historically possible.
+
+That blocks the simplistic argument:
+
+> Jesus could not have said anything like this before his own execution.
+
+But the reverse shortcut is equally invalid:
+
+> because the image was available, the saying is therefore authentic.
+
+Post-execution Christian retrojection remains independently plausible.
+
+### Redaction control
+
+The surviving forms differ:
+- Mark embeds cross-bearing in a passion/disciple sequence;
+- Matthew uses related forms in more than one literary setting;
+- Luke adds "daily" in 9:23 and preserves another form in 14:27;
+- Thomas 55 combines cross-bearing with family-renunciation language.
+
+These forms are evidence for transmission and redaction.
+They are not automatically separate historical occasions.
+
+### Same-source guard
+
+Thomas 55 already participates in the family-renunciation control.
+
+Reusing that logion here for a cross-bearing question does not create a second independent Thomas witness.
+
+### Current historical ceiling
+
+Established:
+- cross-bearing language is embedded in multiple early Christian discipleship traditions;
+- Thomas 55 directly preserves related language in Coptic NHC II;
+- pre-death use of Roman execution imagery is historically possible.
+
+Not established:
+- exact pre-death wording;
+- authenticity of any one cross-bearing form;
+- originality of Luke's "daily";
+- Thomasine independence.
 
 ## Historical ceiling
 
