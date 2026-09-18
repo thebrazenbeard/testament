@@ -1,0 +1,167 @@
+schema_version: testament.saying_ledger.v1
+status: RESEARCH_ACTIVE
+
+invariants:
+  - "A saying version is an extant textual form, not automatically the historical wording."
+  - "Three Synoptic occurrences are not three independent witnesses when literary dependence is probable."
+  - "Q is a reconstruction under one family of Synoptic hypotheses, not an extant manuscript."
+  - "Thomas parallels are evaluated per saying; neither blanket independence nor blanket dependence is assumed."
+  - "Didache parallels are reception/transmission evidence unless independence is separately established."
+  - "Authored synthesis in Book III never becomes a reconstructed quotation."
+
+clusters:
+  - id: SAY-LORDS-PRAYER
+    topic: prayer / kingdom / bread / debt-forgiveness / testing
+    versions:
+      - Matthew_6_9_13
+      - Luke_11_2_4
+      - Didache_8_2
+    dependence_state: DISPUTED
+    notes:
+      - "Matthew and Luke share a recognizable core but differ in length and wording."
+      - "Two-Source models commonly assign the shared core to Q; Farrer-type models explain it through direct Gospel dependence."
+      - "Didache's relation to Matthew, Q-like tradition, or liturgical transmission remains debated."
+    packet: research/packets/LORDS_PRAYER_V1.md
+
+  - id: SAY-ENEMY-LOVE
+    topic: enemy love / non-retaliation / beneficence
+    versions:
+      - Matthew_5_38_48
+      - Luke_6_27_36
+      - Didache_1_3_5
+    dependence_state: SHARED_TRADITION_OR_DIRECT_DEPENDENCE_DISPUTED
+    packet: research/packets/ENEMY_LOVE_NONRETALIATION_V1.md
+
+  - id: SAY-DOUBLE-LOVE
+    topic: love of God and neighbor
+    versions:
+      - Mark_12_28_34
+      - Matthew_22_34_40
+      - Luke_10_25_28
+    scriptural_inputs:
+      - Deuteronomy_6_4_5
+      - Leviticus_19_18
+    dependence_state: MARKAN_WITH_REDACTION_AND_LUKAN_RELOCATION_QUESTIONS
+    packet: research/packets/LOVE_GOD_NEIGHBOR_V1.md
+
+  - id: SAY-BEATITUDES
+    topic: poor / hungry / mourning / persecution / reversal
+    versions:
+      - Matthew_5_3_12
+      - Luke_6_20_23
+      - Thomas_54
+      - Thomas_68_69
+    dependence_state: DOUBLE_TRADITION_PLUS_THOMAS_RELATION_DISPUTED
+    packet: research/packets/BEATITUDES_WOES_V1.md
+
+  - id: SAY-FORGIVENESS-DEBT
+    topic: debt / sin / forgiveness / reconciliation
+    versions:
+      - Matthew_6_12_15
+      - Luke_11_4
+      - Mark_11_25
+      - Matthew_18_21_35
+      - Luke_7_41_50
+    dependence_state: MULTIPLE_RELATED_TRADITIONS
+    packet: research/packets/FORGIVENESS_DEBT_V1.md
+
+  - id: SAY-JUDGE-NOT
+    topic: judgment / reciprocity / measure
+    versions:
+      - Matthew_7_1_5
+      - Luke_6_37_42
+      - Mark_4_24_related
+      - Thomas_26_related
+    dependence_state: COMPOSITE_CLUSTER
+    status: BACKLOG
+
+  - id: SAY-ASK-SEEK-KNOCK
+    topic: prayer / seeking / divine response
+    versions:
+      - Matthew_7_7_11
+      - Luke_11_9_13
+      - Thomas_2_related
+      - Thomas_92_related
+    dependence_state: DISPUTED
+    status: BACKLOG
+
+  - id: SAY-LOST-FOUND
+    topic: lost sheep / recovery
+    versions:
+      - Matthew_18_12_14
+      - Luke_15_3_7
+      - Thomas_107
+    dependence_state: DISPUTED
+    status: BACKLOG
+
+  - id: SAY-MUSTARD
+    topic: kingdom parable
+    versions:
+      - Mark_4_30_32
+      - Matthew_13_31_32
+      - Luke_13_18_19
+      - Thomas_20
+    dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
+    status: BACKLOG
+
+  - id: SAY-SOWER
+    topic: kingdom / reception / interpretation
+    versions:
+      - Mark_4_3_20
+      - Matthew_13_3_23
+      - Luke_8_5_15
+      - Thomas_9
+    dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
+    status: BACKLOG
+
+  - id: SAY-WICKED-TENANTS
+    topic: vineyard / violence / authority / judgment
+    versions:
+      - Mark_12_1_12
+      - Matthew_21_33_46
+      - Luke_20_9_19
+      - Thomas_65_66
+    dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
+    status: BACKLOG
+
+  - id: SAY-FIRST-LAST
+    topic: reversal
+    versions:
+      - Mark_10_31
+      - Matthew_19_30
+      - Matthew_20_16
+      - Luke_13_30
+      - Thomas_4
+    dependence_state: MULTIPLE_PLACEMENTS
+    status: BACKLOG
+
+  - id: SAY-TAKE-CROSS
+    topic: discipleship / suffering
+    versions:
+      - Mark_8_34
+      - Matthew_10_38
+      - Matthew_16_24
+      - Luke_9_23
+      - Luke_14_27
+      - Thomas_55_related
+    dependence_state: MULTIPLE_REDACTIONAL_FORMS
+    status: BACKLOG
+
+  - id: SAY-CAESAR
+    topic: taxation / God / imperial authority
+    versions:
+      - Mark_12_13_17
+      - Matthew_22_15_22
+      - Luke_20_20_26
+      - Thomas_100
+    dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
+    status: BACKLOG
+
+  - id: SAY-KINGDOM-WITHIN-AMONG
+    topic: kingdom location / perception
+    versions:
+      - Luke_17_20_21
+      - Thomas_3_related
+      - Thomas_113_related
+    dependence_state: NO_SIMPLE_DIRECT_PARALLEL
+    status: BACKLOG
