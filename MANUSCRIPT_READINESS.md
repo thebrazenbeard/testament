@@ -6,7 +6,7 @@ This file exists to prevent outlines from being mistaken for research completion
 |---|---|---|
 | I — The World | STRONG FOUNDATION / RESEARCHING | deeper ordinary-life/economy, priestly detail, geography, material-culture source packets |
 | II — Yeshua | STRONG FOUNDATION / P0-P1 ACTIVE | disciple-by-disciple source work, ministry geography, scene-specific healing packets, hostile review |
-| III — The Sayings | STRUCTURED / SAYING-LEVEL RESEARCH ACTIVE | remaining cluster packets, pericope-level Greek/witness review, Thomas/Didache dependence, saying ledger maturation |
+| III — The Sayings | CLUSTER SET COMPLETE / WITNESS REVIEW ACTIVE | pericope-level Greek/witness review, Thomas/Didache dependence, hostile review and saying ledger maturation |
 | IV — Death and What Followed | STRONG FOUNDATION / HOSTILE REVIEW NEEDED | burial/appearance adversarial review, grief/vision literature, Acts-vs-Paul chronology |
 | V — The Many Christs | SUBSTANTIAL FOUNDATION | deeper primary Valentinian/Marcionite/Johannine text packets, ritual/community comparison, exact witness controls |
 | VI — Echoes | SUBSTANTIAL FOUNDATION | early tafsir/hadith, more Syriac/Ethiopic/Armenian reception, councils after Nicaea, rabbinic manuscript deepening |
@@ -38,8 +38,8 @@ Sustained canonical manuscript prose should wait until the relevant scene or say
 
 ## Current best frontier
 
-1. Finish Book III's remaining major sayings clusters and witness-level lexical checks.
-2. Run hostile review across the historical spine for Books I–IV.
+1. Run hostile review across the historical spine for Books I–IV.
+2. Deepen Book III witness-level Greek/textual review and Thomas/Didache dependence.
 3. Deepen Book V–VI primary-text packets rather than relying on overview scholarship.
 4. Hostile-review the cross-tradition "spark / immanence / agency" map, including the early-Buddhist countermodel and naturalist control.
 
