@@ -75,14 +75,51 @@ Current named-witness binding:
 - Codex Vaticanus: simple `Father`;
 - Codex Bezae: expanded `Our Father in heaven`.
 
-At Luke 11:4:
+### Direct Codex Sinaiticus electronic-transcription readback
+
+The official Codex Sinaiticus Project page localizes Luke 10:21–11:6 to:
+- British Library;
+- folio 236b;
+- scribe A.
+
+Its visible electronic transcription directly confirms:
+- Luke 11:2 opens with simple `Father`;
+- Sinaiticus includes the Matthean-style will petition in Luke 11:2;
+- the plain extracted transcription of Luke 11:4 ends after the testing petition, without visibly displaying the deliverance phrase.
+
+That direct readback forced a correction to Testament's earlier hand-state claim.
+
+The project had previously said:
+- original inclusion;
+- first-corrector doubt;
+- later removal of doubt.
+
+That sequence is now **withdrawn**.
+
+The published NET apparatus instead assigns:
+- longer deliverance form: Sinaiticus corrector 1;
+- shorter form: Sinaiticus original hand and corrector 2.
+
+Some older secondary summaries describe a different sequence.
+
+Therefore current Sinaiticus state at Luke 11:4 is:
+
+**CORRECTION-STATE CONFLICT / DIRECT CORRECTION-POPUP AND IMAGE-LAYER READBACK REQUIRED.**
+
+The plain transcription and correction apparatus are different display layers.
+Testament will not infer exact corrector chronology from the plain text alone.
+
+At Luke 11:4 the secure current comparison is:
 - P75: omits the deliverance petition;
 - Vaticanus: omits it;
 - Bezae: includes it;
-- Sinaiticus: original inclusion, first-corrector doubt, later removal of that doubt.
+- Sinaiticus: visible electronic transcription is shorter, while correction-layer chronology remains unresolved.
 
-This improves the apparatus without changing the evidence ceiling:
-named witness binding is not autoptic verification, and the shorter critical form is not automatically the exact historical prayer.
+This improves the apparatus while lowering one overconfident claim rather than raising confidence artificially.
+
+References:
+- Codex Sinaiticus Project, BL folio 236b, Luke 10:21–11:6.
+- NET Bible textual apparatus, Luke 11:4.
 
 ## Versional and patristic expansion — Luke 11
 
