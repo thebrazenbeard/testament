@@ -269,6 +269,9 @@ witnesses:
         scholarship:
           - url: "https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/"
           - url: "https://www.earlychristianwritings.com/thomas/gospelthomas2.html"
+      - passage: Thomas_4
+        reading_state: EXTANT_FRAGMENTARY_GREEK
+        reading_note: "Directly preserves the first/last reversal within Thomas 4; the published Greek reconstruction includes both first-to-last and last-to-first wording before the unity clause."
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/"
@@ -316,6 +319,9 @@ witnesses:
       - passage: Thomas_107
         reading_state: EXTANT_COPTIC
         reading_note: "Directly preserves the lost-sheep parable with the distinctive largest-sheep and love-more-than-the-ninety-nine motifs; no currently bound Greek Thomas fragment preserves logion 107."
+      - passage: Thomas_4
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves Thomas 4 in Coptic; the extant Coptic form contains first-to-last wording but omits the reciprocal last-to-first phrase present in the Greek P.Oxy. 654 reconstruction."
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/cairo-coptic-museum-inv-10544-nag-hammadi-codex-ii/"
