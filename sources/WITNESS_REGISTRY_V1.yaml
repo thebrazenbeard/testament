@@ -54,6 +54,16 @@ witnesses:
         scholarship:
           - url: "https://greeknewtestament.net/lk6-5"
           - url: "https://www.newadvent.org/cathen/04083a.htm"
+      - passage: Luke_11_2_opening_address
+        reading_state: EXPANDED_MATTHEAN_STYLE_ADDRESS
+        reading_note: "Published apparatus summaries report Bezae with the expanded 'Our Father in heaven' form."
+        scholarship:
+          - source: "Bruce_Terry_Student_Guide_Luke_11_2"
+      - passage: Luke_11_4_deliverance_petition
+        reading_state: EXPANDED_DELIVERANCE_FORM
+        reading_note: "Published textual summaries report Bezae among witnesses including the Matthean-style deliverance-from-evil petition."
+        scholarship:
+          - source: "Bruce_Terry_Student_Guide_Luke_11_4"
     limitations:
       - "Testament has not performed autoptic manuscript collation."
       - "D05's age does not establish that every distinctive reading is earlier than rival readings."
@@ -121,6 +131,16 @@ witnesses:
           - doi: "10.2307/25765950"
     institutional_metadata:
       - "Vatican Library identifies P75 as Hanna Papyrus 1 and dates it to the early third century."
+      - passage: Luke_11_2_opening_address
+        reading_state: SHORTER_FATHER_ONLY
+        reading_note: "Published apparatus summaries report P75 supporting the simple opening 'Father' rather than the Matthean-style 'Our Father in heaven.'"
+        scholarship:
+          - source: "Bruce_Terry_Student_Guide_Luke_11_2"
+      - passage: Luke_11_4_deliverance_petition
+        reading_state: SHORTER_OMITS_DELIVERANCE
+        reading_note: "Published textual summaries report P75 omitting the Matthean-style deliverance-from-evil petition."
+        scholarship:
+          - source: "Bruce_Terry_Student_Guide_Luke_11_4"
     limitations:
       - "Variant reading is presently bound through scholarly report, not autoptic collation by Testament."
 
@@ -151,6 +171,16 @@ witnesses:
         reading_note: "Published textual notes report Sinaiticus among witnesses to the shorter form: love enemies and pray for persecutors without the Luke-like expansion."
         scholarship:
           - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
+      - passage: Luke_11_2_opening_address
+        reading_state: SHORTER_FATHER_ONLY
+        reading_note: "Published apparatus summaries report Sinaiticus supporting the simple opening 'Father.'"
+        scholarship:
+          - source: "Bruce_Terry_Student_Guide_Luke_11_2"
+      - passage: Luke_11_4_deliverance_petition
+        reading_state: BASE_TEXT_PRESENT_FIRST_CORRECTOR_DOUBTFUL_LATER_DOUBT_REMOVED
+        reading_note: "Published summaries report the deliverance petition included by the original scribe, marked doubtful by the first corrector, with a later corrector removing the doubt mark. This is hand-state evidence and must not be collapsed to a simple codex-level present/absent binary."
+        scholarship:
+          - source: "Codex_Sinaiticus_published_variant_summary_Luke_11_4"
     limitations:
       - "Corrector sequence for Luke 23:34a remains apparatus/image-verification work."
       - "One codex does not define an earliest reading by itself."
@@ -179,6 +209,16 @@ witnesses:
         reading_note: "Published textual notes report Vaticanus among witnesses to the shorter form without the Luke 6:27-28-like expansion."
         scholarship:
           - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
+      - passage: Luke_11_2_opening_address
+        reading_state: SHORTER_FATHER_ONLY
+        reading_note: "Published apparatus summaries report Vaticanus supporting the simple opening 'Father.'"
+        scholarship:
+          - source: "Bruce_Terry_Student_Guide_Luke_11_2"
+      - passage: Luke_11_4_deliverance_petition
+        reading_state: SHORTER_OMITS_DELIVERANCE
+        reading_note: "Published textual summaries report Vaticanus omitting the Matthean-style deliverance-from-evil petition."
+        scholarship:
+          - source: "Codex_Vaticanus_published_variant_summary_Luke_11_4"
     limitations:
       - "Variant readings are presently bound through published scholarship/apparatus reports, not Testament autoptic collation."
 
