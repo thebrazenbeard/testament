@@ -69,6 +69,28 @@ References:
 - Codex Bezae overview:
   https://www.newadvent.org/cathen/04083a.htm
 
+### Folio-level apparatus deepening
+
+The Cambridge-pericope locator is now manuscript-specific at scholarly folio level.
+
+Ernst Bammel identifies the Bezae addition at:
+- Codex Bezae Cantabrigiensis;
+- Cambridge University Library MS Nn.2.41;
+- fol. 205b/206a.
+
+This materially improves the control:
+the project no longer knows only that "Bezae has the reading"; it knows where the reading is reported to occur in the codex.
+
+But the evidence level remains:
+
+**scholarly folio locator / not direct Testament image readback.**
+
+The direct Cambridge digital-image route did not resolve in the available search surface during this pass, so Testament does not claim autoptic confirmation.
+
+Reference:
+- Ernst Bammel, "The Cambridge Pericope. The Addition to Luke 6.4 in Codex Bezae," *New Testament Studies* 32 (1986): 404–426.
+  DOI 10.1017/S0028688500013655
+
 ### Historical-use guard
 
 The variant is especially tempting because it fits Testament's interest in informed agency and responsibility.
