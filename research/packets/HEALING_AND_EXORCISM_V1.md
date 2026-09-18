@@ -34,8 +34,8 @@ Henning argues that exorcism narratives should be studied within ancient healing
 
 ## Historical reconstruction
 
-Strong at reputation level:
-- Yeshua was remembered very early and extensively as a healer/exorcist.
+Strong at extant narrative-tradition level:
+- Yeshua is remembered prominently and repeatedly in the Synoptic tradition as a healer/exorcist.
 
 Plausible:
 - some kind of healing/exorcistic practice was a major feature of the historical ministry.

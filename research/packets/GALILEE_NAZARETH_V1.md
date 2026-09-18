@@ -60,6 +60,10 @@ But proximity does not establish:
 
 Those are hypotheses requiring evidence.
 
+## Context-to-biography firewall
+
+Regional evidence about taxation, debt, inequality, urban development, trade, patronage, or material culture establishes the range of conditions in which Yeshua lived. It does not by itself establish that Yeshua's household was indebted, that he worked in a city, that he personally experienced a particular tax burden, or that any one regional pattern applied to Nazareth in a specific scene.
+
 ## Archaeological method
 
 James Strange's overview of Gospel archaeology stresses reconstruction through settlements, houses, ritual baths, artifacts, pottery, glass, coins and stone vessels rather than treasure-hunting for named biblical persons.

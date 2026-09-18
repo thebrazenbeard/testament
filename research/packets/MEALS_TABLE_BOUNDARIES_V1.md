@@ -49,6 +49,14 @@ Meals intersect:
 
 These dimensions should be recorded independently before synthesis.
 
+## Purity guard
+
+Meals with tax collectors or people labeled "sinners" should not automatically be described as violations of ritual-purity law. Cecilia Wassen argues that purity concerns play only a minor role in these meal traditions and that the conflict is better read primarily through social norms/boundaries unless a specific scene supplies purity evidence.
+
+Reference:
+- Cecilia Wassen, "Jesus' Table Fellowship with 'Toll Collectors and Sinners': Questioning the Alleged Purity Implications":
+  DOI 10.1163/17455197-01402004
+
 ## Manuscript consequence
 
 Book II's "Table" chapter should use meals to show social order physically: who reclines where, who serves, who is invited, who is watched, who becomes scandalous by being present.

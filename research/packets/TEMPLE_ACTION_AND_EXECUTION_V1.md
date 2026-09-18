@@ -10,7 +10,9 @@ What most plausibly connects Yeshua's Jerusalem activity to Roman execution?
 
 All four canonical Gospels contain a Temple confrontation/action, though John relocates it near the beginning of the public narrative while the Synoptics place it in the final Jerusalem sequence.
 
-That chronological divergence must remain visible.
+That is canonical ubiquity, not four independent attestations. The literary relationship of John's Temple-action tradition to the Synoptic tradition remains a separate source-critical question.
+
+The chronological divergence must remain visible.
 
 ## Historical weight
 
@@ -48,13 +50,16 @@ These are not equivalent.
 
 ## Historical ceiling
 
-Strong:
-- a Temple confrontation tradition is multiply embedded in Gospel tradition;
+Strong at the textual level:
+- a Temple confrontation/action tradition appears in all four canonical Gospels;
 - Yeshua dies under Roman authority;
 - "King of the Jews" is politically intelligible.
 
-Plausible reconstruction:
+Historically plausible/probable reconstruction:
+- an underlying Temple action occurred;
 - Jerusalem/Temple activity materially contributed to the arrest/execution pathway.
+
+The probability of an underlying action must be argued from source criticism, context, and explanatory fit rather than by counting four Gospels as four independent witnesses.
 
 Unresolved:
 - exact scale of the disturbance;
