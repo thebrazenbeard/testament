@@ -3,6 +3,9 @@
 Status: PRIMARY_BINDING_ACTIVE / NOT_PROSE_READY
 Scene ID: SCN-II-BAPTISM
 
+Variant controls:
+- VAR-LUKE-3-22-BAPTISM-VOICE
+
 ## Historical question
 
 What can be responsibly narrated about Yeshua's baptism and the voice/Spirit traditions attached to it?
