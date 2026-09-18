@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v2
+schema_version: testament.hostile_review_book_iii.v3
 overall_status: ACTIVE
 complete: false
 
@@ -23,6 +23,16 @@ tranche_2:
   repaired_findings:
     - HR-BIII-003_LUKE17_21_TRANSLATION_FIELD_NARROWING
 
+tranche_3:
+  original_target: a81563c1334394479c7ec37f207b1b59537ec6be
+  repair_target: 6311e3ec5348b763c50860f757cf93ba82d81e6a
+  review_report_commit: ae2a8f60ee1aed1a6cff1e29118a8d1d9b63da5d
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE3_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-004..HR-BIII-004
+  repaired_findings:
+    - HR-BIII-004_BEZAE_SABBATH_PLACEMENT
+
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
   - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
@@ -36,6 +46,16 @@ reviewed_controls:
   - VAR-JUDGE-SPECK-THOMAS-26
   - VAR-KINGDOM-WITHIN-THOMAS-3-113
   - VAR-WICKED-TENANTS-THOMAS-65-66
+  - VAR-SABBATH-BEZAE-LUKE-6-5
+  - VAR-DIVORCE-PAUL-1COR-7-RECEPTION
+  - VAR-CROSS-DISCIPLESHIP-THOMAS-55
+  - VAR-DOUBLE-LOVE-TORAH-SUMMARY
+  - VAR-FORGIVENESS-DEBT-MATT-LUKE-DIDACHE
+
+cluster_maturation:
+  packeted_saying_clusters: 18
+  matured_control_bindings: 18
+  status: CONTROL_LAYER_BACKLOG_CLOSED
 
 remaining_debt:
   - LUKE11_2_OPENING_ADDRESS_DEEPER_WITNESS_BINDING
@@ -46,13 +66,14 @@ remaining_debt:
   - THOMAS_SYNOPTIC_DEPENDENCE_BIBLIOGRAPHY_DEEPENING
   - THOMAS_3_AND_26_EXACT_GREEK_COPTIC_COLLATION
   - LUKE17_21_ENTOS_LEXICAL_DEEPENING
-  - REMAINING_BOOK_III_CLUSTERS
+  - P46_INSTITUTIONAL_METADATA_DEEPENING
+  - BEZAE_LUKE6_IMAGE_APPARATUS_VERIFICATION
 
 next_scope:
-  - REMAINING_BOOK_III_CLUSTER_MATURATION
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_3
+  - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_4
 
 invariants:
   - "Tranche PASS is exact-head-bound."
@@ -62,4 +83,6 @@ invariants:
   - "Witness date never becomes composition date."
   - "Greek reconstruction never becomes extant manuscript text."
   - "Project theological preference never resolves an evidence-layer translation dispute."
+  - "Early reception never becomes a manuscript witness to later Gospel wording."
+  - "Historical plausibility never becomes authenticity."
   - "No hostile-review pass authorizes merge or manuscript promotion."
