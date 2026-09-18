@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v3
+schema_version: testament.hostile_review_book_iii.v4
 overall_status: ACTIVE
 complete: false
 
@@ -32,6 +32,17 @@ tranche_3:
   finding_range: HR-BIII-004..HR-BIII-004
   repaired_findings:
     - HR-BIII-004_BEZAE_SABBATH_PLACEMENT
+
+
+tranche_4:
+  original_target: e5a38120d09057dc9ca6f466c89c594fb95f1bcc
+  repair_target: 6185f751f3e7cb5bd544b876f5d4169bdcdb22e0
+  review_report_commit: 0e2347f1395c1d7d1ccdf6a908b7a2cfd0d06782
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE4_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-005..HR-BIII-005
+  repaired_findings:
+    - HR-BIII-005_STATUS_LAG_AFTER_LUKE11_APPARATUS_DEEPENING
 
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
@@ -73,7 +84,7 @@ next_scope:
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_4
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_5
 
 invariants:
   - "Tranche PASS is exact-head-bound."
