@@ -30,6 +30,14 @@ records:
           coptic: WIT-NHC-II-GOSPEL-THOMAS
           greek: NONE_SURVIVING_CURRENTLY_BOUND
           guard: "Do not infer an extant Greek Thomas 92 from the existence of other Oxyrhynchus Thomas fragments."
+      parable_cluster:
+        direct_witnesses:
+          - WIT-NHC-II-GOSPEL-THOMAS
+        sayings:
+          - Thomas_9
+          - Thomas_20
+        greek: NONE_SURVIVING_CURRENTLY_BOUND
+        guard: "P.Oxy. 654 stops within logion 7; P.Oxy. 1 and 655 preserve later but non-overlapping sayings. Do not cite any surviving Greek Thomas fragment as witness for logia 9 or 20."
     source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
     limits:
       - "Composition history and relation to Synoptics remain debated."
