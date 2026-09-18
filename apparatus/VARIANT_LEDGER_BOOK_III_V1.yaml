@@ -58,7 +58,12 @@ variants:
             - WIT-03-CODEX-VATICANUS
           expansion:
             - WIT-D05-CODEX-BEZAE
-        witness_binding: SCHOLARLY_TEXTUAL_NOTE_NOT_AUTOPTIC
+            - WIT-01-CODEX-SINAITICUS
+        sinaiticus_direct_transcription:
+          manuscript_locator: "British Library folio 236b, Luke 10:21-11:6"
+          state: EXPANDED_WILL_PETITION_VISIBLE
+          guard: "Official electronic transcription linked to the manuscript page; not Testament image-level autopsy."
+        witness_binding: SCHOLARLY_TEXTUAL_NOTE_PLUS_DIRECT_ELECTRONIC_TRANSCRIPTION_NOT_AUTOPTIC
         state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE
 
       - id: LUKE11-2-HOLY-SPIRIT-PETITION
@@ -98,18 +103,29 @@ variants:
           - kind: PUBLISHED_TEXTUAL_NOTE
             source: NET_Bible_Luke_11_4
             report: "The omission is reported for P75 and Vaticanus among other witnesses; the expansion is reported in a broad stream including Bezae."
-          - kind: PUBLISHED_HAND_STATE_SUMMARY
-            source: Codex_Sinaiticus_Luke_11_4
-            report: "Sinaiticus is reported with the petition in the original text, a first-corrector doubt mark, and a later corrector removing that doubt mark."
+          - kind: DIRECT_ELECTRONIC_TRANSCRIPTION
+            source: Codex_Sinaiticus_Project_BL_folio_236b
+            report: "The indexed official transcription visibly ends Luke 11:4 after the testing petition and does not display the deliverance phrase in plain extracted text."
+          - kind: PUBLISHED_TEXTUAL_APPARATUS
+            source: NET_Bible_Luke_11_4
+            report: "NET assigns the longer reading to Sinaiticus corrector 1 and the shorter reading to the original hand and corrector 2."
+          - kind: SECONDARY_HAND_STATE_SUMMARY_CONFLICT
+            source: Older_Codex_Sinaiticus_secondary_summaries
+            report: "Some secondary summaries describe an incompatible hand sequence. Testament withdraws the prior normalized sequence until the official correction popup/image-linked apparatus is read directly."
         witness_support:
           shorter:
             - WIT-P75-HANNA-1
             - WIT-03-CODEX-VATICANUS
           expansion:
             - WIT-D05-CODEX-BEZAE
-          hand_state_complex:
+          correction_state_conflict:
             - WIT-01-CODEX-SINAITICUS
-        hand_state_note: "Sinaiticus is not collapsed into either the simple shorter or expansion bucket because its correction history is materially relevant."
+        sinaiticus_state:
+          manuscript_locator: "British Library folio 236b, Luke 10:21-11:6"
+          visible_transcription: SHORTER_ENDING
+          apparatus_report: "longer = corrector 1; shorter = original hand and corrector 2"
+          state: CONFLICT_DIRECT_CORRECTION_POPUP_READBACK_REQUIRED
+          guard: "Plain electronic transcription and correction-layer apparatus are distinct display layers; do not infer exact hand chronology from the plain text alone."
         versional_patristic_support:
           expanded:
             - VP-LUKE11-4-LONGER-VERSIONAL-STREAMS
@@ -118,8 +134,8 @@ variants:
             - VP-LUKE11-4-SHORTER-VERSIONAL-STREAMS
             - PAT-ORIGEN-ON-PRAYER-LUKE11
         versional_guard: "Old Latin/Syriac/Vulgate/Sahidic and patristic evidence are not counted as physical Greek manuscripts and may reflect translation or harmonization history."
-        witness_binding: SCHOLARLY_TEXTUAL_HAND_STATE_VERSIONAL_PATRISTIC_REPORT_NOT_AUTOPTIC
-        state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE_WITH_SINAITICUS_AND_VERSIONAL_STATE_BOUND
+        witness_binding: DIRECT_ELECTRONIC_TRANSCRIPTION_PLUS_PUBLISHED_APPARATUS_CORRECTION_CONFLICT
+        state: HARMONIZATION_TOWARD_MATTHEW_PLAUSIBLE_SINAITICUS_HAND_CHRONOLOGY_UNRESOLVED
 
     source_relation:
       Matthew_Luke:
