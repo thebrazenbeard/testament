@@ -4,10 +4,10 @@ This file exists to prevent outlines from being mistaken for research completion
 
 | Book | Current readiness | Main missing gates |
 |---|---|---|
-| I — The World | STRONG FOUNDATION / RESEARCHING | deeper ordinary-life/economy, priestly detail, geography, material-culture source packets |
-| II — Yeshua | STRONG FOUNDATION / P0-P1 ACTIVE | disciple-by-disciple source work, ministry geography, scene-specific healing packets, hostile review |
+| I — The World | STRONG FOUNDATION / HOSTILE REVIEW ACTIVE | deeper ordinary-life/economy, priestly detail, geography, material-culture packets; deeper source/witness review |
+| II — Yeshua | STRONG FOUNDATION / HOSTILE REVIEW ACTIVE | disciple-by-disciple source work, scene-specific healing packets, primary-source/dependence review |
 | III — The Sayings | CLUSTER SET COMPLETE / WITNESS REVIEW ACTIVE | pericope-level Greek/witness review, Thomas/Didache dependence, hostile review and saying ledger maturation |
-| IV — Death and What Followed | STRONG FOUNDATION / HOSTILE REVIEW NEEDED | burial/appearance adversarial review, grief/vision literature, Acts-vs-Paul chronology |
+| IV — Death and What Followed | STRONG FOUNDATION / HOSTILE REVIEW ACTIVE | burial/appearance adversarial review, grief/vision literature, Acts-vs-Paul chronology |
 | V — The Many Christs | SUBSTANTIAL FOUNDATION | deeper primary Valentinian/Marcionite/Johannine text packets, ritual/community comparison, exact witness controls |
 | VI — Echoes | SUBSTANTIAL FOUNDATION | early tafsir/hadith, more Syriac/Ethiopic/Armenian reception, councils after Nicaea, rabbinic manuscript deepening |
 | VII — The Kingdom Within | STRONG CONCEPTUAL / EVIDENCE ACTIVE | predictive-processing/agency, philosophy of mind, observer effects, stronger discriminators for speculative models |
@@ -38,8 +38,8 @@ Sustained canonical manuscript prose should wait until the relevant scene or say
 
 ## Current best frontier
 
-1. Run hostile review across the historical spine for Books I–IV.
-2. Deepen Book III witness-level Greek/textual review and Thomas/Didache dependence.
+1. Continue Books I–IV hostile review below the outline layer: primary witnesses, dependence, chronology, construction budgets, and contradiction-register instances. Outline/baseline tranches 1–2 have passed exact-head rereview.
+2. Deepen Book III witness-level Greek/textual review and Thomas/Didache dependence; the saying-cluster backlog is closed.
 3. Deepen Book V–VI primary-text packets rather than relying on overview scholarship.
 4. Hostile-review the cross-tradition "spark / immanence / agency" map, including the early-Buddhist countermodel and naturalist control.
 
