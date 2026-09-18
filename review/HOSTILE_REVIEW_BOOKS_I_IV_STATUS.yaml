@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_i_iv.v4
+schema_version: testament.hostile_review_i_iv.v5
 overall_status: ACTIVE
 complete: false
 
@@ -31,25 +31,24 @@ tranche_5:
   repair_target: 9a30ab343cc8955541db11f87aa27c4b07337d41
   status: PASS_FOR_TRANCHE
   finding_range: HR-IIV-033..HR-IIV-037
-  governed_partial:
-    - id: VAR-LUKE-23-34A-FORGIVENESS
-      state: EXACT_WITNESS_BINDING_PENDING
+
+tranche_6:
+  original_target: 10e13d79c2b6751cf399305e99b0ba6d18851a8f
+  repair_target: 569a222f1f6d7fbc2839f74b6bbc90a46ec0d4e8
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-IIV-038..HR-IIV-041
+  remaining_debt:
+    - AUTOPTIC_HAND_LEVEL_VERIFICATION
+    - VERSIONAL_WITNESS_EXPANSION
 
 next_scope:
-  - exact_variant_witness_binding
   - Book_III_variant_and_witness_controls
+  - exact_variant_autoptic_or_apparatus_deepening
   - remaining_partial_source_gate_packets
-  - primary_text_scene_comparisons
   - grief_vision_and_postdeath_experience_literature
 
 invariants:
   - "Tranche PASS is exact-head-bound."
-  - "PASS may preserve an explicitly governed unresolved research question."
+  - "PASS may preserve explicitly typed unresolved research debt."
   - "Overall review remains ACTIVE until all declared review scopes close."
   - "No hostile-review pass authorizes merge or manuscript promotion."
-
-tranche_6:
-  original_target: 10e13d79c2b6751cf399305e99b0ba6d18851a8f
-  status: FAIL_REPAIRABLE
-  complete: false
-  finding_range: HR-IIV-038..HR-IIV-041
