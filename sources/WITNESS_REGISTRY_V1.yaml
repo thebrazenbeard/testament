@@ -322,6 +322,12 @@ witnesses:
       - passage: Thomas_4
         reading_state: EXTANT_COPTIC
         reading_note: "Directly preserves Thomas 4 in Coptic; the extant Coptic form contains first-to-last wording but omits the reciprocal last-to-first phrase present in the Greek P.Oxy. 654 reconstruction."
+      - passage: Thomas_55
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves a family-renunciation saying combining hatred of parents/siblings with taking up the cross and becoming worthy; no currently bound Greek Thomas fragment preserves logion 55."
+      - passage: Thomas_101
+        reading_state: EXTANT_COPTIC_WITH_LACUNAE
+        reading_note: "Directly preserves a related family-renunciation saying with hate/love antithesis and damaged text around the mother language; the extant witness is lacunose and no currently bound Greek Thomas fragment preserves logion 101."
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/cairo-coptic-museum-inv-10544-nag-hammadi-codex-ii/"
