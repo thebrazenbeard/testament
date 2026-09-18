@@ -249,6 +249,36 @@ witnesses:
       - "Testament has not performed autoptic papyrus collation."
 
 
+
+  - id: WIT-POXY-654-GOSPEL-THOMAS
+    witness_of: [SRC-GOSPEL-THOMAS]
+    witness_kind: Greek_papyrus_fragment
+    common_name: Papyrus_Oxyrhynchus_654
+    publication_siglum: "P.Oxy. IV 654"
+    repository: British_Library
+    shelfmark: "Papyrus 1531"
+    witness_date:
+      precision: "ca. 200-250 CE"
+    language: Greek
+    physical_scope: "Gospel of Thomas opening lines through logion 7"
+    access_mode: DIGITAL_MANUSCRIPT_METADATA_PLUS_SCHOLARLY_TEXTUAL_REPORT
+    locators:
+      - passage: Thomas_2
+        reading_state: EXTANT_FRAGMENTARY_GREEK
+        reading_note: "Directly preserves portions of the seek/find saying. The leaf is fragmentary; restorations of missing text must remain labeled as reconstruction."
+        scholarship:
+          - url: "https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/"
+          - url: "https://www.earlychristianwritings.com/thomas/gospelthomas2.html"
+    manuscript_context:
+      - source: NASSCAL
+        url: "https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/"
+    limitations:
+      - "The surviving leaf is fragmentary; missing letters/clauses are not autoptic facts merely because scholarly restorations are persuasive."
+      - "P.Oxy. 654 preserves Thomas 2 but not Thomas 92."
+      - "Witness date is not the composition date of Gospel of Thomas or logion 2."
+      - "Testament has not performed autoptic papyrus collation."
+
+
   - id: WIT-NHC-II-GOSPEL-THOMAS
     witness_of: [SRC-GOSPEL-THOMAS]
     witness_kind: Coptic_papyrus_codex
@@ -271,6 +301,12 @@ witnesses:
       - passage: Thomas_69
         reading_state: EXTANT_COPTIC
         reading_note: "Directly preserves persecution and hunger beatitude material."
+      - passage: Thomas_2
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves the Coptic seeking/finding sequence; the Coptic sequence differs from the fragmentary Greek P.Oxy. 654 form in its closing progression."
+      - passage: Thomas_92
+        reading_state: EXTANT_COPTIC_ONLY_CURRENTLY_BOUND
+        reading_note: "Directly preserves a seek/find saying related to the Synoptic ask/seek/knock cluster; Testament has no surviving Greek manuscript witness for logion 92."
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/cairo-coptic-museum-inv-10544-nag-hammadi-codex-ii/"
