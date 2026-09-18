@@ -3,7 +3,7 @@
 Status: LIVE INDEX
 
 ## Book I
-- SCN-I-BIRTH — budget in apparatus/SCENE_CONSTRUCTION_BUDGETS_BOOKS_I_IV_V1.yaml; dedicated primary packet still pending.
+- SCN-I-BIRTH — apparatus/scenes/SCN-I-BIRTH_PRIMARY_V1.md
 
 ## Book II
 - SCN-II-BAPTISM — apparatus/scenes/SCN-II-BAPTISM_PRIMARY_V1.md
@@ -21,8 +21,14 @@ Status: LIVE INDEX
 - SCN-IV-BURIAL — apparatus/scenes/SCN-IV-BURIAL_PRIMARY_V1.md
 - SCN-IV-TOMB — apparatus/scenes/SCN-IV-TOMB_PRIMARY_V1.md
 - SCN-IV-APPEARANCES — apparatus/scenes/SCN-IV-APPEARANCE_PRIMARY_V1.md
-- SCN-IV-JERUSALEM — budget exists; dedicated primary packet pending.
-- SCN-IV-SAUL-CALL — budget exists; dedicated primary packet pending.
+- SCN-IV-JERUSALEM — apparatus/scenes/SCN-IV-JERUSALEM_MOVEMENT_PRIMARY_V1.md
+- SCN-IV-SAUL-CALL — apparatus/scenes/SCN-IV-SAUL_CALL_PRIMARY_V1.md
+
+## Structural coverage status
+
+All currently declared high-risk Books I–II and IV scenes in the construction-budget layer now have dedicated primary-binding packets.
+
+This is structural completeness, not historical qualification.
 
 ## Maturity rule
 
