@@ -878,6 +878,58 @@ variants:
     manuscript_rule: "Book III must display the Synoptic joined complex and Thomas's adjacent two-logion arrangement without harmonizing them or converting literary structure into chronology."
 
 
+
+  - id: VAR-SABBATH-BEZAE-LUKE-6-5
+    saying: SAY-SABBATH
+    control_kind: DISTINCTIVE_BEZAE_SABBATH_ADDITION_PLUS_SYNOPTIC_REDACTION
+    passages:
+      - Mark_2_23_28
+      - Mark_3_1_6
+      - Matthew_12_related
+      - Luke_6_related
+      - Luke_6_5_Sabbath_worker_addition
+    consequence: SABBATH_HALAKHA_TEXTUAL_VARIANT_AND_LATER_EXPANSION
+
+    synoptic_control:
+      Mark:
+        form_note: "Preserves grain-plucking and healing controversies, including Mark 2:27 'the Sabbath was made for humankind'."
+        guard: "Mark 2:27 is not automatically generalized across every Sabbath tradition."
+      Matthew_Luke:
+        state: MARKAN_DEPENDENCE_PROBABLE_WITH_REDACTION
+        guard: "Parallel Synoptic forms are not counted as independent historical attestations without source analysis."
+
+    bezae_addition:
+      witness: WIT-D05-CODEX-BEZAE
+      passage: Luke_6_5_Sabbath_worker_addition
+      state: DISTINCTIVE_WESTERN_ADDITION
+      summary: "Bezae inserts a saying about a person working on the Sabbath whose knowledge determines whether the act is blessed or lawbreaking."
+      transmission_guard: "The addition is a real manuscript reading but is not ordinary critical Luke and is not promoted to original Luke or historical Yeshua speech."
+      scholarship:
+        - url: "https://greeknewtestament.net/lk6-5"
+        - url: "https://www.newadvent.org/cathen/04083a.htm"
+
+    jewish_context_guard:
+      rule: "Sabbath disputes must remain intra-Jewish legal/moral interpretation. The sources do not authorize a caricature of Judaism as anti-human legalism."
+      live_questions:
+        - "what counts as prohibited work"
+        - "human need"
+        - "healing"
+        - "scriptural precedent"
+        - "interpretive authority"
+
+    historical_ceiling:
+      strong:
+        - "Early Jesus tradition preserves multiple Sabbath controversy forms."
+        - "Codex Bezae directly witnesses a distinctive Sabbath-worker saying in Luke's textual tradition."
+      not_secure:
+        - "That the Bezae addition belongs to the earliest recoverable Luke."
+        - "That the Bezae addition is a historical saying of Yeshua."
+        - "That Mark 2:27 controls every Sabbath controversy."
+        - "One exact historical controversy sequence."
+
+    manuscript_rule: "Book III may discuss the Bezae Sabbath-worker addition only as a typed textual variant. Book II must narrate Sabbath disputes as Jewish interpretive conflict, not Christianity-versus-legalistic-Judaism."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
