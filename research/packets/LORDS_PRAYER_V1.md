@@ -53,6 +53,8 @@ Published NET textual notes report the shorter form of the will petition in P75 
 
 This is enough to establish a real transmission control: Luke's prayer cannot be treated as textually flat, and later harmonization toward Matthew is strongly plausible in these locations.
 
+Didache 8.2 is now physically bound to `WIT-DIDACHE-H54-HIEROSOLYMITANUS`, the complete Greek Didache witness in Codex Hierosolymitanus 54. That closes the earlier untyped-work-title debt for this comparison. The codex is dated 1056 CE; that is the date of the surviving witness, not the composition date of Didache or of its prayer tradition.
+
 It is not enough to establish:
 - the exact historical wording spoken by Yeshua;
 - a globally original "short form";
