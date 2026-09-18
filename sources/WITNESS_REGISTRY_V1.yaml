@@ -436,7 +436,25 @@ witnesses:
         reading_note: "Directly preserves a family-renunciation saying combining hatred of parents/siblings with taking up the cross and becoming worthy; no currently bound Greek Thomas fragment preserves logion 55."
       - passage: Thomas_101
         reading_state: EXTANT_COPTIC_WITH_LACUNAE
-        reading_note: "Directly preserves a related family-renunciation saying with hate/love antithesis and damaged text around the mother language; the extant witness is lacunose and no currently bound Greek Thomas fragment preserves logion 101."
+        reading_note: "Directly preserves a related family-renunciation saying with hate/love antithesis. Edition/translation witnesses mark several restored words and a larger unresolved lacuna after the clause beginning 'For my mother...' before the contrast with the 'true mother'; reconstructed words are not treated as extant ink. No currently bound Greek Thomas fragment preserves logion 101."
+        edition_binding:
+          - editor: Bentley_Layton
+            work: "Nag Hammadi Codex II, 2-7"
+            year: 1989
+            publisher: Brill
+            role: CRITICAL_EDITION_AND_EDITORIAL_SIGLA
+            doi_editorial_method: "10.1163/9789004438897_006"
+          - author: Simon_Gathercole
+            work: "The Gospel of Thomas: Introduction and Commentary"
+            year: 2014
+            publisher: Brill
+            role: COMMENTARY_AND_LACUNA_CONTROL
+            ebook_isbn: "9789004273252"
+        lacuna_control:
+          key_gap: "A substantial unresolved gap occurs in the mother clause before the surviving contrast to the true mother who gave life."
+          short_restorations: "Several bracketed words in published translations represent editorial restoration rather than surviving readable text."
+          rule: "Do not convert bracketed restoration or the larger mother-clause lacuna into direct manuscript wording."
+        edition_state: EDITION_BOUND_AUTOPTIC_CONFIRMATION_PENDING
       - passage: Thomas_26
         reading_state: EXTANT_COPTIC
         reading_note: "Directly preserves the complete Coptic speck/log saying corresponding to the fragmentary Greek P.Oxy. 1 witness."
