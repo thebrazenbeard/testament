@@ -48,9 +48,9 @@ witnesses:
         reading_note: "Published textual notes report Bezae among witnesses to the expanded form importing Luke 6:27-28-like clauses into Matthew 5:44."
         scholarship:
           - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
-      - passage: Luke_6_5_Sabbath_worker_addition
+      - passage: Luke_6_5D_Sabbath_worker_addition
         reading_state: DISTINCTIVE_BEZAE_ADDITION
-        reading_note: "Codex Bezae inserts a Sabbath-worker saying after Luke 6:5 in which knowing what one is doing determines blessing versus transgression. Published textual commentary reports this as a distinctive Bezae reading; Testament does not promote it to original Luke or historical Yeshua speech."
+        reading_note: "Codex Bezae inserts the Sabbath-worker saying immediately after Luke 6:4 in its sequence; the reading is conventionally referred to as Luke 6:5D. Published textual commentary reports it as a distinctive Bezae reading; Testament does not promote it to original Luke or historical Yeshua speech."
         scholarship:
           - url: "https://greeknewtestament.net/lk6-5"
           - url: "https://www.newadvent.org/cathen/04083a.htm"
