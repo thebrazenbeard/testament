@@ -1,0 +1,40 @@
+schema_version: testament.hostile_review_i_iv.v1
+tranche_1:
+  review_target_sha: ffe4cf8e8531afdbe7980175474413637635b193
+  repair_target_sha: 6729d637c870040f38f0012462607b1938bbad2b
+  status: PASS_FOR_TRANCHE
+  findings:
+    HR-IIV-001: PASS
+    HR-IIV-002: PASS
+    HR-IIV-003: PASS
+    HR-IIV-004: PASS
+    HR-IIV-005: PASS
+    HR-IIV-006: PASS
+    HR-IIV-007: PASS
+    HR-IIV-008: PASS
+    HR-IIV-009: PASS
+    HR-IIV-010: PASS
+    HR-IIV-011: PASS
+    HR-IIV-012: PASS
+    HR-IIV-013: PASS
+    HR-IIV-014: PASS
+tranche_2:
+  review_target_sha: 6729d637c870040f38f0012462607b1938bbad2b
+  status: FAIL_REPAIRABLE
+  complete: false
+  findings:
+    HR-IIV-015: {severity: HIGH, state: FAIL, topic: synoptic_geography_chronology}
+    HR-IIV-016: {severity: MEDIUM, state: FAIL, topic: apocalyptic_uniformity}
+    HR-IIV-017: {severity: MEDIUM, state: FAIL, topic: antipas_framework}
+    HR-IIV-018: {severity: MEDIUM, state: FAIL, topic: compassion_motive}
+    HR-IIV-019: {severity: MEDIUM, state: FAIL, topic: threat_perception}
+    HR-IIV-020: {severity: HIGH, state: FAIL, topic: book_iv_ontological_compression}
+    HR-IIV-021: {severity: MEDIUM, state: FAIL, topic: women_witness_status}
+    HR-IIV-022: {severity: LOW_MEDIUM, state: FAIL, topic: death_rewritten_loaded}
+    HR-IIV-023: {severity: MEDIUM, state: FAIL, topic: purity_conflict_floor}
+overall_status: ACTIVE_FAIL_REPAIRABLE
+complete: false
+invariants:
+  - "Review and rereview statuses are exact-head-bound."
+  - "A passed tranche does not qualify later tranches."
+  - "Narrative sequence is authored unless independently reconstructed."
