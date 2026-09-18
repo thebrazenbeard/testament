@@ -1073,6 +1073,64 @@ variants:
     manuscript_rule: "Book III must print the Torah sources alongside the Gospel forms and preserve redactional differences. The historical interest is combination and prioritization within Jewish interpretation, not invention ex nihilo."
 
 
+
+  - id: VAR-FORGIVENESS-DEBT-MATT-LUKE-DIDACHE
+    saying: SAY-FORGIVENESS-DEBT
+    control_kind: DEBT_SIN_SEMANTIC_FIELD_PLUS_LITURGICAL_TRANSMISSION
+    passages:
+      - Matthew_6_12_15
+      - Luke_11_4
+      - Didache_8_2
+      - Mark_11_25
+      - Matthew_18_21_35
+      - Luke_7_41_50
+    consequence: DEBT_SIN_FORGIVENESS_AND_RECONCILIATION_SEPARATION
+
+    prayer_control:
+      Matthew:
+        form_note: "Uses debt/debtor language in the forgiveness petition."
+      Luke:
+        form_note: "Uses 'sins' for what is forgiven by God while retaining indebtedness language for what others owe the disciple."
+        linked_textual_control: VAR-LUKE-11-2-4-LORDS-PRAYER
+      Didache:
+        source: SRC-DIDACHE
+        witness: WIT-DIDACHE-H54-HIEROSOLYMITANUS
+        form_note: "Didache 8.2 preserves debt/debtor language closely related to Matthew's fiscal metaphor."
+        dependence_state: DISPUTED
+        guard: "Didache's relation to Matthew/shared liturgical tradition remains unresolved; it is not automatically an independent historical witness."
+
+    semantic_control:
+      distinct_fields:
+        - monetary_debt
+        - moral_offense
+        - sin
+        - divine_forgiveness
+        - interpersonal_release
+        - reconciliation
+        - restored_relationship
+        - refusal_of_vengeance
+      rule: "These fields may overlap in the traditions but are not synonyms."
+      guard: "Book VIII's modern boundary/accountability distinctions are authored ethics, not a recovered first-century technical lexicon."
+
+    reciprocity_control:
+      state: PRESENT_ACROSS_MULTIPLE_FORMS
+      guard: "Conditional/reciprocal forgiveness language must be analyzed by source and setting rather than harmonized into one universal mechanism."
+
+    historical_ceiling:
+      strong:
+        - "Forgiveness/release and debt imagery are deeply embedded in the Jesus tradition."
+        - "Matthew and Didache preserve debt/debtor language."
+        - "Luke explicitly juxtaposes sins with indebtedness in the same petition."
+      not_secure:
+        - "One exact original prayer wording."
+        - "A one-to-one equation of monetary debt and moral sin in every source."
+        - "That forgiveness necessarily entails reconciliation or restored access."
+        - "That Didache is independent of Matthew."
+        - "One harmonized rule governing every forgiveness saying."
+
+    manuscript_rule: "Book III must preserve source-specific debt/sin wording and keep Didache dependence visible. Book VIII may develop forgiveness as non-retaliation without erasing accountability, but that is authored synthesis."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
