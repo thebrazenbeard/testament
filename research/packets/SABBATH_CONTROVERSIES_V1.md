@@ -1,6 +1,6 @@
 # Sabbath Controversies V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Primary clusters
 
@@ -39,6 +39,58 @@ Mark 2:27 is absent from Matthew/Luke.
 Its authenticity, redactional status and relation to later Jewish parallels remain disputed.
 
 Therefore it should not automatically control every Sabbath scene.
+
+## Witness-control advance — Codex Bezae Sabbath-worker addition
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-SABBATH-BEZAE-LUKE-6-5`
+- `sources/WITNESS_REGISTRY_V1.yaml`
+- `WIT-D05-CODEX-BEZAE`
+
+Codex Bezae preserves a striking additional Sabbath saying in the Luke 6 textual tradition.
+
+The addition describes Jesus seeing a person working on the Sabbath and distinguishes:
+- one who knows what they are doing and is blessed;
+- one who does not know and is a transgressor of the law.
+
+Published textual commentary treats this as a distinctive Bezae reading rather than ordinary critical Luke.
+
+That gives Testament a real manuscript variant to control.
+
+It does **not** establish:
+- that the saying belonged to the earliest text of Luke;
+- that it goes back to the historical Yeshua;
+- that the Bezae form should be inserted into reconstructed Book III speech.
+
+References:
+- Greek New Testament manuscript comparison, Luke 6:5:
+  https://greeknewtestament.net/lk6-5
+- Codex Bezae overview:
+  https://www.newadvent.org/cathen/04083a.htm
+
+### Historical-use guard
+
+The variant is especially tempting because it fits Testament's interest in informed agency and responsibility.
+
+That thematic fit is not evidence.
+
+The project therefore treats the Bezae saying as:
+**textually real / historically unproven.**
+
+### Jewish-context guard
+
+The variant also must not be used to create a simplistic contrast:
+
+> Jesus understood the spirit of the Sabbath while Judaism only cared about rules.
+
+The underlying controversy remains an intra-Jewish problem of:
+- work;
+- need;
+- interpretation;
+- law;
+- moral knowledge;
+- authority.
 
 ## Historical ceiling
 
