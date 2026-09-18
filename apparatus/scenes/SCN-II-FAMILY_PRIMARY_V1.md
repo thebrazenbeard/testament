@@ -3,6 +3,9 @@
 Status: PRIMARY_BINDING_ACTIVE / UPSTREAM_WITNESS_DEPENDENCY
 Scene ID: SCN-II-FAMILY
 
+Variant controls:
+- VAR-MARK-6-3-MATRONYMIC
+
 ## Upstream dependency
 
 This scene consumes On-Theo research pinned in:
