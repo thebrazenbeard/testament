@@ -402,6 +402,71 @@ variants:
     manuscript_rule: "Book III may compare compact and expanded forms, but must preserve source dependence, witness language, and the difference between absence of material and proof of earlier form."
 
 
+
+  - id: VAR-CAESAR-THOMAS-100
+    saying: SAY-CAESAR
+    control_kind: CROSS_SOURCE_CAESAR_SAYING_WITH_COPTIC_ONLY_THOMAS_WITNESS
+    passages:
+      - Mark_12_13_17
+      - Matthew_22_15_22
+      - Luke_20_20_26
+      - Thomas_100
+    consequence: TAX_SAYING_NARRATIVE_FRAME_AND_THOMAS_EXPANSION
+
+    synoptic_control:
+      Mark:
+        form_note: "Narrative trap scene with coin, image/inscription, and Caesar/God response."
+        guard: "Mark's narrative frame is not assumed to be a verbatim historical transcript."
+      Matthew_Luke:
+        form_note: "Preserve closely related Synoptic forms under probable literary dependence."
+        guard: "Three Synoptic texts are not counted as three independent historical witnesses."
+
+    thomas_control:
+      witness: WIT-NHC-II-GOSPEL-THOMAS
+      passage: Thomas_100
+      language: Coptic
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      form_note: "Thomas preserves a Caesar/God saying in a compact sayings setting and adds a final demand that what belongs to Jesus be given to him."
+      narrative_difference: "The Synoptic adversarial trap frame is absent in the extant Thomas form."
+      guard: "The added final clause is Thomasine textual evidence; it is not retrojected into the historical Synoptic event."
+
+    fragment_scope_guard:
+      P_Oxy_654: "opening through logion 7"
+      P_Oxy_1: "portions of logia 26-33"
+      P_Oxy_655: "logion 24 and portions of 36-39"
+      conclusion: "No surviving Greek Thomas fragment currently bound by Testament witnesses logion 100."
+
+    dependence_control:
+      Synoptics:
+        state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
+      Thomas_vs_Synoptics:
+        state: DISPUTED
+        scholarship:
+          - author: Melissa_Harl_Sellew
+            title: "The Gospel of Thomas and the Synoptics"
+            year: 2023
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        guard: "Thomas 100 may reflect direct dependence, shared tradition, or more complex transmission; no direction is promoted to project fact."
+      Thomas_internal_redaction:
+        state: DISTINCTIVE_EXPANSION_PRESENT
+        guard: "The final Jesus-claim clause is textually distinctive but its compositional stage is not known from the surviving witness alone."
+
+    historical_ceiling:
+      strong:
+        - "A Caesar/tax saying is embedded in the Synoptic tradition."
+        - "Thomas 100 is directly extant in Coptic Nag Hammadi Codex II."
+        - "Thomas 100 contains a distinctive final Jesus-claim clause absent from the Synoptic forms."
+        - "No currently bound Greek Thomas fragment preserves logion 100."
+      not_secure:
+        - "That Thomas 100 is independent of the Synoptics."
+        - "That Thomas's compact form is earlier than the Synoptic narrative."
+        - "That the distinctive final Thomas clause belongs to the historical saying."
+        - "That the Synoptic trap scene occurred exactly as narrated."
+        - "One harmonized Caesar saying combining Synoptic and Thomas material."
+
+    manuscript_rule: "Book III must keep the Synoptic trap narrative and Thomas 100 as distinct textual forms. The Thomas-only final clause must never be silently inserted into reconstructed Yeshua speech."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
