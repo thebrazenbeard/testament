@@ -1,0 +1,106 @@
+schema_version: testament.versional_patristic_book_iii.v1
+status: RESEARCH_ACTIVE
+
+scope:
+  - Book_III
+  - Lord's_Prayer
+  - Luke_11_2_4
+
+records:
+  - id: VP-LUKE11-4-LONGER-VERSIONAL-STREAMS
+    passage: Luke_11_4_deliverance_petition
+    kind: VERSIONAL_APPARATUS_STREAM
+    reading: EXPANDED_DELIVERANCE_FORM
+    reported_support:
+      - siglum: it
+        label: Old_Latin_collective
+        type: VERSIONAL_STREAM_NOT_SINGLE_MANUSCRIPT
+      - siglum: sy_c
+        label: Curetonian_Syriac
+        type: VERSIONAL_WITNESS_WITH_PHYSICAL_NODE
+        physical_witness: WIT-CURETONIAN-SYRIAC
+      - siglum: sy_p
+        label: Peshitta_Syriac
+        type: VERSIONAL_STREAM_NOT_PHYSICALLY_BOUND_HERE
+      - siglum: sy_h
+        label: Harklean_Syriac
+        type: VERSIONAL_STREAM_NOT_PHYSICALLY_BOUND_HERE
+    evidence:
+      - source: NET_Bible_Luke_11_4_textual_note
+        report: "Published apparatus summary lists it and sy(c,p,h) among witnesses adding the Matthean-style deliverance petition."
+        url: "https://classic.net.bible.org/passage.php?passage=Luk+11%3A4"
+    guard:
+      - "Collective version sigla are not physical manuscript identities."
+      - "Versional support may reflect translation history and cross-contamination; it does not automatically establish the Greek archetype."
+      - "The Curetonian physical node is separately bound; Peshitta and Harklean remain stream-level evidence in this ledger."
+
+  - id: VP-LUKE11-4-SHORTER-VERSIONAL-STREAMS
+    passage: Luke_11_4_deliverance_petition
+    kind: VERSIONAL_APPARATUS_STREAM
+    reading: SHORTER_OMITS_DELIVERANCE
+    reported_support:
+      - siglum: vg
+        label: Vulgate
+        type: VERSIONAL_STREAM_NOT_SINGLE_MANUSCRIPT
+      - siglum: sa
+        label: Sahidic_Coptic
+        type: VERSIONAL_STREAM_NOT_SINGLE_MANUSCRIPT
+    evidence:
+      - source: NET_Bible_Luke_11_4_textual_note
+        report: "Published apparatus summary lists vg and sa with the shorter reading."
+        url: "https://classic.net.bible.org/passage.php?passage=Luk+11%3A4"
+      - source: NET_Bible_version_abbreviations
+        report: "NET abbreviation guide distinguishes Old Latin, Vulgate, Syriac, and Sahidic as versional traditions rather than single manuscripts."
+        url: "https://bible.org/list-abbreviations-net-bible-footnotes"
+    guard:
+      - "Vulgate and Sahidic support are versional-stream evidence, not one witness each in the physical-manuscript sense."
+      - "Translation agreement does not equal independent historical attestation of Yeshua."
+
+  - id: PAT-ORIGEN-ON-PRAYER-LUKE11
+    passage: Luke_11_2_4
+    kind: PATRISTIC_CITATION_AND_EXEGESIS
+    author: Origen
+    work: On_Prayer
+    locator: "Chapter XII and following Lord's Prayer exposition"
+    reading_state: SHORTER_LUKAN_FORM_CITED
+    observed_features:
+      - "Luke opens with simple Father rather than Matthew's Our Father in heaven."
+      - "Luke lacks Matthew's will petition."
+      - "Origen's quoted Lukan form ends after the testing petition rather than adding deliverance from evil."
+    evidence:
+      - url: "https://www.ccel.org/ccel/origen/prayer.xiii.html"
+      - url: "https://www.ccel.org/ccel/origen/prayer.xvii.html"
+    guard:
+      - "Origen is a patristic citation/exegete, not a physical Gospel manuscript."
+      - "Patristic citation can preserve textual evidence but may also paraphrase, harmonize, or reflect the author's exemplar."
+
+  - id: PAT-MARCION-LUKE11-SPIRIT-PETITION
+    passage: Luke_11_2
+    kind: INDIRECT_TESTIMONY_TO_LOST_GOSPEL_TEXT
+    lost_text: Marcion_Gospel
+    testimony:
+      - source: Tertullian_Against_Marcion_IV_26
+        state: POLEMICAL_PATRISTIC_TESTIMONY
+        url: "https://www.newadvent.org/fathers/03124.htm"
+      - source: Roth_2012_Lords_Prayer_in_Marcion
+        state: MODERN_RECONSTRUCTION_CONTROL
+        report: "Modern reassessment concludes that Marcion's text had some type of petition for the Spirit in place of the first petition, while warning that reconstructing the exact wording goes beyond the evidence."
+      - source: Recent_NA28_Marcion_reassessment
+        state: MODERN_APPARATUS_REVIEW
+        url: "https://www.cambridge.org/core/journals/new-testament-studies/article/testimony-for-marcions-gospel-in-na28-revisiting-the-apparatus-to-luke-in-the-light-of-recent-research/BA1609CD1FAEE4E429E6BDB8ED0B001B"
+    related_reported_witnesses:
+      - Greek_minuscule_162
+      - Greek_minuscule_700
+      - Gregory_of_Nyssa
+      - Maximus
+    exact_wording_state: NOT_RECOVERABLE_WITH_CONFIDENCE
+    guard:
+      - "Tertullian is indirect hostile testimony about a lost Gospel text."
+      - "The existence of a Spirit petition is stronger than any one proposed reconstruction of its exact wording."
+      - "This tradition does not displace the shorter critical Luke by mere theological attractiveness."
+
+invariants:
+  - "VERSIONAL_STREAM != PHYSICAL_MANUSCRIPT."
+  - "PATRISTIC_CITATION != GOSPEL_MANUSCRIPT."
+  - "INDIRECT_LOST_TEXT_TESTIMONY != EXTANT_TEXT."
+  - "Agreement across versions may reflect shared translation or harmonization history and is not counted mechanically as independent historical attestation."
