@@ -120,3 +120,13 @@ records:
     can_both_be_true: PARTLY_WITH_RECONSTRUCTION
     resolution_class: UNRESOLVED
     manuscript_effect: "Paul's own letters control his self-reported chronology; Acts is compared, not silently harmonized."
+
+  - id: CONTR-PAUL-ACTS-002
+    topic: call_conversion_narrative
+    proposition_A: "Paul's own letters report persecution of the movement followed by a revelatory call/appearance, but do not narrate a Damascus-road dialogue."
+    source_A: [Galatians_1_13_17, First_Corinthians_9_1, First_Corinthians_15_8]
+    proposition_B: "Acts narrates Paul's call three times with developed road, light, voice, companion, and commissioning details."
+    source_B: [Acts_9, Acts_22, Acts_26]
+    can_both_be_true: YES_AT_BROAD_EVENT_LEVEL
+    resolution_class: UNRESOLVED_FOR_NARRATIVE_DETAIL
+    manuscript_effect: "Paul's letters control his self-reported chronology/experience floor; Acts supplies later narrative forms, not transcript detail."
