@@ -90,6 +90,12 @@ clusters:
       - Thomas_26_related
     dependence_state: COMPOSITE_CLUSTER
     packet: research/packets/JUDGE_MEASURE_SPECK_V1.md
+    source_controls:
+      - SRC-GOSPEL-THOMAS
+    variant_controls:
+      - VAR-JUDGE-SPECK-THOMAS-26
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-ASK-SEEK-KNOCK
     topic: prayer / seeking / divine response
@@ -217,6 +223,12 @@ clusters:
       - Thomas_113_related
     dependence_state: NO_SIMPLE_DIRECT_PARALLEL
     packet: research/packets/KINGDOM_WITHIN_AMONG_V1.md
+    source_controls:
+      - SRC-GOSPEL-THOMAS
+    variant_controls:
+      - VAR-KINGDOM-WITHIN-THOMAS-3-113
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-DIVORCE
     topic: divorce / marriage / creation / adultery
