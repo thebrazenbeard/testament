@@ -3,6 +3,9 @@
 Status: PRIMARY_BINDING_ACTIVE / NOT_PROSE_READY
 Scene ID: SCN-IV-TOMB
 
+Variant controls:
+- VAR-MARK-16-ENDING
+
 ## Historical question
 
 What do the canonical tomb narratives actually agree on, and what cannot be fused?
