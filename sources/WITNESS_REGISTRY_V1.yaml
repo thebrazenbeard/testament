@@ -217,6 +217,12 @@ witnesses:
         scholarship:
           - doi: "10.1017/S0017816000029242"
           - doi: "10.1017/9781108554992.014"
+      - passage: Didache_8_2
+        reading_state: EXTANT_COMPLETE_SECTION_IN_H
+        reading_note: "H directly witnesses the Didache 8.2 Lord's Prayer form used for Matthew/Luke/Didache comparison. The manuscript's 1056 date is witness date, not composition date."
+        scholarship:
+          - doi: "10.1017/9781108554992.014"
+          - url: "https://www.cambridge.org/core/journals/scottish-journal-of-theology/article/abs/decline-of-temptation-and-the-lords-prayer/C9A33767542F206ACCF52AFF167D09BE"
     limitations:
       - "Witness date is not composition date."
       - "Testament has not performed autoptic collation of H."
