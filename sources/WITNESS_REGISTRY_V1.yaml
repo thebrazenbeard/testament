@@ -342,9 +342,12 @@ witnesses:
     locators:
       - passage: Thomas_26
         reading_state: EXTANT_FRAGMENTARY_GREEK
-        reading_note: "Directly preserves part of the speck/log saying. The leaf begins within the saying, so missing wording must not be silently supplied from the Coptic witness."
+        reading_note: "Directly preserves only the latter portion of the speck/log saying, including the concluding remove-the-speck sequence. The leaf begins within logion 26, so the opening beam/speck wording preserved in Coptic is not directly witnessed by this Greek fragment."
+        collation_state: LIMITED_OVERLAP_BOUND
+        collation_guard: "Use the Greek fragment only for wording actually preserved/restored in its surviving portion; do not reconstruct the complete Greek Thomas 26 from the Coptic form."
         scholarship:
           - url: "https://www.nasscal.com/manuscripta-apocryphorum/oxford-bodleian-library-ms-gr-th-e-7-p-p-oxy-i-1/"
+          - url: "https://www.earlychristianwritings.com/thomas/gospelthomas26.html"
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/oxford-bodleian-library-ms-gr-th-e-7-p-p-oxy-i-1/"
@@ -378,9 +381,12 @@ witnesses:
         reading_note: "Directly preserves the first/last reversal within Thomas 4; the published Greek reconstruction includes both first-to-last and last-to-first wording before the unity clause."
       - passage: Thomas_3
         reading_state: EXTANT_FRAGMENTARY_GREEK
-        reading_note: "Directly preserves substantial portions of Thomas 3. Some lines are lacunose; Coptic wording must not be used to fill Greek gaps without labeling reconstruction."
+        reading_note: "Directly preserves substantial portions of Thomas 3. Published Greek/Coptic comparison shows a material location-form difference: the Greek form has the second proposed kingdom-location under the earth, while the Coptic form has it in the sea. Some Greek lines remain lacunose; Coptic wording must not be used to fill Greek gaps without labeling reconstruction."
+        collation_state: PUBLISHED_GREEK_COPTIC_COMPARISON_BOUND
+        collation_guard: "Restored Greek phrases, including proposed divine-title wording where lacunose, remain editorial reconstruction rather than extant papyrus text."
         scholarship:
           - url: "https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/"
+          - url: "https://www.earlychristianwritings.com/thomas/gospelthomas3.html"
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/"
