@@ -84,6 +84,12 @@ witnesses:
         scholarship:
           - doi: "10.1093/jts/flae045"
           - doi: "10.1093/jts/flae073"
+      - passage: Luke_11_4_deliverance_petition
+        reading_state: EXPANDED_DELIVERANCE_FORM_VERSIONAL
+        reading_note: "Published textual apparatus reports the Curetonian Syriac (sy-c) among versional witnesses adding the Matthean-style deliverance petition in Luke 11:4."
+        scholarship:
+          - url: "https://classic.net.bible.org/passage.php?passage=Luk+11%3A4"
+        guard: "This binds a published versional reading to the physical Curetonian manuscript node; it does not establish the underlying Greek wording or the original Syriac translation form."
     limitations:
       - "The manuscript date is not the date of the Syriac translation or underlying Greek tradition."
       - "Testament has not performed autoptic collation of Add MS 14451."
