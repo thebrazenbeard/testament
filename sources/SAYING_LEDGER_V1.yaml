@@ -251,3 +251,9 @@ clusters:
       - Thomas_101_related
     dependence_state: DOUBLE_TRADITION_PLUS_RELATED_FORMS
     packet: research/packets/FAMILY_RENUNCIATION_DISCIPLESHIP_V1.md
+    source_controls:
+      - SRC-GOSPEL-THOMAS
+    variant_controls:
+      - VAR-FAMILY-RENUNCIATION-THOMAS-55-101
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
