@@ -3,6 +3,9 @@
 Status: PRIMARY_BINDING_ACTIVE / NOT_PROSE_READY
 Scene ID: SCN-II-CRUCIFIXION
 
+Variant controls:
+- VAR-LUKE-23-34A-FORGIVENESS
+
 ## Historical question
 
 What can be narrated with high confidence about Yeshua's execution, and where do the Passion accounts become source-specific?
