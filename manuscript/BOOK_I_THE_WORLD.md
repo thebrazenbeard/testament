@@ -26,10 +26,10 @@ Purpose: make first-century Galilee/Judea intelligible enough that Yeshua does n
    Yohanan/John, baptism, repentance, judgment, and why people went into the wilderness.
 
 8. **A Child With Too Many Stories**
-   Birth/family traditions presented as later competing memories rather than forced biography.
+   Birth/family traditions presented as later competing literary/traditional narratives rather than forced biography.
 
 ## Closing movement
 
-An adult Yeshua approaches John.
+An adult Yeshua approaches John as the literary bridge into Book II, based on the strong historical reconstruction of their baptismal association.
 
 The book ends before telling the reader what the experience means.

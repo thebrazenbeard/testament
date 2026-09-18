@@ -1,0 +1,147 @@
+schema_version: testament.books_i_iv_source_gate_matrix.v1
+status: ACTIVE
+review_head: 76c8ed9942968ca3144cef2037e3b1c77bf83cc5
+
+legend:
+  PASS_CONTROL: "Control packet adequately defines a method/boundary; not itself a historical event packet."
+  PASS_WITH_NOTES: "Primary/source basis is materially present, but exact witness/edition work may remain."
+  PARTIAL: "Useful research packet, but at least one primary-source/witness/dependence gate remains open."
+  UPSTREAM_BOUND: "Evidence is deliberately inherited from an exact On-Theo source cut."
+
+packets:
+  PAUL_EARLIEST_WITNESS_V1:
+    primary_locator: YES
+    chronology_control: YES
+    dependence_control: YES
+    counterevidence: PARTIAL
+    status: PASS_WITH_NOTES
+    next: "Bind wording-sensitive claims to a declared Greek critical edition/witness."
+
+  JOHN_THE_BAPTIST_V1:
+    primary_locator: YES_JOSEPHUS
+    gospel_primary_readback: PARTIAL
+    chronology_control: PARTIAL
+    counterevidence: YES
+    status: PARTIAL
+    next: "Add exact Gospel pericope inventory and edition binding."
+
+  BIRTH_CHRONOLOGY_V1:
+    primary_locator: SCRIPTURE_LOCATORS_PRESENT
+    witness_control: PARTIAL
+    chronology_control: YES
+    counterevidence: YES
+    status: PARTIAL
+    next: "Bind Matthean/Lukan genealogy and infancy wording to exact critical text; instantiate all contradictions."
+
+  GALILEE_NAZARETH_V1:
+    primary_material_context: YES
+    biography_firewall: YES
+    status: PASS_WITH_NOTES
+    next: "Add site-specific material evidence ledger for claims used in prose."
+
+  FAMILY_HOMETOWN_STIGMA_V1:
+    upstream: "On-Theo @ 5e6db919ab3b40615c14257e2a56751579cb72fe"
+    circularity_guard: YES
+    status: UPSTREAM_BOUND
+    next: "Refresh only if the pinned On-Theo dependency intentionally moves."
+
+  SYNOPTIC_DEPENDENCE_V1:
+    dependence_control: YES
+    countermodels: YES
+    status: PASS_CONTROL
+
+  KINGDOM_OF_GOD_V1:
+    primary_cluster_inventory: YES
+    saying_level_readback: PARTIAL
+    lexical_control: YES
+    status: PARTIAL
+    next: "Bind each high-impact kingdom saying to Book III ledger and exact text."
+
+  HEALING_AND_EXORCISM_V1:
+    narrative_prominence: YES
+    pericope_level_primary_review: PARTIAL
+    mechanism_firewall: YES
+    status: PARTIAL
+    next: "Create representative scene packets before prose."
+
+  TORAH_PURITY_SABBATH_V1:
+    Jewish_context_control: YES
+    pericope_level_primary_review: PARTIAL
+    later_church_backprojection_guard: YES
+    status: PARTIAL
+    next: "Separate each controversy by source/dependence."
+
+  WEALTH_DEBT_ECONOMY_V1:
+    economic_context: YES
+    saying_parable_specific_readback: PARTIAL
+    status: PARTIAL
+
+  MEALS_TABLE_BOUNDARIES_V1:
+    social_context: YES
+    purity_guard: YES
+    scene_level_primary_review: PARTIAL
+    status: PARTIAL
+
+  PARABLES_AND_SAYINGS_PROVENANCE_V1:
+    provenance_control: YES
+    Thomas_guard: YES
+    status: PASS_CONTROL
+
+  SON_OF_MAN_V1:
+    background_control: YES
+    cluster_level_analysis: YES
+    exact_saying_witness_review: PARTIAL
+    status: PARTIAL
+
+  TEMPLE_ACTION_AND_EXECUTION_V1:
+    source_dependence_guard: YES
+    historical_model: YES
+    exact_pericope_witness_review: PARTIAL
+    status: PARTIAL
+    next: "Do not promote until Mark/John relation and saying variants are scene-packeted."
+
+  PILATE_AND_ROMAN_EXECUTION_V1:
+    material_anchor: YES
+    external_context: YES
+    primary_Philo_Josephus_Tacitus_binding: PARTIAL
+    status: PARTIAL
+    next: "Bind external texts directly, not only via modern summaries."
+
+  PASSION_CHRONOLOGY_V1:
+    contradiction_identified: YES
+    exact_calendar_resolution: UNRESOLVED_BY_DESIGN
+    witness_control: PARTIAL
+    status: PARTIAL
+
+  BURIAL_AND_EMPTY_TOMB_V1:
+    questions_separated: YES
+    archaeology_context: YES
+    Joseph_source_development: YES
+    pericope_witness_review: PARTIAL
+    status: PARTIAL
+
+  RESURRECTION_EARLIEST_TRADITION_V1:
+    Pauline_priority: YES
+    appearance_divergence: YES
+    mechanism_firewall: YES
+    critical_text_witness_binding: PARTIAL
+    status: PARTIAL
+
+  WOMEN_FOLLOWERS_V1:
+    source_vs_reconstruction_separated: YES
+    Gospel_role_inventory: PARTIAL
+    later_reception_guard: YES
+    status: PARTIAL
+
+  JAMES_PETER_PAUL_V1:
+    Pauline_primary_basis: YES
+    Josephus_authenticity_dispute: YES
+    Acts_crosscheck: PARTIAL
+    status: PARTIAL
+
+summary:
+  methodological_controls_pass: 2
+  upstream_bound: 1
+  packets_pass_with_notes: 2
+  packets_partial: 15
+  conclusion: "The foundation is broad, but most historical packets are not yet mature enough for unqualified scene prose. Exact primary-text/witness binding is the dominant remaining gate."

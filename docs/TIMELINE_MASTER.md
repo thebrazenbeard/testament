@@ -17,27 +17,26 @@ Dates are approximate unless an exact year is strongly established. Composition 
 ## Yeshua horizon
 
 - Late 1st century BCE / early 1st century CE: birth traditions place Yeshua before Herod's death, while Luke's census framing creates a chronological tension with the later Quirinius census.
-- 4 BCE: death of Herod the Great.
-- 6 CE: Judaea reorganized under direct Roman administration; census under Quirinius.
-- 20s CE: John the Baptist movement.
-- 26–36 CE: Pontius Pilate governs Judaea.
-- Late 20s / early 30s CE: Yeshua's public activity.
-- c. 30 or 33 CE: leading crucifixion chronologies; exact year remains debated.
+- 4 BCE: death of Herod the Great under the standard chronology used by this project; alternative chronologies exist and must be source-argued if invoked.
+- 6 CE: Judaea reorganized under direct Roman administration; census associated with Quirinius.
+- Late 20s / early 30s CE: John the Baptist movement and Yeshua's public-activity horizon; exact overlap/duration remain reconstructed.
+- c. 26–37 CE: Pontius Pilate governs Judaea; exact endpoint convention varies slightly by chronology.
+- Around Passover, roughly 29–34 CE: historically safer crucifixion window for this project. 30 CE and 33 CE are common proposed exact dates, not established facts.
 
 ## Earliest movement
 
-- 30s CE: Jerusalem movement associated with Peter/Cephas, James, and other followers.
-- 30s CE: Paul's conversion/call belongs after the movement already exists.
+- 30s CE: a Jerusalem-connected movement associated with Peter/Cephas, James, and other followers is recoverable from later Pauline contact and early tradition; exact institutional structure is unresolved.
+- 30s CE: Paul's call/reorientation belongs after the movement already exists; exact year is disputed.
 - 40s–50s CE: expanding gentile missions and disputes about Torah, circumcision, table fellowship, and identity.
 - c. 50–60 CE: major undisputed Pauline letters.
 - 60s CE: deaths/traditions concerning major first-generation leaders; exact details vary.
-- 66–73 CE: First Jewish-Roman War.
+- 66–73/74 CE: First Jewish-Roman War and its final phases; endpoint convention depends on event selected.
 - 70 CE: destruction of the Jerusalem Temple.
 
 ## Gospel and early Christian textual horizon
 
 - c. 65–75 CE: common scholarly range for Mark.
-- c. 80–95 CE: common ranges for Matthew and Luke-Acts.
+- c. 80–95 CE: common ranges for Matthew and Luke-Acts; individual datings remain debated.
 - c. 90–110 CE: broad range often assigned to final Johannine forms, with possible earlier strata.
 - 93/94 CE: Josephus completes Jewish Antiquities.
 - late 1st / early 2nd century: Didache, 1 Clement and other early church-order/reception materials occupy overlapping debated ranges.

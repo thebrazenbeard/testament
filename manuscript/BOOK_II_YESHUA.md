@@ -34,7 +34,7 @@ The chapter order is a literary synthesis. It does not claim to recover one exac
    Miracle traditions told with source plurality rather than narrator omniscience.
 
 10. **Who Do You Say**
-    Identity claims, Messiah language, Son of Man, secrecy, followers' projections.
+    Identity claims, Messiah language, Son of Man, secrecy, and followers' identifications/interpretations.
 
 11. **Toward Jerusalem**
     Final Jerusalem approach in Synoptic tradition; exact ministry geography/duration and possible earlier Judean/Jerusalem activity remain unresolved.
