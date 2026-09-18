@@ -53,6 +53,13 @@ clusters:
       - Leviticus_19_18
     dependence_state: MARKAN_WITH_REDACTION_AND_LUKAN_RELOCATION_QUESTIONS
     packet: research/packets/LOVE_GOD_NEIGHBOR_V1.md
+    variant_controls:
+      - VAR-DOUBLE-LOVE-TORAH-SUMMARY
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    intertext_controls:
+      - INT-DOUBLE-LOVE-DEUT6-LEV19
+    intertext_ledger: sources/SCRIPTURAL_INTERTEXT_LEDGER.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-BEATITUDES
     topic: poor / hungry / mourning / persecution / reversal
@@ -80,6 +87,13 @@ clusters:
       - Luke_7_41_50
     dependence_state: MULTIPLE_RELATED_TRADITIONS
     packet: research/packets/FORGIVENESS_DEBT_V1.md
+    source_controls:
+      - SRC-DIDACHE
+    variant_controls:
+      - VAR-FORGIVENESS-DEBT-MATT-LUKE-DIDACHE
+      - VAR-LUKE-11-2-4-LORDS-PRAYER
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-JUDGE-NOT
     topic: judgment / reciprocity / measure
@@ -204,6 +218,12 @@ clusters:
       - Thomas_55_related
     dependence_state: MULTIPLE_REDACTIONAL_FORMS
     packet: research/packets/CROSS_DISCIPLESHIP_V1.md
+    source_controls:
+      - SRC-GOSPEL-THOMAS
+    variant_controls:
+      - VAR-CROSS-DISCIPLESHIP-THOMAS-55
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-CAESAR
     topic: taxation / God / imperial authority
