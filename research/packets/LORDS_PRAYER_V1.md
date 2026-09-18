@@ -1,6 +1,6 @@
 # Lord's Prayer V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Extant forms
 
