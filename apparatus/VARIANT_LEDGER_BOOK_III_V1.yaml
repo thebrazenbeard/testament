@@ -75,13 +75,22 @@ variants:
         guard: "Shared material does not by itself prove Q, direct dependence, or multiple autonomous recensions."
       Didache_8_2:
         state: DISPUTED
-        guard: "Didache's close relation to the Matthean form may reflect Matthew, Q-like/shared liturgical tradition, or another transmission route; independence is not presumed."
+        source: SRC-DIDACHE
+        physical_witnesses:
+          - WIT-DIDACHE-H54-HIEROSOLYMITANUS
+        witness_binding: SCHOLARLY_WITNESS_REPORT_PLUS_CATALOGUE_METADATA
+        guard: "Didache's close relation to the Matthean form may reflect Matthew, Q-like/shared liturgical tradition, or another transmission route; independence is not presumed. H's 1056 date is witness date, not composition date."
         scholarship:
           - author: Olegs_Andrejevs
             title: "A Source-critical Analysis of the Lord's Prayer: Multiple Autonomous Recensions or Q?"
             journal: Ephemerides_Theologicae_Lovanienses
             year: 2020
             doi: "10.2143/ETL.96.4.3288794"
+          - author: Clayton_N_Jefford
+            title: "Didache"
+            venue: Cambridge_Companion_to_the_Apostolic_Fathers
+            year: 2021
+            doi: "10.1017/9781108554992.014"
 
     historical_ceiling:
       strong:
@@ -683,5 +692,5 @@ research_debt:
   - "Bind the opening-address expansion to exact named witnesses beyond the critical-edition signal."
   - "Normalize Sinaiticus hand/corrector evidence for Luke 11:4 before assigning a physical-witness reading state."
   - "Add versional witnesses and patristic citations for the Lucan prayer variants."
-  - "Build a Didache 8.2 witness/source node rather than treating the work title as a physical witness."
+  - "Deepen Didache 8.2 with additional versional/patristic witnesses if needed; H is now physically bound."
   - "Hostile-review the harmonization inference and source-dependence guard before prose promotion."
