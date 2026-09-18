@@ -63,6 +63,19 @@ records:
           coptic: WIT-NHC-II-GOSPEL-THOMAS
           transmission_difference: "Greek P.Oxy. 654 includes reciprocal last-to-first wording absent from the extant Coptic NHC II form."
           guard: "Do not resolve the Greek/Coptic divergence by silently normalizing either witness to the Synoptic maxim."
+      family_renunciation_cluster:
+        direct_witnesses:
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_55:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          distinctive_form: "Family hatred language is joined to cross-bearing and worthiness language."
+        Thomas_101:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          witness_state: EXTANT_WITH_LACUNAE
+          distinctive_form: "Related family saying develops a hate/love antithesis and damaged mother language."
+        guard: "Do not treat Thomas 55 and 101 as duplicate independent historical attestations merely because they occur twice within one work."
     source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
     limits:
       - "Composition history and relation to Synoptics remain debated."
