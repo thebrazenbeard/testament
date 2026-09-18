@@ -103,8 +103,9 @@ witnesses:
         extant_leaves: 30
         evidence_note: "University of Michigan institutional exhibits identify its P46 leaves as P.Mich.inv. 6238."
       - institution: Chester_Beatty_Library_Dublin
+        shelfmark: "CBL BP II"
         extant_leaves: 56
-        evidence_note: "Institutional/codex descriptions report the remaining extant leaves in the Chester Beatty collection."
+        evidence_note: "CSNTM identifies the Dublin portion of P46 as CBL BP II; institutional/codex descriptions report 56 extant leaves in the Chester Beatty collection."
       - codex_total_extant_leaves: 86
       - reconstructed_original_leaves: 104
     witness_date:
