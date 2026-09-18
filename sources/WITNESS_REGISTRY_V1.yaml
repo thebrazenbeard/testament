@@ -97,8 +97,18 @@ witnesses:
     repositories:
       - Chester_Beatty_Library_Dublin
       - University_of_Michigan_Ann_Arbor
+    holding_distribution:
+      - institution: University_of_Michigan_Papyrus_Collection
+        inventory: "P.Mich.inv. 6238"
+        extant_leaves: 30
+        evidence_note: "University of Michigan institutional exhibits identify its P46 leaves as P.Mich.inv. 6238."
+      - institution: Chester_Beatty_Library_Dublin
+        extant_leaves: 56
+        evidence_note: "Institutional/codex descriptions report the remaining extant leaves in the Chester Beatty collection."
+      - codex_total_extant_leaves: 86
+      - reconstructed_original_leaves: 104
     witness_date:
-      precision: "late second to early third century CE; broadly ca. 175-225 CE"
+      precision: "late second to early third century CE; Michigan cataloguing commonly gives ca. 180-220 CE; dating remains scholarly rather than self-dating"
     language: Greek
     physical_scope: "Substantial Pauline corpus including most of 1 Corinthians"
     access_mode: SCHOLARLY_MANUSCRIPT_METADATA
@@ -110,6 +120,7 @@ witnesses:
       - "Witness date is not the date of Paul's composition."
       - "Paul's 'not I but the Lord' does not by itself preserve the exact wording or historical setting of the Gospel divorce sayings."
       - "Testament has not performed autoptic collation of P46."
+      - "The exact present holding/leaf for 1 Corinthians 7:10-11 has not yet been localized within the split codex; do not infer it from the codex-level repository list."
 
 
   - id: WIT-P75-HANNA-1
