@@ -533,6 +533,69 @@ variants:
     manuscript_rule: "Book III must display the Matthean, Lukan and Thomas endings separately. Thomas's valuation motif may be discussed as Thomasine evidence but not retrojected into a reconstructed original."
 
 
+
+  - id: VAR-FIRST-LAST-THOMAS-4
+    saying: SAY-FIRST-LAST
+    control_kind: CROSS_SOURCE_REVERSAL_MAXIM_PLUS_INTRA_THOMAS_GREEK_COPTIC_VARIATION
+    passages:
+      - Mark_10_31
+      - Matthew_19_30
+      - Matthew_20_16
+      - Luke_13_30
+      - Thomas_4
+    consequence: PORTABLE_REVERSAL_CONTEXT_AND_THOMAS_TRANSMISSION
+
+    synoptic_control:
+      Mark_10_31:
+        form_note: "First/last reversal follows the rich-man and discipleship sequence."
+      Matthew_19_30:
+        form_note: "Reproduces the reversal near Mark's placement."
+      Matthew_20_16:
+        form_note: "Uses a related inverted reversal after the laborers-in-the-vineyard parable."
+      Luke_13_30:
+        form_note: "Places reversal language in an eschatological banquet/judgment sequence."
+      guard: "Multiple placements demonstrate literary portability; they do not establish one original narrative setting."
+
+    thomas_control:
+      passage: Thomas_4
+      greek_witness: WIT-POXY-654-GOSPEL-THOMAS
+      coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+      setting: "Age/child/place-of-life saying ending in unity language."
+      transmission_difference:
+        greek: "Published reconstruction contains first-to-last plus reciprocal last-to-first wording before the unity clause."
+        coptic: "Extant Coptic form contains first-to-last wording but lacks the reciprocal last-to-first phrase."
+      state: INTRA_THOMAS_VARIATION_ESTABLISHED
+      guard: "Whether the Coptic omission is accidental, editorial, or reflects another transmission stage remains unresolved."
+
+    dependence_control:
+      Synoptic_portability:
+        state: MULTIPLE_REDACTIONAL_PLACEMENTS
+        guard: "Repeated placement does not mean repeated independent historical utterance."
+      Thomas_vs_Synoptics:
+        state: DISPUTED
+        scholarship:
+          - author: Melissa_Harl_Sellew
+            title: "The Gospel of Thomas and the Synoptics"
+            year: 2023
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        guard: "Thomas 4 may preserve inherited, Gospel-related, or complexly transmitted material; no direction is promoted to fact."
+
+    historical_ceiling:
+      strong:
+        - "First/last reversal language appears in multiple Synoptic placements and in Thomas 4."
+        - "Thomas 4 is directly witnessed by both Greek P.Oxy. 654 and Coptic NHC II."
+        - "The Greek and Coptic Thomas 4 forms differ in the reciprocal last-to-first phrase."
+      not_secure:
+        - "One original narrative setting for the reversal maxim."
+        - "That every Gospel placement reflects a separate historical utterance."
+        - "That Thomas 4 is independent of the Synoptics."
+        - "That the Greek Thomas 4 wording is compositionally earlier merely because its surviving witness is earlier."
+        - "The cause of the Greek/Coptic divergence."
+        - "One harmonized reversal saying combining all contexts."
+
+    manuscript_rule: "Book III should treat first/last as a portable maxim with variant settings and explicitly display the Greek/Coptic Thomas 4 divergence. Do not normalize Thomas to the Synoptic wording or vice versa."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
