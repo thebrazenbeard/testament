@@ -92,7 +92,7 @@ clusters:
       - Luke_15_3_7
       - Thomas_107
     dependence_state: DISPUTED
-    status: BACKLOG
+    packet: research/packets/LOST_SHEEP_RECOVERY_V1.md
 
   - id: SAY-MUSTARD
     topic: kingdom parable
@@ -133,7 +133,7 @@ clusters:
       - Luke_13_30
       - Thomas_4
     dependence_state: MULTIPLE_PLACEMENTS
-    status: BACKLOG
+    packet: research/packets/FIRST_LAST_REVERSAL_V1.md
 
   - id: SAY-TAKE-CROSS
     topic: discipleship / suffering
