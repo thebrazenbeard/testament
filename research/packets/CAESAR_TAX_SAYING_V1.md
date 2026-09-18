@@ -1,6 +1,6 @@
 # Caesar / Tax Saying V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Primary forms
 
@@ -56,6 +56,69 @@ Thomas preserves a related Caesar/God saying in a different sayings context.
 Its value for independent historical attestation depends on the unresolved Thomas/Synoptic relationship at this logion.
 
 Do not count it as an independent witness by default.
+
+## Witness-control advance — Thomas 100
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-CAESAR-THOMAS-100`
+- `sources/WITNESS_REGISTRY_V1.yaml`
+- `WIT-NHC-II-GOSPEL-THOMAS`
+
+Thomas 100 is directly extant in the Coptic Gospel of Thomas in Nag Hammadi Codex II.
+
+None of the surviving Greek Thomas fragments currently bound by Testament reaches logion 100:
+- P.Oxy. 654: opening through logion 7;
+- P.Oxy. 1: portions of logia 26–33;
+- P.Oxy. 655: logion 24 and portions of 36–39.
+
+Therefore Thomas 100 is currently Coptic-only evidence for this cluster.
+
+### Distinctive Thomas form
+
+The extant Thomas saying preserves the Caesar/God division but differs materially from the Synoptic scene.
+
+The Thomas form:
+- lacks the extended adversarial trap narrative found in Mark and inherited in Matthew/Luke;
+- presents the coin/tax exchange in a compact sayings context;
+- adds a final demand by Jesus that what belongs to him be given to him.
+
+Published translations represented on Early Christian Writings consistently preserve that final Thomas-only clause.
+
+That clause is evidence for the extant Thomas form.
+It is not evidence that the historical Caesar saying originally ended that way.
+
+### Dependence control
+
+The project therefore separates three questions:
+1. Mark versus Matthew/Luke literary dependence;
+2. Thomas versus the Synoptics;
+3. the compositional history of Thomas's distinctive final clause.
+
+The current state is:
+- probable Markan dependence for Matthew/Luke;
+- Thomas/Synoptic direction unresolved;
+- Thomas's final Jesus-claim clause textually real but compositionally unlocated.
+
+Melissa Harl Sellew's 2023 Oxford treatment remains the methodological guard against forcing Thomas into a single global dependence/autonomy verdict.
+
+Reference:
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics":
+  DOI 10.1093/oxfordhb/9780190887452.013.27
+
+### Current historical ceiling
+
+Established:
+- Synoptic Caesar/tax tradition exists;
+- Thomas 100 is extant in Coptic NHC II;
+- Thomas 100 contains a distinctive final clause absent from the Synoptics.
+
+Not established:
+- Thomasine independence;
+- Thomasine priority;
+- historical originality of the Thomas-only clause;
+- exact historicity of the Synoptic trap narrative;
+- one harmonized Caesar saying.
 
 ## Historical ceiling
 
