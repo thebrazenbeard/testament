@@ -596,6 +596,78 @@ variants:
     manuscript_rule: "Book III should treat first/last as a portable maxim with variant settings and explicitly display the Greek/Coptic Thomas 4 divergence. Do not normalize Thomas to the Synoptic wording or vice versa."
 
 
+
+  - id: VAR-FAMILY-RENUNCIATION-THOMAS-55-101
+    saying: SAY-FAMILY-RENUNCIATION
+    control_kind: CROSS_SOURCE_FAMILY_RENUNCIATION_PLUS_INTRA_THOMAS_DOUBLET
+    passages:
+      - Luke_14_26
+      - Matthew_10_37
+      - Mark_8_34_related
+      - Thomas_55
+      - Thomas_101
+    consequence: KINSHIP_RENUNCIATION_CROSS_LANGUAGE_AND_THOMAS_REDACTION
+
+    synoptic_control:
+      Luke_14_26:
+        form_note: "Uses severe hate-family language in a discipleship-cost setting."
+        guard: "Hyperbole is an interpretive analysis, not a license to rewrite the extant wording."
+      Matthew_10_37:
+        form_note: "Uses love-more-than-me language rather than Luke's hate wording."
+        guard: "Matthew's wording is preserved as a distinct form, not normalized to Luke."
+      cross_saying:
+        form_note: "Cross-bearing language appears in Mark 8:34 and parallels and intersects the family-renunciation complex in Thomas 55."
+        guard: "Combination in Thomas does not by itself establish historical combination."
+
+    thomas_control:
+      witness: WIT-NHC-II-GOSPEL-THOMAS
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      Thomas_55:
+        state: EXTANT_COPTIC
+        form_note: "Combines hatred of parents/siblings with cross-bearing and worthiness language."
+      Thomas_101:
+        state: EXTANT_COPTIC_WITH_LACUNAE
+        form_note: "Reuses family-renunciation material in a hate/love antithesis; the surviving text is damaged around the mother language."
+      internal_relation:
+        state: SAME_WORK_RELATED_FORMS_NOT_INDEPENDENT_WITNESSES
+        guard: "Thomas 55 and 101 are not counted as two independent historical attestations merely because the work contains both."
+
+    fragment_scope_guard:
+      P_Oxy_654: "opening through logion 7"
+      P_Oxy_1: "portions of logia 26-33"
+      P_Oxy_655: "logion 24 and portions of 36-39"
+      conclusion: "No surviving Greek Thomas fragment currently bound by Testament witnesses logion 55 or 101."
+
+    dependence_control:
+      Thomas_vs_Synoptics:
+        state: DISPUTED_WITH_CONFLATION_ARGUMENTS
+        evidence:
+          - kind: SCHOLARLY_ARGUMENT
+            source: John_P_Meier
+            report: "Treats Thomas 55 as a mixed form drawing on Matthean and Lukan family/cross language; this is an argument for dependence, not project fact."
+          - kind: COMPARATIVE_METHOD
+            source: Melissa_Harl_Sellew
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+            report: "Supports close comparison without forcing a single global dependence/autonomy verdict."
+        guard: "Conflation is a serious hypothesis for Thomas 55/101, but independence is not ruled out by assertion alone."
+
+    historical_ceiling:
+      strong:
+        - "Severe family-renunciation language is embedded in early Synoptic discipleship tradition."
+        - "Thomas 55 and 101 are directly extant in Coptic NHC II."
+        - "Thomas 55 combines family-renunciation and cross/worthiness language."
+        - "Thomas 101 is a related but non-identical family saying with lacunose text."
+        - "No currently bound Greek Thomas fragment preserves logion 55 or 101."
+      not_secure:
+        - "That Thomas 55 or 101 is independent of the Synoptics."
+        - "That Thomas 55 is demonstrably a literary conflation rather than another transmitted form."
+        - "That the damaged wording in Thomas 101 can be reconstructed with certainty."
+        - "That family renunciation was a universal historical demand rather than context-specific rhetoric."
+        - "That two Thomas occurrences equal two independent historical witnesses."
+
+    manuscript_rule: "Book III must keep Luke, Matthew, Thomas 55 and Thomas 101 distinct; mark Thomas 101 lacunae; and never count the Thomas doublet as multiple independent attestation."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
