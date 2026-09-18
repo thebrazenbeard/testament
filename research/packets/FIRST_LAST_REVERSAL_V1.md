@@ -1,6 +1,6 @@
 # First / Last Reversal V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Primary forms
 
@@ -47,6 +47,76 @@ Thomas 4 gives first/last language a different wisdom/reversal setting.
 Its relation to the Synoptic saying is disputed.
 
 Because Thomas's collection may contain both inherited and Gospel-related material, this logion requires saying-level analysis rather than blanket independence/dependence assumptions.
+
+## Witness-control advance — Thomas 4
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-FIRST-LAST-THOMAS-4`
+- `sources/WITNESS_REGISTRY_V1.yaml`
+- `WIT-POXY-654-GOSPEL-THOMAS`
+- `WIT-NHC-II-GOSPEL-THOMAS`
+
+Thomas 4 is directly witnessed in both:
+- fragmentary Greek P.Oxy. IV 654, ca. 200–250 CE;
+- the complete Coptic Gospel of Thomas in Nag Hammadi Codex II.
+
+This gives the project actual intra-Thomas transmission evidence rather than only a Synoptic/Thomas comparison.
+
+### Greek / Coptic divergence
+
+Published editions of P.Oxy. 654 reconstruct Thomas 4 with reciprocal reversal language:
+- many first become last;
+- the last become first;
+- followed by the unity clause.
+
+The extant Coptic Thomas 4 preserves:
+- first becoming last;
+- the unity clause;
+but omits the reciprocal last-becoming-first phrase.
+
+Some scholars have proposed accidental omission or textual development to explain that difference.
+
+Testament does not currently decide the cause.
+
+The evidence securely supports:
+**the extant Greek and Coptic forms differ.**
+
+It does not securely support:
+**why they differ.**
+
+### Portable-maxim control
+
+The Synoptic witnesses place first/last reversal language in materially different settings:
+- Mark 10:31 — wealth/discipleship sequence;
+- Matthew 19:30 — corresponding placement;
+- Matthew 20:16 — laborers-in-the-vineyard conclusion;
+- Luke 13:30 — eschatological banquet/judgment setting.
+
+Thomas 4 embeds the reversal in a wisdom saying about an old person, a seven-day-old child, the place of life, and becoming one.
+
+This distribution strongly supports literary portability of the maxim.
+
+It does not establish one original narrative setting.
+
+### Witness-date guard
+
+P.Oxy. 654 is centuries earlier as a physical witness than NHC II.
+
+That makes it earlier manuscript evidence.
+
+It does **not** by itself prove:
+- the Greek wording is compositionally earlier;
+- the Coptic form is a late theological rewrite;
+- Thomas 4 predates the Synoptic reversal sayings.
+
+Those are separate historical questions.
+
+References:
+- NASSCAL, P.Oxy. IV 654:
+  https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics":
+  DOI 10.1093/oxfordhb/9780190887452.013.27
 
 ## Historical ceiling
 
