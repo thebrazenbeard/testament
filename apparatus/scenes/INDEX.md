@@ -24,6 +24,18 @@ Status: LIVE INDEX
 - SCN-IV-JERUSALEM — apparatus/scenes/SCN-IV-JERUSALEM_MOVEMENT_PRIMARY_V1.md
 - SCN-IV-SAUL-CALL — apparatus/scenes/SCN-IV-SAUL_CALL_PRIMARY_V1.md
 
+## Variant-controlled scenes
+
+- SCN-I-BIRTH -> VAR-LUKE-3-23-38-GENEALOGY
+- SCN-II-BAPTISM -> VAR-LUKE-3-22-BAPTISM-VOICE
+- SCN-II-FAMILY -> VAR-MARK-6-3-MATRONYMIC
+- SCN-II-FINAL-MEAL -> VAR-LUKE-22-15-20-FINAL-MEAL
+- SCN-II-CRUCIFIXION -> VAR-LUKE-23-34A-FORGIVENESS
+- SCN-IV-TOMB -> VAR-MARK-16-ENDING
+
+Authoritative ledger:
+- apparatus/VARIANT_LEDGER_BOOKS_I_IV_V1.yaml
+
 ## Structural coverage status
 
 All currently declared high-risk Books I–II and IV scenes in the construction-budget layer now have dedicated primary-binding packets.

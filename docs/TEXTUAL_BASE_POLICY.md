@@ -68,12 +68,21 @@ For scriptural intertexts:
 - consume On-Theo witness controls where already built;
 - never let a later standardized form silently become the only first-century form.
 
+## Authoritative variant control
+
+Machine-readable control:
+- apparatus/VARIANT_LEDGER_BOOKS_I_IV_V1.yaml
+
+A scene with a listed variant must name the stable variant ID and satisfy its manuscript rule before prose promotion.
+
 ## Current high-risk New Testament variants already flagged
 
 1. Luke 3:22 — baptismal voice; Codex Bezae/Old Latin Psalm 2:7-type reading versus the dominant critical-text form.
 2. Luke 22:15–20 — multiple longer/shorter forms affecting the final-meal tradition.
 3. Mark 16 ending — earliest attainable Markan text is currently judged by ECM scholarship to end at 16:8; later endings remain reception/canonical evidence but cannot be silently attributed to the earliest recoverable Markan form.
 4. Lukan genealogy — manuscript formatting and transmission produce substantial variation across witnesses; genealogy comparison must not assume zero textual instability.
+5. Mark 6:3 — "the carpenter, the son of Mary" versus an early alternative "son of the carpenter and Mary"; textual choice does not establish paternity stigma.
+6. Luke 23:34a — the forgiveness prayer is absent from an important early textual stream but defended as original by other scholarship; exact local witness binding remains pending and the project treats the earliest reading as contested.
 
 ## Stop condition
 

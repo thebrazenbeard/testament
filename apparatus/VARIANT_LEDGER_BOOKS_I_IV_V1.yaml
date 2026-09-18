@@ -1,6 +1,6 @@
 schema_version: testament.variant_ledger.books_i_iv.v1
 status: ACTIVE
-review_head: 264220f65fb4ea177e1f7df10a97f78ddf9bcb09
+creation_parent: 264220f65fb4ea177e1f7df10a97f78ddf9bcb09
 
 rules:
   - "A textual variant is an evidence object, not a nuisance to be normalized away."
@@ -131,11 +131,13 @@ variants:
         title: "A Disconcerting Prayer: On the Originality of Luke 23:34a"
         venue: Journal_of_Biblical_Literature
         year: 2010
-        position: "Defends originality; cited in current scholarship as an important counterposition."
+        doi: "10.2307/25765950"
+        position: "Defends originality and argues that the external case for omission has been overstated, while also weighing intrinsic and early reception evidence."
       - author: Shelly_Matthews
         doi: "10.1093/acprof:oso/9780195393323.003.0004"
         position: "Interprets the prayer's Lukan/early-Christian reception and argues scribal omission as a plausible transmission explanation."
     state: GENUINELY_CONTESTED_EARLIEST_READING
+    witness_binding: EXACT_WITNESS_BINDING_PENDING
     manuscript_rule: "The saying cannot be treated as an uncontested historical last word; the project must not use a harmonized 'Seven Last Words' sequence as recovered transcript."
 
 review_requirements:
