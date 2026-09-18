@@ -1029,6 +1029,50 @@ variants:
     manuscript_rule: "Book III may include the cross-bearing tradition only with the retrojection problem exposed. Book II must not repeatedly script Yeshua predicting his exact mode of execution as settled history."
 
 
+
+  - id: VAR-DOUBLE-LOVE-TORAH-SUMMARY
+    saying: SAY-DOUBLE-LOVE
+    control_kind: TORAH_INTERTEXT_PLUS_SYNOPTIC_REDACTION
+    passages:
+      - Mark_12_28_34
+      - Matthew_22_34_40
+      - Luke_10_25_28
+      - Deuteronomy_6_4_5
+      - Leviticus_19_18
+    consequence: LOVE_COMMAND_TORAH_SOURCE_AND_GOSPEL_FRAMING
+
+    scriptural_control:
+      intertext: INT-DOUBLE-LOVE-DEUT6-LEV19
+      inputs:
+        - Deuteronomy_6_4_5
+        - Leviticus_19_18
+      state: PRIOR_JEWISH_SCRIPTURAL_SOURCES
+      guard: "The Jesus tradition combines existing Torah commands; love is not narrated as a Christian invention replacing Jewish law."
+
+    synoptic_control:
+      Mark:
+        form_note: "Extended scribe exchange with Shema language, double love command, sacrifice comparison, and positive reply."
+      Matthew:
+        form_note: "Abbreviates Mark and explicitly makes the two commands support all the law and prophets."
+      Luke:
+        form_note: "Relocates the double command into the lawyer/Good Samaritan sequence."
+      dependence_state: MARKAN_WITH_REDACTION_AND_LUKAN_RELOCATION_QUESTIONS
+      guard: "Different narrative placements do not create independent historical scenes by simple counting."
+
+    historical_ceiling:
+      strong:
+        - "The double-love tradition is rooted directly in Deuteronomy 6:4-5 and Leviticus 19:18."
+        - "Mark, Matthew, and Luke preserve materially related forms."
+      plausible:
+        - "Yeshua participated in Jewish Torah-summary reasoning centered on love of God and neighbor."
+      not_secure:
+        - "One exact historical scene."
+        - "One exact original ordering or wording."
+        - "That the tradition represents Christianity replacing Jewish law with love."
+
+    manuscript_rule: "Book III must print the Torah sources alongside the Gospel forms and preserve redactional differences. The historical interest is combination and prioritization within Jewish interpretation, not invention ex nihilo."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
