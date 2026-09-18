@@ -256,6 +256,34 @@ witnesses:
 
 
 
+
+  - id: WIT-POXY-1-GOSPEL-THOMAS
+    witness_of: [SRC-GOSPEL-THOMAS]
+    witness_kind: Greek_papyrus_codex_leaf
+    common_name: Papyrus_Oxyrhynchus_1
+    publication_siglum: "P.Oxy. I 1"
+    repository: Bodleian_Library_Oxford
+    shelfmark: "MS. Gr. th. e 7 (P)"
+    witness_date:
+      precision: "second century CE / late second to early third century in broader cataloguing"
+    language: Greek
+    physical_scope: "Gospel of Thomas logia 26-30, 77b, 31-33"
+    access_mode: DIGITAL_MANUSCRIPT_METADATA_PLUS_SCHOLARLY_TEXTUAL_REPORT
+    locators:
+      - passage: Thomas_26
+        reading_state: EXTANT_FRAGMENTARY_GREEK
+        reading_note: "Directly preserves part of the speck/log saying. The leaf begins within the saying, so missing wording must not be silently supplied from the Coptic witness."
+        scholarship:
+          - url: "https://www.nasscal.com/manuscripta-apocryphorum/oxford-bodleian-library-ms-gr-th-e-7-p-p-oxy-i-1/"
+    manuscript_context:
+      - source: NASSCAL
+        url: "https://www.nasscal.com/manuscripta-apocryphorum/oxford-bodleian-library-ms-gr-th-e-7-p-p-oxy-i-1/"
+    limitations:
+      - "The leaf is fragmentary and does not preserve every word of logion 26."
+      - "Witness date is not the composition date of Gospel of Thomas or logion 26."
+      - "Testament has not performed autoptic papyrus collation."
+
+
   - id: WIT-POXY-654-GOSPEL-THOMAS
     witness_of: [SRC-GOSPEL-THOMAS]
     witness_kind: Greek_papyrus_fragment
@@ -278,6 +306,11 @@ witnesses:
       - passage: Thomas_4
         reading_state: EXTANT_FRAGMENTARY_GREEK
         reading_note: "Directly preserves the first/last reversal within Thomas 4; the published Greek reconstruction includes both first-to-last and last-to-first wording before the unity clause."
+      - passage: Thomas_3
+        reading_state: EXTANT_FRAGMENTARY_GREEK
+        reading_note: "Directly preserves substantial portions of Thomas 3. Some lines are lacunose; Coptic wording must not be used to fill Greek gaps without labeling reconstruction."
+        scholarship:
+          - url: "https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/"
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/"
@@ -334,6 +367,15 @@ witnesses:
       - passage: Thomas_101
         reading_state: EXTANT_COPTIC_WITH_LACUNAE
         reading_note: "Directly preserves a related family-renunciation saying with hate/love antithesis and damaged text around the mother language; the extant witness is lacunose and no currently bound Greek Thomas fragment preserves logion 101."
+      - passage: Thomas_26
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves the complete Coptic speck/log saying corresponding to the fragmentary Greek P.Oxy. 1 witness."
+      - passage: Thomas_3
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves the complete Coptic kingdom-inside/outside saying corresponding in part to Greek P.Oxy. 654."
+      - passage: Thomas_113
+        reading_state: EXTANT_COPTIC_ONLY_CURRENTLY_BOUND
+        reading_note: "Directly preserves the kingdom-spread-upon-the-earth saying; no currently bound Greek Thomas fragment preserves logion 113."
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/cairo-coptic-museum-inv-10544-nag-hammadi-codex-ii/"
