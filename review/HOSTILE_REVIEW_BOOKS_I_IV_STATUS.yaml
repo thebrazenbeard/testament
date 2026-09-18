@@ -47,3 +47,9 @@ invariants:
   - "PASS may preserve an explicitly governed unresolved research question."
   - "Overall review remains ACTIVE until all declared review scopes close."
   - "No hostile-review pass authorizes merge or manuscript promotion."
+
+tranche_6:
+  original_target: 10e13d79c2b6751cf399305e99b0ba6d18851a8f
+  status: FAIL_REPAIRABLE
+  complete: false
+  finding_range: HR-IIV-038..HR-IIV-041
