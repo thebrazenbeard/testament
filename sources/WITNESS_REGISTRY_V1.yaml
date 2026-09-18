@@ -376,6 +376,12 @@ witnesses:
       - passage: Thomas_113
         reading_state: EXTANT_COPTIC_ONLY_CURRENTLY_BOUND
         reading_note: "Directly preserves the kingdom-spread-upon-the-earth saying; no currently bound Greek Thomas fragment preserves logion 113."
+      - passage: Thomas_65
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves the vineyard/tenant parable in the Coptic Gospel of Thomas; no currently bound Greek Thomas fragment preserves logion 65."
+      - passage: Thomas_66
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves the adjacent rejected-stone saying as a separate logion; no currently bound Greek Thomas fragment preserves logion 66."
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/cairo-coptic-museum-inv-10544-nag-hammadi-codex-ii/"
