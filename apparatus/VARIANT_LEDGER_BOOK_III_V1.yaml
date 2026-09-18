@@ -174,6 +174,80 @@ variants:
     manuscript_rule: "Book III comparison must use the shorter critical Matthew 5:44 as the working Matthean form while exposing the Luke-like expansion. Didache may be shown as a distinct transmitted form, but its independence must remain unresolved."
 
 
+
+  - id: VAR-BEATITUDES-POOR-MATT-LUKE-THOMAS
+    saying: SAY-BEATITUDES
+    control_kind: CROSS_SOURCE_SAYING_FORM_NOT_SAME_WORK_MANUSCRIPT_VARIANT
+    passages:
+      - Matthew_5_3
+      - Luke_6_20
+      - Thomas_54
+      - Thomas_68
+      - Thomas_69
+    consequence: POVERTY_REVERSAL_WORDING_AND_THOMAS_DEPENDENCE
+
+    extant_forms:
+      Matthew_5_3:
+        working_text: ED-SBLGNT
+        form_note: "Blessing qualifies the poor with 'in spirit' and promises the kingdom of the heavens."
+        guard: "Matthean wording is not silently substituted into Luke or Thomas."
+      Luke_6_20:
+        working_text: ED-SBLGNT
+        form_note: "Direct address blesses the poor without Matthew's 'in spirit' qualifier and promises the kingdom of God."
+        guard: "Shorter/unqualified wording does not automatically equal earlier wording."
+      Thomas_54:
+        witness: WIT-NHC-II-GOSPEL-THOMAS
+        form_note: "The extant Coptic Thomas form blesses the poor and links them with the kingdom of heaven."
+        witness_binding: DIRECT_EXTANT_COPTIC_DIGITAL_TEXT
+        guard: "No surviving Greek Thomas manuscript preserves logion 54; exact Greek wording is unavailable."
+      Thomas_68_69:
+        witness: WIT-NHC-II-GOSPEL-THOMAS
+        form_note: "The same Coptic witness preserves related persecution and hunger beatitudes."
+        witness_binding: DIRECT_EXTANT_COPTIC_DIGITAL_TEXT
+        guard: "These related sayings may illuminate Thomasine clustering but do not prove a single original Synoptic beatitude set."
+
+    greek_fragment_control:
+      witnesses_described_for_SRC_GOSPEL_THOMAS:
+        - P.Oxy._1
+        - P.Oxy._654
+        - P.Oxy._655
+      preserved_ranges:
+        P.Oxy._654: "Prologue and sayings 1-7"
+        P.Oxy._1: "Sayings 26-33 with the known 77b placement"
+        P.Oxy._655: "Sayings 24 and 36-39"
+      conclusion: "None directly witnesses Thomas 54, 68 or 69."
+      manuscript_rule: "Do not cite the Oxyrhynchus Thomas fragments as Greek witnesses for this beatitude cluster."
+
+    source_relation:
+      state: DISPUTED_INTERTEXTUAL_RELATION
+      scholarship:
+        - author: Melissa_Harl_Sellew
+          title: "The Gospel of Thomas and the Synoptics"
+          year: 2023
+          doi: "10.1093/oxfordhb/9780190887452.013.27"
+          position: "Moves comparison beyond a simple dependence-versus-autonomy binary and treats style/content comparison as useful even where global dependence is unresolved."
+      guard: "Similarity between Thomas 54 and Luke 6:20 on unqualified poverty does not establish Thomasine independence, priority, or direct copying in either direction."
+
+    witness_date_control:
+      physical_witness: WIT-NHC-II-GOSPEL-THOMAS
+      date: "fourth century CE"
+      rule: "The date of NHC II is a terminus for this surviving copy, not a date for composition of Gospel of Thomas or logion 54."
+
+    historical_ceiling:
+      strong:
+        - "Matthew, Luke and the extant Coptic Thomas preserve materially comparable poverty/kingdom beatitude forms."
+        - "Thomas 54, 68 and 69 are directly extant in Nag Hammadi Codex II."
+        - "No surviving Greek Thomas fragment currently bound by Testament preserves these logia."
+      not_secure:
+        - "That Thomas 54 preserves an independent pre-Synoptic form."
+        - "That Luke's unqualified poor is earlier than Matthew's qualified form."
+        - "That Matthew's 'poor in spirit' is a secondary spiritualization of one recoverable original."
+        - "The exact Greek exemplar underlying the Coptic wording of Thomas 54, 68 or 69."
+        - "A single original number/order of beatitudes behind Matthew, Luke and Thomas."
+
+    manuscript_rule: "Book III must display Matthew, Luke and Thomas as distinct extant forms. Any Greek back-translation of Thomas 54/68/69 is reconstruction and must be marked as such."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
