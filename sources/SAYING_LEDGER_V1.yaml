@@ -115,6 +115,12 @@ clusters:
       - Thomas_107
     dependence_state: DISPUTED
     packet: research/packets/LOST_SHEEP_RECOVERY_V1.md
+    source_controls:
+      - SRC-GOSPEL-THOMAS
+    variant_controls:
+      - VAR-LOST-SHEEP-THOMAS-107
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-MUSTARD
     topic: kingdom parable
