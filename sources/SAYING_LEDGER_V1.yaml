@@ -63,6 +63,12 @@ clusters:
       - Thomas_68_69
     dependence_state: DOUBLE_TRADITION_PLUS_THOMAS_RELATION_DISPUTED
     packet: research/packets/BEATITUDES_WOES_V1.md
+    source_controls:
+      - SRC-GOSPEL-THOMAS
+    variant_controls:
+      - VAR-BEATITUDES-POOR-MATT-LUKE-THOMAS
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-FORGIVENESS-DEBT
     topic: debt / sin / forgiveness / reconciliation
