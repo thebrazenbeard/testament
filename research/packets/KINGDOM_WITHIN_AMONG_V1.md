@@ -77,6 +77,29 @@ Reference:
 - NASSCAL, P.Oxy. IV 654:
   https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/
 
+### Exact Greek/Coptic collation — Thomas 3
+
+The overlap between P.Oxy. 654 and NHC II now has one material transmitted-form difference bound explicitly.
+
+In the published Greek form of Thomas 3, the second false kingdom-location is **under the earth**.
+
+In the Coptic form, the corresponding location is **in the sea**.
+
+That is a genuine reason not to treat the Coptic Thomas 3 as a word-for-word witness to the Greek papyrus tradition.
+
+Other apparent Greek/Coptic differences require more caution.
+
+For example, published reconstructions may restore a divine title such as "kingdom of God" in a Greek lacuna. Because the relevant papyrus wording is reconstructed, Testament does not count that restoration as extant ink or as a secure textual divergence.
+
+Current rule:
+- use the under-earth / sea difference as a bounded published form difference;
+- keep restored Greek lacunae visibly reconstructed;
+- do not backfill Greek gaps from the complete Coptic text.
+
+References:
+- P.Oxy. IV 654 manuscript scope: NASSCAL.
+- Published Greek/Coptic Thomas 3 forms: GospelThomas.com / Attridge and Layton translations.
+
 ### Thomas 113: Coptic-only in current witness coverage
 
 Thomas 113 is directly preserved in the Coptic NHC II copy.
