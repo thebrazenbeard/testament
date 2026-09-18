@@ -22,6 +22,10 @@ clusters:
       - "Two-Source models commonly assign the shared core to Q; Farrer-type models explain it through direct Gospel dependence."
       - "Didache's relation to Matthew, Q-like tradition, or liturgical transmission remains debated."
     packet: research/packets/LORDS_PRAYER_V1.md
+    variant_controls:
+      - VAR-LUKE-11-2-4-LORDS-PRAYER
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-ENEMY-LOVE
     topic: enemy love / non-retaliation / beneficence
