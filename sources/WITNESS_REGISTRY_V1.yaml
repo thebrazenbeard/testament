@@ -248,6 +248,41 @@ witnesses:
       - "Fourth-century witness date does not date the composition of Didache 1.3-4."
       - "Testament has not performed autoptic papyrus collation."
 
+
+  - id: WIT-NHC-II-GOSPEL-THOMAS
+    witness_of: [SRC-GOSPEL-THOMAS]
+    witness_kind: Coptic_papyrus_codex
+    common_name: Nag_Hammadi_Codex_II
+    repository: Coptic_Museum_Cairo
+    shelfmark: "Inv. 10544 / Nag Hammadi Codex II"
+    witness_date:
+      precision: "fourth century CE"
+    language: Coptic
+    tractate: "NHC II,2 Gospel of Thomas"
+    physical_scope: "Gospel of Thomas on codex pages 32-51"
+    access_mode: DIGITAL_MANUSCRIPT_METADATA_PLUS_DIGITAL_TEXT_EDITION
+    locators:
+      - passage: Thomas_54
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves the poor/kingdom beatitude in the Coptic Gospel of Thomas."
+      - passage: Thomas_68
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves a beatitude concerning hatred/persecution."
+      - passage: Thomas_69
+        reading_state: EXTANT_COPTIC
+        reading_note: "Directly preserves persecution and hunger beatitude material."
+    manuscript_context:
+      - source: NASSCAL
+        url: "https://www.nasscal.com/manuscripta-apocryphorum/cairo-coptic-museum-inv-10544-nag-hammadi-codex-ii/"
+      - source: Coptic_SCRIPTORIUM
+        url: "https://data.copticscriptorium.org/texts/thomasgospel/gospel-of-thomas/"
+    limitations:
+      - "Witness date is not the composition date of Gospel of Thomas or of any individual saying."
+      - "The extant text at Thomas 54, 68 and 69 is Coptic; Testament has no surviving Greek manuscript wording for these logia."
+      - "Comparison with Greek Synoptic wording must not silently back-translate the Coptic into a claimed Greek exemplar."
+      - "Digital text/manuscript access is not described as autoptic physical codex examination."
+
+
 edition_nodes:
   - id: ED-SBLGNT
     kind: CRITICAL_EDITION
