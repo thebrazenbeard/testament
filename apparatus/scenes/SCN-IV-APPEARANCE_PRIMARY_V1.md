@@ -40,8 +40,8 @@ Codex Sinaiticus and Codex Vaticanus end at 16:8.
 Mark 16:9–20 is important later textual/canonical/reception evidence but must not silently be used as the earliest recoverable Markan appearance narrative.
 
 Control:
-- WIT-MARK-SINAITICUS-ENDING
-- WIT-MARK-VATICANUS-ENDING
+- WIT-01-CODEX-SINAITICUS
+- WIT-03-CODEX-VATICANUS
 
 ## Matthew
 

@@ -61,8 +61,8 @@ variants:
       - id: MARK-ENDS-16_8
         description: "The earliest attainable text in current ECM editorial consensus ends after Mark 16:8."
         witnesses:
-          - WIT-MARK-SINAITICUS-ENDING
-          - WIT-MARK-VATICANUS-ENDING
+          - WIT-01-CODEX-SINAITICUS
+          - WIT-03-CODEX-VATICANUS
       - id: MARK-LONGER-ENDING-16_9_20
         description: "The Longer Ending is an important later manuscript, canonical and reception form."
       - id: MARK-OTHER-ENDINGS
@@ -121,8 +121,26 @@ variants:
     readings:
       - id: LUKE23_34A-PRESENT
         description: "Jesus prays for forgiveness of those acting against him."
+        witness_evidence:
+          - witness: WIT-01-CODEX-SINAITICUS
+            state: BASE_TEXT_PRESENT_WITH_CORRECTION_HISTORY
+          - witness: WIT-D05-CODEX-BEZAE
+            state: LATER_CORRECTION_PRESENCE_REPORTED_AFTER_FIRST_HAND_OMISSION
+        patristic_versional_note: "Eubank documents early and diverse patristic/versional presence, including Irenaeus/Origen and Old Syriac evidence."
       - id: LUKE23_34A-ABSENT
-        description: "The saying is absent from a significant early textual stream, including Old Latin evidence."
+        description: "The saying is absent from a significant early and textually diverse stream."
+        witness_evidence:
+          - witness: WIT-P75-HANNA-1
+            state: ABSENT
+          - witness: WIT-03-CODEX-VATICANUS
+            state: ABSENT
+          - witness: WIT-D05-CODEX-BEZAE
+            state: FIRST_HAND_ABSENT
+          - witness: WIT-032-CODEX-WASHINGTONIANUS
+            state: ABSENT
+          - witness: WIT-038-CODEX-KORIDETHI
+            state: ABSENT
+        versional_note: "Old Latin and Sahidic omission evidence is reported in scholarship; individual versional witness nodes remain a later expansion."
     scholarship:
       - authors: [Jason_A_Whitlark, Mikeal_C_Parsons]
         doi: "10.1017/S0028688506000117"
@@ -137,7 +155,7 @@ variants:
         doi: "10.1093/acprof:oso/9780195393323.003.0004"
         position: "Interprets the prayer's Lukan/early-Christian reception and argues scribal omission as a plausible transmission explanation."
     state: GENUINELY_CONTESTED_EARLIEST_READING
-    witness_binding: EXACT_WITNESS_BINDING_PENDING
+    witness_binding: SCHOLARLY_EXACT_WITNESS_BINDING_ESTABLISHED_AUTOPTIC_NOT_DONE
     manuscript_rule: "The saying cannot be treated as an uncontested historical last word; the project must not use a harmonized 'Seven Last Words' sequence as recovered transcript."
 
 review_requirements:

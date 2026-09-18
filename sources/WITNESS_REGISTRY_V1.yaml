@@ -1,5 +1,5 @@
-schema_version: testament.witness_registry.v1
-status: ACTIVE_SEED
+schema_version: testament.witness_registry.v2
+status: ACTIVE
 upstream_model:
   repo: thebrazenbeard/on-theo
   commit: 7e354667770a6c4bed958a01c5ff843345a35b40
@@ -9,24 +9,28 @@ upstream_model:
 
 rules:
   - "SOURCE and WITNESS are distinct."
-  - "Witness date never becomes composition date."
+  - "A witness ID identifies a physical/recoverable witness, not a passage or reading."
+  - "One physical codex may witness multiple source works; passage readings live under locators."
+  - "Witness date never becomes composition date or reading date."
   - "Witness-specific reading never becomes whole-work reading without inference."
+  - "Corrector/hand state belongs to the locator, not the physical witness identity."
   - "Scholarly report is not autoptic manuscript readback."
   - "Multiple manuscripts of one work are not multiple independent historical sources."
 
 witnesses:
   - id: WIT-D05-CODEX-BEZAE
-    witness_of: SRC-LUKE-ACTS
+    witness_of: [SRC-MATTHEW, SRC-MARK, SRC-LUKE-ACTS, SRC-JOHN]
     witness_kind: Greek_Latin_diglot_codex
-    common_name: Codex Bezae Cantabrigiensis
+    common_name: Codex_Bezae_Cantabrigiensis
     Gregory_Aland: D_05
+    Latin_siglum: d_VL5
     shelfmark: "Cambridge University Library MS Nn.2.41"
     witness_date:
       precision: "around 400 CE / late fourth to early fifth century"
-    access_mode: SCHOLARLY_WITNESS_REPORT
+    access_mode: SCHOLARLY_WITNESS_REPORT_PLUS_INSTITUTIONAL_METADATA
     locators:
       - passage: Luke_3_22
-        reading_note: "Preserves a Psalm 2:7-type 'today I have begotten you' form of the baptismal voice."
+        reading_note: "Greek text preserves a Psalm 2:7-type 'today I have begotten you' form of the baptismal voice."
         scholarship:
           - doi: "10.1163/9789004273931_010"
           - doi: "10.1163/15685365-12341684"
@@ -34,18 +38,25 @@ witnesses:
         reading_note: "Participates in the complex shorter/longer textual tradition."
         scholarship:
           - doi: "10.1093/jts/flae045"
+      - passage: Luke_23_34a
+        reading_state: FIRST_HAND_ABSENT_LATER_CORRECTION_REPORTED
+        reading_note: "Eubank reports the prayer absent in the first hand of Bezae; later correction history supplies a presence form."
+        scholarship:
+          - doi: "10.2307/25765950"
     limitations:
       - "Testament has not performed autoptic manuscript collation."
       - "D05's age does not establish that every distinctive reading is earlier than rival readings."
+      - "Hand/corrector detail remains dependent on published apparatus/scholarship until image-level readback."
 
   - id: WIT-CURETONIAN-SYRIAC
-    witness_of: SRC-LUKE-ACTS
+    witness_of: [SRC-MATTHEW, SRC-MARK, SRC-LUKE-ACTS, SRC-JOHN]
+    witness_scope_note: "The extant manuscript is incomplete; this registry currently uses its Lukan evidence."
     witness_kind: Old_Syriac_Gospel_manuscript
     common_name: Curetonian_Gospels
     shelfmark: "British Library Add MS 14451"
     witness_date:
       precision: "450-470 CE catalogue range"
-    access_mode: SCHOLARLY_WITNESS_REPORT
+    access_mode: SCHOLARLY_WITNESS_REPORT_PLUS_INSTITUTIONAL_METADATA
     locators:
       - passage: Luke_22_15_20
         reading_note: "Participates in the non-uniform shorter textual tradition discussed alongside Codex Bezae."
@@ -56,42 +67,118 @@ witnesses:
       - "The manuscript date is not the date of the Syriac translation or underlying Greek tradition."
       - "Testament has not performed autoptic collation of Add MS 14451."
 
-  - id: WIT-MARK-SINAITICUS-ENDING
-    witness_of: SRC-MARK
-    witness_kind: Greek_codex
-    common_name: Codex Sinaiticus
+  - id: WIT-P75-HANNA-1
+    witness_of: [SRC-LUKE-ACTS, SRC-JOHN]
+    witness_scope_note: "P75 witnesses Gospel Luke and Gospel John, not Acts."
+    witness_kind: Greek_papyrus_codex
+    common_name: "Hanna Papyrus 1 (Mater Verbi) / Bodmer XIV-XV / P75"
+    Gregory_Aland: P75
+    repository: Vatican_Apostolic_Library
+    shelfmark: "Hanna Papyrus 1 (Mater Verbi)"
+    witness_date:
+      precision: "early third century CE"
+    access_mode: SCHOLARLY_WITNESS_REPORT_PLUS_INSTITUTIONAL_METADATA
+    locators:
+      - passage: Luke_23_34a
+        reading_state: ABSENT
+        reading_note: "Eubank reports the forgiveness prayer absent in P75."
+        scholarship:
+          - doi: "10.2307/25765950"
+    institutional_metadata:
+      - "Vatican Library identifies P75 as Hanna Papyrus 1 and dates it to the early third century."
+    limitations:
+      - "Variant reading is presently bound through scholarly report, not autoptic collation by Testament."
+
+  - id: WIT-01-CODEX-SINAITICUS
+    witness_of: [SRC-MATTHEW, SRC-MARK, SRC-LUKE-ACTS, SRC-JOHN]
+    witness_scope_note: "For SRC-LUKE-ACTS this codex locator concerns Gospel Luke."
+    witness_kind: Greek_parchment_codex
+    common_name: Codex_Sinaiticus
     Gregory_Aland: "01"
     witness_date:
-      precision: fourth_century
-    access_mode: SCHOLARLY_WITNESS_REPORT
+      precision: "fourth century, often mid-fourth century"
+    access_mode: DIGITAL_MANUSCRIPT_METADATA_PLUS_SCHOLARLY_WITNESS_REPORT
     locators:
       - passage: Mark_16_8
-        reading_note: "Witnesses Mark ending at 16:8 rather than continuing with 16:9-20."
+        reading_state: ENDS_AT_16_8
+        reading_note: "Codex text ends Mark at 16:8; ECM editorial consensus uses this among the evidence for the earliest attainable ending."
         scholarship:
           - title: "Unfinished Business: The Ending of Mark in Two Catena Manuscripts"
-            venue: New Testament Studies
+            venue: New_Testament_Studies
             year: 2023
+      - passage: Luke_23_34a
+        reading_state: BASE_TEXT_PRESENT_WITH_CORRECTION_HISTORY
+        reading_note: "Eubank treats Sinaiticus as an important early witness containing the prayer; correction/doubt history means a simple codex-level binary is inadequate."
+        scholarship:
+          - doi: "10.2307/25765950"
     limitations:
-      - "One manuscript does not define the earliest attainable text by itself."
+      - "Corrector sequence for Luke 23:34a remains apparatus/image-verification work."
+      - "One codex does not define an earliest reading by itself."
 
-  - id: WIT-MARK-VATICANUS-ENDING
-    witness_of: SRC-MARK
-    witness_kind: Greek_codex
-    common_name: Codex Vaticanus
+  - id: WIT-03-CODEX-VATICANUS
+    witness_of: [SRC-MATTHEW, SRC-MARK, SRC-LUKE-ACTS, SRC-JOHN]
+    witness_scope_note: "For SRC-LUKE-ACTS this codex locator concerns Gospel Luke."
+    witness_kind: Greek_parchment_codex
+    common_name: Codex_Vaticanus
     Gregory_Aland: "03"
+    shelfmark: "Vatican Apostolic Library Vat. gr. 1209"
     witness_date:
-      precision: fourth_century
-    access_mode: SCHOLARLY_WITNESS_REPORT
+      precision: "fourth century / first half of fourth century"
+    access_mode: SCHOLARLY_WITNESS_REPORT_PLUS_INSTITUTIONAL_METADATA
     locators:
       - passage: Mark_16_8
+        reading_state: ENDS_AT_16_8
         reading_note: "Witnesses Mark ending at 16:8."
+      - passage: Luke_23_34a
+        reading_state: ABSENT
+        reading_note: "Eubank reports the forgiveness prayer absent in Vaticanus."
+        scholarship:
+          - doi: "10.2307/25765950"
     limitations:
-      - "Must be evaluated with versions, patristic evidence, other manuscripts, and ECM analysis."
+      - "Variant readings are presently bound through published scholarship/apparatus reports, not Testament autoptic collation."
+
+  - id: WIT-032-CODEX-WASHINGTONIANUS
+    witness_of: [SRC-MATTHEW, SRC-MARK, SRC-LUKE-ACTS, SRC-JOHN]
+    witness_scope_note: "For SRC-LUKE-ACTS this codex locator concerns Gospel Luke."
+    witness_kind: Greek_parchment_codex
+    common_name: Codex_Washingtonianus_Freer_Gospels
+    Gregory_Aland: "032 / W"
+    shelfmark: "Smithsonian Freer Gallery F1906.274"
+    witness_date:
+      precision: "late fourth to early fifth century"
+    access_mode: SCHOLARLY_WITNESS_REPORT_PLUS_INSTITUTIONAL_METADATA
+    locators:
+      - passage: Luke_23_34a
+        reading_state: ABSENT
+        reading_note: "Eubank reports the forgiveness prayer absent in Codex W."
+        scholarship:
+          - doi: "10.2307/25765950"
+    limitations:
+      - "The Smithsonian metadata establishes physical identity/date; the Luke 23:34a reading is currently taken from scholarly report."
+
+  - id: WIT-038-CODEX-KORIDETHI
+    witness_of: [SRC-MATTHEW, SRC-MARK, SRC-LUKE-ACTS, SRC-JOHN]
+    witness_scope_note: "For SRC-LUKE-ACTS this codex locator concerns Gospel Luke."
+    witness_kind: Greek_parchment_codex
+    common_name: Codex_Koridethi
+    Gregory_Aland: "038 / Theta"
+    witness_date:
+      precision: "ninth century"
+    access_mode: SCHOLARLY_WITNESS_REPORT_PLUS_DIGITAL_LIBRARY_METADATA
+    locators:
+      - passage: Luke_23_34a
+        reading_state: ABSENT
+        reading_note: "Eubank reports the forgiveness prayer absent in Codex Koridethi."
+        scholarship:
+          - doi: "10.2307/25765950"
+    limitations:
+      - "Later witness date does not make the reading late."
+      - "Testament has not performed autoptic collation."
 
 edition_nodes:
   - id: ED-SBLGNT
     kind: CRITICAL_EDITION
-    title: SBL Greek New Testament
+    title: SBL_Greek_New_Testament
     editor: Michael_W_Holmes
     license: CC_BY_4_0
     role: DEFAULT_REPRODUCIBLE_WORKING_GREEK_TEXT
