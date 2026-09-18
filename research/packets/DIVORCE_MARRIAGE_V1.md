@@ -75,6 +75,29 @@ That makes 1 Corinthians historically important for the **existence of an early 
 
 It does not make Paul a manuscript witness to the wording of Mark, Matthew, or Luke.
 
+### P46 folio localization — 1 Corinthians 7:10–11
+
+The former split-codex localization debt is now materially closed.
+
+A line-by-line translation of the Chester Beatty portion identifies:
+- folio 44r: 1 Corinthians 6:13–7:3;
+- folio 45v: 1 Corinthians 7:4–12;
+- folio 45r: 1 Corinthians 7:12–18/19.
+
+Therefore 1 Corinthians 7:10–11 is on:
+
+- `P46`
+- Chester Beatty Library, Dublin
+- `CBL BP II`
+- folio `45v`
+
+This matches the broader holdings map in which folios 41–69, covering 1 Corinthians 3:6 through 2 Corinthians 9:7, belong to the Chester Beatty portion.
+
+The evidence ceiling remains explicit:
+- exact folio/holding localization = established at published-folio level;
+- direct Chester Beatty image readback by Testament = still pending;
+- physical location does not strengthen the historical wording claim beyond Paul's text.
+
 ### Physical witness control
 
 P46 physically preserves most of 1 Corinthians, including chapter 7.
