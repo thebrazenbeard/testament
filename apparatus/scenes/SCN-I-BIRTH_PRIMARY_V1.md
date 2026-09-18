@@ -3,6 +3,9 @@
 Status: PRIMARY_BINDING_ACTIVE / NOT_PROSE_READY
 Scene ID: SCN-I-BIRTH
 
+Variant controls:
+- VAR-LUKE-3-23-38-GENEALOGY
+
 ## Historical question
 
 What, if anything, can be responsibly narrated about Yeshua's birth and childhood from the surviving sources?
