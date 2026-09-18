@@ -18,6 +18,18 @@ records:
         - Thomas_68
         - Thomas_69
       greek_fragment_guard: "P.Oxy. 1, 654 and 655 do not preserve Thomas 54, 68 or 69; do not cite them as Greek witnesses for the Beatitudes cluster."
+      ask_seek_cluster:
+        direct_witnesses:
+          - WIT-POXY-654-GOSPEL-THOMAS
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_2:
+          greek: WIT-POXY-654-GOSPEL-THOMAS
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          guard: "Greek P.Oxy. 654 is fragmentary; reconstructed lacunae remain reconstruction."
+        Thomas_92:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          guard: "Do not infer an extant Greek Thomas 92 from the existence of other Oxyrhynchus Thomas fragments."
     source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
     limits:
       - "Composition history and relation to Synoptics remain debated."
