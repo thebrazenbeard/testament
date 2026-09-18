@@ -1,0 +1,24 @@
+schema_version: testament.hostile_review_i_iv.v1
+review_target_sha: ffe4cf8e8531afdbe7980175474413637635b193
+status: FAIL_REPAIRABLE
+complete: false
+findings:
+  HR-IIV-001: {severity: HIGH, state: FAIL, topic: twelve_historicity}
+  HR-IIV-002: {severity: HIGH, state: FAIL, topic: marginality_bundle}
+  HR-IIV-003: {severity: MEDIUM, state: FAIL, topic: infancy_community_inference}
+  HR-IIV-004: {severity: HIGH, state: FAIL, topic: temple_independence}
+  HR-IIV-005: {severity: MEDIUM, state: FAIL, topic: healing_earliness}
+  HR-IIV-006: {severity: MEDIUM, state: FAIL, topic: meals_purity}
+  HR-IIV-007: {severity: MEDIUM, state: FAIL, topic: context_to_biography}
+  HR-IIV-008: {severity: HIGH, state: FAIL, topic: baptism_vision_assumption}
+  HR-IIV-009: {severity: HIGH, state: FAIL, topic: postdeath_aftermath_preload}
+  HR-IIV-010: {severity: MEDIUM, state: FAIL, topic: peter_restoration}
+  HR-IIV-011: {severity: HIGH, state: FAIL, topic: acts_jerusalem_floor}
+  HR-IIV-012: {severity: MEDIUM, state: FAIL, topic: women_source_vs_reconstruction}
+  HR-IIV-013: {severity: MEDIUM, state: FAIL, topic: infancy_memory_language}
+  HR-IIV-014: {severity: LOW_MEDIUM, state: NEEDS_TIGHTENING, topic: passover_volatility}
+invariants:
+  - "Review status is bound only to review_target_sha."
+  - "Repair commits do not become PASS without rereview."
+  - "No source count implies independence without a dependence argument."
+  - "Narrative outline language can itself create historical overclaim."
