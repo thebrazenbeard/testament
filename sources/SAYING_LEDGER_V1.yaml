@@ -125,6 +125,12 @@ clusters:
       - Thomas_20
     dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
     packet: research/packets/SOWER_MUSTARD_PARABLES_V1.md
+    source_controls:
+      - SRC-GOSPEL-THOMAS
+    variant_controls:
+      - VAR-SOWER-MUSTARD-THOMAS-9-20
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-SOWER
     topic: kingdom / reception / interpretation
@@ -135,6 +141,12 @@ clusters:
       - Thomas_9
     dependence_state: MARKAN_PLUS_THOMAS_RELATION_DISPUTED
     packet: research/packets/SOWER_MUSTARD_PARABLES_V1.md
+    source_controls:
+      - SRC-GOSPEL-THOMAS
+    variant_controls:
+      - VAR-SOWER-MUSTARD-THOMAS-9-20
+    variant_ledger: apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml
+    witness_review_state: PARTIAL_EXACT_BINDING_ACTIVE
 
   - id: SAY-WICKED-TENANTS
     topic: vineyard / violence / authority / judgment
