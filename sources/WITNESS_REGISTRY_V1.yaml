@@ -125,13 +125,26 @@ witnesses:
     access_mode: SCHOLARLY_MANUSCRIPT_METADATA
     locators:
       - passage: First_Corinthians_7_10_11
-        reading_state: EXTANT
-        reading_note: "Physically witnesses Paul's early divorce instruction invoking a command of 'the Lord.' This is evidence for Paul's text and early reception of a Lord-command, not a manuscript witness to Mark/Matthew/Luke wording."
+        reading_state: EXTANT_FOLIO_LOCALIZED
+        manuscript_locator:
+          institution: Chester_Beatty_Library_Dublin
+          shelfmark: "CBL BP II"
+          folio: "45v"
+          folio_contents: "1 Corinthians 7:4-12"
+        reading_note: "Folio 45v contains 1 Corinthians 7:4-12 and therefore directly includes Paul's early divorce instruction at 7:10-11 invoking a command of 'the Lord.' This is evidence for Paul's text and early reception of a Lord-command, not a manuscript witness to Mark/Matthew/Luke wording."
+        evidence:
+          - source: D_Edgar_1998_P46_English_translation
+            state: LINE_BY_LINE_CHESTER_BEATTY_FOLIO_TRANSLATION
+            report: "Identifies folio 45v as 1 Corinthians 7:4-12."
+          - source: P46_holdings_breakdown
+            state: CODEx_HOLDING_DISTRIBUTION
+            report: "Folio 45 lies in the Chester Beatty portion of P46; the Michigan 1 Corinthians leaf is folio 40 only, while folios 41-69 are Chester Beatty."
+        image_state: DIRECT_CHESTER_BEATTY_IMAGE_READBACK_PENDING
     limitations:
       - "Witness date is not the date of Paul's composition."
       - "Paul's 'not I but the Lord' does not by itself preserve the exact wording or historical setting of the Gospel divorce sayings."
       - "Testament has not performed autoptic collation of P46."
-      - "The exact present holding/leaf for 1 Corinthians 7:10-11 has not yet been localized within the split codex; do not infer it from the codex-level repository list."
+      - "The 1 Corinthians 7:10-11 leaf is now localized to CBL BP II folio 45v; direct Chester Beatty image readback remains pending."
 
 
   - id: WIT-P75-HANNA-1
