@@ -1,6 +1,6 @@
 # Divorce and Marriage V1
 
-Status: SAYING_PACKET / REVIEW_REQUIRED
+Status: SAYING_PACKET / WITNESS_CONTROL_ACTIVE / REVIEW_REQUIRED
 
 ## Primary forms
 
@@ -54,6 +54,69 @@ This is one reconstruction, not consensus by existence.
 Mark uniquely includes a woman divorcing a husband, a formulation that may reflect a Greco-Roman legal/social setting more than Palestinian practice.
 
 That feature needs redactional review before being put into Yeshua's historical mouth.
+
+## Witness-control advance — Paul as early Lord-command reception
+
+Machine-readable controls:
+- `apparatus/VARIANT_LEDGER_BOOK_III_V1.yaml`
+- `VAR-DIVORCE-PAUL-1COR-7-RECEPTION`
+- `sources/P0_SOURCE_LEDGER.yaml`
+- `SRC-PAUL-1CORINTHIANS`
+- `sources/WITNESS_REGISTRY_V1.yaml`
+- `WIT-P46-PAULINE-CODEX`
+
+1 Corinthians 7:10–11 is earlier literary evidence than the surviving written Gospels for an authoritative divorce instruction attributed to "the Lord."
+
+Paul distinguishes the instruction from his immediately following apostolic judgment by saying, in effect:
+- this command is not merely Paul's present ruling;
+- it belongs to a received command of the Lord.
+
+That makes 1 Corinthians historically important for the **existence of an early Lord-associated divorce tradition**.
+
+It does not make Paul a manuscript witness to the wording of Mark, Matthew, or Luke.
+
+### Physical witness control
+
+P46 physically preserves most of 1 Corinthians, including chapter 7.
+
+Testament therefore distinguishes:
+- Paul's mid-first-century composition;
+- P46's much later surviving physical witness;
+- the Gospel traditions' later literary forms.
+
+The manuscript date of P46 does not date the Lord-command tradition.
+
+### Source-form differences remain live
+
+Mark:
+- restrictive form;
+- creation argument;
+- reciprocal male/female formulation.
+
+Matthew:
+- exception language absent from Mark/Luke;
+- materially different legal framing.
+
+Luke:
+- compact absolute-looking form in another literary setting.
+
+Paul:
+- no-separation/remarriage instruction attributed to the Lord;
+- application to Corinth;
+- not a verbatim Synoptic quotation.
+
+### Current historical ceiling
+
+Established:
+- a restrictive divorce instruction attributed to the Lord was circulating by the time of 1 Corinthians;
+- the Gospel forms differ materially;
+- P46 physically witnesses Paul's text.
+
+Not established:
+- the exact historical wording used by Yeshua;
+- which Gospel form most directly represents Paul's received tradition;
+- whether Matthew's exception wording is original or secondary;
+- whether Mark's reciprocal gender formulation belongs to the earliest Palestinian form.
 
 ## Historical ceiling
 
