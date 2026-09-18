@@ -467,6 +467,72 @@ variants:
     manuscript_rule: "Book III must keep the Synoptic trap narrative and Thomas 100 as distinct textual forms. The Thomas-only final clause must never be silently inserted into reconstructed Yeshua speech."
 
 
+
+  - id: VAR-LOST-SHEEP-THOMAS-107
+    saying: SAY-LOST-FOUND
+    control_kind: CROSS_SOURCE_LOST_SHEEP_PARABLE_WITH_COPTIC_ONLY_THOMAS_WITNESS
+    passages:
+      - Matthew_18_12_14
+      - Luke_15_3_7
+      - Thomas_107
+    consequence: LOST_SHEEP_ENDING_VALUE_MOTIF_AND_DEPENDENCE
+
+    synoptic_control:
+      Matthew:
+        form_note: "Community-discourse setting; concludes with the Father's will that none of the little ones be lost."
+        guard: "Matthean application is not assumed to be the earliest parable ending."
+      Luke:
+        form_note: "Sinners/repentance setting; concludes with heavenly joy over one sinner who repents."
+        guard: "Lukan repentance application is not silently imported into Matthew or Thomas."
+      relation:
+        state: DOUBLE_TRADITION_OR_DIRECT_DEPENDENCE_DISPUTED
+        guard: "Matthew and Luke do not become two independent witnesses by simple counting."
+
+    thomas_control:
+      witness: WIT-NHC-II-GOSPEL-THOMAS
+      passage: Thomas_107
+      language: Coptic
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      distinctive_features:
+        - "The lost sheep is described as the largest."
+        - "The shepherd says he loves the recovered sheep more than the ninety-nine."
+        - "The Synoptic repentance/little-ones applications are absent."
+      guard: "These distinctive features are evidence for the extant Thomas form; they do not prove historical priority or independence."
+
+    fragment_scope_guard:
+      P_Oxy_654: "opening through logion 7"
+      P_Oxy_1: "portions of logia 26-33"
+      P_Oxy_655: "logion 24 and portions of 36-39"
+      conclusion: "No surviving Greek Thomas fragment currently bound by Testament witnesses logion 107."
+
+    dependence_control:
+      Thomas_vs_Synoptics:
+        state: DISPUTED
+        positions:
+          - scholar: John_Halsey_Wood
+            position: "Argues broadly for Thomas dependence on canonical Gospel material."
+            doi: "10.1017/S0028688505000305"
+          - scholar: Melissa_Harl_Sellew
+            position: "Treats close Thomas/Synoptic comparison as useful without forcing a global dependence/autonomy verdict."
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        guard: "Neither blanket dependence nor blanket independence is promoted to project fact for logion 107."
+
+    historical_ceiling:
+      strong:
+        - "Matthew, Luke and Thomas preserve materially related lost-sheep parable forms."
+        - "Thomas 107 is directly extant in Coptic Nag Hammadi Codex II."
+        - "Thomas 107 contains distinctive largest-sheep and love-more-than-the-ninety-nine motifs."
+        - "No currently bound Greek Thomas fragment preserves logion 107."
+      not_secure:
+        - "That Thomas 107 is independent of Matthew/Luke."
+        - "That Thomas's compact setting is earlier."
+        - "That the largest-sheep valuation motif belongs to the historical parable."
+        - "That Matthew's little-ones or Luke's repentance applications are original."
+        - "One harmonized lost-sheep parable combining all three endings."
+
+    manuscript_rule: "Book III must display the Matthean, Lukan and Thomas endings separately. Thomas's valuation motif may be discussed as Thomasine evidence but not retrojected into a reconstructed original."
+
+
 references:
   - id: SBLGNT_LUKE_11_2_4
     type: CRITICAL_EDITION_WEB_DISPLAY
