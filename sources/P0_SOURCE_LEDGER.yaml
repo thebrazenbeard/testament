@@ -49,6 +49,13 @@ records:
     use: "Distinctive ministry geography, Jerusalem material, Passion chronology, and resurrection traditions."
     limits: "Long discourses are not exact transcripts by default; relation to Synoptics is unit-specific and disputed."
 
+  - id: SRC-DIDACHE
+    kind: PRIMARY_TEXT_EARLY_CHRISTIAN_COMPOSITE
+    work: Didache
+    horizon: "composite early Christian work; compositional stages and dating remain disputed"
+    use: "Early reception/transmission witness for sayings, ethics, Two Ways material, liturgy, and community practice."
+    limits: "Does not become an independent historical-Jesus witness merely by paralleling Synoptic sayings; exact dependence must be argued per unit. Physical witness date is not composition date."
+
   - id: SRC-JOSEPHUS-ANTIQUITIES-18-JOHN
     kind: PRIMARY_TEXT
     work: Jewish Antiquities
