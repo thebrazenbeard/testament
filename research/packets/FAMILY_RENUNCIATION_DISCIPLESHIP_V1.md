@@ -91,7 +91,26 @@ The surviving Coptic text is damaged.
 
 That damage matters.
 
-Testament does not fill the lacunae as though one reconstruction were manuscript fact.
+The lacuna is now bound at edition level rather than merely described generically.
+
+Bentley Layton's critical edition of Nag Hammadi Codex II supplies the editorial framework for distinguishing surviving text from restored material. Simon Gathercole's commentary independently treats Thomas 101 as having a key lacuna.
+
+Published translations derived from NHC II visibly distinguish:
+- several short bracketed restorations;
+- a larger unresolved gap in the clause beginning with Jesus's mother before the surviving contrast to the true mother who gave life.
+
+Testament therefore records:
+- the restored words as editorial reconstruction;
+- the larger mother-clause gap as unresolved;
+- the surviving contrast as textually meaningful without pretending the missing clause can be recovered confidently.
+
+This closes the old `THOMAS_101_LACUNA_EDITION_BINDING` debt at the critical-edition level.
+
+It does **not** close autoptic manuscript verification.
+
+References:
+- Bentley Layton, ed., *Nag Hammadi Codex II, 2–7* (Brill, 1989), critical edition and editorial method.
+- Simon Gathercole, *The Gospel of Thomas: Introduction and Commentary* (Brill, 2014).
 
 ### Same work is not multiple independent attestation
 
