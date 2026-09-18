@@ -82,7 +82,7 @@ tranche_8:
   status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
   finding_range: NONE
   reviewed_debt:
-    - P46_1COR7_LEAF_LOCALIZATION
+    - P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
 
 
 tranche_9:
