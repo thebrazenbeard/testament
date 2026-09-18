@@ -159,5 +159,5 @@ packets:
 summary:
   structural_scene_coverage: COMPLETE_FOR_DECLARED_HIGH_RISK_BOOKS_I_II_IV
   full_historical_maturity: NOT_REACHED
-  dominant_remaining_gate: EXACT_PRIMARY_TEXT_AND_WITNESS_BINDING
-  conclusion: "The apparatus can now police high-risk scenes, but scene packets remain partial until exact textual/witness review is deepened."
+  dominant_remaining_gate: DEEPER_AUTOPTIC_APPARATUS_AND_PERICOPE_LEVEL_WITNESS_REVIEW
+  conclusion: "The apparatus can police high-risk scenes and now has named physical witness binding for major variants; scene packets remain partial until deeper apparatus/autoptic and pericope-level review is completed."
