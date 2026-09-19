@@ -54,7 +54,7 @@ Digitized-route control:
 
 ### Kenyon 1912 independent facsimile cross-bind
 
-Frederic G. Kenyon's 1912 second edition of *Handbook to the Textual Criticism of the New Testament* independently reproduces Codex 700 as **Plate X**.
+Frederic G. Kenyon's 1912 second edition of *Handbook to the Textual Criticism of the New Testament* independently reproduces Codex 700 as **Plate X**.\n\nPublic-domain digitized source:\n- `https://www.confessionalbibliology.com/wp-content/uploads/2016/04/Handbook_to_the_textual_criticism_of_the.pdf`
 
 The digitized public-domain edition:
 - identifies Plate X as `CODEX 700 (Brit. Mus. Egerton MS. 2610)`;
