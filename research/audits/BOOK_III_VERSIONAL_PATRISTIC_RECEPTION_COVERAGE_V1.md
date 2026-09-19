@@ -148,7 +148,7 @@ It is a targeted medium-value queue governed by the criteria below.
 
 ## Medium-value future candidates
 
-- Beatitudes: ancient poverty/reversal reception where it clarifies Matt/Luke/Thomas relation.
+- Beatitudes: **BOUND** via ECR-POLYCARP-PHIL2-BEATITUDES; mixed poor + persecuted-for-righteousness + kingdom-of-God form materially constrains early reception without deciding literary direction.
 - Cross-bearing / family renunciation: early reception only if a text constrains the saying combination rather than merely alluding to discipleship.
 - Judge / measure / speck: early reception only if wording or cluster composition is informative.
 - Caesar: early exegesis may illuminate interpretation, but should not be added merely as theological commentary.
