@@ -99,8 +99,9 @@ The evidence ceiling is now more specific:
 - CSNTM independently maps f. 45v to 1 Corinthians 7:4-12 and states that its Dublin P46 images come from the Chester Beatty Collection;
 - CSNTM exposes the folio-45 image families through its IIIF image service;
 - the current gallery ordering associates the `P46_045a_*` image family with the four 1 Cor 7:4 entries and `P46_045b_*` with the four 1 Cor 7:12 entries, making `045a` the current UI-order candidate for 45v;
-- direct renderable 45v pixels still have **not** been obtained in this runtime;
-- therefore direct Chester Beatty image readback by Testament remains pending;
+- actual JPEG pixel payloads from the CSNTM `P46_045a_k` candidate asset now resolve through the authorized desktop URL reader at both 100-pixel and 1500-pixel widths;
+- this clears the former transport/rendering block, but the `045a = 45v` association is still based on gallery/UI ordering rather than embedded image metadata, and a verified visual collation of 1 Corinthians 7:10–11 is still pending;
+- therefore direct Chester Beatty image readback by Testament remains open at the **visual-collation + folio-identity confirmation** boundary;
 - physical location does not strengthen the historical wording claim beyond Paul's text.
 
 ### P46 folio-45v image-route revalidation — 2026-09-19
@@ -117,11 +118,13 @@ CSNTM:
 - its manuscript-description PDF maps `f. 45v = 1 Cor 7.4-12` and `f. 45r = 1 Cor 7.12-19`;
 - its gallery exposes the `P46_045a_*` and `P46_045b_*` image families;
 - gallery ordering aligns four `1 Cor 7.4` entries with the `045a` family and four `1 Cor 7.12` entries with the `045b` family;
-- direct IIIF requests resolve as HTTP 200 binary image routes, but the available extraction layers cannot render the image bytes for visual inspection.
+- the CSNTM `P46_045a_k` IIIF route now returns real `image/jpeg` payloads through the authorized desktop URL reader;
+- a 100-pixel payload and a substantially larger 1500-pixel payload were both successfully delivered;
+- this resolves pixel transport, not yet the manuscript-reading claim.
 
 Current state:
 
-**FOLIO + IMAGE ROUTE RESOLVED / DIRECT PIXEL READBACK PENDING.**
+**FOLIO + IMAGE ROUTE RESOLVED / CANDIDATE IMAGE PIXEL TRANSPORT RESOLVED / VISUAL COLLATION + FOLIO-IDENTITY CONFIRMATION PENDING.**
 
 This does not close `P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK`.
 
@@ -129,9 +132,10 @@ The project will not convert:
 - an institutional plate caption;
 - an IIIF URL;
 - HTTP 200 on a binary image route;
+- successful delivery of JPEG bytes;
 - or UI-order mapping
 
-into a claim that Testament directly inspected the manuscript pixels.
+into a claim that Testament has already completed a verified visual collation of folio 45v.
 
 ### Physical witness control
 
