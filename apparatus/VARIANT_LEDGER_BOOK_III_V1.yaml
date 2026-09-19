@@ -306,7 +306,9 @@ variants:
       manuscript_rule: "Do not cite the Oxyrhynchus Thomas fragments as Greek witnesses for this beatitude cluster."
 
     source_relation:
-      state: DISPUTED_INTERTEXTUAL_RELATION
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      state: RELATION_DISPUTED
+      evidence_balance: DISPUTED_INTERTEXTUAL_RELATION
       scholarship:
         - author: Melissa_Harl_Sellew
           title: "The Gospel of Thomas and the Synoptics"
@@ -389,7 +391,8 @@ variants:
         state: DISPUTED
         guard: "Double-tradition similarity is compatible with Q-like shared tradition or direct literary dependence under competing Synoptic models."
       Thomas_2_92_vs_Synoptics:
-        state: RELATED_TRADITION_DIRECTION_UNRESOLVED
+        state: RELATION_DISPUTED
+        evidence_balance: RELATED_TRADITION_DIRECTION_UNRESOLVED
         guard: "Shared seek/find language does not establish direct copying, independence, priority, or one recoverable original."
       Thomas_internal:
         state: TRANSMISSION_VARIATION_ESTABLISHED_FOR_LOGION_2
@@ -466,7 +469,9 @@ variants:
         state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
         guard: "Three Synoptic forms are not counted as three independent witnesses."
       Thomas_vs_Synoptics:
-        state: DISPUTED
+        state: RELATION_DISPUTED
+        evidence_balance: DISPUTED
+        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
         scholarship:
           - author: Melissa_Harl_Sellew
             title: "The Gospel of Thomas and the Synoptics"
@@ -527,7 +532,9 @@ variants:
       Synoptics:
         state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
       Thomas_vs_Synoptics:
-        state: DISPUTED
+        state: RELATION_DISPUTED
+        evidence_balance: DISPUTED
+        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
         scholarship:
           - author: Melissa_Harl_Sellew
             title: "The Gospel of Thomas and the Synoptics"
@@ -594,7 +601,9 @@ variants:
 
     dependence_control:
       Thomas_vs_Synoptics:
-        state: DISPUTED
+        state: RELATION_DISPUTED
+        evidence_balance: DISPUTED
+        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
         positions:
           - scholar: John_Halsey_Wood
             position: "Argues broadly for Thomas dependence on canonical Gospel material."
@@ -659,7 +668,9 @@ variants:
         state: MULTIPLE_REDACTIONAL_PLACEMENTS
         guard: "Repeated placement does not mean repeated independent historical utterance."
       Thomas_vs_Synoptics:
-        state: DISPUTED
+        state: RELATION_DISPUTED
+        evidence_balance: DISPUTED
+        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
         scholarship:
           - author: Melissa_Harl_Sellew
             title: "The Gospel of Thomas and the Synoptics"
@@ -744,7 +755,9 @@ variants:
 
     dependence_control:
       Thomas_vs_Synoptics:
-        state: DISPUTED_WITH_CONFLATION_ARGUMENTS
+        state: RELATION_DISPUTED
+        evidence_balance: DISPUTED_WITH_CONFLATION_ARGUMENTS
+        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
         evidence:
           - kind: SCHOLARLY_ARGUMENT
             source: John_P_Meier
@@ -812,7 +825,9 @@ variants:
         state: COMPOSITE_WITH_MARKAN_RELATED_MATERIAL
         guard: "Matthew/Luke overlap is not automatically independent attestation; Mark's separate measure placement complicates reconstruction."
       Thomas_vs_Synoptics:
-        state: DISPUTED_SAYING_LEVEL_RELATION
+        state: RELATION_DISPUTED
+        evidence_balance: DISPUTED_SAYING_LEVEL_RELATION
+        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
         scholarship:
           - author: Melissa_Harl_Sellew
             title: "The Gospel of Thomas and the Synoptics"
@@ -912,7 +927,9 @@ variants:
 
     dependence_control:
       Luke_vs_Thomas_3_113:
-        state: RELATED_KINGDOM_TRADITIONS_DIRECTION_UNRESOLVED
+        state: RELATION_DISPUTED
+        evidence_balance: RELATED_KINGDOM_TRADITIONS_DIRECTION_UNRESOLVED
+        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
         scholarship:
           - author: Colin_H_Roberts
             title: "The Kingdom of Heaven (Lk. XVII.21)"
