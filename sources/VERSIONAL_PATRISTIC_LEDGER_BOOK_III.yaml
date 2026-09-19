@@ -291,6 +291,38 @@ records:
       - "Close parallelism with Thomas 2 does not by itself establish literary direction."
 
 
+
+  - id: ECR-POLYCARP-PHIL2-BEATITUDES
+    passage: Polycarp_Philippians_2
+    kind: EARLY_CHRISTIAN_RECEPTION
+    work: Polycarp_to_the_Philippians
+    related_variant: VAR-BEATITUDES-POOR-MATT-LUKE-THOMAS
+    text_state: DIRECT_PUBLISHED_TEXT_EDITION_NOT_PHYSICAL_MANUSCRIPT_BINDING
+    reception_form:
+      poor: "unqualified poor"
+      persecution: "persecuted for righteousness' sake"
+      promise: "theirs is the kingdom of God"
+    comparative_significance:
+      Luke_like:
+        - "unqualified poor"
+        - "kingdom of God"
+      Matthew_like:
+        - "persecuted for righteousness' sake"
+      state: MIXED_OR_RECOMBINED_BEATITUDE_RECEPTION_FORM
+    evidence:
+      - source: Polycarp_Philippians_2_New_Advent
+        url: "https://www.newadvent.org/fathers/0136.htm"
+      - source: Polycarp_Philippians_2_CCEL
+        url: "https://ccel.org/ccel/polycarp/epistle_to_the_philippians/anf01.iv.ii.ii.html"
+    significance:
+      - "Shows an early Christian beatitude reception form that does not map neatly onto one extant Matthew or Luke wording."
+      - "Demonstrates recombination/quotation-memory possibilities relevant to Matthew/Luke/Thomas comparison."
+    guard:
+      - "Polycarp is reception evidence, not a Gospel manuscript."
+      - "The mixed form does not prove conflation from written Matthew and Luke; oral, catechetical, memory, and mixed literary transmission remain possible."
+      - "Polycarp does not adjudicate whether Luke's poor or Matthew's poor-in-spirit is earlier."
+
+
 invariants:
   - "VERSIONAL_STREAM != PHYSICAL_MANUSCRIPT."
   - "PATRISTIC_CITATION != GOSPEL_MANUSCRIPT."
