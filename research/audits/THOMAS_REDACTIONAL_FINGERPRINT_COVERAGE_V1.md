@@ -1,0 +1,192 @@
+# Thomas / Synoptic Redactional-Fingerprint Coverage Audit V1
+
+Status: COMPLETE_CURRENT_SCOPE / BOOK_III_SCOPE
+
+Source-level method:
+- research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+
+Purpose:
+- track which current Book III Thomas parallels have received saying-level redactional-fingerprint review;
+- prioritize remaining review by direct witness quality and diagnostic value;
+- prevent repeated review of already-mature clusters while weaker controls remain.
+
+## Reviewed high-signal clusters
+
+### Thomas 65-66 — Wicked tenants / rejected stone
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 17
+
+Key diagnostic evidence:
+- Gathercole's doubled-"perhaps" Lukan-redaction argument;
+- tenants -> stone sequence shared with Synoptics;
+- autonomy/social-realism counterarguments retained.
+
+Controlled result:
+- RELATION_DISPUTED
+- SYNOPTIC_INFLUENCE_PLAUSIBLE_REDACTIONAL_FINGERPRINT_LOCALLY_WEIGHTY
+
+### Thomas 55 / 101 — Family renunciation
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 19
+
+Key diagnostic evidence:
+- Thomas 55 family + cross/worthiness combination;
+- Tuckett/Meier Synoptic-influence/conflation arguments;
+- Patterson relative-autonomy argument for 55;
+- possible secondary Matthean influence for 101;
+- Thomas 101 lacuna lowers precision.
+
+Controlled result:
+- separate RELATION_DISPUTED states for 55 and 101.
+
+### Thomas 9 / 20 — Sower / mustard
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 20
+
+Key diagnostic evidence:
+- Tuckett local influence arguments;
+- Thomas 9 absence of major Markan framing/interpretation;
+- substantial autonomy/common-tradition countercase for Thomas 9;
+- structural Markan-correspondence case for Thomas 20;
+- independent/common-tradition countermodels retained.
+
+Controlled result:
+- separate RELATION_DISPUTED states for 9 and 20.
+
+### Thomas 55 — Cross-bearing reuse
+Status: STRUCTURAL_REVIEW_COMPLETE
+Hostile review:
+- tranche 16
+
+Control:
+- same Thomas 55 source cannot become a second independent witness merely because a second motif is under review.
+
+### Thomas 26 — Speck / log
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 21
+
+Key diagnostic evidence:
+- P.Oxy. I 1 preserves only the concluding portion of Thomas 26;
+- Goodacre reports a thirteen-word Greek agreement with Luke 6:42 and a Matthean-like verb position;
+- oral stability of a memorable punchline remains a live countermodel;
+- the Coptic "missing middle" pattern is not misrepresented as complete Greek manuscript evidence.
+
+Controlled result:
+- RELATION_DISPUTED
+- DIRECT_GREEK_VERBATIM_AGREEMENT_STRONG_CONTACT_ARGUMENT_WITH_ORAL_COUNTERMODEL
+
+### Thomas 4 — First / last
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 22
+
+Key diagnostic evidence:
+- P.Oxy. 654 preserves/reconstructs a reciprocal first/last maxim whose core aligns especially closely with Mark 10:31;
+- the papyrus line is fragmentary and partly restored;
+- the Coptic form drops the reciprocal last-to-first half;
+- proverb portability and intra-Thomas instability remain strong countercontrols.
+
+Controlled result:
+- RELATION_DISPUTED
+- DIRECT_GREEK_RECONSTRUCTED_CORE_CLOSE_MARK_AGREEMENT_WITH_PORTABLE_MAXIM_COUNTERMODEL
+
+### Thomas 3 / 113 — Kingdom location
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 23
+
+Key diagnostic evidence:
+- Thomas 3 has direct fragmentary Greek entos-hymon contact evidence with Luke 17:21;
+- the divine-title wording is partly restored and the saying is heavily developed in Thomas;
+- Thomas 113 has no surviving Greek witness and carries a stronger common-tradition argument than a diagnostic wording argument;
+- the two Thomas sayings therefore require separate local literary histories.
+
+Controlled result:
+- Thomas 3 = RELATION_DISPUTED / DIRECT_GREEK_ENTOS_OVERLAP_STRONG_CONTACT_ARGUMENT_WITH_LACUNA_AND_THOMASINE_EXPANSION
+- Thomas 113 = RELATION_DISPUTED / COMMON_TRADITION_ARGUMENT_SUBSTANTIAL_NO_GREEK_THOMAS_WITNESS
+
+### Thomas 2 / 92 — Seek / find
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 24
+
+Key diagnostic evidence:
+- Thomas 2 has Greek + Coptic witnesses and a close noncanonical Gospel-of-the-Hebrews / Clement sequence;
+- the basic seek/find admonition has broad wisdom-tradition support;
+- Thomas 92 is Coptic-only and functionally parallels Matthew 7:7 while developing a distinct revelatory use;
+- direct Synoptic literary dependence is less immediately evidenced than common/wider tradition.
+
+Controlled result:
+- Thomas 2 = COMMON_TRADITION_PLAUSIBLE / NONCANONICAL_WISDOM_CHAIN_STRONGER_THAN_DIRECT_SYNOPTIC_CONTACT
+- Thomas 92 = COMMON_TRADITION_PLAUSIBLE / SEEK_FIND_FORMULA_PORTABLE_WISDOM_TRADITION_WITH_MATTHEW_PARALLEL
+
+### Thomas 100 — Caesar
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 25
+
+Key diagnostic evidence:
+- published Synoptic-redaction model has substantial local support;
+- Thomas survives only in Coptic for this logion;
+- the Thomas-only final Jesus-claim clause demonstrates redactional development without fixing literary direction.
+
+Controlled result:
+- RELATION_DISPUTED
+- SYNOPTIC_REDACTION_MODEL_SUBSTANTIAL_COPTIC_ONLY_DIRECTION_NOT_SECURE
+
+### Thomas 107 — Lost sheep
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 25
+
+Key diagnostic evidence:
+- the "largest" sheep motif recurs within Thomas and supports an internal-redaction model;
+- published scholarship also argues for an early/independent Thomas form;
+- no surviving Greek Thomas 107 witness can adjudicate wording direction.
+
+Controlled result:
+- RELATION_DISPUTED
+- COMPETING_THOMASINE_REDACTION_AND_EARLY_OR_INDEPENDENT_FORM_MODELS
+
+### Thomas 54 / 68 / 69 — Beatitudes
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 25
+
+Key diagnostic evidence:
+- Thomas 54 is strongly comparable to Luke's unqualified poor beatitude while retaining "kingdom of heaven";
+- Luke-contact/dependence and shared/independent-tradition models remain live;
+- Thomas 68/69 are same-work related beatitudes and do not multiply external attestation;
+- no currently bound Greek witness preserves 54/68/69.
+
+Controlled result:
+- RELATION_DISPUTED
+- LUKE_CONTACT_ARGUMENT_LOCALLY_WEIGHTY_WITH_SHARED_OR_INDEPENDENT_TRADITION_COUNTERMODELS
+
+## Current-scope closure
+
+Every current Book III Thomas cluster now satisfies the completion rule.
+
+THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW is closed for the current cluster set.
+
+This closure is scope-bound:
+- newly added Thomas clusters automatically reopen review;
+- new Greek or versional evidence can reopen an existing cluster;
+- closure does not mean the academic dependence debate is resolved.
+
+## Completion rule
+
+THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW may be narrowed or closed for current Book III scope only when:
+- every current Thomas cluster has either:
+  - DEEP_REVIEW_COMPLETE;
+  - STRUCTURAL_REVIEW_COMPLETE with explicit reason deeper fingerprint review is not applicable;
+  - INSUFFICIENT_DIAGNOSTIC_EVIDENCE with evidence ceiling recorded;
+- all local relation states remain matrix-valid;
+- no cluster uses shorter/simpler form as chronology;
+- no same-work forms are counted as independent historical attestations.
+
+Future newly added Thomas clusters reopen coverage automatically.

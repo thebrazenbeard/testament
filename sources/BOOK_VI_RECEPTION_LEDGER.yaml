@@ -1,0 +1,34 @@
+schema_version: testament.book_vi_reception_ledger.v1
+status: RESEARCH_ACTIVE
+
+nodes:
+  - id: TRAD-SYRIAC-DIATESSARON
+    horizon: late_second_century_and_later
+    type: GOSPEL_HARMONY_AND_RECEPTION
+    evidence: [Tatian_descendant_traditions, Ephrem_commentary, Syriac_reception]
+    guard: "No single extant complete original Diatessaron manuscript."
+
+  - id: TRAD-SYRIAC-EPHREM
+    horizon: fourth_century
+    type: POETIC_EXEGETICAL_RECEPTION
+    features: [symbol, typology, poetry, liturgy, Gospel_commentary]
+
+  - id: TRAD-TOLEDOT-YESHU
+    horizon: late_antique_medieval_development
+    type: JEWISH_POLEMICAL_COUNTER_NARRATIVE
+    evidence: [Hebrew_recensions, Judeo_Arabic_recensions, Genizah_and_other_manuscripts]
+    guard: "Counter-memory/reception, not direct first-century biography."
+
+  - id: EVENT-NICAEA-325
+    horizon: "325 CE"
+    type: COUNCIL
+    main_relevance: [Christology, creed, ecclesial_order, Pascha]
+    guard: "Did not select the twenty-seven-book New Testament by a simple council vote."
+
+  - id: TRAD-ISLAMIC-JESUS
+    horizon: seventh_century_and_later
+    type: QURANIC_AND_POST_QURANIC_RECEPTION
+    layers: [Quran, qiraat, tafsir, hadith, qisas, theology, mysticism]
+    guard: "Later interpretive mechanism must not be back-projected into Qur'anic wording."
+
+invariant: "Later religious importance does not upgrade chronological proximity to the first-century Yeshua."

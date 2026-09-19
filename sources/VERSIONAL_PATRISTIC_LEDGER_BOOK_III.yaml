@@ -1,0 +1,464 @@
+schema_version: testament.versional_patristic_book_iii.v1
+status: RESEARCH_ACTIVE
+
+scope:
+  - Book_III
+  - Lord's_Prayer
+  - Luke_11_2_4
+
+records:
+  - id: VP-LUKE11-4-LONGER-VERSIONAL-STREAMS
+    passage: Luke_11_4_deliverance_petition
+    kind: VERSIONAL_APPARATUS_STREAM
+    reading: EXPANDED_DELIVERANCE_FORM
+    reported_support:
+      - siglum: it
+        label: Old_Latin_collective
+        type: VERSIONAL_STREAM_NOT_SINGLE_MANUSCRIPT
+      - siglum: sy_c
+        label: Curetonian_Syriac
+        type: VERSIONAL_WITNESS_WITH_PHYSICAL_NODE
+        physical_witness: WIT-CURETONIAN-SYRIAC
+      - siglum: sy_p
+        label: Peshitta_Syriac
+        type: VERSIONAL_STREAM_NOT_PHYSICALLY_BOUND_HERE
+      - siglum: sy_h
+        label: Harklean_Syriac
+        type: VERSIONAL_STREAM_NOT_PHYSICALLY_BOUND_HERE
+    evidence:
+      - source: NET_Bible_Luke_11_4_textual_note
+        report: "Published apparatus summary lists it and sy(c,p,h) among witnesses adding the Matthean-style deliverance petition."
+        url: "https://classic.net.bible.org/passage.php?passage=Luk+11%3A4"
+    guard:
+      - "Collective version sigla are not physical manuscript identities."
+      - "Versional support may reflect translation history and cross-contamination; it does not automatically establish the Greek archetype."
+      - "The Curetonian physical node is separately bound; Peshitta and Harklean remain stream-level evidence in this ledger."
+
+  - id: VP-LUKE11-4-SHORTER-VERSIONAL-STREAMS
+    passage: Luke_11_4_deliverance_petition
+    kind: VERSIONAL_APPARATUS_STREAM
+    reading: SHORTER_OMITS_DELIVERANCE
+    reported_support:
+      - siglum: vg
+        label: Vulgate
+        type: VERSIONAL_STREAM_NOT_SINGLE_MANUSCRIPT
+      - siglum: sa
+        label: Sahidic_Coptic
+        type: VERSIONAL_STREAM_NOT_SINGLE_MANUSCRIPT
+    evidence:
+      - source: NET_Bible_Luke_11_4_textual_note
+        report: "Published apparatus summary lists vg and sa with the shorter reading."
+        url: "https://classic.net.bible.org/passage.php?passage=Luk+11%3A4"
+      - source: NET_Bible_version_abbreviations
+        report: "NET abbreviation guide distinguishes Old Latin, Vulgate, Syriac, and Sahidic as versional traditions rather than single manuscripts."
+        url: "https://bible.org/list-abbreviations-net-bible-footnotes"
+    guard:
+      - "Vulgate and Sahidic support are versional-stream evidence, not one witness each in the physical-manuscript sense."
+      - "Translation agreement does not equal independent historical attestation of Yeshua."
+
+  - id: PAT-ORIGEN-ON-PRAYER-LUKE11
+    passage: Luke_11_2_4
+    kind: PATRISTIC_CITATION_AND_EXEGESIS
+    author: Origen
+    work: On_Prayer
+    locator: "Chapter XII and following Lord's Prayer exposition"
+    reading_state: SHORTER_LUKAN_FORM_CITED
+    observed_features:
+      - "Luke opens with simple Father rather than Matthew's Our Father in heaven."
+      - "Luke lacks Matthew's will petition."
+      - "Origen's quoted Lukan form ends after the testing petition rather than adding deliverance from evil."
+    evidence:
+      - url: "https://www.ccel.org/ccel/origen/prayer.xiii.html"
+      - url: "https://www.ccel.org/ccel/origen/prayer.xvii.html"
+    guard:
+      - "Origen is a patristic citation/exegete, not a physical Gospel manuscript."
+      - "Patristic citation can preserve textual evidence but may also paraphrase, harmonize, or reflect the author's exemplar."
+
+  - id: VP-LUKE11-2-SPIRIT-FOR-KINGDOM
+    passage: Luke_11_2
+    kind: GREEK_AND_PATRISTIC_MINOR_VARIANT_REPORT
+    relation: REPLACES_KINGDOM_PETITION
+    physical_greek_witnesses:
+      - id: WIT-162-BARB-GR-449
+        reported_folio: "151"
+        form_state: SPIRIT_PETITION_WITHOUT_UPON_US
+      - id: WIT-700-EGERTON-2610
+        reported_folio: "184"
+        form_state: SPIRIT_PETITION_WITH_UPON_US
+    patristic_support:
+      Gregory_of_Nyssa:
+        state: DIRECT_PRIMARY_GREEK_PATRISTIC_TEXT_BOUND
+        work: De_oratione_dominica
+        homily: 3
+        collation_control: research/collations/LUKE11_2_GREGORY_NYSSA_SPIRIT_PETITION_V1.md
+        direct_gospel_attribution: "Gregory says Luke interprets the same thought more clearly and that in that Gospel, instead of 'Let your kingdom come,' the Spirit petition follows."
+        direct_form: "Ἐλθέτω τὸ ἅγιον πνεῦμά σου ἐφ’ ἡμᾶς καὶ καθαρισάτω ἡμᾶς"
+        interpretation: "Gregory explicitly says what Luke calls Holy Spirit Matthew calls kingdom."
+        critical_locator: "GNO VII/II 39.18-19; older PG 44:1157C"
+        evidence_class: PATRISTIC_TEXTUAL_TESTIMONY_PLUS_EXEGESIS_NOT_PHYSICAL_GOSPEL_MANUSCRIPT
+        internal_wording_guard: "Gregory later reuses the petition with changed word order in his own sermonic prose; that reuse is not counted as a second Gospel witness."
+        relation_to_700_162: "Gregory's attributed form includes ἐφ’ ἡμᾶς and therefore aligns with the fuller 700-type feature, but no genealogical or direct-copy relationship is asserted."
+        source: "https://catholiclibrary.org/library/view?chunk.id=00000029&docId=Fathers-Synchronized-EN%2FGregory_of_Nyssa__De_oratione_dominica_orationes_v.en.html"
+      Maximus:
+        state: DIRECT_PRIMARY_GREEK_PATRISTIC_TEXT_BOUND
+        work: Orationis_Dominicae_brevis_expositio
+        locus: "PG 90:884B-C"
+        collation_control: research/collations/LUKE11_2_MAXIMUS_SPIRIT_PETITION_V1.md
+        direct_form: "Ἐλθέτω σου τὸ Πνεῦμα τὸ ἅγιον, καὶ καθαρισάτω ἡμᾶς"
+        direct_attribution: "Maximus says what Matthew here calls kingdom another evangelist elsewhere called Holy Spirit."
+        evidence_class: PATRISTIC_TEXTUAL_TESTIMONY_PLUS_EXEGESIS_NOT_PHYSICAL_GOSPEL_MANUSCRIPT
+        relation_to_gregory: "PG apparatus suggests Maximus may have drawn from Gregory of Nyssa; Testament records this as editorial judgment, not proven dependence."
+        relation_to_162_700: "Maximus lacks ἐφ’ ἡμᾶς and has possessive-before-Spirit order, making his form locally closer to 162 at those features; no genealogy is asserted."
+        pg_apparatus_variant: "One Reg. codex is reported with ἐπελθέτω; this is a Maximus-text edition variant, not a Gospel witness."
+        source: "https://catholiclibrary.org/library/view?chunk.id=00000442&docId=%2FFathers-OR%2FPG090.html"
+        guard: "Direct Maximus text is now bound, but Gregory + Maximus are not counted as two securely independent transmission streams without separate evidence."
+    witness_specific_forms:
+      WIT_700:
+        report: "Metzger reports 700 with 'May your Holy Spirit come upon us and cleanse us.'"
+        distinguishing_feature: "Includes the phrase corresponding to 'upon us.'"
+      WIT_162:
+        report: "Metzger reports 162 with a different possessive word order and without the phrase corresponding to 'upon us.'"
+        distinguishing_feature: "Omits 'upon us'; wording is not identical to 700."
+    evidence:
+      - source: Metzger_Textual_Commentary_Luke_11_2
+        report: "Critical commentary explicitly distinguishes the forms in 700 and 162."
+      - source: Published_Lords_Prayer_variant_studies
+        report: "Published studies describe the witness family as substituting a Holy-Spirit petition for 'your kingdom come.'"
+        url: "https://www.cambridge.org/core/journals/new-testament-studies/article/abs/lords-prayer-in-matthew-and-in-john/A7F43BF0573EA3607BB0DC83A25FD7EB"
+    exact_wording_state: PHYSICAL_GREEK_WITNESSES_BOUND_WORDING_DIFFERENCE_EXPLICIT
+    guard:
+      - "162 and 700 are related witnesses to a Spirit-petition variant family, not identical strings."
+      - "Gregory and Maximus are now directly bound as patristic textual testimony/exegesis. Neither is a physical Gospel manuscript node, and their independence from one another is unresolved."
+      - "Late Greek manuscript preservation does not date the origin of the variant."
+
+  - id: PAT-MARCION-LUKE11-SPIRIT-PETITION
+    passage: Luke_11_2
+    kind: INDIRECT_TESTIMONY_TO_LOST_GOSPEL_TEXT
+    lost_text: Marcion_Gospel
+    relation: SPIRIT_REQUEST_IN_PLACE_OF_FIRST_PETITION_NOT_EQUATED_WITH_KINGDOM_SUBSTITUTION_FAMILY
+    testimony:
+      - source: Tertullian_Against_Marcion_IV_26
+        state: POLEMICAL_PATRISTIC_TESTIMONY
+        url: "https://www.newadvent.org/fathers/03124.htm"
+      - source: Roth_2012_Lords_Prayer_in_Marcion
+        state: MODERN_RECONSTRUCTION_CONTROL
+        report: "Modern reassessment concludes that Marcion's text had some type of request for the Spirit in place of the first petition, while warning that reconstructing the exact wording goes beyond the evidence."
+      - source: Recent_NA28_Marcion_reassessment
+        state: MODERN_APPARATUS_REVIEW
+        report: "Roth explicitly warns that older apparatus/reconstructions wrongly make Marcion appear to replace the kingdom petition in the same way as 700/Gregory; the evidence supports a Spirit request but not that assimilation."
+        url: "https://www.cambridge.org/core/journals/new-testament-studies/article/testimony-for-marcions-gospel-in-na28-revisiting-the-apparatus-to-luke-in-the-light-of-recent-research/BA1609CD1FAEE4E429E6BDB8ED0B001B"
+    exact_wording_state: NOT_RECOVERABLE_WITH_CONFIDENCE
+    guard:
+      - "Tertullian is indirect polemical testimony about a lost Gospel text."
+      - "Do not use the 162/700/Gregory/Maximus wording to fill Marcion's lost text."
+      - "Marcion's Spirit request and the kingdom-substitution witness family are related evidence problems, not one normalized variant."
+
+
+  - id: VP-LUKE17-21-LATIN-SYRIAC-RECEPTION
+    passage: Luke_17_21
+    kind: VERSIONAL_RECEPTION_MATRIX
+    greek_target: "entos hymon"
+    collation_control: research/collations/LUKE17_21_VERSIONAL_TEXT_COLLATION_V1.md
+    latin:
+      Vulgate:
+        form: "intra vos"
+        text_state: DIRECT_TEXT_COLLATION_BOUND
+        semantic_report: INSIDE_OR_WITHIN
+        evidence:
+          - source: Public_Vulgate_Luke_17_21
+            report: "Direct verse text reads 'Ecce enim regnum Dei intra vos est.'"
+      Vetus_Latina:
+        form: "intra vos"
+        text_state: EDITION_REPORTED_NOT_DIRECTLY_COLLATION_BOUND
+        semantic_report: INSIDE_OR_WITHIN
+        evidence:
+          - source: Ramelli_Luke_17_21_Syriac_Study
+            report: "Ramelli reports no Vetus Latina variant for intra vos in this phrase."
+      Codex_Bezae_Latin_column:
+        form: "intra uos"
+        text_state: DIRECT_IGNTP_XML_TRANSCRIPTION_BOUND
+        semantic_report: INSIDE_OR_WITHIN
+        physical_witness: WIT-D05-CODEX-BEZAE
+        direct_locus:
+          tei_verse_id: B03K17V21
+          folio_current: "256r"
+          cudl_canvas: 492
+          target_clause: "ecce enim regnum dei intra uos est"
+          wider_verse_feature: "nolite credere precedes the target clause in the direct Latin transcription"
+        evidence:
+          - source: IGNTP_Bezae_Latin_XML_v1
+            url: "https://epapers.bham.ac.uk/id/eprint/1664/1/Bezae-Latin.xml"
+            report: "Official electronic transcription directly reads intra uos at Luke 17:21."
+          - source: Birmingham_ePapers_Bezae_Latin
+            url: "https://epapers.bham.ac.uk/id/eprint/1664/"
+            report: "Repository record identifies the XML as the IGNTP/Cambridge Latin transcription."
+        guard: "This directly binds one Old Latin manuscript witness; it does not turn the entire Vetus Latina collective into direct collation."
+      guard: "Latin intra strongly reflects interior/bounded reception, but translation evidence does not mechanically decide the Greek source sense."
+    syriac:
+      Old_Syriac_Sinaitic_and_Curetonian:
+        state: LEXEME_SEMANTICALLY_AMBIGUOUS_DIRECT_CAL_BOUND
+        text_state: DIRECT_CAL_ROMANIZATION_BOUND_TARGET_UNICODE_DERIVED_SOURCE_UNICODE_REJECTED
+        edition_anchor: "Kiraz, Comparative Edition of the Syriac Gospels, vol. 3, p. 352"
+        computational_source:
+          repository: chenzhan4321/diatessaron-synopsis
+          commit: 6b165111c292aaa128272ff0d2daeb866986c0d7
+          Curetonian_blob: 768adf5651583b842cf4192367527a77687be696
+          Sinaiticus_blob: 7facf587c87237320defef3980872bc3b2749a32
+          converter_blob: 49099dc8dae6ba6c7bf2d965fb3d0dfbb69edf39
+        direct_CAL:
+          Curetonian: "wl) n)mrwn h) hrk) hy )w h) hrtmn hy, h) gyr mlkwth d)lh) byntkwn%"
+          Sinaiticus: "wl) )mryn hrk) hy )w hrtmn hy h) gyr mlkwth d)lh) byntkwn,"
+          shared_target: byntkwn
+        derived_unicode_target: "ܒܝܢܬܟܘܢ"
+        source_unicode_state: REJECTED_AT_THIS_LOCUS_VERSE_MISALIGNMENT
+        source_unicode_defect: "The public corpus stores an unrelated Syriac verse string beside both Luke 17:21 CAL rows; its converter documentation identifies verse-number misalignment in scraped Syriac-script fields and treats CAL romanization as ground truth."
+        report: "Ramelli describes the shared Old Syriac wording as capable of within/inside or between/among senses."
+        counter_report: "Older critical commentary can render the Sinaitic Syriac evidence as 'among.'"
+        consequence: "Old Syriac must not be counted as an unambiguous vote for either side."
+        guard:
+          - "Derived Unicode is deterministic script conversion from direct CAL, not source-native Unicode or manuscript image readback."
+          - "The Curetonian terminal % marker remains unresolved source encoding and is not silently normalized."
+          - "Script encoding does not resolve the semantic within/among dispute."
+      Peshitta:
+        state: DIRECT_INTERIOR_FORM_BOUND
+        text_state: DIRECT_TEXT_COLLATION_BOUND
+        form: "ܠܓܘ ܡܢܟܘܢ"
+        full_verse: "ܘܠܐ ܐܡܪܝܢ ܗܐ ܗܪܟܐ ܗܝ ܘܗܐ ܗܪ ܬܡܢ ܗܝ ܗܐ ܓܝܪ ܡܠܟܘܬܗ ܕܐܠܗܐ ܠܓܘ ܡܢܟܘܢ ܗܝ"
+        report: "The directly readable Peshitta verse uses l-gaw menkon; Ramelli analyzes this as an inside/interior expression."
+      Harklean:
+        state: DIRECT_PUBLISHED_PAGE_TEXT_BOUND
+        text_state: DIRECT_PUBLISHED_PAGE_VISUAL_READBACK_STABLE_UNICODE_BOUND
+        edition_anchor: "Kiraz, Comparative Edition of the Syriac Gospels, vol. 3, p. 352"
+        published_readback:
+          source: "Ramelli, Hugoye 12.2 (2009), p. 264"
+          full_line: "ܗܐ ܓܝܪ ܡܠܟܘܬܗ ܕܐܠܗܐ ܒܓܘܟܘܢ ܐܝܬܝܗ"
+          target_expression: "ܒܓܘܟܘܢ"
+          method: "Rendered-page visual inspection plus custom-font decoding calibrated against the independently bound Peshitta line printed immediately above."
+          decode_audit: research/audits/LUKE17_21_HARKLEAN_FONT_DECODE_V1.md
+          independent_control: "Syriac Orthodox Patriarchate Bar Hebraeus Luke commentary preserves ܡܠܟܘܬܗ ܕܐܠܗܐ and explicitly marks ܒܓܘܟܘܢ ܐܝܬܝܗ as the Greek-aligned form."
+          extraction_artifact_guard: "Terminal ASCII J in the legacy PDF text layer is nonlexical/unresolved as an extraction mechanism; it is not promoted to an additional Syriac letter."
+          evidence_ceiling: "Direct scholarly-page text readback; not manuscript-image autopsy of Vat. Syr. 268."
+        report: "Ramelli argues the hyper-literal Harklean uses an explicit inside/interior expression; the project now binds the quoted Harklean line itself while keeping that semantic judgment attributed."
+      comparison_control:
+        report: "Ramelli contrasts these Luke 17:21 renderings with Syriac renderings of Luke's en mesō + genitive expressions, especially Harklean forms that explicitly mean in-the-middle/among."
+        guard: "Direct project text collation now covers Peshitta, pinned Old Syriac CAL romanization with reproducible target-script conversion, and direct published-page Harklean text readback. None of these versional forms alone settles Greek entos hymon."
+    evidence:
+      - author: Ilaria_Ramelli
+        title: "Luke 17:21: The Kingdom of God is Inside You"
+        journal: Hugoye
+        doi: "10.31826/hug-2011-120112"
+      - source: Kiraz_Comparative_Edition_Syriac_Gospels_Luke
+        locus: "vol. 3, p. 352"
+      - source: ICC_Luke_17_21
+        state: COUNTER_RECEPTION_REPORT
+        report: "Older ICC commentary notes Syriac Sinaitic support as 'among,' reinforcing the need to preserve ambiguity in the Old Syriac form."
+    state: DIRECT_VERSIONAL_COLLATION_OLD_SYRIAC_CAL_AND_HARKLEAN_PUBLISHED_TEXT_BOUND
+
+  - id: PAT-TERTULLIAN-LUKE17-21-POWER
+    passage: Luke_17_21
+    kind: PATRISTIC_EXEGESIS
+    author: Tertullian
+    work: Against_Marcion
+    locator: "Book IV, chapter 35"
+    interpretation: WITHIN_YOUR_HAND_OR_POWER
+    report: "Tertullian explicitly interprets 'within you' as 'in your hand, within your power' if one hears and does God's commandment."
+    evidence:
+      - url: "https://www.newadvent.org/fathers/03124.htm"
+    significance:
+      - "Confirms an ancient reception corresponding closely to the modern 'within your reach/power' interpretive family."
+      - "Shows that interior wording did not require a purely psychological 'inside the soul' interpretation."
+    guard:
+      - "Patristic exegesis is reception evidence, not a lexical override of Luke's Greek."
+      - "Tertullian's theological linkage to Deuteronomy 30 is interpretation, not proof of Luke's intended source."
+
+
+
+  - id: ECR-DIDACHE-1-2-3-DOUBLE-ENEMY-LOVE
+    passages:
+      - Didache_1_2
+      - Didache_1_3
+    kind: EARLY_CHRISTIAN_RECEPTION_AND_NONCANONICAL_PARALLEL
+    work: Didache
+    physical_witness: WIT-DIDACHE-H54-HIEROSOLYMITANUS
+    related_variants:
+      - VAR-DOUBLE-LOVE-TORAH-SUMMARY
+      - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
+    text_state: DIRECT_PUBLISHED_GREEK_EDITION_PLUS_BOUND_PHYSICAL_WITNESS
+    reception:
+      Didache_1_2: "Places love of God and love of neighbor together at the head of the Way of Life and follows them with a negative-form reciprocal maxim."
+      Didache_1_3: "Immediately develops blessing persecutors/enemies and loving those who hate, alongside nonretaliation material."
+    significance:
+      - "Provides early Christian evidence for a combined love-command + enemy-love ethical complex outside the canonical narrative settings."
+      - "Shows reception/recombination of Torah-summary and Jesus-tradition material without making literary direction self-evident."
+    evidence:
+      - source: Lightfoot_Apostolic_Fathers_Didache_1
+        url: "https://www.ccel.org/ccel/lightfoot/fathers.ii.xii.html"
+      - source: Lake_Greek_Didache
+        url: "https://www.ccel.org/ccel/lake/fathers2.v.html"
+    guard:
+      - "Didache is an early Christian work, not a Gospel manuscript."
+      - "Its combination of material does not prove dependence on Matthew, Luke, or Mark rather than shared/other tradition."
+      - "One Didache work is not multiplied into separate independent historical attestations for each maxim."
+
+  - id: ECR-HERMAS-MANDATE4-DIVORCE
+    passage: Shepherd_of_Hermas_Mandate_4
+    kind: EARLY_CHRISTIAN_RECEPTION
+    work: Shepherd_of_Hermas
+    related_variant: VAR-DIVORCE-PAUL-1COR-7-RECEPTION
+    text_state: DIRECT_PUBLISHED_TEXT_EDITION_NOT_PHYSICAL_MANUSCRIPT_BINDING
+    reception:
+      divorce_adultery: "Hermas permits separation from an unrepentant adulterous spouse while requiring openness to repentance."
+      remarriage_during_spouse_life: "The separated spouse is not to remarry while reconciliation through repentance remains possible."
+      gender_rule: "The discussion explicitly applies the rule to man and woman alike."
+      widowhood: "Remarriage after a spouse's death is permitted, though celibacy is praised more highly."
+    significance:
+      - "Documents an early Christian reception/application trajectory around divorce, repentance, separation, and remarriage after Paul's Lord-command evidence."
+      - "Shows that later application involved pastoral qualifications rather than one flat repetition of a Gospel sentence."
+    evidence:
+      - source: New_Advent_Shepherd_Hermas_Commandment_4
+        url: "https://www.newadvent.org/fathers/02012.htm"
+      - source: Lightfoot_Apostolic_Fathers_Hermas_Mandate_4
+        url: "https://ccel.org/ccel/hermas/pastor/anf02.ii.iii.iv.html"
+    guard:
+      - "Hermas is reception evidence, not a fifth Gospel source."
+      - "The relationship of Hermas to Pauline, Gospel, oral, or church-disciplinary tradition is not fixed by thematic similarity."
+      - "Hermas does not recover the exact historical wording of Yeshua's divorce teaching."
+
+  - id: PAT-CLEMENT-GHEB-SEEK-FIND
+    passages:
+      - Clement_Stromata_2_9_45_5
+      - Clement_Stromata_5_14_96_3
+    kind: PATRISTIC_TESTIMONY_TO_LOST_NONCANONICAL_GOSPEL_TRADITION
+    author: Clement_of_Alexandria
+    related_variant: VAR-ASK-SEEK-KNOCK-THOMAS-2-92
+    lost_text: Gospel_according_to_the_Hebrews
+    testimony:
+      Stromata_2_9_45_5:
+        attribution_state: EXPLICIT_GOSPEL_OF_HEBREWS_ATTRIBUTION
+        report: "Clement explicitly says the Gospel according to the Hebrews contains a wonder -> reign -> rest saying."
+      Stromata_5_14_96_3:
+        attribution_state: FULLER_CHAIN_QUOTED_WITHOUT_REPEATED_SOURCE_NAME_IN_IMMEDIATE_CONTEXT
+        report: "Clement gives the fuller seek -> find -> marvel -> reign -> rest chain; scholarship connects it with the earlier explicitly attributed Gospel-of-the-Hebrews saying."
+    relation_to_Thomas_2:
+      state: CLOSE_PARALLEL_TO_GREEK_POXY654_CHAIN
+      report: "The chain closely parallels the Greek Thomas 2 progression preserved/reconstructed in P.Oxy. 654."
+    evidence:
+      - source: Clement_Stromata_2_9
+        url: "https://ccel.org/ccel/clement_alex/stromata/anf02.vi.iv.ii.ix.html"
+      - source: Text_and_Canon_Institute_Thomas2_GHebrews_comparison
+        url: "https://textandcanon.org/category/canon/apocrypha/"
+    guard:
+      - "Clement is surviving testimony; the Gospel according to the Hebrews is not physically recovered by the quotation."
+      - "The fuller Stromata 5.14 chain should not be described as freshly and explicitly re-attributed to the Gospel of the Hebrews in that immediate sentence."
+      - "Close parallelism with Thomas 2 does not by itself establish literary direction."
+
+
+
+  - id: ECR-POLYCARP-PHIL2-BEATITUDES
+    passage: Polycarp_Philippians_2
+    kind: EARLY_CHRISTIAN_RECEPTION
+    work: Polycarp_to_the_Philippians
+    related_variant: VAR-BEATITUDES-POOR-MATT-LUKE-THOMAS
+    text_state: DIRECT_PUBLISHED_TEXT_EDITION_NOT_PHYSICAL_MANUSCRIPT_BINDING
+    reception_form:
+      poor: "unqualified poor"
+      persecution: "persecuted for righteousness' sake"
+      promise: "theirs is the kingdom of God"
+    comparative_significance:
+      Luke_like:
+        - "unqualified poor"
+        - "kingdom of God"
+      Matthew_like:
+        - "persecuted for righteousness' sake"
+      state: MIXED_OR_RECOMBINED_BEATITUDE_RECEPTION_FORM
+    evidence:
+      - source: Polycarp_Philippians_2_New_Advent
+        url: "https://www.newadvent.org/fathers/0136.htm"
+      - source: Polycarp_Philippians_2_CCEL
+        url: "https://ccel.org/ccel/polycarp/epistle_to_the_philippians/anf01.iv.ii.ii.html"
+    significance:
+      - "Shows an early Christian beatitude reception form that does not map neatly onto one extant Matthew or Luke wording."
+      - "Demonstrates recombination/quotation-memory possibilities relevant to Matthew/Luke/Thomas comparison."
+    guard:
+      - "Polycarp is reception evidence, not a Gospel manuscript."
+      - "The mixed form does not prove conflation from written Matthew and Luke; oral, catechetical, memory, and mixed literary transmission remain possible."
+      - "Polycarp does not adjudicate whether Luke's poor or Matthew's poor-in-spirit is earlier."
+
+
+  - id: ECR-1CLEM13-JUDGE-MEASURE
+    passage: 1_Clement_13_2
+    kind: EARLY_CHRISTIAN_RECEPTION_AND_ATTRIBUTED_LORD_SAYING_CHAIN
+    source_work: SRC-1-CLEMENT
+    physical_witness: WIT-CODEX-ALEXANDRINUS-1CLEMENT
+    related_variant: VAR-JUDGE-SPECK-THOMAS-26
+    text_state: DIRECT_PUBLISHED_TEXT_BOUND_PLUS_PHYSICAL_WITNESS_METADATA_NOT_IMAGE_AUTOPTIC
+    source:
+      attribution_state: EXPLICITLY_INTRODUCED_AS_WORDS_OF_THE_LORD_JESUS
+      sequence_features:
+        - mercy
+        - forgiveness
+        - reciprocal_doing
+        - reciprocal_giving
+        - reciprocal_judgment
+        - kindness
+        - reciprocal_measure
+    claim:
+      state: MATERIAL_RECEPTION_CLUSTER_COMPOSITION_EVIDENCE
+      report: "1 Clement 13.2 preserves an early attributed-Lord chain joining judgment and measure with mercy, forgiveness, doing and giving, while the cited chain does not include the speck/log image."
+      significance:
+        - "Shows that 1 Clement attests judgment/measure reciprocity in an attributed-Lord ethical chain broader than the judge/measure/speck grouping."
+        - "Provides an early reception control separating the judge/measure chain from the speck/log image in this witness."
+    evidence:
+      - source: New_Advent_1_Clement_13
+        url: "https://www.newadvent.org/fathers/1010.htm"
+      - source: Lake_1_Clement_13
+        url: "https://en.wikisource.org/wiki/1_Clement_(Lake)"
+      - source: British_Library_Codex_Alexandrinus
+        url: "https://searcharchives.bl.uk/catalog/040-002353500"
+    guard:
+      - "1 Clement is reception evidence, not a Gospel manuscript."
+      - "The sequence does not prove whether 1 Clement used Matthew, Luke, oral tradition, catechesis, or a mixed transmission path."
+      - "Absence of the speck/log image from this cited chain does not prove that image was absent from an earlier historical form."
+      - "A fifth-century physical witness does not date the composition of 1 Clement or the sayings it transmits."
+
+  - id: ECR-JUSTIN-APOL1-17-CAESAR
+    passage: Justin_First_Apology_17
+    kind: EARLY_CHRISTIAN_RECEPTION_AND_EXPLICIT_CHRIST_TEACHING_CITATION
+    source_work: SRC-JUSTIN-FIRST-APOLOGY
+    physical_witness: WIT-BNF-GREC450-JUSTIN
+    related_variant: VAR-CAESAR-THOMAS-100
+    text_state: DIRECT_PUBLISHED_GREEK_AND_TRANSLATION_BOUND_PHYSICAL_MANUSCRIPT_NOT_IMAGE_AUTOPTIC
+    source:
+      attribution_state: EXPLICITLY_PRESENTED_AS_TEACHING_RECEIVED_FROM_CHRIST
+      sequence_features:
+        - tribute_question
+        - coin_image_question
+        - Caesar_possession
+        - God_possession
+      thomas_only_third_clause: ABSENT_FROM_CITED_JUSTIN_FORM
+    claim:
+      state: MATERIAL_RECEPTION_FORM_EVIDENCE
+      report: "Justin First Apology 17 attests a mid-second-century Christian reception of the Caesar saying in a binary Caesar/God form; the cited form does not include Thomas 100's additional demand to give Jesus what is his."
+      significance:
+        - "Provides an early reception control for the binary Caesar/God structure outside the surviving Gospel manuscripts themselves."
+        - "Shows that the Thomas-only third clause is not present in this particular second-century reception witness."
+    evidence:
+      - source: CCEL_Justin_First_Apology_17
+        url: "https://ccel.org/ccel/justin_martyr/first_apology/anf01.viii.ii.xvii.html"
+      - source: New_Advent_Justin_First_Apology_17
+        url: "https://www.newadvent.org/fathers/0126.htm"
+      - source: ARCA_BnF_Grec_450
+        url: "https://bvmm.irht.cnrs.fr/ark:/63955/md21td96kq22"
+    guard:
+      - "Justin is reception evidence, not a Gospel manuscript."
+      - "The binary form does not prove whether Justin depended directly on Matthew, Mark, Luke, oral tradition, memory, or mixed transmission."
+      - "Absence of Thomas's third clause from Justin does not prove that the clause originated after Justin or that Thomas directly edited a Synoptic Gospel."
+      - "The late physical witness date does not date Justin's composition or the saying tradition."
+
+invariants:
+  - "VERSIONAL_STREAM != PHYSICAL_MANUSCRIPT."
+  - "PATRISTIC_CITATION != GOSPEL_MANUSCRIPT."
+  - "INDIRECT_LOST_TEXT_TESTIMONY != EXTANT_TEXT."
+  - "EARLY_CHRISTIAN_RECEPTION != GOSPEL_MANUSCRIPT."
+  - "PATRISTIC_TESTIMONY_TO_LOST_TEXT != EXTANT_LOST_TEXT."
+  - "Agreement across versions may reflect shared translation or harmonization history and is not counted mechanically as independent historical attestation."

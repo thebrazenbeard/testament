@@ -1,0 +1,1637 @@
+schema_version: testament.variant_ledger.book_iii.v1
+status: ACTIVE_PARTIAL
+scope: BOOK_III_SAYINGS
+creation_parent: 09fcc02c0e4493c2e41195453f844b9d9f2d14b9
+
+rules:
+  - "Book III wording-sensitive sayings must bind a declared working text before prose promotion."
+  - "A critical-edition reading is not automatically the historical wording."
+  - "Reported manuscript support is labeled as scholarly/apparatus evidence unless Testament has performed autoptic collation."
+  - "Synoptic harmonization is a transmission hypothesis to test, not a license to reconstruct an original prayer."
+  - "Didache parallels remain reception/transmission evidence unless literary independence is separately established."
+
+variants:
+  - id: VAR-LUKE-11-2-4-LORDS-PRAYER
+    saying: SAY-LORDS-PRAYER
+    passage: Luke_11_2_4
+    consequence: PRAYER_WORDING_SOURCE_RELATION_AND_LITURGICAL_HARMONIZATION
+    versional_patristic_ledger: sources/VERSIONAL_PATRISTIC_LEDGER_BOOK_III.yaml
+    working_text:
+      edition: ED-SBLGNT
+      state: SHORTER_CRITICAL_FORM
+      guard: "SBLGNT is the reproducible working comparison text, not a claim to the exact historical prayer."
+
+    variant_units:
+      - id: LUKE11-2-OPENING-ADDRESS
+        shorter_form: "Father"
+        expansion_family: "Adds Matthean-style 'our' / heavenly-address wording."
+        evidence:
+          - kind: CRITICAL_EDITION_APPARATUS
+            source: SBLGNT
+            report: "SBLGNT flags the expansion after the opening address."
+          - kind: PUBLISHED_APPARATUS_SUMMARY
+            source: Bruce_Terry_Student_Guide_Luke_11_2
+            report: "The simple 'Father' is reported for P75, Sinaiticus, Vaticanus and others; the expanded 'Our Father in heaven' is reported for Bezae and a broad later stream."
+        witness_support:
+          shorter:
+            - WIT-P75-HANNA-1
+            - WIT-01-CODEX-SINAITICUS
+            - WIT-03-CODEX-VATICANUS
+          expansion:
+            - WIT-D05-CODEX-BEZAE
+        sinaiticus_direct_transcription:
+          manuscript_locator: "British Library folio 236b, Luke 10:21-11:6"
+          state: SIMPLE_FATHER_VISIBLE_IN_OFFICIAL_ELECTRONIC_TRANSCRIPTION
+          method_state: OFFICIAL_SCHOLARLY_TRANSCRIPTION_DIRECTLY_READ_IMAGE_NOT_AUTOPTIC
+          guard: "The project transcription is image-checked scholarly data; Testament has not directly inspected the Luke 11:2 manuscript pixels."
+        witness_binding: SCHOLARLY_APPARATUS_PLUS_SINAITICUS_DIRECT_ELECTRONIC_TRANSCRIPTION_NOT_AUTOPTIC
+        state: NAMED_WITNESS_BINDING_ACTIVE_HARMONIZATION_TOWARD_MATTHEW_PLAUSIBLE
+
+      - id: LUKE11-2-WILL-PETITION
+        shorter_form: "No Matthean 'your will be done ... on earth' petition."
+        expansion_family: "Adds the Matthean-style will petition."
+        evidence:
+          - kind: CRITICAL_EDITION_APPARATUS
+            source: SBLGNT
+            report: "SBLGNT flags the additional will petition in the alternative tradition."
+          - kind: PUBLISHED_TEXTUAL_NOTE
+            source: NET_Bible_Luke_11_2
+            report: "The shorter reading is reported for P75, Vaticanus and L among other witnesses; the longer expansion is reported in a broad later/alternative stream including Bezae."
+        witness_support:
+          shorter:
+            - WIT-P75-HANNA-1
+            - WIT-03-CODEX-VATICANUS
+          expansion:
+            - WIT-D05-CODEX-BEZAE
+            - WIT-01-CODEX-SINAITICUS
+        sinaiticus_direct_transcription:
+          manuscript_locator: "British Library folio 236b, Luke 10:21-11:6"
+          state: EXPANDED_WILL_PETITION_VISIBLE
+          method_state: OFFICIAL_SCHOLARLY_TRANSCRIPTION_DIRECTLY_READ_IMAGE_NOT_AUTOPTIC
+          guard: "Official electronic transcription is linked to and checked against manuscript images; Testament has not directly inspected the Luke 11:2 manuscript pixels."
+        witness_binding: SCHOLARLY_TEXTUAL_NOTE_PLUS_DIRECT_ELECTRONIC_TRANSCRIPTION_NOT_AUTOPTIC
+        state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE
+
+      - id: LUKE11-2-HOLY-SPIRIT-PETITION
+        control_kind: RELATED_BUT_NONIDENTICAL_SPIRIT_PETITION_TRADITIONS
+        kingdom_substitution_family:
+          ledger_record: VP-LUKE11-2-SPIRIT-FOR-KINGDOM
+          relation: REPLACES_KINGDOM_PETITION
+          physical_greek_witnesses:
+            - WIT-162-BARB-GR-449
+            - WIT-700-EGERTON-2610
+          patristic:
+            Gregory_of_Nyssa:
+              state: DIRECT_PRIMARY_GREEK_TEXT_BOUND
+              control: research/collations/LUKE11_2_GREGORY_NYSSA_SPIRIT_PETITION_V1.md
+              attributed_form: "Ἐλθέτω τὸ ἅγιον πνεῦμά σου ἐφ’ ἡμᾶς καὶ καθαρισάτω ἡμᾶς"
+              attribution: "Gregory explicitly presents this as Luke's wording instead of the kingdom petition."
+              guard: "Patristic textual testimony/exegesis, not a physical Gospel manuscript and not proof of original Luke."
+            Maximus:
+              state: DIRECT_PRIMARY_GREEK_TEXT_BOUND
+              control: research/collations/LUKE11_2_MAXIMUS_SPIRIT_PETITION_V1.md
+              attributed_form: "Ἐλθέτω σου τὸ Πνεῦμα τὸ ἅγιον, καὶ καθαρισάτω ἡμᾶς"
+              attribution: "Maximus says what Matthew calls kingdom another evangelist elsewhere calls Holy Spirit."
+              relation_to_162: "Shares omission of ἐφ’ ἡμᾶς and possessive-before-Spirit order with 162's reported form; no genealogy asserted."
+              dependence_guard: "PG apparatus suggests Maximus may have drawn from Gregory; independence is unresolved and the two are not automatically counted as independent streams."
+              guard: "Patristic textual testimony/exegesis, not a physical Gospel manuscript and not proof of original Luke."
+          witness_specific_forms:
+            WIT-700-EGERTON-2610:
+              reported_form: "May your Holy Spirit come upon us and cleanse us."
+              folio: "184v"
+              passage_scope: "Luke 11:2-8"
+              route_control: research/collations/LUKE11_SPIRIT_VARIANT_162_700_IMAGE_ROUTE_V1.md
+              state: EXACT_HISTORICAL_FACSIMILE_FOLIO_RESOLVED_DIRECT_PIXEL_COLLATION_PENDING
+            WIT-162-BARB-GR-449:
+              reported_form: "May your Holy Spirit come and cleanse us."
+              folio: "151"
+              exact_image_targets:
+                - "151r / DigiVatLib canvas p0313"
+                - "151v / DigiVatLib canvas p0314"
+              passage_side_state: RECTO_OR_VERSO_NOT_YET_RESOLVED
+              route_control: research/collations/LUKE11_SPIRIT_VARIANT_162_700_IMAGE_ROUTE_V1.md
+              state: EXACT_IIIF_FOLIO_PAIR_RESOLVED_DIRECT_PIXEL_COLLATION_PENDING
+              difference_from_700: "Different possessive word order and omission of 'upon us.'"
+          wording_state: PHYSICAL_GREEK_WITNESSES_BOUND_NONIDENTICAL_FORMS_IMAGE_ROUTES_DEEPENED_PIXEL_COLLATION_PENDING
+        marcion_family:
+          ledger_record: PAT-MARCION-LUKE11-SPIRIT-PETITION
+          relation: SPIRIT_REQUEST_IN_PLACE_OF_FIRST_PETITION
+          wording_state: NOT_RECOVERABLE_WITH_CONFIDENCE
+          guard: "Do not use the 162/700/Gregory/Maximus wording to reconstruct Marcion's lost Gospel."
+        evidence:
+          - kind: PUBLISHED_SCHOLARLY_REPORT
+            source: New_Testament_Studies_Lords_Prayer_variant_studies
+            report: "Published studies distinguish the kingdom-substitution witness family from Marcion's indirectly attested Spirit request."
+        witness_binding: PHYSICAL_GREEK_WITNESSES_BOUND_PLUS_DIRECT_GREGORY_AND_MAXIMUS_PATRISTIC_TEXTS_WITH_DEPENDENCE_GUARD_PLUS_INDIRECT_MARCION_TESTIMONY
+        state: MINORITY_SPIRIT_TRADITIONS_REAL_RELATION_NOT_NORMALIZED
+        guard: "The existence of Spirit-petition traditions is stronger than any single normalized wording or placement. Do not promote theological fit with Luke's pneumatology into originality."
+
+      - id: LUKE11-4-DELIVERANCE-PETITION
+        shorter_form: "Ends after the testing/temptation petition."
+        expansion_family: "Adds the Matthean-style deliverance-from-evil petition."
+        evidence:
+          - kind: CRITICAL_EDITION_APPARATUS
+            source: SBLGNT
+            report: "SBLGNT flags the deliverance petition as an addition in the alternative tradition."
+          - kind: PUBLISHED_TEXTUAL_NOTE
+            source: NET_Bible_Luke_11_4
+            report: "The omission is reported for P75 and Vaticanus among other witnesses; the expansion is reported in a broad stream including Bezae."
+          - kind: DIRECT_ELECTRONIC_TRANSCRIPTION
+            source: Codex_Sinaiticus_Project_BL_folio_236b
+            report: "The indexed official transcription visibly ends Luke 11:4 after the testing petition and does not display the deliverance phrase in plain extracted text."
+          - kind: DIRECT_OFFICIAL_LOCUS_XML_APPARATUS
+            source: Codex_Sinaiticus_Project_Luke_11_4_XML
+            control: research/audits/LUKE11_4_SINAITICUS_CORRECTION_XML_V1.md
+            report: "Current official project XML explicitly encodes first-hand omission, a ca correction state reading αλλα ρυσ(αι) ημας απο τ, and a blank ca correction state; the project specification defines blank correction readings as deletions."
+          - kind: PUBLISHED_TEXTUAL_APPARATUS_SECONDARY_CONTROL
+            source: NET_Bible_Luke_11_4
+            report: "NET uses simplified corrector-number labels for longer/shorter states; Testament preserves that report but does not force a one-to-one mapping onto the Codex Sinaiticus Project's ca hand label."
+          - kind: SECONDARY_HAND_STATE_SUMMARY_SUPERSEDED_FOR_PROJECT_ENCODING
+            source: Older_Codex_Sinaiticus_secondary_summaries
+            report: "Earlier conflicting summaries no longer control the project-encoding claim after direct locus XML readback."
+        witness_support:
+          shorter:
+            - WIT-P75-HANNA-1
+            - WIT-03-CODEX-VATICANUS
+          expansion:
+            - WIT-D05-CODEX-BEZAE
+          correction_layer_resolved:
+            - WIT-01-CODEX-SINAITICUS
+        sinaiticus_state:
+          manuscript_locator: "British Library folio 236b / project page 78-5v / column 4 / lines 30-37"
+          verse_id: V-B35K11V4-35-LUKE
+          official_transcription_method: IMAGE_CHECKED_SCHOLARLY_ELECTRONIC_TRANSCRIPTION
+          direct_xml_control: research/audits/LUKE11_4_SINAITICUS_CORRECTION_XML_V1.md
+          firsthand_state: OMITS_DELIVERANCE_ADDITION
+          ca_addition_state:
+            diplomatic_text: "αλλα ρυσ(αι) ημας απο τ"
+            conservative_normalization: "ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τ…"
+            state: PARTIAL_DELIVERANCE_ADDITION
+          ca_deletion_state: BLANK_CORRECTION_READING_XML_SPEC_DEFINES_AS_DELETION
+          state: DIRECT_LOCUS_XML_APPARATUS_RESOLVED
+          image_state: MANUSCRIPT_PIXEL_AUTOPSY_NOT_PERFORMED_AT_THIS_LOCUS
+          guard: "The XML resolves first-hand/correction states at the project-encoding level. It does not justify silently completing the addition beyond tau, distinguishing multiple ca sub-hands, or equating ca with external simplified corrector numbering."
+        versional_patristic_support:
+          expanded:
+            - VP-LUKE11-4-LONGER-VERSIONAL-STREAMS
+            - WIT-CURETONIAN-SYRIAC
+          shorter:
+            - VP-LUKE11-4-SHORTER-VERSIONAL-STREAMS
+            - PAT-ORIGEN-ON-PRAYER-LUKE11
+        versional_guard: "Old Latin/Syriac/Vulgate/Sahidic and patristic evidence are not counted as physical Greek manuscripts and may reflect translation or harmonization history."
+        witness_binding: DIRECT_ELECTRONIC_TRANSCRIPTION_PLUS_DIRECT_OFFICIAL_LOCUS_XML_APPARATUS
+        state: HARMONIZATION_TOWARD_MATTHEW_PLAUSIBLE_SINAITICUS_PROJECT_CORRECTION_LAYER_RESOLVED_FINER_CA_CHRONOLOGY_UNCLAIMED
+
+    source_relation:
+      Matthew_Luke:
+        state: DISPUTED
+        guard: "Shared material does not by itself prove Q, direct dependence, or multiple autonomous recensions."
+      Didache_8_2:
+        state: DISPUTED
+        source: SRC-DIDACHE
+        physical_witnesses:
+          - WIT-DIDACHE-H54-HIEROSOLYMITANUS
+        witness_binding: SCHOLARLY_WITNESS_REPORT_PLUS_CATALOGUE_METADATA
+        guard: "Didache's close relation to the Matthean form may reflect Matthew, Q-like/shared liturgical tradition, or another transmission route; independence is not presumed. H's 1056 date is witness date, not composition date."
+        scholarship:
+          - author: Olegs_Andrejevs
+            title: "A Source-critical Analysis of the Lord's Prayer: Multiple Autonomous Recensions or Q?"
+            journal: Ephemerides_Theologicae_Lovanienses
+            year: 2020
+            doi: "10.2143/ETL.96.4.3288794"
+          - author: Clayton_N_Jefford
+            title: "Didache"
+            venue: Cambridge_Companion_to_the_Apostolic_Fathers
+            year: 2021
+            doi: "10.1017/9781108554992.014"
+
+    historical_ceiling:
+      strong:
+        - "Luke's extant manuscript tradition contains pressure toward a more Matthean form in wording-sensitive parts of the prayer."
+        - "Versional and patristic evidence confirms that both shorter and expanded Lukan prayer forms circulated across early Christian transmission."
+        - "A minority Holy-Spirit petition tradition is textually/reception-historically real, although its exact Marcionite wording is not securely recoverable."
+        - "Matthew, Luke and Didache preserve materially related prayer forms."
+      not_secure:
+        - "The exact wording spoken by Yeshua."
+        - "A single recoverable original recension behind all three forms."
+        - "Didache's exact literary dependence on Matthew or an independent Q-like/liturgical source."
+        - "A globally earlier prayer merely by selecting the shorter Lucan form."
+
+    manuscript_rule: "Book III must not print a harmonized Lord's Prayer as recovered speech. Any reconstructed core must mark every inferred word and keep Matthew/Luke/Didache transmission hypotheses visible."
+
+
+  - id: VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
+    saying: SAY-ENEMY-LOVE
+    passage: Matthew_5_44
+    parallels:
+      - Luke_6_27_28
+      - Didache_1_3_4
+    consequence: ENEMY_LOVE_WORDING_AND_INTERTEXTUAL_HARMONIZATION
+    working_text:
+      edition: ED-SBLGNT
+      state: SHORTER_MATTHEAN_FORM
+      guard: "The critical working form does not by itself establish the wording spoken by Yeshua."
+
+    variant_units:
+      - id: MATT5-44-LUKE-LIKE-EXPANSION
+        shorter_form: "Love enemies; pray for persecutors."
+        expansion_family: "Adds clauses corresponding closely to Luke 6:27-28: blessing those who curse, doing good to those who hate, and prayer for mistreatment/persecution."
+        evidence:
+          - kind: PUBLISHED_TEXTUAL_NOTE
+            source: NET_Bible_Matthew_5_44
+            report: "The shorter form is reported in Sinaiticus and Vaticanus among other witnesses; the expanded form is reported in Bezae, Washingtonianus, Koridethi/Theta and a broad later stream."
+          - kind: TEXTUAL_CAUSATION_ASSESSMENT
+            source: NET_Bible_Matthew_5_44
+            report: "The expansion is assessed as motivated assimilation to Luke 6:27-28."
+        witness_support:
+          shorter:
+            - WIT-01-CODEX-SINAITICUS
+            - WIT-03-CODEX-VATICANUS
+          expansion:
+            - WIT-D05-CODEX-BEZAE
+            - WIT-032-CODEX-WASHINGTONIANUS
+            - WIT-038-CODEX-KORIDETHI
+        witness_binding: SCHOLARLY_TEXTUAL_NOTE_NOT_AUTOPTIC
+        state: STRONG_HARMONIZATION_CONTROL
+
+    didache_parallel:
+      source: SRC-DIDACHE
+      passage: Didache_1_3d_4a
+      physical_witnesses:
+        - WIT-POXY-1782-DIDACHE
+        - WIT-DIDACHE-H54-HIEROSOLYMITANUS
+      transmission_state: MULTIBRANCH_TEXTUAL_HISTORY
+      evidence:
+        - kind: SCHOLARLY_WITNESS_REPORT
+          source: Bentley_Layton
+          doi: "10.1017/S0017816000029242"
+          report: "P.Oxy. 1782 directly preserves Didache 1.3d-4a; H preserves the complete section. Layton places the papyrus/Apostolic-Constitutions line in a different transmission branch from H."
+      guard: "A physical Didache witness establishes the Didache text's transmission, not independent historical attestation of Yeshua's wording."
+
+    early_reception_control:
+      ledger_record: ECR-DIDACHE-1-2-3-DOUBLE-ENEMY-LOVE
+      state: DIDACHE_ENEMY_LOVE_COMPLEX_BOUND
+      guard: "Didache 1.3-4 is early noncanonical reception/parallel evidence, not a canonical Gospel manuscript or automatic independent historical witness."
+
+    source_relation:
+      Matthew_Luke:
+        state: DISPUTED
+        guard: "The shared enemy-love complex may be explained through Q-like shared tradition or direct literary dependence under competing Synoptic models."
+      Didache_Synoptics:
+        state: HIGHLY_DISPUTED
+        positions:
+          - scholar: Bentley_Layton
+            position: "Treats the Didache compositor in this section as using Matthean material, including Matthew 5:39-42 and 5:43-48."
+            doi: "10.1017/S0017816000029242"
+          - scholar: Alan_Garrow
+            position: "Under the Matthew Conflator hypothesis, proposes Didache 1.2-5a as an extant source-like instance feeding Luke and ultimately Matthew."
+            doi: "10.1017/S0028688516000072"
+        guard: "Neither direction of dependence is promoted to project fact; oral/shared sayings and other compositional models remain live."
+
+    historical_ceiling:
+      strong:
+        - "Matthew 5:44 underwent textual harmonization toward the fuller Lukan wording in a substantial manuscript stream."
+        - "Didache 1.3d-4a is physically attested by P.Oxy. 1782 by the late fourth century and by the complete H manuscript in 1056."
+        - "The enemy-love/non-retaliation complex circulated in multiple early Christian textual settings."
+      not_secure:
+        - "That Matthew's shorter critical form is the exact historical wording."
+        - "That Luke preserves a verbatim fuller original."
+        - "That Didache is independent of Matthew and Luke."
+        - "That Didache is a source for Luke or Matthew."
+        - "That three extant literary forms equal three independent historical witnesses."
+
+    manuscript_rule: "Book III comparison must use the shorter critical Matthew 5:44 as the working Matthean form while exposing the Luke-like expansion. Didache may be shown as a distinct transmitted form, but its independence must remain unresolved."
+
+
+
+  - id: VAR-BEATITUDES-POOR-MATT-LUKE-THOMAS
+    saying: SAY-BEATITUDES
+    control_kind: CROSS_SOURCE_SAYING_FORM_NOT_SAME_WORK_MANUSCRIPT_VARIANT
+    passages:
+      - Matthew_5_3
+      - Luke_6_20
+      - Thomas_54
+      - Thomas_68
+      - Thomas_69
+    consequence: POVERTY_REVERSAL_WORDING_AND_THOMAS_DEPENDENCE
+
+    extant_forms:
+      Matthew_5_3:
+        working_text: ED-SBLGNT
+        form_note: "Blessing qualifies the poor with 'in spirit' and promises the kingdom of the heavens."
+        guard: "Matthean wording is not silently substituted into Luke or Thomas."
+      Luke_6_20:
+        working_text: ED-SBLGNT
+        form_note: "Direct address blesses the poor without Matthew's 'in spirit' qualifier and promises the kingdom of God."
+        guard: "Shorter/unqualified wording does not automatically equal earlier wording."
+      Thomas_54:
+        witness: WIT-NHC-II-GOSPEL-THOMAS
+        form_note: "The extant Coptic Thomas form blesses the poor and links them with the kingdom of heaven."
+        witness_binding: DIRECT_EXTANT_COPTIC_DIGITAL_TEXT
+        guard: "No surviving Greek Thomas manuscript preserves logion 54; exact Greek wording is unavailable."
+      Thomas_68_69:
+        witness: WIT-NHC-II-GOSPEL-THOMAS
+        form_note: "The same Coptic witness preserves related persecution and hunger beatitudes."
+        witness_binding: DIRECT_EXTANT_COPTIC_DIGITAL_TEXT
+        guard: "These related sayings may illuminate Thomasine clustering but do not prove a single original Synoptic beatitude set."
+
+    greek_fragment_control:
+      witnesses_described_for_SRC_GOSPEL_THOMAS:
+        - P.Oxy._1
+        - P.Oxy._654
+        - P.Oxy._655
+      preserved_ranges:
+        P.Oxy._654: "Prologue and sayings 1-7"
+        P.Oxy._1: "Sayings 26-33 with the known 77b placement"
+        P.Oxy._655: "Sayings 24 and 36-39"
+      conclusion: "None directly witnesses Thomas 54, 68 or 69."
+      manuscript_rule: "Do not cite the Oxyrhynchus Thomas fragments as Greek witnesses for this beatitude cluster."
+
+    source_relation:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      state: RELATION_DISPUTED
+      evidence_balance: LUKE_CONTACT_ARGUMENT_LOCALLY_WEIGHTY_WITH_SHARED_OR_INDEPENDENT_TRADITION_COUNTERMODELS
+      Thomas_54_focus:
+        contact_evidence:
+          - scholar: Mark_Goodacre
+            report: "Uses Thomas 54 as a test case against assuming independent multiple attestation and argues that the Luke-like unqualified-poor form may be secondary rather than an independent primitive witness."
+          - kind: FORM_COMBINATION
+            report: "Thomas 54 combines unqualified 'poor' like Luke with 'kingdom of heaven' like Matthew, a form that has generated competing direct/indirect dependence and shared-tradition explanations."
+          - source: Published_Thomas_54_source_criticism
+            report: "A published study of the provenance of Thomas 54 argues Luke 6:20 could be its direct or indirect source while acknowledging an independent source cannot be ruled out."
+        shared_or_independent_counterevidence:
+          - scholar: John_Dominic_Crossan
+            report: "Treats Thomas 54 as an independent witness to an early poverty beatitude tradition."
+          - kind: BROADER_TRADITION
+            report: "James 2:5 and reconstructed Q/beatitude traditions show that poverty/kingdom language circulated beyond one simple Gospel-copying path."
+          - scholar: Melissa_Harl_Sellew
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+            report: "Keeps Thomas/Synoptic comparison useful without forcing a global dependence verdict."
+        witness_limit:
+          state: COPTIC_ONLY_FOR_THOMAS_54_68_69
+          guard: "No surviving Greek Thomas witness preserves these logia, so exact Greek redactional fingerprints cannot be tested."
+        adjudication: "Luke contact/dependence is a serious local hypothesis for Thomas 54, but shared or independent tradition remains live and no direction is promoted to fact."
+      Thomas_68_69_control:
+        state: SAME_WORK_RELATED_BEATITUDES_NOT_INDEPENDENT_EXTERNAL_ATTESTATIONS
+        guard: "Persecution/hunger beatitudes in Thomas 68-69 illuminate Thomasine clustering but do not multiply the independent source count."
+      guard: "Similarity between Thomas 54 and Luke 6:20 on unqualified poverty does not establish Thomasine independence, priority, or direct copying in either direction."
+
+    early_reception_control:
+      ledger_record: ECR-POLYCARP-PHIL2-BEATITUDES
+      state: MIXED_OR_RECOMBINED_BEATITUDE_RECEPTION_FORM
+      reception_features:
+        - "unqualified poor"
+        - "persecuted for righteousness' sake"
+        - "kingdom of God"
+      significance: "Polycarp preserves a beatitude form with Luke-like and Matthew-like features outside either canonical literary setting."
+      guard: "The mixed form does not prove direct written conflation of Matthew and Luke; oral/catechetical/memory transmission remains possible."
+
+    witness_date_control:
+      physical_witness: WIT-NHC-II-GOSPEL-THOMAS
+      date: "fourth century CE"
+      rule: "The date of NHC II is a terminus for this surviving copy, not a date for composition of Gospel of Thomas or logion 54."
+
+    historical_ceiling:
+      strong:
+        - "Matthew, Luke and the extant Coptic Thomas preserve materially comparable poverty/kingdom beatitude forms."
+        - "Thomas 54, 68 and 69 are directly extant in Nag Hammadi Codex II."
+        - "No surviving Greek Thomas fragment currently bound by Testament preserves these logia."
+      not_secure:
+        - "That Thomas 54 preserves an independent pre-Synoptic form."
+        - "That Luke's unqualified poor is earlier than Matthew's qualified form."
+        - "That Matthew's 'poor in spirit' is a secondary spiritualization of one recoverable original."
+        - "The exact Greek exemplar underlying the Coptic wording of Thomas 54, 68 or 69."
+        - "A single original number/order of beatitudes behind Matthew, Luke and Thomas."
+
+    manuscript_rule: "Book III must display Matthew, Luke and Thomas as distinct extant forms. Any Greek back-translation of Thomas 54/68/69 is reconstruction and must be marked as such."
+
+
+
+  - id: VAR-ASK-SEEK-KNOCK-THOMAS-2-92
+    saying: SAY-ASK-SEEK-KNOCK
+    control_kind: CROSS_SOURCE_RELATED_SEEKING_TRADITIONS_PLUS_INTRA_THOMAS_TRANSMISSION
+    passages:
+      - Matthew_7_7_11
+      - Luke_11_9_13
+      - Thomas_2
+      - Thomas_92
+    consequence: SEEKING_PRAYER_WORDING_THOMAS_TRANSMISSION_AND_DEPENDENCE
+
+    synoptic_forms:
+      Matthew_7_7_11:
+        working_text: ED-SBLGNT
+        form_note: "Ask/receive, seek/find, knock/opened, followed by parent-child gift analogy and 'good things' climax."
+        guard: "Matthew's climax is not harmonized with Luke's."
+      Luke_11_9_13:
+        working_text: ED-SBLGNT
+        form_note: "Ask/receive, seek/find, knock/opened, followed by parent-child gift analogy and Holy Spirit climax."
+        guard: "Luke's Holy Spirit climax remains a distinct extant form rather than being normalized to Matthew."
+
+    thomas_forms:
+      Thomas_2:
+        greek_witness: WIT-POXY-654-GOSPEL-THOMAS
+        coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+        relation_to_synoptics: RELATED_SEEK_FIND_TRADITION_NOT_EXACT_ASK_SEEK_KNOCK_PARALLEL
+        transmission_state: GREEK_AND_COPTIC_FORMS_NOT_IDENTICAL
+        published_comparison:
+          greek_fragment: "Published reconstructions of fragmentary P.Oxy. 654 preserve seek/find and a progression through astonishment/reigning/rest."
+          coptic_form: "The Coptic NHC II form preserves seek/find followed by disturbance/astonishment and reigning, without the same final rest clause."
+        guard: "The Greek papyrus is fragmentary; restored lacunae remain scholarly reconstruction. Neither form is promoted to the exact historical wording."
+      Thomas_92:
+        coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+        greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+        relation_to_synoptics: RELATED_SEEK_FIND_TRADITION
+        form_note: "The extant Coptic saying begins with seek/find language but develops into a saying about questions formerly asked and no longer being sought."
+        guard: "Thomas 92 must not be treated as if P.Oxy. 654 or another Greek fragment directly witnesses it."
+
+    greek_fragment_control:
+      P_Oxy_654:
+        witness: WIT-POXY-654-GOSPEL-THOMAS
+        date: "ca. 200-250 CE"
+        scope: "opening lines through logion 7"
+        directly_relevant_to_cluster:
+          - Thomas_2
+        not_witnessed:
+          - Thomas_92
+      conclusion: "This cluster contains one Thomas saying with Greek+Coptic evidence and another with currently bound Coptic-only evidence."
+
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      Matthew_Luke:
+        state: DISPUTED
+        guard: "Double-tradition similarity is compatible with Q-like shared tradition or direct literary dependence under competing Synoptic models."
+      cluster_state:
+        state: RELATION_DISPUTED
+        guard: "Thomas 2 and Thomas 92 are related seeking traditions but require separate literary-history judgments."
+      Thomas_2_vs_Synoptics:
+        state: COMMON_TRADITION_PLAUSIBLE
+        evidence_balance: NONCANONICAL_WISDOM_CHAIN_STRONGER_THAN_DIRECT_SYNOPTIC_CONTACT
+        direct_witnesses:
+          greek: WIT-POXY-654-GOSPEL-THOMAS
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+        broader_tradition:
+          Gospel_of_the_Hebrews:
+            state: CLOSE_RELATED_TRADITION_VIA_CLEMENT
+            report: "Clement preserves a seek-find-marvel-reign-rest sequence attributed to the Gospel according to the Hebrews that closely parallels the reconstructed Greek Thomas 2 progression."
+          wisdom_background:
+            report: "Patterson roots seek/find admonition broadly in Jewish wisdom tradition; the sequence is not diagnostically Synoptic merely because canonical ask/seek sayings exist."
+        transmission_control:
+          report: "Greek P.Oxy. 654 and Coptic NHC II Thomas 2 are not identical: the Greek reconstruction ends in rest, while the Coptic develops disturbance/astonishment and reigning over the All."
+          guard: "The reconstructed Greek rest clause remains restoration, not continuously extant papyrus wording."
+        synoptic_relation:
+          report: "Matthew/Luke share seek/find within an ask-seek-knock prayer complex, but Thomas 2 lacks the Synoptic triad and follows a different wisdom/revelatory progression."
+          adjudication: "Common or wider wisdom/Jesus-saying tradition is more immediately evidenced than direct literary dependence on Matthew or Luke."
+        guard: "COMMON_TRADITION_PLAUSIBLE is not a claim of Thomasine independence or historical priority."
+      Thomas_92_vs_Synoptics:
+        state: COMMON_TRADITION_PLAUSIBLE
+        evidence_balance: SEEK_FIND_FORMULA_PORTABLE_WISDOM_TRADITION_WITH_MATTHEW_PARALLEL
+        witness_limit:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+        direct_parallel:
+          Matthew_7_7:
+            report: "Thomas 92 begins with seek/find language closely comparable in function to Matthew 7:7."
+        common_tradition_positions:
+          - scholar: Stephen_J_Patterson
+            report: "Patterson derives the seek/find admonition from wisdom tradition and treats Thomas 92 as a revelatory reuse of that common saying."
+          - kind: ORAL_SOURCE_ARGUMENT
+            report: "Published source-critical work on Thomas 92/94 and Matthew 7 argues that differences of wording/context are compatible with a common oral source rather than literary dependence."
+        Thomasine_reuse:
+          report: "Thomas 92 turns the formula into a rebuke about revelations once requested but no longer sought, a literary function absent from Matthew/Luke."
+        guard: "No Greek Thomas 92 witness survives; direct Greek diagnostic-wording claims are unavailable."
+      Thomas_internal:
+        state: TRANSMISSION_VARIATION_ESTABLISHED_FOR_LOGION_2
+        guard: "Greek/Coptic divergence in Thomas 2 is evidence of textual transmission, not permission to select whichever form better fits a reconstruction."
+
+    early_reception_control:
+      ledger_record: PAT-CLEMENT-GHEB-SEEK-FIND
+      state: CLEMENT_GHEB_CHAIN_TESTIMONY_BOUND
+      significance: "Clement preserves an explicitly attributed Gospel-of-the-Hebrews wonder/reign/rest saying and elsewhere the fuller seek/find/marvel/reign/rest chain closely parallel to Greek Thomas 2."
+      attribution_guard: "The fuller Stromata 5.14 chain is not described as freshly re-attributed by Clement in that immediate sentence; the link to the explicitly attributed Stromata 2.9 saying remains scholarship-controlled."
+      lost_text_guard: "Clement's testimony does not physically recover the Gospel according to the Hebrews."
+
+    historical_ceiling:
+      strong:
+        - "Matthew and Luke preserve closely related ask/seek/knock complexes with distinct climactic wording."
+        - "Thomas 2 is directly witnessed in both fragmentary Greek P.Oxy. 654 and Coptic NHC II."
+        - "Thomas 92 is directly witnessed in NHC II but has no surviving Greek witness currently bound by Testament."
+        - "The Greek and Coptic forms of Thomas 2 are not textually identical."
+      not_secure:
+        - "That Thomas 2 or 92 derives directly from Matthew or Luke."
+        - "That Matthew or Luke derives directly from Thomas."
+        - "That Q uniquely explains the Matthew/Luke relation."
+        - "That P.Oxy. 654 supplies a complete, unrestored Greek text of Thomas 2."
+        - "That the Greek Thomas 2 form is automatically earlier in composition because its surviving witness is earlier."
+        - "A single original saying combining all Synoptic and Thomas elements."
+
+    manuscript_rule: "Book III must present Matthew, Luke, Thomas 2 Greek/Coptic, and Thomas 92 as distinct extant/transmitted forms. Do not reconstruct one mega-saying or cite a Greek Thomas 92 that does not survive."
+
+
+
+  - id: VAR-SOWER-MUSTARD-THOMAS-9-20
+    sayings:
+      - SAY-SOWER
+      - SAY-MUSTARD
+    control_kind: CROSS_SOURCE_PARABLE_FORMS_WITH_COPTIC_ONLY_THOMAS_WITNESS
+    passages:
+      - Mark_4_3_20
+      - Matthew_13_3_23
+      - Luke_8_5_15
+      - Thomas_9
+      - Mark_4_30_32
+      - Matthew_13_31_32
+      - Luke_13_18_19
+      - Thomas_20
+    consequence: PARABLE_FORM_DEPENDENCE_INTERPRETATION_AND_FALSE_SHORTER_EQUALS_EARLIER
+
+    thomas_witness_control:
+      physical_witness: WIT-NHC-II-GOSPEL-THOMAS
+      language: Coptic
+      direct_logia:
+        - Thomas_9
+        - Thomas_20
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      fragment_scope_guard:
+        P_Oxy_654: "opening lines through logion 7"
+        P_Oxy_1: "portions of logia 26-33"
+        P_Oxy_655: "logion 24 and portions of 36-39"
+      rule: "None of the surviving Greek Thomas fragments currently bound by Testament witnesses logion 9 or 20."
+
+    sower_control:
+      Mark:
+        form_note: "Parable plus extended interpretive discourse in Mark 4."
+        guard: "The parable and interpretation are not assumed to come from one historical moment merely because Mark joins them."
+      Matthew_Luke:
+        form_note: "Both reshape the Markan complex within their own narrative/theological settings."
+        guard: "Synoptic repetition does not create independent attestation where literary dependence is probable."
+      Thomas_9:
+        form_note: "The extant Coptic Thomas form preserves the sower without Mark's extended interpretive discourse."
+        guard: "Absence of the interpretation does not by itself prove Thomas preserves an earlier form."
+
+    mustard_control:
+      Mark_Matthew_Luke:
+        form_note: "Synoptic forms share the small-seed/growth image with differing wording, placement, and detail."
+        guard: "Matthew and Luke must be evaluated in light of probable Synoptic dependence."
+      Thomas_20:
+        form_note: "The extant Coptic Thomas form preserves a compact mustard parable."
+        guard: "Compactness is not treated as a chronological timestamp."
+
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      Synoptics:
+        state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
+        guard: "Three Synoptic forms are not counted as three independent witnesses."
+      cluster_state:
+        state: RELATION_DISPUTED
+        guard: "Thomas 9 and Thomas 20 require separate local dependence analysis."
+      Thomas_9_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: AUTONOMY_ARGUMENT_SUBSTANTIAL_WITH_SYNOPTIC_REDACTION_ARGUMENTS
+        dependence_positions:
+          - scholar: Christopher_M_Tuckett
+            report: "Tuckett includes Thomas 9 among local cases where Synoptic redactional influence may be detectable."
+          - position: MARKAN_REWORKING
+            report: "Several Sower studies have treated Thomas 9 as a reworking of Mark or Synoptic tradition."
+        autonomy_positions:
+          - scholar: Stephen_J_Patterson
+            report: "Patterson uses Thomas 9's lack of major Markan framing and allegorical interpretation as evidence compatible with an autonomous rendering of the oral parable tradition."
+          - scholar: John_S_Kloppenborg
+            report: "Kloppenborg has argued that a case for Thomas 9 priority/autonomy can be made because the Thomas form avoids numerous elements of Synoptic redaction."
+        adjudication: "Absence of Markan framing is real but not proof of independence; the local relation remains disputed."
+      Thomas_20_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: MARKAN_DEPENDENCE_ARGUMENT_LOCALLY_WEIGHTY_WITH_INDEPENDENCE_COUNTERMODEL
+        dependence_positions:
+          - scholar: Christopher_M_Tuckett
+            report: "Tuckett includes Thomas 20 among local cases where Synoptic redactional influence may be detectable."
+          - kind: STRUCTURAL_MARKAN_CORRESPONDENCE
+            report: "Published analysis notes Thomas 20 shares Mark's small-seed/growth structure, 'smallest seed' motif and other structural correspondences, supporting a possible reworked-Markan model."
+        autonomy_positions:
+          - scholars:
+              - Hedrick
+              - Patterson
+              - Koester
+            report: "Published counterarguments treat Thomas 20 as independent/common-tradition evidence and caution that Mark/Thomas similarities need not imply literary copying."
+        adjudication: "Markan dependence has meaningful local evidence, but independent/common-tradition models remain viable enough to keep the controlled state disputed."
+      guard: "Neither Thomas 9 nor Thomas 20 may be dated earlier merely because the Thomas form is shorter or less allegorized."
+
+    historical_ceiling:
+      strong:
+        - "Sower and mustard parables are multiply transmitted across Synoptic and Thomasine textual settings."
+        - "Thomas 9 and 20 are directly extant in Coptic Nag Hammadi Codex II."
+        - "No surviving Greek Thomas fragment currently bound by Testament preserves Thomas 9 or 20."
+      not_secure:
+        - "That Thomas 9 or 20 is independent of the Synoptics."
+        - "That shorter Thomas forms are earlier."
+        - "That Mark's sower interpretation is secondary merely because Thomas lacks it."
+        - "One exact original wording or placement for either parable."
+        - "That multiple dependent Synoptic forms equal multiple independent historical attestations."
+
+    manuscript_rule: "Book III may compare compact and expanded forms, but must preserve source dependence, witness language, and the difference between absence of material and proof of earlier form."
+
+
+
+  - id: VAR-CAESAR-THOMAS-100
+    saying: SAY-CAESAR
+    control_kind: CROSS_SOURCE_CAESAR_SAYING_WITH_COPTIC_ONLY_THOMAS_WITNESS
+    passages:
+      - Mark_12_13_17
+      - Matthew_22_15_22
+      - Luke_20_20_26
+      - Thomas_100
+    consequence: TAX_SAYING_NARRATIVE_FRAME_AND_THOMAS_EXPANSION
+
+    synoptic_control:
+      Mark:
+        form_note: "Narrative trap scene with coin, image/inscription, and Caesar/God response."
+        guard: "Mark's narrative frame is not assumed to be a verbatim historical transcript."
+      Matthew_Luke:
+        form_note: "Preserve closely related Synoptic forms under probable literary dependence."
+        guard: "Three Synoptic texts are not counted as three independent historical witnesses."
+
+    thomas_control:
+      witness: WIT-NHC-II-GOSPEL-THOMAS
+      passage: Thomas_100
+      language: Coptic
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      form_note: "Thomas preserves a Caesar/God saying in a compact sayings setting and adds a final demand that what belongs to Jesus be given to him."
+      narrative_difference: "The Synoptic adversarial trap frame is absent in the extant Thomas form."
+      guard: "The added final clause is Thomasine textual evidence; it is not retrojected into the historical Synoptic event."
+
+    fragment_scope_guard:
+      P_Oxy_654: "opening through logion 7"
+      P_Oxy_1: "portions of logia 26-33"
+      P_Oxy_655: "logion 24 and portions of 36-39"
+      conclusion: "No surviving Greek Thomas fragment currently bound by Testament witnesses logion 100."
+
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      Synoptics:
+        state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
+      Thomas_100_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: SYNOPTIC_REDACTION_MODEL_SUBSTANTIAL_COPTIC_ONLY_DIRECTION_NOT_SECURE
+        dependence_evidence:
+          - scholar: Kimberley_A_Fowler
+            work: "Reading Gospel of Thomas 100 in the Fourth Century"
+            year: 2018
+            doi: "10.1163/15700720-12341356"
+            report: "Explicitly treats Thomas 100 as a redaction of the Synoptic render-to-Caesar pericope and interprets its distinctive form in a later ascetic/Pachomian setting."
+          - scholar: Simon_J_Gathercole
+            work: "Luke in the Gospel of Thomas"
+            year: 2011
+            report: "Includes Thomas 100 in a wider case for Lukan/Synoptic influence in Thomas and notes detailed phraseological relationships among the Caesar forms."
+        countercontrols:
+          - kind: WITNESS_LIMIT
+            report: "Thomas 100 survives only in Coptic in the currently bound witness set, so no direct Greek-to-Greek diagnostic collation is possible."
+          - kind: DISTINCTIVE_THOMAS_EXPANSION
+            report: "The final claim 'give me what is mine' is absent from the Synoptics and demonstrates Thomasine compositional activity without itself locating the source direction of the shared Caesar/God core."
+          - kind: COMPARATIVE_METHOD
+            scholar: Melissa_Harl_Sellew
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        adjudication: "A Synoptic-redaction model has substantial local scholarly support, but Coptic-only witness status and the possibility of indirect/shared transmission prevent promotion to direct dependence."
+        guard: "Thomas's compactness is not a chronology test, and Fowler's fourth-century reception argument is not evidence that every element of logion 100 was composed in the fourth century."
+      Thomas_internal_redaction:
+        state: DISTINCTIVE_EXPANSION_PRESENT
+        guard: "The final Jesus-claim clause is textually distinctive but its compositional stage is not known from the surviving witness alone."
+
+    historical_ceiling:
+      strong:
+        - "A Caesar/tax saying is embedded in the Synoptic tradition."
+        - "Thomas 100 is directly extant in Coptic Nag Hammadi Codex II."
+        - "Thomas 100 contains a distinctive final Jesus-claim clause absent from the Synoptic forms."
+        - "No currently bound Greek Thomas fragment preserves logion 100."
+      not_secure:
+        - "That Thomas 100 is independent of the Synoptics."
+        - "That Thomas's compact form is earlier than the Synoptic narrative."
+        - "That the distinctive final Thomas clause belongs to the historical saying."
+        - "That the Synoptic trap scene occurred exactly as narrated."
+        - "One harmonized Caesar saying combining Synoptic and Thomas material."
+
+    manuscript_rule: "Book III must keep the Synoptic trap narrative and Thomas 100 as distinct textual forms. The Thomas-only final clause must never be silently inserted into reconstructed Yeshua speech."
+
+
+
+  - id: VAR-LOST-SHEEP-THOMAS-107
+    saying: SAY-LOST-FOUND
+    control_kind: CROSS_SOURCE_LOST_SHEEP_PARABLE_WITH_COPTIC_ONLY_THOMAS_WITNESS
+    passages:
+      - Matthew_18_12_14
+      - Luke_15_3_7
+      - Thomas_107
+    consequence: LOST_SHEEP_ENDING_VALUE_MOTIF_AND_DEPENDENCE
+
+    synoptic_control:
+      Matthew:
+        form_note: "Community-discourse setting; concludes with the Father's will that none of the little ones be lost."
+        guard: "Matthean application is not assumed to be the earliest parable ending."
+      Luke:
+        form_note: "Sinners/repentance setting; concludes with heavenly joy over one sinner who repents."
+        guard: "Lukan repentance application is not silently imported into Matthew or Thomas."
+      relation:
+        state: DOUBLE_TRADITION_OR_DIRECT_DEPENDENCE_DISPUTED
+        guard: "Matthew and Luke do not become two independent witnesses by simple counting."
+
+    thomas_control:
+      witness: WIT-NHC-II-GOSPEL-THOMAS
+      passage: Thomas_107
+      language: Coptic
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      distinctive_features:
+        - "The lost sheep is described as the largest."
+        - "The shepherd says he loves the recovered sheep more than the ninety-nine."
+        - "The Synoptic repentance/little-ones applications are absent."
+      guard: "These distinctive features are evidence for the extant Thomas form; they do not prove historical priority or independence."
+
+    fragment_scope_guard:
+      P_Oxy_654: "opening through logion 7"
+      P_Oxy_1: "portions of logia 26-33"
+      P_Oxy_655: "logion 24 and portions of 36-39"
+      conclusion: "No surviving Greek Thomas fragment currently bound by Testament witnesses logion 107."
+
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      Thomas_107_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: COMPETING_THOMASINE_REDACTION_AND_EARLY_OR_INDEPENDENT_FORM_MODELS
+        secondary_redaction_evidence:
+          - scholar: Ernest_van_Eck
+            work: "In the kingdom everybody has enough"
+            year: 2011
+            doi: "10.4102/hts.v67i3.1067"
+            report: "Surveys the view that Thomas 107's largest-sheep/love-more motif is a Thomasine development and therefore not the earliest layer of the parable."
+          - kind: INTERNAL_THOMAS_MOTIF
+            report: "The 'largest' motif recurs elsewhere in Thomas (including logia 8 and 96), giving a plausible internal-redaction explanation for Thomas 107's distinctive valuation."
+          - scholar: Christopher_M_Tuckett
+            report: "Published scholarship has treated Thomas 107 as secondary to or influenced by the Synoptic/Matthean tradition."
+        early_or_independent_counterevidence:
+          - scholar: William_Petersen
+            report: "Argues Thomas 107 may preserve an early form, even earlier than the reconstructed Q form."
+          - scholar: Stephen_J_Patterson
+            report: "Treats Thomas 107 as potentially independent and resists reading its distinctive ending as simple Gnostic allegorization."
+          - scholar: Andrea_Lorenzo_Molinari
+            report: "Has proposed Thomas 107 as an early stage in a Jesus-tradition trajectory."
+        witness_limit:
+          state: COPTIC_ONLY_CURRENTLY_BOUND
+          guard: "No direct Greek Thomas 107 witness survives to test diagnostic wording."
+        adjudication: "The distinctive Thomas motif supplies real internal-redaction evidence, but published early/independent-form models remain substantial enough that literary direction is unresolved."
+        guard: "Neither the largest-sheep motif nor Thomas's compact setting establishes historical priority or dependence by itself."
+
+    historical_ceiling:
+      strong:
+        - "Matthew, Luke and Thomas preserve materially related lost-sheep parable forms."
+        - "Thomas 107 is directly extant in Coptic Nag Hammadi Codex II."
+        - "Thomas 107 contains distinctive largest-sheep and love-more-than-the-ninety-nine motifs."
+        - "No currently bound Greek Thomas fragment preserves logion 107."
+      not_secure:
+        - "That Thomas 107 is independent of Matthew/Luke."
+        - "That Thomas's compact setting is earlier."
+        - "That the largest-sheep valuation motif belongs to the historical parable."
+        - "That Matthew's little-ones or Luke's repentance applications are original."
+        - "One harmonized lost-sheep parable combining all three endings."
+
+    manuscript_rule: "Book III must display the Matthean, Lukan and Thomas endings separately. Thomas's valuation motif may be discussed as Thomasine evidence but not retrojected into a reconstructed original."
+
+
+
+  - id: VAR-FIRST-LAST-THOMAS-4
+    saying: SAY-FIRST-LAST
+    control_kind: CROSS_SOURCE_REVERSAL_MAXIM_PLUS_INTRA_THOMAS_GREEK_COPTIC_VARIATION
+    passages:
+      - Mark_10_31
+      - Matthew_19_30
+      - Matthew_20_16
+      - Luke_13_30
+      - Thomas_4
+    consequence: PORTABLE_REVERSAL_CONTEXT_AND_THOMAS_TRANSMISSION
+
+    synoptic_control:
+      Mark_10_31:
+        form_note: "First/last reversal follows the rich-man and discipleship sequence."
+      Matthew_19_30:
+        form_note: "Reproduces the reversal near Mark's placement."
+      Matthew_20_16:
+        form_note: "Uses a related inverted reversal after the laborers-in-the-vineyard parable."
+      Luke_13_30:
+        form_note: "Places reversal language in an eschatological banquet/judgment sequence."
+      guard: "Multiple placements demonstrate literary portability; they do not establish one original narrative setting."
+
+    thomas_control:
+      passage: Thomas_4
+      greek_witness: WIT-POXY-654-GOSPEL-THOMAS
+      coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+      setting: "Age/child/place-of-life saying ending in unity language."
+      transmission_difference:
+        greek: "Published reconstruction contains first-to-last plus reciprocal last-to-first wording before the unity clause."
+        coptic: "Extant Coptic form contains first-to-last wording but lacks the reciprocal last-to-first phrase."
+      state: INTRA_THOMAS_VARIATION_ESTABLISHED
+      guard: "Whether the Coptic omission is accidental, editorial, or reflects another transmission stage remains unresolved."
+
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      Synoptic_portability:
+        state: MULTIPLE_REDACTIONAL_PLACEMENTS
+        guard: "Repeated placement does not mean repeated independent historical utterance."
+      Thomas_4_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: DIRECT_GREEK_RECONSTRUCTED_CORE_CLOSE_MARK_AGREEMENT_WITH_PORTABLE_MAXIM_COUNTERMODEL
+        direct_greek_evidence:
+          witness: WIT-POXY-654-GOSPEL-THOMAS
+          reconstruction_note: "Published P.Oxy. 654 reconstruction yields the reciprocal maxim 'many first will be last and the last first,' but part of the line is restored."
+          Mark_10_31:
+            relation: CLOSE_CORE_AGREEMENT
+            diagnostic_note: "The reconstructed Thomas form aligns especially closely with Mark's reciprocal clause, including the article before the second 'last'; Mark has different connective framing."
+          Matthew_19_30:
+            relation: CLOSE_BUT_NOT_EXACT_CORE_AGREEMENT
+            diagnostic_note: "Matthew has the reciprocal maxim but lacks Mark's article before the second 'last' in SBLGNT."
+          guard: "Do not call every compared word direct papyrus ink; restoration and connective differences remain visible."
+        contact_argument:
+          scholars:
+            - Mark_Goodacre
+            - M_David_Litwa_summary_of_Goodacre
+          report: "Goodacre's Synoptic-familiarity case treats Thomas 4's Greek reciprocal maxim as an extended diagnostic agreement with the Synoptic tradition."
+        counterarguments:
+          - kind: PORTABLE_MAXIM
+            report: "First/last reversal is short, memorable and demonstrably portable across multiple Synoptic settings, so close verbal stability can arise through oral or common-saying transmission."
+          - kind: INTRA_THOMAS_TRANSMISSION
+            report: "The Coptic Thomas 4 drops the reciprocal last-to-first phrase preserved in the Greek reconstruction, proving that this very maxim was unstable within Thomas's own transmission."
+          - kind: COMPOSITE_THOMAS_CONTEXT
+            report: "Thomas embeds the reversal in an old-man/child/place-of-life/oneness saying absent from the Synoptic settings, so the maxim may have been attached to a distinct Thomasine complex at some transmission stage."
+          - kind: COMPARATIVE_METHOD
+            scholar: Melissa_Harl_Sellew
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        adjudication: "The Greek reconstructed core gives Synoptic-contact arguments meaningful local weight, especially toward Mark, but proverb portability, restoration boundaries and intra-Thomas variation prevent direct literary dependence from being established."
+        guard: "Neither the earlier physical date of P.Oxy. 654 nor the Coptic omission determines compositional priority."
+
+    historical_ceiling:
+      strong:
+        - "First/last reversal language appears in multiple Synoptic placements and in Thomas 4."
+        - "Thomas 4 is directly witnessed by both Greek P.Oxy. 654 and Coptic NHC II."
+        - "The Greek and Coptic Thomas 4 forms differ in the reciprocal last-to-first phrase."
+      not_secure:
+        - "One original narrative setting for the reversal maxim."
+        - "That every Gospel placement reflects a separate historical utterance."
+        - "That Thomas 4 is independent of the Synoptics."
+        - "That the Greek Thomas 4 wording is compositionally earlier merely because its surviving witness is earlier."
+        - "The cause of the Greek/Coptic divergence."
+        - "One harmonized reversal saying combining all contexts."
+
+    manuscript_rule: "Book III should treat first/last as a portable maxim with variant settings and explicitly display the Greek/Coptic Thomas 4 divergence. Do not normalize Thomas to the Synoptic wording or vice versa."
+
+
+
+  - id: VAR-FAMILY-RENUNCIATION-THOMAS-55-101
+    saying: SAY-FAMILY-RENUNCIATION
+    control_kind: CROSS_SOURCE_FAMILY_RENUNCIATION_PLUS_INTRA_THOMAS_DOUBLET
+    passages:
+      - Luke_14_26
+      - Matthew_10_37
+      - Mark_8_34_related
+      - Thomas_55
+      - Thomas_101
+    consequence: KINSHIP_RENUNCIATION_CROSS_LANGUAGE_AND_THOMAS_REDACTION
+
+    synoptic_control:
+      Luke_14_26:
+        form_note: "Uses severe hate-family language in a discipleship-cost setting."
+        guard: "Hyperbole is an interpretive analysis, not a license to rewrite the extant wording."
+      Matthew_10_37:
+        form_note: "Uses love-more-than-me language rather than Luke's hate wording."
+        guard: "Matthew's wording is preserved as a distinct form, not normalized to Luke."
+      cross_saying:
+        form_note: "Cross-bearing language appears in Mark 8:34 and parallels and intersects the family-renunciation complex in Thomas 55."
+        guard: "Combination in Thomas does not by itself establish historical combination."
+
+    thomas_control:
+      witness: WIT-NHC-II-GOSPEL-THOMAS
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      Thomas_55:
+        state: EXTANT_COPTIC
+        form_note: "Combines hatred of parents/siblings with cross-bearing and worthiness language."
+      Thomas_101:
+        state: EXTANT_COPTIC_WITH_LACUNAE
+        form_note: "Reuses family-renunciation material in a hate/love antithesis; the surviving text is damaged around the mother language."
+        manuscript_locator:
+          saying_range: "NHC II,2 49.32-50.1"
+          key_lacuna_range: "49.36-50.1"
+        edition_binding:
+          critical_edition:
+            editor: Bentley_Layton
+            title: "Nag Hammadi Codex II, 2-7"
+            year: 1989
+            publisher: Brill
+          commentary:
+            author: Simon_Gathercole
+            title: "The Gospel of Thomas: Introduction and Commentary"
+            year: 2014
+            publisher: Brill
+            ebook_isbn: "9789004273252"
+          exact_locator_report:
+            source: Harvard_Theological_Review
+            report: "Thomas 101 is localized to NHC II,2 49.32-50.1; restoration discussion identifies the disputed gap at 49.36-50.1."
+        image_control:
+          page_49: PUBLIC_IMAGE_IDENTIFIED_DIRECT_VISUAL_READBACK_PENDING
+          page_50: DIRECT_IMAGE_VISUALLY_INSPECTED
+          guard: "Page 50 direct image access confirms manuscript condition only; page 49 terminal lines still require direct visual readback before the lacuna is called fully autoptically confirmed."
+        restoration_semantics:
+          bracketed_words: "Editorial restorations where the published text/translation does not preserve fully readable wording."
+          key_lacuna: "The mother clause has a disputed lacuna localized to 49.36-50.1 before the surviving contrast with the true mother who gave life."
+          competing_restorations: "Published scholarship records more than one proposed restoration; none is promoted to extant wording."
+          rule: "Restored words and the large lacuna remain reconstruction; neither is promoted to extant manuscript wording."
+        edition_state: PARTIAL_AUTOPTIC_PAGE50_BOUND_PAGE49_TERMINAL_LINES_PENDING
+      internal_relation:
+        state: SAME_WORK_RELATED_FORMS_NOT_INDEPENDENT_WITNESSES
+        guard: "Thomas 55 and 101 are not counted as two independent historical attestations merely because the work contains both."
+
+    fragment_scope_guard:
+      P_Oxy_654: "opening through logion 7"
+      P_Oxy_1: "portions of logia 26-33"
+      P_Oxy_655: "logion 24 and portions of 36-39"
+      conclusion: "No surviving Greek Thomas fragment currently bound by Testament witnesses logion 55 or 101."
+
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      cluster_state:
+        state: RELATION_DISPUTED
+        evidence_balance: MIXED_OR_MULTISTAGE_TRANSMISSION_PLAUSIBLE
+        guard: "Thomas 55 and 101 belong to one work but need not have the same compositional history."
+      Thomas_55_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: AUTONOMY_ARGUMENT_SUBSTANTIAL_WITH_SYNOPTIC_REDACTION_ARGUMENTS
+        positions:
+          - scholar: Stephen_J_Patterson
+            report: "Patterson judges the case for relative independence of Thomas 55 comparatively strong and uses it as potentially useful evidence for the shared Matthew/Luke family-renunciation tradition."
+            sources:
+              - title: "The Gospel of Thomas and Christian Origins"
+                year: 2013
+              - title: "Twice More—Thomas and the Synoptics"
+                year: 2014
+                doi: "10.1177/0142064X14521947"
+          - scholar: Christopher_M_Tuckett
+            report: "Tuckett has identified Thomas 55 among local cases where Synoptic redactional influence may be detectable."
+            source:
+              title: "Thomas and the Synoptics"
+              journal: Novum_Testamentum
+              year: 1988
+          - scholar: John_P_Meier
+            report: "Meier treats Thomas 55 as a mixed/conflated form drawing on Matthean and Lukan family/cross language; this remains an attributed dependence argument."
+        common_tradition_control:
+          report: "Modern cross-bearing research recognizes a common negative-form tradition across Matthew 10:38, Luke 14:27 and Thomas 55; common form alone does not settle direction."
+        guard: "Neither Patterson's relative-independence case nor conflation/redaction arguments are promoted to project fact."
+      Thomas_101_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: SECONDARY_MATTHEAN_INFLUENCE_PLAUSIBLE_TEXT_LACUNOSE
+        positions:
+          - scholar: Stephen_J_Patterson
+            report: "Patterson distinguishes Thomas 101 from 55 and says secondary influence from Matthew may need to be reckoned with for Thomas 101."
+          - scholar: Melissa_Harl_Sellew
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+            report: "Supports saying-level comparison without forcing one global dependence model."
+        lacuna_guard: "Thomas 101's damaged text lowers the precision available for literary-direction claims."
+      same_work_guard: "Thomas 55 and 101 remain related forms inside one source and one surviving Coptic codex; separate local dependence analyses do not turn them into independent historical attestations."
+
+    historical_ceiling:
+      strong:
+        - "Severe family-renunciation language is embedded in early Synoptic discipleship tradition."
+        - "Thomas 55 and 101 are directly extant in Coptic NHC II."
+        - "Thomas 55 combines family-renunciation and cross/worthiness language."
+        - "Thomas 101 is a related but non-identical family saying with lacunose text."
+        - "No currently bound Greek Thomas fragment preserves logion 55 or 101."
+      not_secure:
+        - "That Thomas 55 or 101 is independent of the Synoptics."
+        - "That Thomas 55 is demonstrably a literary conflation rather than another transmitted form."
+        - "That the damaged wording in Thomas 101 can be reconstructed with certainty."
+        - "That family renunciation was a universal historical demand rather than context-specific rhetoric."
+        - "That two Thomas occurrences equal two independent historical witnesses."
+
+    manuscript_rule: "Book III must keep Luke, Matthew, Thomas 55 and Thomas 101 distinct; mark Thomas 101 lacunae; and never count the Thomas doublet as multiple independent attestation."
+
+
+
+  - id: VAR-JUDGE-SPECK-THOMAS-26
+    saying: SAY-JUDGE-NOT
+    control_kind: COMPOSITE_JUDGMENT_CLUSTER_PLUS_INTRA_THOMAS_GREEK_COPTIC_WITNESS
+    passages:
+      - Matthew_7_1_5
+      - Luke_6_37_42
+      - Mark_4_24
+      - Thomas_26
+    consequence: CLUSTER_COMPOSITION_SEMANTIC_SCOPE_AND_THOMAS_DEPENDENCE
+
+    synoptic_control:
+      Matthew:
+        form_note: "Combines judge-not, measure reciprocity, and speck/log self-examination in one discourse sequence."
+      Luke:
+        form_note: "Combines judge/condemn/forgive, measure, blind-guide/disciple material, and speck/log imagery."
+      Mark:
+        form_note: "Uses a related measure saying in a different literary context."
+      guard: "The cluster may be composite; co-location in Matthew/Luke does not prove one original speech."
+
+    thomas_control:
+      passage: Thomas_26
+      greek_witness: WIT-POXY-1-GOSPEL-THOMAS
+      coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+      greek_state: EXTANT_FRAGMENTARY_GREEK
+      coptic_state: EXTANT_COPTIC
+      form_note: "Thomas preserves the speck/log image without the full Matthean/Lukan judgment-measure cluster."
+      collation:
+        state: CRITICAL_EDITION_LINE_COLLATION_BOUND
+        source: research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md
+        manuscript_lines: "P.Oxy. 1.1-4"
+        greek_coverage: "P.Oxy. 1 preserves only the latter portion of logion 26, including the concluding remove-the-speck sequence."
+        coptic_coverage: "NHC II preserves the complete saying."
+        normalized_surviving_clause: "kai tote diablepseis ekbalein to karphos to en to ophthalmō tou adelphou sou"
+        overlap_note: "The direct Greek conclusion supports the thirteen-word Luke 6:42 comparison used in the dependence control; opening/middle material remains Coptic-only."
+        guard: "The fragment's line-level coverage does not support reconstruction of the complete Greek saying or a secure whole-logion Greek/Coptic variant map."
+      guard: "P.Oxy. 1 begins within logion 26; missing Greek wording cannot be silently supplied from Coptic."
+
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      Synoptics:
+        state: COMPOSITE_WITH_MARKAN_RELATED_MATERIAL
+        guard: "Matthew/Luke overlap is not automatically independent attestation; Mark's separate measure placement complicates reconstruction."
+      Thomas_26_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: DIRECT_GREEK_VERBATIM_AGREEMENT_STRONG_CONTACT_ARGUMENT_WITH_ORAL_COUNTERMODEL
+        direct_greek_evidence:
+          witness: WIT-POXY-1-GOSPEL-THOMAS
+          line_collation: research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md
+          manuscript_lines: "P.Oxy. 1.1-4"
+          preserved_scope: "Only the concluding portion of Thomas 26 is extant in P.Oxy. 1."
+          report: "Goodacre identifies a thirteen-word verbatim agreement in the surviving Greek ending with Luke 6:42; the position of ekbalein also aligns with Matthew 7:5."
+          significance: "This is materially stronger dependence evidence than a Coptic-only thematic parallel because the comparison is Greek-to-Greek."
+        missing_middle_argument:
+          source: Mark_Goodacre
+          report: "The complete Coptic Thomas form preserves the opening and conclusion but omits the intervening hypothetical dialogue/hypocrite material found in Matthew/Luke; Goodacre treats this as a recurring Thomasine 'missing middle' phenomenon compatible with abbreviation from Synoptic forms."
+          manuscript_guard: "P.Oxy. 1 itself does not preserve the opening/middle of logion 26, so the missing-middle pattern is established from Coptic Thomas plus Synoptic comparison, not from a complete Greek Thomas witness."
+        counterarguments:
+          - kind: ORAL_FORMULA_STABILITY
+            report: "Critics of Goodacre note that the preserved agreement is the memorable punchline of the saying, which can be stable in oral transmission and therefore does not prove direct literary contact by itself."
+          - kind: ALTERNATIVE_REDACTION_DIRECTION
+            report: "Published Thomas scholarship argues that the Synoptic middle material may instead be expansion/addition, leaving a shorter Thomasine form compatible with shared or earlier tradition."
+          - kind: COMPARATIVE_METHOD
+            scholar: Melissa_Harl_Sellew
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        adjudication: "The direct Greek agreement gives literary-contact arguments real local weight, but the fragment's limited scope and oral-formula countermodel prevent promotion to direct dependence."
+        guard: "Do not describe the full Thomas 26 wording as Greek manuscript evidence; only the concluding P.Oxy. 1 overlap is direct Greek evidence."
+
+    semantic_guard:
+      claim: "Judge not"
+      state: POLYSEMOUS_AND_CONTEXT_BOUND
+      rule: "Do not reduce the cluster to 'never evaluate anyone'; condemnation, reciprocity, hypocrisy, and self-examination all remain relevant contextual possibilities."
+
+    historical_ceiling:
+      strong:
+        - "Judgment/measure/self-examination sayings are multiply embedded in early Jesus tradition."
+        - "Thomas 26 is directly witnessed in fragmentary Greek P.Oxy. 1 and complete Coptic NHC II."
+        - "Thomas 26 preserves speck/log imagery without the full Synoptic cluster."
+      not_secure:
+        - "One original discourse containing all cluster components."
+        - "That Thomas 26 is independent of the Synoptics."
+        - "That the surviving Greek fragment provides the complete wording of Thomas 26."
+        - "One exact semantic scope for 'judge' across every occurrence."
+
+    manuscript_rule: "Book III must present the judgment cluster as potentially composite and preserve Thomas 26 as a distinct transmitted speck/log form. Missing Greek Thomas wording remains reconstruction."
+
+
+
+  - id: VAR-KINGDOM-WITHIN-THOMAS-3-113
+    saying: SAY-KINGDOM-WITHIN-AMONG
+    control_kind: TRANSLATION_SEMANTICS_PLUS_THOMAS_GREEK_COPTIC_WITNESS_ASYMMETRY
+    passages:
+      - Luke_17_20_21
+      - Thomas_3
+      - Thomas_113
+    consequence: ENTOS_TRANSLATION_THOMAS_DEPENDENCE_AND_PROJECT_THESIS_RISK
+
+    luke_control:
+      passage: Luke_17_20_21
+      working_text: ED-SBLGNT
+      key_phrase: "entos hymon"
+      lexicon_control: research/lexicon/ENTOS_WITHIN_AMONG_V1.md
+      translation_state: DISPUTED
+      live_options:
+        - "within you"
+        - "among you"
+        - "in your midst"
+      additional_attested_option:
+        - "within your reach/power"
+      option_note: "The three English families are not lexically co-equal. Broader Greek review centers entos on interiority / bounded inclusion; among/in-your-midst and within-your-reach/power are contextual construals or extensions that remain live for Luke 17:21."
+      corpus_review:
+        state: PUBLISHED_REFERENCE_LEVEL_ADVANCED
+        lexical_center: INTERIORITY_AND_BOUNDED_INCLUSION
+        contextual_construals:
+          - AMONG_OR_IN_YOUR_MIDST
+          - WITHIN_YOUR_REACH_OR_POWER
+        adjudication: "LEXICON_ALONE_DOES_NOT_DECIDE_LUKE_17_21"
+      reception_controls:
+        versional:
+          ledger_record: VP-LUKE17-21-LATIN-SYRIAC-RECEPTION
+          collation_control: research/collations/LUKE17_21_VERSIONAL_TEXT_COLLATION_V1.md
+          latin_state: DIRECT_VULGATE_INTRA_VOS_PLUS_OLD_LATIN_REPORTED
+          peshitta_state:
+            state: DIRECT_TEXT_COLLATION_BOUND
+            form: "ܠܓܘ ܡܢܟܘܢ"
+          old_syriac_state: AMBIGUOUS_WITHIN_OR_AMONG_DIRECT_STABLE_ENCODING_PENDING
+          harklean_state: REPORTED_INTERIOR_DIRECT_STABLE_ENCODING_PENDING
+          direct_collation_ceiling: "Direct project text collation currently covers Vulgate and Peshitta only."
+        patristic:
+          ledger_record: PAT-TERTULLIAN-LUKE17-21-POWER
+          state: ANCIENT_WITHIN_REACH_OR_POWER_EXEGESIS
+        adjudication: "RECEPTION_HISTORY_CONSTRAINS_POSSIBILITIES_BUT_DOES_NOT_DECIDE_GREEK_SOURCE_SENSE"
+      lexical_evidence:
+        - "The other New Testament use of entos is Matthew 23:26, where it denotes the inside/interior of a cup."
+        - "LSJ centers entos on within/inside/within-bounds usage and records extensions involving range, group bounds, self-control and being within one's power."
+        - "Roberts notes that Luke uses en tō mesō repeatedly for among/in-the-midst language and argues for a within-your-power sense."
+        - "Ramelli's broad Greek and Syriac study argues for inside/within and treats en mesō as Luke's ordinary among/in-the-midst expression."
+        - "A substantial modern commentary stream nevertheless prefers among/in-your-midst on contextual and Lukan-theological grounds."
+      guard: "Do not misstate an exegetical/contextual preference for 'among' as a simple dictionary result, and do not let the lexical center of 'within' carry Book VIII's agency thesis by itself."
+
+    thomas_3:
+      greek_witness: WIT-POXY-654-GOSPEL-THOMAS
+      coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+      greek_state: EXTANT_FRAGMENTARY_GREEK
+      coptic_state: EXTANT_COPTIC
+      form_note: "Thomas 3 develops kingdom location through inside/outside language rather than simply reproducing Luke 17:21."
+      collation:
+        state: CRITICAL_EDITION_LINE_COLLATION_BOUND
+        source: research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md
+        manuscript_lines: "P.Oxy. 654.9-21"
+        direct_line_control:
+          line_15: "...KAI H BAS["
+          line_16: "ENTOS YMWN [.]STI ["
+          consequence: "A kingdom-expression immediately precedes entos hymon, but the complete divine-title phrase is not continuously extant."
+        secure_difference:
+          greek_form: "The second false location is represented as under the earth in the published Greek form."
+          coptic_form: "The corresponding Coptic form says the kingdom is in the sea."
+          consequence: "The location pair changed in transmission; the Coptic is not a word-for-word witness to the Greek fragment."
+        reconstruction_guard:
+          greek_divine_title: "Completion of BAS[ to basileia and restoration of theou in the lacuna before entos hymon remain editorial reconstruction."
+          missing_text: "Any Coptic completion of Greek lacunae remains reconstruction."
+          quotation_rule: "Do not quote the full normalized 'kingdom of God is within you' phrase as continuously extant papyrus ink."
+      guard: "P.Oxy. 654 is lacunose in parts of logion 3; Coptic completion is not direct Greek readback."
+
+    thomas_113:
+      coptic_witness: WIT-NHC-II-GOSPEL-THOMAS
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      form_note: "Thomas 113 describes the kingdom as spread upon the earth while people fail to see it."
+      guard: "Do not infer extant Greek Thomas 113 or use Thomas 113 to settle Luke's Greek semantics."
+
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      cluster_state:
+        state: RELATION_DISPUTED
+        evidence_balance: RELATED_KINGDOM_TRADITIONS_WITH_NONIDENTICAL_LOCAL_HISTORIES
+        guard: "Thomas 3 and 113 are related within Thomas but must not share one undifferentiated Luke-dependence judgment."
+      Thomas_3_vs_Luke_17_21:
+        state: RELATION_DISPUTED
+        evidence_balance: DIRECT_GREEK_ENTOS_OVERLAP_STRONG_CONTACT_ARGUMENT_WITH_LACUNA_AND_THOMASINE_EXPANSION
+        direct_greek_evidence:
+          witness: WIT-POXY-654-GOSPEL-THOMAS
+          line_collation: research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md
+          manuscript_lines: "P.Oxy. 654.9-21"
+          report: "The editio-princeps line sequence preserves the kingdom stem at line 15 and entos hymon at line 16; the intervening divine-title completion is editorial restoration."
+          restoration_guard: "The Greek divine title 'kingdom of God' is partly reconstructed; do not call the entire Luke-like phrase continuously extant papyrus ink."
+        contact_argument:
+          scholars:
+            - Mark_Goodacre
+            - M_David_Litwa_summary_of_Goodacre
+          report: "Goodacre's dependence case treats the Greek Thomas 3 / Luke 17:21 entos-hymon overlap as a striking and unusual direct Greek contact datum."
+        counterarguments:
+          - kind: THOMASINE_EXPANSION
+            report: "Thomas 3 adds outside-you language, false-location contrasts and self-knowledge/children-of-the-Father material not present in Luke 17:21."
+          - kind: INTRA_THOMAS_TRANSMISSION
+            report: "Greek and Coptic Thomas 3 differ in the second false location (under the earth versus in the sea), so the saying itself was not textually flat."
+          - kind: COMMON_TRADITION_MODEL
+            scholar: Stephen_J_Patterson
+            report: "Patterson treats Thomas 3 as a philosophically/theologically recast form related to a common reign-of-God tradition also reflected in Thomas 113 and Luke 17:20-21."
+          - kind: COMPARATIVE_METHOD
+            scholar: Melissa_Harl_Sellew
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+        adjudication: "The direct Greek entos-hymon overlap gives Synoptic/Lukan contact arguments meaningful local weight, but restoration boundaries and substantial Thomasine development prevent direct dependence from being established."
+      Thomas_113_vs_Luke_17_20_21:
+        state: RELATION_DISPUTED
+        evidence_balance: COMMON_TRADITION_ARGUMENT_SUBSTANTIAL_NO_GREEK_THOMAS_WITNESS
+        witness_limit:
+          witness: WIT-NHC-II-GOSPEL-THOMAS
+          greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+          guard: "Literary-direction claims cannot rely on direct Greek Thomas 113 evidence because none survives."
+        common_tradition_positions:
+          - scholar: Stephen_J_Patterson
+            report: "Patterson treats Thomas 113 and Luke 17:20-21 as witnesses to a common present-reign tradition, with Thomas 3 as a later Thomasine theological recasting."
+          - source: Older_Thomas_source_criticism
+            report: "Older scholarship has argued that Thomas 113 reflects a pre-Lukan/shared tradition rather than direct dependence on Luke."
+        dependence_countermodel:
+          state: LUKE_OR_SYNOPTIC_INFLUENCE_REMAINS_POSSIBLE
+          guard: "Conceptual and verbal proximity to Luke remains relevant, but no direct Greek Thomas 113 witness exists to support a diagnostic wording argument."
+        adjudication: "Common-tradition models have substantial local support, but direct literary direction remains unresolved."
+      guard: "Neither Thomas 3 nor Thomas 113 may be used to adjudicate Luke's lexical force or Testament's authored kingdom-within thesis."
+
+    project_bias_guard:
+      risk: HIGH
+      reason: "The Testament's agency thesis has strong literary interest in 'the kingdom within.'"
+      rule: "Book III must preserve the Luke translation dispute and explicitly separate it from later authored use of 'kingdom within' language."
+
+    historical_ceiling:
+      strong:
+        - "Luke preserves a kingdom saying that resists simple observable localization."
+        - "Thomas 3 is directly witnessed in fragmentary Greek P.Oxy. 654 and complete Coptic NHC II."
+        - "Thomas 113 is directly extant in Coptic NHC II and has no currently bound Greek witness."
+      not_secure:
+        - "That Luke 17:21 certainly means 'within you.'"
+        - "That Luke 17:21 certainly means 'among you.'"
+        - "That Thomas 3 or 113 directly preserves Luke's source."
+        - "That Thomas 3/113 can settle the historical wording of Yeshua."
+        - "A direct lexical bridge from Luke's entos hymon to the project's authored agency thesis."
+
+    manuscript_rule: "Book III must keep Luke's translation dispute explicit, distinguish Thomas 3 from Thomas 113, and keep Greek/Coptic witness asymmetry visible. Book VIII may inherit 'kingdom within' only as authored synthesis, not lexical certainty."
+
+
+
+  - id: VAR-WICKED-TENANTS-THOMAS-65-66
+    saying: SAY-WICKED-TENANTS
+    control_kind: CROSS_SOURCE_TENANTS_PARABLE_PLUS_INTRA_THOMAS_ADJACENT_STONE_SAYING
+    passages:
+      - Mark_12_1_12
+      - Matthew_21_33_46
+      - Luke_20_9_19
+      - Thomas_65
+      - Thomas_66
+    consequence: PARABLE_ALLEGORIZATION_STONE_LINKAGE_AND_THOMAS_DEPENDENCE
+
+    synoptic_control:
+      Mark:
+        form_note: "Vineyard/tenants narrative is joined to rejected-stone scripture and Jerusalem authority conflict."
+        guard: "Narrative setting and allegorical force are not assumed to be verbatim historical framing."
+      Matthew:
+        form_note: "Expands the complex and is especially vulnerable to later supersessionist misuse."
+        guard: "Replacement-theology readings are not retrojected into Yeshua's historical voice."
+      Luke:
+        form_note: "Preserves a related Synoptic complex under Markan-dependence questions."
+        guard: "Three Synoptic forms do not become three independent witnesses by counting."
+
+    thomas_control:
+      witness: WIT-NHC-II-GOSPEL-THOMAS
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      Thomas_65:
+        state: EXTANT_COPTIC
+        form_note: "Preserves the vineyard/tenant narrative as one logion."
+      Thomas_66:
+        state: EXTANT_COPTIC
+        form_note: "Preserves the rejected-stone saying as a separate adjacent logion."
+      internal_relation:
+        state: ADJACENT_RELATED_FORMS_SAME_WORK
+        guard: "Adjacency may reflect literary linkage, inherited sequence, or redaction; it does not prove pre-Synoptic independence or separability in the historical tradition."
+
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      Synoptics:
+        state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
+      Thomas_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: SYNOPTIC_INFLUENCE_PLAUSIBLE_REDACTIONAL_FINGERPRINT_LOCALLY_WEIGHTY
+        dependence_evidence:
+          - kind: LUKAN_REDACTIONAL_FINGERPRINT_ARGUMENT
+            scholar: Simon_Gathercole
+            report: "Gathercole argues that Luke adds a 'perhaps' to the Markan tenants narrative and Thomas 65 contains two 'perhaps' clauses, treating Thomas as expanding a Lukan redactional feature."
+            sources:
+              - title: "The Composition of the Gospel of Thomas"
+                year: 2012
+              - title: "Thomas Revisited"
+                year: 2014
+                doi: "10.1177/0142064X14520658"
+          - kind: ADJACENT_SEQUENCE_ARGUMENT
+            report: "Thomas 65 is immediately followed by the rejected-stone saying in Thomas 66, paralleling the tenants-plus-stone sequence in the Synoptics. This is stronger than mere thematic overlap but does not by itself identify direction."
+        autonomy_counterevidence:
+          - kind: SOCIAL_NARRATIVE_FORM_ARGUMENT
+            scholar: John_S_Kloppenborg
+            report: "Kloppenborg's work has been used to argue that Thomas 65 preserves a more socially realistic and substantially autonomous parable form despite the shared sequence."
+          - kind: FIELD_SURVEY
+            scholar: Gregory_R_Lanier
+            title: "Mapping the Vineyard: Main Lines of Investigation Regarding the Parable of the Tenants in the Synoptics and Thomas"
+            year: 2016
+            doi: "10.1177/1476993X15577030"
+            report: "Lanier treats source-critical direction, authenticity and original form as live contested questions rather than settled results."
+          - kind: COMPARATIVE_METHOD
+            scholar: Melissa_Harl_Sellew
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+            report: "Supports close comparison without forcing a global dependence/autonomy verdict."
+        local_adjudication:
+          state: RELATION_DISPUTED
+          evidence_balance: SYNOPTIC_INFLUENCE_PLAUSIBLE_REDACTIONAL_FINGERPRINT_NOT_DECISIVE
+          reason: "The doubled 'perhaps' and 65-66 sequence give dependence arguments real local weight; Thomas's distinct narrative form and contested tradition-history block promotion to direct-copying fact."
+        guard: "Do not use simpler Thomas wording as a chronology test, and do not use the Lukan-fingerprint argument as proof that every element of Thomas 65/66 derives from Luke."
+
+    anti_supersession_guard:
+      risk: HIGH
+      rule: "Book III must not turn the parable into 'God rejected the Jews and transferred the kingdom to Christians.' Later anti-Jewish/supersessionist theology is not allowed to masquerade as recovered historical speech."
+
+    historical_ceiling:
+      strong:
+        - "Synoptic tradition preserves a tenants/vineyard complex in Jerusalem authority-conflict settings."
+        - "Thomas 65 and 66 are directly extant as adjacent but separate Coptic logia in NHC II."
+        - "No currently bound Greek Thomas fragment preserves logion 65 or 66."
+      not_secure:
+        - "That Thomas 65/66 is independent of the Synoptics."
+        - "That separation into two logia proves an earlier historical form."
+        - "That Mark's joining of parable and stone citation is secondary."
+        - "That the son had explicit Christological force in the earliest recoverable parable."
+        - "A supersessionist historical meaning."
+
+    manuscript_rule: "Book III must display the Synoptic joined complex and Thomas's adjacent two-logion arrangement without harmonizing them or converting literary structure into chronology."
+
+
+
+  - id: VAR-SABBATH-BEZAE-LUKE-6-5
+    saying: SAY-SABBATH
+    control_kind: DISTINCTIVE_BEZAE_SABBATH_ADDITION_PLUS_SYNOPTIC_REDACTION
+    passages:
+      - Mark_2_23_28
+      - Mark_3_1_6
+      - Matthew_12_related
+      - Luke_6_related
+      - Luke_6_5D_Sabbath_worker_addition
+    consequence: SABBATH_HALAKHA_TEXTUAL_VARIANT_AND_LATER_EXPANSION
+
+    synoptic_control:
+      Mark:
+        form_note: "Preserves grain-plucking and healing controversies, including Mark 2:27 'the Sabbath was made for humankind'."
+        guard: "Mark 2:27 is not automatically generalized across every Sabbath tradition."
+      Matthew_Luke:
+        state: MARKAN_DEPENDENCE_PROBABLE_WITH_REDACTION
+        guard: "Parallel Synoptic forms are not counted as independent historical attestations without source analysis."
+
+    bezae_addition:
+      witness: WIT-D05-CODEX-BEZAE
+      passage: Luke_6_5D_Sabbath_worker_addition
+      state: DISTINCTIVE_WESTERN_ADDITION
+      summary: "Bezae inserts a saying about a person working on the Sabbath whose knowledge determines whether the act is blessed or lawbreaking."
+      placement_note: "The addition occurs immediately after Luke 6:4 in Bezae's sequence and is conventionally labeled Luke 6:5D."
+      transmission_guard: "The addition is a real manuscript reading but is not ordinary critical Luke and is not promoted to original Luke or historical Yeshua speech."
+      scholarship:
+        - url: "https://greeknewtestament.net/lk6-5"
+        - url: "https://www.newadvent.org/cathen/04083a.htm"
+
+    jewish_context_guard:
+      rule: "Sabbath disputes must remain intra-Jewish legal/moral interpretation. The sources do not authorize a caricature of Judaism as anti-human legalism."
+      live_questions:
+        - "what counts as prohibited work"
+        - "human need"
+        - "healing"
+        - "scriptural precedent"
+        - "interpretive authority"
+
+    historical_ceiling:
+      strong:
+        - "Early Jesus tradition preserves multiple Sabbath controversy forms."
+        - "Codex Bezae directly witnesses a distinctive Sabbath-worker saying in Luke's textual tradition."
+      not_secure:
+        - "That the Bezae addition belongs to the earliest recoverable Luke."
+        - "That the Bezae addition is a historical saying of Yeshua."
+        - "That Mark 2:27 controls every Sabbath controversy."
+        - "One exact historical controversy sequence."
+
+    manuscript_rule: "Book III may discuss the Bezae Sabbath-worker addition only as a typed textual variant. Book II must narrate Sabbath disputes as Jewish interpretive conflict, not Christianity-versus-legalistic-Judaism."
+
+
+
+  - id: VAR-DIVORCE-PAUL-1COR-7-RECEPTION
+    saying: SAY-DIVORCE
+    control_kind: GOSPEL_FORM_VARIATION_PLUS_EARLY_PAULINE_LORD_COMMAND_RECEPTION
+    passages:
+      - Mark_10_2_12
+      - Matthew_5_31_32
+      - Matthew_19_3_12
+      - Luke_16_18
+      - First_Corinthians_7_10_11
+    consequence: DIVORCE_EXCEPTION_GENDER_AND_PRE_GOSPEL_RECEPTION
+
+    gospel_control:
+      Mark:
+        form_note: "Restrictive divorce teaching rooted in creation; includes reciprocal gender formulation."
+        guard: "Mark's woman-divorcing-husband formulation may reflect Greco-Roman social/legal context and is not automatically retrojected into Palestinian wording."
+      Matthew:
+        form_note: "Preserves exception language absent from Mark/Luke and reworks the legal argument."
+        guard: "Exception clauses must remain visible rather than harmonized away or treated as self-evident dilution."
+      Luke:
+        form_note: "Preserves a compact absolute-looking form in a different literary setting."
+        guard: "Compactness is not automatically earlier."
+
+    paul_reception:
+      source: SRC-PAUL-1CORINTHIANS
+      physical_witness: WIT-P46-PAULINE-CODEX
+      passage: First_Corinthians_7_10_11
+      state: EARLY_LORD_COMMAND_RECEPTION
+      form_note: "Paul distinguishes this instruction as 'not I, but the Lord' and applies a no-separation/remarriage rule in Corinth."
+      chronology_guard: "Paul's letter predates the extant written Gospels, but P46 is a later physical witness to Paul's text."
+      wording_guard: "Paul is evidence that an authoritative divorce command attributed to the Lord circulated early; he is not a manuscript witness to exact Mark/Matthew/Luke wording."
+
+    early_reception_control:
+      ledger_record: ECR-HERMAS-MANDATE4-DIVORCE
+      state: HERMAS_PASTORAL_APPLICATION_BOUND
+      significance: "Hermas Mandate 4 shows an early Christian separation/repentance/remarriage application trajectory after the Pauline Lord-command evidence."
+      guard: "Hermas is reception evidence, not a Gospel quotation and not a witness to exact historical wording."
+
+    historical_ceiling:
+      strong:
+        - "A restrictive divorce command associated with the Lord circulated by the time of 1 Corinthians."
+        - "The Gospel forms materially differ in exception structure, gender formulation, and setting."
+        - "P46 physically witnesses 1 Corinthians 7:10-11."
+      not_secure:
+        - "The exact wording of the historical saying."
+        - "That Paul's received command corresponds verbatim to any one surviving Gospel form."
+        - "That Matthew's exception clauses are either certainly original or certainly secondary."
+        - "That Mark's reciprocal gender formulation reflects the earliest Palestinian form."
+        - "One harmonized divorce rule combining all source forms."
+
+    ethical_guard:
+      rule: "Ancient restriction of divorce must not be converted in Book VIII into compulsory endurance of abuse or loss of safety."
+      layer: AUTHORED_ETHICAL_APPLICATION_NOT_HISTORICAL_RECONSTRUCTION
+
+    manuscript_rule: "Book III must present Paul as early reception of a Lord-command, not as a fifth Gospel manuscript. Mark, Matthew, Luke, and Paul remain distinct source forms."
+
+
+
+  - id: VAR-CROSS-DISCIPLESHIP-THOMAS-55
+    saying: SAY-TAKE-CROSS
+    control_kind: CROSS_BEARING_REDACTION_PLUS_THOMAS_55_RELATED_FORM
+    passages:
+      - Mark_8_34
+      - Matthew_16_24
+      - Luke_9_23
+      - Matthew_10_38
+      - Luke_14_27
+      - Thomas_55
+    consequence: CROSS_METAPHOR_PRE_EASTER_PLAUSIBILITY_AND_POST_EASTER_RETROJECTION
+
+    synoptic_control:
+      Mark:
+        form_note: "Cross-bearing is embedded in a passion-prediction and discipleship sequence."
+      Matthew:
+        form_note: "Preserves cross-bearing in more than one literary context."
+      Luke:
+        form_note: "Adds 'daily' in Luke 9:23 and preserves another cross-bearing form in Luke 14:27."
+      guard: "Multiple literary placements are not counted as multiple independent historical occasions."
+
+    thomas_control:
+      source: SRC-GOSPEL-THOMAS
+      witness: WIT-NHC-II-GOSPEL-THOMAS
+      passage: Thomas_55
+      greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+      form_note: "Thomas 55 joins family-renunciation language to cross-bearing and worthiness."
+      same_work_guard: "Thomas 55 is already part of the family-renunciation control and does not become a new independent source merely because this control focuses on a different motif."
+
+    historical_plausibility:
+      state: PLAUSIBLE_NOT_AUTHENTICATED
+      reason: "Roman crucifixion imagery was available before Yeshua's death, so pre-death use is possible; post-crucifixion community retrojection remains independently plausible."
+      guard: "Historical plausibility is not authenticity."
+
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      Thomas_vs_Synoptics:
+        state: RELATION_DISPUTED
+        live_models:
+          - DIRECT_OR_INDIRECT_SYNOPTIC_INFLUENCE
+          - COMMON_TRADITION
+          - MIXED_OR_MULTISTAGE_TRANSMISSION
+        guard: "Thomas 55's combination of family-renunciation, cross-bearing and worthiness language may be evidence of conflation or inherited combination, but neither dependence nor independence is promoted to project fact."
+      same_source_guard: "Reuse of Thomas 55 in both family-renunciation and cross-bearing analyses does not create a second independent Thomas witness."
+
+    historical_ceiling:
+      strong:
+        - "Cross-bearing language is embedded in multiple early Christian discipleship forms."
+        - "Thomas 55 directly preserves related cross-bearing language in Coptic NHC II."
+      not_secure:
+        - "Exact pre-death wording by Yeshua."
+        - "That Luke's 'daily' belongs to the earliest form."
+        - "That every cross-bearing placement reflects a separate historical utterance."
+        - "That Thomas 55 is independent of the Synoptics."
+
+    manuscript_rule: "Book III may include the cross-bearing tradition only with the retrojection problem exposed. Book II must not repeatedly script Yeshua predicting his exact mode of execution as settled history."
+
+
+
+  - id: VAR-DOUBLE-LOVE-TORAH-SUMMARY
+    saying: SAY-DOUBLE-LOVE
+    control_kind: TORAH_INTERTEXT_PLUS_SYNOPTIC_REDACTION
+    passages:
+      - Mark_12_28_34
+      - Matthew_22_34_40
+      - Luke_10_25_28
+      - Deuteronomy_6_4_5
+      - Leviticus_19_18
+    consequence: LOVE_COMMAND_TORAH_SOURCE_AND_GOSPEL_FRAMING
+
+    scriptural_control:
+      intertext: INT-DOUBLE-LOVE-DEUT6-LEV19
+      inputs:
+        - Deuteronomy_6_4_5
+        - Leviticus_19_18
+      state: PRIOR_JEWISH_SCRIPTURAL_SOURCES
+      guard: "The Jesus tradition combines existing Torah commands; love is not narrated as a Christian invention replacing Jewish law."
+
+    synoptic_control:
+      Mark:
+        form_note: "Extended scribe exchange with Shema language, double love command, sacrifice comparison, and positive reply."
+      Matthew:
+        form_note: "Abbreviates Mark and explicitly makes the two commands support all the law and prophets."
+      Luke:
+        form_note: "Relocates the double command into the lawyer/Good Samaritan sequence."
+      dependence_state: MARKAN_WITH_REDACTION_AND_LUKAN_RELOCATION_QUESTIONS
+      guard: "Different narrative placements do not create independent historical scenes by simple counting."
+
+    early_reception_control:
+      ledger_record: ECR-DIDACHE-1-2-3-DOUBLE-ENEMY-LOVE
+      state: DIDACHE_DOUBLE_LOVE_PLUS_ENEMY_LOVE_COMPLEX_BOUND
+      significance: "Didache 1.2 places love of God and neighbor together and immediately develops enemy-love/nonretaliation material in 1.3-4."
+      guard: "Didache reception does not turn the combination into a uniquely Christian invention or settle dependence direction."
+
+    historical_ceiling:
+      strong:
+        - "The double-love tradition is rooted directly in Deuteronomy 6:4-5 and Leviticus 19:18."
+        - "Mark, Matthew, and Luke preserve materially related forms."
+      plausible:
+        - "Yeshua participated in Jewish Torah-summary reasoning centered on love of God and neighbor."
+      not_secure:
+        - "One exact historical scene."
+        - "One exact original ordering or wording."
+        - "That the tradition represents Christianity replacing Jewish law with love."
+
+    manuscript_rule: "Book III must print the Torah sources alongside the Gospel forms and preserve redactional differences. The historical interest is combination and prioritization within Jewish interpretation, not invention ex nihilo."
+
+
+
+  - id: VAR-FORGIVENESS-DEBT-MATT-LUKE-DIDACHE
+    saying: SAY-FORGIVENESS-DEBT
+    control_kind: DEBT_SIN_SEMANTIC_FIELD_PLUS_LITURGICAL_TRANSMISSION
+    passages:
+      - Matthew_6_12_15
+      - Luke_11_4
+      - Didache_8_2
+      - Mark_11_25
+      - Matthew_18_21_35
+      - Luke_7_41_50
+    consequence: DEBT_SIN_FORGIVENESS_AND_RECONCILIATION_SEPARATION
+
+    prayer_control:
+      Matthew:
+        form_note: "Uses debt/debtor language in the forgiveness petition."
+      Luke:
+        form_note: "Uses 'sins' for what is forgiven by God while retaining indebtedness language for what others owe the disciple."
+        linked_textual_control: VAR-LUKE-11-2-4-LORDS-PRAYER
+      Didache:
+        source: SRC-DIDACHE
+        witness: WIT-DIDACHE-H54-HIEROSOLYMITANUS
+        form_note: "Didache 8.2 preserves debt/debtor language closely related to Matthew's fiscal metaphor."
+        dependence_state: DISPUTED
+        guard: "Didache's relation to Matthew/shared liturgical tradition remains unresolved; it is not automatically an independent historical witness."
+
+    semantic_control:
+      distinct_fields:
+        - monetary_debt
+        - moral_offense
+        - sin
+        - divine_forgiveness
+        - interpersonal_release
+        - reconciliation
+        - restored_relationship
+        - refusal_of_vengeance
+      rule: "These fields may overlap in the traditions but are not synonyms."
+      guard: "Book VIII's modern boundary/accountability distinctions are authored ethics, not a recovered first-century technical lexicon."
+
+    reciprocity_control:
+      state: PRESENT_ACROSS_MULTIPLE_FORMS
+      guard: "Conditional/reciprocal forgiveness language must be analyzed by source and setting rather than harmonized into one universal mechanism."
+
+    historical_ceiling:
+      strong:
+        - "Forgiveness/release and debt imagery are deeply embedded in the Jesus tradition."
+        - "Matthew and Didache preserve debt/debtor language."
+        - "Luke explicitly juxtaposes sins with indebtedness in the same petition."
+      not_secure:
+        - "One exact original prayer wording."
+        - "A one-to-one equation of monetary debt and moral sin in every source."
+        - "That forgiveness necessarily entails reconciliation or restored access."
+        - "That Didache is independent of Matthew."
+        - "One harmonized rule governing every forgiveness saying."
+
+    manuscript_rule: "Book III must preserve source-specific debt/sin wording and keep Didache dependence visible. Book VIII may develop forgiveness as non-retaliation without erasing accountability, but that is authored synthesis."
+
+
+references:
+  - id: SBLGNT_LUKE_11_2_4
+    type: CRITICAL_EDITION_WEB_DISPLAY
+    url: "https://www.biblegateway.com/passage/?search=Luke+11%3A2-4&version=SBLGNT"
+  - id: NET_LUKE_11_2_4
+    type: PUBLISHED_TEXTUAL_NOTES
+    url: "https://netbible.org/bible/Luke+11"
+  - id: ANDREJEVS_2020
+    type: SCHOLARLY_ARTICLE
+    doi: "10.2143/ETL.96.4.3288794"
+
+research_debt:
+  - "Bind the opening-address expansion to exact named witnesses beyond the critical-edition signal."
+  - "Normalize Sinaiticus hand/corrector evidence for Luke 11:4 before assigning a physical-witness reading state."
+  - "Add versional witnesses and patristic citations for the Lucan prayer variants."
+  - "Deepen Didache 8.2 with additional versional/patristic witnesses if needed; H is now physically bound."
+  - "Hostile-review the harmonization inference and source-dependence guard before prose promotion."

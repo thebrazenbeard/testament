@@ -1,0 +1,555 @@
+schema_version: testament.hostile_review_book_iii.v43
+overall_status: ACTIVE
+complete: false
+
+tranche_1:
+  original_target: 0fd7e1c2770fa43846485590b52dfa060150e473
+  repair_target: 82bbfa216371a8b9432a12b56a7ee064112f7bbf
+  review_report_commit: f181959ca97dc28a103b2e6fccd5db75a1889913
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE1_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-001..HR-BIII-002
+  repaired_findings:
+    - HR-BIII-001_STALE_DIDACHE_8_2_PHYSICAL_WITNESS_DEBT
+    - HR-BIII-002_LORDS_PRAYER_PACKET_STATUS_LAG
+
+tranche_2:
+  original_target: 0e74e982cbd654252fc694575a74b710321fbd05
+  repair_target: 1937e11d764eb1e84b3c98dea2e50e18bee364bd
+  review_report_commit: faa3be87762aa4fe746a7419f212e1506c707e12
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE2_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-003..HR-BIII-003
+  repaired_findings:
+    - HR-BIII-003_LUKE17_21_TRANSLATION_FIELD_NARROWING
+
+tranche_3:
+  original_target: a81563c1334394479c7ec37f207b1b59537ec6be
+  repair_target: 6311e3ec5348b763c50860f757cf93ba82d81e6a
+  review_report_commit: ae2a8f60ee1aed1a6cff1e29118a8d1d9b63da5d
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE3_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-004..HR-BIII-004
+  repaired_findings:
+    - HR-BIII-004_BEZAE_SABBATH_PLACEMENT
+
+
+tranche_4:
+  original_target: e5a38120d09057dc9ca6f466c89c594fb95f1bcc
+  repair_target: 6185f751f3e7cb5bd544b876f5d4169bdcdb22e0
+  review_report_commit: 0e2347f1395c1d7d1ccdf6a908b7a2cfd0d06782
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE4_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-005..HR-BIII-005
+  repaired_findings:
+    - HR-BIII-005_STATUS_LAG_AFTER_LUKE11_APPARATUS_DEEPENING
+
+
+tranche_5:
+  review_target: adab369f6f0de5407546bdd6565c8064721e1117
+  review_report_commit: 0d2ff1e50207e9657d4c0f775d41f21dae0bc030
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE5_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_101_LACUNA_AUTOPTIC_CONFIRMATION
+
+
+tranche_6:
+  review_target: a8427a3c1e5b6e6c7eec1eb7170f18974a9b2f7d
+  review_report_commit: ce18f08286a5dc4833c1d70a0bc8ef2c3a56e84d
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE6_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_3_AND_26_CRITICAL_EDITION_LINE_COLLATION
+
+
+tranche_7:
+  review_target: 5be2aa4aa2c6aa3ec42a277259bea38984f7a9ce
+  review_report_commit: 9af5f9eeabd3b8039b3a80a3cf388dd99e3f3e41
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE7_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - LUKE17_21_ENTOS_FULL_CORPUS_LEXICAL_REVIEW
+
+
+tranche_8:
+  review_target: b0b56e866b9ac3e654da1f533d87d14f79ef2b04
+  review_report_commit: b817e169f0bdeb6617c17e2a3b4b46bb6905100f
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE8_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
+
+
+tranche_9:
+  original_target: 74be5c1578850d4a0cf58cf0e71131a8fdfddfb0
+  repair_target: dde50284ea7e4e63736d36408918b65715de2004
+  review_report_commit: c8674e84e8fc1913ff202158d69785ea84e9499a
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE9_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-006..HR-BIII-006
+  repaired_findings:
+    - HR-BIII-006_MARCION_SPIRIT_PETITION_CONFLATION
+
+
+tranche_10:
+  review_target: f416ecee142f9c2eff59ee9535eadf15f1b13530
+  review_report_commit: d9d6efb431bdf77f46fea4130b1316df40afb580
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE10_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+  
+
+tranche_11:
+  original_target: e4f898f9f4b9512b2ca314f2422cdce65ca9757b
+  repair_target: 17ebc85ae2ba411f79e258a23c57523ef666b94a
+  review_report_commit: 43d6d2e9e106e7ac446b893965b64241b1404885
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE11_20260918.md
+  status: PASS_FOR_TRANCHE_AFTER_CONFIDENCE_DOWNGRADE
+  finding_range: HR-BIII-007..HR-BIII-007
+  repaired_findings:
+    - HR-BIII-007_SINAITICUS_LUKE11_HAND_SEQUENCE_OVERCLAIM
+
+
+tranche_12:
+  review_target: 4404961bde86a96bced37eb39f4c36e739bc2f5b
+  review_report_commit: 2f0f03c539631bc0d8a7b791aa4390efb9d36981
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE12_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
+
+
+tranche_13:
+  review_target: d5e31e013a9dafec560b4d93f22d625d67362ea4
+  review_report_commit: 800db42b5653605c1a00f4f621dd374e7c79f598
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE13_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - LUKE11_SPIRIT_VARIANT_162_700_DIRECT_IMAGE_COLLATION
+
+
+tranche_14:
+  original_target: dff069de3548a36e955b3f2055ba3056859596f3
+  repair_target: 9d8b435419100435fc67556c058294dd55cda624
+  review_report_commit: 9baf43f8223bbcd327bacc54808bfa7fde177c4d
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE14_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-008..HR-BIII-008
+  repaired_findings:
+    - HR-BIII-008_ENTOS_DEBT_RENAME_MUTATED_HISTORICAL_TRANCHE
+
+
+tranche_15:
+  review_target: 02316af73ceaabc7f94c8f6746828d9ddc20e7b4
+  review_report_commit: 75377e547b45ce43dc81ccdc8d3a63785ba1d5f5
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE15_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - LUKE17_21_DIRECT_VERSIONAL_TEXT_COLLATION
+
+
+tranche_16:
+  original_target: 290c3a489fdd0b536a965549610ef893ae9be6d3
+  repair_target: 00af1423a5abe45b5b1b64a58ed3199c35fb731e
+  review_report_commit: 5d0f1c0ac4e4edb577c2e2d61a72694593914484
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE16_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-009..HR-BIII-009
+  repaired_findings:
+    - HR-BIII-009_THOMAS55_CROSS_DEPENDENCE_STATE_OMITTED
+
+
+tranche_17:
+  original_target: 73d0ea301031965912d2eb9f4d08b55151755561
+  repair_target: a4a1e3c7d40ae58cf6531aa9211891fa44aa22de
+  review_report_commit: 53d875613689ecb998c3dc776ca560cf6317e99d
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE17_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-010..HR-BIII-010
+  repaired_findings:
+    - HR-BIII-010_THOMAS65_66_DEPENDENCE_STATE_VOCABULARY_DRIFT
+
+
+tranche_18:
+  original_target: fbc475324df5b177427211b909107079fa88561e
+  repair_target: a6664611a495f447288f95bdf94bcc35f2cfaaff
+  review_report_commit: 0c2e99f0c554d0ae6a0b72127a9fea31199b5778
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE18_20260918.md
+  status: PASS_FOR_TRANCHE_AFTER_CLASS_REPAIR
+  finding_range: HR-BIII-011..HR-BIII-011
+  repaired_findings:
+    - HR-BIII-011_THOMAS_DEPENDENCE_VOCABULARY_MIGRATION
+
+
+tranche_19:
+  review_target: 37f15421c3116dacddd7a2d9811568745bce2dd0
+  review_report_commit: a9804451d4f4964cde1f71563e3faf621c471d63
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE19_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW
+
+
+tranche_20:
+  review_target: 4fa1d3fed2ae9b332fd832c1dacdbd9700820872
+  review_report_commit: ba63cdc1d4e0ae8c9ab75c23376678a62c106450
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE20_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW
+
+
+tranche_21:
+  review_target: 46f8fa4746a762ee936d4c68874c724062f0a7c6
+  review_report_commit: 0511aba9f041c236028befceb08a01fc37f7e95f
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE21_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW
+
+
+tranche_22:
+  review_target: ba027c956c3efba25089b595ee86ceb94f116da5
+  review_report_commit: 54c10180ad14ef5a66a1776918366f420e694316
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE22_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW
+
+
+tranche_23:
+  review_target: e3bdb14482646ab636f91dd1ecc7bd956b658d9c
+  review_report_commit: 2caa2cc867498218773d7d081b9e190da0a61a38
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE23_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW
+
+
+tranche_24:
+  review_target: 2c61277ad1d6811f60c1248e2b1e5342d3231a6a
+  review_report_commit: 3afc334779f5ca1a05f9f496b08e6e21a9585dfc
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE24_20260919.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW
+
+
+tranche_25:
+  review_target: 7a2a9dc196f8fddac3b0d6c2c9facb1084073026
+  review_report_commit: dd1b256364b6fbe9640cdee1bdf1c1d3cfb1628f
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE25_20260919.md
+  status: PASS_FOR_TRANCHE_CURRENT_SCOPE_COMPLETE
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW
+
+
+tranche_26:
+  review_target: d3a0658e0a25448967d00c4d2fb5ccf810a9b76f
+  review_report_commit: e6bdea7fcb6aa149d34c6b33993887bb5a75202c
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE26_20260919.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_3_AND_26_CRITICAL_EDITION_LINE_COLLATION
+
+
+tranche_27:
+  review_target: 24c83b7c370caef9ba4f2e49cf0872e5f4acf183
+  review_report_commit: f0ac09edda1a079335a7db2c8cb7a48c26617e65
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE27_20260919.md
+  status: PASS_FOR_TRANCHE_PARTIAL_DIRECT_CLOSURE
+  finding_range: NONE
+  reviewed_debt:
+    - LUKE17_21_DIRECT_VERSIONAL_TEXT_COLLATION
+  residual_debt:
+    - LUKE17_21_OLD_SYRIAC_HARKLEAN_DIRECT_TEXT_ENCODING
+
+
+tranche_28:
+  review_target: 7c78b460b2ca836ec11c9e5179294976b0fa4ee7
+  review_report_commit: e5be26ba4d71afa88b9df3708b327eec4979dcba
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE28_20260919.md
+  status: PASS_FOR_TRANCHE_PARTIAL_AUTOPTIC_CLOSURE
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_101_LACUNA_AUTOPTIC_CONFIRMATION
+  residual_debt:
+    - THOMAS_101_NHCII_49_36_PAGE49_TERMINAL_LINES_DIRECT_IMAGE_READBACK
+
+tranche_29:
+  review_target: 86fab80923353cd75bac8ed97ca1e9456bfe4d2d
+  review_report_commit: 4f6a9fe835aaa9b8f536065a1a32f15c2fe4747b
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE29_20260919.md
+  status: PASS_FOR_TRANCHE_HIGH_VALUE_GATE_COMPLETE
+  finding_range: NONE
+  reviewed_debt:
+    - VERSIONAL_PATRISTIC_EXPANSION_BEYOND_LUKE11
+  residual_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+
+tranche_30:
+  review_target: 0e2ff5cbf69ca8b068967369668cdd6c56f83c3c
+  review_report_commit: 8c661d7e475c7666666ece75772cd502870c3317
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE30_20260919.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+  local_target:
+    - ECR-POLYCARP-PHIL2-BEATITUDES
+
+tranche_31:
+  original_target: 04ff19b52c850372cd0b19c169f0049143e3c962
+  repair_target: 08a89b39716ea902077cab21e8f09e43a0ded6b3
+  review_report_commit: 5ac92089062cca078809023d57740305552d3542
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE31_20260919.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-012..HR-BIII-012
+  repaired_findings:
+    - HR-BIII-012_RECEPTION_CIRCULATION_OVERCLAIM
+  reviewed_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+  local_target:
+    - ECR-1CLEM13-JUDGE-MEASURE
+
+tranche_32:
+  original_target: 4c61e64c09001e23476ee2e031a38cca7df33811
+  repair_target: 7ea931e8a65c30431b3ecd17bb62db838ebfbf81
+  review_report_commit: e1065bb41c8b0956054a156da5ee9716bed671f3
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE32_20260919.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-013..HR-BIII-013
+  repaired_findings:
+    - HR-BIII-013_JUSTIN_WITNESS_WORK_LINK_UNDERBOUND
+  reviewed_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+  local_target:
+    - ECR-JUSTIN-APOL1-17-CAESAR
+
+tranche_33:
+  review_target: 35aa26f53f39f355fc3af3dfe3c10b1719bff9b4
+  review_report_commit: 238ce0344f010335eeffbe97373a1d8422003e13
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE33_20260919.md
+  status: PASS_FOR_TRANCHE_ACCESS_ROUTE_REVALIDATED_NO_AUTOPTIC_CLOSURE
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_101_NHCII_49_36_PAGE49_TERMINAL_LINES_DIRECT_IMAGE_READBACK
+    - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
+  residual_debt:
+    - THOMAS_101_NHCII_49_36_PAGE49_TERMINAL_LINES_DIRECT_IMAGE_READBACK
+    - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
+
+tranche_34:
+  review_target: 8eac96246bb4df13a563188d5c797581bf663e24
+  review_report_commit: c8930cc9181fe2d583f84ba07c7e9c3808bb4d20
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE34_20260919.md
+  status: PASS_FOR_TRANCHE_DIRECT_IMAGE_DEBT_CLOSED
+  finding_range: NONE
+  reviewed_debt:
+    - BEZAE_LUKE6_DIRECT_DIGITAL_IMAGE_READBACK
+  closed_debt:
+    - BEZAE_LUKE6_DIRECT_DIGITAL_IMAGE_READBACK
+
+tranche_35:
+  original_target: 3808b81866d71da4919c9e3844639d19234be11c
+  repair_target: 99b1a65965bd8bbfe80ad9fb58ea8a3ee3f6d1af
+  review_report_commit: f845494af7517e92ca58e723c0b9e75f517d2790
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE35_20260919.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-014..HR-BIII-014
+  repaired_findings:
+    - HR-BIII-014_STALE_SINAITICUS_HAND_SEQUENCE_ASSERTION
+  reviewed_debt:
+    - LUKE11_2_SINAITICUS_DIRECT_IMAGE_READBACK
+    - LUKE11_4_SINAITICUS_CORRECTION_POPUP_IMAGE_READBACK
+  residual_debt:
+    - LUKE11_2_SINAITICUS_DIRECT_IMAGE_READBACK
+    - LUKE11_4_SINAITICUS_CORRECTION_POPUP_IMAGE_READBACK
+
+tranche_36:
+  review_target: a90ff94c780cdc1f5ca39013e8e605b5d6e83b90
+  review_report_commit: 5649bb49f2855def4a154d488f70e40b3b90e098
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE36_20260919.md
+  status: PASS_FOR_TRANCHE_IMAGE_ROUTE_RESOLVED_PIXEL_READBACK_PENDING
+  finding_range: NONE
+  reviewed_debt:
+    - P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
+  residual_debt:
+    - P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
+
+tranche_37:
+  review_target: 8cd47da8c944ef8a8578e89e808cedd000db6409
+  review_report_commit: fa5ee0b06344570dac05f9350451ae6a99e3fe7a
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE37_20260919.md
+  status: PASS_FOR_TRANCHE_IMAGE_ROUTES_DEEPENED_PIXEL_COLLATION_OPEN
+  finding_range: NONE
+  reviewed_debt:
+    - LUKE11_SPIRIT_VARIANT_162_700_DIRECT_IMAGE_COLLATION
+  residual_debt:
+    - LUKE11_SPIRIT_VARIANT_162_700_DIRECT_IMAGE_COLLATION
+
+tranche_38:
+  review_target: 87c366c48f40409c27243b298c7be6adfe5bf60b
+  review_report_commit: 2125e6307d7b18ca419decd362bea7c5a2c5b99e
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE38_20260919.md
+  status: PASS_FOR_TRANCHE_PIXEL_TRANSPORT_RESOLVED_VISUAL_COLLATION_PENDING
+  finding_range: NONE
+  reviewed_debt:
+    - P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
+  residual_debt:
+    - P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
+  narrowed_frontier:
+    - P46_045A_FOLIO_IDENTITY_CONFIRMATION
+    - P46_1COR7_10_11_VISUAL_COLLATION
+
+tranche_39:
+  review_target: 5832b3d6cc0e59df679b978a160ee8eb92bb7447
+  review_report_commit: 51de31984101f43cbae79385f4f4827b5c920641
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE39_20260919.md
+  status: PASS_FOR_TRANCHE_FOLIO_IDENTITY_CONFIRMED_TRANSCRIPTION_COLLATION_COMPLETE_VISUAL_PIXEL_COLLATION_PENDING
+  finding_range: NONE
+  reviewed_debt:
+    - P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
+  closed_subfrontier:
+    - P46_045A_FOLIO_IDENTITY_CONFIRMATION
+  narrowed_debt:
+    from: P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
+    to: P46_1COR7_10_11_VISUAL_PIXEL_COLLATION
+  residual_debt:
+    - P46_1COR7_10_11_VISUAL_PIXEL_COLLATION
+
+tranche_40:
+  review_target: 93f19b1a0f93c5aa857e04b29cddf7da696e4106
+  review_report_commit: eaad978d2cf4991abc23e532ba3a81313f1093ad
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE40_20260919.md
+  status: PASS_FOR_TRANCHE_LUKE17_21_OLD_SYRIAC_HARKLEAN_TEXT_ENCODING_CLOSED
+  finding_range: NONE
+  reviewed_debt:
+    - LUKE17_21_OLD_SYRIAC_HARKLEAN_DIRECT_TEXT_ENCODING
+  closed_debt:
+    - LUKE17_21_OLD_SYRIAC_HARKLEAN_DIRECT_TEXT_ENCODING
+
+tranche_41:
+  review_target: c20757ff9a498ad6afc4d6d717be7f3ca5d518ae
+  review_report_commit: 581b36f593188f9ce452a6605b3b984c6fb20720
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE41_20260919.md
+  status: PASS_FOR_TRANCHE_MEDIUM_VALUE_VERSIONAL_EXPANSION_UNIT_COMPLETE_BROADER_EXPANSION_DEBT_OPEN
+  finding_range: NONE
+  reviewed_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+  completed_unit:
+    - LUKE17_21_CODEX_BEZAE_LATIN_DIRECT_TRANSCRIPTION
+  residual_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+  narrowed_frontier:
+    - VETUS_LATINA_NON_BEZAE_DIRECT_WITNESS_EXPANSION
+    - PATRISTIC_MEDIUM_VALUE_DIVERSIFY_LIVE_BOOK_III_CLUSTER
+
+tranche_42:
+  review_target: ef7e214e3fcc7951d2a3ffcfaf27f656d07c6e3f
+  review_report_commit: a66f57882674107bcfaa194538ad22baa4b403a0
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE42_20260919.md
+  status: PASS_FOR_TRANCHE_DIRECT_GREGORY_PATRISTIC_TEXT_BOUND_BROADER_EXPANSION_AND_IMAGE_DEBTS_OPEN
+  finding_range: NONE
+  reviewed_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+  completed_unit:
+    - LUKE11_2_GREGORY_NYSSA_DIRECT_PRIMARY_TEXT_BINDING
+  residual_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+    - LUKE11_SPIRIT_VARIANT_162_700_DIRECT_IMAGE_COLLATION
+  narrowed_frontier:
+    - LUKE11_2_MAXIMUS_DIRECT_PRIMARY_TEXT_BINDING
+    - VETUS_LATINA_NON_BEZAE_DIRECT_WITNESS_EXPANSION
+
+tranche_43:
+  review_target: 201aafedede9836f95ca8253aca30178ecb71e4d
+  review_report_commit: 1bbb81808c905292f8a533ca6aa6f986c735106c
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE43_20260919.md
+  status: PASS_FOR_TRANCHE_DIRECT_MAXIMUS_PATRISTIC_TEXT_BOUND_DEPENDENCE_GUARD_PRESERVED_BROADER_DEBTS_OPEN
+  finding_range: NONE
+  reviewed_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+  completed_unit:
+    - LUKE11_2_MAXIMUS_DIRECT_PRIMARY_TEXT_BINDING
+  residual_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+    - LUKE11_SPIRIT_VARIANT_162_700_DIRECT_IMAGE_COLLATION
+  narrowed_frontier:
+    - VETUS_LATINA_NON_BEZAE_DIRECT_WITNESS_EXPANSION
+    - PATRISTIC_MEDIUM_VALUE_DIVERSIFY_OTHER_LIVE_BOOK_III_CLUSTER
+
+reviewed_controls:
+  - VAR-LUKE-11-2-4-LORDS-PRAYER
+  - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
+  - VAR-BEATITUDES-POOR-MATT-LUKE-THOMAS
+  - VAR-ASK-SEEK-KNOCK-THOMAS-2-92
+  - VAR-SOWER-MUSTARD-THOMAS-9-20
+  - VAR-CAESAR-THOMAS-100
+  - VAR-LOST-SHEEP-THOMAS-107
+  - VAR-FIRST-LAST-THOMAS-4
+  - VAR-FAMILY-RENUNCIATION-THOMAS-55-101
+  - VAR-JUDGE-SPECK-THOMAS-26
+  - VAR-KINGDOM-WITHIN-THOMAS-3-113
+  - VAR-WICKED-TENANTS-THOMAS-65-66
+  - VAR-SABBATH-BEZAE-LUKE-6-5
+  - VAR-DIVORCE-PAUL-1COR-7-RECEPTION
+  - VAR-CROSS-DISCIPLESHIP-THOMAS-55
+  - VAR-DOUBLE-LOVE-TORAH-SUMMARY
+  - VAR-FORGIVENESS-DEBT-MATT-LUKE-DIDACHE
+
+cluster_maturation:
+  packeted_saying_clusters: 18
+  matured_control_bindings: 18
+  status: CONTROL_LAYER_BACKLOG_CLOSED
+
+remaining_debt:
+  - LUKE11_2_SINAITICUS_DIRECT_IMAGE_READBACK
+  - LUKE11_4_SINAITICUS_CORRECTION_POPUP_IMAGE_READBACK
+  - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+  - LUKE11_SPIRIT_VARIANT_162_700_DIRECT_IMAGE_COLLATION
+  - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
+  - THOMAS_101_NHCII_49_36_PAGE49_TERMINAL_LINES_DIRECT_IMAGE_READBACK
+  - P46_1COR7_10_11_VISUAL_PIXEL_COLLATION
+
+next_scope:
+  - EXACT_VARIANT_APPARATUS_DEEPENING
+  - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
+  - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_44
+
+
+thomas_fingerprint_scope:
+  status: COMPLETE_CURRENT_SCOPE
+  coverage_audit: research/audits/THOMAS_REDACTIONAL_FINGERPRINT_COVERAGE_V1.md
+  closure_tranche: 25
+  reopen_rule: "Any newly added Thomas cluster, new direct Greek/versional evidence, or material change to a local dependence claim reopens the affected review scope."
+
+invariants:
+  - "Tranche PASS is exact-head-bound."
+  - "PASS may preserve explicitly typed unresolved research debt."
+  - "SOURCE != WITNESS != CLAIM."
+  - "Multiple forms within one work do not become independent historical attestations by counting."
+  - "Witness date never becomes composition date."
+  - "Greek reconstruction never becomes extant manuscript text."
+  - "Project theological preference never resolves an evidence-layer translation dispute."
+  - "Early reception never becomes a manuscript witness to later Gospel wording."
+  - "Historical plausibility never becomes authenticity."
+  - "No hostile-review pass authorizes merge or manuscript promotion."

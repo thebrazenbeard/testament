@@ -1,0 +1,55 @@
+schema_version: testament.books_i_iv_dependence_control.v1
+status: ACTIVE
+
+edges:
+  - from: Mark
+    to: Matthew
+    relation: PROBABLE_DIRECT_LITERARY_DEPENDENCE
+    scope: substantial_Markan_material
+  - from: Mark
+    to: Luke
+    relation: PROBABLE_DIRECT_LITERARY_DEPENDENCE
+    scope: substantial_Markan_material
+  - from: hypothetical_Q
+    to: [Matthew, Luke]
+    relation: MODEL_DEPENDENT_RECONSTRUCTION
+    guard: "Q is not an extant witness."
+  - from: Matthew
+    to: Luke
+    relation: POSSIBLE_DIRECT_DEPENDENCE_UNDER_FARRER_OR_RELATED_MODELS
+    guard: "Do not count Matthew/Luke double tradition as independent without model declaration."
+  - from: Synoptic_tradition
+    to: John
+    relation: UNIT_SPECIFIC_AND_DISPUTED
+    guard: "Johannine independence is neither globally assumed nor globally denied."
+  - from: pre_Pauline_tradition
+    to: Paul_1Cor15
+    relation: RECEIVED_TRADITION_PROBABLE
+    guard: "Exact date and wording history remain reconstructed."
+  - from: pre_Pauline_tradition
+    to: Paul_1Cor11
+    relation: RECEIVED_TRADITION_CLAIMED_BY_PAUL
+    guard: "Reception chain and exact liturgical development require review."
+  - from: Gospel_resurrection_narratives
+    to: historical_event
+    relation: LATER_NARRATIVE_WITNESSES
+    guard: "Do not let narrative vividness outrank earlier Pauline evidence."
+  - from: Acts
+    to: Paul_biography
+    relation: LATER_NARRATIVE_WITNESS
+    guard: "Paul's undisputed letters have priority for Paul's self-reported chronology and conflicts."
+  - from: later_rabbinic_sources
+    to: first_century_Judaism
+    relation: RETROSPECTIVE_WITNESS
+    guard: "No automatic first-century projection."
+  - from: later_apocrypha
+    to: Yeshua_biography
+    relation: RECEPTION_OR_POSSIBLE_EARLIER_TRADITION_UNIT_SPECIFIC
+    guard: "Later text date does not forbid earlier tradition, but earlier tradition must be argued."
+
+counting_rules:
+  - "Mark + Matthew + Luke never equals three independent witnesses for Markan material."
+  - "All four canonical Gospels containing a motif is canonical ubiquity, not automatically fourfold independent attestation."
+  - "Paul plus a later Gospel may be chronologically distinct evidence even when the Gospel may know related tradition."
+  - "Thomas independence is saying-specific."
+  - "Josephus is independent of Christian narrative only where dependence/interpolation is not the issue under review."

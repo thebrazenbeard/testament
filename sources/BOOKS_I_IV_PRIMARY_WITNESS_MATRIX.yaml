@@ -1,0 +1,144 @@
+schema_version: testament.books_i_iv_primary_witness_matrix.v1
+status: ACTIVE
+review_scope: BOOKS_I_IV
+
+rules:
+  - "Composition date, extant witness date, and narrated event date are separate."
+  - "A later source may preserve earlier tradition but does not become early by assertion."
+  - "Canonical status does not establish independence."
+  - "Non-Christian status does not establish neutrality."
+  - "Material evidence constrains context; it rarely identifies a Gospel event by itself."
+
+witnesses:
+  - id: WIT-PAUL-UNDISPUTED
+    type: PRIMARY_TEXT_CORPUS
+    horizon: "c. 50s CE"
+    works: [First_Thessalonians, Galatians, First_Corinthians, Second_Corinthians, Romans, Philippians, Philemon]
+    strongest_uses:
+      - earlier_Jesus_movement_exists
+      - Cephas_James_and_other_leaders
+      - brother_of_the_Lord_language
+      - Lord_saying_reception
+      - last_meal_tradition
+      - death_burial_raising_appearance_tradition
+      - Paul_own_call_and_chronology
+    limits:
+      - little_narrative_biography
+      - no_explicit_women_at_empty_tomb_narrative
+      - no_detailed_Passion_trial_sequence
+    priority: EARLIEST_EXTANT_CHRISTIAN
+
+  - id: WIT-MARK
+    type: PRIMARY_TEXT
+    horizon: "commonly c. 65-75 CE"
+    strongest_uses:
+      - earliest_extant_narrative_Gospel_under_common_dating
+      - ministry_Passion_and_tomb_narrative
+      - sayings_and_conflict_traditions
+    limits:
+      - literary_theological_narrative
+      - exact_sources_not_extant
+      - later_Matthew_Luke_dependence_means_synoptic_repetition_not_independent_by_default
+
+  - id: WIT-MATTHEW
+    type: PRIMARY_TEXT
+    horizon: "commonly c. 80-95 CE"
+    dependence:
+      Mark: PROBABLE_MAJOR_LITERARY_SOURCE
+      other_shared_with_Luke: DISPUTED_Q_OR_DIRECT_DEPENDENCE_OR_SHARED_TRADITION
+    strongest_uses:
+      - Matthean_redaction_and_reception
+      - infancy_tradition
+      - sayings_forms
+      - Passion_resurrection_forms
+    limits:
+      - Markan_material_not_independent_by_default
+      - infancy_material_not_correlated_with_Luke_by_default
+
+  - id: WIT-LUKE_ACTS
+    type: PRIMARY_TEXT_TWO_VOLUME_WORK
+    horizon: "commonly c. 80-95 CE; dating debated"
+    dependence:
+      Mark: PROBABLE_MAJOR_LITERARY_SOURCE_FOR_GOSPEL
+      Matthew_or_Q_or_shared_tradition: DISPUTED
+      Acts_to_Paul_letters: RELATION_DISPUTED
+    strongest_uses:
+      - Lukan_Jesus_tradition
+      - infancy_tradition
+      - post_resurrection_narrative
+      - earliest_movement_and_Paul_narrative_as_later_witness
+    limits:
+      - Acts_must_not_override_Paul_own_letters_without_argument
+      - idealized_Jerusalem_summaries_need_proposition_level_review
+      - chronology_can_conflict_with_Paul
+
+  - id: WIT-JOHN
+    type: PRIMARY_TEXT
+    horizon: "broadly late first/early second century final form; strata debated"
+    dependence:
+      Synoptics: DISPUTED_AND_UNIT_SPECIFIC
+    strongest_uses:
+      - independent_or_distinctive_geography_and_Jerusalem_realia
+      - distinctive_Passion_material
+      - Johannine_reception_and_Christology
+    limits:
+      - long_discourses_not_exact_transcripts_by_default
+      - chronology_differs_materially_from_Synoptics
+      - independence_must_be_argued_per_unit
+
+  - id: WIT-JOSEPHUS
+    type: PRIMARY_TEXT_EXTERNAL_JEWISH
+    works:
+      Jewish_War: "c. 70s CE"
+      Jewish_Antiquities: "93/94 CE"
+    strongest_uses:
+      - John_the_Baptist
+      - Herodian_and_Roman_context
+      - James_passage_subject_to_textual_authenticity_review
+      - Pilate_and_first_century_Judaea_context
+    limits:
+      - later_than_events
+      - Jesus_passages_have_authenticity_interpolation_debates
+      - does_not_supply_Gospel_scene_transcripts
+
+  - id: WIT-PHILO
+    type: PRIMARY_TEXT_EXTERNAL_JEWISH
+    horizon: "first century CE"
+    strongest_uses:
+      - Pilate_administration_context
+      - Alexandrian_Jewish_context
+    limits:
+      - no_direct_Jesus_biography
+
+  - id: WIT-TACITUS-ANNALS-15_44
+    type: PRIMARY_TEXT_EXTERNAL_ROMAN
+    horizon: "early second century CE"
+    strongest_uses:
+      - later_Roman_knowledge_that_Christus_was_executed_under_Pontius_Pilate_Tiberius
+      - Nero_Christian_context
+    limits:
+      - later_than_events
+      - source_of_information_not_explicit
+      - does_not_independently_verify_Gospel_trial_details
+
+  - id: MAT-PILATE-INSCRIPTION
+    type: MATERIAL_EVIDENCE
+    horizon: "first century CE artifact"
+    strongest_uses: [Pilate_identity, prefect_title, Caesarea_context]
+    limits: [no_Jesus_reference]
+
+  - id: MAT-YEHOHANAN
+    type: MATERIAL_EVIDENCE
+    horizon: "first century CE remains"
+    strongest_uses: [demonstrates_one_Judaean_crucifixion_practice]
+    limits:
+      - cannot_define_universal_crucifixion_method
+      - no_link_to_Yeshua
+
+  - id: MAT-NAZARETH_ARCHAEOLOGY
+    type: MATERIAL_CONTEXT
+    horizon: "first century CE settlement evidence"
+    strongest_uses: [Nazareth_exists, settlement_and_material_culture]
+    limits:
+      - no_named_Yeshua_house_identification
+      - regional_context_not_individual_biography
