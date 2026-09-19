@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v14
+schema_version: testament.hostile_review_book_iii.v15
 overall_status: ACTIVE
 complete: false
 
@@ -147,6 +147,16 @@ tranche_14:
   repaired_findings:
     - HR-BIII-008_ENTOS_DEBT_RENAME_MUTATED_HISTORICAL_TRANCHE
 
+
+tranche_15:
+  review_target: 02316af73ceaabc7f94c8f6746828d9ddc20e7b4
+  review_report_commit: 75377e547b45ce43dc81ccdc8d3a63785ba1d5f5
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE15_20260918.md
+  status: PASS_FOR_TRANCHE_NO_REPAIR_REQUIRED
+  finding_range: NONE
+  reviewed_debt:
+    - LUKE17_21_DIRECT_VERSIONAL_TEXT_COLLATION
+
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
   - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
@@ -188,7 +198,7 @@ next_scope:
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_15
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_16
 
 invariants:
   - "Tranche PASS is exact-head-bound."
