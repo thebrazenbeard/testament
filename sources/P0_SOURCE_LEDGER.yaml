@@ -56,6 +56,17 @@ records:
     use: "Early reception/transmission witness for sayings, ethics, Two Ways material, liturgy, and community practice."
     limits: "Does not become an independent historical-Jesus witness merely by paralleling Synoptic sayings; exact dependence must be argued per unit. Physical witness date is not composition date."
 
+  - id: SRC-1-CLEMENT
+    kind: PRIMARY_TEXT_EARLY_CHRISTIAN_LETTER
+    work: 1_Clement
+    origin: "Letter from the church at Rome to the church at Corinth"
+    horizon: "early Christian; commonly placed in the late first century, while precise dating remains disputed and manuscript evidence is later"
+    use: "Early reception/transmission witness for attributed Lord sayings, community ethics, and post-apostolic church practice."
+    access:
+      - "https://www.newadvent.org/fathers/1010.htm"
+      - "https://en.wikisource.org/wiki/1_Clement_(Lake)"
+    limits: "1 Clement is not a Gospel manuscript and does not become independent historical-Jesus attestation merely by paralleling Synoptic sayings. Literary/oral dependence must be argued per unit; witness date never becomes composition date."
+
   - id: SRC-JOSEPHUS-ANTIQUITIES-18-JOHN
     kind: PRIMARY_TEXT
     work: Jewish Antiquities
