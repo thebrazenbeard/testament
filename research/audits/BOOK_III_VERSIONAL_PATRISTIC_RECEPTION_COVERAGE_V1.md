@@ -151,7 +151,7 @@ It is a targeted medium-value queue governed by the criteria below.
 - Beatitudes: **BOUND** via ECR-POLYCARP-PHIL2-BEATITUDES; mixed poor + persecuted-for-righteousness + kingdom-of-God form materially constrains early reception without deciding literary direction.
 - Cross-bearing / family renunciation: early reception only if a text constrains the saying combination rather than merely alluding to discipleship.
 - Judge / measure / speck: **BOUND** via ECR-1CLEM13-JUDGE-MEASURE; 1 Clement 13.2 preserves an attributed-Lord mercy/forgive/judge/measure chain without the speck/log image, materially constraining claims about fixed early reception clustering without deciding literary direction.
-- Caesar: early exegesis may illuminate interpretation, but should not be added merely as theological commentary.
+- Caesar: **BOUND** via ECR-JUSTIN-APOL1-17-CAESAR; Justin First Apology 17 preserves a binary Caesar/God reception form without Thomas 100's additional Jesus-claim clause, useful for reception-form comparison without deciding literary direction or clause chronology.
 - Lost sheep: noncanonical/patristic reuse may matter if it bears on distinctive endings.
 - Wicked tenants: patristic allegory is abundant but often too late/redactional to constrain earliest form.
 - Sabbath Bezae addition: patristic discussion is useful only if it directly witnesses or discusses the distinctive Bezae saying.
@@ -185,6 +185,36 @@ Guards:
 - exact dependence on Matthew, Luke, oral tradition, catechesis, or mixed transmission remains unresolved;
 - absence of speck/log in 1 Clement 13.2 is not proof of historical absence;
 - Codex Alexandrinus is a fifth-century physical witness and does not date 1 Clement's composition.
+
+### Caesar / tribute saying
+Status: BOUND
+
+Control:
+- ECR-JUSTIN-APOL1-17-CAESAR
+
+Source:
+- SRC-JUSTIN-FIRST-APOLOGY
+
+Physical witness:
+- WIT-BNF-GREC450-JUSTIN
+
+Priority: MEDIUM
+
+Ancient evidence:
+- Justin First Apology 17 explicitly presents the tribute/coin question and Caesar/God response as teaching received from Christ;
+- the cited Justin form preserves the binary Caesar/God structure;
+- Thomas 100's additional demand to give Jesus what is his is absent from Justin's cited form.
+
+Why it matters:
+- this is reception-form evidence rather than generic political theology;
+- it supplies a second-century comparison point for the shared Caesar/God core;
+- it constrains claims that Thomas 100's three-part form was universal in early Christian reception.
+
+Guards:
+- Justin's exact dependence on canonical Gospels, oral tradition, memory, or mixed transmission remains unresolved;
+- absence of the Thomas-only clause in Justin does not date the origin of that clause;
+- the fourteenth-century physical witness does not date Justin's composition;
+- no direct manuscript-image collation of BnF Grec 450 is claimed.
 
 ## Low-value / avoid-by-default
 
