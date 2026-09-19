@@ -1,6 +1,6 @@
 # Book III Versional / Patristic / Early-Christian Reception Coverage Audit V1
 
-Status: HIGH_VALUE_EXPANSION_COMPLETE / MEDIUM_VALUE_TARGETED
+Status: HIGH_VALUE_EXPANSION_COMPLETE / MEDIUM_VALUE_CURRENT_CUT_COMPLETE
 
 Primary ledger:
 - sources/VERSIONAL_PATRISTIC_LEDGER_BOOK_III.yaml
@@ -152,10 +152,33 @@ It is a targeted medium-value queue governed by the criteria below.
 - Cross-bearing / family renunciation: early reception only if a text constrains the saying combination rather than merely alluding to discipleship.
 - Judge / measure / speck: **BOUND** via ECR-1CLEM13-JUDGE-MEASURE; 1 Clement 13.2 preserves an attributed-Lord mercy/forgive/judge/measure chain without the speck/log image, materially constraining claims about fixed early reception clustering without deciding literary direction.
 - Caesar: **BOUND** via ECR-JUSTIN-APOL1-17-CAESAR; Justin First Apology 17 preserves a binary Caesar/God reception form without Thomas 100's additional Jesus-claim clause, useful for reception-form comparison without deciding literary direction or clause chronology.
-- Lost sheep: noncanonical/patristic reuse may matter if it bears on distinctive endings.
+- Lost sheep: **TRIAGED_NONDIAGNOSTIC_CURRENT_CUT**; Irenaeus directly preserves Valentinian/Marcosian one-versus-ninety-nine allegorical reception, but the reviewed passages do not preserve Thomas 107's diagnostic largest-sheep or love-more-than-the-ninety-nine ending.
 - Wicked tenants: patristic allegory is abundant but often too late/redactional to constrain earliest form.
 - Sabbath Bezae addition: patristic discussion is useful only if it directly witnesses or discusses the distinctive Bezae saying.
 - First/last: short portable maxim makes reception easy to overcount.
+
+### Lost sheep / Thomas 107
+Status: TRIAGED_NONDIAGNOSTIC_CURRENT_CUT
+
+Research:
+- research/collations/IRENAEUS_VALENTINIAN_LOST_SHEEP_RECEPTION_V1.md
+
+Priority: MEDIUM_CANDIDATE_REVIEWED
+
+Ancient evidence:
+- Irenaeus, Against Heresies I.16, reports Marcosian numerological reuse of the lost-sheep / ninety-nine complex;
+- Irenaeus, Against Heresies II, reports/refutes Valentinian use of the one lost sheep, the ninety-nine, and salvation/right-hand symbolism.
+
+Why it does not bind a new reception control:
+- the reviewed material does not preserve Thomas 107's largest-sheep motif;
+- it does not preserve Thomas 107's love-more-than-the-ninety-nine ending;
+- it does not establish use of Gospel of Thomas 107;
+- generic one/99 allegorical reception is insufficient to constrain the local wording or literary direction of Thomas 107.
+
+Decision:
+- retain the collation as reception-history evidence;
+- do not create a new ECR/PAT control solely from this material;
+- reopen if a direct pre-Nicene source specifically bears on Thomas 107's distinctive valuation ending or demonstrates a textual/reception link.
 
 ### Judge / measure / speck
 Status: BOUND
@@ -215,6 +238,20 @@ Guards:
 - absence of the Thomas-only clause in Justin does not date the origin of that clause;
 - the fourteenth-century physical witness does not date Justin's composition;
 - no direct manuscript-image collation of BnF Grec 450 is claimed.
+
+## Current-cut medium-value closure
+
+VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION is complete for the current evidence cut.
+
+Bound medium-value units:
+- ECR-POLYCARP-PHIL2-BEATITUDES;
+- ECR-1CLEM13-JUDGE-MEASURE;
+- ECR-JUSTIN-APOL1-17-CAESAR.
+
+Last promising unbound candidate reviewed:
+- lost sheep / Thomas 107 via Irenaeus-Valentinian reception -> TRIAGED_NONDIAGNOSTIC_CURRENT_CUT.
+
+This is not a permanent closure of reception research. Any newly found early evidence that materially constrains wording, transmission, dependence, or a distinctive local ending reopens the affected cluster.
 
 ## Low-value / avoid-by-default
 
