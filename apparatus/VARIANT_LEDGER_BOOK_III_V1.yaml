@@ -984,7 +984,8 @@ variants:
       Synoptics:
         state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
       Thomas_vs_Synoptics:
-        state: MIXED_EVIDENCE_REDACTIONAL_FINGERPRINT_CONTESTED
+        state: RELATION_DISPUTED
+        evidence_balance: SYNOPTIC_INFLUENCE_PLAUSIBLE_REDACTIONAL_FINGERPRINT_LOCALLY_WEIGHTY
         dependence_evidence:
           - kind: LUKAN_REDACTIONAL_FINGERPRINT_ARGUMENT
             scholar: Simon_Gathercole
@@ -1012,7 +1013,8 @@ variants:
             doi: "10.1093/oxfordhb/9780190887452.013.27"
             report: "Supports close comparison without forcing a global dependence/autonomy verdict."
         local_adjudication:
-          state: SYNOPTIC_INFLUENCE_PLAUSIBLE_REDACTIONAL_FINGERPRINT_NOT_DECISIVE
+          state: RELATION_DISPUTED
+          evidence_balance: SYNOPTIC_INFLUENCE_PLAUSIBLE_REDACTIONAL_FINGERPRINT_NOT_DECISIVE
           reason: "The doubled 'perhaps' and 65-66 sequence give dependence arguments real local weight; Thomas's distinct narrative form and contested tradition-history block promotion to direct-copying fact."
         guard: "Do not use simpler Thomas wording as a chronology test, and do not use the Lukan-fingerprint argument as proof that every element of Thomas 65/66 derives from Luke."
 
