@@ -71,6 +71,83 @@ Therefore:
 
 A Greek Thomas 92 may be reconstructed for scholarly comparison, but it is not an extant Greek manuscript reading.
 
+### Redactional-fingerprint review — Thomas 2 and Thomas 92
+
+The two Thomas seeking sayings should not share one literary-history judgment.
+
+#### Thomas 2 — broader wisdom / noncanonical saying chain
+
+Thomas 2 has direct Greek and Coptic witnesses.
+
+Its strongest external relation is not a close copy of Matthew 7:7–11 or Luke 11:9–13.
+
+The Greek P.Oxy. 654 form follows a longer progression:
+- seek;
+- find;
+- marvel/astonishment;
+- reign;
+- rest.
+
+Clement of Alexandria preserves a closely related sequence and attributes it to the Gospel according to the Hebrews.
+
+Simon Gathercole describes the relationship between Thomas 2 and that Gospel-of-the-Hebrews tradition as clear, although difficult to define precisely.
+
+That matters because it gives the saying a broader early-Christian transmission history outside the canonical Synoptic ask/seek/knock complex.
+
+Stephen Patterson additionally roots the basic seek/find admonition in Jewish wisdom tradition.
+
+Current local state:
+
+**COMMON_TRADITION_PLAUSIBLE.**
+
+Evidence balance:
+
+**NONCANONICAL / WISDOM TRANSMISSION CHAIN IS MORE IMMEDIATELY EVIDENCED THAN DIRECT MATTHEW/LUKE COPYING.**
+
+This is not a declaration that Thomas 2 is independent.
+
+The Greek/Coptic Thomas forms themselves differ:
+- the Greek reconstruction reaches rest;
+- the Coptic includes disturbance/astonishment and reigning over the All;
+- the reconstructed Greek rest wording remains partly restored.
+
+#### Thomas 92 — portable seek/find formula
+
+Thomas 92 is Coptic-only in the currently bound witness set.
+
+It begins with a compact seek/find instruction comparable to Matthew 7:7.
+
+But it immediately turns the formula into a distinct Thomasine revelatory saying:
+- questions were asked previously;
+- Jesus did not answer then;
+- now he is willing to disclose;
+- the hearers no longer seek.
+
+Patterson treats the seek/find formula as wisdom tradition and reads Thomas 92 as a reuse of that broader admonition.
+
+Published source-critical work on Thomas 92/94 and Matthew 7 likewise argues that differences in wording and context are compatible with a common oral source rather than literary dependence.
+
+Current local state:
+
+**COMMON_TRADITION_PLAUSIBLE.**
+
+Evidence balance:
+
+**PORTABLE WISDOM FORMULA / MATTHEW PARALLEL REAL / DIRECT LITERARY DIRECTION NOT DIAGNOSTIC.**
+
+No Greek Thomas 92 witness survives, so the project cannot perform the kind of Greek-to-Greek fingerprint test possible for Thomas 26 or Thomas 3.
+
+#### Attestation guard
+
+Thomas 2 and Thomas 92 remain two sayings inside one Gospel of Thomas.
+
+Separate literary-history judgments do not turn them into two independent external sources.
+
+References:
+- Simon Gathercole, *The Gospel of Thomas: Introduction and Commentary* (2014).
+- Stephen J. Patterson, *The Gospel of Thomas and Christian Origins* (2013).
+- Clement of Alexandria, *Stromateis* 2.9.45 and 5.14.96.
+
 ### Relationship to Matthew and Luke
 
 Matthew 7:7–11 and Luke 11:9–13 preserve the tight ask / seek / knock triad plus a parent-child gift analogy.
