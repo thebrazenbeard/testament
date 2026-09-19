@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v30
+schema_version: testament.hostile_review_book_iii.v31
 overall_status: ACTIVE
 complete: false
 
@@ -316,6 +316,20 @@ tranche_30:
   local_target:
     - ECR-POLYCARP-PHIL2-BEATITUDES
 
+tranche_31:
+  original_target: 04ff19b52c850372cd0b19c169f0049143e3c962
+  repair_target: 08a89b39716ea902077cab21e8f09e43a0ded6b3
+  review_report_commit: 5ac92089062cca078809023d57740305552d3542
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE31_20260919.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-012..HR-BIII-012
+  repaired_findings:
+    - HR-BIII-012_RECEPTION_CIRCULATION_OVERCLAIM
+  reviewed_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+  local_target:
+    - ECR-1CLEM13-JUDGE-MEASURE
+
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
   - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
@@ -355,7 +369,7 @@ next_scope:
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_31
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_32
 
 
 thomas_fingerprint_scope:
