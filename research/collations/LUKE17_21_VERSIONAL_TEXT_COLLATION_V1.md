@@ -32,14 +32,29 @@ Direct source:
 
 ## Latin — Vetus Latina / Bezae Latin column
 
-Published report:
-- Ramelli reports `intra vos` across the Old Latin witnesses discussed, including the Bezae Latin column.
+Collective Vetus Latina report:
+- Ramelli reports no variant in the Old Latin witnesses she discusses for `intra vos`.
+
+Codex Bezae Latin — direct institutional transcription:
+- source: IGNTP/Birmingham `Bezae-Latin.xml`, version 1.0;
+- TEI verse id: `B03K17V21`;
+- current folio: `256r`;
+- Cambridge image canvas: `492`;
+- target clause across transcription lines 4–5:
+  - `ecce enim regnum dei intra uos est`;
+- target rendering:
+  - `intra uos`.
+
+Wider Bezae Latin verse control:
+- the direct transcription has `nolite credere` before the target clause;
+- Testament preserves that as witness-specific Bezae text rather than silently normalizing the whole verse to the Vulgate.
 
 State:
-- EDITION_REPORTED_NOT_DIRECTLY_COLLATION_BOUND
+- BEZAE_LATIN_DIRECT_IGNTP_TRANSCRIPTION_BOUND / VETUS_LATINA_COLLECTIVE_STILL_EDITION_REPORTED
 
 Guard:
-- do not upgrade the Old Latin collective to direct Testament collation from a Vulgate readback.
+- a direct reading from one Old Latin manuscript does not convert the entire Vetus Latina collective into directly collated evidence;
+- the official XML transcription is direct textual evidence for the Bezae Latin column, not direct image autopsy of folio 256r in this pass.
 
 ## Syriac — Peshitta
 
@@ -150,6 +165,7 @@ Guard:
 
 Directly collated in current project:
 - Vulgate: `intra vos`
+- Codex Bezae Latin column: `intra uos` from official IGNTP XML at `B03K17V21`, folio `256r`
 - Peshitta: `ܠܓܘ ܡܢܟܘܢ`
 
 Direct CAL text / reproducibly derived target script:
@@ -159,8 +175,8 @@ Direct CAL text / reproducibly derived target script:
 Direct published-page visual readback / stable Unicode:
 - Harklean: `ܗܐ ܓܝܪ ܡܠܟܘܬܗ ܕܐܠܗܐ ܒܓܘܟܘܢ ܐܝܬܝܗ`
 
-Edition-reported but not yet directly machine-bound:
-- Vetus Latina collective / Bezae Latin column
+Edition-reported but not yet directly witness-bound:
+- Vetus Latina collective beyond the directly bound Codex Bezae Latin witness
 
 Debt disposition proposed by this unit:
 - `LUKE17_21_OLD_SYRIAC_HARKLEAN_DIRECT_TEXT_ENCODING` can close after exact-head hostile review;
@@ -173,6 +189,7 @@ The Old Latin collective remains a lower-level expansion item under broader vers
 
 Established:
 - direct Vulgate string;
+- direct IGNTP Codex Bezae Latin Luke 17:21 transcription with `intra uos` on folio 256r;
 - direct Peshitta string;
 - exact Kiraz edition locus used by Ramelli for the four Syriac versions;
 - exact CAL-romanized Luke 17:21 rows for Old Syriac Curetonian and Sinaiticus from pinned public corpus blobs;
@@ -200,6 +217,9 @@ Not established:
 - Syriaca.org bibliographic record for Kiraz, Luke, vol. 3.
 - public Peshitta Luke 17:21 text.
 - public Vulgate Luke 17:21 text.
+- IGNTP/Birmingham Codex Bezae Latin transcription record: `https://epapers.bham.ac.uk/id/eprint/1664/`.
+- direct XML: `https://epapers.bham.ac.uk/id/eprint/1664/1/Bezae-Latin.xml`.
+- Cambridge manuscript image route for the bound folio is carried in the XML as CUDL canvas 492.
 
 
 ## Old Syriac computational provenance — 2026-09-19
