@@ -64,25 +64,24 @@ Hostile review:
 Control:
 - same Thomas 55 source cannot become a second independent witness merely because a second motif is under review.
 
+### Thomas 26 — Speck / log
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 21
+
+Key diagnostic evidence:
+- P.Oxy. I 1 preserves only the concluding portion of Thomas 26;
+- Goodacre reports a thirteen-word Greek agreement with Luke 6:42 and a Matthean-like verb position;
+- oral stability of a memorable punchline remains a live countermodel;
+- the Coptic "missing middle" pattern is not misrepresented as complete Greek manuscript evidence.
+
+Controlled result:
+- RELATION_DISPUTED
+- DIRECT_GREEK_VERBATIM_AGREEMENT_STRONG_CONTACT_ARGUMENT_WITH_ORAL_COUNTERMODEL
+
 ## Remaining fingerprint coverage
 
 ### Priority A — direct Greek + Coptic evidence and close Synoptic parallel
-
-#### Thomas 26 — speck / log
-Control:
-- VAR-JUDGE-SPECK-THOMAS-26
-
-Witness quality:
-- P.Oxy. 1 fragmentary Greek;
-- NHC II complete Coptic.
-
-Why high priority:
-- direct Greek overlap can reduce Coptic-retroversion noise;
-- compact image has close Synoptic analogues;
-- current relation state is cautious but not yet deeply fingerprint-audited.
-
-Next question:
-- does the surviving Greek overlap preserve Synoptic redactional wording, generic traditional wording, or too little text to decide?
 
 #### Thomas 4 — first / last
 Control:
@@ -155,13 +154,12 @@ Risk:
 
 ## Priority order
 
-1. Thomas 26
-2. Thomas 4
-3. Thomas 3 / 113
-4. Thomas 2 / 92
-5. Thomas 100
-6. Thomas 107
-7. Thomas beatitude cluster
+1. Thomas 4
+2. Thomas 3 / 113
+3. Thomas 2 / 92
+4. Thomas 100
+5. Thomas 107
+6. Thomas beatitude cluster
 
 This is an evidence-priority order, not a historical-authenticity ranking.
 
