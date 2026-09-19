@@ -151,12 +151,24 @@ records:
           - source: Ramelli_Luke_17_21_Syriac_Study
             report: "Ramelli reports no Vetus Latina variant for intra vos in this phrase."
       Codex_Bezae_Latin_column:
-        form: "intra vos"
-        text_state: EDITION_REPORTED_NOT_DIRECTLY_COLLATION_BOUND
+        form: "intra uos"
+        text_state: DIRECT_IGNTP_XML_TRANSCRIPTION_BOUND
         semantic_report: INSIDE_OR_WITHIN
+        physical_witness: WIT-D05-CODEX-BEZAE
+        direct_locus:
+          tei_verse_id: B03K17V21
+          folio_current: "256r"
+          cudl_canvas: 492
+          target_clause: "ecce enim regnum dei intra uos est"
+          wider_verse_feature: "nolite credere precedes the target clause in the direct Latin transcription"
         evidence:
-          - source: Ramelli_Luke_17_21_Syriac_Study
-            report: "Ramelli reports the Bezae Latin column with the same intra vos form."
+          - source: IGNTP_Bezae_Latin_XML_v1
+            url: "https://epapers.bham.ac.uk/id/eprint/1664/1/Bezae-Latin.xml"
+            report: "Official electronic transcription directly reads intra uos at Luke 17:21."
+          - source: Birmingham_ePapers_Bezae_Latin
+            url: "https://epapers.bham.ac.uk/id/eprint/1664/"
+            report: "Repository record identifies the XML as the IGNTP/Cambridge Latin transcription."
+        guard: "This directly binds one Old Latin manuscript witness; it does not turn the entire Vetus Latina collective into direct collation."
       guard: "Latin intra strongly reflects interior/bounded reception, but translation evidence does not mechanically decide the Greek source sense."
     syriac:
       Old_Syriac_Sinaitic_and_Curetonian:
