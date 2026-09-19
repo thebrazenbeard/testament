@@ -5,7 +5,8 @@ review_head: 72553ace185e2e5732ee68af0e0054fed9c86a5a
 legend:
   PASS_CONTROL: "Control packet adequately defines a method/boundary; not itself a historical event packet."
   PASS_WITH_NOTES: "Primary/source basis is materially present, but exact witness/edition work may remain."
-  PARTIAL: "Useful research packet, but at least one primary-source/witness/dependence gate remains open."\n  SCENE_BOUND_PARTIAL: "Dedicated primary scene packet now exists, but exact witness/textual work still prevents full maturity."
+  PARTIAL: "Useful research packet, but at least one primary-source/witness/dependence gate remains open."
+  SCENE_BOUND_PARTIAL: "Dedicated primary scene packet now exists, but exact witness/textual work still prevents full maturity."
   UPSTREAM_BOUND: "Evidence is deliberately inherited from an exact On-Theo source cut."
 
 packets:
