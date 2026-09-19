@@ -88,8 +88,13 @@ variants:
               attribution: "Gregory explicitly presents this as Luke's wording instead of the kingdom petition."
               guard: "Patristic textual testimony/exegesis, not a physical Gospel manuscript and not proof of original Luke."
             Maximus:
-              state: PUBLISHED_REPORT_DIRECT_PRIMARY_TEXT_PENDING
-              guard: "Potential dependence on Gregory remains unresolved."
+              state: DIRECT_PRIMARY_GREEK_TEXT_BOUND
+              control: research/collations/LUKE11_2_MAXIMUS_SPIRIT_PETITION_V1.md
+              attributed_form: "Ἐλθέτω σου τὸ Πνεῦμα τὸ ἅγιον, καὶ καθαρισάτω ἡμᾶς"
+              attribution: "Maximus says what Matthew calls kingdom another evangelist elsewhere calls Holy Spirit."
+              relation_to_162: "Shares omission of ἐφ’ ἡμᾶς and possessive-before-Spirit order with 162's reported form; no genealogy asserted."
+              dependence_guard: "PG apparatus suggests Maximus may have drawn from Gregory; independence is unresolved and the two are not automatically counted as independent streams."
+              guard: "Patristic textual testimony/exegesis, not a physical Gospel manuscript and not proof of original Luke."
           witness_specific_forms:
             WIT-700-EGERTON-2610:
               reported_form: "May your Holy Spirit come upon us and cleanse us."
@@ -117,7 +122,7 @@ variants:
           - kind: PUBLISHED_SCHOLARLY_REPORT
             source: New_Testament_Studies_Lords_Prayer_variant_studies
             report: "Published studies distinguish the kingdom-substitution witness family from Marcion's indirectly attested Spirit request."
-        witness_binding: PHYSICAL_GREEK_WITNESSES_BOUND_PLUS_DIRECT_GREGORY_PATRISTIC_TEXT_PLUS_PUBLISHED_MAXIMUS_REPORT_AND_INDIRECT_MARCION_TESTIMONY
+        witness_binding: PHYSICAL_GREEK_WITNESSES_BOUND_PLUS_DIRECT_GREGORY_AND_MAXIMUS_PATRISTIC_TEXTS_WITH_DEPENDENCE_GUARD_PLUS_INDIRECT_MARCION_TESTIMONY
         state: MINORITY_SPIRIT_TRADITIONS_REAL_RELATION_NOT_NORMALIZED
         guard: "The existence of Spirit-petition traditions is stronger than any single normalized wording or placement. Do not promote theological fit with Luke's pneumatology into originality."
 
