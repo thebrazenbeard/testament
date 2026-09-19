@@ -279,7 +279,7 @@ witnesses:
     Gregory_Aland: "01"
     witness_date:
       precision: "fourth century, often mid-fourth century"
-    access_mode: DIGITAL_MANUSCRIPT_METADATA_PLUS_SCHOLARLY_WITNESS_REPORT
+    access_mode: OFFICIAL_ELECTRONIC_TRANSCRIPTION_PLUS_DIGITAL_MANUSCRIPT_METADATA_PLUS_SCHOLARLY_WITNESS_REPORT
     locators:
       - passage: Mark_16_8
         reading_state: ENDS_AT_16_8
@@ -305,7 +305,12 @@ witnesses:
           folio: "236b"
           page_scope: "Luke 10:21-11:6"
           scribe: A
-        reading_note: "The official Codex Sinaiticus electronic transcription at BL folio 236b displays the simple opening 'Father.' This is direct project transcription linked to the manuscript page, not Testament image-level autopsy."
+        reading_note: "The official Codex Sinaiticus electronic transcription at BL folio 236b displays the simple opening 'Father.' The project states that its electronic transcription is a letter-by-letter scholarly transcription linked to manuscript images and produced through double transcription/image checking; Testament has read the official transcription but has not directly inspected the Luke 11:2 manuscript pixels."
+        electronic_transcription_provenance:
+          page: "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=10&verse=32"
+          method: "https://www.codexsinaiticus.org/en/project/transcription.aspx"
+          web_presentation: "https://codexsinaiticus.org/en/project/edition.aspx"
+          state: OFFICIAL_TRANSCRIPTION_DIRECTLY_READ_IMAGE_NOT_AUTOPTIC
         scholarship:
           - url: "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=10&verse=32"
           - source: "Bruce_Terry_Student_Guide_Luke_11_2"
@@ -316,9 +321,11 @@ witnesses:
           folio: "236b"
           page_scope: "Luke 10:21-11:6"
           scribe: A
-        reading_note: "The official Codex Sinaiticus electronic transcription visibly includes the Matthean-style will petition in Luke 11:2."
+        reading_note: "The official Codex Sinaiticus electronic transcription visibly includes the Matthean-style will petition in Luke 11:2. This is direct readback of the project's scholarly electronic transcription, not direct Testament inspection of manuscript pixels."
+        electronic_transcription_state: DIRECTLY_READ_OFFICIAL_TRANSCRIPTION_IMAGE_PENDING
         scholarship:
           - url: "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=10&verse=32"
+          - url: "https://www.codexsinaiticus.org/en/project/transcription.aspx"
       - passage: Luke_11_4_deliverance_petition
         reading_state: CORRECTION_STATE_CONFLICT_DIRECT_POPUP_READBACK_REQUIRED
         manuscript_locator:
@@ -326,13 +333,20 @@ witnesses:
           folio: "236b"
           page_scope: "Luke 10:21-11:6"
           scribe: A
-        visible_electronic_transcription: "The indexed Codex Sinaiticus transcription ends Luke 11:4 after the testing petition and does not display the deliverance phrase in plain extracted text."
+        visible_electronic_transcription: "The official folio-236b electronic transcription presents Luke 11:4 ending after the testing petition in its default/plain display and exposes a correction marker at the locus; the deliverance phrase is not visible as ordinary base text in the extracted display."
+        transcription_interface_control:
+          method: "https://www.codexsinaiticus.org/en/project/transcription.aspx"
+          correction_model: "The project encodes corrections separately from the main reading and its web interface exposes correction stages through linked correction controls."
+          xml_spec: "https://codexsinaiticus.org/download/XMLspecs_sinaiticus.pdf"
+          default_display_guard: "The XML specification states that the first reading in an apparatus element is the default display, usually but not invariably the original reading. Default visible text alone therefore cannot establish the Luke 11:4 hand sequence."
         apparatus_conflict: "NET published apparatus assigns the longer deliverance reading to Sinaiticus corrector 1 and the shorter reading to the original hand and corrector 2, while older secondary summaries report a different hand-sequence description. The exact correction history is therefore not normalized here."
-        reading_note: "Testament withdraws its earlier asserted hand sequence. Direct interaction with the Codex Sinaiticus correction popup / image-linked apparatus is required before assigning original/corrector stages."
+        reading_note: "Testament withdraws its earlier asserted hand sequence. Direct interaction with the Codex Sinaiticus correction popup or direct XML apparatus readback at the Luke 11:4 locus is required before assigning original/corrector stages."
         scholarship:
           - url: "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=10&verse=32"
+          - url: "https://www.codexsinaiticus.org/en/project/transcription.aspx"
+          - url: "https://codexsinaiticus.org/download/XMLspecs_sinaiticus.pdf"
           - url: "https://classic.net.bible.org/passage.php?passage=Luk+11%3A4"
-        guard: "Visible electronic transcription and published apparatus may encode different display layers. Do not infer hand chronology from plain text extraction alone."
+        guard: "Visible electronic transcription and published apparatus are distinct evidence layers. Do not infer hand chronology from the default display alone."
     limitations:
       - "Corrector sequence for Luke 23:34a remains apparatus/image-verification work."
       - "One codex does not define an earliest reading by itself."
