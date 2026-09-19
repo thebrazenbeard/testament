@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v24
+schema_version: testament.hostile_review_book_iii.v25
 overall_status: ACTIVE
 complete: false
 
@@ -250,6 +250,16 @@ tranche_24:
   reviewed_debt:
     - THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW
 
+
+tranche_25:
+  review_target: 7a2a9dc196f8fddac3b0d6c2c9facb1084073026
+  review_report_commit: dd1b256364b6fbe9640cdee1bdf1c1d3cfb1628f
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE25_20260919.md
+  status: PASS_FOR_TRANCHE_CURRENT_SCOPE_COMPLETE
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW
+
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
   - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
@@ -281,7 +291,6 @@ remaining_debt:
   - LUKE11_SPIRIT_VARIANT_162_700_DIRECT_IMAGE_COLLATION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
   - THOMAS_101_LACUNA_AUTOPTIC_CONFIRMATION
-  - THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW
   - THOMAS_3_AND_26_CRITICAL_EDITION_LINE_COLLATION
   - LUKE17_21_DIRECT_VERSIONAL_TEXT_COLLATION
   - P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
@@ -291,7 +300,14 @@ next_scope:
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_25
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_26
+
+
+thomas_fingerprint_scope:
+  status: COMPLETE_CURRENT_SCOPE
+  coverage_audit: research/audits/THOMAS_REDACTIONAL_FINGERPRINT_COVERAGE_V1.md
+  closure_tranche: 25
+  reopen_rule: "Any newly added Thomas cluster, new direct Greek/versional evidence, or material change to a local dependence claim reopens the affected review scope."
 
 invariants:
   - "Tranche PASS is exact-head-bound."
