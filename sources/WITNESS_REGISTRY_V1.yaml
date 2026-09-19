@@ -419,26 +419,49 @@ witnesses:
           - url: "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=10&verse=32"
           - url: "https://www.codexsinaiticus.org/en/project/transcription.aspx"
       - passage: Luke_11_4_deliverance_petition
-        reading_state: CORRECTION_STATE_CONFLICT_DIRECT_POPUP_READBACK_REQUIRED
+        reading_state: DIRECT_OFFICIAL_XML_APPARATUS_RESOLVED_FIRSTHAND_OMITS_CA_PARTIAL_ADDITION_AND_DELETION_STATE
         manuscript_locator:
           library: British_Library
           folio: "236b"
+          project_page: "78-5v"
+          column: 4
           page_scope: "Luke 10:21-11:6"
           scribe: A
-        visible_electronic_transcription: "The official folio-236b electronic transcription presents Luke 11:4 ending after the testing petition in its default/plain display and exposes a correction marker at the locus; the deliverance phrase is not visible as ordinary base text in the extracted display."
-        transcription_interface_control:
-          method: "https://www.codexsinaiticus.org/en/project/transcription.aspx"
-          correction_model: "The project encodes corrections separately from the main reading and its web interface exposes correction stages through linked correction controls."
-          xml_spec: "https://codexsinaiticus.org/download/XMLspecs_sinaiticus.pdf"
-          default_display_guard: "The XML specification states that the first reading in an apparatus element is the default display, usually but not invariably the original reading. Default visible text alone therefore cannot establish the Luke 11:4 hand sequence."
-        apparatus_conflict: "NET published apparatus assigns the longer deliverance reading to Sinaiticus corrector 1 and the shorter reading to the original hand and corrector 2, while older secondary summaries report a different hand-sequence description. The exact correction history is therefore not normalized here."
-        reading_note: "Testament withdraws its earlier asserted hand sequence. Direct interaction with the Codex Sinaiticus correction popup or direct XML apparatus readback at the Luke 11:4 locus is required before assigning original/corrector stages."
+          verse_id: V-B35K11V4-35-LUKE
+          line_range: "30-37"
+        direct_xml_audit: research/audits/LUKE11_4_SINAITICUS_CORRECTION_XML_V1.md
+        official_xml_readback:
+          first_hand:
+            state: OMITS_DELIVERANCE_ADDITION
+            v195_encoding: '<rdg type="orig" hand="firsthand"><w n="21"/></rdg>'
+          ca_addition_state:
+            state: PARTIAL_DELIVERANCE_WORDING
+            diplomatic_text: "αλλα ρυσ(αι) ημας απο τ"
+            conservative_normalization: "ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τ…"
+            guard: "The direct XML stops at tau; do not silently expand this to a complete απο του πονηρου clause."
+          ca_deletion_state:
+            state: BLANK_CORRECTION_READING_XML_SPEC_DEFINES_AS_DELETION
+            v195_encoding: '<rdg type="corr" hand="ca"><w n="21"/></rdg>'
+        current_repository_binding:
+          repository: itsee-birmingham/codex-sinaiticus
+          commit: af1633b5102cbe6200e79053cc618ac447e1bb16
+          file: sinaiticus_full_v195.xml
+          git_blob: 29cc37dcaa2216d16a5a6945c05e5813e147fb96
+          fetched_file_sha256: b676767c4511ff71393ade69cc6049e2731c235c1a08e7e106f45f00a6dd7233
+          exact_locus_chunk_sha256: 987c493a5179ff94e053a1102a5b663397c1c906e15425407ed26af58c51fa8f
+        archived_v104_control:
+          file_sha256: 5f67c70c4c21ba905824fd2ff5ec3c21bf5358d36bb421ad9fda75e23ea9f0d4
+          exact_locus_chunk_sha256: 179c3574043c4d78755e89d73dbbc19e7912ab0f2e00d39e2d1677b9241e068d
+          relation: "Same correction-state content; v1.95 enriches markup and explicitly labels firsthand."
+        apparatus_conflict_disposition: "Direct project XML now controls the Codex Sinaiticus Project hand-state claim. External simplified corrector labels are retained only as secondary apparatus reports and are not forced into one-to-one equivalence with project hand ca."
+        reading_note: "First hand omits the deliverance addition. The official project XML also encodes a partial ca addition through 'ἀπὸ τ…' and a blank ca correction state, which the XML specification defines as deletion. The XML does not justify silently supplying the complete Matthean deliverance clause or finer palaeographic chronology inside ca."
         scholarship:
           - url: "https://codexsinaiticus.org/en/manuscript.aspx?book=35&chapter=10&verse=32"
           - url: "https://www.codexsinaiticus.org/en/project/transcription.aspx"
           - url: "https://codexsinaiticus.org/download/XMLspecs_sinaiticus.pdf"
-          - url: "https://classic.net.bible.org/passage.php?passage=Luk+11%3A4"
-        guard: "Visible electronic transcription and published apparatus are distinct evidence layers. Do not infer hand chronology from the default display alone."
+          - repository: itsee-birmingham/codex-sinaiticus
+            commit: af1633b5102cbe6200e79053cc618ac447e1bb16
+        guard: "Direct locus XML apparatus resolves the project-encoding conflict but is not manuscript-image autopsy. Do not equate project hand ca mechanically with external corrector-number labels."
     limitations:
       - "Corrector sequence for Luke 23:34a remains apparatus/image-verification work."
       - "One codex does not define an earliest reading by itself."
