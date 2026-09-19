@@ -339,6 +339,16 @@ variants:
         guard: "Persecution/hunger beatitudes in Thomas 68-69 illuminate Thomasine clustering but do not multiply the independent source count."
       guard: "Similarity between Thomas 54 and Luke 6:20 on unqualified poverty does not establish Thomasine independence, priority, or direct copying in either direction."
 
+    early_reception_control:
+      ledger_record: ECR-POLYCARP-PHIL2-BEATITUDES
+      state: MIXED_OR_RECOMBINED_BEATITUDE_RECEPTION_FORM
+      reception_features:
+        - "unqualified poor"
+        - "persecuted for righteousness' sake"
+        - "kingdom of God"
+      significance: "Polycarp preserves a beatitude form with Luke-like and Matthew-like features outside either canonical literary setting."
+      guard: "The mixed form does not prove direct written conflation of Matthew and Luke; oral/catechetical/memory transmission remains possible."
+
     witness_date_control:
       physical_witness: WIT-NHC-II-GOSPEL-THOMAS
       date: "fourth century CE"
