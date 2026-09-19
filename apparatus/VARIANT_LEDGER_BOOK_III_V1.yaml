@@ -688,19 +688,40 @@ variants:
       guard: "Whether the Coptic omission is accidental, editorial, or reflects another transmission stage remains unresolved."
 
     dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
       Synoptic_portability:
         state: MULTIPLE_REDACTIONAL_PLACEMENTS
         guard: "Repeated placement does not mean repeated independent historical utterance."
-      Thomas_vs_Synoptics:
+      Thomas_4_vs_Synoptics:
         state: RELATION_DISPUTED
-        evidence_balance: DISPUTED
-        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
-        scholarship:
-          - author: Melissa_Harl_Sellew
-            title: "The Gospel of Thomas and the Synoptics"
-            year: 2023
+        evidence_balance: DIRECT_GREEK_RECONSTRUCTED_CORE_CLOSE_MARK_AGREEMENT_WITH_PORTABLE_MAXIM_COUNTERMODEL
+        direct_greek_evidence:
+          witness: WIT-POXY-654-GOSPEL-THOMAS
+          reconstruction_note: "Published P.Oxy. 654 reconstruction yields the reciprocal maxim 'many first will be last and the last first,' but part of the line is restored."
+          Mark_10_31:
+            relation: CLOSE_CORE_AGREEMENT
+            diagnostic_note: "The reconstructed Thomas form aligns especially closely with Mark's reciprocal clause, including the article before the second 'last'; Mark has different connective framing."
+          Matthew_19_30:
+            relation: CLOSE_BUT_NOT_EXACT_CORE_AGREEMENT
+            diagnostic_note: "Matthew has the reciprocal maxim but lacks Mark's article before the second 'last' in SBLGNT."
+          guard: "Do not call every compared word direct papyrus ink; restoration and connective differences remain visible."
+        contact_argument:
+          scholars:
+            - Mark_Goodacre
+            - M_David_Litwa_summary_of_Goodacre
+          report: "Goodacre's Synoptic-familiarity case treats Thomas 4's Greek reciprocal maxim as an extended diagnostic agreement with the Synoptic tradition."
+        counterarguments:
+          - kind: PORTABLE_MAXIM
+            report: "First/last reversal is short, memorable and demonstrably portable across multiple Synoptic settings, so close verbal stability can arise through oral or common-saying transmission."
+          - kind: INTRA_THOMAS_TRANSMISSION
+            report: "The Coptic Thomas 4 drops the reciprocal last-to-first phrase preserved in the Greek reconstruction, proving that this very maxim was unstable within Thomas's own transmission."
+          - kind: COMPOSITE_THOMAS_CONTEXT
+            report: "Thomas embeds the reversal in an old-man/child/place-of-life/oneness saying absent from the Synoptic settings, so the maxim may have been attached to a distinct Thomasine complex at some transmission stage."
+          - kind: COMPARATIVE_METHOD
+            scholar: Melissa_Harl_Sellew
             doi: "10.1093/oxfordhb/9780190887452.013.27"
-        guard: "Thomas 4 may preserve inherited, Gospel-related, or complexly transmitted material; no direction is promoted to fact."
+        adjudication: "The Greek reconstructed core gives Synoptic-contact arguments meaningful local weight, especially toward Mark, but proverb portability, restoration boundaries and intra-Thomas variation prevent direct literary dependence from being established."
+        guard: "Neither the earlier physical date of P.Oxy. 654 nor the Coptic omission determines compositional priority."
 
     historical_ceiling:
       strong:
