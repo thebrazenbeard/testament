@@ -334,18 +334,33 @@ It remains a scholarly argument rather than direct Testament collation of every 
 
 #### Tertullian
 
-Tertullian's *Against Marcion* IV.35 gives an ancient third-way interpretation.
+Tertullian's *Against Marcion* IV.35 is now directly bound at the Latin-text level rather than only summarized.
 
-He explains "within you" approximately as:
+Dedicated control:
+- `research/collations/LUKE17_21_TERTULLIAN_ADVMARC4_35_V1.md`.
+
+Direct Latin:
+- Luke phrase: `ecce enim regnum dei intra vos est`;
+- Tertullian's gloss: `Intra vos est, id est in manu, in potestate vestra`;
+- condition: `si audiatis, si faciatis dei praeceptum`.
+
+His reading is therefore approximately:
 - in your hand;
-- within your power;
-- accessible through hearing and doing God's commandment.
+- in your power;
+- available through hearing and doing God's commandment.
 
-That matters because it demonstrates that the modern "within your reach/power" family is not an ad hoc twentieth-century invention.
+That matters because it directly documents an ancient **reach / power / agency** reception of `intra vos`; this is not merely a modern interpretive invention.
 
 It also prevents a false binary:
-- interior language did not require ancient readers to mean "inside the individual psyche";
-- "among you" is not the only alternative to a psychological interior reading.
+- interior Latin wording did not require an exclusively psychological "inside the individual psyche" interpretation;
+- "among you" is not the only alternative to an interior-mystical reading.
+
+Tertullian then links the saying to the near-commandment tradition associated with Deuteronomy. That linkage is **Tertullian's exegesis**, not proof of Luke's intended intertext.
+
+Project-bias guard:
+- Testament's authored agency thesis has an obvious affinity with Tertullian's `in potestate vestra` reading;
+- that literary/theological affinity cannot increase the historical weight of his testimony;
+- Tertullian remains patristic reception/exegesis, not a lexical override of Luke's Greek.
 
 ### Reception-level result
 
@@ -354,7 +369,7 @@ The reception evidence currently says:
 - ancient Latin strongly preserves interior wording; Codex Bezae is now directly transcription-bound while the broader Vetus Latina collective remains edition-reported;
 - Old Syriac is genuinely ambiguous;
 - Peshitta/Harklean preserve more explicit interior renderings; Peshitta is directly text-bound and Harklean is now directly bound from the published Kiraz quotation reproduced by Ramelli;
-- Tertullian preserves an ancient power/reach interpretation;
+- Tertullian directly preserves an ancient power/reach interpretation in Latin (`in manu, in potestate vestra`);
 - modern commentary often prefers among/in-your-midst for contextual reasons.
 
 Therefore reception history **broadens and structures the dispute**.
