@@ -323,6 +323,42 @@ records:
       - "Polycarp does not adjudicate whether Luke's poor or Matthew's poor-in-spirit is earlier."
 
 
+  - id: ECR-1CLEM13-JUDGE-MEASURE
+    passage: 1_Clement_13_2
+    kind: EARLY_CHRISTIAN_RECEPTION_AND_ATTRIBUTED_LORD_SAYING_CHAIN
+    source_work: SRC-1-CLEMENT
+    physical_witness: WIT-CODEX-ALEXANDRINUS-1CLEMENT
+    related_variant: VAR-JUDGE-SPECK-THOMAS-26
+    text_state: DIRECT_PUBLISHED_TEXT_BOUND_PLUS_PHYSICAL_WITNESS_METADATA_NOT_IMAGE_AUTOPTIC
+    source:
+      attribution_state: EXPLICITLY_INTRODUCED_AS_WORDS_OF_THE_LORD_JESUS
+      sequence_features:
+        - mercy
+        - forgiveness
+        - reciprocal_doing
+        - reciprocal_giving
+        - reciprocal_judgment
+        - kindness
+        - reciprocal_measure
+    claim:
+      state: MATERIAL_CLUSTER_COMPOSITION_EVIDENCE
+      report: "1 Clement 13.2 preserves an early attributed-Lord chain joining judgment and measure with mercy, forgiveness, doing and giving, while the cited chain does not include the speck/log image."
+      significance:
+        - "Shows that judgment/measure reciprocity circulated in an early Christian Lord-saying complex broader than one canonical sermon sequence."
+        - "Provides an early reception control separating the judge/measure chain from the speck/log image in this witness."
+    evidence:
+      - source: New_Advent_1_Clement_13
+        url: "https://www.newadvent.org/fathers/1010.htm"
+      - source: Lake_1_Clement_13
+        url: "https://en.wikisource.org/wiki/1_Clement_(Lake)"
+      - source: British_Library_Codex_Alexandrinus
+        url: "https://searcharchives.bl.uk/catalog/040-002353500"
+    guard:
+      - "1 Clement is reception evidence, not a Gospel manuscript."
+      - "The sequence does not prove whether 1 Clement used Matthew, Luke, oral tradition, catechesis, or a mixed transmission path."
+      - "Absence of the speck/log image from this cited chain does not prove that image was absent from an earlier historical form."
+      - "A fifth-century physical witness does not date the composition of 1 Clement or the sayings it transmits."
+
 invariants:
   - "VERSIONAL_STREAM != PHYSICAL_MANUSCRIPT."
   - "PATRISTIC_CITATION != GOSPEL_MANUSCRIPT."
