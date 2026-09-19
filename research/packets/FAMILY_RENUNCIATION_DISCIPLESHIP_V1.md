@@ -120,29 +120,32 @@ Page 50:
 - Testament does not infer missing Coptic wording from the damage.
 
 Page 49:
-- the public manuscript image is catalogued and its dimensions/source are known;
-- the current direct-image channel repeatedly fails to render it;
-- therefore the terminal page-49 lines have **not** been directly inspected in this pass.
+- the public manuscript image is now directly renderable in the current research surface;
+- the terminal Thomas 101 lines have been directly visually inspected;
+- physical loss visibly interrupts the disputed terminal-line region;
+- no missing Coptic wording is inferred from the absent papyrus.
 
-### Page-49 access-route revalidation — 2026-09-19
+### Page-49 direct-image closure — 2026-09-19
 
-The page-49 route was rechecked without promoting metadata into autopsy.
+Direct collation:
+- `research/collations/THOMAS101_NHCII_49_50_DIRECT_IMAGE_READBACK_V1.md`
 
 Reconfirmed:
 - Wikimedia Commons resolves the exact file `Gospel of Thomas - Nag Hammadi II-49.jpg`;
 - the file page reports an original image of 572 × 1041 pixels, 143 KB;
-- Wikimedia reports SHA-1 `300bec3dcf90b64f249d022d7dc6356925693e0a` for that uploaded image;
-- Gospels.net independently lists online images for NHC II pages 32–51.
+- Wikimedia reports SHA-1 `300bec3dcf90b64f249d022d7dc6356925693e0a`;
+- the page-50 original is likewise directly renderable.
 
 Runtime result:
-- image metadata and route identity are readable;
-- the current direct-image path still does not deliver renderable page-49 pixels for inspection;
-- therefore no line-shape, damage, glyph, or terminal-line observation is added.
+- page 49 terminal pixels are now directly visible;
+- Thomas 101 is visibly located near the bottom of page 49;
+- physical loss interrupts the terminal-line region;
+- page 50 begins with corresponding upper-page loss;
+- the 49.36–50.1 gap is therefore physically confirmed without reconstructing the missing wording.
 
 Consequence:
-- access provenance is stronger and reproducible;
-- `THOMAS_101_NHCII_49_36_PAGE49_TERMINAL_LINES_DIRECT_IMAGE_READBACK` remains open;
-- `IMAGE_AUTOPTIC_LEVEL_VERIFICATION` remains open.
+- `THOMAS_101_NHCII_49_36_PAGE49_TERMINAL_LINES_DIRECT_IMAGE_READBACK` is closed, subject to exact-head hostile review;
+- `IMAGE_AUTOPTIC_LEVEL_VERIFICATION` remains open for the broader Book III image-verification frontier.
 
 Published scholarship records multiple restoration proposals for the 49.36–50.1 gap.
 
@@ -150,11 +153,11 @@ Those remain proposals.
 
 Current state:
 
-**PARTIAL AUTOPTIC CONFIRMATION — PAGE 50 BOUND / PAGE 49 TERMINAL LINES PENDING.**
+**BILATERAL PAGE-49/PAGE-50 DIRECT IMAGE CONFIRMATION — LOCAL LACUNA VERIFIED / RESTORATION UNRESOLVED.**
 
 The remaining debt is therefore narrower than generic autoptic verification.
 
-It does **not** close full manuscript-image verification.
+It closes the local Thomas 101 page-49 access debt. It does **not** close the broader Book III manuscript-image verification frontier.
 
 References:
 - Bentley Layton, ed., *Nag Hammadi Codex II, 2–7* (Brill, 1989), critical edition and editorial method.
