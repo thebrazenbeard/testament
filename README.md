@@ -8,6 +8,20 @@ Testament is the authored literary and theological project. It is not a replacem
 
 The working literary title is **The Testament of the Spark**. The repository name remains deliberately simpler: **testament**.
 
+## First sustained manuscript draft
+
+The first complete prose traversal of the eight-book architecture now lives at:
+
+- `manuscript/draft_v1/README.md`
+
+It contains:
+- a full prologue;
+- exploratory prose for Books I–VIII;
+- a source/provenance map;
+- editorial revision gates.
+
+Draft V1 is explicitly exploratory authored prose. Its existence does not upgrade research confidence, close open witness debt, authorize manuscript promotion, or authorize merge.
+
 ## Upstream research dependency
 
 Primary research dependency: https://github.com/thebrazenbeard/on-theo
@@ -32,4 +46,4 @@ Its ethical center is independent of any one metaphysics:
 
 ## Status
 
-Foundation V1 is research architecture and manuscript scaffolding. Historical claims remain reviewable and source-bound. Simulation theory remains a speculative model, not a historical conclusion.
+Foundation V1 remains an active research architecture and manuscript foundation. The exploratory full-manuscript Draft V1 now exists, but historical claims remain reviewable and source-bound. Simulation theory remains a speculative model, not a historical conclusion.
