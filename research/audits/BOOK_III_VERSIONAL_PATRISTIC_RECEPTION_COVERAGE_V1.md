@@ -150,7 +150,7 @@ It is a targeted medium-value queue governed by the criteria below.
 
 - Beatitudes: **BOUND** via ECR-POLYCARP-PHIL2-BEATITUDES; mixed poor + persecuted-for-righteousness + kingdom-of-God form materially constrains early reception without deciding literary direction.
 - Cross-bearing / family renunciation: early reception only if a text constrains the saying combination rather than merely alluding to discipleship.
-- Judge / measure / speck: **BOUND** via ECR-1CLEM13-JUDGE-MEASURE; 1 Clement 13.2 preserves an attributed-Lord mercy/forgive/judge/measure chain without the speck/log image, materially constraining cluster composition without deciding literary direction.
+- Judge / measure / speck: **BOUND** via ECR-1CLEM13-JUDGE-MEASURE; 1 Clement 13.2 preserves an attributed-Lord mercy/forgive/judge/measure chain without the speck/log image, materially constraining claims about fixed early reception clustering without deciding literary direction.
 - Caesar: early exegesis may illuminate interpretation, but should not be added merely as theological commentary.
 - Lost sheep: noncanonical/patristic reuse may matter if it bears on distinctive endings.
 - Wicked tenants: patristic allegory is abundant but often too late/redactional to constrain earliest form.
@@ -178,8 +178,8 @@ Ancient evidence:
 
 Why it matters:
 - this is cluster-composition evidence, not merely later commentary;
-- it shows an early Christian circulation form in which judge/measure reciprocity sits in a wider ethical chain without the speck/log image;
-- it therefore constrains any reconstruction that assumes the full Synoptic judge/measure/speck complex always circulated as one inseparable unit.
+- it preserves an early Christian reception form in which judge/measure reciprocity sits in a wider ethical chain without the speck/log image;
+- it therefore constrains claims that the full judge/measure/speck complex is demonstrably fixed across all early reception witnesses; it does not reconstruct an original speech unit.
 
 Guards:
 - exact dependence on Matthew, Luke, oral tradition, catechesis, or mixed transmission remains unresolved;
