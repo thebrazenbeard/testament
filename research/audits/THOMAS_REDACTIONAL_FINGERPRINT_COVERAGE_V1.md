@@ -1,6 +1,6 @@
 # Thomas / Synoptic Redactional-Fingerprint Coverage Audit V1
 
-Status: ACTIVE / BOOK_III_SCOPE
+Status: COMPLETE_CURRENT_SCOPE / BOOK_III_SCOPE
 
 Source-level method:
 - research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
@@ -124,41 +124,59 @@ Controlled result:
 - Thomas 2 = COMMON_TRADITION_PLAUSIBLE / NONCANONICAL_WISDOM_CHAIN_STRONGER_THAN_DIRECT_SYNOPTIC_CONTACT
 - Thomas 92 = COMMON_TRADITION_PLAUSIBLE / SEEK_FIND_FORMULA_PORTABLE_WISDOM_TRADITION_WITH_MATTHEW_PARALLEL
 
-## Remaining fingerprint coverage
+### Thomas 100 — Caesar
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 25
 
-### Priority A — Coptic-only current Thomas witness
+Key diagnostic evidence:
+- published Synoptic-redaction model has substantial local support;
+- Thomas survives only in Coptic for this logion;
+- the Thomas-only final Jesus-claim clause demonstrates redactional development without fixing literary direction.
 
-#### Thomas 54 / 68 / 69 — beatitudes
-Control:
-- VAR-BEATITUDES-POOR-MATT-LUKE-THOMAS
+Controlled result:
+- RELATION_DISPUTED
+- SYNOPTIC_REDACTION_MODEL_SUBSTANTIAL_COPTIC_ONLY_DIRECTION_NOT_SECURE
 
-Risk:
-- formal similarity may invite unsupported priority/independence claims;
-- no currently bound Greek witness for these logia.
+### Thomas 107 — Lost sheep
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 25
 
-#### Thomas 100 — Caesar
-Control:
-- VAR-CAESAR-THOMAS-100
+Key diagnostic evidence:
+- the "largest" sheep motif recurs within Thomas and supports an internal-redaction model;
+- published scholarship also argues for an early/independent Thomas form;
+- no surviving Greek Thomas 107 witness can adjudicate wording direction.
 
-Risk:
-- compact form + distinctive final Jesus clause can invite shorter-equals-earlier reasoning;
-- no Greek witness currently bound.
+Controlled result:
+- RELATION_DISPUTED
+- COMPETING_THOMASINE_REDACTION_AND_EARLY_OR_INDEPENDENT_FORM_MODELS
 
-#### Thomas 107 — lost sheep
-Control:
-- VAR-LOST-SHEEP-THOMAS-107
+### Thomas 54 / 68 / 69 — Beatitudes
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 25
 
-Risk:
-- distinctive largest-sheep valuation motif;
-- no Greek witness currently bound.
+Key diagnostic evidence:
+- Thomas 54 is strongly comparable to Luke's unqualified poor beatitude while retaining "kingdom of heaven";
+- Luke-contact/dependence and shared/independent-tradition models remain live;
+- Thomas 68/69 are same-work related beatitudes and do not multiply external attestation;
+- no currently bound Greek witness preserves 54/68/69.
 
-## Priority order
+Controlled result:
+- RELATION_DISPUTED
+- LUKE_CONTACT_ARGUMENT_LOCALLY_WEIGHTY_WITH_SHARED_OR_INDEPENDENT_TRADITION_COUNTERMODELS
 
-1. Thomas 100
-2. Thomas 107
-3. Thomas beatitude cluster
+## Current-scope closure
 
-This is an evidence-priority order, not a historical-authenticity ranking.
+Every current Book III Thomas cluster now satisfies the completion rule.
+
+THOMAS_SYNOPTIC_REDACTIONAL_FINGERPRINT_REVIEW is closed for the current cluster set.
+
+This closure is scope-bound:
+- newly added Thomas clusters automatically reopen review;
+- new Greek or versional evidence can reopen an existing cluster;
+- closure does not mean the academic dependence debate is resolved.
 
 ## Completion rule
 
