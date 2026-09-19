@@ -112,6 +112,91 @@ So:
 
 A reconstructed Greek Thomas 113 is not an extant manuscript reading.
 
+### Redactional-fingerprint review — Thomas 3 and Thomas 113
+
+Thomas 3 and Thomas 113 are related kingdom traditions inside one Gospel of Thomas.
+
+They do **not** have the same evidence profile.
+
+#### Thomas 3 — direct Greek contact evidence
+
+P.Oxy. 654 gives Thomas 3 a major advantage for dependence analysis:
+the comparison with Luke 17:21 is not based only on Coptic retroversion.
+
+The fragment preserves/reconstructs the unusual kingdom-location expression involving `entos hymon`.
+
+Mark Goodacre's Synoptic-familiarity argument treats this Greek Thomas 3 / Luke 17:21 overlap as a striking contact datum.
+
+But the restoration boundary matters.
+
+The P.Oxy. 654 line is heavily lacunose:
+- the divine title in "kingdom of God" is partly restored;
+- other surrounding wording is reconstructed;
+- the full phrase must not be represented as continuously extant papyrus ink.
+
+Thomas 3 also develops far beyond Luke:
+- inside **and outside** you;
+- false kingdom locations;
+- self-knowledge;
+- becoming known;
+- children of the living Father;
+- poverty through failure of self-knowledge.
+
+The Greek/Coptic Thomas transmission is itself unstable:
+- Greek second false location: under the earth;
+- Coptic second false location: in the sea.
+
+Current local state:
+
+**RELATION_DISPUTED.**
+
+Evidence balance:
+
+**DIRECT GREEK `ENTOS HYMŌN` OVERLAP GIVES CONTACT ARGUMENTS REAL WEIGHT / LACUNAE, THOMASINE EXPANSION AND COMMON-TRADITION MODELS REMAIN LIVE.**
+
+#### Thomas 113 — common-tradition case, no Greek witness
+
+Thomas 113 has a different evidence ceiling.
+
+It is preserved only in the Coptic NHC II witness currently bound by Testament.
+
+Its relation to Luke 17:20–21 is conceptual and structural:
+- kingdom arrival cannot be localized by "here / there" observation;
+- the kingdom is already present but unrecognized.
+
+Stephen Patterson treats Thomas 113 and Luke 17:20–21 as witnesses to an early present-reign tradition, and Thomas 3 as a more philosophically/theologically developed Thomasine form of related material.
+
+Older Thomas source criticism has likewise argued for shared pre-Lukan/common tradition rather than direct dependence.
+
+That model is serious.
+
+It is not proven.
+
+Without surviving Greek Thomas 113:
+- there is no direct Greek diagnostic-wording test;
+- conceptual proximity cannot identify literary direction by itself.
+
+Current local state:
+
+**RELATION_DISPUTED / COMMON-TRADITION ARGUMENT SUBSTANTIAL / DIRECT GREEK THOMAS EVIDENCE ABSENT.**
+
+#### Shared-source guard
+
+Separate analysis does not make Thomas 3 and Thomas 113 two independent external sources.
+
+They remain:
+- two related forms;
+- inside one Gospel of Thomas;
+- in one surviving complete Coptic codex.
+
+Their different compositional histories may matter.
+Their same-work status still matters for attestation counting.
+
+References:
+- Mark Goodacre, *Thomas and the Gospels* (2012).
+- Stephen J. Patterson, *The Gospel of Thomas and Christian Origins* (2013).
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics" (2023), DOI 10.1093/oxfordhb/9780190887452.013.27.
+
 ### Luke 17:21 remains its own semantic problem
 
 Thomas 3 and 113 are relevant kingdom-location traditions.
