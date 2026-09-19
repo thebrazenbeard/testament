@@ -67,6 +67,17 @@ records:
       - "https://en.wikisource.org/wiki/1_Clement_(Lake)"
     limits: "1 Clement is not a Gospel manuscript and does not become independent historical-Jesus attestation merely by paralleling Synoptic sayings. Literary/oral dependence must be argued per unit; witness date never becomes composition date."
 
+  - id: SRC-JUSTIN-FIRST-APOLOGY
+    kind: PRIMARY_TEXT_EARLY_CHRISTIAN_APOLOGY
+    work: Justin_First_Apology
+    author: Justin_Martyr
+    horizon: "mid-second century; exact dating within the Antonine period remains a scholarly question"
+    use: "Early Christian reception/citation witness for sayings attributed to Christ and for second-century apologetic interpretation."
+    access:
+      - "https://ccel.org/ccel/justin_martyr/first_apology/anf01.viii.ii.xvii.html"
+      - "https://www.newadvent.org/fathers/0126.htm"
+    limits: "Justin is reception evidence, not a Gospel manuscript or automatically independent historical-Jesus attestation. Exact relationship to written Gospels, oral tradition, memory, and apologetic redaction must be argued per unit."
+
   - id: SRC-JOSEPHUS-ANTIQUITIES-18-JOHN
     kind: PRIMARY_TEXT
     work: Jewish Antiquities
