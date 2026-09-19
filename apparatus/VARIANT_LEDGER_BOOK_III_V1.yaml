@@ -965,11 +965,14 @@ variants:
       coptic_state: EXTANT_COPTIC
       form_note: "Thomas preserves the speck/log image without the full Matthean/Lukan judgment-measure cluster."
       collation:
-        state: LIMITED_OVERLAP_NO_SECURE_FULL_VARIANT_CALL
+        state: CRITICAL_EDITION_LINE_COLLATION_BOUND
+        source: research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md
+        manuscript_lines: "P.Oxy. 1.1-4"
         greek_coverage: "P.Oxy. 1 preserves only the latter portion of logion 26, including the concluding remove-the-speck sequence."
         coptic_coverage: "NHC II preserves the complete saying."
-        overlap_note: "Published Greek translation preserves a concluding 'then you will see clearly' / remove-the-speck sequence corresponding broadly to the Coptic conclusion."
-        guard: "The fragment's limited coverage does not support reconstruction of the complete Greek saying or a secure whole-logion Greek/Coptic variant map."
+        normalized_surviving_clause: "kai tote diablepseis ekbalein to karphos to en to ophthalmō tou adelphou sou"
+        overlap_note: "The direct Greek conclusion supports the thirteen-word Luke 6:42 comparison used in the dependence control; opening/middle material remains Coptic-only."
+        guard: "The fragment's line-level coverage does not support reconstruction of the complete Greek saying or a secure whole-logion Greek/Coptic variant map."
       guard: "P.Oxy. 1 begins within logion 26; missing Greek wording cannot be silently supplied from Coptic."
 
     dependence_control:
@@ -982,6 +985,8 @@ variants:
         evidence_balance: DIRECT_GREEK_VERBATIM_AGREEMENT_STRONG_CONTACT_ARGUMENT_WITH_ORAL_COUNTERMODEL
         direct_greek_evidence:
           witness: WIT-POXY-1-GOSPEL-THOMAS
+          line_collation: research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md
+          manuscript_lines: "P.Oxy. 1.1-4"
           preserved_scope: "Only the concluding portion of Thomas 26 is extant in P.Oxy. 1."
           report: "Goodacre identifies a thirteen-word verbatim agreement in the surviving Greek ending with Luke 6:42; the position of ekbalein also aligns with Matthew 7:5."
           significance: "This is materially stronger dependence evidence than a Coptic-only thematic parallel because the comparison is Greek-to-Greek."
@@ -1074,14 +1079,21 @@ variants:
       coptic_state: EXTANT_COPTIC
       form_note: "Thomas 3 develops kingdom location through inside/outside language rather than simply reproducing Luke 17:21."
       collation:
-        state: PUBLISHED_FORM_DIFFERENCE_BOUND
+        state: CRITICAL_EDITION_LINE_COLLATION_BOUND
+        source: research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md
+        manuscript_lines: "P.Oxy. 654.9-21"
+        direct_line_control:
+          line_15: "...KAI H BAS["
+          line_16: "ENTOS YMWN [.]STI ["
+          consequence: "A kingdom-expression immediately precedes entos hymon, but the complete divine-title phrase is not continuously extant."
         secure_difference:
           greek_form: "The second false location is represented as under the earth in the published Greek form."
           coptic_form: "The corresponding Coptic form says the kingdom is in the sea."
           consequence: "The location pair changed in transmission; the Coptic is not a word-for-word witness to the Greek fragment."
         reconstruction_guard:
-          greek_divine_title: "Published Greek reconstructions may restore 'kingdom of God' where the papyrus is lacunose; that restored title is not treated as extant papyrus wording or as a secure Greek/Coptic divergence."
+          greek_divine_title: "Completion of BAS[ to basileia and restoration of theou in the lacuna before entos hymon remain editorial reconstruction."
           missing_text: "Any Coptic completion of Greek lacunae remains reconstruction."
+          quotation_rule: "Do not quote the full normalized 'kingdom of God is within you' phrase as continuously extant papyrus ink."
       guard: "P.Oxy. 654 is lacunose in parts of logion 3; Coptic completion is not direct Greek readback."
 
     thomas_113:
@@ -1101,7 +1113,9 @@ variants:
         evidence_balance: DIRECT_GREEK_ENTOS_OVERLAP_STRONG_CONTACT_ARGUMENT_WITH_LACUNA_AND_THOMASINE_EXPANSION
         direct_greek_evidence:
           witness: WIT-POXY-654-GOSPEL-THOMAS
-          report: "Published P.Oxy. 654 reconstruction preserves the unusual entos-hymon kingdom-location overlap with Luke 17:21 inside a heavily lacunose saying."
+          line_collation: research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md
+          manuscript_lines: "P.Oxy. 654.9-21"
+          report: "The editio-princeps line sequence preserves the kingdom stem at line 15 and entos hymon at line 16; the intervening divine-title completion is editorial restoration."
           restoration_guard: "The Greek divine title 'kingdom of God' is partly reconstructed; do not call the entire Luke-like phrase continuously extant papyrus ink."
         contact_argument:
           scholars:
