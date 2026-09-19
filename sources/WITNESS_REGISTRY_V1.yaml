@@ -695,7 +695,7 @@ witnesses:
     common_name: Parisinus_Graecus_450
     shelfmark: "Bibliothèque nationale de France, Département des manuscrits, Grec 450"
     witness_date:
-      precision: "14th century; ARCA catalogues 1363"
+      precision: "14th century; ARCA catalogues 1363, while Marcovich reports the manuscript dated 11 September 1364"
     access_mode: INSTITUTIONAL_METADATA_PLUS_DIGITAL_FACSIMILE_IDENTIFIED_NOT_AUTOPTIC
     locators:
       - passage: Justin_First_Apology_17
@@ -708,8 +708,15 @@ witnesses:
       - source: Biblissima_BnF_Grec_450
         url: "https://data.biblissima.fr/w/Item:Q55294"
         report: "Authority record identifies BnF Grec 450 and links a Gallica digitization/IIIF manifest."
+      - source: BnF_Reliures_Justin_Grec450
+        url: "https://reliures.bnf.fr/ark:/12148/cdt9x6m5/"
+        report: "BnF identifies Grec 450 as the royal-collection manuscript used for the princeps edition of works of St Justin and describes it as copied by Jean de Raguse in 1363."
+      - source: Marcovich_1992_Notes_on_Justin_Apologies
+        url: "https://libsysdigi.library.illinois.edu/OCA/Books2009-09/illinoisclassica/illinoisclassica171992univ/illinoisclassica171992univ.pdf"
+        report: "Manuscript study states that Justin Martyr's Apologies are preserved virtually in a single late manuscript, Parisinus gr. 450, and reports it as dated 11 September 1364."
     limitations:
       - "Fourteenth-century witness date is not the composition date of Justin's First Apology."
+      - "The institutional 1363 date and Marcovich's reported 11 September 1364 date are preserved as a cataloguing/scholarly discrepancy; neither affects the much earlier composition horizon."
       - "Published Greek text is not represented as direct facsimile transcription here."
       - "One late manuscript tradition does not establish independent historical attestation of the saying."
 
