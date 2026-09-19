@@ -100,6 +100,36 @@ References:
 - P.Oxy. IV 654 manuscript scope: NASSCAL.
 - Published Greek/Coptic Thomas 3 forms: GospelThomas.com / Attridge and Layton translations.
 
+### Critical-edition line collation — Thomas 3
+
+Dedicated control:
+- `research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md`
+
+The published line range is now explicit:
+
+- P.Oxy. 654.9–21 = Thomas 3.
+- At line 15 the papyrus preserves the end of the preceding clause plus `...KAI H BAS[`.
+- At line 16 it preserves `ENTOS YMWN [.]STI [`.
+
+This is enough to establish a direct Greek `entos hymon` datum in the kingdom-location sequence.
+
+It is **not** enough to call the complete normalized phrase "the kingdom of God is within you" continuously extant ink.
+
+The critical completion:
+- `bas[` → `basileia`;
+- the divine title `tou theou`;
+- other surrounding lacunose words
+
+remains editorial reconstruction.
+
+That distinction is now bound at:
+- witness level;
+- variant-control level;
+- research-collation level.
+
+The remaining image/autoptic debt is separate.
+The critical-edition line-collation debt for Thomas 3 is closed.
+
 ### Thomas 113: Coptic-only in current witness coverage
 
 Thomas 113 is directly preserved in the Coptic NHC II copy.
