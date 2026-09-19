@@ -754,19 +754,45 @@ variants:
       conclusion: "No surviving Greek Thomas fragment currently bound by Testament witnesses logion 55 or 101."
 
     dependence_control:
-      Thomas_vs_Synoptics:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      cluster_state:
         state: RELATION_DISPUTED
-        evidence_balance: DISPUTED_WITH_CONFLATION_ARGUMENTS
-        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
-        evidence:
-          - kind: SCHOLARLY_ARGUMENT
-            source: John_P_Meier
-            report: "Treats Thomas 55 as a mixed form drawing on Matthean and Lukan family/cross language; this is an argument for dependence, not project fact."
-          - kind: COMPARATIVE_METHOD
-            source: Melissa_Harl_Sellew
+        evidence_balance: MIXED_OR_MULTISTAGE_TRANSMISSION_PLAUSIBLE
+        guard: "Thomas 55 and 101 belong to one work but need not have the same compositional history."
+      Thomas_55_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: AUTONOMY_ARGUMENT_SUBSTANTIAL_WITH_SYNOPTIC_REDACTION_ARGUMENTS
+        positions:
+          - scholar: Stephen_J_Patterson
+            report: "Patterson judges the case for relative independence of Thomas 55 comparatively strong and uses it as potentially useful evidence for the shared Matthew/Luke family-renunciation tradition."
+            sources:
+              - title: "The Gospel of Thomas and Christian Origins"
+                year: 2013
+              - title: "Twice More—Thomas and the Synoptics"
+                year: 2014
+                doi: "10.1177/0142064X14521947"
+          - scholar: Christopher_M_Tuckett
+            report: "Tuckett has identified Thomas 55 among local cases where Synoptic redactional influence may be detectable."
+            source:
+              title: "Thomas and the Synoptics"
+              journal: Novum_Testamentum
+              year: 1988
+          - scholar: John_P_Meier
+            report: "Meier treats Thomas 55 as a mixed/conflated form drawing on Matthean and Lukan family/cross language; this remains an attributed dependence argument."
+        common_tradition_control:
+          report: "Modern cross-bearing research recognizes a common negative-form tradition across Matthew 10:38, Luke 14:27 and Thomas 55; common form alone does not settle direction."
+        guard: "Neither Patterson's relative-independence case nor conflation/redaction arguments are promoted to project fact."
+      Thomas_101_vs_Synoptics:
+        state: RELATION_DISPUTED
+        evidence_balance: SECONDARY_MATTHEAN_INFLUENCE_PLAUSIBLE_TEXT_LACUNOSE
+        positions:
+          - scholar: Stephen_J_Patterson
+            report: "Patterson distinguishes Thomas 101 from 55 and says secondary influence from Matthew may need to be reckoned with for Thomas 101."
+          - scholar: Melissa_Harl_Sellew
             doi: "10.1093/oxfordhb/9780190887452.013.27"
-            report: "Supports close comparison without forcing a single global dependence/autonomy verdict."
-        guard: "Conflation is a serious hypothesis for Thomas 55/101, but independence is not ruled out by assertion alone."
+            report: "Supports saying-level comparison without forcing one global dependence model."
+        lacuna_guard: "Thomas 101's damaged text lowers the precision available for literary-direction claims."
+      same_work_guard: "Thomas 55 and 101 remain related forms inside one source and one surviving Coptic codex; separate local dependence analyses do not turn them into independent historical attestations."
 
     historical_ceiling:
       strong:
