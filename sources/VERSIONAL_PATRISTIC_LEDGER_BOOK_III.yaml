@@ -256,20 +256,31 @@ records:
 
   - id: PAT-TERTULLIAN-LUKE17-21-POWER
     passage: Luke_17_21
-    kind: PATRISTIC_EXEGESIS
+    kind: PATRISTIC_EXEGESIS_DIRECT_PRIMARY_LATIN_BOUND
     author: Tertullian
     work: Against_Marcion
     locator: "Book IV, chapter 35"
+    collation_control: research/collations/LUKE17_21_TERTULLIAN_ADVMARC4_35_V1.md
     interpretation: WITHIN_YOUR_HAND_OR_POWER
-    report: "Tertullian explicitly interprets 'within you' as 'in your hand, within your power' if one hears and does God's commandment."
+    direct_latin:
+      luke_phrase: "ecce enim regnum dei intra vos est"
+      interpretive_gloss: "Intra vos est, id est in manu, in potestate vestra"
+      condition: "si audiatis, si faciatis dei praeceptum"
+    report: "Tertullian directly glosses intra vos as 'in your hand, in your power' and ties that reading to hearing and doing God's commandment."
     evidence:
-      - url: "https://www.newadvent.org/fathers/03124.htm"
+      - source: Evans_Adversus_Marcionem_IV_35
+        state: DIRECT_CRITICAL_LATIN_TEXT
+        url: "https://www.tertullian.org/articles/evans_marc/evans_marc_09book4.htm"
+      - source: Evans_English_translation
+        state: SECONDARY_TRANSLATION_CONTROL
+        url: "https://www.tertullian.org/articles/evans_marc/evans_marc_10book4_eng.htm"
     significance:
-      - "Confirms an ancient reception corresponding closely to the modern 'within your reach/power' interpretive family."
-      - "Shows that interior wording did not require a purely psychological 'inside the soul' interpretation."
+      - "Directly establishes an ancient reception corresponding closely to the modern 'within your reach/power' interpretive family."
+      - "Shows that Latin interior wording did not require a purely psychological 'inside the soul' interpretation."
     guard:
       - "Patristic exegesis is reception evidence, not a lexical override of Luke's Greek."
-      - "Tertullian's theological linkage to Deuteronomy 30 is interpretation, not proof of Luke's intended source."
+      - "Tertullian's Deuteronomy linkage is his exegesis, not proof of Luke's intended intertext."
+      - "Project affinity with an agency/power reading does not increase the historical weight of this witness."
 
 
 
