@@ -150,12 +150,41 @@ It is a targeted medium-value queue governed by the criteria below.
 
 - Beatitudes: **BOUND** via ECR-POLYCARP-PHIL2-BEATITUDES; mixed poor + persecuted-for-righteousness + kingdom-of-God form materially constrains early reception without deciding literary direction.
 - Cross-bearing / family renunciation: early reception only if a text constrains the saying combination rather than merely alluding to discipleship.
-- Judge / measure / speck: early reception only if wording or cluster composition is informative.
+- Judge / measure / speck: **BOUND** via ECR-1CLEM13-JUDGE-MEASURE; 1 Clement 13.2 preserves an attributed-Lord mercy/forgive/judge/measure chain without the speck/log image, materially constraining cluster composition without deciding literary direction.
 - Caesar: early exegesis may illuminate interpretation, but should not be added merely as theological commentary.
 - Lost sheep: noncanonical/patristic reuse may matter if it bears on distinctive endings.
 - Wicked tenants: patristic allegory is abundant but often too late/redactional to constrain earliest form.
 - Sabbath Bezae addition: patristic discussion is useful only if it directly witnesses or discusses the distinctive Bezae saying.
 - First/last: short portable maxim makes reception easy to overcount.
+
+### Judge / measure / speck
+Status: BOUND
+
+Control:
+- ECR-1CLEM13-JUDGE-MEASURE
+
+Source:
+- SRC-1-CLEMENT
+
+Physical witness:
+- WIT-CODEX-ALEXANDRINUS-1CLEMENT
+
+Priority: MEDIUM
+
+Ancient evidence:
+- 1 Clement 13.2 explicitly introduces a compact sequence as words of the Lord Jesus;
+- the sequence joins mercy, forgiveness, reciprocal action/giving, judgment, kindness and reciprocal measure;
+- the cited sequence does not include the speck/log image.
+
+Why it matters:
+- this is cluster-composition evidence, not merely later commentary;
+- it shows an early Christian circulation form in which judge/measure reciprocity sits in a wider ethical chain without the speck/log image;
+- it therefore constrains any reconstruction that assumes the full Synoptic judge/measure/speck complex always circulated as one inseparable unit.
+
+Guards:
+- exact dependence on Matthew, Luke, oral tradition, catechesis, or mixed transmission remains unresolved;
+- absence of speck/log in 1 Clement 13.2 is not proof of historical absence;
+- Codex Alexandrinus is a fifth-century physical witness and does not date 1 Clement's composition.
 
 ## Low-value / avoid-by-default
 
