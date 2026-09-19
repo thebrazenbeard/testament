@@ -1,6 +1,6 @@
 # Pantera / Pandera Paternity Countertradition V1
 
-Status: RESEARCH_PACKET / OPEN SOURCE-AUDIT / NO BIOGRAPHICAL PROMOTION
+Status: RESEARCH_PACKET / SOURCE-AUDIT COMPLETE / NO BIOGRAPHICAL PROMOTION
 
 ## Purpose
 
@@ -64,24 +64,37 @@ Controls:
 - no rabbinic text currently reviewed identifies Pandera as Tiberius Julius Abdes Pantera;
 - similarity to Celsus requires transmission analysis.
 
-## Unverified composite claim to research next
+## Composite-claim source audit
 
 Patrick recalled being told a more specific story: that Miriam was sexually assaulted by Tiberius Pantera, returned to her carpenter husband, was socially shunned, and that the geography aligned with where Jesus was born.
 
-Status: UNVERIFIED_COMPOSITE_CLAIM.
+Source audit:
+- research/audits/PANTERA_COMPOSITE_SOURCE_AUDIT_V1.md
 
-This chat ended before source-auditing it.
+Result: COMPOSITE_CLAIM_NOT_SUPPORTED_AS_SINGLE_ANCIENT_TRADITION.
 
-Decompose into separate questions:
-1. Does any ancient source explicitly describe sexual assault rather than adultery, seduction, or illicit conception?
-2. Does any ancient source identify Tiberius Julius Abdes Pantera rather than a generic Panthera/Pandera?
-3. Does any source say Miriam returned to a carpenter husband afterward?
-4. Does any source describe social shunning?
-5. What exact location is claimed for conception, birth, residence, or return?
-6. Does that location independently align with the soldier's attested service history?
-7. Is the modern story a composite of Celsus + rabbinic material + the Bingen inscription?
+The reviewed evidence separates as follows:
 
-No component should enter biography until separately sourced.
+1. Celsus via Origen gives an adultery accusation, rejection/expulsion by a carpenter betrothed/husband, wandering, and a soldier named Panthera.
+2. Celsus does not say rape.
+3. Celsus does not identify the soldier as Tiberius Julius Abdes Pantera.
+4. Celsus does not say Miriam returned to the carpenter or was then socially shunned.
+5. Bavli Shabbat 104b gives a later ben Stada / Pandeira / Miriam marital-infidelity complex, but not rape, not a carpenter husband, and not Tiberius.
+6. CIL XIII 7514 establishes a real Tiberius Julius Abdes Pantera from Sidon, age 62, with 40 years' service in cohors I sagittariorum, but supplies no Mary/Jesus/Joseph identity bridge.
+7. Broad Sidon/Galilee proximity is not an attested service-location or conception-location match.
+8. The specific rape-by-soldier theory belongs to modern reconstruction, not the wording of the reviewed ancient sources.
+
+Current classification:
+- Panthera/Pandera paternity countertradition: SUPPORTED_AS_COUNTERTRADITION.
+- Tiberius Julius Abdes Pantera existed: SUPPORTED_EPIGRAPHICALLY.
+- Tiberius as Yeshua's father: UNESTABLISHED.
+- rape by Panthera: NOT SUPPORTED BY REVIEWED ANCIENT SOURCES.
+- return to carpenter husband: NOT FOUND.
+- community shunning after return: NOT FOUND.
+- geographic match to conception/birth: NOT ESTABLISHED.
+- remembered full narrative: STRONGLY PLAUSIBLE MODERN COMPOSITE.
+
+No component should enter biography merely because the pieces form a coherent story.
 
 ## Broader historical question
 
