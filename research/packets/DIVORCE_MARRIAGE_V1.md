@@ -99,9 +99,9 @@ The evidence ceiling is now more specific:
 - CSNTM independently maps f. 45v to 1 Corinthians 7:4-12 and states that its Dublin P46 images come from the Chester Beatty Collection;
 - CSNTM exposes the folio-45 image families through its IIIF image service;
 - the current gallery ordering associates the `P46_045a_*` image family with the four 1 Cor 7:4 entries and `P46_045b_*` with the four 1 Cor 7:12 entries, making `045a` the current UI-order candidate for 45v;
-- actual JPEG pixel payloads from the CSNTM `P46_045a_k` candidate asset now resolve through the authorized desktop URL reader at both 100-pixel and 1500-pixel widths;
-- this clears the former transport/rendering block, but the `045a = 45v` association is still based on gallery/UI ordering rather than embedded image metadata, and a verified visual collation of 1 Corinthians 7:10–11 is still pending;
-- therefore direct Chester Beatty image readback by Testament remains open at the **visual-collation + folio-identity confirmation** boundary;
+- actual JPEG pixel payloads from the CSNTM `P46_045a_k` asset resolve through the authorized desktop URL reader at both 100-pixel and 1500-pixel widths;
+- `045a = 45v` is now independently confirmed by CSNTM's own cross-binding: legacy image caption `1 Cor 7.4`, description-PDF mapping `f.45v = 1 Cor 7.4-12`, adjacent 044a/044b side convention, and the current IIIF `M_NT_GRC_P46_045a_w` asset family;
+- folio identity is therefore closed; a verified visual collation of 1 Corinthians 7:10–11 remains pending;
 - physical location does not strengthen the historical wording claim beyond Paul's text.
 
 ### P46 folio-45v image-route revalidation — 2026-09-19
@@ -124,9 +124,15 @@ CSNTM:
 
 Current state:
 
-**FOLIO + IMAGE ROUTE RESOLVED / CANDIDATE IMAGE PIXEL TRANSPORT RESOLVED / VISUAL COLLATION + FOLIO-IDENTITY CONFIRMATION PENDING.**
+**FOLIO 45V IDENTITY CONFIRMED / IMAGE ROUTE + PIXEL TRANSPORT RESOLVED / VISUAL LINE COLLATION PENDING.**
 
-This does not close `P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK`.
+The former broad P46 image debt is now narrowed.
+
+Closed subfrontier:
+- `P46_045A_FOLIO_IDENTITY_CONFIRMATION`.
+
+Residual frontier:
+- `P46_1COR7_10_11_VISUAL_PIXEL_COLLATION`.
 
 The project will not convert:
 - an institutional plate caption;
@@ -136,6 +142,20 @@ The project will not convert:
 - or UI-order mapping
 
 into a claim that Testament has already completed a verified visual collation of folio 45v.
+
+### P46 1 Corinthians 7:10–11 transcription/apparatus control
+
+Focused collation:
+- `research/collations/P46_1COR7_10_11_FOLIO45V_COLLATION_V1.md`.
+
+Published P46 evidence materially sharpens the local text:
+- at 7:10, P46 has the distinctive imperative `χωριζεσθω` where the critical comparison text has infinitive `χωρισθῆναι`;
+- at 7:11, P46 supports the imperative sequence `μενετω ... καταλλαγητω`;
+- a witness-comparison transcription reports P46's final infinitive as `αφειεναι`, but that exact spelling remains image-unconfirmed.
+
+Those are transcription/apparatus claims, not fresh readings from the pixels.
+
+The visual image task remains deliberately narrower: verify the visible 7:10–11 letters on the now-confirmed folio 45v against those published readings.
 
 ### Physical witness control
 
