@@ -192,7 +192,20 @@ The two Greek manuscripts are now physically bound:
   - Luke occupies ff. 145r–229v;
   - scholarly passage locator: folio 184.
 
-Gregory of Nyssa and Maximus remain patristic citation evidence rather than manuscript identities.
+Gregory of Nyssa and Maximus are patristic citation evidence rather than manuscript identities.
+
+Gregory's evidence is now directly bound from his Greek *De oratione dominica*:
+- dedicated control: `research/collations/LUKE11_2_GREGORY_NYSSA_SPIRIT_PETITION_V1.md`;
+- in the third homily Gregory explicitly says Luke interprets the kingdom petition more clearly and that, in that Gospel, instead of `Ἐλθέτω ἡ βασιλεία σου`, the Spirit petition occurs;
+- his direct attributed form is `Ἐλθέτω τὸ ἅγιον πνεῦμά σου ἐφ’ ἡμᾶς καὶ καθαρισάτω ἡμᾶς`;
+- he then states that what Luke calls Holy Spirit Matthew calls kingdom;
+- near the homily's end Gregory reuses the petition with changed word order in his own sermonic prose; that later reuse is not counted as a second textual witness.
+
+This upgrades Gregory from generic patristic support to direct primary-text testimony.
+
+It does **not** make Gregory a physical Gospel manuscript, prove his form original to Luke, or close the image-collation debt for 162/700.
+
+Maximus remains a separate patristic support item at published-report level until independently direct-bound.
 
 The two Greek witnesses are **not textually identical**.
 
@@ -260,6 +273,8 @@ References:
 - Origen, *On Prayer*, Lord's Prayer exposition.
 - Tertullian, *Against Marcion* IV.26.
 - D. T. Roth, "The Text of the Lord's Prayer in Marcion's Gospel" and later NA28 reassessment.
+- Gregory of Nyssa, *De oratione dominica*, third homily; direct synchronized Greek text, GNO VII/II 39.18-19 control.
+- `research/collations/LUKE11_2_GREGORY_NYSSA_SPIRIT_PETITION_V1.md`.
 - Bruce M. Metzger, textual commentary on Luke 11:2.
 - Vatican Apostolic Library, DigiVatLib IIIF manifest for Barb.gr.449.
 - H. C. Hoskier, *A Full Account and Collation of the Greek Cursive Codex Evangelium 604* (1890), facsimile note for fol. 184v.
