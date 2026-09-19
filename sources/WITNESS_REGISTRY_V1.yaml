@@ -141,7 +141,7 @@ witnesses:
       precision: "late second to early third century CE; Michigan cataloguing commonly gives ca. 180-220 CE; dating remains scholarly rather than self-dating"
     language: Greek
     physical_scope: "Substantial Pauline corpus including most of 1 Corinthians"
-    access_mode: SCHOLARLY_MANUSCRIPT_METADATA_PLUS_INSTITUTIONAL_DIGITAL_IMAGE_ROUTE_IDENTIFIED
+    access_mode: SCHOLARLY_MANUSCRIPT_METADATA_PLUS_INSTITUTIONAL_DIGITAL_IMAGE_ROUTE_PLUS_AUTHORIZED_DESKTOP_PIXEL_TRANSPORT
     locators:
       - passage: First_Corinthians_7_10_11
         reading_state: EXTANT_FOLIO_LOCALIZED
@@ -165,7 +165,13 @@ witnesses:
               state: UI_ORDER_INFERENCE_NOT_PIXEL_READBACK
               report: "In CSNTM gallery order, four 1 Cor 7:4 image entries align with the P46_045a_* image family and are followed by four 1 Cor 7:12 entries aligned with P46_045b_*; this associates 045a with 45v and 045b with 45r in the current gallery."
             candidate_45v_image_service: "https://images.csntm.org/IIIFServer.ashx/GA_P46/P46_045a_k.jpg/full/100,/0/native.jpg"
-            image_service_state: HTTP_200_BINARY_ROUTE_RESOLVES_EXTRACTOR_CANNOT_RENDER_PIXELS
+            candidate_45v_image_service_large: "https://images.csntm.org/IIIFServer.ashx/GA_P46/P46_045a_k.jpg/full/1500,/0/native.jpg"
+            image_service_state: AUTHORIZED_DESKTOP_FETCH_RETURNS_IMAGE_JPEG_PIXEL_PAYLOAD
+            pixel_transport_readback:
+              checked: "2026-09-19"
+              route_100px: "Returned image/jpeg with an image payload through the authorized desktop URL reader."
+              route_1500px: "Returned image/jpeg with a substantially larger image payload through the authorized desktop URL reader."
+              evidence_ceiling: "This proves that actual pixels from the P46_045a candidate asset can be transported into an authorized runtime. It does not by itself prove that 045a is folio 45v except through the existing UI-order mapping, and it is not yet a completed visual collation of 1 Corinthians 7:10-11."
         reading_note: "Folio 45v contains 1 Corinthians 7:4-12 and therefore directly includes Paul's early divorce instruction at 7:10-11 invoking a command of 'the Lord.' This is evidence for Paul's text and early reception of a Lord-command, not a manuscript witness to Mark/Matthew/Luke wording."
         evidence:
           - source: Chester_Beatty_Kenyon_P46_plate_index
@@ -180,12 +186,12 @@ witnesses:
           - source: P46_holdings_breakdown
             state: CODEx_HOLDING_DISTRIBUTION
             report: "Folio 45 lies in the Chester Beatty portion of P46; the Michigan 1 Corinthians leaf is folio 40 only, while folios 41-69 are Chester Beatty."
-        image_state: DIRECT_CHESTER_BEATTY_IMAGE_ROUTE_RESOLVED_PIXEL_READBACK_PENDING
+        image_state: CANDIDATE_45V_JPEG_PIXEL_TRANSPORT_RESOLVED_VISUAL_COLLATION_AND_FOLIO_IDENTITY_CONFIRMATION_PENDING
     limitations:
       - "Witness date is not the date of Paul's composition."
       - "Paul's 'not I but the Lord' does not by itself preserve the exact wording or historical setting of the Gospel divorce sayings."
       - "Testament has not performed autoptic collation of P46."
-      - "The 1 Corinthians 7:10-11 leaf is localized to CBL BP II folio 45v and direct institutional/CSNTM image routes are resolved; current extractors still do not deliver renderable 45v pixels, so direct image readback remains pending."
+      - "The 1 Corinthians 7:10-11 leaf is localized to CBL BP II folio 45v. CSNTM candidate image-family 045a now yields actual JPEG pixel payloads through the authorized desktop route, but 045a=45v remains UI-order-bound rather than embedded-image-metadata-bound and a verified visual collation of the target lines remains pending."
 
 
 
