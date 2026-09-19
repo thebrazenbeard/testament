@@ -141,6 +141,34 @@ Not established:
 - whether Matthew's exception wording is original or secondary;
 - whether Mark's reciprocal gender formulation belongs to the earliest Palestinian form.
 
+## Early Christian reception — Shepherd of Hermas, Mandate 4
+
+Machine-readable control:
+- `ECR-HERMAS-MANDATE4-DIVORCE`
+
+The Shepherd of Hermas gives a distinct early Christian application of divorce/remarriage tradition.
+
+Mandate 4:
+- permits separation from an adulterous spouse who persists without repentance;
+- says the separated spouse should not remarry while the possibility of repentance/reconciliation remains;
+- applies the rule to both man and woman;
+- permits remarriage after a spouse's death, while praising continued celibacy more highly.
+
+This materially deepens the reception history after Paul's "not I, but the Lord" instruction in 1 Corinthians 7.
+
+It also demonstrates why later reception must not be flattened into one Gospel sentence.
+
+Hermas may reflect:
+- Pauline reception;
+- Gospel tradition;
+- oral/church-disciplinary tradition;
+- or a mixed trajectory.
+
+Testament does not choose among those merely from thematic overlap.
+
+Hermas is **reception evidence**, not a fifth Gospel manuscript and not a recovery of Yeshua's exact wording.
+
+
 ## Historical ceiling
 
 Strong:
