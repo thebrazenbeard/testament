@@ -109,23 +109,24 @@ Controlled result:
 - Thomas 3 = RELATION_DISPUTED / DIRECT_GREEK_ENTOS_OVERLAP_STRONG_CONTACT_ARGUMENT_WITH_LACUNA_AND_THOMASINE_EXPANSION
 - Thomas 113 = RELATION_DISPUTED / COMMON_TRADITION_ARGUMENT_SUBSTANTIAL_NO_GREEK_THOMAS_WITNESS
 
+### Thomas 2 / 92 — Seek / find
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 24
+
+Key diagnostic evidence:
+- Thomas 2 has Greek + Coptic witnesses and a close noncanonical Gospel-of-the-Hebrews / Clement sequence;
+- the basic seek/find admonition has broad wisdom-tradition support;
+- Thomas 92 is Coptic-only and functionally parallels Matthew 7:7 while developing a distinct revelatory use;
+- direct Synoptic literary dependence is less immediately evidenced than common/wider tradition.
+
+Controlled result:
+- Thomas 2 = COMMON_TRADITION_PLAUSIBLE / NONCANONICAL_WISDOM_CHAIN_STRONGER_THAN_DIRECT_SYNOPTIC_CONTACT
+- Thomas 92 = COMMON_TRADITION_PLAUSIBLE / SEEK_FIND_FORMULA_PORTABLE_WISDOM_TRADITION_WITH_MATTHEW_PARALLEL
+
 ## Remaining fingerprint coverage
 
-### Priority A — partial Greek witness or semantically adjacent relation
-
-#### Thomas 2 / 92 — seek / find
-Control:
-- VAR-ASK-SEEK-KNOCK-THOMAS-2-92
-
-Witness quality:
-- Thomas 2 = Greek + Coptic;
-- Thomas 92 = Coptic only.
-
-Why medium priority:
-- direct Greek transmission for Thomas 2;
-- relationship to Synoptic ask/seek/knock complex is related-tradition rather than exact alternate wording.
-
-### Priority C — Coptic-only current Thomas witness
+### Priority A — Coptic-only current Thomas witness
 
 #### Thomas 54 / 68 / 69 — beatitudes
 Control:
@@ -153,10 +154,9 @@ Risk:
 
 ## Priority order
 
-1. Thomas 2 / 92
-2. Thomas 100
-3. Thomas 107
-4. Thomas beatitude cluster
+1. Thomas 100
+2. Thomas 107
+3. Thomas beatitude cluster
 
 This is an evidence-priority order, not a historical-authenticity ranking.
 
