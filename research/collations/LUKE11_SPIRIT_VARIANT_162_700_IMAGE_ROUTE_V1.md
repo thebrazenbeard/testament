@@ -1,6 +1,6 @@
 # Luke 11:2 Spirit Petition — 162 / 700 Image Route V1
 
-Status: ROUTE_BOUND / 162_EXACT_SIDE_RESOLVED / 700_FACSIMILE_INDEPENDENTLY_CROSS_BOUND / DIRECT_PIXEL_COLLATION_PENDING
+Status: ROUTE_BOUND / 162_EXACT_SIDE_RESOLVED / 700_HOSKIER_PLATE_IDENTITY_RESOLVED / DIRECT_GLYPH_COLLATION_PENDING
 
 Scope:
 - WIT-162-BARB-GR-449
@@ -63,31 +63,42 @@ Digitized-route control:
 - Wikimedia Commons hosts the 300-page public-domain PDF and per-page rendered previews;
 - front-matter scan analysis isolates the photographic facsimile leaves before the Introduction, but Testament does not promote a derivative scan-page guess into a direct manuscript reading.
 
-### Hoskier 1890 scan-topology narrowing
+### Hoskier 1890 scan-topology correction and Plate-X pixel cross-bind
 
-The Internet Archive IIIF Presentation 3 manifest and OCR annotation service now narrow the two Hoskier facsimile leaves without guessing their identity.
+Tranche 54 correctly narrowed the facsimile neighborhood but misidentified the second candidate leaf. Fresh direct scan-page inspection shows the active candidate pair is **canvas/page 25 and canvas/page 27**, not 27 and 29.
 
-Exact scan structure:
-- canvas `28` contains Hoskier's printed NOTE identifying the two reproductions as:
-  - folio 180r, Luke 9:48-54;
-  - folio 184v, Luke 11:2-8;
-- canvas `30` is the printed start of the Introduction;
-- canvas `27` has only sparse/gibberish OCR consistent with a photographic manuscript plate;
-- canvas `29` has an empty OCR annotation page;
-- because Hoskier states that the two reproductions precede the Introduction, canvases 27 and 29 are the two isolated facsimile candidates surrounding the note and immediately preceding canvas 30.
+Fresh Internet Archive page evidence:
+- page `25`: low-contrast manuscript-like plate; sparse OCR/noise; JPEG SHA-256 `2490021241b80ded626217926a0d65ba723b38464369346af5b770345931b4b9`;
+- page `26`: effectively blank intervening leaf; JPEG SHA-256 `24b9b17ac765facc01228b1216d100832a989f1358179feb0517ef6680503874`;
+- page `27`: high-contrast manuscript plate; JPEG SHA-256 `1a0778f919464c3f9d5cad3d300375589fdcaa81d251b9deed70583f93672ef6`;
+- page `28`: Hoskier's printed NOTE naming the two reproductions as folio 180r / Luke 9:48-54 and folio 184v / Luke 11:2-8;
+- page `29`: effectively blank/verso-like leaf with no OCR text; JPEG SHA-256 `5a32d445bc7f7724c4a9bec19ceed97509b7ad33062969a2f13a005d93f9be56`;
+- page `30`: printed start of the Introduction.
 
-Exact Internet Archive image services:
-- candidate canvas 27 -> JP2 leaf `fullaccountcolla00hoskrich_0028.jp2`;
-- printed note canvas 28 -> JP2 leaf `fullaccountcolla00hoskrich_0029.jp2`;
-- candidate canvas 29 -> JP2 leaf `fullaccountcolla00hoskrich_0030.jp2`;
-- Introduction canvas 30 -> JP2 leaf `fullaccountcolla00hoskrich_0031.jp2`.
+This supersedes the tranche-54 topology statement that treated pages 27 and 29 as the two facsimile candidates.
 
-Control:
-- current evidence does **not** distinguish which of candidate canvases 27 and 29 is folio 180r versus folio 184v;
-- plate order is therefore not inferred from Hoskier's prose order;
-- neither candidate is promoted to the Luke 11:2 plate until visual or independent page-specific evidence identifies it.
+Kenyon's independently identified Plate X was then used as an image-identity cross-bind:
+- Internet Archive scan page `175` of Kenyon's *Handbook to the Textual Criticism of the New Testament* contains Plate X;
+- its OCR caption explicitly identifies `CODEX 700 (Brit. Mus. Egerton MS. 2610)` and states that the shown page contains Luke xi. 2-8;
+- Kenyon page-175 JPEG SHA-256: `6a72f3cc3071c64a8b5df31ddb27a809f74d84e6efb159b9846925107ca83707`.
 
-This turns the Hoskier route from a 300-page volume into a two-image candidate set while preserving the remaining identity uncertainty.
+A high-pass, contrast-normalized image registration was run against Hoskier pages 25, 27, and 29 after scan-margin normalization. Best normalized correlations to Kenyon Plate X were:
+- Hoskier 27: **0.3124**, best under 180-degree rotation;
+- Hoskier 25: **0.0889**;
+- Hoskier 29: **0.0430**.
+
+The >3.5x separation over the other actual manuscript candidate, together with Kenyon's independent Luke 11:2-8 caption and Hoskier's exact two-reproduction note, resolves the Hoskier assignment:
+- **page/canvas 27 = folio 184v = Luke 11:2-8**;
+- **page/canvas 25 = folio 180r = Luke 9:48-54**.
+
+Evidence boundary:
+- this is direct pixel-level image identity/registration evidence;
+- it is **not** a fresh diplomatic reading of the Greek letters;
+- no Spirit-petition glyph sequence is promoted from image registration alone;
+- the remaining debt is direct line/glyph collation on the now-resolved folio-184v plate, plus the separate GA 162 image side.
+
+Durable methodological detail is recorded in:
+`research/collations/CODEX700_HOSKIER_KENYON_PIXEL_CROSSBIND_V1.md`.
 
 ### Kenyon 1912 independent facsimile cross-bind
 
@@ -129,8 +140,9 @@ Established:
 - public image/facsimile routes exist for both witnesses.
 
 Not established in this runtime:
-- direct pixel readback of either witness at Luke 11:2;
-- a fresh diplomatic transcription from either manuscript image;
+- a fresh diplomatic Greek transcription from either manuscript image;
+- direct line/glyph collation of the Spirit-petition wording on Hoskier page 27;
+- direct manuscript-image collation of GA 162 at Luke 11:2;
 - originality of the Spirit petition;
 - identity of this family with Marcion's indirectly attested Spirit request.
 
@@ -142,7 +154,8 @@ The debt is narrower:
 - 162 exact side is resolved to 151v / p0314;
 - 700 exact folio/side is resolved;
 - 700 facsimile identity is independently cross-bound through Hoskier 1890 and Kenyon 1912;
-- Hoskier's 300-page scan is narrowed to candidate facsimile canvases 27 and 29, with the Luke-11 plate assignment still unresolved;
-- actual manuscript-pixel collation remains pending.
+- Hoskier's Luke 11:2-8 reproduction is resolved to page/canvas 27 by pixel registration against independently identified Kenyon Plate X;
+- Hoskier page/canvas 25 is thereby assigned to folio 180r / Luke 9:48-54;
+- direct Greek line/glyph collation remains pending.
 
 No facsimile caption, OCR layer, or published transcription is promoted into direct visual manuscript readback.
