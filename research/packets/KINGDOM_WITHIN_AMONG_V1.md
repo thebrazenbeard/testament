@@ -167,6 +167,76 @@ This is important because much of the modern "among" case is contextual and theo
 The reverse guard also holds:
 the lexical center of "within" does not prove an individualized interior kingdom or Testament's agency thesis.
 
+### Versional and patristic reception — Luke 17:21
+
+Machine-readable control:
+- `sources/VERSIONAL_PATRISTIC_LEDGER_BOOK_III.yaml`
+- `VP-LUKE17-21-LATIN-SYRIAC-RECEPTION`
+- `PAT-TERTULLIAN-LUKE17-21-POWER`
+
+Ancient reception does not collapse to one interpretation.
+
+#### Latin
+
+The Vulgate has `intra vos`.
+
+Ramelli additionally reports the Vetus Latina tradition and Bezae's Latin column with the same `intra vos` wording.
+
+That is strong evidence for ancient **interior / within-bounds reception** of the Greek.
+
+It is translation history, not proof that Luke's Greek must be rendered "inside you."
+
+#### Syriac
+
+The Old Syriac evidence is especially important because it resists vote-counting.
+
+Ramelli describes the Sinaitic and Curetonian wording as capable of:
+- within / inside;
+- between / among.
+
+Older critical commentary can render the Sinaitic Syriac evidence as "among."
+
+Therefore Testament records the Old Syriac stream as **ambiguous**, not as an interior vote.
+
+Ramelli argues that the later Peshitta and Harklean forms are more explicit:
+- Peshitta = inside/interior;
+- Harklean = inside/interior.
+
+She further contrasts those expressions with Harklean renderings of Luke's `en mesō + genitive` phrases, where explicit middle/among language is used.
+
+That is a substantive versional argument for distinguishing `entos` from ordinary "among" phrasing.
+
+It remains a scholarly argument rather than direct Testament collation of every Syriac witness.
+
+#### Tertullian
+
+Tertullian's *Against Marcion* IV.35 gives an ancient third-way interpretation.
+
+He explains "within you" approximately as:
+- in your hand;
+- within your power;
+- accessible through hearing and doing God's commandment.
+
+That matters because it demonstrates that the modern "within your reach/power" family is not an ad hoc twentieth-century invention.
+
+It also prevents a false binary:
+- interior language did not require ancient readers to mean "inside the individual psyche";
+- "among you" is not the only alternative to a psychological interior reading.
+
+### Reception-level result
+
+The reception evidence currently says:
+
+- ancient Latin strongly preserves interior wording;
+- Old Syriac is genuinely ambiguous;
+- Peshitta/Harklean are reported as more explicitly interior;
+- Tertullian preserves an ancient power/reach interpretation;
+- modern commentary often prefers among/in-your-midst for contextual reasons.
+
+Therefore reception history **broadens and structures the dispute**.
+
+It does not settle the Greek.
+
 ### Project-bias guard
 
 This cluster is unusually vulnerable to confirmation bias because `The Testament of the Spark` has a strong authored interest in interiorized divine agency.
