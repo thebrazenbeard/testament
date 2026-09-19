@@ -231,6 +231,11 @@ variants:
           report: "P.Oxy. 1782 directly preserves Didache 1.3d-4a; H preserves the complete section. Layton places the papyrus/Apostolic-Constitutions line in a different transmission branch from H."
       guard: "A physical Didache witness establishes the Didache text's transmission, not independent historical attestation of Yeshua's wording."
 
+    early_reception_control:
+      ledger_record: ECR-DIDACHE-1-2-3-DOUBLE-ENEMY-LOVE
+      state: DIDACHE_ENEMY_LOVE_COMPLEX_BOUND
+      guard: "Didache 1.3-4 is early noncanonical reception/parallel evidence, not a canonical Gospel manuscript or automatic independent historical witness."
+
     source_relation:
       Matthew_Luke:
         state: DISPUTED
@@ -450,6 +455,13 @@ variants:
       Thomas_internal:
         state: TRANSMISSION_VARIATION_ESTABLISHED_FOR_LOGION_2
         guard: "Greek/Coptic divergence in Thomas 2 is evidence of textual transmission, not permission to select whichever form better fits a reconstruction."
+
+    early_reception_control:
+      ledger_record: PAT-CLEMENT-GHEB-SEEK-FIND
+      state: CLEMENT_GHEB_CHAIN_TESTIMONY_BOUND
+      significance: "Clement preserves an explicitly attributed Gospel-of-the-Hebrews wonder/reign/rest saying and elsewhere the fuller seek/find/marvel/reign/rest chain closely parallel to Greek Thomas 2."
+      attribution_guard: "The fuller Stromata 5.14 chain is not described as freshly re-attributed by Clement in that immediate sentence; the link to the explicitly attributed Stromata 2.9 saying remains scholarship-controlled."
+      lost_text_guard: "Clement's testimony does not physically recover the Gospel according to the Hebrews."
 
     historical_ceiling:
       strong:
@@ -1367,6 +1379,12 @@ variants:
       chronology_guard: "Paul's letter predates the extant written Gospels, but P46 is a later physical witness to Paul's text."
       wording_guard: "Paul is evidence that an authoritative divorce command attributed to the Lord circulated early; he is not a manuscript witness to exact Mark/Matthew/Luke wording."
 
+    early_reception_control:
+      ledger_record: ECR-HERMAS-MANDATE4-DIVORCE
+      state: HERMAS_PASTORAL_APPLICATION_BOUND
+      significance: "Hermas Mandate 4 shows an early Christian separation/repentance/remarriage application trajectory after the Pauline Lord-command evidence."
+      guard: "Hermas is reception evidence, not a Gospel quotation and not a witness to exact historical wording."
+
     historical_ceiling:
       strong:
         - "A restrictive divorce command associated with the Lord circulated by the time of 1 Corinthians."
@@ -1474,6 +1492,12 @@ variants:
         form_note: "Relocates the double command into the lawyer/Good Samaritan sequence."
       dependence_state: MARKAN_WITH_REDACTION_AND_LUKAN_RELOCATION_QUESTIONS
       guard: "Different narrative placements do not create independent historical scenes by simple counting."
+
+    early_reception_control:
+      ledger_record: ECR-DIDACHE-1-2-3-DOUBLE-ENEMY-LOVE
+      state: DIDACHE_DOUBLE_LOVE_PLUS_ENEMY_LOVE_COMPLEX_BOUND
+      significance: "Didache 1.2 places love of God and neighbor together and immediately develops enemy-love/nonretaliation material in 1.3-4."
+      guard: "Didache reception does not turn the combination into a uniquely Christian invention or settle dependence direction."
 
     historical_ceiling:
       strong:
