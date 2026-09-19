@@ -146,7 +146,8 @@ Separate literary-history judgments do not turn them into two independent extern
 References:
 - Simon Gathercole, *The Gospel of Thomas: Introduction and Commentary* (2014).
 - Stephen J. Patterson, *The Gospel of Thomas and Christian Origins* (2013).
-- Clement of Alexandria, *Stromateis* 2.9.45 and 5.14.96.
+- Clement of Alexandria, *Stromata* 2.9.45.5 and 5.14.96.3; direct Greek controls.
+- `research/collations/CLEMENT_GHEB_THOMAS2_SEEK_FIND_V1.md`.
 
 ### Relationship to Matthew and Luke
 
@@ -182,40 +183,46 @@ Neither can be solved merely by counting similar words.
 
 ## Patristic testimony — Clement and the Gospel according to the Hebrews
 
-Machine-readable control:
-- `PAT-CLEMENT-GHEB-SEEK-FIND`
+Machine-readable controls:
+- `PAT-CLEMENT-GHEB-SEEK-FIND`;
+- `research/collations/CLEMENT_GHEB_THOMAS2_SEEK_FIND_V1.md`.
 
-Clement of Alexandria supplies an important external control on the seek/find chain.
+Clement of Alexandria supplies an important direct-Greek external control on the seek/find chain.
 
-In *Stromata* 2.9.45.5 Clement explicitly attributes to the Gospel according to the Hebrews a compact:
+In *Stromata* 2.9.45.5 Clement explicitly writes:
+
+`ᾗ κἀν τῷ καθ' Ἑβραίους εὐαγγελίῳ ὁ θαυμάσας βασιλεύσει γέγραπται καὶ ὁ βασιλεύσας ἀναπαήσεται.`
+
+That sentence directly names the Gospel according to the Hebrews and supplies:
 - wonder;
 - reign;
-- rest
+- rest.
 
-sequence.
+In *Stromata* 5.14.96.3 Clement gives the fuller direct Greek chain:
 
-In *Stromata* 5.14.96.3 he gives the fuller:
+`οὐ παύσεται ὁ ζητῶν, ἕως ἂν εὕρῃ· εὑρὼν δὲ θαμβηθήσεται, θαμβηθεὶς δὲ βασιλεύσει, βασιλεύσας δὲ ἐπαναπαήσεται.`
+
+That supplies:
 - seek;
 - find;
-- marvel;
+- marvel/astonishment;
 - reign;
-- rest
+- rest.
 
-chain closely parallel to the Greek Thomas 2 form preserved/reconstructed in P.Oxy. 654.
+The fuller chain closely parallels the published/reconstructed Greek Thomas 2 sequence in P.Oxy. 654.
 
-The attribution boundary matters.
+The attribution boundary is strict:
+- *Stromata* 2.9 directly names the Gospel according to the Hebrews;
+- *Stromata* 5.14 does **not** freshly repeat that source name in the immediate sentence;
+- connecting the fuller chain to the earlier explicitly attributed lost-gospel saying is contextual/scholarly inference rather than a second explicit attribution.
 
-Testament does **not** say that Clement freshly names the Gospel according to the Hebrews in the immediate sentence containing the later fuller chain.
+This is strong evidence that a closely related seek/find/wonder/reign/rest tradition circulated beyond the surviving Gospel of Thomas witness tradition.
 
-Instead it records:
-- explicit Gospel-of-the-Hebrews attribution for the shorter related quotation;
-- a fuller Clementine chain elsewhere;
-- scholarly association between the two.
-
-This is strong evidence that the Thomas 2 chain circulated beyond the surviving Gospel of Thomas witness tradition.
-
-It is still indirect testimony:
-the Gospel according to the Hebrews is not physically recovered by Clement's quotation.
+It remains indirect evidence for the lost Gospel according to the Hebrews:
+- Clement's text survives;
+- the lost gospel itself is not physically recovered;
+- P.Oxy. 654 remains fragmentary and its restored portions remain reconstruction;
+- close sequence agreement does not establish literary direction.
 
 
 ## Historical ceiling
