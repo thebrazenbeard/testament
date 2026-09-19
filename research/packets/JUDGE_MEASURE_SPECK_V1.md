@@ -97,6 +97,73 @@ Reference:
 - P.Oxy. I 1 manuscript scope: NASSCAL.
 - Published Greek/Coptic comparison: GospelThomas.com / Attridge and Layton translations.
 
+### Redactional-fingerprint review — Thomas 26
+
+The direct Greek evidence is stronger than this cluster previously recorded.
+
+P.Oxy. I 1 preserves only the concluding portion of Thomas 26.
+
+Within that surviving Greek ending, Mark Goodacre identifies a thirteen-word verbatim agreement with Luke 6:42; the placement of the infinitive `ekbalein` also aligns with Matthew 7:5.
+
+That matters.
+
+It means the dependence question is not based only on:
+- a Coptic translation;
+- a shared image;
+- a vague thematic resemblance.
+
+There is direct Greek-to-Greek verbal overlap.
+
+### Goodacre's contact argument
+
+Goodacre treats this agreement as part of a larger case that Thomas knew the Synoptic Gospels.
+
+He also identifies Thomas 26 as an example of the "missing middle":
+- Thomas preserves the opening speck/log contrast;
+- Thomas preserves the concluding self-correction / remove-the-speck line;
+- Thomas lacks the intervening Synoptic hypothetical dialogue and "hypocrite" accusation.
+
+That pattern can be explained as abbreviation from a longer Synoptic form.
+
+### Countercontrols
+
+The evidence does not force that direction.
+
+First, the surviving Greek overlap is the memorable **conclusion** of the saying.
+
+Critics of Goodacre's direct-contact argument note that memorable punchlines can remain verbally stable in oral transmission.
+
+Second, the Greek papyrus does **not** preserve the complete Thomas 26.
+
+The opening + missing-middle pattern comes from:
+- complete Coptic Thomas;
+- compared with Matthew/Luke.
+
+It cannot be advertised as a complete Greek manuscript pattern.
+
+Third, other scholarship argues the direction may be reversed:
+the extra Synoptic middle material could represent expansion of a shorter shared saying rather than material Thomas deleted.
+
+### Current local state
+
+**RELATION_DISPUTED.**
+
+Evidence balance:
+
+**DIRECT GREEK VERBATIM AGREEMENT GIVES SYNOPTIC-CONTACT ARGUMENTS REAL WEIGHT / ORAL-STABILITY AND ALTERNATIVE-REDACTION MODELS REMAIN LIVE.**
+
+The safe distinction is:
+
+- direct Greek contact evidence = strong local datum;
+- direct literary dependence = not established;
+- complete Greek Thomas 26 = does not survive;
+- shorter Thomas form = not automatically earlier.
+
+References:
+- Mark Goodacre, *Thomas and the Gospels* (2012).
+- Mark Goodacre, "The Missing Middle in Thomas Synoptic Comparisons" (2007).
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics" (2023), DOI 10.1093/oxfordhb/9780190887452.013.27.
+
 ### Cluster control
 
 Thomas 26 preserves the speck/log image.
