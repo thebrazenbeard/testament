@@ -341,10 +341,10 @@ records:
         - kindness
         - reciprocal_measure
     claim:
-      state: MATERIAL_CLUSTER_COMPOSITION_EVIDENCE
+      state: MATERIAL_RECEPTION_CLUSTER_COMPOSITION_EVIDENCE
       report: "1 Clement 13.2 preserves an early attributed-Lord chain joining judgment and measure with mercy, forgiveness, doing and giving, while the cited chain does not include the speck/log image."
       significance:
-        - "Shows that judgment/measure reciprocity circulated in an early Christian Lord-saying complex broader than one canonical sermon sequence."
+        - "Shows that 1 Clement attests judgment/measure reciprocity in an attributed-Lord ethical chain broader than the judge/measure/speck grouping."
         - "Provides an early reception control separating the judge/measure chain from the speck/log image in this witness."
     evidence:
       - source: New_Advent_1_Clement_13
