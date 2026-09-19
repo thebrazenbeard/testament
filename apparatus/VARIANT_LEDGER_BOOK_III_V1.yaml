@@ -44,7 +44,13 @@ variants:
           state: SIMPLE_FATHER_VISIBLE_IN_OFFICIAL_ELECTRONIC_TRANSCRIPTION
           method_state: OFFICIAL_SCHOLARLY_TRANSCRIPTION_DIRECTLY_READ_IMAGE_NOT_AUTOPTIC
           guard: "The project transcription is image-checked scholarly data; Testament has not directly inspected the Luke 11:2 manuscript pixels."
-        witness_binding: SCHOLARLY_APPARATUS_PLUS_SINAITICUS_DIRECT_ELECTRONIC_TRANSCRIPTION_NOT_AUTOPTIC
+        origen_direct_patristic_control:
+          ledger_record: PAT-ORIGEN-ON-PRAYER-LUKE11
+          control: research/collations/LUKE11_ORIGEN_ON_PRAYER_DIRECT_TEXT_V1.md
+          state: DIRECT_PRIMARY_GREEK_SIMPLE_FATHER_BOUND
+          feature: "Origen's quoted Luke form begins πάτερ, and his later discussion explicitly identifies Luke's instruction as λέγετε· πάτερ."
+          guard: "Patristic textual testimony, not a physical Gospel manuscript or automatic autograph reading."
+        witness_binding: SCHOLARLY_APPARATUS_PLUS_SINAITICUS_DIRECT_ELECTRONIC_TRANSCRIPTION_PLUS_DIRECT_ORIGEN_PATRISTIC_TEXT_NOT_AUTOPTIC
         state: NAMED_WITNESS_BINDING_ACTIVE_HARMONIZATION_TOWARD_MATTHEW_PLAUSIBLE
 
       - id: LUKE11-2-WILL-PETITION
@@ -69,7 +75,13 @@ variants:
           state: EXPANDED_WILL_PETITION_VISIBLE
           method_state: OFFICIAL_SCHOLARLY_TRANSCRIPTION_DIRECTLY_READ_IMAGE_NOT_AUTOPTIC
           guard: "Official electronic transcription is linked to and checked against manuscript images; Testament has not directly inspected the Luke 11:2 manuscript pixels."
-        witness_binding: SCHOLARLY_TEXTUAL_NOTE_PLUS_DIRECT_ELECTRONIC_TRANSCRIPTION_NOT_AUTOPTIC
+        origen_direct_patristic_control:
+          ledger_record: PAT-ORIGEN-ON-PRAYER-LUKE11
+          control: research/collations/LUKE11_ORIGEN_ON_PRAYER_DIRECT_TEXT_V1.md
+          state: DIRECT_PRIMARY_GREEK_WILL_PETITION_OMISSION_BOUND
+          feature: "Origen explicitly says Luke passes over the will petition after the kingdom petition and proceeds to daily bread."
+          guard: "Origen's shorter citation is patristic textual testimony, not proof that no earlier Lukan form ever contained the petition."
+        witness_binding: SCHOLARLY_TEXTUAL_NOTE_PLUS_DIRECT_ELECTRONIC_TRANSCRIPTION_PLUS_DIRECT_ORIGEN_PATRISTIC_TEXT_NOT_AUTOPTIC
         state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE
 
       - id: LUKE11-2-HOLY-SPIRIT-PETITION
@@ -178,7 +190,12 @@ variants:
           shorter:
             - VP-LUKE11-4-SHORTER-VERSIONAL-STREAMS
             - PAT-ORIGEN-ON-PRAYER-LUKE11
-        versional_guard: "Old Latin/Syriac/Vulgate/Sahidic and patristic evidence are not counted as physical Greek manuscripts and may reflect translation or harmonization history."
+        origen_direct_patristic_control:
+          control: research/collations/LUKE11_ORIGEN_ON_PRAYER_DIRECT_TEXT_V1.md
+          state: DIRECT_PRIMARY_GREEK_DELIVERANCE_OMISSION_BOUND
+          feature: "Origen's quoted Luke ends at the testing petition, and De oratione 29.1 explicitly says the deliverance clause is omitted/silent in Luke."
+          guard: "Direct patristic citation supports textual history without becoming a physical Greek Gospel witness or automatic autograph reading."
+        versional_guard: "Old Latin/Syriac/Vulgate/Sahidic and patristic evidence are not counted as physical Greek manuscripts and may reflect translation, citation, harmonization, or exemplar history."
         witness_binding: DIRECT_ELECTRONIC_TRANSCRIPTION_PLUS_DIRECT_OFFICIAL_LOCUS_XML_APPARATUS
         state: HARMONIZATION_TOWARD_MATTHEW_PLAUSIBLE_SINAITICUS_PROJECT_CORRECTION_LAYER_RESOLVED_FINER_CA_CHRONOLOGY_UNCLAIMED
 
