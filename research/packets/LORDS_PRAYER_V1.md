@@ -104,6 +104,29 @@ Its visible electronic transcription directly confirms:
 - Sinaiticus includes the Matthean-style will petition in Luke 11:2;
 - the plain extracted transcription of Luke 11:4 ends after the testing petition, without visibly displaying the deliverance phrase.
 
+### Direct Sinaiticus Luke 11:2 image readback
+
+Image control:
+- `research/collations/SINAITICUS_LUKE11_2_DIRECT_IMAGE_READBACK_V1.md`
+
+A public-domain Wikimedia Commons crop explicitly identified as Codex Sinaiticus Luke 11:2 now renders directly in the current research surface.
+
+Direct visual inspection confirms readable majuscule text corresponding to:
+- simple `Father`;
+- hallowed-name petition;
+- kingdom petition;
+- the will-petition sequence;
+- continuation into the heaven/earth clause.
+
+This visually agrees with the already bound official `q78f5v` column-4 transcription.
+
+Provenance guard:
+- this is direct pixel inspection of an independently hosted historical scan/crop;
+- it is **not** claimed as the Codex Sinaiticus Project's own current institutional photograph;
+- correction marks visible in the crop are not assigned to hands or chronology from the small image.
+
+Therefore `LUKE11_2_SINAITICUS_DIRECT_IMAGE_READBACK` is locally satisfied, subject to exact-head hostile review, while the official transcription, official XML apparatus, and independent image crop remain distinct evidence layers.
+
 That direct readback forced a correction to Testament's earlier hand-state claim.
 
 The project had previously said:
