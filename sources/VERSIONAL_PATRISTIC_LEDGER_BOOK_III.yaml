@@ -348,29 +348,38 @@ records:
     passages:
       - Clement_Stromata_2_9_45_5
       - Clement_Stromata_5_14_96_3
-    kind: PATRISTIC_TESTIMONY_TO_LOST_NONCANONICAL_GOSPEL_TRADITION
+    kind: DIRECT_PATRISTIC_GREEK_TESTIMONY_TO_LOST_NONCANONICAL_GOSPEL_TRADITION
     author: Clement_of_Alexandria
     related_variant: VAR-ASK-SEEK-KNOCK-THOMAS-2-92
     lost_text: Gospel_according_to_the_Hebrews
+    collation_control: research/collations/CLEMENT_GHEB_THOMAS2_SEEK_FIND_V1.md
     testimony:
       Stromata_2_9_45_5:
-        attribution_state: EXPLICIT_GOSPEL_OF_HEBREWS_ATTRIBUTION
+        attribution_state: DIRECT_GREEK_EXPLICIT_GOSPEL_OF_HEBREWS_ATTRIBUTION
+        direct_text: "ᾗ κἀν τῷ καθ' Ἑβραίους εὐαγγελίῳ ὁ θαυμάσας βασιλεύσει γέγραπται καὶ ὁ βασιλεύσας ἀναπαήσεται"
+        sequence: [wonder, reign, rest]
         report: "Clement explicitly says the Gospel according to the Hebrews contains a wonder -> reign -> rest saying."
       Stromata_5_14_96_3:
-        attribution_state: FULLER_CHAIN_QUOTED_WITHOUT_REPEATED_SOURCE_NAME_IN_IMMEDIATE_CONTEXT
-        report: "Clement gives the fuller seek -> find -> marvel -> reign -> rest chain; scholarship connects it with the earlier explicitly attributed Gospel-of-the-Hebrews saying."
+        attribution_state: DIRECT_GREEK_FULLER_CHAIN_WITHOUT_REPEATED_SOURCE_NAME_IN_IMMEDIATE_CONTEXT
+        direct_text: "οὐ παύσεται ὁ ζητῶν, ἕως ἂν εὕρῃ· εὑρὼν δὲ θαμβηθήσεται, θαμβηθεὶς δὲ βασιλεύσει, βασιλεύσας δὲ ἐπαναπαήσεται"
+        sequence: [seek, find, marvel, reign, rest]
+        report: "Clement gives the fuller chain without freshly repeating the Gospel-of-the-Hebrews source name in the immediate sentence; its relation to the earlier attributed saying remains contextual/scholarship-controlled."
     relation_to_Thomas_2:
-      state: CLOSE_PARALLEL_TO_GREEK_POXY654_CHAIN
-      report: "The chain closely parallels the Greek Thomas 2 progression preserved/reconstructed in P.Oxy. 654."
+      state: CLOSE_RELATED_CHAIN_TO_FRAGMENTARY_GREEK_POXY654_THOMAS2
+      report: "The fuller Clement sequence closely parallels the published/reconstructed Greek Thomas 2 progression in P.Oxy. 654."
+      guard: "P.Oxy. 654 is fragmentary and editorial restoration remains visible; Clement is not a Thomas manuscript."
     evidence:
-      - source: Clement_Stromata_2_9
-        url: "https://ccel.org/ccel/clement_alex/stromata/anf02.vi.iv.ii.ix.html"
-      - source: Text_and_Canon_Institute_Thomas2_GHebrews_comparison
-        url: "https://textandcanon.org/category/canon/apocrypha/"
+      - source: CatholicLibrary_Clement_Stromata_2_9
+        state: DIRECT_PRIMARY_GREEK_TEXT
+      - source: CatholicLibrary_Clement_Stromata_5_14
+        state: DIRECT_PRIMARY_GREEK_TEXT
+      - source: Published_Thomas2_GHebrews_comparison
+        state: SECONDARY_RELATIONSHIP_CONTROL
     guard:
-      - "Clement is surviving testimony; the Gospel according to the Hebrews is not physically recovered by the quotation."
-      - "The fuller Stromata 5.14 chain should not be described as freshly and explicitly re-attributed to the Gospel of the Hebrews in that immediate sentence."
-      - "Close parallelism with Thomas 2 does not by itself establish literary direction."
+      - "Clement is surviving patristic testimony; the Gospel according to the Hebrews is not physically recovered by the quotation."
+      - "The fuller Stromata 5.14 chain is not described as freshly and explicitly re-attributed to the Gospel of the Hebrews in that immediate sentence."
+      - "Close parallelism with Thomas 2 does not by itself establish literary direction, dependence, or one reconstructed historical saying."
+      - "Direct Clement wording is kept distinct by locus rather than normalized into one synthetic quotation."
 
 
 
