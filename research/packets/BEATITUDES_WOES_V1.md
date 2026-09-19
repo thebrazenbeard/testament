@@ -101,6 +101,54 @@ Reference:
 - Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics":
   DOI 10.1093/oxfordhb/9780190887452.013.27
 
+### Redactional-fingerprint review — Thomas 54
+
+Thomas 54 is exceptionally close to Luke 6:20 in one respect:
+both bless the poor without Matthew's "in spirit" qualifier.
+
+But Thomas also has "kingdom of heaven," which resembles Matthew's expression rather than Luke's "kingdom of God."
+
+That mixed form has generated competing explanations.
+
+#### Luke-contact / dependence case
+
+Mark Goodacre uses Thomas 54 as a warning against automatically counting Thomas as independent multiple attestation.
+
+Published source-critical work on the provenance of Thomas 54 has likewise argued that Luke 6:20 may be the direct or indirect source of Thomas's poor beatitude.
+
+The key point is methodological:
+Luke-like brevity is not proof of Thomasine priority.
+
+#### Shared / independent-tradition countercase
+
+John Dominic Crossan has treated Thomas 54 as an independent witness to an early poverty beatitude tradition.
+
+Broader poverty/kingdom language also appears outside this one Gospel comparison, including James 2:5 and reconstructed Q discussions.
+
+That makes a shared or wider tradition historically plausible even if direct/indirect Luke contact remains a serious local hypothesis.
+
+#### Witness ceiling
+
+Thomas 54, 68 and 69 are Coptic-only in the currently bound witness set.
+
+So:
+- exact Greek Thomas wording is unavailable;
+- no Greek redactional fingerprint can decide direction;
+- Thomas 68/69 remain same-work related beatitudes, not extra external source counts.
+
+Current local state:
+
+**RELATION_DISPUTED.**
+
+Evidence balance:
+
+**LUKE CONTACT ARGUMENT LOCALLY WEIGHTY / SHARED OR INDEPENDENT TRADITION COUNTERMODELS REMAIN LIVE.**
+
+References:
+- Mark Goodacre, work on multiple attestation / Thomas 54.
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics" (2023), DOI 10.1093/oxfordhb/9780190887452.013.27.
+- published source-critical study of the provenance of Thomas 54 arguing possible direct/indirect dependence on Luke 6:20.
+
 ### What the witness does and does not prove
 
 Established:
