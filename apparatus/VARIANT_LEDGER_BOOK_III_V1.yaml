@@ -1057,9 +1057,14 @@ variants:
       reception_controls:
         versional:
           ledger_record: VP-LUKE17-21-LATIN-SYRIAC-RECEPTION
-          latin_state: INTERIOR_RECEPTION_INTRA_VOS
-          old_syriac_state: AMBIGUOUS_WITHIN_OR_AMONG
-          peshitta_harklean_state: REPORTED_INTERIOR_RECEPTION
+          collation_control: research/collations/LUKE17_21_VERSIONAL_TEXT_COLLATION_V1.md
+          latin_state: DIRECT_VULGATE_INTRA_VOS_PLUS_OLD_LATIN_REPORTED
+          peshitta_state:
+            state: DIRECT_TEXT_COLLATION_BOUND
+            form: "ܠܓܘ ܡܢܟܘܢ"
+          old_syriac_state: AMBIGUOUS_WITHIN_OR_AMONG_DIRECT_STABLE_ENCODING_PENDING
+          harklean_state: REPORTED_INTERIOR_DIRECT_STABLE_ENCODING_PENDING
+          direct_collation_ceiling: "Direct project text collation currently covers Vulgate and Peshitta only."
         patristic:
           ledger_record: PAT-TERTULLIAN-LUKE17-21-POWER
           state: ANCIENT_WITHIN_REACH_OR_POWER_EXEGESIS
