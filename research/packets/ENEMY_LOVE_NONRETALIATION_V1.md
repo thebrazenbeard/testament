@@ -129,6 +129,31 @@ Reference:
 - David Gill, "Socrates and Jesus on Non-Retaliation and Love of Enemies":
   https://doi.org/10.1017/S0360966900025147
 
+## Early Christian reception — Didache 1.3–4
+
+Machine-readable control:
+- `ECR-DIDACHE-1-2-3-DOUBLE-ENEMY-LOVE`
+
+Didache 1.3–4 preserves an early noncanonical ethical complex materially related to the Synoptic enemy-love/nonretaliation traditions:
+- blessing those who curse;
+- prayer for enemies/persecutors;
+- love for those who hate;
+- turning the other cheek;
+- the forced-mile saying;
+- cloak/garment material.
+
+This is valuable transmission evidence because several sayings appear together in a noncanonical early Christian work.
+
+It is not a license to reconstruct one historical mega-sermon.
+
+The Didache relation to Matthew/Luke remains a dependence problem:
+- direct literary use;
+- shared catechetical tradition;
+- other transmitted Jesus tradition
+
+remain analytically distinct possibilities.
+
+
 ## Historical ceiling
 
 Strong at tradition level:
