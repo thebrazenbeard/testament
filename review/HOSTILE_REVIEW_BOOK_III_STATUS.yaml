@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v16
+schema_version: testament.hostile_review_book_iii.v17
 overall_status: ACTIVE
 complete: false
 
@@ -168,6 +168,17 @@ tranche_16:
   repaired_findings:
     - HR-BIII-009_THOMAS55_CROSS_DEPENDENCE_STATE_OMITTED
 
+
+tranche_17:
+  original_target: 73d0ea301031965912d2eb9f4d08b55151755561
+  repair_target: a4a1e3c7d40ae58cf6531aa9211891fa44aa22de
+  review_report_commit: 53d875613689ecb998c3dc776ca560cf6317e99d
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE17_20260918.md
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-BIII-010..HR-BIII-010
+  repaired_findings:
+    - HR-BIII-010_THOMAS65_66_DEPENDENCE_STATE_VOCABULARY_DRIFT
+
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
   - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
@@ -209,7 +220,7 @@ next_scope:
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_17
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_18
 
 invariants:
   - "Tranche PASS is exact-head-bound."
