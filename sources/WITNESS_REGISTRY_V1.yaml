@@ -625,9 +625,17 @@ witnesses:
         image_control:
           page_49:
             source: Wikimedia_Commons_NHC_II_49
+            source_url: "https://commons.wikimedia.org/wiki/File:Gospel_of_Thomas_-_Nag_Hammadi_II-49.jpg"
             dimensions: "572 x 1041"
-            state: PUBLIC_IMAGE_IDENTIFIED_DIRECT_VISUAL_READBACK_PENDING
-            guard: "The file is catalogued and public, but the current direct image channel failed to render page 49 for Testament inspection."
+            file_size_reported: "143 KB"
+            wikimedia_sha1: "300bec3dcf90b64f249d022d7dc6356925693e0a"
+            state: PUBLIC_IMAGE_ROUTE_RECONFIRMED_DIRECT_VISUAL_READBACK_PENDING
+            access_revalidation:
+              checked: "2026-09-19"
+              wikimedia: "Exact page-49 file page resolves with original-image metadata and checksum."
+              independent_index: "Gospels.net manuscript index independently lists online NHC II pages 32-51."
+              runtime_result: "Current research tools resolve the image metadata/routes but still fail to deliver renderable page-49 pixels for direct inspection."
+            guard: "Route/metadata confirmation is not autoptic image readback. No page-49 terminal-line transcription or physical observation is claimed from this pass."
           page_50:
             source: Wikimedia_Commons_NHC_II_50
             dimensions: "575 x 1042"
