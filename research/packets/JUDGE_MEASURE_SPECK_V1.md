@@ -233,9 +233,9 @@ in one compact chain.
 The cited 1 Clement chain does **not** include the speck/log image.
 
 That gives Book III a useful early reception control:
-- judge + measure reciprocity can circulate together in a broader ethical chain;
-- the speck/log image is not inseparable from that chain in every early Christian witness;
-- the evidence therefore cuts against reconstructing the whole Matthean/Lukan judge-measure-speck complex as automatically one fixed original speech unit.
+- 1 Clement attests judge + measure reciprocity together in a broader ethical chain;
+- the speck/log image is absent from this particular cited chain;
+- the evidence weakens any claim that the full judge/measure/speck complex is demonstrably fixed across all early reception witnesses; it does not by itself reconstruct an original speech unit.
 
 It does **not** establish:
 - direct dependence on Matthew;
