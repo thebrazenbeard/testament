@@ -97,6 +97,33 @@ Reference:
 - P.Oxy. I 1 manuscript scope: NASSCAL.
 - Published Greek/Coptic comparison: GospelThomas.com / Attridge and Layton translations.
 
+### Critical-edition line collation — Thomas 26
+
+Dedicated control:
+- `research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md`
+
+The direct Greek scope is now line-bound:
+
+- P.Oxy. 1.1–4.
+- normalized surviving conclusion:
+  `kai tote diablepseis ekbalein to karphos to en to ophthalmō tou adelphou sou`.
+
+This is the clause used in the direct Greek Synoptic comparison.
+
+It supports:
+- the substantial Luke 6:42 verbal-overlap datum;
+- the Matthew-like placement of `ekbalein`.
+
+It does **not** supply:
+- the opening beam/speck setup;
+- the Synoptic "hypocrite" middle;
+- a complete Greek Thomas 26.
+
+Those parts remain dependent on the complete Coptic Thomas form plus comparison.
+
+The remaining image/autoptic debt is separate.
+The critical-edition line-collation debt for Thomas 26 is closed.
+
 ### Redactional-fingerprint review — Thomas 26
 
 The direct Greek evidence is stronger than this cluster previously recorded.
