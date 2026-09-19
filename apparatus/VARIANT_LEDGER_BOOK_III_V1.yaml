@@ -1010,19 +1010,52 @@ variants:
       guard: "Do not infer extant Greek Thomas 113 or use Thomas 113 to settle Luke's Greek semantics."
 
     dependence_control:
-      Luke_vs_Thomas_3_113:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      cluster_state:
         state: RELATION_DISPUTED
-        evidence_balance: RELATED_KINGDOM_TRADITIONS_DIRECTION_UNRESOLVED
-        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
-        scholarship:
-          - author: Colin_H_Roberts
-            title: "The Kingdom of Heaven (Lk. XVII.21)"
-            doi: "10.1017/S0017816000019313"
-          - author: Melissa_Harl_Sellew
-            title: "The Gospel of Thomas and the Synoptics"
-            year: 2023
+        evidence_balance: RELATED_KINGDOM_TRADITIONS_WITH_NONIDENTICAL_LOCAL_HISTORIES
+        guard: "Thomas 3 and 113 are related within Thomas but must not share one undifferentiated Luke-dependence judgment."
+      Thomas_3_vs_Luke_17_21:
+        state: RELATION_DISPUTED
+        evidence_balance: DIRECT_GREEK_ENTOS_OVERLAP_STRONG_CONTACT_ARGUMENT_WITH_LACUNA_AND_THOMASINE_EXPANSION
+        direct_greek_evidence:
+          witness: WIT-POXY-654-GOSPEL-THOMAS
+          report: "Published P.Oxy. 654 reconstruction preserves the unusual entos-hymon kingdom-location overlap with Luke 17:21 inside a heavily lacunose saying."
+          restoration_guard: "The Greek divine title 'kingdom of God' is partly reconstructed; do not call the entire Luke-like phrase continuously extant papyrus ink."
+        contact_argument:
+          scholars:
+            - Mark_Goodacre
+            - M_David_Litwa_summary_of_Goodacre
+          report: "Goodacre's dependence case treats the Greek Thomas 3 / Luke 17:21 entos-hymon overlap as a striking and unusual direct Greek contact datum."
+        counterarguments:
+          - kind: THOMASINE_EXPANSION
+            report: "Thomas 3 adds outside-you language, false-location contrasts and self-knowledge/children-of-the-Father material not present in Luke 17:21."
+          - kind: INTRA_THOMAS_TRANSMISSION
+            report: "Greek and Coptic Thomas 3 differ in the second false location (under the earth versus in the sea), so the saying itself was not textually flat."
+          - kind: COMMON_TRADITION_MODEL
+            scholar: Stephen_J_Patterson
+            report: "Patterson treats Thomas 3 as a philosophically/theologically recast form related to a common reign-of-God tradition also reflected in Thomas 113 and Luke 17:20-21."
+          - kind: COMPARATIVE_METHOD
+            scholar: Melissa_Harl_Sellew
             doi: "10.1093/oxfordhb/9780190887452.013.27"
-        guard: "Thomas may illuminate reception/development of kingdom-location sayings but does not adjudicate Luke's exact lexical force."
+        adjudication: "The direct Greek entos-hymon overlap gives Synoptic/Lukan contact arguments meaningful local weight, but restoration boundaries and substantial Thomasine development prevent direct dependence from being established."
+      Thomas_113_vs_Luke_17_20_21:
+        state: RELATION_DISPUTED
+        evidence_balance: COMMON_TRADITION_ARGUMENT_SUBSTANTIAL_NO_GREEK_THOMAS_WITNESS
+        witness_limit:
+          witness: WIT-NHC-II-GOSPEL-THOMAS
+          greek_witness: NONE_SURVIVING_CURRENTLY_BOUND
+          guard: "Literary-direction claims cannot rely on direct Greek Thomas 113 evidence because none survives."
+        common_tradition_positions:
+          - scholar: Stephen_J_Patterson
+            report: "Patterson treats Thomas 113 and Luke 17:20-21 as witnesses to a common present-reign tradition, with Thomas 3 as a later Thomasine theological recasting."
+          - source: Older_Thomas_source_criticism
+            report: "Older scholarship has argued that Thomas 113 reflects a pre-Lukan/shared tradition rather than direct dependence on Luke."
+        dependence_countermodel:
+          state: LUKE_OR_SYNOPTIC_INFLUENCE_REMAINS_POSSIBLE
+          guard: "Conceptual and verbal proximity to Luke remains relevant, but no direct Greek Thomas 113 witness exists to support a diagnostic wording argument."
+        adjudication: "Common-tradition models have substantial local support, but direct literary direction remains unresolved."
+      guard: "Neither Thomas 3 nor Thomas 113 may be used to adjudicate Luke's lexical force or Testament's authored kingdom-within thesis."
 
     project_bias_guard:
       risk: HIGH
