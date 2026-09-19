@@ -125,6 +125,71 @@ The current count is:
 - two related internal Thomas forms;
 - one surviving physical Coptic witness for both.
 
+### Per-logion dependence review
+
+The Thomas/Synoptic dependence question is not identical for Thomas 55 and Thomas 101.
+
+#### Thomas 55
+
+Thomas 55 combines:
+- family hatred language resembling Luke 14:26;
+- cross-bearing language shared with the Matthew/Luke discipleship tradition;
+- worthiness/disciple language whose exact distribution differs across Matthew, Luke and Thomas.
+
+Two serious models remain live.
+
+**Relative autonomy / common tradition**
+
+Stephen Patterson argues that the case for relative independence is comparatively strong for Thomas 55 and uses the saying as potentially useful evidence for reconstructing the family-renunciation tradition shared by Matthew and Luke.
+
+That model is strengthened by the fact that Thomas's family list is not simply identical to either canonical form.
+
+**Synoptic redaction / conflation**
+
+Christopher Tuckett has included Thomas 55 among local cases where Synoptic redactional influence may be detectable.
+
+J. P. Meier likewise treats the mixed family/cross/worthiness wording as potentially conflated from Matthean and Lukan forms.
+
+That argument is serious because the saying combines material whose wording and placement differ across the Synoptics.
+
+Current Testament state:
+
+**RELATION_DISPUTED.**
+
+The evidence is not accurately summarized by either:
+- "Thomas 55 is independent";
+- "Thomas 55 simply copied Luke."
+
+#### Thomas 101
+
+Thomas 101 must be handled separately.
+
+Patterson explicitly distinguishes it from 55 and allows that secondary Matthean influence may need to be considered for Thomas 101.
+
+The extant Coptic text is also lacunose.
+
+That means its relation to Matthew cannot be assigned with the same confidence one might attempt for an intact saying.
+
+Current Testament state:
+
+**RELATION_DISPUTED / SECONDARY MATTHEAN INFLUENCE PLAUSIBLE / TEXT LACUNOSE.**
+
+#### Same work remains one source
+
+Separate dependence analysis does not make Thomas 55 and 101 independent historical witnesses.
+
+They remain:
+- two related sayings;
+- in one Gospel of Thomas;
+- in one surviving complete physical codex;
+- with potentially different compositional histories.
+
+References:
+- Stephen J. Patterson, *The Gospel of Thomas and Christian Origins* (Brill, 2013).
+- Stephen J. Patterson, "Twice More—Thomas and the Synoptics" (2014), DOI 10.1177/0142064X14521947.
+- Christopher M. Tuckett, "Thomas and the Synoptics," *Novum Testamentum* 30 (1988): 132–157.
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics" (2023), DOI 10.1093/oxfordhb/9780190887452.013.27.
+
 ### Dependence ceiling
 
 Established:
