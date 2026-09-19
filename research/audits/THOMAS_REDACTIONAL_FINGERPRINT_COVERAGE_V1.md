@@ -94,22 +94,24 @@ Controlled result:
 - RELATION_DISPUTED
 - DIRECT_GREEK_RECONSTRUCTED_CORE_CLOSE_MARK_AGREEMENT_WITH_PORTABLE_MAXIM_COUNTERMODEL
 
+### Thomas 3 / 113 — Kingdom location
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 23
+
+Key diagnostic evidence:
+- Thomas 3 has direct fragmentary Greek entos-hymon contact evidence with Luke 17:21;
+- the divine-title wording is partly restored and the saying is heavily developed in Thomas;
+- Thomas 113 has no surviving Greek witness and carries a stronger common-tradition argument than a diagnostic wording argument;
+- the two Thomas sayings therefore require separate local literary histories.
+
+Controlled result:
+- Thomas 3 = RELATION_DISPUTED / DIRECT_GREEK_ENTOS_OVERLAP_STRONG_CONTACT_ARGUMENT_WITH_LACUNA_AND_THOMASINE_EXPANSION
+- Thomas 113 = RELATION_DISPUTED / COMMON_TRADITION_ARGUMENT_SUBSTANTIAL_NO_GREEK_THOMAS_WITNESS
+
 ## Remaining fingerprint coverage
 
 ### Priority A — partial Greek witness or semantically adjacent relation
-
-#### Thomas 3 / 113 — kingdom location
-Control:
-- VAR-KINGDOM-WITHIN-THOMAS-3-113
-
-Witness quality:
-- Thomas 3 = Greek + Coptic;
-- Thomas 113 = Coptic only.
-
-Why medium priority:
-- direct Thomas 3 Greek evidence is valuable;
-- relation to Luke 17:21 is conceptual/semantic rather than simple manuscript parallel;
-- lexical/reception work on entos is already extensive and should not be conflated with literary dependence.
 
 #### Thomas 2 / 92 — seek / find
 Control:
@@ -151,11 +153,10 @@ Risk:
 
 ## Priority order
 
-1. Thomas 3 / 113
-2. Thomas 2 / 92
-3. Thomas 100
-4. Thomas 107
-5. Thomas beatitude cluster
+1. Thomas 2 / 92
+2. Thomas 100
+3. Thomas 107
+4. Thomas beatitude cluster
 
 This is an evidence-priority order, not a historical-authenticity ranking.
 
