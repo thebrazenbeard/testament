@@ -869,6 +869,16 @@ variants:
           - AMONG_OR_IN_YOUR_MIDST
           - WITHIN_YOUR_REACH_OR_POWER
         adjudication: "LEXICON_ALONE_DOES_NOT_DECIDE_LUKE_17_21"
+      reception_controls:
+        versional:
+          ledger_record: VP-LUKE17-21-LATIN-SYRIAC-RECEPTION
+          latin_state: INTERIOR_RECEPTION_INTRA_VOS
+          old_syriac_state: AMBIGUOUS_WITHIN_OR_AMONG
+          peshitta_harklean_state: REPORTED_INTERIOR_RECEPTION
+        patristic:
+          ledger_record: PAT-TERTULLIAN-LUKE17-21-POWER
+          state: ANCIENT_WITHIN_REACH_OR_POWER_EXEGESIS
+        adjudication: "RECEPTION_HISTORY_CONSTRAINS_POSSIBILITIES_BUT_DOES_NOT_DECIDE_GREEK_SOURCE_SENSE"
       lexical_evidence:
         - "The other New Testament use of entos is Matthew 23:26, where it denotes the inside/interior of a cup."
         - "LSJ centers entos on within/inside/within-bounds usage and records extensions involving range, group bounds, self-control and being within one's power."
