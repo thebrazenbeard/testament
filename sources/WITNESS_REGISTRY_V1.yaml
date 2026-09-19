@@ -161,9 +161,24 @@ witnesses:
             description_pdf: "https://images.csntm.org/Manuscripts/GA_P46/P46%20(CBL%20BP%20II).pdf"
             provenance: "CSNTM states that the Dublin P46 images are from the Chester Beatty Collection."
             folio_map: "CSNTM description independently maps f. 45v to 1 Corinthians 7:4-12 and f. 45r to 1 Corinthians 7:12-19."
-            ui_order_mapping:
-              state: UI_ORDER_INFERENCE_NOT_PIXEL_READBACK
-              report: "In CSNTM gallery order, four 1 Cor 7:4 image entries align with the P46_045a_* image family and are followed by four 1 Cor 7:12 entries aligned with P46_045b_*; this associates 045a with 45v and 045b with 45r in the current gallery."
+            legacy_ui_order_mapping:
+              state: SUPERSEDED_BY_INTERNAL_CROSS_BINDING
+              report: "Earlier work associated 045a with 45v primarily from gallery order. That route is preserved as provenance but no longer carries the identity claim by itself."
+            folio_identity_binding:
+              state: CONFIRMED_BY_CSNTM_INTERNAL_CROSS_BINDING
+              checked: "2026-09-19"
+              evidence:
+                - "CSNTM legacy gallery imageId 134595 / imageName P46_045a_k.jpg is captioned '1 Cor 7.4'."
+                - "CSNTM manuscript-description PDF maps f.45v to 1 Cor 7.4-12 and f.45r to 1 Cor 7.12-19."
+                - "Adjacent leaf mapping independently demonstrates the filename-side convention: CSNTM maps f.44v to 1 Cor 6.4-12 and f.44r to 1 Cor 6.13-7.2, while the legacy gallery captions the 044a family '1 Cor 6.4' and the 044b family '1 Cor 6.13'."
+                - "The same convention continues at leaf 45: the legacy gallery captions the 045a family '1 Cor 7.4' and the 045b family '1 Cor 7.12'."
+              conclusion: "P46_045a is folio 45v; P46_045b is folio 45r. This identity no longer depends on gallery order alone."
+            current_collections_iiif:
+              manuscript_id: MNTGRCP46_1
+              manifest: "https://collections.csntm.org/image-service/iiif/artifacts/MNTGRCP46_1/default/manifest/"
+              canvas_45v_family: M_NT_GRC_P46_045a_w
+              image_service_45v_family: "https://collections.csntm.org/image-service/iiif/MNTGRCP46_1/default/M_NT_GRC_P46_045a_w/M_NT_GRC_P46_045a_w"
+              state: ASSET_FAMILY_BOUND_MANIFEST_HAS_FILENAME_LABEL_NOT_HUMAN_FOLIO_LABEL
             candidate_45v_image_service: "https://images.csntm.org/IIIFServer.ashx/GA_P46/P46_045a_k.jpg/full/100,/0/native.jpg"
             candidate_45v_image_service_large: "https://images.csntm.org/IIIFServer.ashx/GA_P46/P46_045a_k.jpg/full/1500,/0/native.jpg"
             image_service_state: AUTHORIZED_DESKTOP_FETCH_RETURNS_IMAGE_JPEG_PIXEL_PAYLOAD
@@ -171,7 +186,7 @@ witnesses:
               checked: "2026-09-19"
               route_100px: "Returned image/jpeg with an image payload through the authorized desktop URL reader."
               route_1500px: "Returned image/jpeg with a substantially larger image payload through the authorized desktop URL reader."
-              evidence_ceiling: "This proves that actual pixels from the P46_045a candidate asset can be transported into an authorized runtime. It does not by itself prove that 045a is folio 45v except through the existing UI-order mapping, and it is not yet a completed visual collation of 1 Corinthians 7:10-11."
+              evidence_ceiling: "This proves that actual pixels from the now independently identified P46 folio-45v asset can be transported into an authorized runtime. Pixel transport is not yet a completed visual collation of 1 Corinthians 7:10-11."
         reading_note: "Folio 45v contains 1 Corinthians 7:4-12 and therefore directly includes Paul's early divorce instruction at 7:10-11 invoking a command of 'the Lord.' This is evidence for Paul's text and early reception of a Lord-command, not a manuscript witness to Mark/Matthew/Luke wording."
         evidence:
           - source: Chester_Beatty_Kenyon_P46_plate_index
@@ -186,12 +201,12 @@ witnesses:
           - source: P46_holdings_breakdown
             state: CODEx_HOLDING_DISTRIBUTION
             report: "Folio 45 lies in the Chester Beatty portion of P46; the Michigan 1 Corinthians leaf is folio 40 only, while folios 41-69 are Chester Beatty."
-        image_state: CANDIDATE_45V_JPEG_PIXEL_TRANSPORT_RESOLVED_VISUAL_COLLATION_AND_FOLIO_IDENTITY_CONFIRMATION_PENDING
+        image_state: FOLIO_45V_IDENTITY_CONFIRMED_PIXEL_TRANSPORT_RESOLVED_VISUAL_LINE_COLLATION_PENDING
     limitations:
       - "Witness date is not the date of Paul's composition."
       - "Paul's 'not I but the Lord' does not by itself preserve the exact wording or historical setting of the Gospel divorce sayings."
       - "Testament has not performed autoptic collation of P46."
-      - "The 1 Corinthians 7:10-11 leaf is localized to CBL BP II folio 45v. CSNTM candidate image-family 045a now yields actual JPEG pixel payloads through the authorized desktop route, but 045a=45v remains UI-order-bound rather than embedded-image-metadata-bound and a verified visual collation of the target lines remains pending."
+      - "The 1 Corinthians 7:10-11 leaf is localized to CBL BP II folio 45v, and CSNTM internal cross-binding now confirms the 045a asset family as that verso independently of gallery order alone. Actual JPEG pixels are transportable, but a verified visual reading of the target Greek lines remains pending."
 
 
 
