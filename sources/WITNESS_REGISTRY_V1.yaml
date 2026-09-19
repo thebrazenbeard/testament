@@ -27,7 +27,7 @@ witnesses:
     shelfmark: "Cambridge University Library MS Nn.2.41"
     witness_date:
       precision: "around 400 CE / late fourth to early fifth century"
-    access_mode: SCHOLARLY_WITNESS_REPORT_PLUS_INSTITUTIONAL_METADATA
+    access_mode: SCHOLARLY_WITNESS_REPORT_PLUS_INSTITUTIONAL_METADATA_PLUS_LOCAL_DIRECT_DIGITAL_IMAGE_READBACK
     locators:
       - passage: Luke_3_22
         reading_note: "Greek text preserves a Psalm 2:7-type 'today I have begotten you' form of the baptismal voice."
@@ -49,14 +49,33 @@ witnesses:
         scholarship:
           - url: "https://www.biblegateway.com/passage/?search=Matthew+5%3A44&version=NET"
       - passage: Luke_6_5D_Sabbath_worker_addition
-        reading_state: DISTINCTIVE_BEZAE_ADDITION
+        reading_state: DISTINCTIVE_BEZAE_ADDITION_DIRECT_DIGITAL_IMAGE_READBACK
         manuscript_locator:
-          folios: "205b/206a"
+          folios_legacy: "205b/206a"
+          folios_current: "205v/206r"
+          cudl_canvases:
+            Greek_205v: 391
+            Latin_206r: 392
+          iiif_image_service_greek: "https://images.lib.cam.ac.uk/iiif/MS-NN-00002-00041-002-00064.jp2"
+          iiif_image_service_latin: "https://images.lib.cam.ac.uk/iiif/MS-NN-00002-00041-002-00065.jp2"
           sequence_note: "Addition follows Luke 6:4 in Bezae's sequence and is conventionally cited as Luke 6:5D / the Cambridge pericope."
-        reading_note: "Codex Bezae inserts the Sabbath-worker saying immediately after Luke 6:4 in its sequence. Ernst Bammel identifies the manuscript location as fol. 205b/206a. Testament has not yet performed direct digital-image readback and does not promote the reading to original Luke or historical Yeshua speech."
+        image_readback:
+          state: DIRECT_DIGITAL_IMAGE_VISUALLY_INSPECTED
+          checked: "2026-09-19"
+          observation: "A direct digital reproduction of folios 205v-206r was visually inspected. The Greek page visibly contains the distinctive Sabbath-worker paragraph in the manuscript text block; the facing Latin page preserves the corresponding passage."
+          exact_text_boundary: "Exact normalized Greek wording remains tied to the published Cambridge/IGNTP transcription and scholarship; the image inspection confirms physical presence/location and substantial legibility, not a fresh independent diplomatic transcription of every character."
+        reading_note: "Codex Bezae directly preserves the Sabbath-worker saying on the digitized 205v/206r spread immediately after Luke 6:4. Direct digital-image evidence now closes the prior image-readback debt, without promoting the reading to original Luke or historical Yeshua speech."
+        institutional_evidence:
+          - source: CUDL_IIIF_manifest
+            url: "https://cudl.lib.cam.ac.uk/iiif/MS-NN-00002-00041"
+            report: "Canvas 391 is labeled 205v and maps to the Greek image service; canvas 392 is labeled 206r and maps to the facing Latin image service."
+          - source: Biblissima_CUDL_manifest_index
+            url: "https://iiif.biblissima.fr/collections/manifest/c1bed556153d5e320842b2933d4d6b630d9d15b6"
+            report: "Metadata identifies the unique Sabbath-worker story after Luke 6:4 on folios 205v and 206."
         scholarship:
           - doi: "10.1017/S0028688500013655"
           - url: "https://www.cambridge.org/core/journals/new-testament-studies/article/abs/cambridge-pericope-the-addition-to-luke-64-in-codex-bezae/D3426B5A234ED8EE21B2A26E40CD8CD0"
+          - url: "https://itseeweb.cal.bham.ac.uk/igntp/bezae.html"
           - url: "https://greeknewtestament.net/lk6-5"
       - passage: Luke_11_2_opening_address
         reading_state: EXPANDED_MATTHEAN_STYLE_ADDRESS
@@ -69,7 +88,7 @@ witnesses:
         scholarship:
           - source: "Bruce_Terry_Student_Guide_Luke_11_4"
     limitations:
-      - "Testament has not performed autoptic manuscript collation."
+      - "Testament has not performed complete-codex autoptic manuscript collation; the Luke 6:4/5D 205v-206r spread has direct digital-image readback only."
       - "D05's age does not establish that every distinctive reading is earlier than rival readings."
       - "Hand/corrector detail remains dependent on published apparatus/scholarship until image-level readback."
 
