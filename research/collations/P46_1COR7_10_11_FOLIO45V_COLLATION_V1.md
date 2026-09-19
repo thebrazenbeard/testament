@@ -44,6 +44,35 @@ This establishes pixel transport for the confirmed folio-45v asset.
 
 It does **not** establish a direct visual reading of any Greek letter by Testament.
 
+## Current CSNTM ImageService3 route — 2026-09-19
+
+The current CSNTM IIIF Presentation 3 manifest was re-read directly.
+
+Exact folio-45v asset:
+- canvas label: `M_NT_GRC_P46_045a_w`;
+- canvas dimensions: `3744 × 5616`;
+- artifact canvas:
+  `https://collections.csntm.org/image-service/iiif/artifacts/MNTGRCP46_1/default/M_NT_GRC_P46_045a_w/canvas`;
+- static image body:
+  `https://iiif-thumbnails.nyc3.digitaloceanspaces.com/iiif/MNTGRCP46_1/default/M_NT_GRC_P46_045a_w/M_NT_GRC_P46_045a_w/thumbnail.jpg`;
+- ImageService3 id:
+  `https://collections.csntm.org/image-service/iiif/MNTGRCP46_1/default/M_NT_GRC_P46_045a_w/M_NT_GRC_P46_045a_w`;
+- profile: `level0`.
+
+This is a stronger current-route binding than the legacy `P46_045a_k.jpg` endpoint alone.
+
+Runtime result:
+- the manifest JSON is directly readable and binds the exact image service and dimensions;
+- the canvas URI currently returns a CSNTM `202 / canvas URIs have not been implemented yet` message when fetched as a document;
+- the static DigitalOcean thumbnail object returns `target_unreachable` through the current extraction route;
+- the ImageService3 rendered-image URL is not exposed to this runtime's visual surface;
+- therefore no Greek glyph is promoted from route metadata into direct visual evidence.
+
+Consequence:
+- current institutional route identity is now exact at Presentation-3 / ImageService3 level;
+- `P46_1COR7_10_11_VISUAL_PIXEL_COLLATION` remains open;
+- the remaining blocker is visual delivery/inspection, not folio identity or image-service discovery.
+
 ## 1 Corinthians 7:10 — transcription/apparatus collation
 
 Critical comparison text contains the infinitive:
