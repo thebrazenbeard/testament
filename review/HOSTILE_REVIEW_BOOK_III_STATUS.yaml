@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v36
+schema_version: testament.hostile_review_book_iii.v37
 overall_status: ACTIVE
 complete: false
 
@@ -394,6 +394,17 @@ tranche_36:
   residual_debt:
     - P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK
 
+tranche_37:
+  review_target: 8cd47da8c944ef8a8578e89e808cedd000db6409
+  review_report_commit: fa5ee0b06344570dac05f9350451ae6a99e3fe7a
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE37_20260919.md
+  status: PASS_FOR_TRANCHE_IMAGE_ROUTES_DEEPENED_PIXEL_COLLATION_OPEN
+  finding_range: NONE
+  reviewed_debt:
+    - LUKE11_SPIRIT_VARIANT_162_700_DIRECT_IMAGE_COLLATION
+  residual_debt:
+    - LUKE11_SPIRIT_VARIANT_162_700_DIRECT_IMAGE_COLLATION
+
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
   - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
@@ -432,7 +443,7 @@ next_scope:
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_37
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_38
 
 
 thomas_fingerprint_scope:
