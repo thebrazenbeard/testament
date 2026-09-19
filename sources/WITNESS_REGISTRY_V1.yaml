@@ -667,6 +667,28 @@ witnesses:
       - "Digital text/manuscript access is not described as autoptic physical codex examination."
 
 
+  - id: WIT-CODEX-ALEXANDRINUS-1CLEMENT
+    witness_of: [SRC-1-CLEMENT]
+    witness_kind: Greek_parchment_codex
+    common_name: Codex_Alexandrinus
+    shelfmark: "British Library Royal MS 1 D VIII"
+    witness_date:
+      precision: "5th century CE"
+    access_mode: INSTITUTIONAL_CATALOGUE_BOUND_IMAGES_CURRENTLY_UNAVAILABLE
+    locators:
+      - passage: 1_Clement_13_2
+        manuscript_range: "1 Clement occupies ff. 134r-143r; chapter 13 lies within the extant pre-lacuna portion"
+        reading_state: PHYSICAL_WITNESS_EXISTENCE_AND_WORK_RANGE_BOUND_TEXT_NOT_IMAGE_AUTOPTIC
+        reading_note: "British Library catalogue confirms 1 Clement in this codex; Testament does not claim direct folio-image readback of 1 Clement 13."
+    evidence:
+      - source: British_Library_Royal_MS_1_D_VIII
+        url: "https://searcharchives.bl.uk/catalog/040-002353500"
+        report: "Catalogue identifies 1 Clement at ff. 134r-143r and a missing leaf only at 1 Clem. 57:7-63:4; the codex is dated to the fifth century."
+    limitations:
+      - "Codex Alexandrinus is a fifth-century witness, not the composition date of 1 Clement."
+      - "Institutional catalogue binding is not direct manuscript-image transcription."
+      - "One codex witness does not create an additional independent historical source."
+
 edition_nodes:
   - id: ED-SBLGNT
     kind: CRITICAL_EDITION
