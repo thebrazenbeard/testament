@@ -178,11 +178,25 @@ Published apparatus reports the shorter ending in:
 - Sahidic Coptic (`sa`);
 - Origen.
 
-Origen is especially useful because *On Prayer* explicitly compares Matthew and Luke and quotes a shorter Lukan prayer ending after the testing petition.
+Origen is especially useful because his *De oratione* testimony is now directly bound from the primary Greek text.
 
-Origen is a patristic citation/exegete, not a Gospel manuscript.
+Dedicated control:
+- `research/collations/LUKE11_ORIGEN_ON_PRAYER_DIRECT_TEXT_V1.md`.
 
-His testimony can support textual history without becoming a physical Greek witness.
+In *De oratione* 18.2 Origen prints Matthew and Luke side by side. His quoted Luke form:
+- opens with simple `πάτερ`;
+- retains the kingdom petition;
+- moves from kingdom directly to daily bread, with no Matthean will petition;
+- preserves Luke's sins/debtors wording;
+- ends at `καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν`, without the deliverance clause.
+
+This is reinforced by Origen's explicit commentary:
+- in 26.1 he says Luke passes over the will petition after `ἐλθέτω ἡ βασιλεία σου` and proceeds to daily bread;
+- in 29.1 he says `ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ` is omitted/silent in Luke.
+
+Origen is patristic textual testimony/exegesis, not a Gospel manuscript.
+
+His directly recoverable shorter Lukan form materially strengthens the transmission control, but it does not become Luke's autograph or the historical wording of Yeshua merely because Origen is early.
 
 ### Luke 11:2 — related but non-identical Holy-Spirit petition traditions
 
@@ -296,7 +310,8 @@ That theological fit is not evidence of originality.
 
 References:
 - NET Bible textual note, Luke 11:4.
-- Origen, *On Prayer*, Lord's Prayer exposition.
+- Origen, *De oratione* 18.2, 26.1, 29.1; direct synchronized Greek text.
+- `research/collations/LUKE11_ORIGEN_ON_PRAYER_DIRECT_TEXT_V1.md`.
 - Tertullian, *Against Marcion* IV.26.
 - D. T. Roth, "The Text of the Lord's Prayer in Marcion's Gospel" and later NA28 reassessment.
 - Gregory of Nyssa, *De oratione dominica*, third homily; direct synchronized Greek text, GNO VII/II 39.18-19 control.
