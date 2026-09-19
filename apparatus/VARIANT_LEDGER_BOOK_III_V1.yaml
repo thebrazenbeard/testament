@@ -1128,16 +1128,26 @@ variants:
         versional:
           ledger_record: VP-LUKE17-21-LATIN-SYRIAC-RECEPTION
           collation_control: research/collations/LUKE17_21_VERSIONAL_TEXT_COLLATION_V1.md
-          latin_state: DIRECT_VULGATE_INTRA_VOS_PLUS_OLD_LATIN_REPORTED
+          latin_state:
+            state: DIRECT_VULGATE_PLUS_DIRECT_CODEX_BEZAE_LATIN_BOUND_BROADER_VETUS_LATINA_COLLECTIVE_EDITION_REPORTED
+            Vulgate: "intra vos"
+            Codex_Bezae: "intra uos"
           peshitta_state:
             state: DIRECT_TEXT_COLLATION_BOUND
             form: "ܠܓܘ ܡܢܟܘܢ"
-          old_syriac_state: AMBIGUOUS_WITHIN_OR_AMONG_DIRECT_STABLE_ENCODING_PENDING
-          harklean_state: REPORTED_INTERIOR_DIRECT_STABLE_ENCODING_PENDING
-          direct_collation_ceiling: "Direct project text collation currently covers Vulgate and Peshitta only."
+          old_syriac_state:
+            state: DIRECT_CAL_TEXT_BOUND_TARGET_SCRIPT_REPRODUCIBLE_SEMANTICALLY_AMBIGUOUS
+            form: "byntkwn → ܒܝܢܬܟܘܢ"
+          harklean_state:
+            state: DIRECT_PUBLISHED_PAGE_VISUAL_READBACK_STABLE_UNICODE_BOUND
+            form: "ܒܓܘܟܘܢ"
+          direct_collation_ceiling: "Direct project text evidence now covers Vulgate, Codex Bezae Latin, Peshitta, pinned Old Syriac CAL text with reproducible script conversion, and Harklean published-page text; broader Vetus Latina collective evidence remains edition-reported and none of these versions settles Greek entos hymon."
         patristic:
           ledger_record: PAT-TERTULLIAN-LUKE17-21-POWER
-          state: ANCIENT_WITHIN_REACH_OR_POWER_EXEGESIS
+          collation_control: research/collations/LUKE17_21_TERTULLIAN_ADVMARC4_35_V1.md
+          state: DIRECT_PRIMARY_LATIN_WITHIN_REACH_OR_POWER_EXEGESIS_BOUND
+          direct_gloss: "Intra vos est, id est in manu, in potestate vestra"
+          guard: "Tertullian is patristic reception/exegesis; his Deuteronomy linkage and power/reach gloss do not decide the Greek source sense."
         adjudication: "RECEPTION_HISTORY_CONSTRAINS_POSSIBILITIES_BUT_DOES_NOT_DECIDE_GREEK_SOURCE_SENSE"
       lexical_evidence:
         - "The other New Testament use of entos is Matthew 23:26, where it denotes the inside/interior of a cup."
