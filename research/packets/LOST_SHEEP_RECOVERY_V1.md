@@ -84,6 +84,55 @@ Luke develops it toward repentance and heavenly joy.
 These three endings are evidence for distinct transmitted forms.
 They must not be harmonized.
 
+### Redactional-fingerprint review — Thomas 107
+
+Thomas 107 has one of the clearest examples of a genuinely divided source-critical field.
+
+#### Secondary / Thomasine-redaction case
+
+Ernest van Eck surveys the argument that Thomas's distinctive form has moved away from an earlier parable:
+- the lost sheep is the largest;
+- the shepherd loves it more than the ninety-nine.
+
+The "largest" motif also appears elsewhere in Thomas, which gives an internal Thomasine-redaction model real explanatory force.
+
+Christopher Tuckett and others have treated Thomas 107 as secondary to or influenced by canonical/Synoptic tradition.
+
+#### Early / independent-form countercase
+
+Other scholars have argued nearly the opposite.
+
+William Petersen has argued that Thomas 107 may preserve an early form, even earlier than a reconstructed Q version.
+
+Stephen Patterson treats the saying as potentially independent and resists reducing its distinctive ending to simple Gnostic allegory.
+
+Andrea Lorenzo Molinari has explicitly proposed Thomas 107 as an early stage in a Jesus-tradition trajectory.
+
+#### Witness ceiling
+
+The disagreement cannot be resolved by direct Greek Thomas wording.
+
+Thomas 107 survives only in Coptic in the currently bound witness set.
+
+Current local state:
+
+**RELATION_DISPUTED.**
+
+Evidence balance:
+
+**COMPETING THOMASINE-REDACTION AND EARLY/INDEPENDENT-FORM MODELS.**
+
+The project therefore preserves:
+- the internal-redaction signal;
+- the published early-form countercase;
+- the absence of a Greek Thomas 107 diagnostic test.
+
+References:
+- Ernest van Eck, "In the kingdom everybody has enough" (2011), DOI 10.4102/hts.v67i3.1067.
+- William Petersen, source-critical work on Thomas 107.
+- Stephen J. Patterson, *The Gospel of Thomas and Jesus* / later Thomas studies.
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics" (2023).
+
 ### Dependence control
 
 John Halsey Wood argues broadly for Thomas dependence on canonical Gospel material.
