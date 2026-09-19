@@ -51,9 +51,9 @@ The current reproducible working text remains SBLGNT, which prints the shorter L
 
 Published apparatus summaries now bind the opening address directly: P75, Sinaiticus, and Vaticanus support simple "Father," while Bezae supports the expanded Matthean-style "Our Father in heaven." The will-petition control remains bound to P75/Vaticanus on the shorter side and Bezae on the expanded side. For the final deliverance petition, P75 and Vaticanus support omission while Bezae supports expansion.
 
-Sinaiticus is now separately typed at Luke 11:4 rather than forced into a binary bucket: the original text includes the deliverance petition, a first corrector marked it doubtful, and a later corrector removed that doubt mark. Testament records all of this as published apparatus/hand-state report, not autoptic collation.
+Sinaiticus is now separately typed at Luke 11:4 rather than forced into a binary bucket. The exact original/corrector sequence is **not currently asserted**: published apparatus and older secondary summaries conflict, while the official default electronic transcription and correction layer are distinct display states.
 
-This is enough to establish a deeper transmission control: Luke's prayer cannot be treated as textually flat, and later harmonization toward Matthew is strongly plausible in these locations.
+This is enough to establish a deeper transmission control: Luke's prayer cannot be treated as textually flat, and later harmonization toward Matthew is strongly plausible in these locations. It is not enough to assign the Sinaiticus hand sequence without direct correction-layer evidence.
 
 Didache 8.2 is now physically bound to `WIT-DIDACHE-H54-HIEROSOLYMITANUS`, the complete Greek Didache witness in Codex Hierosolymitanus 54. That closes the earlier untyped-work-title debt for this comparison. The codex is dated 1056 CE; that is the date of the surviving witness, not the composition date of Didache or of its prayer tradition.
 
@@ -76,6 +76,16 @@ Current named-witness binding:
 - Codex Bezae: expanded `Our Father in heaven`.
 
 ### Direct Codex Sinaiticus electronic-transcription readback
+
+Evidence-level clarification:
+
+The Codex Sinaiticus Project describes its electronic transcription as a scholarly letter-by-letter transcription produced through independent transcription, comparison, and checking against the digital images. Its web edition links transcription and image at word level and separately represents corrections.
+
+That makes the official transcription stronger than a generic secondary report, but it still is **not Testament image autopsy**.
+
+The Project's XML specification adds an important control: correction alternatives are encoded as separate readings, and the web default is the first reading in the apparatus element; that is usually, but not invariably, the original reading. Therefore a default visible reading cannot by itself establish the corrector sequence.
+
+
 
 The official Codex Sinaiticus Project page localizes Luke 10:21–11:6 to:
 - British Library;
@@ -104,7 +114,7 @@ Some older secondary summaries describe a different sequence.
 
 Therefore current Sinaiticus state at Luke 11:4 is:
 
-**CORRECTION-STATE CONFLICT / DIRECT CORRECTION-POPUP AND IMAGE-LAYER READBACK REQUIRED.**
+**CORRECTION-STATE CONFLICT / DIRECT CORRECTION-POPUP OR LOCUS-SPECIFIC XML APPARATUS READBACK REQUIRED; IMAGE READBACK REMAINS SEPARATE.**
 
 The plain transcription and correction apparatus are different display layers.
 Testament will not infer exact corrector chronology from the plain text alone.
@@ -119,6 +129,8 @@ This improves the apparatus while lowering one overconfident claim rather than r
 
 References:
 - Codex Sinaiticus Project, BL folio 236b, Luke 10:21–11:6.
+- Codex Sinaiticus Project, electronic-transcription methodology and web-edition documentation.
+- Codex Sinaiticus Project, XML transcription specification for correction/readings encoding.
 - NET Bible textual apparatus, Luke 11:4.
 
 ## Versional and patristic expansion — Luke 11
