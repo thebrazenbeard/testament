@@ -47,3 +47,17 @@ Its ethical center is independent of any one metaphysics:
 ## Status
 
 Foundation V1 remains an active research architecture and manuscript foundation. The exploratory full-manuscript Draft V1 now exists, but historical claims remain reviewable and source-bound. Simulation theory remains a speculative model, not a historical conclusion.
+
+
+## Chatless continuation
+
+Testament does not require a persistent ChatGPT conversation.
+
+Fresh runtimes reconstruct the project from GitHub/Bus state using:
+- `docs/TESTAMENT_RUNTIME_RECONSTRUCTION_V1.md`;
+- the current exact PR #1 / `foundation/testament-v1` state;
+- current evidence/review ledgers;
+- `manuscript/draft_v1/`;
+- the current Bus topology and coordination route.
+
+Files under `state/continuation/` and `state/conversation/` that refer to former chats are retained as historical provenance only. They are not current-state locators or startup dependencies.
