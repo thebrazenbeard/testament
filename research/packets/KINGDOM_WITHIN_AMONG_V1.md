@@ -295,9 +295,18 @@ Ancient reception does not collapse to one interpretation.
 
 The Vulgate has `intra vos`.
 
-Ramelli additionally reports the Vetus Latina tradition and Bezae's Latin column with the same `intra vos` wording.
+Codex Bezae's Latin column is now directly bound from the official IGNTP XML transcription:
+- TEI verse: `B03K17V21`;
+- folio: `256r`;
+- Cambridge canvas: `492`;
+- target clause: `ecce enim regnum dei intra uos est`;
+- direct target: `intra uos`.
 
-That is strong evidence for ancient **interior / within-bounds reception** of the Greek.
+The wider Bezae verse also contains `nolite credere` before that clause, so Testament does not flatten the whole Bezae verse into the Vulgate merely because the target phrase agrees.
+
+Ramelli separately reports that the wider Vetus Latina tradition has no variant for `intra vos`; that collective claim remains edition-reported rather than directly collated witness-by-witness.
+
+This is strong evidence for ancient **interior / within-bounds Latin reception** of the Greek.
 
 It is translation history, not proof that Luke's Greek must be rendered "inside you."
 
@@ -342,7 +351,7 @@ It also prevents a false binary:
 
 The reception evidence currently says:
 
-- ancient Latin strongly preserves interior wording;
+- ancient Latin strongly preserves interior wording; Codex Bezae is now directly transcription-bound while the broader Vetus Latina collective remains edition-reported;
 - Old Syriac is genuinely ambiguous;
 - Peshitta/Harklean preserve more explicit interior renderings; Peshitta is directly text-bound and Harklean is now directly bound from the published Kiraz quotation reproduced by Ramelli;
 - Tertullian preserves an ancient power/reach interpretation;
@@ -364,6 +373,12 @@ The versional evidence is now split by actual access level.
 Vulgate:
 - `intra vos`
 - direct verse text: `Ecce enim regnum Dei intra vos est.`
+
+Codex Bezae Latin:
+- direct IGNTP XML at `B03K17V21`, folio `256r`;
+- target clause: `ecce enim regnum dei intra uos est`;
+- target expression: `intra uos`;
+- this upgrades Bezae itself from secondary report to direct institutional transcription.
 
 Peshitta:
 - direct target expression: `ܠܓܘ ܡܢܟܘܢ`
