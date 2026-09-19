@@ -488,8 +488,11 @@ variants:
           coptic: WIT-NHC-II-GOSPEL-THOMAS
         broader_tradition:
           Gospel_of_the_Hebrews:
-            state: CLOSE_RELATED_TRADITION_VIA_CLEMENT
-            report: "Clement preserves a seek-find-marvel-reign-rest sequence attributed to the Gospel according to the Hebrews that closely parallels the reconstructed Greek Thomas 2 progression."
+            state: CLOSE_RELATED_TRADITION_VIA_DIRECT_CLEMENT_GREEK_WITH_ATTRIBUTION_ASYMMETRY
+            control: research/collations/CLEMENT_GHEB_THOMAS2_SEEK_FIND_V1.md
+            explicit_attributed_form: "Stromata 2.9.45.5 directly names the Gospel according to the Hebrews for a wonder -> reign -> rest saying."
+            fuller_clement_form: "Stromata 5.14.96.3 directly gives seek -> find -> marvel -> reign -> rest without freshly repeating the Gospel-of-the-Hebrews source name in that immediate sentence."
+            report: "The fuller Clement chain closely parallels the published/reconstructed Greek Thomas 2 progression, but its connection to the explicitly attributed lost-gospel saying is contextual/scholarship-controlled rather than a second explicit attribution."
           wisdom_background:
             report: "Patterson roots seek/find admonition broadly in Jewish wisdom tradition; the sequence is not diagnostically Synoptic merely because canonical ask/seek sayings exist."
         transmission_control:
@@ -522,10 +525,13 @@ variants:
 
     early_reception_control:
       ledger_record: PAT-CLEMENT-GHEB-SEEK-FIND
-      state: CLEMENT_GHEB_CHAIN_TESTIMONY_BOUND
-      significance: "Clement preserves an explicitly attributed Gospel-of-the-Hebrews wonder/reign/rest saying and elsewhere the fuller seek/find/marvel/reign/rest chain closely parallel to Greek Thomas 2."
-      attribution_guard: "The fuller Stromata 5.14 chain is not described as freshly re-attributed by Clement in that immediate sentence; the link to the explicitly attributed Stromata 2.9 saying remains scholarship-controlled."
-      lost_text_guard: "Clement's testimony does not physically recover the Gospel according to the Hebrews."
+      collation_control: research/collations/CLEMENT_GHEB_THOMAS2_SEEK_FIND_V1.md
+      state: DIRECT_CLEMENT_GREEK_GHEB_ATTRIBUTION_ASYMMETRY_BOUND
+      explicit_2_9: "κἀν τῷ καθ' Ἑβραίους εὐαγγελίῳ ὁ θαυμάσας βασιλεύσει ... καὶ ὁ βασιλεύσας ἀναπαήσεται"
+      fuller_5_14: "οὐ παύσεται ὁ ζητῶν ... εὑρὼν δὲ θαμβηθήσεται ... βασιλεύσας δὲ ἐπαναπαήσεται"
+      significance: "Clement directly preserves an explicitly attributed Gospel-of-the-Hebrews wonder/reign/rest saying and elsewhere a fuller seek/find/marvel/reign/rest chain closely parallel to Greek Thomas 2."
+      attribution_guard: "Only Stromata 2.9 directly names the lost gospel in the bound sentence; the fuller Stromata 5.14 chain is connected contextually/scholarly and is not silently re-attributed."
+      lost_text_guard: "Clement's testimony does not physically recover the Gospel according to the Hebrews, and close parallelism with fragmentary Greek Thomas 2 does not determine literary direction."
 
     historical_ceiling:
       strong:
