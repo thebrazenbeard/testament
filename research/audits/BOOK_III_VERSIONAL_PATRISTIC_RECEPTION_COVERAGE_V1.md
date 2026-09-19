@@ -1,6 +1,6 @@
 # Book III Versional / Patristic / Early-Christian Reception Coverage Audit V1
 
-Status: ACTIVE / HIGH_VALUE_EXPANSION
+Status: HIGH_VALUE_EXPANSION_COMPLETE / MEDIUM_VALUE_TARGETED
 
 Primary ledger:
 - sources/VERSIONAL_PATRISTIC_LEDGER_BOOK_III.yaml
@@ -56,13 +56,15 @@ Residual:
 - Old Syriac / Harklean direct stable text encoding.
 
 ### Enemy love / nonretaliation
-Status: ANCIENT_PARALLEL_ALREADY_PRESENT_OUTSIDE_RECEPTION_LEDGER
+Status: RECEPTION_LEDGER_BOUND
+Control:
+- ECR-DIDACHE-1-2-3-DOUBLE-ENEMY-LOVE
 Existing source:
 - Didache 1.3-4
 - WIT-DIDACHE-H54-HIEROSOLYMITANUS
 
-Need:
-- bind Didache 1.2-3 into this reception ledger so its double-love + enemy-love sequence can be queried consistently.
+Result:
+- Didache 1.2-3 is now queryable through the reception ledger with the existing H54 physical-witness link.
 
 ### Forgiveness / debt
 Status: ANCIENT_PARALLEL_ALREADY_PRESENT_OUTSIDE_RECEPTION_LEDGER
@@ -75,6 +77,10 @@ Need:
 ## High-value immediate expansions
 
 ### Double love / Torah summary
+Status: BOUND
+Control:
+- ECR-DIDACHE-1-2-3-DOUBLE-ENEMY-LOVE
+
 Variant:
 - VAR-DOUBLE-LOVE-TORAH-SUMMARY
 
@@ -90,6 +96,10 @@ Why it matters:
 - does not identify literary direction by itself.
 
 ### Divorce / remarriage
+Status: BOUND
+Control:
+- ECR-HERMAS-MANDATE4-DIVORCE
+
 Variant:
 - VAR-DIVORCE-PAUL-1COR-7-RECEPTION
 
@@ -104,6 +114,10 @@ Why it matters:
 - must not be treated as a direct Gospel quotation or fifth Gospel witness.
 
 ### Seek / find
+Status: BOUND
+Control:
+- PAT-CLEMENT-GHEB-SEEK-FIND
+
 Variant:
 - VAR-ASK-SEEK-KNOCK-THOMAS-2-92
 
@@ -117,6 +131,20 @@ Why it matters:
 - independently preserves/report the seek -> find -> marvel -> reign -> rest chain strongly parallel to Greek Thomas 2;
 - constrains the saying's wider early-Christian transmission;
 - is indirect testimony to a lost/non-extant Gospel form, not a physical Gospel-of-the-Hebrews manuscript.
+
+## High-value completion result
+
+The broad high-priority expansion gate is complete.
+
+Bound beyond Luke 11:
+- Didache 1.2-3 for double-love + enemy-love reception;
+- Shepherd of Hermas, Mandate 4 for divorce/remarriage reception;
+- Clement of Alexandria / Gospel-of-the-Hebrews testimony for the seek-find chain;
+- Luke 17:21 Latin/Syriac/Tertullian reception already matured separately.
+
+The remaining work is no longer an undefined "expand versional/patristic evidence" task.
+
+It is a targeted medium-value queue governed by the criteria below.
 
 ## Medium-value future candidates
 
