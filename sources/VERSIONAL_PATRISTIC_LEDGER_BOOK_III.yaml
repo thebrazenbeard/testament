@@ -86,8 +86,22 @@ records:
         reported_folio: "184"
         form_state: SPIRIT_PETITION_WITH_UPON_US
     patristic_support:
-      - Gregory_of_Nyssa
-      - Maximus
+      Gregory_of_Nyssa:
+        state: DIRECT_PRIMARY_GREEK_PATRISTIC_TEXT_BOUND
+        work: De_oratione_dominica
+        homily: 3
+        collation_control: research/collations/LUKE11_2_GREGORY_NYSSA_SPIRIT_PETITION_V1.md
+        direct_gospel_attribution: "Gregory says Luke interprets the same thought more clearly and that in that Gospel, instead of 'Let your kingdom come,' the Spirit petition follows."
+        direct_form: "Ἐλθέτω τὸ ἅγιον πνεῦμά σου ἐφ’ ἡμᾶς καὶ καθαρισάτω ἡμᾶς"
+        interpretation: "Gregory explicitly says what Luke calls Holy Spirit Matthew calls kingdom."
+        critical_locator: "GNO VII/II 39.18-19; older PG 44:1157C"
+        evidence_class: PATRISTIC_TEXTUAL_TESTIMONY_PLUS_EXEGESIS_NOT_PHYSICAL_GOSPEL_MANUSCRIPT
+        internal_wording_guard: "Gregory later reuses the petition with changed word order in his own sermonic prose; that reuse is not counted as a second Gospel witness."
+        relation_to_700_162: "Gregory's attributed form includes ἐφ’ ἡμᾶς and therefore aligns with the fuller 700-type feature, but no genealogical or direct-copy relationship is asserted."
+        source: "https://catholiclibrary.org/library/view?chunk.id=00000029&docId=Fathers-Synchronized-EN%2FGregory_of_Nyssa__De_oratione_dominica_orationes_v.en.html"
+      Maximus:
+        state: PUBLISHED_PATRISTIC_REPORT_BOUND_DIRECT_PRIMARY_TEXT_EXPANSION_PENDING
+        guard: "Do not infer Maximus is independent of Gregory without separate argument."
     witness_specific_forms:
       WIT_700:
         report: "Metzger reports 700 with 'May your Holy Spirit come upon us and cleanse us.'"
@@ -104,7 +118,7 @@ records:
     exact_wording_state: PHYSICAL_GREEK_WITNESSES_BOUND_WORDING_DIFFERENCE_EXPLICIT
     guard:
       - "162 and 700 are related witnesses to a Spirit-petition variant family, not identical strings."
-      - "Gregory and Maximus remain patristic citation evidence, not physical Gospel manuscript nodes."
+      - "Gregory is now directly bound as patristic textual testimony/exegesis; Maximus remains published-report level in this control. Neither is a physical Gospel manuscript node."
       - "Late Greek manuscript preservation does not date the origin of the variant."
 
   - id: PAT-MARCION-LUKE11-SPIRIT-PETITION
