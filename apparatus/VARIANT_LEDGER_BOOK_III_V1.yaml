@@ -308,13 +308,30 @@ variants:
     source_relation:
       bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
       state: RELATION_DISPUTED
-      evidence_balance: DISPUTED_INTERTEXTUAL_RELATION
-      scholarship:
-        - author: Melissa_Harl_Sellew
-          title: "The Gospel of Thomas and the Synoptics"
-          year: 2023
-          doi: "10.1093/oxfordhb/9780190887452.013.27"
-          position: "Moves comparison beyond a simple dependence-versus-autonomy binary and treats style/content comparison as useful even where global dependence is unresolved."
+      evidence_balance: LUKE_CONTACT_ARGUMENT_LOCALLY_WEIGHTY_WITH_SHARED_OR_INDEPENDENT_TRADITION_COUNTERMODELS
+      Thomas_54_focus:
+        contact_evidence:
+          - scholar: Mark_Goodacre
+            report: "Uses Thomas 54 as a test case against assuming independent multiple attestation and argues that the Luke-like unqualified-poor form may be secondary rather than an independent primitive witness."
+          - kind: FORM_COMBINATION
+            report: "Thomas 54 combines unqualified 'poor' like Luke with 'kingdom of heaven' like Matthew, a form that has generated competing direct/indirect dependence and shared-tradition explanations."
+          - source: Published_Thomas_54_source_criticism
+            report: "A published study of the provenance of Thomas 54 argues Luke 6:20 could be its direct or indirect source while acknowledging an independent source cannot be ruled out."
+        shared_or_independent_counterevidence:
+          - scholar: John_Dominic_Crossan
+            report: "Treats Thomas 54 as an independent witness to an early poverty beatitude tradition."
+          - kind: BROADER_TRADITION
+            report: "James 2:5 and reconstructed Q/beatitude traditions show that poverty/kingdom language circulated beyond one simple Gospel-copying path."
+          - scholar: Melissa_Harl_Sellew
+            doi: "10.1093/oxfordhb/9780190887452.013.27"
+            report: "Keeps Thomas/Synoptic comparison useful without forcing a global dependence verdict."
+        witness_limit:
+          state: COPTIC_ONLY_FOR_THOMAS_54_68_69
+          guard: "No surviving Greek Thomas witness preserves these logia, so exact Greek redactional fingerprints cannot be tested."
+        adjudication: "Luke contact/dependence is a serious local hypothesis for Thomas 54, but shared or independent tradition remains live and no direction is promoted to fact."
+      Thomas_68_69_control:
+        state: SAME_WORK_RELATED_BEATITUDES_NOT_INDEPENDENT_EXTERNAL_ATTESTATIONS
+        guard: "Persecution/hunger beatitudes in Thomas 68-69 illuminate Thomasine clustering but do not multiply the independent source count."
       guard: "Similarity between Thomas 54 and Luke 6:20 on unqualified poverty does not establish Thomasine independence, priority, or direct copying in either direction."
 
     witness_date_control:
@@ -589,18 +606,32 @@ variants:
       conclusion: "No surviving Greek Thomas fragment currently bound by Testament witnesses logion 100."
 
     dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
       Synoptics:
         state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
-      Thomas_vs_Synoptics:
+      Thomas_100_vs_Synoptics:
         state: RELATION_DISPUTED
-        evidence_balance: DISPUTED
-        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
-        scholarship:
-          - author: Melissa_Harl_Sellew
-            title: "The Gospel of Thomas and the Synoptics"
-            year: 2023
+        evidence_balance: SYNOPTIC_REDACTION_MODEL_SUBSTANTIAL_COPTIC_ONLY_DIRECTION_NOT_SECURE
+        dependence_evidence:
+          - scholar: Kimberley_A_Fowler
+            work: "Reading Gospel of Thomas 100 in the Fourth Century"
+            year: 2018
+            doi: "10.1163/15700720-12341356"
+            report: "Explicitly treats Thomas 100 as a redaction of the Synoptic render-to-Caesar pericope and interprets its distinctive form in a later ascetic/Pachomian setting."
+          - scholar: Simon_J_Gathercole
+            work: "Luke in the Gospel of Thomas"
+            year: 2011
+            report: "Includes Thomas 100 in a wider case for Lukan/Synoptic influence in Thomas and notes detailed phraseological relationships among the Caesar forms."
+        countercontrols:
+          - kind: WITNESS_LIMIT
+            report: "Thomas 100 survives only in Coptic in the currently bound witness set, so no direct Greek-to-Greek diagnostic collation is possible."
+          - kind: DISTINCTIVE_THOMAS_EXPANSION
+            report: "The final claim 'give me what is mine' is absent from the Synoptics and demonstrates Thomasine compositional activity without itself locating the source direction of the shared Caesar/God core."
+          - kind: COMPARATIVE_METHOD
+            scholar: Melissa_Harl_Sellew
             doi: "10.1093/oxfordhb/9780190887452.013.27"
-        guard: "Thomas 100 may reflect direct dependence, shared tradition, or more complex transmission; no direction is promoted to project fact."
+        adjudication: "A Synoptic-redaction model has substantial local scholarly support, but Coptic-only witness status and the possibility of indirect/shared transmission prevent promotion to direct dependence."
+        guard: "Thomas's compactness is not a chronology test, and Fowler's fourth-century reception argument is not evidence that every element of logion 100 was composed in the fourth century."
       Thomas_internal_redaction:
         state: DISTINCTIVE_EXPANSION_PRESENT
         guard: "The final Jesus-claim clause is textually distinctive but its compositional stage is not known from the surviving witness alone."
@@ -660,18 +691,32 @@ variants:
       conclusion: "No surviving Greek Thomas fragment currently bound by Testament witnesses logion 107."
 
     dependence_control:
-      Thomas_vs_Synoptics:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      Thomas_107_vs_Synoptics:
         state: RELATION_DISPUTED
-        evidence_balance: DISPUTED
-        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
-        positions:
-          - scholar: John_Halsey_Wood
-            position: "Argues broadly for Thomas dependence on canonical Gospel material."
-            doi: "10.1017/S0028688505000305"
-          - scholar: Melissa_Harl_Sellew
-            position: "Treats close Thomas/Synoptic comparison as useful without forcing a global dependence/autonomy verdict."
-            doi: "10.1093/oxfordhb/9780190887452.013.27"
-        guard: "Neither blanket dependence nor blanket independence is promoted to project fact for logion 107."
+        evidence_balance: COMPETING_THOMASINE_REDACTION_AND_EARLY_OR_INDEPENDENT_FORM_MODELS
+        secondary_redaction_evidence:
+          - scholar: Ernest_van_Eck
+            work: "In the kingdom everybody has enough"
+            year: 2011
+            doi: "10.4102/hts.v67i3.1067"
+            report: "Surveys the view that Thomas 107's largest-sheep/love-more motif is a Thomasine development and therefore not the earliest layer of the parable."
+          - kind: INTERNAL_THOMAS_MOTIF
+            report: "The 'largest' motif recurs elsewhere in Thomas (including logia 8 and 96), giving a plausible internal-redaction explanation for Thomas 107's distinctive valuation."
+          - scholar: Christopher_M_Tuckett
+            report: "Published scholarship has treated Thomas 107 as secondary to or influenced by the Synoptic/Matthean tradition."
+        early_or_independent_counterevidence:
+          - scholar: William_Petersen
+            report: "Argues Thomas 107 may preserve an early form, even earlier than the reconstructed Q form."
+          - scholar: Stephen_J_Patterson
+            report: "Treats Thomas 107 as potentially independent and resists reading its distinctive ending as simple Gnostic allegorization."
+          - scholar: Andrea_Lorenzo_Molinari
+            report: "Has proposed Thomas 107 as an early stage in a Jesus-tradition trajectory."
+        witness_limit:
+          state: COPTIC_ONLY_CURRENTLY_BOUND
+          guard: "No direct Greek Thomas 107 witness survives to test diagnostic wording."
+        adjudication: "The distinctive Thomas motif supplies real internal-redaction evidence, but published early/independent-form models remain substantial enough that literary direction is unresolved."
+        guard: "Neither the largest-sheep motif nor Thomas's compact setting establishes historical priority or dependence by itself."
 
     historical_ceiling:
       strong:
