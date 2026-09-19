@@ -93,10 +93,45 @@ Therefore 1 Corinthians 7:10–11 is on:
 
 This matches the broader holdings map in which folios 41–69, covering 1 Corinthians 3:6 through 2 Corinthians 9:7, belong to the Chester Beatty portion.
 
-The evidence ceiling remains explicit:
-- exact folio/holding localization = established at published-folio level;
-- direct Chester Beatty image readback by Testament = still pending;
+The evidence ceiling is now more specific:
+- exact folio/holding localization = independently established by Chester Beatty and CSNTM;
+- Chester Beatty's institutional facsimile index directly labels f. 45v as `I CORINTHIANS VII, 4-12`;
+- CSNTM independently maps f. 45v to 1 Corinthians 7:4-12 and states that its Dublin P46 images come from the Chester Beatty Collection;
+- CSNTM exposes the folio-45 image families through its IIIF image service;
+- the current gallery ordering associates the `P46_045a_*` image family with the four 1 Cor 7:4 entries and `P46_045b_*` with the four 1 Cor 7:12 entries, making `045a` the current UI-order candidate for 45v;
+- direct renderable 45v pixels still have **not** been obtained in this runtime;
+- therefore direct Chester Beatty image readback by Testament remains pending;
 - physical location does not strengthen the historical wording claim beyond Paul's text.
+
+### P46 folio-45v image-route revalidation — 2026-09-19
+
+Two independent institutional routes now converge on the target.
+
+Chester Beatty:
+- the digitized Kenyon plate index directly identifies `f. 45. v.`;
+- the plate caption identifies `I CORINTHIANS VII, 4-12`;
+- the current web/PDF route is indexed but direct PDF rendering returns HTTP 403 in this runtime.
+
+CSNTM:
+- the Dublin P46 collection states that its images are from the Chester Beatty Collection;
+- its manuscript-description PDF maps `f. 45v = 1 Cor 7.4-12` and `f. 45r = 1 Cor 7.12-19`;
+- its gallery exposes the `P46_045a_*` and `P46_045b_*` image families;
+- gallery ordering aligns four `1 Cor 7.4` entries with the `045a` family and four `1 Cor 7.12` entries with the `045b` family;
+- direct IIIF requests resolve as HTTP 200 binary image routes, but the available extraction layers cannot render the image bytes for visual inspection.
+
+Current state:
+
+**FOLIO + IMAGE ROUTE RESOLVED / DIRECT PIXEL READBACK PENDING.**
+
+This does not close `P46_1COR7_DIRECT_CHESTER_BEATTY_IMAGE_READBACK`.
+
+The project will not convert:
+- an institutional plate caption;
+- an IIIF URL;
+- HTTP 200 on a binary image route;
+- or UI-order mapping
+
+into a claim that Testament directly inspected the manuscript pixels.
 
 ### Physical witness control
 
