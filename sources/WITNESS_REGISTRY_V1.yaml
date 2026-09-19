@@ -689,6 +689,30 @@ witnesses:
       - "Institutional catalogue binding is not direct manuscript-image transcription."
       - "One codex witness does not create an additional independent historical source."
 
+  - id: WIT-BNF-GREC450-JUSTIN
+    witness_of: [SRC-JUSTIN-FIRST-APOLOGY]
+    witness_kind: Greek_manuscript_codex
+    common_name: Parisinus_Graecus_450
+    shelfmark: "Bibliothèque nationale de France, Département des manuscrits, Grec 450"
+    witness_date:
+      precision: "14th century; ARCA catalogues 1363"
+    access_mode: INSTITUTIONAL_METADATA_PLUS_DIGITAL_FACSIMILE_IDENTIFIED_NOT_AUTOPTIC
+    locators:
+      - passage: Justin_First_Apology_17
+        reading_state: PUBLISHED_GREEK_TEXT_BOUND_PHYSICAL_MANUSCRIPT_METADATA_NOT_IMAGE_AUTOPTIC
+        reading_note: "Published Greek editions preserve the Caesar/God saying in First Apology 17; Testament has not performed direct folio-image collation against BnF Grec 450."
+    evidence:
+      - source: ARCA_BnF_Grec_450
+        url: "https://bvmm.irht.cnrs.fr/ark:/63955/md21td96kq22"
+        report: "Institutional manuscript record identifies BnF Grec 450 as a Greek manuscript dated to the fourteenth century (1363)."
+      - source: Biblissima_BnF_Grec_450
+        url: "https://data.biblissima.fr/w/Item:Q55294"
+        report: "Authority record identifies BnF Grec 450 and links a Gallica digitization/IIIF manifest."
+    limitations:
+      - "Fourteenth-century witness date is not the composition date of Justin's First Apology."
+      - "Published Greek text is not represented as direct facsimile transcription here."
+      - "One late manuscript tradition does not establish independent historical attestation of the saying."
+
 edition_nodes:
   - id: ED-SBLGNT
     kind: CRITICAL_EDITION
