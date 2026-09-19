@@ -852,6 +852,9 @@ variants:
       Thomas_101:
         state: EXTANT_COPTIC_WITH_LACUNAE
         form_note: "Reuses family-renunciation material in a hate/love antithesis; the surviving text is damaged around the mother language."
+        manuscript_locator:
+          saying_range: "NHC II,2 49.32-50.1"
+          key_lacuna_range: "49.36-50.1"
         edition_binding:
           critical_edition:
             editor: Bentley_Layton
@@ -864,11 +867,19 @@ variants:
             year: 2014
             publisher: Brill
             ebook_isbn: "9789004273252"
+          exact_locator_report:
+            source: Harvard_Theological_Review
+            report: "Thomas 101 is localized to NHC II,2 49.32-50.1; restoration discussion identifies the disputed gap at 49.36-50.1."
+        image_control:
+          page_49: PUBLIC_IMAGE_IDENTIFIED_DIRECT_VISUAL_READBACK_PENDING
+          page_50: DIRECT_IMAGE_VISUALLY_INSPECTED
+          guard: "Page 50 direct image access confirms manuscript condition only; page 49 terminal lines still require direct visual readback before the lacuna is called fully autoptically confirmed."
         restoration_semantics:
           bracketed_words: "Editorial restorations where the published text/translation does not preserve fully readable wording."
-          key_lacuna: "The mother clause contains a larger unresolved gap before the contrast with the true mother who gave life."
+          key_lacuna: "The mother clause has a disputed lacuna localized to 49.36-50.1 before the surviving contrast with the true mother who gave life."
+          competing_restorations: "Published scholarship records more than one proposed restoration; none is promoted to extant wording."
           rule: "Restored words and the large lacuna remain reconstruction; neither is promoted to extant manuscript wording."
-        edition_state: EDITION_BOUND_AUTOPTIC_CONFIRMATION_PENDING
+        edition_state: PARTIAL_AUTOPTIC_PAGE50_BOUND_PAGE49_TERMINAL_LINES_PENDING
       internal_relation:
         state: SAME_WORK_RELATED_FORMS_NOT_INDEPENDENT_WITNESSES
         guard: "Thomas 55 and 101 are not counted as two independent historical attestations merely because the work contains both."
