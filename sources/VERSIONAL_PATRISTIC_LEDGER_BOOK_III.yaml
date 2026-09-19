@@ -210,8 +210,91 @@ records:
       - "Tertullian's theological linkage to Deuteronomy 30 is interpretation, not proof of Luke's intended source."
 
 
+
+  - id: ECR-DIDACHE-1-2-3-DOUBLE-ENEMY-LOVE
+    passages:
+      - Didache_1_2
+      - Didache_1_3
+    kind: EARLY_CHRISTIAN_RECEPTION_AND_NONCANONICAL_PARALLEL
+    work: Didache
+    physical_witness: WIT-DIDACHE-H54-HIEROSOLYMITANUS
+    related_variants:
+      - VAR-DOUBLE-LOVE-TORAH-SUMMARY
+      - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
+    text_state: DIRECT_PUBLISHED_GREEK_EDITION_PLUS_BOUND_PHYSICAL_WITNESS
+    reception:
+      Didache_1_2: "Places love of God and love of neighbor together at the head of the Way of Life and follows them with a negative-form reciprocal maxim."
+      Didache_1_3: "Immediately develops blessing persecutors/enemies and loving those who hate, alongside nonretaliation material."
+    significance:
+      - "Provides early Christian evidence for a combined love-command + enemy-love ethical complex outside the canonical narrative settings."
+      - "Shows reception/recombination of Torah-summary and Jesus-tradition material without making literary direction self-evident."
+    evidence:
+      - source: Lightfoot_Apostolic_Fathers_Didache_1
+        url: "https://www.ccel.org/ccel/lightfoot/fathers.ii.xii.html"
+      - source: Lake_Greek_Didache
+        url: "https://www.ccel.org/ccel/lake/fathers2.v.html"
+    guard:
+      - "Didache is an early Christian work, not a Gospel manuscript."
+      - "Its combination of material does not prove dependence on Matthew, Luke, or Mark rather than shared/other tradition."
+      - "One Didache work is not multiplied into separate independent historical attestations for each maxim."
+
+  - id: ECR-HERMAS-MANDATE4-DIVORCE
+    passage: Shepherd_of_Hermas_Mandate_4
+    kind: EARLY_CHRISTIAN_RECEPTION
+    work: Shepherd_of_Hermas
+    related_variant: VAR-DIVORCE-PAUL-1COR-7-RECEPTION
+    text_state: DIRECT_PUBLISHED_TEXT_EDITION_NOT_PHYSICAL_MANUSCRIPT_BINDING
+    reception:
+      divorce_adultery: "Hermas permits separation from an unrepentant adulterous spouse while requiring openness to repentance."
+      remarriage_during_spouse_life: "The separated spouse is not to remarry while reconciliation through repentance remains possible."
+      gender_rule: "The discussion explicitly applies the rule to man and woman alike."
+      widowhood: "Remarriage after a spouse's death is permitted, though celibacy is praised more highly."
+    significance:
+      - "Documents an early Christian reception/application trajectory around divorce, repentance, separation, and remarriage after Paul's Lord-command evidence."
+      - "Shows that later application involved pastoral qualifications rather than one flat repetition of a Gospel sentence."
+    evidence:
+      - source: New_Advent_Shepherd_Hermas_Commandment_4
+        url: "https://www.newadvent.org/fathers/02012.htm"
+      - source: Lightfoot_Apostolic_Fathers_Hermas_Mandate_4
+        url: "https://ccel.org/ccel/hermas/pastor/anf02.ii.iii.iv.html"
+    guard:
+      - "Hermas is reception evidence, not a fifth Gospel source."
+      - "The relationship of Hermas to Pauline, Gospel, oral, or church-disciplinary tradition is not fixed by thematic similarity."
+      - "Hermas does not recover the exact historical wording of Yeshua's divorce teaching."
+
+  - id: PAT-CLEMENT-GHEB-SEEK-FIND
+    passages:
+      - Clement_Stromata_2_9_45_5
+      - Clement_Stromata_5_14_96_3
+    kind: PATRISTIC_TESTIMONY_TO_LOST_NONCANONICAL_GOSPEL_TRADITION
+    author: Clement_of_Alexandria
+    related_variant: VAR-ASK-SEEK-KNOCK-THOMAS-2-92
+    lost_text: Gospel_according_to_the_Hebrews
+    testimony:
+      Stromata_2_9_45_5:
+        attribution_state: EXPLICIT_GOSPEL_OF_HEBREWS_ATTRIBUTION
+        report: "Clement explicitly says the Gospel according to the Hebrews contains a wonder -> reign -> rest saying."
+      Stromata_5_14_96_3:
+        attribution_state: FULLER_CHAIN_QUOTED_WITHOUT_REPEATED_SOURCE_NAME_IN_IMMEDIATE_CONTEXT
+        report: "Clement gives the fuller seek -> find -> marvel -> reign -> rest chain; scholarship connects it with the earlier explicitly attributed Gospel-of-the-Hebrews saying."
+    relation_to_Thomas_2:
+      state: CLOSE_PARALLEL_TO_GREEK_POXY654_CHAIN
+      report: "The chain closely parallels the Greek Thomas 2 progression preserved/reconstructed in P.Oxy. 654."
+    evidence:
+      - source: Clement_Stromata_2_9
+        url: "https://ccel.org/ccel/clement_alex/stromata/anf02.vi.iv.ii.ix.html"
+      - source: Text_and_Canon_Institute_Thomas2_GHebrews_comparison
+        url: "https://textandcanon.org/category/canon/apocrypha/"
+    guard:
+      - "Clement is surviving testimony; the Gospel according to the Hebrews is not physically recovered by the quotation."
+      - "The fuller Stromata 5.14 chain should not be described as freshly and explicitly re-attributed to the Gospel of the Hebrews in that immediate sentence."
+      - "Close parallelism with Thomas 2 does not by itself establish literary direction."
+
+
 invariants:
   - "VERSIONAL_STREAM != PHYSICAL_MANUSCRIPT."
   - "PATRISTIC_CITATION != GOSPEL_MANUSCRIPT."
   - "INDIRECT_LOST_TEXT_TESTIMONY != EXTANT_TEXT."
+  - "EARLY_CHRISTIAN_RECEPTION != GOSPEL_MANUSCRIPT."
+  - "PATRISTIC_TESTIMONY_TO_LOST_TEXT != EXTANT_LOST_TEXT."
   - "Agreement across versions may reflect shared translation or harmonization history and is not counted mechanically as independent historical attestation."
