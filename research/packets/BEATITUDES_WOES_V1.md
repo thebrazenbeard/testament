@@ -164,6 +164,36 @@ Not established:
 - that Luke's unqualified "poor" is automatically earlier than Matthew's "poor in spirit";
 - one recoverable original number/order of beatitudes.
 
+## Early Christian reception — Polycarp, Philippians 2
+
+Machine-readable control:
+- `ECR-POLYCARP-PHIL2-BEATITUDES`
+
+Polycarp introduces the saying cluster as words remembered from "the Lord" and preserves a beatitude form that does not map cleanly onto either extant Matthew or Luke.
+
+The reception form combines:
+- **poor** without Matthew's "in spirit" qualifier;
+- **persecuted for righteousness' sake**, strongly reminiscent of Matthew;
+- **kingdom of God**, matching Luke's kingdom wording rather than Matthew's "kingdom of heaven."
+
+That mixed profile is useful.
+
+It demonstrates that early Christian beatitude reception could:
+- combine remembered sayings;
+- compress different forms;
+- circulate catechetically;
+- or reflect literary contact not recoverable from wording alone.
+
+It does **not** establish that Polycarp sat with written Matthew and Luke and consciously conflated them.
+
+Nor does it tell us:
+- that Luke's poverty form is earlier;
+- that Matthew's qualification is secondary;
+- that Thomas 54 is independent.
+
+Polycarp is reception evidence, not a fourth Gospel witness for this cluster.
+
+
 ## Historical ceiling
 
 Strong:
