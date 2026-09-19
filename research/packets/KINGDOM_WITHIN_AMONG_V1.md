@@ -424,9 +424,9 @@ Harklean:
 - this is direct published-edition readback, not manuscript-image autopsy of Vat. Syr. 268.
 
 Debt consequence:
-- `LUKE17_21_OLD_SYRIAC_HARKLEAN_DIRECT_TEXT_ENCODING` is now technically satisfied subject to exact-head hostile review.
+- `LUKE17_21_OLD_SYRIAC_HARKLEAN_DIRECT_TEXT_ENCODING` was closed by hostile tranche 40 after exact-head review.
 
-This closes a text-access boundary. It does **not** convert the versional evidence into lexical certainty for Greek `entos hymon`.
+That closure removed a text-access boundary. It does **not** convert the versional evidence into lexical certainty for Greek `entos hymon`.
 
 ### Project-bias guard
 
