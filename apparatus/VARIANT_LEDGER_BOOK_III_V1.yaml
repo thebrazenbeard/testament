@@ -1151,6 +1151,17 @@ variants:
       reason: "Roman crucifixion imagery was available before Yeshua's death, so pre-death use is possible; post-crucifixion community retrojection remains independently plausible."
       guard: "Historical plausibility is not authenticity."
 
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      Thomas_vs_Synoptics:
+        state: RELATION_DISPUTED
+        live_models:
+          - DIRECT_OR_INDIRECT_SYNOPTIC_INFLUENCE
+          - COMMON_TRADITION
+          - MIXED_OR_MULTISTAGE_TRANSMISSION
+        guard: "Thomas 55's combination of family-renunciation, cross-bearing and worthiness language may be evidence of conflation or inherited combination, but neither dependence nor independence is promoted to project fact."
+      same_source_guard: "Reuse of Thomas 55 in both family-renunciation and cross-bearing analyses does not create a second independent Thomas witness."
+
     historical_ceiling:
       strong:
         - "Cross-bearing language is embedded in multiple early Christian discipleship forms."
