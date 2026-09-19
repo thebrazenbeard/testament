@@ -344,7 +344,7 @@ The reception evidence currently says:
 
 - ancient Latin strongly preserves interior wording;
 - Old Syriac is genuinely ambiguous;
-- Peshitta/Harklean are reported as more explicitly interior;
+- Peshitta/Harklean preserve more explicit interior renderings; Peshitta is directly text-bound and Harklean is now directly bound from the published Kiraz quotation reproduced by Ramelli;
 - Tertullian preserves an ancient power/reach interpretation;
 - modern commentary often prefers among/in-your-midst for contextual reasons.
 
@@ -371,29 +371,29 @@ Peshitta:
 
 These two streams are no longer merely "reported by scholarship."
 
-#### Still edition-reported rather than directly machine-bound
+#### Direct Old Syriac + Harklean binding
 
 Old Syriac Sinaiticus + Curetonian:
-- Kiraz, *Comparative Edition of the Syriac Gospels*, vol. 3, p. 352;
-- Ramelli reports the same wording in both;
-- the key Old Syriac prepositional expression remains semantically capable of inside/within or between/among;
-- accessible text extraction corrupts the Syriac font, so Testament does not freeze an exact Unicode string from that extraction.
+- the CAL-derived public corpus is pinned to exact Git blobs;
+- direct Luke 17:21 CAL rows are bound for both witnesses;
+- shared target token: `byntkwn`;
+- deterministic Unicode rendering: `ܒܝܢܬܟܘܢ`;
+- the corpus's own Syriac-script field at this locus is rejected as verse-misaligned;
+- the Old Syriac expression remains semantically capable of inside/within or between/among.
 
 Harklean:
-- same Kiraz locus;
-- Ramelli reports an explicit inside/interior form;
-- accessible text extraction likewise corrupts the Syriac font;
-- exact direct machine-readable wording therefore remains open.
+- Kiraz locus: *Comparative Edition of the Syriac Gospels*, vol. 3, p. 352;
+- Ramelli reproduces the Harklean line on *Hugoye* 12.2 (2009), p. 264;
+- direct rendered-page inspection plus a custom-font decode calibrated against the independently bound Peshitta line yields:
+  - `ܗܐ ܓܝܪ ܡܠܟܘܬܗ ܕܐܠܗܐ ܒܓܘܟܘܢ ܐܝܬܝܗ`;
+- target expression:
+  - `ܒܓܘܟܘܢ`;
+- this is direct published-edition readback, not manuscript-image autopsy of Vat. Syr. 268.
 
-This changes the live debt.
+Debt consequence:
+- `LUKE17_21_OLD_SYRIAC_HARKLEAN_DIRECT_TEXT_ENCODING` is now technically satisfied subject to exact-head hostile review.
 
-The old broad item:
-- `LUKE17_21_DIRECT_VERSIONAL_TEXT_COLLATION`
-
-is narrowed to:
-- `LUKE17_21_OLD_SYRIAC_HARKLEAN_DIRECT_TEXT_ENCODING`.
-
-This is a text-access boundary, not a semantic victory for "within."
+This closes a text-access boundary. It does **not** convert the versional evidence into lexical certainty for Greek `entos hymon`.
 
 ### Project-bias guard
 
