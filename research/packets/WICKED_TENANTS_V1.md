@@ -101,6 +101,89 @@ Thomas preserves much of the tenants narrative but separates the rejected-stone 
 That difference is useful for redaction history.
 It is not a chronology machine.
 
+### Redactional-fingerprint review — Thomas 65–66
+
+Source-level method:
+- `research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md`
+
+This cluster contains stronger dependence evidence than simple thematic similarity.
+
+#### Gathercole's Lukan-redaction argument
+
+Mark and Matthew do not use the relevant "perhaps" motif in the tenants sequence.
+
+Luke introduces one "perhaps" in the owner's reasoning.
+
+Thomas 65 contains two "perhaps" clauses.
+
+Simon Gathercole argues that this is a recognizable pattern:
+- Luke introduces a redactional feature;
+- Thomas preserves it;
+- Thomas expands it.
+
+Gathercole therefore treats Thomas 65–66 as among the local cases strengthening a Synoptic/Lukan-influence model.
+
+This is meaningful because a distinctive redactional feature carries more weight than:
+- shared vineyard imagery;
+- short formulaic wording;
+- general thematic overlap.
+
+#### Sequence evidence
+
+The tenants parable is followed by the rejected-stone saying in:
+- Mark;
+- Matthew;
+- Luke;
+- Thomas 65 → 66.
+
+Thomas separates the stone saying into its own adjacent logion.
+
+That still preserves an unusual sequence association.
+
+This is evidence of a literary/traditional relationship.
+
+It does not identify direction by itself.
+
+#### Counterevidence / alternative models
+
+The dependence case is not uncontested.
+
+John Kloppenborg and scholars working in that line have argued that Thomas 65 has features consistent with substantial autonomy:
+- less developed allegorization;
+- a more socially realistic vineyard/tenant narrative;
+- differences from the Synoptic narrative frames.
+
+Gregory Lanier's 2016 field survey treats:
+- source-critical direction;
+- original form;
+- authenticity;
+- the relation of Thomas 65–66 to the Synoptic forms
+
+as live, heavily disputed research questions.
+
+The existence of a dependence argument therefore does not authorize:
+- direct-copying certainty;
+- a global Thomas-dependence conclusion;
+- dismissal of Thomas's distinct form as historically useless.
+
+### Current local dependence state
+
+The bounded state is:
+
+**SYNOPTIC INFLUENCE PLAUSIBLE / REDACTIONAL FINGERPRINT REAL / DIRECTION AND MECHANISM NOT SECURE.**
+
+Specifically:
+- the doubled "perhaps" pattern gives the Lukan-influence hypothesis real local weight;
+- the 65→66 stone sequence strengthens evidence of a literary/traditional relationship;
+- Thomas's distinctive narrative form blocks a simple claim that every element is copied from Luke;
+- shorter/simpler Thomas wording remains unusable as a chronology test.
+
+References:
+- Simon Gathercole, *The Composition of the Gospel of Thomas* (2012).
+- Simon Gathercole, "Thomas Revisited" (2014), DOI 10.1177/0142064X14520658.
+- Gregory R. Lanier, "Mapping the Vineyard" (2016), DOI 10.1177/1476993X15577030.
+- John S. Kloppenborg, "A New Synoptic Problem" (2014), DOI 10.1177/0142064X14520653.
+
 ### Anti-supersession guard
 
 This is a high-risk passage for historical overreach.
