@@ -160,12 +160,29 @@ records:
       guard: "Latin intra strongly reflects interior/bounded reception, but translation evidence does not mechanically decide the Greek source sense."
     syriac:
       Old_Syriac_Sinaitic_and_Curetonian:
-        state: LEXEME_SEMANTICALLY_AMBIGUOUS
-        text_state: COMPARATIVE_EDITION_REPORTED_DIRECT_STABLE_UNICODE_PENDING
+        state: LEXEME_SEMANTICALLY_AMBIGUOUS_DIRECT_CAL_BOUND
+        text_state: DIRECT_CAL_ROMANIZATION_BOUND_TARGET_UNICODE_DERIVED_SOURCE_UNICODE_REJECTED
         edition_anchor: "Kiraz, Comparative Edition of the Syriac Gospels, vol. 3, p. 352"
+        computational_source:
+          repository: chenzhan4321/diatessaron-synopsis
+          commit: 6b165111c292aaa128272ff0d2daeb866986c0d7
+          Curetonian_blob: 768adf5651583b842cf4192367527a77687be696
+          Sinaiticus_blob: 7facf587c87237320defef3980872bc3b2749a32
+          converter_blob: 49099dc8dae6ba6c7bf2d965fb3d0dfbb69edf39
+        direct_CAL:
+          Curetonian: "wl) n)mrwn h) hrk) hy )w h) hrtmn hy, h) gyr mlkwth d)lh) byntkwn%"
+          Sinaiticus: "wl) )mryn hrk) hy )w hrtmn hy h) gyr mlkwth d)lh) byntkwn,"
+          shared_target: byntkwn
+        derived_unicode_target: "ܒܝܢܬܟܘܢ"
+        source_unicode_state: REJECTED_AT_THIS_LOCUS_VERSE_MISALIGNMENT
+        source_unicode_defect: "The public corpus stores an unrelated Syriac verse string beside both Luke 17:21 CAL rows; its converter documentation identifies verse-number misalignment in scraped Syriac-script fields and treats CAL romanization as ground truth."
         report: "Ramelli describes the shared Old Syriac wording as capable of within/inside or between/among senses."
         counter_report: "Older critical commentary can render the Sinaitic Syriac evidence as 'among.'"
         consequence: "Old Syriac must not be counted as an unambiguous vote for either side."
+        guard:
+          - "Derived Unicode is deterministic script conversion from direct CAL, not source-native Unicode or manuscript image readback."
+          - "The Curetonian terminal % marker remains unresolved source encoding and is not silently normalized."
+          - "Script encoding does not resolve the semantic within/among dispute."
       Peshitta:
         state: DIRECT_INTERIOR_FORM_BOUND
         text_state: DIRECT_TEXT_COLLATION_BOUND
@@ -179,7 +196,7 @@ records:
         report: "Ramelli argues the hyper-literal Harklean likewise uses an inside/interior expression."
       comparison_control:
         report: "Ramelli contrasts these Luke 17:21 renderings with Syriac renderings of Luke's en mesō + genitive expressions, especially Harklean forms that explicitly mean in-the-middle/among."
-        guard: "Direct project text collation currently covers Peshitta, not the Old Syriac/Harklean strings. The latter remain edition-reported pending stable direct text encoding."
+        guard: "Direct project text collation now covers Peshitta plus pinned Old Syriac CAL romanization and a reproducibly derived Old Syriac target-script form. Harklean remains edition-reported pending stable direct text encoding."
     evidence:
       - author: Ilaria_Ramelli
         title: "Luke 17:21: The Kingdom of God is Inside You"
@@ -190,7 +207,7 @@ records:
       - source: ICC_Luke_17_21
         state: COUNTER_RECEPTION_REPORT
         report: "Older ICC commentary notes Syriac Sinaitic support as 'among,' reinforcing the need to preserve ambiguity in the Old Syriac form."
-    state: PARTIAL_DIRECT_VERSIONAL_COLLATION_OLD_SYRIAC_HARKLEAN_ENCODING_PENDING
+    state: PARTIAL_DIRECT_VERSIONAL_COLLATION_OLD_SYRIAC_CAL_BOUND_HARKLEAN_ENCODING_PENDING
 
   - id: PAT-TERTULLIAN-LUKE17-21-POWER
     passage: Luke_17_21
