@@ -1,0 +1,21 @@
+schema_version: testament.on_theo_dependency.v1
+status: FOUNDATION_PIN / NONCANONICAL_UPSTREAM
+repository: thebrazenbeard/on-theo
+direction: ON_THEO_TO_TESTAMENT_ONLY
+inspected:
+  main:
+    commit: eedbcf660c2cfe6cff5636e798806b0cd3d56efc
+    role: minimal canonical method/source root observed during Testament foundation
+  world_traditions_snapshot:
+    commit: 5e6db919ab3b40615c14257e2a56751579cb72fe
+    role: broad research snapshot containing V1 architecture, registries, Panthera packets, and world-tradition expansion
+  sumerian_successor:
+    commit: 7e354667770a6c4bed958a01c5ff843345a35b40
+    role: later stacked research successor; not treated as canonical merely because later
+invariants:
+  - Testament prose never becomes evidence for On-Theo.
+  - Upstream branch/PR existence does not imply canonical acceptance.
+  - Each manuscript passage binds exact source/claim IDs or exact file+commit provenance where IDs do not yet exist.
+  - Upstream conflict or supersession invalidates affected Testament evidence bindings until reviewed.
+notes:
+  - On-Theo currently has substantial research outside main and a stacked branch graph; Testament must pin exact objects rather than assume main contains all accepted research.

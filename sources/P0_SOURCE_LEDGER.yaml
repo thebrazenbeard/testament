@@ -1,0 +1,199 @@
+schema_version: testament.p0_source_ledger.v2
+status: CORE_WITNESSES_REGISTERED_RESEARCH_ACTIVE
+scope: "Priority sources and material anchors for Books I-IV; not a complete bibliography."
+
+records:
+  - id: SRC-PAUL-GALATIANS
+    kind: PRIMARY_TEXT
+    work: Galatians
+    author: Paul
+    horizon: "mid-first century CE"
+    locators: ["1:18-24", "2:1-14"]
+    use: "Paul's self-reported contacts with Cephas/James, movement conflict, and chronology."
+    limits: "Does not narrate Yeshua's ministry; manuscript witness history still requires critical-edition binding."
+
+  - id: SRC-PAUL-1CORINTHIANS
+    kind: PRIMARY_TEXT
+    work: First Corinthians
+    author: Paul
+    horizon: "mid-first century CE"
+    locators: ["7", "9:5", "11:23-26", "15:3-8"]
+    use: "Early Lord-saying reception, last-meal tradition, death/burial/raising/appearance tradition."
+    limits: "No detailed Gospel-style Passion or empty-tomb narrative."
+
+  - id: SRC-MARK
+    kind: PRIMARY_TEXT
+    work: Gospel according to Mark
+    horizon: "commonly c. 65-75 CE"
+    use: "Earliest extant narrative Gospel under common dating."
+    limits: "Literary/theological narrative; Matthew/Luke repetition is not independent by default; exact critical edition/witness must be declared where wording matters."
+
+  - id: SRC-MATTHEW
+    kind: PRIMARY_TEXT
+    work: Gospel according to Matthew
+    horizon: "commonly c. 80-95 CE"
+    use: "Distinct infancy, sayings, community, Passion, and resurrection forms."
+    limits: "Substantial Markan dependence probable; double-tradition independence disputed."
+
+  - id: SRC-LUKE-ACTS
+    kind: PRIMARY_TEXT_TWO_VOLUME_WORK
+    work: Luke-Acts
+    horizon: "commonly c. 80-95 CE; dating debated"
+    use: "Distinct infancy and resurrection forms; later narrative witness to earliest movement and Paul."
+    limits: "Acts must be checked against Paul's own letters for Pauline chronology/conflict; idealized Jerusalem summaries are not historical floor by default."
+
+  - id: SRC-JOHN
+    kind: PRIMARY_TEXT
+    work: Gospel according to John
+    horizon: "late first/early second century final-form range often proposed; strata debated"
+    use: "Distinctive ministry geography, Jerusalem material, Passion chronology, and resurrection traditions."
+    limits: "Long discourses are not exact transcripts by default; relation to Synoptics is unit-specific and disputed."
+
+  - id: SRC-DIDACHE
+    kind: PRIMARY_TEXT_EARLY_CHRISTIAN_COMPOSITE
+    work: Didache
+    horizon: "composite early Christian work; compositional stages and dating remain disputed"
+    use: "Early reception/transmission witness for sayings, ethics, Two Ways material, liturgy, and community practice."
+    limits: "Does not become an independent historical-Jesus witness merely by paralleling Synoptic sayings; exact dependence must be argued per unit. Physical witness date is not composition date."
+
+  - id: SRC-1-CLEMENT
+    kind: PRIMARY_TEXT_EARLY_CHRISTIAN_LETTER
+    work: 1_Clement
+    origin: "Letter from the church at Rome to the church at Corinth"
+    horizon: "early Christian; commonly placed in the late first century, while precise dating remains disputed and manuscript evidence is later"
+    use: "Early reception/transmission witness for attributed Lord sayings, community ethics, and post-apostolic church practice."
+    access:
+      - "https://www.newadvent.org/fathers/1010.htm"
+      - "https://en.wikisource.org/wiki/1_Clement_(Lake)"
+    limits: "1 Clement is not a Gospel manuscript and does not become independent historical-Jesus attestation merely by paralleling Synoptic sayings. Literary/oral dependence must be argued per unit; witness date never becomes composition date."
+
+  - id: SRC-JUSTIN-FIRST-APOLOGY
+    kind: PRIMARY_TEXT_EARLY_CHRISTIAN_APOLOGY
+    work: Justin_First_Apology
+    author: Justin_Martyr
+    horizon: "mid-second century; exact dating within the Antonine period remains a scholarly question"
+    use: "Early Christian reception/citation witness for sayings attributed to Christ and for second-century apologetic interpretation."
+    access:
+      - "https://ccel.org/ccel/justin_martyr/first_apology/anf01.viii.ii.xvii.html"
+      - "https://www.newadvent.org/fathers/0126.htm"
+    limits: "Justin is reception evidence, not a Gospel manuscript or automatically independent historical-Jesus attestation. Exact relationship to written Gospels, oral tradition, memory, and apologetic redaction must be argued per unit."
+
+  - id: SRC-JOSEPHUS-ANTIQUITIES-18-JOHN
+    kind: PRIMARY_TEXT
+    work: Jewish Antiquities
+    author: Flavius Josephus
+    locator: "18.116-119"
+    access: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0146%3Abook%3D18%3Asection%3D116"
+    use: "External literary witness to John the Baptist and Herod Antipas."
+    limits: "Later than John's death; does not establish Jesus-John relationship."
+
+  - id: SRC-JOSEPHUS-ANTIQUITIES-20-JAMES
+    kind: PRIMARY_TEXT
+    work: Jewish Antiquities
+    author: Flavius Josephus
+    locator: "20.200"
+    use: "Potential external witness to James identified in relation to Jesus called Christ."
+    limits: "Authenticity and exact textual history must remain explicit; not evidence for detailed Gospel biography."
+
+  - id: SRC-PHILO-LEGATIO-PILATE
+    kind: PRIMARY_TEXT
+    work: Legatio ad Gaium
+    author: Philo of Alexandria
+    locator: "299-305"
+    use: "Near-contemporary literary context for Pilate's administration and Jerusalem shield incident."
+    limits: "Rhetorical/theological aims affect characterization; no direct Yeshua biography."
+
+  - id: SRC-TACITUS-ANNALS-15_44
+    kind: PRIMARY_TEXT_EXTERNAL_ROMAN
+    work: Annals
+    author: Tacitus
+    locator: "15.44"
+    horizon: "early second century CE"
+    use: "Later Roman witness that Christus was executed under Pontius Pilate during Tiberius's reign and that Christians were known at Rome under Nero."
+    limits: "Source of Tacitus's information is not explicit; does not verify Gospel trial details."
+
+  - id: MAT-PILATE-INSCRIPTION
+    kind: MATERIAL_EVIDENCE
+    artifact: Caesarea inscription naming Pontius Pilatus as praefectus Iudaeae
+    discovery_year: 1961
+    use: "Pilate identity/title and Roman provincial context."
+    limits: "Says nothing about Yeshua."
+
+  - id: MAT-YEHOHANAN-CRUCIFIXION
+    kind: MATERIAL_EVIDENCE
+    artifact: "Calcaneus pierced by iron nail from first-century Jerusalem burial"
+    use: "Direct evidence of at least one crucifixion technique in Judaea."
+    limits: "Does not determine Yeshua's exact crucifixion mechanics."
+
+  - id: SCH-FERDA-2020-JOHN-JESUS
+    kind: SCHOLARLY_INTERPRETATION
+    title: "The Historicity of Confusion: Jesus, John the Baptist, and the Construction of Public Identity"
+    venue: Journal of Biblical Literature
+    year: 2020
+    doi: "10.15699/JBL.1394.2020.7"
+
+  - id: SCH-KRAEMER-2006-JOHN-DEATH
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Implicating Herodias and Her Daughter in the Death of John the Baptizer"
+    venue: Journal of Biblical Literature
+    year: 2006
+    doi: "10.2307/27638363"
+
+  - id: SCH-TAYLOR-2006-PILATE
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Pontius Pilate and the Imperial Cult in Roman Judaea"
+    venue: New Testament Studies
+    year: 2006
+    doi: "10.1017/S0028688506000300"
+
+  - id: SCH-COOK-2011-CRUCIFIXION-BURIAL
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Crucifixion and Burial"
+    venue: New Testament Studies
+    year: 2011
+    doi: "10.1017/S0028688510000214"
+
+  - id: SCH-MAGNESS-2012-JEWISH-BURIAL
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Ancient Jewish Tombs and Burial Customs (to 70 C.E.)"
+    work: The Archaeology of the Holy Land
+    year: 2012
+    url: "https://www.cambridge.org/core/books/abs/archaeology-of-the-holy-land/ancient-jewish-tombs-and-burial-customs-to-70-ce/0C0B48471EC795D191D583248B24FD92"
+
+  - id: SCH-WARE-2014-1COR15
+    kind: SCHOLARLY_INTERPRETATION
+    title: "The Resurrection of Jesus in the Pre-Pauline Formula of 1 Cor 15.3-5"
+    venue: New Testament Studies
+    year: 2014
+    doi: "10.1017/S0028688514000150"
+
+  - id: SCH-COOK-2017-EMPTY-TOMB-PAUL
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Resurrection in Paganism and the Question of an Empty Tomb in 1 Corinthians 15"
+    venue: New Testament Studies
+    year: 2017
+    doi: "10.1017/S002868851600028X"
+
+  - id: SCH-PIETZ-2026-MARY-MAGDALENE
+    kind: SCHOLARLY_INTERPRETATION
+    title: "Mary Magdalene and the Early Jesus Movement"
+    venue: Oxford Research Encyclopedia of Gender and Women's History
+    year: 2026
+    doi: "10.1093/9780197852675.003.0155"
+
+  - id: SCH-ANDRADE-2025-KILLING-MESSIAH
+    kind: SCHOLARLY_INTERPRETATION
+    title: Killing the Messiah
+    publisher: Oxford University Press
+    year: 2025
+    url: "https://academic.oup.com/book/59249"
+    limits: "Recent reconstruction to test against alternative historical models; not project fact."
+
+  - id: SCH-COLE-2026-ACTS-COLLECTION
+    kind: SCHOLARLY_INTERPRETATION
+    title: "On Luke's Silence Concerning Paul's Collection for Jerusalem"
+    venue: Journal of Theological Studies
+    year: 2026
+    doi: "10.1093/jts/flag034"
+    use: "Current reminder that Acts and Paul's letters do not simply duplicate the same Pauline chronology/agenda."
+    limits: "Interpretation of Luke's silence; not a primary witness."

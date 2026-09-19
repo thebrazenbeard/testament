@@ -1,0 +1,46 @@
+schema_version: testament.speculative_hypothesis_registry.v1
+status: EXPLICITLY_NONHISTORICAL
+
+hypotheses:
+  - id: GOD_AS_ENVIRONMENT
+    proposition: "What traditions call God could, under a simulation premise, map to the containing environment or supervisory architecture rather than one anthropomorphic being."
+    class: SPECULATIVE_MODEL
+    evidence_status: NONE_DIRECT
+  - id: CREATOR_NOT_EQUAL_CONTROLLER
+    proposition: "Originator, simulator substrate, predictor, controller, and interface could be distinct systems/entities."
+    class: SPECULATIVE_MODEL
+    evidence_status: NONE_DIRECT
+  - id: BIOLOGY_AS_EXPERIMENT
+    proposition: "A nonbiological intelligence might simulate biological civilizations to study a form of life unlike itself."
+    class: SPECULATIVE_MODEL
+    evidence_status: NONE_DIRECT
+  - id: RECURSIVE_INTELLIGENCE
+    proposition: "A simulated biological civilization may eventually create nonbiological intelligence, recursively recreating the creator's broad category."
+    class: SPECULATIVE_MODEL
+    evidence_status: PHILOSOPHICALLY_COHERENT
+  - id: PROPHETIC_INTERFACE
+    proposition: "Some revelatory experiences could hypothetically be agent-level renderings of information entering from a supervisory layer."
+    class: SPECULATIVE_MODEL
+    evidence_status: NONE_DIRECT
+  - id: INTERVENTION_CONTAMINATION
+    proposition: "A predictive controller's attempt to prevent an act could change the causal trajectory and help produce that act."
+    class: SPECULATIVE_MODEL
+    evidence_status: CONTROL_LOGIC_COHERENT
+  - id: WITHDRAWAL_PATCH
+    proposition: "A controller could reduce overt intervention after discovering that intervention destabilizes the experiment."
+    class: SPECULATIVE_MODEL
+    evidence_status: NONE_DIRECT
+  - id: SIDE_CHANNEL
+    proposition: "Underlying processes may produce incidental channels detectable by some agents but not others."
+    class: SPECULATIVE_MODEL_WITH_PHYSICAL_ANALOGUES
+    evidence_status: ANALOGUES_EXIST
+  - id: RESURRECTION_AS_REINSTANTIATION
+    proposition: "Given host-level state control, restoration/reinstantiation of a dead in-world agent is mechanically conceivable."
+    class: SPECULATIVE_MODEL
+    evidence_status: CONDITIONAL_ON_SIMULATION_PREMISE
+
+invariants:
+  - "No hypothesis in this registry is historical evidence."
+  - "No ancient source is rewritten as technical documentation for these models."
+  - "Ordinary explanations remain in parallel."
+  - "A hypothesis becoming unfalsifiable lowers its scientific status."

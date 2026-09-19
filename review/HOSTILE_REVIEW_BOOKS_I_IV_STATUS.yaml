@@ -1,0 +1,54 @@
+schema_version: testament.hostile_review_i_iv.v5
+overall_status: ACTIVE
+complete: false
+
+tranche_1:
+  original_target: ffe4cf8e8531afdbe7980175474413637635b193
+  repair_target: 6729d637c870040f38f0012462607b1938bbad2b
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-IIV-001..HR-IIV-014
+
+tranche_2:
+  original_target: 6729d637c870040f38f0012462607b1938bbad2b
+  repair_target: 34bacd484eb0cc9fa012a39d489d6d900b552491
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-IIV-015..HR-IIV-023
+
+tranche_3:
+  original_target: 76c8ed9942968ca3144cef2037e3b1c77bf83cc5
+  repair_target: 7b98cb029581e23792efcec9d40bfa65dee6ae39
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-IIV-024..HR-IIV-029
+
+tranche_4:
+  original_target: 85928cb5bd56af202f4be4a716964ee7bd9da634
+  repair_target: 660649b81d36410363c9f288eff071f2d28c7132
+  status: PASS_AFTER_INLINE_REPAIR
+  finding_range: HR-IIV-030..HR-IIV-032
+
+tranche_5:
+  original_target: 135470ab33b05a24544f9c350dce06d4b438a0b9
+  repair_target: 9a30ab343cc8955541db11f87aa27c4b07337d41
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-IIV-033..HR-IIV-037
+
+tranche_6:
+  original_target: 10e13d79c2b6751cf399305e99b0ba6d18851a8f
+  repair_target: 569a222f1f6d7fbc2839f74b6bbc90a46ec0d4e8
+  status: PASS_FOR_TRANCHE
+  finding_range: HR-IIV-038..HR-IIV-041
+  remaining_debt:
+    - AUTOPTIC_HAND_LEVEL_VERIFICATION
+    - VERSIONAL_WITNESS_EXPANSION
+
+next_scope:
+  - Book_III_variant_and_witness_controls
+  - exact_variant_autoptic_or_apparatus_deepening
+  - remaining_partial_source_gate_packets
+  - grief_vision_and_postdeath_experience_literature
+
+invariants:
+  - "Tranche PASS is exact-head-bound."
+  - "PASS may preserve explicitly typed unresolved research debt."
+  - "Overall review remains ACTIVE until all declared review scopes close."
+  - "No hostile-review pass authorizes merge or manuscript promotion."

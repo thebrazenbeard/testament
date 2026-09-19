@@ -1,0 +1,39 @@
+schema_version: testament.primary_source_checklist.v1
+status: ACTIVE_ACQUISITION
+
+groups:
+  - id: HEBREW_SCRIPTURES
+    required: true
+    items: [Masoretic_tradition, Dead_Sea_biblical_witnesses, Septuagint, Samaritan_Pentateuch_relevant_passages, Targumic_reception]
+  - id: SECOND_TEMPLE
+    required: true
+    items: [Deuterocanon, 1_Enoch, Jubilees, Psalms_of_Solomon, Testaments_of_Twelve_Patriarchs, 4_Ezra, 2_Baruch, Qumran_sectarian_corpus, Philo, Josephus]
+  - id: NEW_TESTAMENT
+    required: true
+    items: [Paul_undisputed, Mark, Matthew, Luke_Acts, John, remaining_NT_books]
+  - id: EARLY_CHRISTIAN_EXTRA_CANONICAL
+    required: true
+    items: [Didache, 1_Clement, Ignatius, Polycarp, Papias_fragments, Shepherd_Hermas, Barnabas]
+  - id: APOCRYPHAL_GOSPELS
+    required: true
+    items: [Thomas, Peter, Mary, Judas, Philip, Gospel_of_Truth, Jewish_Christian_gospel_fragments, Egerton, Oxyrhynchus_fragments, Protevangelium, Infancy_Thomas, Acts_of_Pilate, Apocryphon_of_James]
+  - id: EXTERNAL_HOSTILE
+    required: true
+    items: [Tacitus, Pliny, Suetonius, Lucian, Celsus_via_Origen, Mara_bar_Serapion]
+  - id: RABBINIC
+    required: true
+    items: [Mishnah, Tosefta, Jerusalem_Talmud, Babylonian_Talmud, early_Midrash, Toledot_Yeshu]
+  - id: EASTERN_CHRISTIAN
+    required: true
+    items: [Old_Syriac, Peshitta, Diatessaron_evidence, Ephrem, Aphrahat, relevant_Armenian_Georgian_Ethiopic_Arabic_witnesses]
+  - id: ISLAMIC
+    required: true
+    items: [Quran, early_Quran_manuscripts, early_tafsir, relevant_hadith, later_mystical_Jesus]
+  - id: MYSTICAL
+    required: true_for_books_6_to_8
+    items: [Hekhalot, Sefer_Yetzirah, Bahir, Zohar, later_Kabbalah]
+  - id: MATERIAL
+    required: true
+    items: [inscriptions, coins, archaeology, papyri, burial_practice, crucifixion_evidence, naming_data]
+
+completion_rule: "An item is complete only when primary access, dating/witness controls, major scholarship, and counterargument are recorded."
