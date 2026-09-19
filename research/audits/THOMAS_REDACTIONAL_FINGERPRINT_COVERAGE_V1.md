@@ -79,27 +79,24 @@ Controlled result:
 - RELATION_DISPUTED
 - DIRECT_GREEK_VERBATIM_AGREEMENT_STRONG_CONTACT_ARGUMENT_WITH_ORAL_COUNTERMODEL
 
+### Thomas 4 — First / last
+Status: DEEP_REVIEW_COMPLETE
+Hostile review:
+- tranche 22
+
+Key diagnostic evidence:
+- P.Oxy. 654 preserves/reconstructs a reciprocal first/last maxim whose core aligns especially closely with Mark 10:31;
+- the papyrus line is fragmentary and partly restored;
+- the Coptic form drops the reciprocal last-to-first half;
+- proverb portability and intra-Thomas instability remain strong countercontrols.
+
+Controlled result:
+- RELATION_DISPUTED
+- DIRECT_GREEK_RECONSTRUCTED_CORE_CLOSE_MARK_AGREEMENT_WITH_PORTABLE_MAXIM_COUNTERMODEL
+
 ## Remaining fingerprint coverage
 
-### Priority A — direct Greek + Coptic evidence and close Synoptic parallel
-
-#### Thomas 4 — first / last
-Control:
-- VAR-FIRST-LAST-THOMAS-4
-
-Witness quality:
-- P.Oxy. 654 Greek;
-- NHC II Coptic.
-
-Why high priority:
-- direct Greek/Coptic transmission difference already established;
-- first/last maxim appears in multiple Synoptic literary settings;
-- portable maxim creates high risk of mistaking recurrence for dependence.
-
-Next question:
-- is any surviving Thomas 4 wording diagnostically Synoptic, or is the shared maxim too portable/formulaic?
-
-### Priority B — partial Greek witness or semantically adjacent relation
+### Priority A — partial Greek witness or semantically adjacent relation
 
 #### Thomas 3 / 113 — kingdom location
 Control:
@@ -154,12 +151,11 @@ Risk:
 
 ## Priority order
 
-1. Thomas 4
-2. Thomas 3 / 113
-3. Thomas 2 / 92
-4. Thomas 100
-5. Thomas 107
-6. Thomas beatitude cluster
+1. Thomas 3 / 113
+2. Thomas 2 / 92
+3. Thomas 100
+4. Thomas 107
+5. Thomas beatitude cluster
 
 This is an evidence-priority order, not a historical-authenticity ranking.
 
