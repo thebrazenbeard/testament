@@ -141,7 +141,7 @@ witnesses:
       precision: "late second to early third century CE; Michigan cataloguing commonly gives ca. 180-220 CE; dating remains scholarly rather than self-dating"
     language: Greek
     physical_scope: "Substantial Pauline corpus including most of 1 Corinthians"
-    access_mode: SCHOLARLY_MANUSCRIPT_METADATA
+    access_mode: SCHOLARLY_MANUSCRIPT_METADATA_PLUS_INSTITUTIONAL_DIGITAL_IMAGE_ROUTE_IDENTIFIED
     locators:
       - passage: First_Corinthians_7_10_11
         reading_state: EXTANT_FOLIO_LOCALIZED
@@ -150,20 +150,42 @@ witnesses:
           shelfmark: "CBL BP II"
           folio: "45v"
           folio_contents: "1 Corinthians 7:4-12"
+        institutional_image_routes:
+          Chester_Beatty_1937_plate:
+            source: "Chester Beatty digital facsimile index / Kenyon Pauline Epistles plates"
+            report: "The institutional plate index labels f. 45v as I Corinthians VII, 4-12."
+            url: "https://chesterbeatty.ie/assets/uploads/2018/11/Biblical-Papyri-Descriptions-and-Texts-of-Twelve-Manuscripts-on-Payprus-of-the-Greek-Bible-III-plates-Opt_Part1.pdf"
+            access_state: INDEXED_VISUAL_PLATE_IDENTIFIED_DIRECT_PDF_RENDER_BLOCKED_403
+          CSNTM:
+            manuscript_page: "https://manuscripts.csntm.org/manuscript/Group/GA_P46"
+            description_pdf: "https://images.csntm.org/Manuscripts/GA_P46/P46%20(CBL%20BP%20II).pdf"
+            provenance: "CSNTM states that the Dublin P46 images are from the Chester Beatty Collection."
+            folio_map: "CSNTM description independently maps f. 45v to 1 Corinthians 7:4-12 and f. 45r to 1 Corinthians 7:12-19."
+            ui_order_mapping:
+              state: UI_ORDER_INFERENCE_NOT_PIXEL_READBACK
+              report: "In CSNTM gallery order, four 1 Cor 7:4 image entries align with the P46_045a_* image family and are followed by four 1 Cor 7:12 entries aligned with P46_045b_*; this associates 045a with 45v and 045b with 45r in the current gallery."
+            candidate_45v_image_service: "https://images.csntm.org/IIIFServer.ashx/GA_P46/P46_045a_k.jpg/full/100,/0/native.jpg"
+            image_service_state: HTTP_200_BINARY_ROUTE_RESOLVES_EXTRACTOR_CANNOT_RENDER_PIXELS
         reading_note: "Folio 45v contains 1 Corinthians 7:4-12 and therefore directly includes Paul's early divorce instruction at 7:10-11 invoking a command of 'the Lord.' This is evidence for Paul's text and early reception of a Lord-command, not a manuscript witness to Mark/Matthew/Luke wording."
         evidence:
+          - source: Chester_Beatty_Kenyon_P46_plate_index
+            state: INSTITUTIONAL_FACSIMILE_PLATE_IDENTIFICATION
+            report: "Direct institutional index identifies f. 45v as I Corinthians VII, 4-12."
+          - source: CSNTM_P46_description
+            state: INSTITUTIONAL_DIGITAL_COLLECTION_FOLIO_MAP
+            report: "CSNTM identifies f. 45v as 1 Corinthians 7:4-12."
           - source: D_Edgar_1998_P46_English_translation
             state: LINE_BY_LINE_CHESTER_BEATTY_FOLIO_TRANSLATION
             report: "Identifies folio 45v as 1 Corinthians 7:4-12."
           - source: P46_holdings_breakdown
             state: CODEx_HOLDING_DISTRIBUTION
             report: "Folio 45 lies in the Chester Beatty portion of P46; the Michigan 1 Corinthians leaf is folio 40 only, while folios 41-69 are Chester Beatty."
-        image_state: DIRECT_CHESTER_BEATTY_IMAGE_READBACK_PENDING
+        image_state: DIRECT_CHESTER_BEATTY_IMAGE_ROUTE_RESOLVED_PIXEL_READBACK_PENDING
     limitations:
       - "Witness date is not the date of Paul's composition."
       - "Paul's 'not I but the Lord' does not by itself preserve the exact wording or historical setting of the Gospel divorce sayings."
       - "Testament has not performed autoptic collation of P46."
-      - "The 1 Corinthians 7:10-11 leaf is now localized to CBL BP II folio 45v; direct Chester Beatty image readback remains pending."
+      - "The 1 Corinthians 7:10-11 leaf is localized to CBL BP II folio 45v and direct institutional/CSNTM image routes are resolved; current extractors still do not deliver renderable 45v pixels, so direct image readback remains pending."
 
 
 
