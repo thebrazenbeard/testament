@@ -119,10 +119,11 @@ This is independent facsimile/publication cross-binding of:
 
 It materially strengthens target identity and removes dependence on one facsimile-description chain.
 
-Runtime boundary:
-- the PDF text/extraction layer exposes the Plate X caption and its manuscript-page identification;
-- the PDF screenshot endpoint repeatedly failed with a cache-miss error in the current runtime;
-- therefore Testament does **not** claim fresh pixel/glyph inspection from Kenyon's plate in this pass.
+Runtime update:
+- the earlier PDF screenshot endpoint remained unreliable;
+- a direct Internet Archive JPEG route for Kenyon scan page 175 was subsequently resolved and the Plate X pixels were retrieved;
+- those pixels were used only for image-identity registration against Hoskier's scan, not for a fresh diplomatic Greek transcription;
+- the exact Kenyon JPEG SHA-256 is `6a72f3cc3071c64a8b5df31ddb27a809f74d84e6efb159b9846925107ca83707`.
 
 Published wording control:
 - Metzger reports 700: `ἐλθέτω τὸ πνεῦμά σου τὸ ἅγιον ἐφ’ ἡμᾶς καὶ καθαρισάτω ἡμᾶς`;

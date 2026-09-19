@@ -64,6 +64,20 @@ Best normalized correlation against Kenyon Plate X:
 
 The page-27 match is more than 3.5 times the other actual manuscript candidate and more than 7 times the blank/verso-like page 29.
 
+### Neighborhood falsification control
+
+The registration was then widened from the hand-picked 25/27/29 set to every surrounding Hoskier scan page 22–35.
+
+Best control scores:
+- page 27: **0.2978**;
+- next-highest page 30: **0.1486**;
+- page 28: **0.1486**;
+- page 24: **0.1469**;
+- page 25: **0.1033**;
+- page 29: **0.0423**.
+
+Page 27 remains the clear neighborhood outlier, at about twice the next surrounding-page score. This does not turn correlation into manuscript transcription; it strengthens only the image-identity assignment.
+
 ## Result
 
 Resolved:
