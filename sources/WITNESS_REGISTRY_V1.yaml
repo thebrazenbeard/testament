@@ -475,12 +475,18 @@ witnesses:
     locators:
       - passage: Thomas_26
         reading_state: EXTANT_FRAGMENTARY_GREEK
-        reading_note: "Directly preserves only the latter portion of the speck/log saying, including the concluding remove-the-speck sequence. The leaf begins within logion 26, so the opening beam/speck wording preserved in Coptic is not directly witnessed by this Greek fragment."
-        collation_state: LIMITED_OVERLAP_BOUND
-        collation_guard: "Use the Greek fragment only for wording actually preserved/restored in its surviving portion; do not reconstruct the complete Greek Thomas 26 from the Coptic form."
+        manuscript_lines: "P.Oxy. 1.1-4"
+        line_collation: research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md
+        reading_note: "Directly preserves only the latter portion of the speck/log saying. Lines 1-4 preserve the concluding clause represented in normalized critical text as 'kai tote diablepseis ekbalein to karphos to en to ophthalmō tou adelphou sou.' The leaf begins within logion 26, so the opening beam/speck wording preserved in Coptic is not directly witnessed by this Greek fragment."
+        collation_state: CRITICAL_EDITION_LINE_RANGE_BOUND
+        direct_visible_scope: "concluding remove-the-speck clause only"
+        synoptic_overlap_note: "Goodacre identifies a thirteen-word verbatim agreement with Luke 6:42 in this surviving Greek conclusion, with ekbalein placement aligning with Matthew 7:5."
+        collation_guard: "The direct Greek datum applies only to the concluding P.Oxy. 1.1-4 clause. Do not reconstruct or describe the complete Thomas 26 as an extant Greek saying."
         scholarship:
           - url: "https://www.nasscal.com/manuscripta-apocryphorum/oxford-bodleian-library-ms-gr-th-e-7-p-p-oxy-i-1/"
-          - url: "https://www.earlychristianwritings.com/thomas/gospelthomas26.html"
+          - source: Grenfell_and_Hunt_Oxyrhynchus_Papyri_I
+            locus: "P.Oxy. 1, lines 1-4"
+          - source: Mark_Goodacre_Thomas_and_the_Gospels_2012
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/oxford-bodleian-library-ms-gr-th-e-7-p-p-oxy-i-1/"
@@ -522,12 +528,23 @@ witnesses:
           - url: "https://www.earlychristianwritings.com/thomas/gospelthomas4.html"
       - passage: Thomas_3
         reading_state: EXTANT_FRAGMENTARY_GREEK
-        reading_note: "Directly preserves substantial portions of Thomas 3. Published Greek/Coptic comparison shows a material location-form difference: the Greek form has the second proposed kingdom-location under the earth, while the Coptic form has it in the sea. Some Greek lines remain lacunose; Coptic wording must not be used to fill Greek gaps without labeling reconstruction."
-        collation_state: PUBLISHED_GREEK_COPTIC_COMPARISON_BOUND
-        collation_guard: "Restored Greek phrases, including proposed divine-title wording where lacunose, remain editorial reconstruction rather than extant papyrus text."
+        manuscript_lines: "P.Oxy. 654.9-21"
+        line_collation: research/collations/THOMAS_3_26_GREEK_LINE_COLLATION_V1.md
+        reading_note: "Directly preserves substantial portions of Thomas 3. At the kingdom/entos transition, the editio-princeps diplomatic sequence has line 15 ending with '...KAI H BAS[' and line 16 preserving 'ENTOS YMWN [.]STI ['. Completion of the kingdom title between those visible pieces is editorial restoration, not continuously extant ink. Published Greek/Coptic comparison also shows the second false kingdom-location under the earth in Greek versus in the sea in Coptic."
+        collation_state: CRITICAL_EDITION_LINE_RANGE_BOUND
+        direct_visible_core:
+          - "line 15: ...ΚΑΙ Η ΒΑΣ["
+          - "line 16: ΕΝΤΟΣ ΥΜΩΝ [.]ΣΤΙ ["
+        restored_elements:
+          - "completion of BAS[ to basileia"
+          - "theou in the lacuna between the visible kingdom stem and entos hymon"
+          - "other lacunose surrounding wording supplied by critical reconstruction"
+        collation_guard: "The direct Greek datum supports a kingdom-expression immediately before entos hymon and preserves entos hymon at the relevant point. Do not quote the complete normalized 'kingdom of God is within you' phrase as continuously extant papyrus ink."
         scholarship:
           - url: "https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/"
-          - url: "https://www.earlychristianwritings.com/thomas/gospelthomas3.html"
+          - source: Grenfell_and_Hunt_Oxyrhynchus_Papyri_IV
+            locus: "P.Oxy. 654, lines 9-21"
+          - source: Attridge_Greek_Fragments_1989
     manuscript_context:
       - source: NASSCAL
         url: "https://www.nasscal.com/manuscripta-apocryphorum/london-british-library-pap-1531-p-oxy-iv-654/"
