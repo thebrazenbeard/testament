@@ -58,21 +58,30 @@ records:
 
   - id: PAT-ORIGEN-ON-PRAYER-LUKE11
     passage: Luke_11_2_4
-    kind: PATRISTIC_CITATION_AND_EXEGESIS
+    kind: DIRECT_PATRISTIC_TEXTUAL_TESTIMONY_AND_EXEGESIS
     author: Origen
-    work: On_Prayer
-    locator: "Chapter XII and following Lord's Prayer exposition"
-    reading_state: SHORTER_LUKAN_FORM_CITED
+    work: De_oratione
+    locator: "18.2; 26.1; 29.1"
+    collation_control: research/collations/LUKE11_ORIGEN_ON_PRAYER_DIRECT_TEXT_V1.md
+    reading_state: DIRECT_PRIMARY_GREEK_SHORTER_LUKAN_FORM_BOUND
+    direct_lukan_form: "πάτερ, ἁγιασθήτω τὸ ὄνομά σου· ἐλθέτω ἡ βασιλεία σου· τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δίδου ἡμῖν τὸ καθ' ἡμέραν· καὶ ἄφες ἡμῖν τὰς ἁμαρτίας ἡμῶν, καὶ γὰρ αὐτοὶ ἀφίεμεν παντὶ τῷ ὀφείλοντι ἡμῖν· καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν"
     observed_features:
-      - "Luke opens with simple Father rather than Matthew's Our Father in heaven."
-      - "Luke lacks Matthew's will petition."
-      - "Origen's quoted Lukan form ends after the testing petition rather than adding deliverance from evil."
+      - "Luke opens with simple πάτερ rather than Matthew's expanded heavenly address."
+      - "Origen explicitly says Luke passes over Matthew's will petition after the kingdom petition and proceeds to daily bread."
+      - "Origen explicitly says the deliverance clause αλλα ρυσαι ημας απο του πονηρου is silent/omitted in Luke."
+      - "Origen treats Matthew's and Luke's prayer forms as materially different rather than verbally identical."
     evidence:
-      - url: "https://www.ccel.org/ccel/origen/prayer.xiii.html"
-      - url: "https://www.ccel.org/ccel/origen/prayer.xvii.html"
+      - source: CatholicLibrary_Synchronized_Origen_De_oratione_18_2
+        state: DIRECT_PRIMARY_GREEK_TEXT
+        url: "https://catholiclibrary.org/library/view?chunk.id=00000041&docId=%2FFathers-Synchronized-EN%2FOrigenes__De_oratione.en.html"
+      - source: CatholicLibrary_Synchronized_Origen_De_oratione_26_1
+        state: DIRECT_PRIMARY_GREEK_EXPLICIT_WILL_OMISSION_CONTROL
+      - source: CatholicLibrary_Synchronized_Origen_De_oratione_29_1
+        state: DIRECT_PRIMARY_GREEK_EXPLICIT_DELIVERANCE_OMISSION_CONTROL
     guard:
-      - "Origen is a patristic citation/exegete, not a physical Gospel manuscript."
-      - "Patristic citation can preserve textual evidence but may also paraphrase, harmonize, or reflect the author's exemplar."
+      - "Origen is patristic textual testimony/exegesis, not a physical Gospel manuscript."
+      - "Patristic citation can preserve textual evidence but may reflect citation practice, memory, harmonization, exemplar variation, or exegetical framing."
+      - "Origen's shorter form does not become Luke's autograph or the historical wording of Yeshua merely because it is directly recoverable."
 
   - id: VP-LUKE11-2-SPIRIT-FOR-KINGDOM
     passage: Luke_11_2
