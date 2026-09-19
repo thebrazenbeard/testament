@@ -39,7 +39,12 @@ variants:
             - WIT-03-CODEX-VATICANUS
           expansion:
             - WIT-D05-CODEX-BEZAE
-        witness_binding: SCHOLARLY_APPARATUS_REPORT_NOT_AUTOPTIC
+        sinaiticus_direct_transcription:
+          manuscript_locator: "British Library folio 236b, Luke 10:21-11:6"
+          state: SIMPLE_FATHER_VISIBLE_IN_OFFICIAL_ELECTRONIC_TRANSCRIPTION
+          method_state: OFFICIAL_SCHOLARLY_TRANSCRIPTION_DIRECTLY_READ_IMAGE_NOT_AUTOPTIC
+          guard: "The project transcription is image-checked scholarly data; Testament has not directly inspected the Luke 11:2 manuscript pixels."
+        witness_binding: SCHOLARLY_APPARATUS_PLUS_SINAITICUS_DIRECT_ELECTRONIC_TRANSCRIPTION_NOT_AUTOPTIC
         state: NAMED_WITNESS_BINDING_ACTIVE_HARMONIZATION_TOWARD_MATTHEW_PLAUSIBLE
 
       - id: LUKE11-2-WILL-PETITION
@@ -62,7 +67,8 @@ variants:
         sinaiticus_direct_transcription:
           manuscript_locator: "British Library folio 236b, Luke 10:21-11:6"
           state: EXPANDED_WILL_PETITION_VISIBLE
-          guard: "Official electronic transcription linked to the manuscript page; not Testament image-level autopsy."
+          method_state: OFFICIAL_SCHOLARLY_TRANSCRIPTION_DIRECTLY_READ_IMAGE_NOT_AUTOPTIC
+          guard: "Official electronic transcription is linked to and checked against manuscript images; Testament has not directly inspected the Luke 11:2 manuscript pixels."
         witness_binding: SCHOLARLY_TEXTUAL_NOTE_PLUS_DIRECT_ELECTRONIC_TRANSCRIPTION_NOT_AUTOPTIC
         state: HARMONIZATION_TOWARD_MATTHEW_STRONGLY_PLAUSIBLE
 
@@ -130,10 +136,13 @@ variants:
             - WIT-01-CODEX-SINAITICUS
         sinaiticus_state:
           manuscript_locator: "British Library folio 236b, Luke 10:21-11:6"
-          visible_transcription: SHORTER_ENDING
-          apparatus_report: "longer = corrector 1; shorter = original hand and corrector 2"
-          state: CONFLICT_DIRECT_CORRECTION_POPUP_READBACK_REQUIRED
-          guard: "Plain electronic transcription and correction-layer apparatus are distinct display layers; do not infer exact hand chronology from the plain text alone."
+          visible_transcription: SHORTER_ENDING_WITH_CORRECTION_MARKER_IN_DEFAULT_DISPLAY
+          official_transcription_method: IMAGE_CHECKED_SCHOLARLY_ELECTRONIC_TRANSCRIPTION
+          official_correction_model: "Correction alternatives are separately encoded; the XML specification says the first apparatus reading is the default display and is usually but not invariably the original reading."
+          apparatus_report: "NET reports longer = corrector 1; shorter = original hand and corrector 2; older secondary summaries conflict."
+          state: CONFLICT_DIRECT_CORRECTION_POPUP_OR_LOCUS_XML_APPARATUS_READBACK_REQUIRED
+          image_state: DIRECT_IMAGE_READBACK_PENDING
+          guard: "Default visible transcription, correction-layer apparatus, and manuscript image are distinct evidence layers; do not infer exact hand chronology from the default display alone."
         versional_patristic_support:
           expanded:
             - VP-LUKE11-4-LONGER-VERSIONAL-STREAMS
