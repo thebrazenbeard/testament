@@ -980,18 +980,41 @@ variants:
         guard: "Adjacency may reflect literary linkage, inherited sequence, or redaction; it does not prove pre-Synoptic independence or separability in the historical tradition."
 
     dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
       Synoptics:
         state: MARKAN_DEPENDENCE_PROBABLE_FOR_MATTHEW_LUKE
       Thomas_vs_Synoptics:
-        state: DISPUTED
-        evidence:
-          - kind: SCHOLARLY_ARGUMENT
-            source: "Hermeneutics and Early Christian Gospels"
-            report: "The Thomas 65/66 adjacency has been argued to preserve or reshape an earlier linkage between tenants and cornerstone traditions."
+        state: MIXED_EVIDENCE_REDACTIONAL_FINGERPRINT_CONTESTED
+        dependence_evidence:
+          - kind: LUKAN_REDACTIONAL_FINGERPRINT_ARGUMENT
+            scholar: Simon_Gathercole
+            report: "Gathercole argues that Luke adds a 'perhaps' to the Markan tenants narrative and Thomas 65 contains two 'perhaps' clauses, treating Thomas as expanding a Lukan redactional feature."
+            sources:
+              - title: "The Composition of the Gospel of Thomas"
+                year: 2012
+              - title: "Thomas Revisited"
+                year: 2014
+                doi: "10.1177/0142064X14520658"
+          - kind: ADJACENT_SEQUENCE_ARGUMENT
+            report: "Thomas 65 is immediately followed by the rejected-stone saying in Thomas 66, paralleling the tenants-plus-stone sequence in the Synoptics. This is stronger than mere thematic overlap but does not by itself identify direction."
+        autonomy_counterevidence:
+          - kind: SOCIAL_NARRATIVE_FORM_ARGUMENT
+            scholar: John_S_Kloppenborg
+            report: "Kloppenborg's work has been used to argue that Thomas 65 preserves a more socially realistic and substantially autonomous parable form despite the shared sequence."
+          - kind: FIELD_SURVEY
+            scholar: Gregory_R_Lanier
+            title: "Mapping the Vineyard: Main Lines of Investigation Regarding the Parable of the Tenants in the Synoptics and Thomas"
+            year: 2016
+            doi: "10.1177/1476993X15577030"
+            report: "Lanier treats source-critical direction, authenticity and original form as live contested questions rather than settled results."
           - kind: COMPARATIVE_METHOD
-            source: Melissa_Harl_Sellew
+            scholar: Melissa_Harl_Sellew
             doi: "10.1093/oxfordhb/9780190887452.013.27"
-        guard: "Neither Thomasine independence nor direct Synoptic dependence is promoted to fact from adjacency alone."
+            report: "Supports close comparison without forcing a global dependence/autonomy verdict."
+        local_adjudication:
+          state: SYNOPTIC_INFLUENCE_PLAUSIBLE_REDACTIONAL_FINGERPRINT_NOT_DECISIVE
+          reason: "The doubled 'perhaps' and 65-66 sequence give dependence arguments real local weight; Thomas's distinct narrative form and contested tradition-history block promotion to direct-copying fact."
+        guard: "Do not use simpler Thomas wording as a chronology test, and do not use the Lukan-fingerprint argument as proof that every element of Thomas 65/66 derives from Luke."
 
     anti_supersession_guard:
       risk: HIGH
