@@ -110,6 +110,22 @@ records:
           greek: NONE_SURVIVING_CURRENTLY_BOUND
           distinctive_form: "Rejected-stone saying follows as a separate adjacent logion."
         guard: "Adjacent Thomas 65 and 66 are one work's literary arrangement, not two independent historical witnesses."
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      model: PER_SAYING_NOT_GLOBAL_BOOLEAN
+      allowed_local_states:
+        - DIRECT_DEPENDENCE_STRONGLY_SUPPORTED
+        - SYNOPTIC_INFLUENCE_PROBABLE_DIRECTION_OR_MECHANISM_UNCERTAIN
+        - COMMON_TRADITION_PLAUSIBLE
+        - MIXED_OR_MULTISTAGE_TRANSMISSION_PLAUSIBLE
+        - RELATION_DISPUTED
+        - INSUFFICIENT_EVIDENCE
+      guards:
+        - "Redactional fingerprints and extended non-formulaic agreement weigh more heavily than short formulaic overlap."
+        - "Shorter Thomas form never automatically means earlier."
+        - "Thomas genre/narrative absence never automatically means independence."
+        - "Dependence and historicity remain separate axes."
+        - "No global Thomas-dependent or Thomas-independent flag may silently decide a cluster."
     source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
     limits:
       - "Composition history and relation to Synoptics remain debated."
