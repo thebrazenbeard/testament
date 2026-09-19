@@ -190,13 +190,19 @@ records:
         full_verse: "ܘܠܐ ܐܡܪܝܢ ܗܐ ܗܪܟܐ ܗܝ ܘܗܐ ܗܪ ܬܡܢ ܗܝ ܗܐ ܓܝܪ ܡܠܟܘܬܗ ܕܐܠܗܐ ܠܓܘ ܡܢܟܘܢ ܗܝ"
         report: "The directly readable Peshitta verse uses l-gaw menkon; Ramelli analyzes this as an inside/interior expression."
       Harklean:
-        state: REPORTED_UNAMBIGUOUS_INTERIOR_FORM
-        text_state: COMPARATIVE_EDITION_REPORTED_DIRECT_STABLE_UNICODE_PENDING
+        state: DIRECT_PUBLISHED_PAGE_TEXT_BOUND
+        text_state: DIRECT_PUBLISHED_PAGE_VISUAL_READBACK_STABLE_UNICODE_BOUND
         edition_anchor: "Kiraz, Comparative Edition of the Syriac Gospels, vol. 3, p. 352"
-        report: "Ramelli argues the hyper-literal Harklean likewise uses an inside/interior expression."
+        published_readback:
+          source: "Ramelli, Hugoye 12.2 (2009), p. 264"
+          full_line: "ܗܐ ܓܝܪ ܡܠܟܘܬܗ ܕܐܠܗܐ ܒܓܘܟܘܢ ܐܝܬܝܗ"
+          target_expression: "ܒܓܘܟܘܢ"
+          method: "Rendered-page visual inspection plus custom-font decoding calibrated against the independently bound Peshitta line printed immediately above."
+          evidence_ceiling: "Direct scholarly-page text readback; not manuscript-image autopsy of Vat. Syr. 268."
+        report: "Ramelli argues the hyper-literal Harklean uses an explicit inside/interior expression; the project now binds the quoted Harklean line itself while keeping that semantic judgment attributed."
       comparison_control:
         report: "Ramelli contrasts these Luke 17:21 renderings with Syriac renderings of Luke's en mesō + genitive expressions, especially Harklean forms that explicitly mean in-the-middle/among."
-        guard: "Direct project text collation now covers Peshitta plus pinned Old Syriac CAL romanization and a reproducibly derived Old Syriac target-script form. Harklean remains edition-reported pending stable direct text encoding."
+        guard: "Direct project text collation now covers Peshitta, pinned Old Syriac CAL romanization with reproducible target-script conversion, and direct published-page Harklean text readback. None of these versional forms alone settles Greek entos hymon."
     evidence:
       - author: Ilaria_Ramelli
         title: "Luke 17:21: The Kingdom of God is Inside You"
@@ -207,7 +213,7 @@ records:
       - source: ICC_Luke_17_21
         state: COUNTER_RECEPTION_REPORT
         report: "Older ICC commentary notes Syriac Sinaitic support as 'among,' reinforcing the need to preserve ambiguity in the Old Syriac form."
-    state: PARTIAL_DIRECT_VERSIONAL_COLLATION_OLD_SYRIAC_CAL_BOUND_HARKLEAN_ENCODING_PENDING
+    state: DIRECT_VERSIONAL_COLLATION_OLD_SYRIAC_CAL_AND_HARKLEAN_PUBLISHED_TEXT_BOUND
 
   - id: PAT-TERTULLIAN-LUKE17-21-POWER
     passage: Luke_17_21
