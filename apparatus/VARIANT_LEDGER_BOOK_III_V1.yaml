@@ -861,12 +861,21 @@ variants:
         - "in your midst"
       additional_attested_option:
         - "within your reach/power"
-      option_note: "The reach/power rendering is less common but remains part of the documented interpretive field and is not silently excluded."
+      option_note: "The three English families are not lexically co-equal. Broader Greek review centers entos on interiority / bounded inclusion; among/in-your-midst and within-your-reach/power are contextual construals or extensions that remain live for Luke 17:21."
+      corpus_review:
+        state: PUBLISHED_REFERENCE_LEVEL_ADVANCED
+        lexical_center: INTERIORITY_AND_BOUNDED_INCLUSION
+        contextual_construals:
+          - AMONG_OR_IN_YOUR_MIDST
+          - WITHIN_YOUR_REACH_OR_POWER
+        adjudication: "LEXICON_ALONE_DOES_NOT_DECIDE_LUKE_17_21"
       lexical_evidence:
         - "The other New Testament use of entos is Matthew 23:26, where it denotes the inside/interior of a cup."
-        - "Roberts notes that Luke uses en tō mesō repeatedly for among/in-the-midst language, so entos should not be flattened into Luke's ordinary midst idiom."
-        - "Roberts's papyrological/patristic argument favors a within-your-power sense; Testament records this as a scholarly argument, not project fact."
-      guard: "No English gloss is treated as lexically certain enough to carry Book VIII's agency thesis by itself."
+        - "LSJ centers entos on within/inside/within-bounds usage and records extensions involving range, group bounds, self-control and being within one's power."
+        - "Roberts notes that Luke uses en tō mesō repeatedly for among/in-the-midst language and argues for a within-your-power sense."
+        - "Ramelli's broad Greek and Syriac study argues for inside/within and treats en mesō as Luke's ordinary among/in-the-midst expression."
+        - "A substantial modern commentary stream nevertheless prefers among/in-your-midst on contextual and Lukan-theological grounds."
+      guard: "Do not misstate an exegetical/contextual preference for 'among' as a simple dictionary result, and do not let the lexical center of 'within' carry Book VIII's agency thesis by itself."
 
     thomas_3:
       greek_witness: WIT-POXY-654-GOSPEL-THOMAS
