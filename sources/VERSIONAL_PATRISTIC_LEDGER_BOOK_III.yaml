@@ -100,8 +100,18 @@ records:
         relation_to_700_162: "Gregory's attributed form includes ἐφ’ ἡμᾶς and therefore aligns with the fuller 700-type feature, but no genealogical or direct-copy relationship is asserted."
         source: "https://catholiclibrary.org/library/view?chunk.id=00000029&docId=Fathers-Synchronized-EN%2FGregory_of_Nyssa__De_oratione_dominica_orationes_v.en.html"
       Maximus:
-        state: PUBLISHED_PATRISTIC_REPORT_BOUND_DIRECT_PRIMARY_TEXT_EXPANSION_PENDING
-        guard: "Do not infer Maximus is independent of Gregory without separate argument."
+        state: DIRECT_PRIMARY_GREEK_PATRISTIC_TEXT_BOUND
+        work: Orationis_Dominicae_brevis_expositio
+        locus: "PG 90:884B-C"
+        collation_control: research/collations/LUKE11_2_MAXIMUS_SPIRIT_PETITION_V1.md
+        direct_form: "Ἐλθέτω σου τὸ Πνεῦμα τὸ ἅγιον, καὶ καθαρισάτω ἡμᾶς"
+        direct_attribution: "Maximus says what Matthew here calls kingdom another evangelist elsewhere called Holy Spirit."
+        evidence_class: PATRISTIC_TEXTUAL_TESTIMONY_PLUS_EXEGESIS_NOT_PHYSICAL_GOSPEL_MANUSCRIPT
+        relation_to_gregory: "PG apparatus suggests Maximus may have drawn from Gregory of Nyssa; Testament records this as editorial judgment, not proven dependence."
+        relation_to_162_700: "Maximus lacks ἐφ’ ἡμᾶς and has possessive-before-Spirit order, making his form locally closer to 162 at those features; no genealogy is asserted."
+        pg_apparatus_variant: "One Reg. codex is reported with ἐπελθέτω; this is a Maximus-text edition variant, not a Gospel witness."
+        source: "https://catholiclibrary.org/library/view?chunk.id=00000442&docId=%2FFathers-OR%2FPG090.html"
+        guard: "Direct Maximus text is now bound, but Gregory + Maximus are not counted as two securely independent transmission streams without separate evidence."
     witness_specific_forms:
       WIT_700:
         report: "Metzger reports 700 with 'May your Holy Spirit come upon us and cleanse us.'"
@@ -118,7 +128,7 @@ records:
     exact_wording_state: PHYSICAL_GREEK_WITNESSES_BOUND_WORDING_DIFFERENCE_EXPLICIT
     guard:
       - "162 and 700 are related witnesses to a Spirit-petition variant family, not identical strings."
-      - "Gregory is now directly bound as patristic textual testimony/exegesis; Maximus remains published-report level in this control. Neither is a physical Gospel manuscript node."
+      - "Gregory and Maximus are now directly bound as patristic textual testimony/exegesis. Neither is a physical Gospel manuscript node, and their independence from one another is unresolved."
       - "Late Greek manuscript preservation does not date the origin of the variant."
 
   - id: PAT-MARCION-LUKE11-SPIRIT-PETITION
