@@ -86,14 +86,21 @@ variants:
           witness_specific_forms:
             WIT-700-EGERTON-2610:
               reported_form: "May your Holy Spirit come upon us and cleanse us."
-              folio: "184"
-              state: SCHOLARLY_PASSAGE_LOCATOR_DIRECT_IMAGE_PENDING
+              folio: "184v"
+              passage_scope: "Luke 11:2-8"
+              route_control: research/collations/LUKE11_SPIRIT_VARIANT_162_700_IMAGE_ROUTE_V1.md
+              state: EXACT_HISTORICAL_FACSIMILE_FOLIO_RESOLVED_DIRECT_PIXEL_COLLATION_PENDING
             WIT-162-BARB-GR-449:
               reported_form: "May your Holy Spirit come and cleanse us."
               folio: "151"
-              state: SCHOLARLY_PASSAGE_LOCATOR_DIRECT_IMAGE_PENDING
+              exact_image_targets:
+                - "151r / DigiVatLib canvas p0313"
+                - "151v / DigiVatLib canvas p0314"
+              passage_side_state: RECTO_OR_VERSO_NOT_YET_RESOLVED
+              route_control: research/collations/LUKE11_SPIRIT_VARIANT_162_700_IMAGE_ROUTE_V1.md
+              state: EXACT_IIIF_FOLIO_PAIR_RESOLVED_DIRECT_PIXEL_COLLATION_PENDING
               difference_from_700: "Different possessive word order and omission of 'upon us.'"
-          wording_state: PHYSICAL_GREEK_WITNESSES_BOUND_NONIDENTICAL_FORMS
+          wording_state: PHYSICAL_GREEK_WITNESSES_BOUND_NONIDENTICAL_FORMS_IMAGE_ROUTES_DEEPENED_PIXEL_COLLATION_PENDING
         marcion_family:
           ledger_record: PAT-MARCION-LUKE11-SPIRIT-PETITION
           relation: SPIRIT_REQUEST_IN_PLACE_OF_FIRST_PETITION
