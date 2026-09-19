@@ -118,8 +118,17 @@ Published-page direct visual readback:
 Direct stable Unicode encoding:
 - `ܗܐ ܓܝܪ ܡܠܟܘܬܗ ܕܐܠܗܐ ܒܓܘܟܘܢ ܐܝܬܝܗ`
 
+Decode audit:
+- `research/audits/LUKE17_21_HARKLEAN_FONT_DECODE_V1.md`
+- same-page Peshitta calibration fixes the legacy font mapping;
+- a terminal ASCII `J` in the extracted legacy-font stream is classified as a nonlexical extraction artifact because it recurs at another Syriac quotation boundary and is not required by the rendered line.
+
 Target expression:
 - `ܒܓܘܟܘܢ`
+
+Independent target control:
+- the Syriac Orthodox Patriarchate's digital Bar Hebraeus Luke commentary prints the base Luke 17:21 wording with `ܡܠܟܘܬܗ ܕܐܠܗܐ` and then marks `ܒܓܘܟܘܢ ܐܝܬܝܗ` as the Greek-aligned form;
+- this corroborates the target sequence and kingdom-word spelling without being promoted to an independent Harklean manuscript witness.
 
 Font-decoding control:
 - Peshitta printed `ܠܓܘ ܡܢܟܘܢ` on the same page yields the expected reverse-glyph sequence under the custom Syriac font;
@@ -187,6 +196,7 @@ Not established:
 - George A. Kiraz, ed., *Comparative Edition of the Syriac Gospels*, vol. 3: Luke (Brill, 1996), p. 352.
 - Ilaria Ramelli, "Luke 17:21: The Kingdom of God is Inside You," *Hugoye* 12, 259–286, DOI 10.31826/hug-2011-120112.
 - Direct published-page readback locus: Ramelli PDF p. 264 (journal pagination), Harklean quotation derived from Kiraz vol. 3 p. 352.
+- Independent Syriac control: Syriac Orthodox Patriarchate digital Bar Hebraeus commentary on Luke 17:21.
 - Syriaca.org bibliographic record for Kiraz, Luke, vol. 3.
 - public Peshitta Luke 17:21 text.
 - public Vulgate Luke 17:21 text.
