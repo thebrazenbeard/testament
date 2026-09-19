@@ -124,6 +124,26 @@ Page 49:
 - the current direct-image channel repeatedly fails to render it;
 - therefore the terminal page-49 lines have **not** been directly inspected in this pass.
 
+### Page-49 access-route revalidation — 2026-09-19
+
+The page-49 route was rechecked without promoting metadata into autopsy.
+
+Reconfirmed:
+- Wikimedia Commons resolves the exact file `Gospel of Thomas - Nag Hammadi II-49.jpg`;
+- the file page reports an original image of 572 × 1041 pixels, 143 KB;
+- Wikimedia reports SHA-1 `300bec3dcf90b64f249d022d7dc6356925693e0a` for that uploaded image;
+- Gospels.net independently lists online images for NHC II pages 32–51.
+
+Runtime result:
+- image metadata and route identity are readable;
+- the current direct-image path still does not deliver renderable page-49 pixels for inspection;
+- therefore no line-shape, damage, glyph, or terminal-line observation is added.
+
+Consequence:
+- access provenance is stronger and reproducible;
+- `THOMAS_101_NHCII_49_36_PAGE49_TERMINAL_LINES_DIRECT_IMAGE_READBACK` remains open;
+- `IMAGE_AUTOPTIC_LEVEL_VERIFICATION` remains open.
+
 Published scholarship records multiple restoration proposals for the 49.36–50.1 gap.
 
 Those remain proposals.
