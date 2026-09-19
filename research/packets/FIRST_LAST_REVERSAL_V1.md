@@ -85,6 +85,98 @@ The evidence securely supports:
 It does not securely support:
 **why they differ.**
 
+### Redactional-fingerprint review — Thomas 4
+
+Thomas 4 has unusually valuable evidence because the saying survives in both Greek and Coptic.
+
+The published P.Oxy. 654 reconstruction gives the reciprocal first/last maxim:
+- many first will be last;
+- the last will be first.
+
+The extant Coptic form keeps only:
+- many first will be last.
+
+That means the dependence question and the intra-Thomas transmission question cannot be separated.
+
+#### Greek / Synoptic contact evidence
+
+The reconstructed Greek core of Thomas 4 aligns especially closely with Mark 10:31.
+
+Mark's SBLGNT form has:
+- many;
+- will be;
+- first;
+- last;
+- and **the** last;
+- first.
+
+The reconstructed Thomas reciprocal core likewise has the article before the second "last."
+
+Matthew 19:30 preserves the same reciprocal maxim but lacks that article in the SBLGNT form.
+
+So the project does **not** call Thomas 4 an exact Matthew match.
+
+It also avoids calling the whole Thomas line a continuous exact Mark quotation because:
+- Thomas has different connective framing;
+- part of the P.Oxy. 654 line is restored across lacunae.
+
+The correct description is:
+
+**close reconstructed Greek core agreement, especially with Mark.**
+
+Mark Goodacre's dependence case treats this kind of Greek overlap as important evidence of Thomas's Synoptic familiarity.
+
+#### Portable-maxim countercontrol
+
+First/last reversal is exactly the kind of short antithetical maxim that can remain stable outside direct literary copying.
+
+Its portability is demonstrable inside the Synoptic tradition itself:
+- Mark 10:31;
+- Matthew 19:30;
+- Matthew 20:16;
+- Luke 13:30
+
+place related reversal language in different literary settings.
+
+That weakens any argument that close wording alone proves Thomas copied one Gospel directly.
+
+#### Intra-Thomas instability
+
+The Greek/Coptic divergence is independently important.
+
+P.Oxy. 654 preserves/reconstructs the reciprocal last-to-first half.
+
+NHC II does not.
+
+Whatever caused the difference:
+- accidental omission;
+- deliberate editing;
+- another textual stage
+
+the maxim was not perfectly stable even within Thomas's own transmission.
+
+That makes simplistic source-direction claims especially unsafe.
+
+#### Current local state
+
+**RELATION_DISPUTED.**
+
+Evidence balance:
+
+**DIRECT GREEK RECONSTRUCTED CORE CLOSELY AGREES WITH MARK / PORTABLE-MAXIM AND INTRA-THOMAS-TRANSMISSION COUNTERMODELS REMAIN STRONG.**
+
+The safe claims are:
+- there is meaningful Greek contact evidence;
+- the Mark-like reciprocal form deserves more weight than a Coptic-only thematic parallel;
+- direct literary dependence is not established;
+- the earlier date of P.Oxy. 654 is manuscript chronology, not composition chronology.
+
+References:
+- P.Oxy. IV 654 / NASSCAL.
+- Mark 10:31 and Matthew 19:30, SBLGNT comparison.
+- Mark Goodacre, *Thomas and the Gospels* (2012).
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics" (2023), DOI 10.1093/oxfordhb/9780190887452.013.27.
+
 ### Portable-maxim control
 
 The Synoptic witnesses place first/last reversal language in materially different settings:
