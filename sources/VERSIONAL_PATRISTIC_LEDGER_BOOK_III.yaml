@@ -359,6 +359,40 @@ records:
       - "Absence of the speck/log image from this cited chain does not prove that image was absent from an earlier historical form."
       - "A fifth-century physical witness does not date the composition of 1 Clement or the sayings it transmits."
 
+  - id: ECR-JUSTIN-APOL1-17-CAESAR
+    passage: Justin_First_Apology_17
+    kind: EARLY_CHRISTIAN_RECEPTION_AND_EXPLICIT_CHRIST_TEACHING_CITATION
+    source_work: SRC-JUSTIN-FIRST-APOLOGY
+    physical_witness: WIT-BNF-GREC450-JUSTIN
+    related_variant: VAR-CAESAR-THOMAS-100
+    text_state: DIRECT_PUBLISHED_GREEK_AND_TRANSLATION_BOUND_PHYSICAL_MANUSCRIPT_NOT_IMAGE_AUTOPTIC
+    source:
+      attribution_state: EXPLICITLY_PRESENTED_AS_TEACHING_RECEIVED_FROM_CHRIST
+      sequence_features:
+        - tribute_question
+        - coin_image_question
+        - Caesar_possession
+        - God_possession
+      thomas_only_third_clause: ABSENT_FROM_CITED_JUSTIN_FORM
+    claim:
+      state: MATERIAL_RECEPTION_FORM_EVIDENCE
+      report: "Justin First Apology 17 attests a mid-second-century Christian reception of the Caesar saying in a binary Caesar/God form; the cited form does not include Thomas 100's additional demand to give Jesus what is his."
+      significance:
+        - "Provides an early reception control for the binary Caesar/God structure outside the surviving Gospel manuscripts themselves."
+        - "Shows that the Thomas-only third clause is not present in this particular second-century reception witness."
+    evidence:
+      - source: CCEL_Justin_First_Apology_17
+        url: "https://ccel.org/ccel/justin_martyr/first_apology/anf01.viii.ii.xvii.html"
+      - source: New_Advent_Justin_First_Apology_17
+        url: "https://www.newadvent.org/fathers/0126.htm"
+      - source: ARCA_BnF_Grec_450
+        url: "https://bvmm.irht.cnrs.fr/ark:/63955/md21td96kq22"
+    guard:
+      - "Justin is reception evidence, not a Gospel manuscript."
+      - "The binary form does not prove whether Justin depended directly on Matthew, Mark, Luke, oral tradition, memory, or mixed transmission."
+      - "Absence of Thomas's third clause from Justin does not prove that the clause originated after Justin or that Thomas directly edited a Synoptic Gospel."
+      - "The late physical witness date does not date Justin's composition or the saying tradition."
+
 invariants:
   - "VERSIONAL_STREAM != PHYSICAL_MANUSCRIPT."
   - "PATRISTIC_CITATION != GOSPEL_MANUSCRIPT."
