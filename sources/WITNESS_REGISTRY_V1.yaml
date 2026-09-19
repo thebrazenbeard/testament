@@ -202,14 +202,22 @@ witnesses:
       precision: "colophon dated 13 May 1153 CE"
     language: Greek
     physical_scope: "Four Gospels; DigiVatLib catalogues Luke at ff. 119r-187v."
-    access_mode: INSTITUTIONAL_DIGITAL_MANUSCRIPT_PLUS_SCHOLARLY_PASSAGE_REPORT
+    access_mode: INSTITUTIONAL_DIGITAL_MANUSCRIPT_EXACT_IIIF_TARGETS_PLUS_SCHOLARLY_PASSAGE_REPORT
     locators:
       - passage: Luke_11_2_spirit_for_kingdom
-        reading_state: EXTANT_GREEK_MINORITY_SPIRIT_PETITION
+        reading_state: EXTANT_GREEK_MINORITY_SPIRIT_PETITION_EXACT_IMAGE_TARGET_PAIR_RESOLVED_PIXEL_COLLATION_PENDING
         manuscript_locator:
           folio: "151"
-          side: UNSPECIFIED_IN_CURRENT_SCHOLARLY_REPORT
-        reading_note: "Published critical commentary reports 162 replacing 'your kingdom come' with a Holy-Spirit petition. Compared with 700, 162 has the sequence 'your Spirit, the Holy' and omits the 'upon us' phrase."
+          side: RECTO_OR_VERSO_PASSAGE_SIDE_NOT_YET_RESOLVED
+          iiif_targets:
+            - folio: "151r"
+              canvas: "https://digi.vatlib.it/iiif/MSS_Barb.gr.449/canvas/p0313"
+              image_service: "https://digi.vatlib.it/iiifimage/MSS_Barb.gr.449/Barb.gr.449_0313_fa_0151r.jp2"
+            - folio: "151v"
+              canvas: "https://digi.vatlib.it/iiif/MSS_Barb.gr.449/canvas/p0314"
+              image_service: "https://digi.vatlib.it/iiifimage/MSS_Barb.gr.449/Barb.gr.449_0314_fa_0151v.jp2"
+          manifest: "https://digi.vatlib.it/iiif/MSS_Barb.gr.449/manifest.json"
+        reading_note: "Published critical commentary reports 162 replacing 'your kingdom come' with a Holy-Spirit petition. Compared with 700, 162 has the sequence 'your Spirit, the Holy' and omits the 'upon us' phrase. The exact Vatican image targets for both sides of folio 151 are now bound; the passage side and pixel-level reading remain pending."
         reported_form: "May your Holy Spirit come and cleanse us."
         wording_difference_from_700:
           word_order: "162 places the possessive before 'Spirit' in the reported form."
@@ -218,11 +226,14 @@ witnesses:
           - source: Metzger_Textual_Commentary_Luke_11_2
           - url: "https://digi.vatlib.it/view/MSS_Barb.gr.449"
           - url: "https://pinakes.irht.cnrs.fr/notices/cote/64992/"
+        route_control: "research/collations/LUKE11_SPIRIT_VARIANT_162_700_IMAGE_ROUTE_V1.md"
     institutional_metadata:
       - "DigiVatLib identifies Barb.gr.449 as a Greek Tetravangelo and places Luke at ff. 119r-187v."
+      - "DigiVatLib IIIF manifest maps folio 151r to canvas p0313 and folio 151v to canvas p0314."
       - "Pinakes identifies Barb. gr. 449 with Aland minuscule 162."
     limitations:
-      - "Folio 151 is currently bound through scholarly passage-level reporting; Testament has not yet performed direct image readback at that folio."
+      - "The old folio-only locator has been reduced to exact 151r/151v image targets, but current evidence has not yet established which side contains Luke 11:2."
+      - "Testament has not yet performed direct pixel-level image collation at the Luke 11:2 locus."
       - "This late witness proves medieval transmission of the variant, not early historical origin."
 
   - id: WIT-700-EGERTON-2610
@@ -238,26 +249,38 @@ witnesses:
       precision: "11th century CE"
     language: Greek
     physical_scope: "Four Gospels; British Library catalogues Luke at ff. 145r-229v."
-    access_mode: INSTITUTIONAL_CATALOGUE_PLUS_SCHOLARLY_PASSAGE_REPORT
+    access_mode: INSTITUTIONAL_CATALOGUE_PLUS_HISTORICAL_PUBLIC_FACSIMILE_PLUS_SCHOLARLY_PASSAGE_REPORT
     locators:
       - passage: Luke_11_2_spirit_for_kingdom
-        reading_state: EXTANT_GREEK_MINORITY_SPIRIT_PETITION
+        reading_state: EXTANT_GREEK_MINORITY_SPIRIT_PETITION_EXACT_FACSIMILE_FOLIO_RESOLVED_PIXEL_COLLATION_PENDING
         manuscript_locator:
           folio: "184"
-          side: UNSPECIFIED_IN_CURRENT_SCHOLARLY_REPORT
-        reading_note: "Published critical commentary reports 700 replacing 'your kingdom come' with a Holy-Spirit petition that includes the phrase 'upon us.'"
+          side: "verso"
+          passage_scope: "Luke 11:2-8"
+        historical_facsimile:
+          source: Hoskier_1890_Evangelium_604
+          report: "Hoskier explicitly identifies one of the two reproductions in his collation as folio 184 verso containing Luke 11:2-8."
+          public_scan: "https://commons.wikimedia.org/wiki/File:A_full_account_and_collation_of_the_Greek_cursive_codex_Evangelium_604_(with_two_facsimiles)_-Egerton_2610_in_the_British_museum-_(IA_fullaccountcolla00hoskrich).pdf"
+          internet_archive_id: fullaccountcolla00hoskrich
+          iiif_manifest: "https://iiif.archive.org/iiif/fullaccountcolla00hoskrich/manifest.json"
+          image_state: PUBLIC_FACSIMILE_SOURCE_IDENTIFIED_DIRECT_PIXEL_COLLATION_PENDING
+        reading_note: "Published critical commentary reports 700 replacing 'your kingdom come' with a Holy-Spirit petition that includes the phrase 'upon us.' Hoskier's facsimile description now fixes the manuscript target specifically to folio 184v, Luke 11:2-8."
         reported_form: "May your Holy Spirit come upon us and cleanse us."
         wording_difference_from_162:
           addition: "700 includes the phrase corresponding to 'upon us,' absent from 162."
           word_order: "700's reported word order differs from 162."
         scholarship:
           - source: Metzger_Textual_Commentary_Luke_11_2
+          - source: Hoskier_1890_Evangelium_604
           - url: "https://searcharchives.bl.uk/"
+        route_control: "research/collations/LUKE11_SPIRIT_VARIANT_162_700_IMAGE_ROUTE_V1.md"
     institutional_metadata:
       - "British Library catalogue identifies Egerton MS 2610 as Gregory-Aland 700, an 11th-century Four Gospels manuscript."
       - "British Library catalogues the Gospel of Luke at ff. 145r-229v."
+      - "Hoskier's 1890 facsimile note independently identifies folio 184v as containing Luke 11:2-8."
     limitations:
-      - "Folio 184 is currently bound through scholarly passage-level reporting; the British Library legacy digital images are presently unavailable through the catalogue surface."
+      - "The exact folio side is now bound as 184v through Hoskier's facsimile description, but current runtime extraction still has not supplied renderable manuscript pixels for direct collation."
+      - "A public historical facsimile route is not itself a fresh diplomatic image transcription."
       - "This late witness proves medieval transmission of the variant, not early historical origin."
 
 
