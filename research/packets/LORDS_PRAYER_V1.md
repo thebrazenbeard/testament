@@ -51,9 +51,16 @@ The current reproducible working text remains SBLGNT, which prints the shorter L
 
 Published apparatus summaries now bind the opening address directly: P75, Sinaiticus, and Vaticanus support simple "Father," while Bezae supports the expanded Matthean-style "Our Father in heaven." The will-petition control remains bound to P75/Vaticanus on the shorter side and Bezae on the expanded side. For the final deliverance petition, P75 and Vaticanus support omission while Bezae supports expansion.
 
-Sinaiticus is now separately typed at Luke 11:4 rather than forced into a binary bucket. The exact original/corrector sequence is **not currently asserted**: published apparatus and older secondary summaries conflict, while the official default electronic transcription and correction layer are distinct display states.
+Sinaiticus is now separately typed at Luke 11:4 rather than forced into a binary bucket. The prior correction-state conflict has been resolved at the Codex Sinaiticus Project's own XML-encoding level by direct locus readback.
 
-This is enough to establish a deeper transmission control: Luke's prayer cannot be treated as textually flat, and later harmonization toward Matthew is strongly plausible in these locations. It is not enough to assign the Sinaiticus hand sequence without direct correction-layer evidence.
+Direct official XML now establishes:
+- first hand: omission after the testing petition;
+- `ca` correction state: partial deliverance wording `αλλα ρυσ(αι) ημας απο τ` (`ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τ…`);
+- another `ca` correction state: blank, which the project XML specification defines as deletion.
+
+The direct XML does **not** justify completing the partial addition to the full Matthean phrase, splitting the two `ca` states into separately identified palaeographic hands, or equating the project's `ca` label mechanically with external simplified corrector numbering.
+
+This deepens the transmission control without pretending the manuscript is textually flat: harmonization pressure toward Matthew remains plausible, but the exact physical/palaeographic micro-history inside `ca` is not expanded beyond the project's encoding.
 
 Didache 8.2 is now physically bound to `WIT-DIDACHE-H54-HIEROSOLYMITANUS`, the complete Greek Didache witness in Codex Hierosolymitanus 54. That closes the earlier untyped-work-title debt for this comparison. The codex is dated 1056 CE; that is the date of the surviving witness, not the composition date of Didache or of its prayer tradition.
 
@@ -61,7 +68,7 @@ It is not enough to establish:
 - the exact historical wording spoken by Yeshua;
 - a globally original "short form";
 - a single literary route behind Matthew, Luke, and Didache;
-- autoptic confirmation of the now-bound Sinaiticus hand-state at Luke 11:4.
+- direct manuscript-pixel autopsy of the Luke 11:4 Sinaiticus correction remains separate; the correction-layer state itself is now directly bound from official XML.
 
 Andrejevs 2020 remains the source-critical guard against pretending the literary problem is solved: Q, direct dependence, and multiple autonomous/liturgical recensions remain live explanatory models.
 
@@ -112,25 +119,34 @@ The published NET apparatus instead assigns:
 
 Some older secondary summaries describe a different sequence.
 
+Direct locus-specific XML apparatus readback has now been completed:
+- control: `research/audits/LUKE11_4_SINAITICUS_CORRECTION_XML_V1.md`;
+- v1.04 archived transcription and v1.95 current public repository preserve the same correction-state content;
+- v1.95 explicitly labels the blank original state `type="orig" hand="firsthand"`;
+- a `hand="ca"` correction contains only `αλλα ρυσ(αι) ημας απο τ`;
+- a further blank `hand="ca"` correction is encoded; under the project specification a blank correction reading denotes deletion.
+
 Therefore current Sinaiticus state at Luke 11:4 is:
 
-**CORRECTION-STATE CONFLICT / DIRECT CORRECTION-POPUP OR LOCUS-SPECIFIC XML APPARATUS READBACK REQUIRED; IMAGE READBACK REMAINS SEPARATE.**
+**FIRST HAND OMITS / `ca` PARTIAL DELIVERANCE ADDITION / `ca` DELETION STATE DIRECTLY ENCODED.**
 
-The plain transcription and correction apparatus are different display layers.
-Testament will not infer exact corrector chronology from the plain text alone.
+The plain transcription, correction apparatus, and manuscript image remain distinct evidence layers.
+Testament does not infer a complete `ἀπὸ τοῦ πονηροῦ` phrase from the truncated correction or a finer chronology inside `ca` than the official encoding supplies.
 
 At Luke 11:4 the secure current comparison is:
 - P75: omits the deliverance petition;
 - Vaticanus: omits it;
-- Bezae: includes it;
-- Sinaiticus: visible electronic transcription is shorter, while correction-layer chronology remains unresolved.
+- Bezae: includes the expanded ending by published witness report;
+- Sinaiticus: first hand omits; official XML preserves a partial `ca` deliverance addition and a `ca` deletion state.
 
-This improves the apparatus while lowering one overconfident claim rather than raising confidence artificially.
+This resolves the old correction-layer conflict while preserving the evidence ceiling.
 
 References:
 - Codex Sinaiticus Project, BL folio 236b, Luke 10:21–11:6.
 - Codex Sinaiticus Project, electronic-transcription methodology and web-edition documentation.
 - Codex Sinaiticus Project, XML transcription specification for correction/readings encoding.
+- `research/audits/LUKE11_4_SINAITICUS_CORRECTION_XML_V1.md`.
+- ITSEE/Birmingham `itsee-birmingham/codex-sinaiticus`, current v1.95 XML cut at commit `af1633b5102cbe6200e79053cc618ac447e1bb16`.
 - NET Bible textual apparatus, Luke 11:4.
 
 ## Versional and patristic expansion — Luke 11
