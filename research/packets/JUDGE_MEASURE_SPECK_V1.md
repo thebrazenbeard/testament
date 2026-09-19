@@ -207,6 +207,52 @@ Mark also places a related measure saying elsewhere.
 
 That distribution blocks a simple reconstruction in which every element belonged to one original sermon sequence.
 
+### 1 Clement 13.2 reception control
+
+Machine-readable control:
+- sources/VERSIONAL_PATRISTIC_LEDGER_BOOK_III.yaml
+- ECR-1CLEM13-JUDGE-MEASURE
+
+Source/witness separation:
+- source work: SRC-1-CLEMENT;
+- physical witness metadata: WIT-CODEX-ALEXANDRINUS-1CLEMENT;
+- British Library catalogues 1 Clement in Codex Alexandrinus at ff. 134r-143r;
+- no direct Codex Alexandrinus image readback is claimed.
+
+The important datum is compositional rather than merely theological.
+
+1 Clement 13.2 explicitly introduces a sequence as words of the Lord Jesus and then places:
+- mercy;
+- forgiveness;
+- reciprocal doing/giving;
+- reciprocal judgment;
+- reciprocal measure
+
+in one compact chain.
+
+The cited 1 Clement chain does **not** include the speck/log image.
+
+That gives Book III a useful early reception control:
+- judge + measure reciprocity can circulate together in a broader ethical chain;
+- the speck/log image is not inseparable from that chain in every early Christian witness;
+- the evidence therefore cuts against reconstructing the whole Matthean/Lukan judge-measure-speck complex as automatically one fixed original speech unit.
+
+It does **not** establish:
+- direct dependence on Matthew;
+- direct dependence on Luke;
+- independence from both;
+- the historical wording of Yeshua;
+- historical absence of the speck/log image.
+
+Published-text controls:
+- New Advent, 1 Clement 13;
+- Kirsopp Lake's 1 Clement text/translation on Wikisource.
+
+Physical-witness control:
+- British Library, Royal MS 1 D VIII (Codex Alexandrinus), fifth century.
+
+Witness date != composition date remains explicit.
+
 ### Semantic guard
 
 The project cannot reduce the cluster to:
