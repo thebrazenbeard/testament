@@ -202,9 +202,38 @@ Metzger's critical commentary reports:
 
 Therefore Testament no longer stores one normalized Greek string for the whole family.
 
+### Image-route deepening — 162 / 700
+
+Dedicated route control:
+- `research/collations/LUKE11_SPIRIT_VARIANT_162_700_IMAGE_ROUTE_V1.md`
+
+The former folio-level image debt is now substantially narrower.
+
+For **162 / Barb.gr.449**:
+- DigiVatLib's IIIF manifest resolves folio 151r as canvas `p0313`;
+- folio 151v is canvas `p0314`;
+- both exact JP2 image-service identifiers are bound in the witness registry;
+- the earlier scholarly locator still does not establish which side contains Luke 11:2;
+- current runtime tools resolve both institutional targets but do not supply manuscript pixels for reliable direct collation.
+
+Therefore Testament does **not** guess recto versus verso from sequence position.
+
+For **700 / Egerton MS 2610**:
+- Hoskier's 1890 full collation explicitly identifies one of its two reproductions as **folio 184 verso**;
+- Hoskier states that this folio contains **Luke 11:2-8**;
+- the Hoskier volume is publicly digitized through Wikimedia Commons / Internet Archive;
+- this closes the earlier side-unspecified locator problem for 700;
+- the current runtime still has not obtained renderable manuscript pixels from that facsimile, so image-level wording is not freshly transcribed.
+
+Metzger's published wording comparison remains the text control:
+- 700 includes `ἐφ’ ἡμᾶς`;
+- 162 omits that phrase and differs in possessive order.
+
 Current state:
 
-**same variant family / two physically identified late Greek witnesses / non-identical wording / direct image collation pending.**
+**same variant family / two physically identified late Greek witnesses / non-identical wording / exact image routes materially deepened / direct pixel collation still pending.**
+
+The live debt `LUKE11_SPIRIT_VARIANT_162_700_DIRECT_IMAGE_COLLATION` therefore remains open.
 
 #### Marcion family
 
@@ -231,6 +260,9 @@ References:
 - Origen, *On Prayer*, Lord's Prayer exposition.
 - Tertullian, *Against Marcion* IV.26.
 - D. T. Roth, "The Text of the Lord's Prayer in Marcion's Gospel" and later NA28 reassessment.
+- Bruce M. Metzger, textual commentary on Luke 11:2.
+- Vatican Apostolic Library, DigiVatLib IIIF manifest for Barb.gr.449.
+- H. C. Hoskier, *A Full Account and Collation of the Greek Cursive Codex Evangelium 604* (1890), facsimile note for fol. 184v.
 
 ### Transmission consequence
 
