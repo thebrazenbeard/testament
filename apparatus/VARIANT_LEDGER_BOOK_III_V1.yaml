@@ -387,13 +387,49 @@ variants:
       conclusion: "This cluster contains one Thomas saying with Greek+Coptic evidence and another with currently bound Coptic-only evidence."
 
     dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
       Matthew_Luke:
         state: DISPUTED
         guard: "Double-tradition similarity is compatible with Q-like shared tradition or direct literary dependence under competing Synoptic models."
-      Thomas_2_92_vs_Synoptics:
+      cluster_state:
         state: RELATION_DISPUTED
-        evidence_balance: RELATED_TRADITION_DIRECTION_UNRESOLVED
-        guard: "Shared seek/find language does not establish direct copying, independence, priority, or one recoverable original."
+        guard: "Thomas 2 and Thomas 92 are related seeking traditions but require separate literary-history judgments."
+      Thomas_2_vs_Synoptics:
+        state: COMMON_TRADITION_PLAUSIBLE
+        evidence_balance: NONCANONICAL_WISDOM_CHAIN_STRONGER_THAN_DIRECT_SYNOPTIC_CONTACT
+        direct_witnesses:
+          greek: WIT-POXY-654-GOSPEL-THOMAS
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+        broader_tradition:
+          Gospel_of_the_Hebrews:
+            state: CLOSE_RELATED_TRADITION_VIA_CLEMENT
+            report: "Clement preserves a seek-find-marvel-reign-rest sequence attributed to the Gospel according to the Hebrews that closely parallels the reconstructed Greek Thomas 2 progression."
+          wisdom_background:
+            report: "Patterson roots seek/find admonition broadly in Jewish wisdom tradition; the sequence is not diagnostically Synoptic merely because canonical ask/seek sayings exist."
+        transmission_control:
+          report: "Greek P.Oxy. 654 and Coptic NHC II Thomas 2 are not identical: the Greek reconstruction ends in rest, while the Coptic develops disturbance/astonishment and reigning over the All."
+          guard: "The reconstructed Greek rest clause remains restoration, not continuously extant papyrus wording."
+        synoptic_relation:
+          report: "Matthew/Luke share seek/find within an ask-seek-knock prayer complex, but Thomas 2 lacks the Synoptic triad and follows a different wisdom/revelatory progression."
+          adjudication: "Common or wider wisdom/Jesus-saying tradition is more immediately evidenced than direct literary dependence on Matthew or Luke."
+        guard: "COMMON_TRADITION_PLAUSIBLE is not a claim of Thomasine independence or historical priority."
+      Thomas_92_vs_Synoptics:
+        state: COMMON_TRADITION_PLAUSIBLE
+        evidence_balance: SEEK_FIND_FORMULA_PORTABLE_WISDOM_TRADITION_WITH_MATTHEW_PARALLEL
+        witness_limit:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+        direct_parallel:
+          Matthew_7_7:
+            report: "Thomas 92 begins with seek/find language closely comparable in function to Matthew 7:7."
+        common_tradition_positions:
+          - scholar: Stephen_J_Patterson
+            report: "Patterson derives the seek/find admonition from wisdom tradition and treats Thomas 92 as a revelatory reuse of that common saying."
+          - kind: ORAL_SOURCE_ARGUMENT
+            report: "Published source-critical work on Thomas 92/94 and Matthew 7 argues that differences of wording/context are compatible with a common oral source rather than literary dependence."
+        Thomasine_reuse:
+          report: "Thomas 92 turns the formula into a rebuke about revelations once requested but no longer sought, a literary function absent from Matthew/Luke."
+        guard: "No Greek Thomas 92 witness survives; direct Greek diagnostic-wording claims are unavailable."
       Thomas_internal:
         state: TRANSMISSION_VARIATION_ESTABLISHED_FOR_LOGION_2
         guard: "Greek/Coptic divergence in Thomas 2 is evidence of textual transmission, not permission to select whichever form better fits a reconstruction."
