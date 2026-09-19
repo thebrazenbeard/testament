@@ -352,6 +352,49 @@ Therefore reception history **broadens and structures the dispute**.
 
 It does not settle the Greek.
 
+### Direct versional-text collation — Luke 17:21
+
+Dedicated control:
+- `research/collations/LUKE17_21_VERSIONAL_TEXT_COLLATION_V1.md`
+
+The versional evidence is now split by actual access level.
+
+#### Directly collated
+
+Vulgate:
+- `intra vos`
+- direct verse text: `Ecce enim regnum Dei intra vos est.`
+
+Peshitta:
+- direct target expression: `ܠܓܘ ܡܢܟܘܢ`
+- the full directly readable Syriac verse is preserved in the collation file.
+
+These two streams are no longer merely "reported by scholarship."
+
+#### Still edition-reported rather than directly machine-bound
+
+Old Syriac Sinaiticus + Curetonian:
+- Kiraz, *Comparative Edition of the Syriac Gospels*, vol. 3, p. 352;
+- Ramelli reports the same wording in both;
+- the key Old Syriac prepositional expression remains semantically capable of inside/within or between/among;
+- accessible text extraction corrupts the Syriac font, so Testament does not freeze an exact Unicode string from that extraction.
+
+Harklean:
+- same Kiraz locus;
+- Ramelli reports an explicit inside/interior form;
+- accessible text extraction likewise corrupts the Syriac font;
+- exact direct machine-readable wording therefore remains open.
+
+This changes the live debt.
+
+The old broad item:
+- `LUKE17_21_DIRECT_VERSIONAL_TEXT_COLLATION`
+
+is narrowed to:
+- `LUKE17_21_OLD_SYRIAC_HARKLEAN_DIRECT_TEXT_ENCODING`.
+
+This is a text-access boundary, not a semantic victory for "within."
+
 ### Project-bias guard
 
 This cluster is unusually vulnerable to confirmation bias because `The Testament of the Spark` has a strong authored interest in interiorized divine agency.
