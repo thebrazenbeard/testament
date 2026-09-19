@@ -88,6 +88,46 @@ Published translations represented on Early Christian Writings consistently pres
 That clause is evidence for the extant Thomas form.
 It is not evidence that the historical Caesar saying originally ended that way.
 
+### Justin First Apology 17 reception control
+
+Machine-readable control:
+- sources/VERSIONAL_PATRISTIC_LEDGER_BOOK_III.yaml
+- ECR-JUSTIN-APOL1-17-CAESAR
+
+Source/witness separation:
+- source work: SRC-JUSTIN-FIRST-APOLOGY;
+- physical witness metadata: WIT-BNF-GREC450-JUSTIN;
+- the surviving manuscript tradition is much later than Justin;
+- no direct folio-image collation of BnF Grec 450 is claimed.
+
+Justin First Apology 17 gives Book III a useful reception-form comparison.
+
+The published Greek and translation present:
+- a tribute-to-Caesar question;
+- a coin-image question;
+- the binary response assigning Caesar's things to Caesar and God's things to God.
+
+The cited Justin form does **not** include Thomas 100's additional demand that what belongs to Jesus be given to him.
+
+That establishes only a bounded reception datum:
+- a binary Caesar/God form is attested in Justin's mid-second-century apology;
+- Thomas 100's three-part form is not universal across these early Christian reception witnesses.
+
+It does **not** establish:
+- that Justin copied any one Synoptic Gospel directly;
+- that Justin's form is historically original;
+- that Thomas's third clause arose after Justin;
+- that Thomas directly redacted Matthew, Mark, or Luke.
+
+Published-text controls:
+- CCEL, Justin First Apology 17;
+- New Advent, Justin First Apology 17.
+
+Physical-witness control:
+- BnF Grec 450 / Parisinus Graecus 450;
+- institutional metadata dates the manuscript to the fourteenth century;
+- witness date != composition date.
+
 ### Redactional-fingerprint review — Thomas 100
 
 Thomas 100 has a stronger Synoptic-redaction case than its previous generic "direction unresolved" label suggested.
