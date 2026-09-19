@@ -129,6 +129,73 @@ records:
       - "Do not use the 162/700/Gregory/Maximus wording to fill Marcion's lost text."
       - "Marcion's Spirit request and the kingdom-substitution witness family are related evidence problems, not one normalized variant."
 
+
+  - id: VP-LUKE17-21-LATIN-SYRIAC-RECEPTION
+    passage: Luke_17_21
+    kind: VERSIONAL_RECEPTION_MATRIX
+    greek_target: "entos hymon"
+    latin:
+      Vulgate:
+        form: "intra vos"
+        semantic_report: INSIDE_OR_WITHIN
+        evidence:
+          - url: "https://ccel.org/ccel/bible/vul.Luke.17.html"
+      Vetus_Latina:
+        form: "intra vos"
+        semantic_report: INSIDE_OR_WITHIN
+        evidence:
+          - source: Ramelli_Luke_17_21_Syriac_Study
+            report: "Ramelli reports no Vetus Latina variant for intra vos in this phrase."
+      Codex_Bezae_Latin_column:
+        form: "intra vos"
+        semantic_report: INSIDE_OR_WITHIN
+        evidence:
+          - source: Ramelli_Luke_17_21_Syriac_Study
+            report: "Ramelli reports the Bezae Latin column with the same intra vos form."
+      guard: "Latin intra strongly reflects interior/bounded reception, but translation evidence does not mechanically decide the Greek source sense."
+    syriac:
+      Old_Syriac_Sinaitic_and_Curetonian:
+        state: LEXEME_SEMANTICALLY_AMBIGUOUS
+        report: "Ramelli describes the shared Old Syriac wording as capable of within/inside or between/among senses."
+        counter_report: "Older critical commentary can render the Sinaitic Syriac evidence as 'among.'"
+        consequence: "Old Syriac must not be counted as an unambiguous vote for either side."
+      Peshitta:
+        state: REPORTED_UNAMBIGUOUS_INTERIOR_FORM
+        report: "Ramelli argues the Peshitta uses an expression derived from 'inside / inner parts' and means inside you."
+      Harklean:
+        state: REPORTED_UNAMBIGUOUS_INTERIOR_FORM
+        report: "Ramelli argues the hyper-literal Harklean likewise uses an inside/interior expression."
+      comparison_control:
+        report: "Ramelli contrasts these Luke 17:21 renderings with Syriac renderings of Luke's en mesō + genitive expressions, especially Harklean forms that explicitly mean in-the-middle/among."
+        guard: "This is a scholarly versional argument, not direct Testament collation of all Syriac manuscripts."
+    evidence:
+      - author: Ilaria_Ramelli
+        title: "Luke 17:21: The Kingdom of God is Inside You"
+        journal: Hugoye
+        doi: "10.31826/hug-2011-120112"
+      - source: ICC_Luke_17_21
+        state: COUNTER_RECEPTION_REPORT
+        report: "Older ICC commentary notes Syriac Sinaitic support as 'among,' reinforcing the need to preserve ambiguity in the Old Syriac form."
+    state: VERSIONAL_RECEPTION_BOUND_WITH_OLD_SYRIAC_AMBIGUITY
+
+  - id: PAT-TERTULLIAN-LUKE17-21-POWER
+    passage: Luke_17_21
+    kind: PATRISTIC_EXEGESIS
+    author: Tertullian
+    work: Against_Marcion
+    locator: "Book IV, chapter 35"
+    interpretation: WITHIN_YOUR_HAND_OR_POWER
+    report: "Tertullian explicitly interprets 'within you' as 'in your hand, within your power' if one hears and does God's commandment."
+    evidence:
+      - url: "https://www.newadvent.org/fathers/03124.htm"
+    significance:
+      - "Confirms an ancient reception corresponding closely to the modern 'within your reach/power' interpretive family."
+      - "Shows that interior wording did not require a purely psychological 'inside the soul' interpretation."
+    guard:
+      - "Patristic exegesis is reception evidence, not a lexical override of Luke's Greek."
+      - "Tertullian's theological linkage to Deuteronomy 30 is interpretation, not proof of Luke's intended source."
+
+
 invariants:
   - "VERSIONAL_STREAM != PHYSICAL_MANUSCRIPT."
   - "PATRISTIC_CITATION != GOSPEL_MANUSCRIPT."
