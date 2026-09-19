@@ -139,29 +139,38 @@ variants:
           - kind: DIRECT_ELECTRONIC_TRANSCRIPTION
             source: Codex_Sinaiticus_Project_BL_folio_236b
             report: "The indexed official transcription visibly ends Luke 11:4 after the testing petition and does not display the deliverance phrase in plain extracted text."
-          - kind: PUBLISHED_TEXTUAL_APPARATUS
+          - kind: DIRECT_OFFICIAL_LOCUS_XML_APPARATUS
+            source: Codex_Sinaiticus_Project_Luke_11_4_XML
+            control: research/audits/LUKE11_4_SINAITICUS_CORRECTION_XML_V1.md
+            report: "Current official project XML explicitly encodes first-hand omission, a ca correction state reading αλλα ρυσ(αι) ημας απο τ, and a blank ca correction state; the project specification defines blank correction readings as deletions."
+          - kind: PUBLISHED_TEXTUAL_APPARATUS_SECONDARY_CONTROL
             source: NET_Bible_Luke_11_4
-            report: "NET assigns the longer reading to Sinaiticus corrector 1 and the shorter reading to the original hand and corrector 2."
-          - kind: SECONDARY_HAND_STATE_SUMMARY_CONFLICT
+            report: "NET uses simplified corrector-number labels for longer/shorter states; Testament preserves that report but does not force a one-to-one mapping onto the Codex Sinaiticus Project's ca hand label."
+          - kind: SECONDARY_HAND_STATE_SUMMARY_SUPERSEDED_FOR_PROJECT_ENCODING
             source: Older_Codex_Sinaiticus_secondary_summaries
-            report: "Some secondary summaries describe an incompatible hand sequence. Testament withdraws the prior normalized sequence until the official correction popup/image-linked apparatus is read directly."
+            report: "Earlier conflicting summaries no longer control the project-encoding claim after direct locus XML readback."
         witness_support:
           shorter:
             - WIT-P75-HANNA-1
             - WIT-03-CODEX-VATICANUS
           expansion:
             - WIT-D05-CODEX-BEZAE
-          correction_state_conflict:
+          correction_layer_resolved:
             - WIT-01-CODEX-SINAITICUS
         sinaiticus_state:
-          manuscript_locator: "British Library folio 236b, Luke 10:21-11:6"
-          visible_transcription: SHORTER_ENDING_WITH_CORRECTION_MARKER_IN_DEFAULT_DISPLAY
+          manuscript_locator: "British Library folio 236b / project page 78-5v / column 4 / lines 30-37"
+          verse_id: V-B35K11V4-35-LUKE
           official_transcription_method: IMAGE_CHECKED_SCHOLARLY_ELECTRONIC_TRANSCRIPTION
-          official_correction_model: "Correction alternatives are separately encoded; the XML specification says the first apparatus reading is the default display and is usually but not invariably the original reading."
-          apparatus_report: "NET reports longer = corrector 1; shorter = original hand and corrector 2; older secondary summaries conflict."
-          state: CONFLICT_DIRECT_CORRECTION_POPUP_OR_LOCUS_XML_APPARATUS_READBACK_REQUIRED
-          image_state: DIRECT_IMAGE_READBACK_PENDING
-          guard: "Default visible transcription, correction-layer apparatus, and manuscript image are distinct evidence layers; do not infer exact hand chronology from the default display alone."
+          direct_xml_control: research/audits/LUKE11_4_SINAITICUS_CORRECTION_XML_V1.md
+          firsthand_state: OMITS_DELIVERANCE_ADDITION
+          ca_addition_state:
+            diplomatic_text: "αλλα ρυσ(αι) ημας απο τ"
+            conservative_normalization: "ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τ…"
+            state: PARTIAL_DELIVERANCE_ADDITION
+          ca_deletion_state: BLANK_CORRECTION_READING_XML_SPEC_DEFINES_AS_DELETION
+          state: DIRECT_LOCUS_XML_APPARATUS_RESOLVED
+          image_state: MANUSCRIPT_PIXEL_AUTOPSY_NOT_PERFORMED_AT_THIS_LOCUS
+          guard: "The XML resolves first-hand/correction states at the project-encoding level. It does not justify silently completing the addition beyond tau, distinguishing multiple ca sub-hands, or equating ca with external simplified corrector numbering."
         versional_patristic_support:
           expanded:
             - VP-LUKE11-4-LONGER-VERSIONAL-STREAMS
@@ -170,8 +179,8 @@ variants:
             - VP-LUKE11-4-SHORTER-VERSIONAL-STREAMS
             - PAT-ORIGEN-ON-PRAYER-LUKE11
         versional_guard: "Old Latin/Syriac/Vulgate/Sahidic and patristic evidence are not counted as physical Greek manuscripts and may reflect translation or harmonization history."
-        witness_binding: DIRECT_ELECTRONIC_TRANSCRIPTION_PLUS_PUBLISHED_APPARATUS_CORRECTION_CONFLICT
-        state: HARMONIZATION_TOWARD_MATTHEW_PLAUSIBLE_SINAITICUS_HAND_CHRONOLOGY_UNRESOLVED
+        witness_binding: DIRECT_ELECTRONIC_TRANSCRIPTION_PLUS_DIRECT_OFFICIAL_LOCUS_XML_APPARATUS
+        state: HARMONIZATION_TOWARD_MATTHEW_PLAUSIBLE_SINAITICUS_PROJECT_CORRECTION_LAYER_RESOLVED_FINER_CA_CHRONOLOGY_UNCLAIMED
 
     source_relation:
       Matthew_Luke:
