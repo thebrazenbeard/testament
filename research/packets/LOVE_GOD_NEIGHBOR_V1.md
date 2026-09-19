@@ -109,6 +109,32 @@ Not established:
 - exact original order or wording;
 - that Mark's full exchange is a verbatim transcript.
 
+## Early Christian reception — Didache 1.2–3
+
+Machine-readable control:
+- `ECR-DIDACHE-1-2-3-DOUBLE-ENEMY-LOVE`
+
+The Didache places the two love commands at the head of its Way of Life:
+- love God who made you;
+- love your neighbor as yourself.
+
+It then immediately moves into material about:
+- blessing those who curse;
+- praying for enemies;
+- loving those who hate;
+- nonretaliation.
+
+That sequence matters because it shows an early Christian reception pattern in which Torah-summary love language and Jesus-tradition enemy-love ethics are already combined outside the canonical Gospel narrative settings.
+
+The physical Didache witness already bound by Testament is:
+- `WIT-DIDACHE-H54-HIEROSOLYMITANUS`.
+
+The evidence ceiling remains strict:
+- Didache is not a Gospel manuscript;
+- its combination does not prove direct copying from Mark, Matthew, or Luke;
+- it does not make love of God/neighbor a Christian invention rather than Jewish scriptural interpretation.
+
+
 ## Historical ceiling
 
 Strong:
