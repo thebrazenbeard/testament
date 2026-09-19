@@ -511,7 +511,15 @@ witnesses:
           - url: "https://www.earlychristianwritings.com/thomas/gospelthomas2.html"
       - passage: Thomas_4
         reading_state: EXTANT_FRAGMENTARY_GREEK
-        reading_note: "Directly preserves the first/last reversal within Thomas 4; the published Greek reconstruction includes both first-to-last and last-to-first wording before the unity clause."
+        reading_note: "Directly preserves Thomas 4 across a fragmentary Greek line. Published reconstruction yields the reciprocal first/last maxim before the unity clause, but portions of the first half and the unity clause are restored across lacunae; restored words are not treated as continuously extant ink."
+        collation_state: PUBLISHED_RECONSTRUCTION_WITH_DIRECT_SURVIVING_RECIPROCAL_CORE
+        synoptic_comparison:
+          Mark_10_31: "The reconstructed Thomas core closely matches Mark's reciprocal form, including the article before the second 'last'; Thomas has different connective framing and the papyrus line is partly restored."
+          Matthew_19_30: "Matthew preserves the same reversal but lacks Mark's article before the second 'last' in the SBLGNT form, so Thomas should not be labeled an exact Matthew match."
+        restoration_guard: "Do not call the entire reciprocal clause a continuous verbatim papyrus readback; distinguish surviving letters from editorial restoration."
+        scholarship:
+          - url: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
+          - url: "https://www.earlychristianwritings.com/thomas/gospelthomas4.html"
       - passage: Thomas_3
         reading_state: EXTANT_FRAGMENTARY_GREEK
         reading_note: "Directly preserves substantial portions of Thomas 3. Published Greek/Coptic comparison shows a material location-form difference: the Greek form has the second proposed kingdom-location under the earth, while the Coptic form has it in the sea. Some Greek lines remain lacunose; Coptic wording must not be used to fill Greek gaps without labeling reconstruction."
