@@ -198,6 +198,9 @@ records:
           full_line: "ܗܐ ܓܝܪ ܡܠܟܘܬܗ ܕܐܠܗܐ ܒܓܘܟܘܢ ܐܝܬܝܗ"
           target_expression: "ܒܓܘܟܘܢ"
           method: "Rendered-page visual inspection plus custom-font decoding calibrated against the independently bound Peshitta line printed immediately above."
+          decode_audit: research/audits/LUKE17_21_HARKLEAN_FONT_DECODE_V1.md
+          independent_control: "Syriac Orthodox Patriarchate Bar Hebraeus Luke commentary preserves ܡܠܟܘܬܗ ܕܐܠܗܐ and explicitly marks ܒܓܘܟܘܢ ܐܝܬܝܗ as the Greek-aligned form."
+          extraction_artifact_guard: "Terminal ASCII J in the legacy PDF text layer is nonlexical/unresolved as an extraction mechanism; it is not promoted to an additional Syriac letter."
           evidence_ceiling: "Direct scholarly-page text readback; not manuscript-image autopsy of Vat. Syr. 268."
         report: "Ramelli argues the hyper-literal Harklean uses an explicit inside/interior expression; the project now binds the quoted Harklean line itself while keeping that semantic judgment attributed."
       comparison_control:
