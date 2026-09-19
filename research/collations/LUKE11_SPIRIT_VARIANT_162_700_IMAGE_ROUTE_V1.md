@@ -63,6 +63,32 @@ Digitized-route control:
 - Wikimedia Commons hosts the 300-page public-domain PDF and per-page rendered previews;
 - front-matter scan analysis isolates the photographic facsimile leaves before the Introduction, but Testament does not promote a derivative scan-page guess into a direct manuscript reading.
 
+### Hoskier 1890 scan-topology narrowing
+
+The Internet Archive IIIF Presentation 3 manifest and OCR annotation service now narrow the two Hoskier facsimile leaves without guessing their identity.
+
+Exact scan structure:
+- canvas `28` contains Hoskier's printed NOTE identifying the two reproductions as:
+  - folio 180r, Luke 9:48-54;
+  - folio 184v, Luke 11:2-8;
+- canvas `30` is the printed start of the Introduction;
+- canvas `27` has only sparse/gibberish OCR consistent with a photographic manuscript plate;
+- canvas `29` has an empty OCR annotation page;
+- because Hoskier states that the two reproductions precede the Introduction, canvases 27 and 29 are the two isolated facsimile candidates surrounding the note and immediately preceding canvas 30.
+
+Exact Internet Archive image services:
+- candidate canvas 27 -> JP2 leaf `fullaccountcolla00hoskrich_0028.jp2`;
+- printed note canvas 28 -> JP2 leaf `fullaccountcolla00hoskrich_0029.jp2`;
+- candidate canvas 29 -> JP2 leaf `fullaccountcolla00hoskrich_0030.jp2`;
+- Introduction canvas 30 -> JP2 leaf `fullaccountcolla00hoskrich_0031.jp2`.
+
+Control:
+- current evidence does **not** distinguish which of candidate canvases 27 and 29 is folio 180r versus folio 184v;
+- plate order is therefore not inferred from Hoskier's prose order;
+- neither candidate is promoted to the Luke 11:2 plate until visual or independent page-specific evidence identifies it.
+
+This turns the Hoskier route from a 300-page volume into a two-image candidate set while preserving the remaining identity uncertainty.
+
 ### Kenyon 1912 independent facsimile cross-bind
 
 Frederic G. Kenyon's 1912 second edition of *Handbook to the Textual Criticism of the New Testament* independently reproduces Codex 700 as **Plate X**.
@@ -116,6 +142,7 @@ The debt is narrower:
 - 162 exact side is resolved to 151v / p0314;
 - 700 exact folio/side is resolved;
 - 700 facsimile identity is independently cross-bound through Hoskier 1890 and Kenyon 1912;
+- Hoskier's 300-page scan is narrowed to candidate facsimile canvases 27 and 29, with the Luke-11 plate assignment still unresolved;
 - actual manuscript-pixel collation remains pending.
 
 No facsimile caption, OCR layer, or published transcription is promoted into direct visual manuscript readback.
