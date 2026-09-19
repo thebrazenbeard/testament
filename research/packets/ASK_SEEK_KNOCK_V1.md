@@ -180,6 +180,44 @@ Neither can be solved merely by counting similar words.
 - Coptic SCRIPTORIUM, Gospel of Thomas:
   https://data.copticscriptorium.org/texts/thomasgospel/gospel-of-thomas/
 
+## Patristic testimony — Clement and the Gospel according to the Hebrews
+
+Machine-readable control:
+- `PAT-CLEMENT-GHEB-SEEK-FIND`
+
+Clement of Alexandria supplies an important external control on the seek/find chain.
+
+In *Stromata* 2.9.45.5 Clement explicitly attributes to the Gospel according to the Hebrews a compact:
+- wonder;
+- reign;
+- rest
+
+sequence.
+
+In *Stromata* 5.14.96.3 he gives the fuller:
+- seek;
+- find;
+- marvel;
+- reign;
+- rest
+
+chain closely parallel to the Greek Thomas 2 form preserved/reconstructed in P.Oxy. 654.
+
+The attribution boundary matters.
+
+Testament does **not** say that Clement freshly names the Gospel according to the Hebrews in the immediate sentence containing the later fuller chain.
+
+Instead it records:
+- explicit Gospel-of-the-Hebrews attribution for the shorter related quotation;
+- a fuller Clementine chain elsewhere;
+- scholarly association between the two.
+
+This is strong evidence that the Thomas 2 chain circulated beyond the surviving Gospel of Thomas witness tradition.
+
+It is still indirect testimony:
+the Gospel according to the Hebrews is not physically recovered by Clement's quotation.
+
+
 ## Historical ceiling
 
 Strong:
