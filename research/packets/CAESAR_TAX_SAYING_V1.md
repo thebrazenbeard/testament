@@ -88,6 +88,46 @@ Published translations represented on Early Christian Writings consistently pres
 That clause is evidence for the extant Thomas form.
 It is not evidence that the historical Caesar saying originally ended that way.
 
+### Redactional-fingerprint review — Thomas 100
+
+Thomas 100 has a stronger Synoptic-redaction case than its previous generic "direction unresolved" label suggested.
+
+Kimberley Fowler's 2018 study explicitly treats Thomas 100 as a redaction of the Synoptic render-to-Caesar pericope and interprets its distinctive form in a later ascetic/Pachomian setting.
+
+Simon Gathercole's work on Luke in Thomas likewise places the saying inside a broader case for Synoptic/Lukan influence.
+
+That is meaningful local evidence.
+
+It is not direct Greek proof.
+
+Thomas 100 survives only in Coptic in the currently bound witness set.
+
+The extant Thomas form also adds a distinctive final claim:
+- give Caesar what is Caesar's;
+- give God what is God's;
+- give Jesus what is his.
+
+That final clause demonstrates Thomasine compositional activity, but it does not by itself tell us whether the shared Caesar/God core came by:
+- direct literary copying;
+- indirect Gospel influence;
+- shared oral tradition;
+- mixed transmission.
+
+Current local state:
+
+**RELATION_DISPUTED.**
+
+Evidence balance:
+
+**SYNOPTIC REDACTION MODEL SUBSTANTIAL / COPTIC-ONLY WITNESS / DIRECT LITERARY DIRECTION NOT SECURE.**
+
+The project therefore does not use Thomas 100 as an automatically independent historical attestation.
+
+References:
+- Kimberley A. Fowler, "Reading Gospel of Thomas 100 in the Fourth Century" (2018), DOI 10.1163/15700720-12341356.
+- Simon J. Gathercole, "Luke in the Gospel of Thomas" (2011).
+- Melissa Harl Sellew, "The Gospel of Thomas and the Synoptics" (2023), DOI 10.1093/oxfordhb/9780190887452.013.27.
+
 ### Dependence control
 
 The project therefore separates three questions:
