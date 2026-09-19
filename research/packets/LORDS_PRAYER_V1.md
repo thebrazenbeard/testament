@@ -205,7 +205,17 @@ This upgrades Gregory from generic patristic support to direct primary-text test
 
 It does **not** make Gregory a physical Gospel manuscript, prove his form original to Luke, or close the image-collation debt for 162/700.
 
-Maximus remains a separate patristic support item at published-report level until independently direct-bound.
+Maximus is now independently direct-bound as a primary patristic text:
+- dedicated control: `research/collations/LUKE11_2_MAXIMUS_SPIRIT_PETITION_V1.md`;
+- work: *Orationis Dominicae brevis expositio*, PG 90:884B-C;
+- Maximus says what Matthew here calls `kingdom`, another evangelist elsewhere calls `Holy Spirit`;
+- direct Maximus form: `Ἐλθέτω σου τὸ Πνεῦμα τὸ ἅγιον, καὶ καθαρισάτω ἡμᾶς`;
+- unlike Gregory's directly attributed form and the fuller 700 form, Maximus has no `ἐφ’ ἡμᾶς` here;
+- his possessive-before-Spirit order is locally closer to 162's reported form.
+
+That wording comparison does not establish genealogy.
+
+The PG apparatus itself suggests Maximus may have drawn from Gregory of Nyssa. Testament preserves that as an editorial dependence hypothesis, not a demonstrated fact. Gregory and Maximus therefore are **not counted as two securely independent transmission streams** merely because both texts are directly recoverable.
 
 The two Greek witnesses are **not textually identical**.
 
@@ -274,6 +284,8 @@ References:
 - Tertullian, *Against Marcion* IV.26.
 - D. T. Roth, "The Text of the Lord's Prayer in Marcion's Gospel" and later NA28 reassessment.
 - Gregory of Nyssa, *De oratione dominica*, third homily; direct synchronized Greek text, GNO VII/II 39.18-19 control.
+- Maximus the Confessor, *Orationis Dominicae brevis expositio*, PG 90:884B-C; direct Greek text and PG apparatus note.
+- `research/collations/LUKE11_2_MAXIMUS_SPIRIT_PETITION_V1.md`.
 - `research/collations/LUKE11_2_GREGORY_NYSSA_SPIRIT_PETITION_V1.md`.
 - Bruce M. Metzger, textual commentary on Luke 11:2.
 - Vatican Apostolic Library, DigiVatLib IIIF manifest for Barb.gr.449.
