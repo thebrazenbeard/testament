@@ -136,22 +136,36 @@ A dedicated lexical packet now controls the translation dispute:
 
 - `research/lexicon/ENTOS_WITHIN_AMONG_V1.md`
 
-The current lexical floor is deliberately non-final.
+The broad Greek corpus review is now materially advanced.
 
 Important observations:
 - the other New Testament use of `entos` is Matthew 23:26, where it refers to the inside of a cup;
+- LSJ's broader range centers the word on interiority, inclusion within bounds, range and related boundedness;
+- Greek examples can extend that boundedness to groups, control, competence and reach;
 - Luke also has a recurring `en tō mesō` idiom available for "among / in the midst";
-- neither fact mechanically settles Luke 17:21;
-- Colin H. Roberts's Greek, papyrological, and patristic study argues for a third sense roughly "within your power / within your reach."
+- Colin H. Roberts argues for a third sense roughly "within your power / within your reach";
+- Ilaria Ramelli's broad Greek + Syriac study argues that "inside you" better represents the construction;
+- a substantial modern commentary tradition still prefers "among / in your midst" because of addressee, context and Lukan kingdom theology.
 
-Testament therefore preserves three live interpretive families:
+That changes the control.
+
+Testament still preserves three live English interpretive families:
 - interior: "within you";
 - communal/present: "among you / in your midst";
 - availability/agency: "within your power / reach."
 
-The third option is less common in modern translation, but it is documented scholarly interpretation and may not be erased merely because it complicates a two-option debate.
+But they are **not represented as three lexically co-equal dictionary senses**.
 
-This deepens the lexical control without claiming final corpus-level closure.
+The current bounded result is:
+- interiority / bounded inclusion = lexical center;
+- "among/in your midst" = contextually defensible group construal;
+- "within reach/power" = attested semantic extension / idiomatic construal;
+- final translation = not decidable by lexicon alone.
+
+This is important because much of the modern "among" case is contextual and theological/exegetical rather than a simple lexical demonstration.
+
+The reverse guard also holds:
+the lexical center of "within" does not prove an individualized interior kingdom or Testament's agency thesis.
 
 ### Project-bias guard
 
