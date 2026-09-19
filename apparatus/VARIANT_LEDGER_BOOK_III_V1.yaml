@@ -871,19 +871,32 @@ variants:
       guard: "P.Oxy. 1 begins within logion 26; missing Greek wording cannot be silently supplied from Coptic."
 
     dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
       Synoptics:
         state: COMPOSITE_WITH_MARKAN_RELATED_MATERIAL
         guard: "Matthew/Luke overlap is not automatically independent attestation; Mark's separate measure placement complicates reconstruction."
-      Thomas_vs_Synoptics:
+      Thomas_26_vs_Synoptics:
         state: RELATION_DISPUTED
-        evidence_balance: DISPUTED_SAYING_LEVEL_RELATION
-        bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
-        scholarship:
-          - author: Melissa_Harl_Sellew
-            title: "The Gospel of Thomas and the Synoptics"
-            year: 2023
+        evidence_balance: DIRECT_GREEK_VERBATIM_AGREEMENT_STRONG_CONTACT_ARGUMENT_WITH_ORAL_COUNTERMODEL
+        direct_greek_evidence:
+          witness: WIT-POXY-1-GOSPEL-THOMAS
+          preserved_scope: "Only the concluding portion of Thomas 26 is extant in P.Oxy. 1."
+          report: "Goodacre identifies a thirteen-word verbatim agreement in the surviving Greek ending with Luke 6:42; the position of ekbalein also aligns with Matthew 7:5."
+          significance: "This is materially stronger dependence evidence than a Coptic-only thematic parallel because the comparison is Greek-to-Greek."
+        missing_middle_argument:
+          source: Mark_Goodacre
+          report: "The complete Coptic Thomas form preserves the opening and conclusion but omits the intervening hypothetical dialogue/hypocrite material found in Matthew/Luke; Goodacre treats this as a recurring Thomasine 'missing middle' phenomenon compatible with abbreviation from Synoptic forms."
+          manuscript_guard: "P.Oxy. 1 itself does not preserve the opening/middle of logion 26, so the missing-middle pattern is established from Coptic Thomas plus Synoptic comparison, not from a complete Greek Thomas witness."
+        counterarguments:
+          - kind: ORAL_FORMULA_STABILITY
+            report: "Critics of Goodacre note that the preserved agreement is the memorable punchline of the saying, which can be stable in oral transmission and therefore does not prove direct literary contact by itself."
+          - kind: ALTERNATIVE_REDACTION_DIRECTION
+            report: "Published Thomas scholarship argues that the Synoptic middle material may instead be expansion/addition, leaving a shorter Thomasine form compatible with shared or earlier tradition."
+          - kind: COMPARATIVE_METHOD
+            scholar: Melissa_Harl_Sellew
             doi: "10.1093/oxfordhb/9780190887452.013.27"
-        guard: "Thomas 26 may reflect shared tradition, direct dependence, or complex transmission; no direction is promoted to fact."
+        adjudication: "The direct Greek agreement gives literary-contact arguments real local weight, but the fragment's limited scope and oral-formula countermodel prevent promotion to direct dependence."
+        guard: "Do not describe the full Thomas 26 wording as Greek manuscript evidence; only the concluding P.Oxy. 1 overlap is direct Greek evidence."
 
     semantic_guard:
       claim: "Judge not"
