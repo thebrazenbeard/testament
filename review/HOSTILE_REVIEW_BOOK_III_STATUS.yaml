@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v28
+schema_version: testament.hostile_review_book_iii.v29
 overall_status: ACTIVE
 complete: false
 
@@ -294,6 +294,17 @@ tranche_28:
   residual_debt:
     - THOMAS_101_NHCII_49_36_PAGE49_TERMINAL_LINES_DIRECT_IMAGE_READBACK
 
+tranche_29:
+  review_target: 86fab80923353cd75bac8ed97ca1e9456bfe4d2d
+  review_report_commit: 4f6a9fe835aaa9b8f536065a1a32f15c2fe4747b
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE29_20260919.md
+  status: PASS_FOR_TRANCHE_HIGH_VALUE_GATE_COMPLETE
+  finding_range: NONE
+  reviewed_debt:
+    - VERSIONAL_PATRISTIC_EXPANSION_BEYOND_LUKE11
+  residual_debt:
+    - VERSIONAL_PATRISTIC_MEDIUM_VALUE_TARGETED_EXPANSION
+
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
   - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
@@ -333,7 +344,7 @@ next_scope:
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_29
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_30
 
 
 thomas_fingerprint_scope:
