@@ -77,6 +77,32 @@ witnesses:
           - url: "https://www.cambridge.org/core/journals/new-testament-studies/article/abs/cambridge-pericope-the-addition-to-luke-64-in-codex-bezae/D3426B5A234ED8EE21B2A26E40CD8CD0"
           - url: "https://itseeweb.cal.bham.ac.uk/igntp/bezae.html"
           - url: "https://greeknewtestament.net/lk6-5"
+      - passage: Luke_17_21
+        reading_state: DIRECT_IGNTP_LATIN_TRANSCRIPTION_BOUND
+        column: Latin
+        manuscript_locator:
+          folio_current: "256r"
+          folio_ink_page: "236"
+          cudl_canvas: 492
+          tei_verse_id: B03K17V21
+          line_range: "P256rC1L3-05 through P256rC1L6-05"
+        direct_transcription:
+          source: IGNTP_Bezae_Latin_XML_v1
+          url: "https://epapers.bham.ac.uk/id/eprint/1664/1/Bezae-Latin.xml"
+          target_clause: "ecce enim regnum dei intra uos est"
+          exact_tei_target_tokens: [ecce, enim, regnum, dei, intra, uos, est]
+          wider_verse_note: "The TEI transcription also has neque dicent ecce hic aut cce illi / nolite credere before the target clause; this wider Bezae Latin form is preserved as witness-specific transcription rather than normalized to the Vulgate."
+          checked: "2026-09-19"
+        evidence_class: DIRECT_INSTITUTIONAL_ELECTRONIC_TRANSCRIPTION_NOT_IMAGE_AUTOPSY_AT_THIS_LOCUS
+        reading_note: "The official IGNTP/Cambridge transcription directly binds the Bezae Latin column at Luke 17:21 to intra uos. This replaces secondary-only reporting for the Bezae witness while leaving the collective Vetus Latina tradition separate."
+        institutional_evidence:
+          - source: Birmingham_ePapers_Bezae_Latin
+            url: "https://epapers.bham.ac.uk/id/eprint/1664/"
+            report: "Repository record identifies Bezae-Latin.xml as the IGNTP electronic transcription commissioned for Cambridge University Library's digital manuscript."
+          - source: IGNTP_Bezae_transcription_project
+            url: "https://itseeweb.cal.bham.ac.uk/igntp/bezae.html"
+            report: "IGNTP states that the Latin XML transcription is archived in the Birmingham repository and displayed alongside Cambridge images."
+        guard: "Direct XML transcription is stronger than a secondary report but is not direct visual autopsy of folio 256r in this pass; one Bezae Latin witness does not equal the whole Vetus Latina tradition."
       - passage: Luke_11_2_opening_address
         reading_state: EXPANDED_MATTHEAN_STYLE_ADDRESS
         reading_note: "Published apparatus summaries report Bezae with the expanded 'Our Father in heaven' form."
