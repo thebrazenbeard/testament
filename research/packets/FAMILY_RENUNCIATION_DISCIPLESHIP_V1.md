@@ -106,7 +106,35 @@ Testament therefore records:
 
 This closes the old `THOMAS_101_LACUNA_EDITION_BINDING` debt at the critical-edition level.
 
-It does **not** close autoptic manuscript verification.
+### Partial manuscript-image verification — Thomas 101
+
+The physical locus is now exact:
+- saying: NHC II,2 49.32–50.1;
+- disputed mother-clause lacuna: 49.36–50.1.
+
+Public manuscript images are identified for both codex pages 49 and 50.
+
+Page 50:
+- the original manuscript image is directly viewable in the current research surface;
+- upper-page physical damage/loss is visibly present;
+- Testament does not infer missing Coptic wording from the damage.
+
+Page 49:
+- the public manuscript image is catalogued and its dimensions/source are known;
+- the current direct-image channel repeatedly fails to render it;
+- therefore the terminal page-49 lines have **not** been directly inspected in this pass.
+
+Published scholarship records multiple restoration proposals for the 49.36–50.1 gap.
+
+Those remain proposals.
+
+Current state:
+
+**PARTIAL AUTOPTIC CONFIRMATION — PAGE 50 BOUND / PAGE 49 TERMINAL LINES PENDING.**
+
+The remaining debt is therefore narrower than generic autoptic verification.
+
+It does **not** close full manuscript-image verification.
 
 References:
 - Bentley Layton, ed., *Nag Hammadi Codex II, 2–7* (Brill, 1989), critical edition and editorial method.
