@@ -388,6 +388,9 @@ Harklean:
   - `ܗܐ ܓܝܪ ܡܠܟܘܬܗ ܕܐܠܗܐ ܒܓܘܟܘܢ ܐܝܬܝܗ`;
 - target expression:
   - `ܒܓܘܟܘܢ`;
+- decode audit: `research/audits/LUKE17_21_HARKLEAN_FONT_DECODE_V1.md`;
+- the independent Syriac Patriarchate commentary preserves `ܡܠܟܘܬܗ ܕܐܠܗܐ` and explicitly marks `ܒܓܘܟܘܢ ܐܝܬܝܗ` as Greek-aligned wording;
+- a stray terminal ASCII `J` from the legacy PDF text layer is treated as a nonlexical extraction artifact, not silently decoded into Syriac;
 - this is direct published-edition readback, not manuscript-image autopsy of Vat. Syr. 268.
 
 Debt consequence:
