@@ -69,25 +69,39 @@ References:
 - Codex Bezae overview:
   https://www.newadvent.org/cathen/04083a.htm
 
-### Folio-level apparatus deepening
+### Folio-level apparatus deepening and direct digital-image readback
 
-The Cambridge-pericope locator is now manuscript-specific at scholarly folio level.
+The Cambridge-pericope locator is now manuscript-specific and image-bound.
 
-Ernst Bammel identifies the Bezae addition at:
-- Codex Bezae Cantabrigiensis;
-- Cambridge University Library MS Nn.2.41;
-- fol. 205b/206a.
+Legacy scholarship cites the spread as fol. 205b/206a. Cambridge's current digital foliation identifies the same spread as:
+- Greek: fol. 205v, CUDL canvas 391;
+- Latin: fol. 206r, CUDL canvas 392.
 
-This materially improves the control:
-the project no longer knows only that "Bezae has the reading"; it knows where the reading is reported to occur in the codex.
+The Cambridge IIIF manifest directly maps those canvases to the manuscript-image services.
 
-But the evidence level remains:
+Direct visual readback:
+- a rendered digital reproduction of the 205v-206r spread was directly inspected;
+- the Greek page visibly contains the distinctive Sabbath-worker paragraph in the main text block;
+- the facing Latin page preserves the corresponding passage;
+- this is no longer merely a scholarly folio locator.
 
-**scholarly folio locator / not direct Testament image readback.**
+Evidence boundary:
+- the image readback confirms physical presence, location, layout, and substantial legibility;
+- the exact normalized Greek wording remains tied to the Cambridge/IGNTP transcription and published scholarship;
+- Testament does not claim a fresh independent diplomatic transcription of every visible character from the image.
 
-The direct Cambridge digital-image route did not resolve in the available search surface during this pass, so Testament does not claim autoptic confirmation.
+Current state:
 
-Reference:
+**DIRECT DIGITAL IMAGE READBACK COMPLETE / EXACT NORMALIZED WORDING TRANSCRIPTION-BOUND.**
+
+Consequence:
+- `BEZAE_LUKE6_DIRECT_DIGITAL_IMAGE_READBACK` is closed;
+- the reading remains a distinctive Bezae textual variant, not promoted to original Luke;
+- historical attribution to Yeshua remains unproven.
+
+References:
+- Cambridge Digital Library IIIF manifest for MS Nn.2.41: `https://cudl.lib.cam.ac.uk/iiif/MS-NN-00002-00041`.
+- International Greek New Testament Project, Codex Bezae transcription.
 - Ernst Bammel, "The Cambridge Pericope. The Addition to Luke 6.4 in Codex Bezae," *New Testament Studies* 32 (1986): 404–426.
   DOI 10.1017/S0028688500013655
 
