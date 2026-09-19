@@ -1,4 +1,4 @@
-schema_version: testament.hostile_review_book_iii.v27
+schema_version: testament.hostile_review_book_iii.v28
 overall_status: ACTIVE
 complete: false
 
@@ -282,6 +282,18 @@ tranche_27:
   residual_debt:
     - LUKE17_21_OLD_SYRIAC_HARKLEAN_DIRECT_TEXT_ENCODING
 
+
+tranche_28:
+  review_target: 7c78b460b2ca836ec11c9e5179294976b0fa4ee7
+  review_report_commit: e5be26ba4d71afa88b9df3708b327eec4979dcba
+  report: review/HOSTILE_REVIEW_BOOK_III_TRANCHE28_20260919.md
+  status: PASS_FOR_TRANCHE_PARTIAL_AUTOPTIC_CLOSURE
+  finding_range: NONE
+  reviewed_debt:
+    - THOMAS_101_LACUNA_AUTOPTIC_CONFIRMATION
+  residual_debt:
+    - THOMAS_101_NHCII_49_36_PAGE49_TERMINAL_LINES_DIRECT_IMAGE_READBACK
+
 reviewed_controls:
   - VAR-LUKE-11-2-4-LORDS-PRAYER
   - VAR-MATT-5-44-ENEMY-LOVE-HARMONIZATION
@@ -321,7 +333,7 @@ next_scope:
   - EXACT_VARIANT_APPARATUS_DEEPENING
   - VERSIONAL_PATRISTIC_WITNESS_EXPANSION
   - IMAGE_AUTOPTIC_LEVEL_VERIFICATION
-  - BOOK_III_HOSTILE_REVIEW_TRANCHE_28
+  - BOOK_III_HOSTILE_REVIEW_TRANCHE_29
 
 
 thomas_fingerprint_scope:
