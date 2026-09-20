@@ -46,6 +46,29 @@ tranche_2:
     foundational_primary_source_gap: SUBSTANTIALLY_REDUCED
     further_research: INCREMENTAL_NOT_BLOCKING_CURRENT_CLAIM_CEILINGS
 
+
+tranche_3:
+  scope: BOOK_VI_SYRIAC_AND_POLEMIC_HOSTILE_REREVIEW
+  reviewed_target: 7ca86032b92a390840b477f307de0a276ac2c40e
+  repair_branch: review/book-vi-syriac-hostile-rereview-v1-20260920
+  report: review/HOSTILE_REVIEW_BOOK_VI_SYRIAC_TRANCHE1_20260920.md
+  review_report_commit: 2da98ba13165c05b5cebae401298201aef4ca723
+  status: PASS_FOR_REPAIRED_FINDINGS
+  finding_range: HR-BVI-001..HR-BVI-005
+  repaired_findings:
+    - HR-BVI-001_FINISHED_WESTERN_CHRISTIANITY_EXPORT_SEQUENCE
+    - HR-BVI-002_SINGULAR_SYRIAC_CHRISTIANITY_REIFICATION
+    - HR-BVI-003_APHRAHAT_EPHREM_FALSE_BINARY
+    - HR-BVI-004_UNIVERSAL_POLEMIC_CLAIM
+    - HR-BVI-005_JEWISH_CHRISTIAN_POLEMIC_OVERGENERALIZATION
+  upstream_research_subject:
+    repository: thebrazenbeard/on-theo
+    exact_head: 7fec7dc808aba9dbec9b2d18552d29308cc2e6fe
+    artifact: traditions/syriac-christianity/syriac-gospel-theology-transition-v1.md
+  residual_book_vi_status:
+    syriac_foundational_gap: SUBSTANTIALLY_REDUCED
+    next_high_value_frontier: EARLY_ISLAMIC_JESUS_RECEPTION_PRIMARY_SOURCE_DEEPENING
+
 next_scope:
   - AUTHORIAL_SPEAKER_IDENTITY_DECISION
   - ANACHRONISM_REREVIEW_ON_EXPANSION
