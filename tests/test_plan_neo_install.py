@@ -83,6 +83,8 @@ class NeoInstallPlannerTests(unittest.TestCase):
                 "book-testament-of-the-spark",
             )
             self.assertIn("NO_LIBRARY_JSON_MODIFIED", plan["guards"])
+            self.assertTrue(plan["warnings"])
+            self.assertIn("Anonymous", plan["warnings"][0])
             self.assertFalse((library_json.parent / "book-testament-of-the-spark").exists())
 
     def test_multiple_shelves_require_explicit_shelf(self):
