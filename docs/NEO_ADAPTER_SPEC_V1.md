@@ -1,6 +1,6 @@
 # NEO Adapter Contract V1
 
-Status: DESIGN READY / NOT INSTALLED / NO CANONICAL STATE CHANGE
+Status: PROTOTYPE IMPLEMENTED / LOCALLY TESTED / NOT INSTALLED / NO CANONICAL STATE CHANGE
 
 External reference:
 - repository: hughhowey/neo
@@ -52,6 +52,31 @@ Not:
 `NEO edits -> Testament GitHub`
 
 The first version must be deterministic and non-destructive.
+
+## V1 implementation
+
+Prototype implementation:
+- `tools/export_testament_to_neo.py`
+- `tests/test_export_testament_to_neo.py`
+
+Current behavior:
+- reads only the nine Draft V1 prose files declared in the adapter;
+- creates stable chapter IDs and a deterministic chapter order;
+- writes a caller-supplied NEO book folder;
+- emits `book.json`, `chapters/*.html`, `notes.html`, `outline.html`, `darlings.json`, `stickies.json`, and `TESTAMENT_NEO_EXPORT_RECEIPT.json`;
+- records exact caller-supplied Testament source and exporter commits plus the pinned NEO compatibility commit;
+- leaves `author` blank by default while the authorial-speaker identity remains unresolved;
+- refuses to overwrite an existing output directory unless `--overwrite` is explicit;
+- contains no reverse-sync path and does not mutate a live NEO library.
+
+Validation performed before persistence:
+- local Python `unittest` suite: 6/6 PASS;
+- current Draft V1 heading structure was checked across all nine prose files;
+- Books VII and VIII contain leading `Status:` control lines; the exporter explicitly strips those from reader output;
+- unexplained prose before a book's first `##` section is rejected rather than silently dropped;
+- the persisted GitHub files were read back after creation.
+
+This is implementation evidence only. The exporter has not been installed into NEO, has not mutated `~/Documents/NEO Library`, and has not been validated by launching the NEO application.
 
 ## Source surface
 
@@ -164,7 +189,9 @@ It must NOT:
 
 An optional install/import step can be designed later after NEO-library mutation semantics are tested.
 
-## Acceptance tests for a future exporter
+## Acceptance tests
+
+The prototype now exercises the core contract with a bounded local suite. Remaining application-level interoperability still requires a real NEO import/open test before the adapter can be called operationally validated.
 
 At minimum:
 1. same Testament commit -> byte-identical prose/chapter files, excluding explicitly timestamped receipt fields;
@@ -185,3 +212,5 @@ A Testament -> NEO adapter is technically low-friction because NEO's inspected f
 The difficult problem is not file conversion. It is preventing a convenient writing frontend from becoming an untracked second manuscript authority.
 
 This contract resolves that by making V1 one-way and generated.
+
+The prototype now enforces that boundary in code. The next technical frontier is an exact-head export of the current manuscript into a disposable directory followed by a non-mutating NEO compatibility inspection; installing/importing into a live NEO library remains outside current authorization.
