@@ -78,10 +78,16 @@ Christianity did not become Latin and Greek and then politely export itself east
 
 Syriac Christianity developed its own textual, poetic, ascetic, exegetical, and liturgical worlds.
 
-The Diatessaron harmonized Gospel material.
-Ephrem wrote through that reception environment.
-Old Syriac witnesses preserve Gospel forms that matter textually.
-Peshitta traditions stabilized others.
+Tatian's Gospel harmony became deeply important in parts of the Syriac world.
+Ephrem wrote a fourth-century commentary through that reception environment.
+
+But the harmony itself does not survive for us as one complete second-century Syriac manuscript. Much of what can be reconstructed comes through later witnesses, especially Ephrem's commentary. Even that commentary reaches us through a later Syriac manuscript and, for its complete form, Armenian transmission.
+
+And Ephrem also knew separated Gospel material.
+
+So the story is not one book disappearing the day another arrived.
+Old Syriac witnesses preserve other Gospel forms that matter textually.
+Peshitta traditions stabilize still others.
 
 Every translation is interpretation at the level of possibility even when it aims at fidelity.
 
