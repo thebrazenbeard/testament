@@ -132,7 +132,7 @@ Act.
 
 ## 6. If God Is Everything
 
-Then there is no disposable person.
+If you understand everything as participating in the sacred, this book's ethic gives you no disposable person.
 
 No disposable animal.
 No disposable river.
@@ -150,7 +150,7 @@ Act.
 
 ## 7. If There Is No God
 
-Then nothing about compassion becomes less urgent.
+If there is no God, this book's case for compassion does not disappear.
 
 No celestial parent will repair what we refuse to repair.
 No final judge guarantees justice.
@@ -171,7 +171,7 @@ Act.
 
 Here is the symbol as plainly as I can make it.
 
-The spark is whatever in you can become a cause rather than only an effect.
+The spark is the name for your capacity, however bounded, to participate deliberately in what happens next.
 
 Maybe it is divine image.
 
