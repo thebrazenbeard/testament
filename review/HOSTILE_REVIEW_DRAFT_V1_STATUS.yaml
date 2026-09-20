@@ -29,6 +29,7 @@ tranche_2:
   reviewed_target: 49688fdb205018d8039fe2ab36abc1106c748cd9
   repair_branch: review/book-v-hostile-rereview-v2-20260920
   report: review/HOSTILE_REVIEW_BOOK_V_TRANCHE1_20260920.md
+  review_report_commit: 5c763ea14d8ba8388aee2d2b95615e8b6794b072
   status: PASS_FOR_REPAIRED_FINDINGS
   finding_range: HR-BV-001..HR-BV-005
   repaired_findings:
