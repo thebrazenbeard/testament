@@ -27,7 +27,7 @@ Corrected opponents.
 Buried teachers.
 Named successors.
 
-The history of Christianity begins in plurality before it becomes a story about unity.
+The surviving evidence reveals plurality early, before later institutions tell a cleaner story about unity.
 
 ## 2. James's Yeshua
 
@@ -98,9 +98,9 @@ The road turns toward suffering.
 
 The earliest recoverable ending of Mark leaves women in fear and silence after the tomb announcement.
 
-Later transmitters did not always tolerate that ending.
+Later manuscript traditions also preserve additional endings that supply appearances and closure absent from the earliest recoverable ending.
 
-The additions themselves are evidence—not of what Mark originally wrote, but of what readers felt a Gospel should provide.
+The additions themselves are evidence—not of what Mark originally wrote, but of how the Gospel continued to be transmitted and completed in some manuscript traditions.
 
 ## 6. Matthew's Teacher
 
