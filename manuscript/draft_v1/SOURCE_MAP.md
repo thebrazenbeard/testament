@@ -277,6 +277,26 @@ Claim ceiling:
 - later Jewish, Christian, Syriac, Islamic and mystical materials are evidence for reception first;
 - they are not silently upgraded into independent first-century biography.
 
+Upstream ON_THEO Aphrahat / Syriac reception control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `199fa8b73bea18c71340da810429d868905b1cac`
+- branch at readback: `research/aphrahat-syriac-reception-v1-20260920`
+- artifacts:
+  - `traditions/syriac-christianity/aphrahat-syriac-reception-v1.md`
+  - `traditions/syriac-christianity/aphrahat-syriac-reception-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - Aphrahat's scriptural/ascetic Christology: BOUNDED / STRONG_FOR_APHRAHAT;
+  - fourth-century Syriac Christian-Jewish boundary argument: BOUNDED / MODERATE_TO_STRONG;
+  - represented Jewish dialogue as verbatim transcript: NOT_ADMITTED;
+  - collective Jewish guilt as historical crucifixion causation: NOT_ADMITTED;
+  - bodily resurrection reception: BOUNDED / STRONG_FOR_APHRAHAT.
+- guards:
+  - polemical opponent != neutral Jewish self-description;
+  - reported dialogue != verified transcript;
+  - fourth-century reception != first-century biography;
+  - collective blame != historical causation.
+
 Upstream ON_THEO Ephrem / Syriac Gospel transmission control:
 - repository: `thebrazenbeard/on-theo`
 - exact commit: `96516078a82f27bd843cae348aec4ab5c95881ff`
