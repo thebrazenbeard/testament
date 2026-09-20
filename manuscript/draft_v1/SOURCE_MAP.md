@@ -277,6 +277,27 @@ Claim ceiling:
 - later Jewish, Christian, Syriac, Islamic and mystical materials are evidence for reception first;
 - they are not silently upgraded into independent first-century biography.
 
+Upstream ON_THEO Syriac transition synthesis:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `7fec7dc808aba9dbec9b2d18552d29308cc2e6fe`
+- branch at readback: `research/syriac-gospel-theology-transition-v1-20260920`
+- artifacts:
+  - `traditions/syriac-christianity/syriac-gospel-theology-transition-v1.md`
+  - `traditions/syriac-christianity/syriac-gospel-theology-transition-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - overlapping Syriac Gospel forms/changing standardization: BOUNDED / MODERATE_TO_STRONG;
+  - substantive local Syriac exegesis/theology rather than mere translation: BOUNDED / STRONG;
+  - one unified Aphrahat/Ephrem school: NOT_ADMITTED;
+  - one timeless Syriac Christianity: NOT_ADMITTED;
+  - translation difference as corruption or theological intent by default: NOT_ADMITTED;
+  - anti-Jewish Syriac material enters as reception/polemic evidence first.
+- guards:
+  - Gospel text form != ecclesial identity;
+  - manuscript object != version-origin event;
+  - shared language != identical theology;
+  - Christian polemic about Jews != Jewish self-description.
+
 Upstream ON_THEO Aphrahat / Syriac reception control:
 - repository: `thebrazenbeard/on-theo`
 - exact commit: `199fa8b73bea18c71340da810429d868905b1cac`
