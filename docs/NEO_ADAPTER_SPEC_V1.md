@@ -1,6 +1,6 @@
 # NEO Adapter Contract V1
 
-Status: PROTOTYPE IMPLEMENTED / LOCALLY TESTED / NOT INSTALLED / NO CANONICAL STATE CHANGE
+Status: PROTOTYPE IMPLEMENTED / EXACT-HEAD STRUCTURAL PASS / INSTALL PLANNER IMPLEMENTED / NOT INSTALLED / NO CANONICAL STATE CHANGE
 
 External reference:
 - repository: hughhowey/neo
@@ -58,6 +58,8 @@ The first version must be deterministic and non-destructive.
 Prototype implementation:
 - `tools/export_testament_to_neo.py`
 - `tests/test_export_testament_to_neo.py`
+- `tools/plan_neo_install.py`
+- `tests/test_plan_neo_install.py`
 
 Current behavior:
 - reads only the nine Draft V1 prose files declared in the adapter;
@@ -72,9 +74,12 @@ Current behavior:
 Validation performed before persistence:
 - local Python `unittest` suite: 6/6 PASS;
 - current Draft V1 heading structure was checked across all nine prose files;
+- the exact foundation source `3ff338187d716a56e39ffdc4780cd6d4651205e6` structurally maps to 103 generated chapters with zero duplicate IDs;
 - Books VII and VIII contain leading `Status:` control lines; the exporter explicitly strips those from reader output;
-- unexplained prose before a book's first `##` section is rejected rather than silently dropped;
+- Book VII also contains a reader-facing pre-section disclaimer; exact-head verification exposed that the first prototype would reject the real manuscript, so V1 now preserves genuine book-level prelude as deterministic `ch-bNN-intro` chapters rather than dropping or misplacing it;
 - the persisted GitHub files were read back after creation.
+
+The original 6-test local fixture pass predates the exact-head prelude repair. Updated tests are persisted for the repaired behavior, but no claim is made here that the revised Python suite has executed in CI or inside NEO.
 
 This is implementation evidence only. The exporter has not been installed into NEO, has not mutated `~/Documents/NEO Library`, and has not been validated by launching the NEO application.
 
@@ -107,6 +112,7 @@ Stable IDs are required. Do not use NEO's normal timestamp/random chapter IDs fo
 
 Recommended mapping:
 - Prologue -> `ch-prologue`
+- reader-facing Book prelude remaining after recognized control metadata is removed -> `ch-bNN-intro`
 - each Book section (`##`) -> `ch-bNN-sNN-<slug>`
 
 Examples:
@@ -187,7 +193,27 @@ It must NOT:
 - overwrite an existing NEO book;
 - delete prior exports.
 
-An optional install/import step can be designed later after NEO-library mutation semantics are tested.
+NEO's pinned application code establishes an additional registration requirement:
+
+- desktop NEO resolves a book only as `<NEO Library>/<bookId>/book.json`;
+- the bookshelf is driven by `library.json -> shelves[].bookIds`;
+- `openBook(bookId)` then reads `book.json` and every `chapters/<chapterId>.html`;
+- NEO's built-in manuscript importer accepts `.docx`, `.txt`, and `.md`, creates a new book, and generates new chapter IDs. That path therefore does not preserve this adapter's deterministic book/chapter identity.
+
+Accordingly, a staged folder is structurally compatible but intentionally invisible to the NEO bookshelf until two controlled effects occur:
+1. copy it into the NEO library under a folder whose name exactly equals `book.id`;
+2. append that same `book.id` to an explicitly chosen shelf's `bookIds` array.
+
+`tools/plan_neo_install.py` implements only the read-only planning phase. Given a staged export and a real `library.json`, it:
+- validates the staged book and sidecars;
+- verifies every chapterOrder ID has a corresponding chapter file;
+- requires an explicit shelf when more than one exists;
+- refuses an already registered book ID;
+- refuses an existing target book directory;
+- emits the exact target path and JSON shelf mutation;
+- never copies files, edits `library.json`, launches NEO, or enables reverse sync.
+
+Actual copy, library registration, and application launch remain outside this V1 planning step.
 
 ## Acceptance tests
 
@@ -213,4 +239,6 @@ The difficult problem is not file conversion. It is preventing a convenient writ
 
 This contract resolves that by making V1 one-way and generated.
 
-The prototype now enforces that boundary in code. The next technical frontier is an exact-head export of the current manuscript into a disposable directory followed by a non-mutating NEO compatibility inspection; installing/importing into a live NEO library remains outside current authorization.
+The prototype now enforces that boundary in code. The exact-head structural pass has also exposed and repaired the only current book-prelude mapping defect.
+
+The next operational frontier is to run the staged exporter and install planner against an actual NEO library snapshot, inspect the generated plan, and only then—under separate explicit authorization—perform the copy + shelf registration and launch NEO for a true application-open/readback test.
