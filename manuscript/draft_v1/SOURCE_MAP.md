@@ -277,6 +277,31 @@ Claim ceiling:
 - later Jewish, Christian, Syriac, Islamic and mystical materials are evidence for reception first;
 - they are not silently upgraded into independent first-century biography.
 
+Upstream ON_THEO Ephrem / Syriac Gospel transmission control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `96516078a82f27bd843cae348aec4ab5c95881ff`
+- branch at readback: `research/ephrem-syriac-gospel-transmission-v1-20260920`
+- artifacts:
+  - `traditions/syriac-christianity/ephrem-syriac-gospel-transmission-v1.md`
+  - `traditions/syriac-christianity/ephrem-syriac-gospel-transmission-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- evidence classes carried downstream:
+  - PRIMARY TEXT for Ephrem's fourth-century commentary;
+  - MANUSCRIPT WITNESS for Chester Beatty Syriac MS 709 and Armenian commentary transmission;
+  - HISTORICAL RECONSTRUCTION / SCHOLARLY INTERPRETATION for Tatianic reconstruction and multiple-Gospel-form use.
+- downstream ceiling:
+  - Ephrem commentary as major indirect witness to Tatianic Gospel tradition: BOUNDED / STRONG;
+  - complete direct Syriac manuscript of Tatian's original harmony: NOT_ADMITTED;
+  - Ephrem awareness/use of separated Gospel forms: BOUNDED / MODERATE_TO_STRONG;
+  - one linear Syriac Gospel replacement model: NOT_ADMITTED;
+  - layered coexistence/transition model: BOUNDED / MODERATE_TO_STRONG.
+- guards:
+  - commentary != commented text;
+  - composition date != physical witness date;
+  - reconstructed Diatessaron reading != extant Tatian manuscript;
+  - Armenian translation witness != Syriac autograph.
+
+
 ## Book VII — The Kingdom Within
 
 Primary controls:
