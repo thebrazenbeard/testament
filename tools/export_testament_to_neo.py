@@ -228,20 +228,28 @@ def chapters_from_source(source_file: str, markdown: str, book_number: int | Non
             current_title = match.group(2).strip()
             continue
         if current_title is None:
-            if line.strip() and not line.lstrip().startswith("Status:"):
-                prelude.append(line)
+            if line.lstrip().startswith("Status:"):
+                continue
+            prelude.append(line)
         else:
             current_lines.append(line)
 
     flush_section()
 
-    if prelude:
-        raise ValueError(
-            f"{source_file} contains prose before its first ## section; "
-            "the V1 adapter refuses to place it implicitly."
-        )
     if not sections:
         raise ValueError(f"{source_file} contains no ## sections.")
+
+    prelude_text = "\n".join(prelude).strip()
+    if prelude_text:
+        sections.insert(
+            0,
+            Chapter(
+                f"ch-b{book_number:02d}-intro",
+                f"{book_title} — Introduction",
+                source_file,
+                prelude_text,
+            ),
+        )
 
     seen: set[str] = set()
     for chapter in sections:
