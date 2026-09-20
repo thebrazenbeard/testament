@@ -89,6 +89,8 @@ So the story is not one book disappearing the day another arrived.
 Old Syriac witnesses preserve other Gospel forms that matter textually.
 Peshitta traditions stabilize still others.
 
+Aphrahat shows the other half of the Syriac world. His fourth-century Demonstrations are not merely translations of somebody else's Christianity. They argue from scripture about Christ, resurrection, fasting, prayer, ascetic life, and what it means for Christ to be called Son of God.
+
 Every translation is interpretation at the level of possibility even when it aims at fidelity.
 
 A word crosses a language boundary and brings choices with it.
@@ -199,6 +201,8 @@ Christians argued against Islam.
 All sides sometimes described rivals more cleanly than the rivals would describe themselves.
 
 Polemic produces information and distortion at once.
+
+Aphrahat's fourth-century Syriac Demonstrations are a case in point. Their anti-Jewish arguments tell us directly about Christian boundary-making in his world. They do not turn his Jewish opponents into neutral transcripts, and they do not turn inherited collective blame into historical proof of who killed Yeshua.
 
 The task is not to stand above history pure and amused.
 
