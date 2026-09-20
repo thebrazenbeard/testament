@@ -159,6 +159,12 @@ Scripture, Wisdom, Logos, Spirit, Temple, festival, revelation, and community co
 
 John's Jesus becomes one of the most consequential interpretations of Yeshua ever produced.
 
+By the second century, John was already contested interpretive territory. Heracleon produced sustained commentary on the Gospel; we know that work only in fragments preserved and argued against by Origen.
+
+That matters.
+
+The Fourth Gospel was not the exclusive property of the Christian trajectory that later became orthodox.
+
 ## 9. Thomas's Living Jesus
 
 Thomas strips away plot.
