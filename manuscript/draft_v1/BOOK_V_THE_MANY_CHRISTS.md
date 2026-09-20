@@ -203,11 +203,13 @@ He confronted one of Christianity's deepest problems: how can the God revealed i
 
 His answer was radical separation.
 
-He used a Gospel related to Luke and a Pauline collection. Later opponents preserve much of what we know, which means reconstruction must account for hostile mediation.
+He used a Gospel closely related to Luke and a Pauline collection. Later opponents preserve much of what we know, which means reconstruction must account for hostile mediation.
+
+Those opponents accused him of mutilating Luke. That accusation is evidence for how they understood the relationship; it does not by itself settle which textual form came first.
 
 He did not simply wake up and delete verses from our finished New Testament.
 
-The textual history is harder than that.
+The textual history is harder than that, and the direction of dependence remains disputed.
 
 Marcion demonstrates that "Christian" did not once mean one agreed answer about scripture, God, creation, or continuity with Israel.
 
