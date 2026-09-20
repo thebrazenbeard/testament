@@ -178,6 +178,26 @@ Upstream ON_THEO Valentinian control:
   - one universal Valentinian matter/creation doctrine: NOT_ADMITTED;
   - one unitary ancient "Gnosticism": NOT_ADMITTED.
 
+Upstream ON_THEO Ptolemy proposition control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `ce81baa9e252dbf81ddd8c6fbe7113a75a81279c`
+- branch at readback: `research/ptolemy-flora-proposition-map-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/ptolemy-flora-proposition-map-v1.md`
+  - `traditions/early-christianity/ptolemy-flora-proposition-map-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - multiple legislative sources within Ptolemy's hermeneutic: BOUNDED / STRONG_FOR_PTOLEMY;
+  - pure/inferior/symbolic law distinction: BOUNDED / STRONG_FOR_PTOLEMY;
+  - creator as just/intermediate rather than Devil: BOUNDED / STRONG_FOR_PTOLEMY;
+  - external fasting "among us": PARTIAL / MODERATE practice inference;
+  - claimed apostolic succession for deeper teaching: BOUNDED / STRONG_AS_SELF_CLAIM_ONLY.
+- guards:
+  - Ptolemaean hermeneutic != modern Pentateuchal source criticism;
+  - textual practice claim != material/documentary confirmation;
+  - claimed apostolic succession != verified apostolic transmission;
+  - Ptolemy != all Valentinians.
+
 Upstream ON_THEO Heracleon / Johannine reception control:
 - repository: `thebrazenbeard/on-theo`
 - exact commit: `73321fe702a91af87b0ca293923bbfccdbeb41ca`
