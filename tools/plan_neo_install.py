@@ -127,6 +127,13 @@ def build_install_plan(
         )
 
     receipt = read_json(staged_dir / "TESTAMENT_NEO_EXPORT_RECEIPT.json")
+    warnings = []
+    if not str(book.get("author") or "").strip():
+        warnings.append(
+            "NEO renders a blank author as 'Anonymous'; choose an explicit "
+            "noncanonical test label or resolve production author metadata "
+            "before an application-open preview is treated as reader-facing."
+        )
 
     return {
         "schema_version": PLAN_SCHEMA,
@@ -155,6 +162,7 @@ def build_install_plan(
             "exporter_commit": receipt.get("exporter_commit"),
             "neo_compatibility_commit": receipt.get("neo_compatibility_commit"),
         },
+        "warnings": warnings,
         "guards": [
             "NO_FILES_COPIED",
             "NO_LIBRARY_JSON_MODIFIED",
