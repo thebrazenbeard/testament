@@ -124,6 +124,7 @@ Admission decision:
 - ADMIT as a future presentation/editing adapter candidate.
 - Strongest immediate candidate among the four repositories.
 - Do not move canonical manuscript state into NEO.
+- Concrete adapter contract: `docs/NEO_ADAPTER_SPEC_V1.md`.
 
 ## Portfolio result
 
