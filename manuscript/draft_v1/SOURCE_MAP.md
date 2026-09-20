@@ -178,6 +178,25 @@ Upstream ON_THEO Valentinian control:
   - one universal Valentinian matter/creation doctrine: NOT_ADMITTED;
   - one unitary ancient "Gnosticism": NOT_ADMITTED.
 
+Upstream ON_THEO Heracleon / Johannine reception control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `73321fe702a91af87b0ca293923bbfccdbeb41ca`
+- branch at readback: `research/heracleon-johannine-exegesis-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/heracleon-johannine-exegesis-v1.md`
+  - `traditions/early-christianity/heracleon-johannine-exegesis-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- evidence classes carried downstream:
+  - PRIMARY TEXT for Origen's preservation/refutation of Heracleon;
+  - HISTORICAL RECONSTRUCTION for Heracleon's commentary and reception setting;
+  - SCHOLARLY INTERPRETATION for fragment reconstruction and precise Valentinian affiliation.
+- downstream ceiling:
+  - sustained second-century Heracleon commentary on John: BOUNDED / STRONG;
+  - fragmentary survival primarily through Origen: BOUNDED / STRONG;
+  - Johannine exegesis outside later proto-orthodox trajectory: BOUNDED / STRONG;
+  - precise Valentinian affiliation: PARTIAL / CONTESTED;
+  - "first commentator ever": NOT_ADMITTED; only earliest-known visibility is supportable.
+
 ## Book VI — Echoes
 
 Primary controls:
