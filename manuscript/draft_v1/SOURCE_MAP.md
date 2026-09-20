@@ -136,6 +136,26 @@ Claim ceiling:
 - "Gnosticism" is not treated as one religion;
 - later ecclesial victory is described historically rather than conspiratorially.
 
+Upstream ON_THEO Marcion control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `ebd1da8408d2390dd1fd7d8cf6d792aa071ae08d`
+- branch at readback: `research/marcion-primary-witness-control-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/marcion-primary-witness-control-v1.md`
+  - `traditions/early-christianity/marcion-primary-witness-matrix-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- evidence classes carried downstream:
+  - PRIMARY TEXT for Irenaeus/Tertullian as hostile patristic witnesses;
+  - HISTORICAL RECONSTRUCTION for bounded Marcionite corpus/theology claims;
+  - SCHOLARLY INTERPRETATION for modern Luke/Marcion direction hypotheses.
+- downstream ceiling:
+  - Marcionite Gospel with extensive Lukan overlap: BOUNDED / STRONG;
+  - Marcionite Pauline collection: BOUNDED / STRONG;
+  - creator/higher-God distinction: BOUNDED / MODERATE_TO_STRONG;
+  - canonical Luke -> Marcionite Gospel direction: UNKNOWN;
+  - Marcionite Gospel -> canonical Luke direction: UNKNOWN;
+  - "Marcion created the New Testament": NOT_ADMITTED at monocausal strength.
+
 ## Book VI — Echoes
 
 Primary controls:
