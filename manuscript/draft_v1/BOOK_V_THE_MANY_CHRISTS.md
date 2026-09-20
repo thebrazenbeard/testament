@@ -227,6 +227,12 @@ Later polemic compresses these traditions into slogans.
 
 The surviving texts complicate them again.
 
+Ptolemy could tell Flora that the Law of Moses was neither simply the work of the perfect Father nor simply the work of the devil. He divided its authorship and its value, preserving, rejecting, and re-reading different parts.
+
+The Tripartite Tractate gives us a developed Valentinian theology from inside that world rather than only an opponent's outline. But the surviving Coptic witness is later, and the work is not a transcript of Valentinus.
+
+Even the Gospel of Truth resists easy ownership. Valentinian communities used it. That does not prove Valentinus wrote it.
+
 Emanation.
 Fullness.
 Error.
