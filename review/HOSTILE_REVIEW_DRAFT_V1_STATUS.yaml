@@ -23,6 +23,28 @@ tranche_1:
   open_findings:
     - HR-DV1-007_AUTHORIAL_SPEAKER_IDENTITY_AMBIGUITY
 
+
+tranche_2:
+  scope: BOOK_V_HOSTILE_REREVIEW_AFTER_PRIMARY_SOURCE_DEEPENING
+  reviewed_target: 49688fdb205018d8039fe2ab36abc1106c748cd9
+  repair_branch: review/book-v-hostile-rereview-v2-20260920
+  report: review/HOSTILE_REVIEW_BOOK_V_TRANCHE1_20260920.md
+  status: PASS_FOR_REPAIRED_FINDINGS
+  finding_range: HR-BV-001..HR-BV-005
+  repaired_findings:
+    - HR-BV-001_LATER_INSTITUTION_MOTIVE_IMPLICATION
+    - HR-BV-002_LUKE_ACTS_HARMONIZATION_WORDING
+    - HR-BV-003_VALENTINIAN_FIELD_REIFICATION
+    - HR-BV-004_DIRECT_DERIVATION_GRAVITATIONAL_CENTER
+    - HR-BV-005_VALENTINIAN_RITUAL_DIVERSITY_UNDERREPRESENTATION
+  upstream_research_subject:
+    repository: thebrazenbeard/on-theo
+    exact_head: 54b0d565b53746846362ab5310e157721a5c69c8
+    artifact: traditions/early-christianity/valentinian-ritual-comparison-v1.md
+  residual_book_v_status:
+    foundational_primary_source_gap: SUBSTANTIALLY_REDUCED
+    further_research: INCREMENTAL_NOT_BLOCKING_CURRENT_CLAIM_CEILINGS
+
 next_scope:
   - AUTHORIAL_SPEAKER_IDENTITY_DECISION
   - ANACHRONISM_REREVIEW_ON_EXPANSION
