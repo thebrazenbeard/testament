@@ -65,15 +65,26 @@ The repository describes itself as an anti-Chinese-government propaganda/advocac
 Role:
 - DISCOVERY INDEX ONLY, if a future task specifically needs a document found there
 - NO SOURCE AUTHORITY
-- NO DIRECT TESTAMENT RELEVANCE IDENTIFIED
+- PUBLISHING / CORPUS-RESILIENCE METHOD INSPIRATION ONLY
+
+Potentially reusable architectural patterns observed at the pinned head:
+- one source corpus rendered into multiple HTML forms, including multipage output;
+- media separated from the text repository;
+- explicit mirror/push tooling for redundant publication;
+- use of archived snapshots when live links may disappear;
+- the same corpus exposed through more than one software packaging surface.
+
+These are engineering/publishing patterns, not evidence and not endorsements of the repository's political framing or content.
 
 Evidence rule:
 - A document discovered there must be traced to its original or an independently reliable source before any factual claim is admitted.
 - Repository aggregation, labels, commentary, or framing are not evidence for the underlying political or historical claims.
 
 Admission decision:
-- NOT_ADMITTED to the active Testament evidence or tooling graph.
-- No dependency or copy is justified at present.
+- CONTENT remains NOT_ADMITTED to the active Testament evidence graph.
+- ADMIT only the generic publication-resilience concepts for possible future Testament tooling.
+- Do not copy its political corpus, source labels, or advocacy framing into Testament.
+- No dependency on this repository is justified at present.
 
 ## 4. hughhowey/neo
 
@@ -130,8 +141,8 @@ Admission decision:
 
 - Khazix Skills: methodology inspiration, bounded.
 - Classic Marp: reject; maintained Marp CLI may serve future slides.
-- China Dictatorship repo: not admitted; discovery-only if specifically needed.
-- NEO: admitted as an optional future manuscript frontend/export candidate with a strict one-way initial boundary.
+- China Dictatorship repo: content not admitted; only generic corpus-publication resilience patterns retained as method inspiration.
+- NEO: admitted as an optional manuscript frontend/export candidate with a strict one-way initial boundary; a prototype exporter and bounded test suite now exist on this draft branch.
 
 No external repository is promoted into ON_THEO evidence by this evaluation.
 No merge, installation, dependency addition, publication, or deployment is authorized or performed by this note.
