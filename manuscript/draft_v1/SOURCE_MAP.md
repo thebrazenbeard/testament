@@ -219,6 +219,26 @@ Upstream ON_THEO Gospel of Philip ritual control:
   - Gospel of Philip != all Valentinians;
   - shared ritual vocabulary != shared institution or theology.
 
+Upstream ON_THEO Valentinian ritual comparison:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `54b0d565b53746846362ab5310e157721a5c69c8`
+- branch at readback: `research/valentinian-ritual-comparison-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/valentinian-ritual-comparison-v1.md`
+  - `traditions/early-christianity/valentinian-ritual-comparison-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - embodied Valentinian-associated ritual/initiation theology: BOUNDED / MODERATE_TO_STRONG;
+  - ritual diversity rather than ritual absence or one standardized secret system: BOUNDED / MODERATE_TO_STRONG;
+  - material rites coordinated with knowledge/spiritual transformation in multiple internal sources: BOUNDED / STRONG_FOR_SOURCE_SET;
+  - one standard Valentinian sacramental system: NOT_ADMITTED;
+  - knowledge and ritual as mutually exclusive: NOT_ADMITTED.
+- guards:
+  - repeated ritual vocabulary != one institution;
+  - similar terminology != identical rite;
+  - Gospel of Philip bridal chamber != Irenaeus's nuptial-couch report by default;
+  - separate sources must not be fused into one composite historical ceremony.
+
 Upstream ON_THEO Heracleon / Johannine reception control:
 - repository: `thebrazenbeard/on-theo`
 - exact commit: `73321fe702a91af87b0ca293923bbfccdbeb41ca`
