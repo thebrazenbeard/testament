@@ -241,6 +241,10 @@ The Tripartite Tractate gives us a developed Valentinian theology from inside th
 
 Even the Gospel of Truth resists easy ownership. Valentinian communities used it. That does not prove Valentinus wrote it.
 
+And this was not only metaphysics. The Gospel of Philip speaks of baptism, chrism, eucharist, redemption, and bridal chamber; of water, oil, bread, cup, light, and union. Whatever exact rites stood behind the text—and that question is disputed—it is difficult to maintain the cartoon in which Valentinian Christians abandoned embodied ritual for secret ideas.
+
+The bridal chamber is especially easy to sensationalize. The text makes it a central image of salvific union and initiation. That is not evidence, by itself, of a sexual ceremony.
+
 Emanation.
 Fullness.
 Error.
