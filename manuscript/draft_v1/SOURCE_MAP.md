@@ -198,6 +198,27 @@ Upstream ON_THEO Ptolemy proposition control:
   - claimed apostolic succession != verified apostolic transmission;
   - Ptolemy != all Valentinians.
 
+Upstream ON_THEO Gospel of Philip ritual control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `fe0be9d324cd8e537f0bfb43c13310bf69304fbb`
+- branch at readback: `research/gospel-philip-ritual-control-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/gospel-philip-ritual-control-v1.md`
+  - `traditions/early-christianity/gospel-philip-ritual-control-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - five-term baptism/chrism/eucharist/redemption/bridal-chamber mystery complex: BOUNDED / STRONG_FOR_TEXT;
+  - chrism and temple-ranked initiation imagery: BOUNDED / STRONG_FOR_TEXT;
+  - exact performed ritual sequence: PARTIAL;
+  - literal sexual bridal-chamber rite: NOT_ADMITTED;
+  - five universally standardized separate Valentinian ceremonies: NOT_ADMITTED;
+  - embodied Valentinian-associated ritual discourse: BOUNDED / MODERATE_TO_STRONG.
+- guards:
+  - Coptic witness != original composition date;
+  - text != direct observation of practice;
+  - Gospel of Philip != all Valentinians;
+  - shared ritual vocabulary != shared institution or theology.
+
 Upstream ON_THEO Heracleon / Johannine reception control:
 - repository: `thebrazenbeard/on-theo`
 - exact commit: `73321fe702a91af87b0ca293923bbfccdbeb41ca`
