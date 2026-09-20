@@ -156,6 +156,28 @@ Upstream ON_THEO Marcion control:
   - Marcionite Gospel -> canonical Luke direction: UNKNOWN;
   - "Marcion created the New Testament": NOT_ADMITTED at monocausal strength.
 
+Upstream ON_THEO Valentinian control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `997c593f916079f3e33496b8f07a63198317fe1f`
+- branch at readback: `research/valentinian-primary-text-control-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/valentinian-primary-text-control-v1.md`
+  - `traditions/early-christianity/valentinian-primary-text-matrix-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- evidence classes carried downstream:
+  - PRIMARY TEXT for Ptolemy's `Letter to Flora` and the theological works;
+  - MANUSCRIPT WITNESS for Nag Hammadi Coptic witnesses;
+  - PRIMARY TEXT for Irenaeus as hostile patristic witness;
+  - HISTORICAL RECONSTRUCTION / SCHOLARLY INTERPRETATION for attribution, dating and school-level synthesis.
+- downstream ceiling:
+  - internal Valentinian diversity: BOUNDED / STRONG;
+  - Ptolemy's layered interpretation of Mosaic law: BOUNDED / STRONG_FOR_PTOLEMY;
+  - `Tripartite Tractate` as developed Valentinian theology: BOUNDED / STRONG;
+  - `Gospel of Truth` Valentinian reception: BOUNDED / STRONG;
+  - Valentinus authorship of `Gospel of Truth`: UNKNOWN;
+  - one universal Valentinian matter/creation doctrine: NOT_ADMITTED;
+  - one unitary ancient "Gnosticism": NOT_ADMITTED.
+
 ## Book VI — Echoes
 
 Primary controls:
