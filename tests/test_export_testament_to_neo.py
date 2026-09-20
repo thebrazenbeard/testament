@@ -183,21 +183,38 @@ Text.
             chapters[0].body_markdown,
         )
 
-    def test_rejects_unmapped_book_prelude(self):
-        source = """# Book I — The World
+    def test_preserves_reader_prelude_as_intro_chapter(self):
+        source = """# Book VII — The Kingdom Within
 
-This would otherwise be silently lost.
+Status: EXPLICIT MODERN INTERPRETATION
 
-## 1. First
+Nothing in this book is presented as recovered ancient teaching.
+
+## 1. The Problem of the Sky
 
 Text.
 """
-        with self.assertRaises(ValueError):
-            neo.chapters_from_source(
-                "BOOK_I_THE_WORLD.md",
-                source,
-                1,
-            )
+        chapters = neo.chapters_from_source(
+            "BOOK_VII_THE_KINGDOM_WITHIN.md",
+            source,
+            7,
+        )
+        self.assertEqual(
+            [chapter.chapter_id for chapter in chapters],
+            [
+                "ch-b07-intro",
+                "ch-b07-s01-the-problem-of-the-sky",
+            ],
+        )
+        self.assertEqual(
+            chapters[0].title,
+            "Book VII — The Kingdom Within — Introduction",
+        )
+        self.assertEqual(
+            chapters[0].body_markdown,
+            "Nothing in this book is presented as recovered ancient teaching.",
+        )
+        self.assertNotIn("Status:", chapters[0].body_markdown)
 
 
 if __name__ == "__main__":
