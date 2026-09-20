@@ -74,9 +74,9 @@ What they share is not one doctrine but evidence that late antique Christians co
 
 ## 5. The Syriac Jesus
 
-Christianity did not become Latin and Greek and then politely export itself eastward.
+Christianity did not first become a finished Latin-and-Greek religion and only then arrive in Syriac.
 
-Syriac Christianity developed its own textual, poetic, ascetic, exegetical, and liturgical worlds.
+Syriac-speaking Christian communities developed textual, poetic, ascetic, exegetical, and liturgical worlds of their own.
 
 Tatian's Gospel harmony became deeply important in parts of the Syriac world.
 Ephrem wrote a fourth-century commentary through that reception environment.
@@ -89,7 +89,7 @@ So the story is not one book disappearing the day another arrived.
 Old Syriac witnesses preserve other Gospel forms that matter textually.
 Peshitta traditions stabilize still others.
 
-Aphrahat shows the other half of the Syriac world. His fourth-century Demonstrations are not merely translations of somebody else's Christianity. They argue from scripture about Christ, resurrection, fasting, prayer, ascetic life, and what it means for Christ to be called Son of God.
+Aphrahat shows another part of that world. His fourth-century Demonstrations show Syriac-speaking Christians producing theology as well as translating and transmitting it. They argue from scripture about Christ, resurrection, fasting, prayer, ascetic life, and what it means for Christ to be called Son of God.
 
 Every translation is interpretation at the level of possibility even when it aims at fidelity.
 
@@ -191,13 +191,12 @@ Resonance is another.
 
 ## 11. The Accused and the Accuser
 
-Communities define themselves by inventing the wrong other.
+Communities often define themselves by constructing a wrong other.
 
-Christians turned Jews into theological foils.
-Jewish polemic answered Christian power.
+Christian writers repeatedly turned Jews into theological foils.
+Some Jewish polemics answered Christian claims and power.
 Christian writers caricatured "heretics."
-Muslims argued against Christian claims.
-Christians argued against Islam.
+Muslim and Christian writers argued against one another's claims.
 All sides sometimes described rivals more cleanly than the rivals would describe themselves.
 
 Polemic produces information and distortion at once.
