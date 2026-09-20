@@ -27,7 +27,7 @@ Corrected opponents.
 Buried teachers.
 Named successors.
 
-The history of Christianity begins in plurality before it becomes a story about unity.
+The surviving evidence reveals plurality early, before later institutional consolidation made some boundaries clearer and some alternatives less visible.
 
 ## 2. James's Yeshua
 
@@ -98,9 +98,9 @@ The road turns toward suffering.
 
 The earliest recoverable ending of Mark leaves women in fear and silence after the tomb announcement.
 
-Later transmitters did not always tolerate that ending.
+Later manuscript traditions also preserve additional endings that supply appearances and closure absent from the earliest recoverable ending.
 
-The additions themselves are evidence—not of what Mark originally wrote, but of what readers felt a Gospel should provide.
+The additions themselves are evidence—not of what Mark originally wrote, but of how the Gospel continued to be transmitted and completed in some manuscript traditions.
 
 ## 6. Matthew's Teacher
 
@@ -131,7 +131,7 @@ Church.
 Mission.
 Jerusalem and the nations.
 
-The poor, outsiders, women, meals, prayer, reversal, and Spirit receive distinctive emphasis. Acts continues the story and often smooths conflict that Paul's own letters leave jagged.
+The poor, outsiders, women, meals, prayer, reversal, and Spirit receive distinctive emphasis. Acts continues the story and, read beside Paul's own letters, often narrates the movement's conflicts in a more harmonized form.
 
 Luke's achievement is enormous.
 
@@ -158,6 +158,12 @@ A vivid place-name may preserve local memory while a long discourse reflects Joh
 Scripture, Wisdom, Logos, Spirit, Temple, festival, revelation, and community conflict belong together.
 
 John's Jesus becomes one of the most consequential interpretations of Yeshua ever produced.
+
+By the second century, John was already contested interpretive territory. Heracleon produced sustained commentary on the Gospel; we know that work only in fragments preserved and argued against by Origen.
+
+That matters.
+
+The Fourth Gospel was not the exclusive property of the Christian trajectory that later became orthodox.
 
 ## 9. Thomas's Living Jesus
 
@@ -203,11 +209,13 @@ He confronted one of Christianity's deepest problems: how can the God revealed i
 
 His answer was radical separation.
 
-He used a Gospel related to Luke and a Pauline collection. Later opponents preserve much of what we know, which means reconstruction must account for hostile mediation.
+He used a Gospel closely related to Luke and a Pauline collection. Later opponents preserve much of what we know, which means reconstruction must account for hostile mediation.
+
+Those opponents accused him of mutilating Luke. That accusation is evidence for how they understood the relationship; it does not by itself settle which textual form came first.
 
 He did not simply wake up and delete verses from our finished New Testament.
 
-The textual history is harder than that.
+The textual history is harder than that, and the direction of dependence remains disputed.
 
 Marcion demonstrates that "Christian" did not once mean one agreed answer about scripture, God, creation, or continuity with Israel.
 
@@ -225,6 +233,20 @@ Later polemic compresses these traditions into slogans.
 
 The surviving texts complicate them again.
 
+Ptolemy could tell Flora that the Law of Moses was neither simply the work of the perfect Father nor simply the work of the devil. He divided its authorship and its value, preserving, rejecting, and re-reading different parts.
+
+His creator was not the Devil but an intermediate, just lawgiver below the perfect Father. Sacrifice, circumcision, Sabbath, and Passover could be spiritualized—and yet he still says that external fasting is practiced "among us" when done for the right reason.
+
+The Tripartite Tractate gives us a developed Valentinian theology from inside that world rather than only an opponent's outline. But the surviving Coptic witness is later, and the work is not a transcript of Valentinus.
+
+Even the Gospel of Truth resists easy ownership. Valentinian communities used it. That does not prove Valentinus wrote it.
+
+And this was not only metaphysics. The Gospel of Philip speaks of baptism, chrism, eucharist, redemption, and bridal chamber; of water, oil, bread, cup, light, and union. Whatever exact rites stood behind the text—and that question is disputed—it is difficult to maintain the cartoon in which Valentinian Christians abandoned embodied ritual for secret ideas.
+
+The bridal chamber is especially easy to sensationalize. The text makes it a central image of salvific union and initiation. That is not evidence, by itself, of a sexual ceremony.
+
+The composite Excerpta preserved by Clement complicate the picture further: washing is joined to liberating knowledge, while bread, oil, water, fasting, prayer, and kneeling enter baptismal discourse. Irenaeus, from the hostile side, reports related groups disagreeing even about whether visible rites were necessary.
+
 Emanation.
 Fullness.
 Error.
@@ -236,7 +258,7 @@ Identity.
 
 Not one system.
 Not one "Gnosticism."
-A family of serious Christian metaphysical experiments.
+A field of related but non-identical Christian interpretive, ritual, and metaphysical experiments.
 
 ## 13. The Church That Won
 
@@ -258,7 +280,7 @@ It is not proof that history naturally wanted twenty-seven books.
 
 The Many Christs are not many historical Yeshuas.
 
-They are many answers generated by one historical gravitational center.
+They are many answers organized around the remembered, interpreted, and contested significance of one historical figure.
 
 That may be the most important fact about the second century.
 

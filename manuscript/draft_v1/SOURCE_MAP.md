@@ -136,6 +136,128 @@ Claim ceiling:
 - "Gnosticism" is not treated as one religion;
 - later ecclesial victory is described historically rather than conspiratorially.
 
+Upstream ON_THEO Marcion control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `ebd1da8408d2390dd1fd7d8cf6d792aa071ae08d`
+- branch at readback: `research/marcion-primary-witness-control-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/marcion-primary-witness-control-v1.md`
+  - `traditions/early-christianity/marcion-primary-witness-matrix-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- evidence classes carried downstream:
+  - PRIMARY TEXT for Irenaeus/Tertullian as hostile patristic witnesses;
+  - HISTORICAL RECONSTRUCTION for bounded Marcionite corpus/theology claims;
+  - SCHOLARLY INTERPRETATION for modern Luke/Marcion direction hypotheses.
+- downstream ceiling:
+  - Marcionite Gospel with extensive Lukan overlap: BOUNDED / STRONG;
+  - Marcionite Pauline collection: BOUNDED / STRONG;
+  - creator/higher-God distinction: BOUNDED / MODERATE_TO_STRONG;
+  - canonical Luke -> Marcionite Gospel direction: UNKNOWN;
+  - Marcionite Gospel -> canonical Luke direction: UNKNOWN;
+  - "Marcion created the New Testament": NOT_ADMITTED at monocausal strength.
+
+Upstream ON_THEO Valentinian control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `997c593f916079f3e33496b8f07a63198317fe1f`
+- branch at readback: `research/valentinian-primary-text-control-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/valentinian-primary-text-control-v1.md`
+  - `traditions/early-christianity/valentinian-primary-text-matrix-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- evidence classes carried downstream:
+  - PRIMARY TEXT for Ptolemy's `Letter to Flora` and the theological works;
+  - MANUSCRIPT WITNESS for Nag Hammadi Coptic witnesses;
+  - PRIMARY TEXT for Irenaeus as hostile patristic witness;
+  - HISTORICAL RECONSTRUCTION / SCHOLARLY INTERPRETATION for attribution, dating and school-level synthesis.
+- downstream ceiling:
+  - internal Valentinian diversity: BOUNDED / STRONG;
+  - Ptolemy's layered interpretation of Mosaic law: BOUNDED / STRONG_FOR_PTOLEMY;
+  - `Tripartite Tractate` as developed Valentinian theology: BOUNDED / STRONG;
+  - `Gospel of Truth` Valentinian reception: BOUNDED / STRONG;
+  - Valentinus authorship of `Gospel of Truth`: UNKNOWN;
+  - one universal Valentinian matter/creation doctrine: NOT_ADMITTED;
+  - one unitary ancient "Gnosticism": NOT_ADMITTED.
+
+Upstream ON_THEO Ptolemy proposition control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `ce81baa9e252dbf81ddd8c6fbe7113a75a81279c`
+- branch at readback: `research/ptolemy-flora-proposition-map-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/ptolemy-flora-proposition-map-v1.md`
+  - `traditions/early-christianity/ptolemy-flora-proposition-map-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - multiple legislative sources within Ptolemy's hermeneutic: BOUNDED / STRONG_FOR_PTOLEMY;
+  - pure/inferior/symbolic law distinction: BOUNDED / STRONG_FOR_PTOLEMY;
+  - creator as just/intermediate rather than Devil: BOUNDED / STRONG_FOR_PTOLEMY;
+  - external fasting "among us": PARTIAL / MODERATE practice inference;
+  - claimed apostolic succession for deeper teaching: BOUNDED / STRONG_AS_SELF_CLAIM_ONLY.
+- guards:
+  - Ptolemaean hermeneutic != modern Pentateuchal source criticism;
+  - textual practice claim != material/documentary confirmation;
+  - claimed apostolic succession != verified apostolic transmission;
+  - Ptolemy != all Valentinians.
+
+Upstream ON_THEO Gospel of Philip ritual control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `fe0be9d324cd8e537f0bfb43c13310bf69304fbb`
+- branch at readback: `research/gospel-philip-ritual-control-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/gospel-philip-ritual-control-v1.md`
+  - `traditions/early-christianity/gospel-philip-ritual-control-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - five-term baptism/chrism/eucharist/redemption/bridal-chamber mystery complex: BOUNDED / STRONG_FOR_TEXT;
+  - chrism and temple-ranked initiation imagery: BOUNDED / STRONG_FOR_TEXT;
+  - exact performed ritual sequence: PARTIAL;
+  - literal sexual bridal-chamber rite: NOT_ADMITTED;
+  - five universally standardized separate Valentinian ceremonies: NOT_ADMITTED;
+  - embodied Valentinian-associated ritual discourse: BOUNDED / MODERATE_TO_STRONG.
+- guards:
+  - Coptic witness != original composition date;
+  - text != direct observation of practice;
+  - Gospel of Philip != all Valentinians;
+  - shared ritual vocabulary != shared institution or theology.
+
+Upstream ON_THEO Valentinian ritual comparison:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `54b0d565b53746846362ab5310e157721a5c69c8`
+- branch at readback: `research/valentinian-ritual-comparison-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/valentinian-ritual-comparison-v1.md`
+  - `traditions/early-christianity/valentinian-ritual-comparison-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - embodied Valentinian-associated ritual/initiation theology: BOUNDED / MODERATE_TO_STRONG;
+  - ritual diversity rather than ritual absence or one standardized secret system: BOUNDED / MODERATE_TO_STRONG;
+  - material rites coordinated with knowledge/spiritual transformation in multiple internal sources: BOUNDED / STRONG_FOR_SOURCE_SET;
+  - one standard Valentinian sacramental system: NOT_ADMITTED;
+  - knowledge and ritual as mutually exclusive: NOT_ADMITTED.
+- guards:
+  - repeated ritual vocabulary != one institution;
+  - similar terminology != identical rite;
+  - Gospel of Philip bridal chamber != Irenaeus's nuptial-couch report by default;
+  - separate sources must not be fused into one composite historical ceremony.
+
+Upstream ON_THEO Heracleon / Johannine reception control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `73321fe702a91af87b0ca293923bbfccdbeb41ca`
+- branch at readback: `research/heracleon-johannine-exegesis-v1-20260920`
+- artifacts:
+  - `traditions/early-christianity/heracleon-johannine-exegesis-v1.md`
+  - `traditions/early-christianity/heracleon-johannine-exegesis-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- evidence classes carried downstream:
+  - PRIMARY TEXT for Origen's preservation/refutation of Heracleon;
+  - HISTORICAL RECONSTRUCTION for Heracleon's commentary and reception setting;
+  - SCHOLARLY INTERPRETATION for fragment reconstruction and precise Valentinian affiliation.
+- downstream ceiling:
+  - sustained second-century Heracleon commentary on John: BOUNDED / STRONG;
+  - fragmentary survival primarily through Origen: BOUNDED / STRONG;
+  - Johannine exegesis outside later proto-orthodox trajectory: BOUNDED / STRONG;
+  - precise Valentinian affiliation: PARTIAL / CONTESTED;
+  - "first commentator ever": NOT_ADMITTED; only earliest-known visibility is supportable.
+
 ## Book VI — Echoes
 
 Primary controls:
@@ -154,6 +276,72 @@ Primary controls:
 Claim ceiling:
 - later Jewish, Christian, Syriac, Islamic and mystical materials are evidence for reception first;
 - they are not silently upgraded into independent first-century biography.
+
+Upstream ON_THEO Syriac transition synthesis:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `7fec7dc808aba9dbec9b2d18552d29308cc2e6fe`
+- branch at readback: `research/syriac-gospel-theology-transition-v1-20260920`
+- artifacts:
+  - `traditions/syriac-christianity/syriac-gospel-theology-transition-v1.md`
+  - `traditions/syriac-christianity/syriac-gospel-theology-transition-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - overlapping Syriac Gospel forms/changing standardization: BOUNDED / MODERATE_TO_STRONG;
+  - substantive local Syriac exegesis/theology rather than mere translation: BOUNDED / STRONG;
+  - one unified Aphrahat/Ephrem school: NOT_ADMITTED;
+  - one timeless Syriac Christianity: NOT_ADMITTED;
+  - translation difference as corruption or theological intent by default: NOT_ADMITTED;
+  - anti-Jewish Syriac material enters as reception/polemic evidence first.
+- guards:
+  - Gospel text form != ecclesial identity;
+  - manuscript object != version-origin event;
+  - shared language != identical theology;
+  - Christian polemic about Jews != Jewish self-description.
+
+Upstream ON_THEO Aphrahat / Syriac reception control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `199fa8b73bea18c71340da810429d868905b1cac`
+- branch at readback: `research/aphrahat-syriac-reception-v1-20260920`
+- artifacts:
+  - `traditions/syriac-christianity/aphrahat-syriac-reception-v1.md`
+  - `traditions/syriac-christianity/aphrahat-syriac-reception-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - Aphrahat's scriptural/ascetic Christology: BOUNDED / STRONG_FOR_APHRAHAT;
+  - fourth-century Syriac Christian-Jewish boundary argument: BOUNDED / MODERATE_TO_STRONG;
+  - represented Jewish dialogue as verbatim transcript: NOT_ADMITTED;
+  - collective Jewish guilt as historical crucifixion causation: NOT_ADMITTED;
+  - bodily resurrection reception: BOUNDED / STRONG_FOR_APHRAHAT.
+- guards:
+  - polemical opponent != neutral Jewish self-description;
+  - reported dialogue != verified transcript;
+  - fourth-century reception != first-century biography;
+  - collective blame != historical causation.
+
+Upstream ON_THEO Ephrem / Syriac Gospel transmission control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `96516078a82f27bd843cae348aec4ab5c95881ff`
+- branch at readback: `research/ephrem-syriac-gospel-transmission-v1-20260920`
+- artifacts:
+  - `traditions/syriac-christianity/ephrem-syriac-gospel-transmission-v1.md`
+  - `traditions/syriac-christianity/ephrem-syriac-gospel-transmission-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- evidence classes carried downstream:
+  - PRIMARY TEXT for Ephrem's fourth-century commentary;
+  - MANUSCRIPT WITNESS for Chester Beatty Syriac MS 709 and Armenian commentary transmission;
+  - HISTORICAL RECONSTRUCTION / SCHOLARLY INTERPRETATION for Tatianic reconstruction and multiple-Gospel-form use.
+- downstream ceiling:
+  - Ephrem commentary as major indirect witness to Tatianic Gospel tradition: BOUNDED / STRONG;
+  - complete direct Syriac manuscript of Tatian's original harmony: NOT_ADMITTED;
+  - Ephrem awareness/use of separated Gospel forms: BOUNDED / MODERATE_TO_STRONG;
+  - one linear Syriac Gospel replacement model: NOT_ADMITTED;
+  - layered coexistence/transition model: BOUNDED / MODERATE_TO_STRONG.
+- guards:
+  - commentary != commented text;
+  - composition date != physical witness date;
+  - reconstructed Diatessaron reading != extant Tatian manuscript;
+  - Armenian translation witness != Syriac autograph.
+
 
 ## Book VII — The Kingdom Within
 

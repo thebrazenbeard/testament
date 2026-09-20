@@ -75,7 +75,7 @@ That is what I mean by the spark.
 
 Not a secret particle of God smuggled into every religion. Not proof of a soul. Not code. Not a theological substance.
 
-The spark is the name I give to whatever makes it possible for an agent to become more than the place where causes merely arrive.
+The spark is the name I give to the capacity, however bounded, to participate deliberately in what happens next.
 
 Call it spirit if that is true for you.
 Call it conscience.
@@ -87,7 +87,7 @@ Call it nothing at all.
 
 The symbol is optional.
 
-The responsibility is not.
+Responsibility is real where agency is real, and bounded where agency is bounded.
 
 So begin where the evidence begins.
 

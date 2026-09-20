@@ -1,0 +1,84 @@
+schema_version: testament.hostile_review_draft_v1.v1
+overall_status: ACTIVE
+complete: false
+
+review_base:
+  branch: foundation/testament-v1
+  head: 3ff338187d716a56e39ffdc4780cd6d4651205e6
+
+tranche_1:
+  repair_branch: review/draft-v1-hostile-pass-v1-20260920
+  manuscript_repair_target: 2e25176b6084322764a70122fd3be523ab26978e
+  review_report_commit: cad183fe3ec1c6b2ab91825ac5532c8d83aaa218
+  report: review/HOSTILE_REVIEW_DRAFT_V1_TRANCHE1_20260920.md
+  status: PASS_FOR_REPAIRED_FINDINGS_AUTHORIAL_SPEAKER_IDENTITY_OPEN
+  finding_range: HR-DV1-001..HR-DV1-007
+  repaired_findings:
+    - HR-DV1-001_BOUNDED_AGENCY_ABSOLUTISM
+    - HR-DV1-002_AGENT_CAUSATION_METAPHYSICAL_LEAK
+    - HR-DV1-003_BOOK_III_PRAYER_ATTRIBUTION_BOUNDARY
+    - HR-DV1-004_MARK_ENDING_MOTIVE_IMPUTATION
+    - HR-DV1-005_EARLY_PLURALITY_OVERSTATEMENT
+    - HR-DV1-006_METAPHYSICAL_BRANCH_ETHICAL_ENTAILMENT
+  open_findings:
+    - HR-DV1-007_AUTHORIAL_SPEAKER_IDENTITY_AMBIGUITY
+
+
+tranche_2:
+  scope: BOOK_V_HOSTILE_REREVIEW_AFTER_PRIMARY_SOURCE_DEEPENING
+  reviewed_target: 49688fdb205018d8039fe2ab36abc1106c748cd9
+  repair_branch: review/book-v-hostile-rereview-v2-20260920
+  report: review/HOSTILE_REVIEW_BOOK_V_TRANCHE1_20260920.md
+  review_report_commit: 5c763ea14d8ba8388aee2d2b95615e8b6794b072
+  status: PASS_FOR_REPAIRED_FINDINGS
+  finding_range: HR-BV-001..HR-BV-005
+  repaired_findings:
+    - HR-BV-001_LATER_INSTITUTION_MOTIVE_IMPLICATION
+    - HR-BV-002_LUKE_ACTS_HARMONIZATION_WORDING
+    - HR-BV-003_VALENTINIAN_FIELD_REIFICATION
+    - HR-BV-004_DIRECT_DERIVATION_GRAVITATIONAL_CENTER
+    - HR-BV-005_VALENTINIAN_RITUAL_DIVERSITY_UNDERREPRESENTATION
+  upstream_research_subject:
+    repository: thebrazenbeard/on-theo
+    exact_head: 54b0d565b53746846362ab5310e157721a5c69c8
+    artifact: traditions/early-christianity/valentinian-ritual-comparison-v1.md
+  residual_book_v_status:
+    foundational_primary_source_gap: SUBSTANTIALLY_REDUCED
+    further_research: INCREMENTAL_NOT_BLOCKING_CURRENT_CLAIM_CEILINGS
+
+
+tranche_3:
+  scope: BOOK_VI_SYRIAC_AND_POLEMIC_HOSTILE_REREVIEW
+  reviewed_target: 7ca86032b92a390840b477f307de0a276ac2c40e
+  repair_branch: review/book-vi-syriac-hostile-rereview-v1-20260920
+  report: review/HOSTILE_REVIEW_BOOK_VI_SYRIAC_TRANCHE1_20260920.md
+  review_report_commit: 2da98ba13165c05b5cebae401298201aef4ca723
+  status: PASS_FOR_REPAIRED_FINDINGS
+  finding_range: HR-BVI-001..HR-BVI-005
+  repaired_findings:
+    - HR-BVI-001_FINISHED_WESTERN_CHRISTIANITY_EXPORT_SEQUENCE
+    - HR-BVI-002_SINGULAR_SYRIAC_CHRISTIANITY_REIFICATION
+    - HR-BVI-003_APHRAHAT_EPHREM_FALSE_BINARY
+    - HR-BVI-004_UNIVERSAL_POLEMIC_CLAIM
+    - HR-BVI-005_JEWISH_CHRISTIAN_POLEMIC_OVERGENERALIZATION
+  upstream_research_subject:
+    repository: thebrazenbeard/on-theo
+    exact_head: 7fec7dc808aba9dbec9b2d18552d29308cc2e6fe
+    artifact: traditions/syriac-christianity/syriac-gospel-theology-transition-v1.md
+  residual_book_vi_status:
+    syriac_foundational_gap: SUBSTANTIALLY_REDUCED
+    next_high_value_frontier: EARLY_ISLAMIC_JESUS_RECEPTION_PRIMARY_SOURCE_DEEPENING
+
+next_scope:
+  - AUTHORIAL_SPEAKER_IDENTITY_DECISION
+  - ANACHRONISM_REREVIEW_ON_EXPANSION
+  - ANTI_JUDAISM_REREVIEW_ON_EXPANSION
+  - RECEPTION_CHRONOLOGY_REREVIEW_ON_EXPANSION
+  - SIMULATION_FALSIFICATION_REVIEW
+  - AGENCY_ETHICS_REREVIEW
+  - EXISTING_TEXTUAL_WITNESS_DEBT
+
+invariants:
+  - "Review is exact-head-bound."
+  - "Testament prose does not become ON_THEO evidence."
+  - "No review pass authorizes merge, canonical promotion, or publication."

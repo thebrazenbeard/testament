@@ -129,14 +129,14 @@ It does prove that prayer lived in transmission.
 
 Pray, then, without pretending the surviving wording fell untouched from the sky.
 
+The following lines are an authored paraphrase of the prayer tradition, not a reconstruction of one recoverable ancient wording:
+
 Ask for daily need.
 Ask for release.
 Release what is owed to you where release is just.
 Ask not to become what temptation wants.
 
 Then stand up and participate in the answer.
-
-The final sentence is authored.
 
 ## On Judgment
 
