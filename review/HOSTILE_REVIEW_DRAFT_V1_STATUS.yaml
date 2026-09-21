@@ -69,6 +69,27 @@ tranche_3:
     syriac_foundational_gap: SUBSTANTIALLY_REDUCED
     next_high_value_frontier: EARLY_ISLAMIC_JESUS_RECEPTION_PRIMARY_SOURCE_DEEPENING
 
+
+tranche_4:
+  scope: BOOK_VI_ISLAMIC_JESUS_AND_TAFSIR_HOSTILE_REREVIEW
+  reviewed_target: fae781dc9b859955734e8af3e75d9fb31a5bbea3
+  repair_branch: review/book-vi-islamic-hostile-rereview-v1-20260920
+  report: review/HOSTILE_REVIEW_BOOK_VI_ISLAMIC_TRANCHE1_20260920.md
+  review_report_commit: a90bc1e13bd24f870f27282abe7e0522428b658a
+  status: PASS_FOR_REPAIRED_FINDINGS
+  finding_range: HR-BVI-ISL-001..HR-BVI-ISL-004
+  repaired_findings:
+    - HR-BVI-ISL-001_BROAD_CHRISTIAN_CONCLUSIONS_WORDING
+    - HR-BVI-ISL-002_TAFSIR_REPORTS_IMAGINATION_WORDING
+    - HR-BVI-ISL-003_SINGULAR_ISLAM_AS_ACTOR
+    - HR-BVI-ISL-004_UNIFORM_LATER_ISLAMIC_JESUS
+  upstream_research_subjects:
+    quran_hadith_head: 24be62c5af87aef0ca483b1b8cc89d360cecbb70
+    tafsir_head: 563c6efc289aa06f67434b0be133cded87ea4db0
+  residual_book_vi_status:
+    islamic_reception_foundational_gap: SUBSTANTIALLY_REDUCED
+    next_high_value_frontier: EARLY_ISLAMIC_ASCETIC_JESUS_SAYINGS_OR_HADITH_CLUSTER
+
 next_scope:
   - AUTHORIAL_SPEAKER_IDENTITY_DECISION
   - ANACHRONISM_REREVIEW_ON_EXPANSION

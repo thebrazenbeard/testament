@@ -141,7 +141,7 @@ Son of Maryam.
 Bearer of signs by God's permission.
 Associated with word and spirit language.
 Honored and bounded.
-Raised in meaning while Christian conclusions about divine sonship are rejected.
+Honored while divine-sonship claims are rejected.
 
 Maryam is not incidental.
 She becomes central.
@@ -156,17 +156,17 @@ Qur'an 4:157-158 denies that the addressed opponents successfully killed or cruc
 
 Later substitutionary readings became major interpretive traditions, but the Qur'anic wording and later exegesis must not be collapsed into one.
 
-By al-Tabari's commentary layer, even the substitution tradition is visibly plural: different reports imagine mass resemblance, a volunteer companion, an unnamed other, a named companion, and a Judas claim. The diversity is part of the evidence.
+By al-Tabari's commentary layer, even the substitution tradition is visibly plural: different reports preserve mass resemblance, a volunteer companion, an unnamed other, a named companion, and a Judas claim. The diversity is part of the evidence.
 
-Islam did not merely deny Christianity.
+The Qur'an does not merely negate the claims it contests.
 
-It reframed Jesus inside its own account of revelation, prophecy, divine unity, and human error.
+It reframes Jesus inside its own account of revelation, prophecy, divine unity, and human error.
 
 ## 9. Jesus in Islamic Tradition
 
 Later tafsir, hadith, historiography, ascetic literature, and mysticism expand Isa beyond the Qur'anic text.
 
-He becomes eschatological figure, ascetic, wisdom teacher, sign, polemical boundary marker, and sometimes mystical exemplar.
+Across those literatures he can become eschatological figure, ascetic, wisdom teacher, sign, polemical boundary marker, and mystical exemplar.
 
 The canonical hadith collections give that eschatological Jesus a much more detailed role than the Qur'an does by itself: descent, judgment, the breaking of the cross, and other end-time acts. Those traditions matter enormously to Islamic reception. They are still later collection layers, not extra verses of the Qur'an.
 
