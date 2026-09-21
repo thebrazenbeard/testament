@@ -277,6 +277,26 @@ Claim ceiling:
 - later Jewish, Christian, Syriac, Islamic and mystical materials are evidence for reception first;
 - they are not silently upgraded into independent first-century biography.
 
+Upstream ON_THEO Q 4:157 tafsir substitution control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `563c6efc289aa06f67434b0be133cded87ea4db0`
+- branch at readback: `research/q4-157-tafsir-substitution-v1-20260920`
+- artifacts:
+  - `traditions/early-islam/q4-157-tafsir-substitution-v1.md`
+  - `traditions/early-islam/q4-157-tafsir-substitution-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- downstream ceiling:
+  - substitutionary interpretation established by al-Tabari's commentary layer: BOUNDED / STRONG;
+  - one uniform classical substitution story: NOT_ADMITTED;
+  - Judas named by Qur'an: NOT_ADMITTED;
+  - named substitute narratives as tafsir/reception rather than explicit Qur'anic wording: BOUNDED / STRONG;
+  - al-Tabari chains as exact early report dating without further source criticism: NOT_ADMITTED.
+- guards:
+  - Qur'an 4:157 != al-Tabari tafsir;
+  - al-Tabari collection date != attributed earlier report date;
+  - multiple tafsir variants != one standard story;
+  - Judas in tafsir != Judas in Qur'an.
+
 Upstream ON_THEO early-Islamic Jesus layer control:
 - repository: `thebrazenbeard/on-theo`
 - exact commit: `24be62c5af87aef0ca483b1b8cc89d360cecbb70`
