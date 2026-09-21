@@ -152,7 +152,9 @@ That distinction does not make it marginal to the history of Jesus.
 
 It became one of the most influential memories of him on earth.
 
-The crucifixion passage generated major interpretive traditions, including substitutionary readings, but the Qur'anic wording and later exegesis must not be collapsed into one.
+Qur'an 4:157-158 denies that the addressed opponents successfully killed or crucified him and says that God raised him. The verse itself does not name Judas, a disciple, or any other substitute.
+
+Later substitutionary readings became major interpretive traditions, but the Qur'anic wording and later exegesis must not be collapsed into one.
 
 Islam did not merely deny Christianity.
 
@@ -163,6 +165,8 @@ It reframed Jesus inside its own account of revelation, prophecy, divine unity, 
 Later tafsir, hadith, historiography, ascetic literature, and mysticism expand Isa beyond the Qur'anic text.
 
 He becomes eschatological figure, ascetic, wisdom teacher, sign, polemical boundary marker, and sometimes mystical exemplar.
+
+The canonical hadith collections give that eschatological Jesus a much more detailed role than the Qur'an does by itself: descent, judgment, the breaking of the cross, and other end-time acts. Those traditions matter enormously to Islamic reception. They are still later collection layers, not extra verses of the Qur'an.
 
 Again, the date clock matters.
 
