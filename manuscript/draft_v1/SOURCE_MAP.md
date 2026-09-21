@@ -277,6 +277,32 @@ Claim ceiling:
 - later Jewish, Christian, Syriac, Islamic and mystical materials are evidence for reception first;
 - they are not silently upgraded into independent first-century biography.
 
+Upstream ON_THEO early-Islamic Jesus layer control:
+- repository: `thebrazenbeard/on-theo`
+- exact commit: `24be62c5af87aef0ca483b1b8cc89d360cecbb70`
+- branch at readback: `research/early-islam-jesus-reception-v1-20260920`
+- artifacts:
+  - `traditions/early-islam/jesus-reception-quran-hadith-v1.md`
+  - `traditions/early-islam/jesus-reception-quran-hadith-v1.yaml`
+- upstream status: DRAFT / NON-CANONICAL / REVIEW REQUIRED
+- evidence classes carried downstream:
+  - PRIMARY TEXT for Qur'anic Jesus passages;
+  - PRIMARY TEXT for canonical hadith traditions in their collected literary form;
+  - HISTORICAL RECONSTRUCTION for comparison between Qur'anic and later collection layers;
+  - SCHOLARLY INTERPRETATION for disputed death/raising readings.
+- downstream ceiling:
+  - Qur'anic Jesus as Messiah/prophet/son of Mary/divinely authorized miracle worker: BOUNDED / STRONG_FOR_TEXT;
+  - Q 4:157-158 denial that addressed opponents successfully killed/crucified Jesus plus divine raising: BOUNDED / STRONG_FOR_TEXT;
+  - named substitute in Q 4:157: NOT_ADMITTED;
+  - detailed descent scenario as Qur'an-only: NOT_ADMITTED;
+  - canonical hadith future-descent scenario: BOUNDED / STRONG_FOR_COLLECTION_LAYER;
+  - exact Qur'anic death/removal chronology: CONTESTED / UNKNOWN_AT_SYNTHESIS_LEVEL.
+- guards:
+  - Qur'an != later hadith;
+  - Qur'an != later tafsir;
+  - canonical hadith collection != seventh-century written eyewitness document;
+  - later Islamic reception != first-century biography.
+
 Upstream ON_THEO Syriac transition synthesis:
 - repository: `thebrazenbeard/on-theo`
 - exact commit: `7fec7dc808aba9dbec9b2d18552d29308cc2e6fe`
