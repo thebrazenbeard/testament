@@ -156,6 +156,8 @@ Qur'an 4:157-158 denies that the addressed opponents successfully killed or cruc
 
 Later substitutionary readings became major interpretive traditions, but the Qur'anic wording and later exegesis must not be collapsed into one.
 
+By al-Tabari's commentary layer, even the substitution tradition is visibly plural: different reports imagine mass resemblance, a volunteer companion, an unnamed other, a named companion, and a Judas claim. The diversity is part of the evidence.
+
 Islam did not merely deny Christianity.
 
 It reframed Jesus inside its own account of revelation, prophecy, divine unity, and human error.
