@@ -9,7 +9,7 @@ Research authority:
 - repository: `thebrazenbeard/on-theo`
 - PR: #163
 - branch: `research/yeshua-missing-years-constrained-context-v1-20260922`
-- exact head consumed: `ea6c1051e90e3273b5e3b677c93b12767fd94a9f`
+- exact head consumed: `0d435fb8d354f100203927ebdb7b768c74884831`
 - state: `research/yeshua/missing-years/RESEARCH_STATE_V5.yaml`
 
 Internal review status upstream:
@@ -316,6 +316,9 @@ PROBABLE HISTORICAL RECONSTRUCTION.
 
 Extended stay:
 PLAUSIBLE / UNRESOLVED.
+
+Eschatological continuity:
+PLAUSIBLE / SOURCE-DEPENDENT; Josephus does not independently confirm the Christian sources' exact eschatological profile for John.
 
 Formal apprenticeship:
 UNRESOLVED.
