@@ -1,0 +1,29 @@
+schema_version: testament.comparative_context_ledger.v1
+status: RESEARCH_ACTIVE
+
+nodes:
+  - id: ENV-GRECO-ROMAN-RELIGION
+    type: CULTURAL_RELIGIOUS_ENVIRONMENT
+    features: [polytheism, sacrifice, saviour_titles, divine_sonship, ruler_cult, healing, magic, festivals]
+    relation: CONTEXT
+    guard: "Shared vocabulary does not prove Christian borrowing."
+
+  - id: ENV-HELLENISTIC-PHILOSOPHY
+    type: INTELLECTUAL_ENVIRONMENT
+    features: [Stoicism, Platonism, Cynicism, Epicureanism, moral_philosophy]
+    relation: CONTEXT_AND_LATER_CHRISTIAN_APPROPRIATION
+    guard: "Do not turn Yeshua into a Greek-school philosopher without evidence."
+
+  - id: CORPUS-MYSTERY-CULTS
+    type: COMPARATIVE_RITUAL_CATEGORY
+    examples: [Eleusis, Isis, Mithras]
+    relation: STRUCTURAL_PARALLEL_AND_POSSIBLE_LOCAL_CONTACT
+    guard: "Modern category can be Christian-shaped; direct borrowing requires evidence."
+
+  - id: TRAD-ZOROASTRIAN
+    type: IRANIAN_RELIGIOUS_TRADITION
+    relation: POSSIBLE_LONG_RANGE_INFLUENCE_AND_STRUCTURAL_PARALLEL
+    motifs: [judgment, resurrection, cosmic_conflict, renovation]
+    guard: "Influence is motif-specific and disputed; no blanket Persian-origin claim."
+
+invariant: "Comparative resemblance never upgrades itself into genealogy."

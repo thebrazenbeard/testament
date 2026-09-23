@@ -1,0 +1,132 @@
+schema_version: testament.contradiction_register.v1
+status: ACTIVE
+records:
+  - id: CONTR-BIRTH-001
+    topic: Herod_vs_Quirinius
+    proposition_A: "Matthew places the birth during Herod the Great's reign."
+    source_A: Matthew_2
+    proposition_B: "Luke links the birth journey to the census associated with Quirinius."
+    source_B: Luke_2_1_2
+    can_both_be_true: UNRESOLVED_WITHOUT_ADDITIONAL_HARMONIZATION
+    resolution_class: UNRESOLVED
+    manuscript_effect: "No fused exact birth chronology."
+
+  - id: CONTR-BIRTH-002
+    topic: family_geography
+    proposition_A: "Matthew's narrative logic begins with the family at/around Bethlehem and explains later settlement in Nazareth after Egypt."
+    source_A: Matthew_1_2
+    proposition_B: "Luke's narrative logic begins from Nazareth, travels to Bethlehem for census, then returns to Nazareth after Jerusalem."
+    source_B: Luke_1_2
+    can_both_be_true: POSSIBLY_WITH_ADDED_EVENTS_NOT_IN_EITHER_TEXT
+    resolution_class: LITERARY_ONLY
+    manuscript_effect: "No harmonized Christmas itinerary presented as source recovery."
+
+  - id: CONTR-BIRTH-003
+    topic: genealogies
+    proposition_A: "Matthew traces Joseph's genealogy through David via Solomon and names Jacob as Joseph's father."
+    source_A: Matthew_1_1_16
+    proposition_B: "Luke traces Joseph's genealogy through David via Nathan and names Heli in Joseph's immediate lineage."
+    source_B: Luke_3_23_38
+    can_both_be_true: REQUIRES_EXTRA_TEXTUAL_HYPOTHESIS
+    resolution_class: UNRESOLVED
+    manuscript_effect: "Genealogies treated as distinct literary/theological constructions unless a historical model is separately defended."
+
+  - id: CONTR-MINISTRY-001
+    topic: Temple_action_timing
+    proposition_A: "Synoptic narrative places the Temple action in the final Jerusalem sequence."
+    source_A: [Mark_11, Matthew_21, Luke_19]
+    proposition_B: "John places the Temple action near the beginning of public ministry."
+    source_B: John_2
+    can_both_be_true: POSSIBLE_ONLY_IF_TWO_ACTIONS_OR_MAJOR_REORDERING
+    resolution_class: UNRESOLVED
+    manuscript_effect: "Chosen narrative placement must be declared literary/reconstructive."
+
+  - id: CONTR-MINISTRY-002
+    topic: Jerusalem_visit_pattern
+    proposition_A: "Synoptic narrative structure concentrates public Jerusalem ministry at the end."
+    source_A: Synoptic_narrative_framework
+    proposition_B: "John narrates repeated festival/Jerusalem activity across the ministry."
+    source_B: Johannine_narrative_framework
+    can_both_be_true: YES_IF_SYNOPIC_NARRATIVE_IS_SELECTIVE
+    resolution_class: UNRESOLVED
+    manuscript_effect: "Book II cannot claim one exact itinerary."
+
+  - id: CONTR-PASSION-001
+    topic: Passover_chronology
+    proposition_A: "Synoptic Last Supper is presented as Passover meal under normal reading."
+    source_A: [Mark_14, Matthew_26, Luke_22]
+    proposition_B: "John places the death before the Passover meal, on preparation chronology."
+    source_B: [John_18, John_19]
+    can_both_be_true: NOT_WITHOUT_CALENDAR_OR_REDACTION_HYPOTHESIS
+    resolution_class: UNRESOLVED
+    manuscript_effect: "No exact fused Passion calendar."
+
+  - id: CONTR-PASSION-002
+    topic: council_and_trial_forms
+    proposition_A: "Mark/Matthew/Luke narrate differing council/hearing structures and timings."
+    source_A: Synoptic_Passion_accounts
+    proposition_B: "John foregrounds Annas/Caiaphas material and a distinct Roman-trial sequence."
+    source_B: John_18_19
+    can_both_be_true: PARTLY
+    resolution_class: UNRESOLVED
+    manuscript_effect: "No single transcript-like Jewish/Roman legal proceeding."
+
+  - id: CONTR-CROSS-001
+    topic: last_words
+    proposition_A: "Mark/Matthew foreground a cry of abandonment."
+    source_A: [Mark_15_34, Matthew_27_46]
+    proposition_B: "Luke and John preserve different final sayings and theological emphases."
+    source_B: [Luke_23, John_19]
+    can_both_be_true: POSSIBLY_BUT_NOT_AS_EXHAUSTIVE_TRANSCRIPTS
+    resolution_class: UNRESOLVED
+    manuscript_effect: "Do not fabricate a complete chronological Seven Last Words sequence as recovered history."
+
+  - id: CONTR-TOMB-001
+    topic: visitors
+    proposition_A: "Canonical accounts differ on which women/visitors arrive at the tomb."
+    source_A: [Mark_16, Matthew_28, Luke_24, John_20]
+    proposition_B: "No single visitor list is shared unchanged across all accounts."
+    source_B: canonical_comparison
+    can_both_be_true: SOME_LISTS_COULD_BE_PARTIAL
+    resolution_class: UNRESOLVED
+    manuscript_effect: "Visitor composition is source-specific."
+
+  - id: CONTR-APPEAR-001
+    topic: first_named_appearance
+    proposition_A: "Paul's received list gives Cephas first among named appearances."
+    source_A: First_Corinthians_15_5
+    proposition_B: "Matthew/John preserve first-appearance traditions involving women/Mary Magdalene."
+    source_B: [Matthew_28_9_10, John_20_11_18]
+    can_both_be_true: ONLY_IF_LISTS_HAVE_DIFFERENT_SCOPE_OR_SELECTION
+    resolution_class: UNRESOLVED
+    manuscript_effect: "No unqualified claim about the universally agreed first appearance."
+
+  - id: CONTR-APPEAR-002
+    topic: appearance_geography
+    proposition_A: "Matthew strongly foregrounds Galilee."
+    source_A: Matthew_28
+    proposition_B: "Luke foregrounds Jerusalem and instructs the disciples to remain there."
+    source_B: Luke_24
+    can_both_be_true: POSSIBLY_SEQUENTIALLY
+    resolution_class: UNRESOLVED
+    manuscript_effect: "Geography must remain source-specific unless sequence is argued."
+
+  - id: CONTR-PAUL-ACTS-001
+    topic: post_call_Jerusalem_chronology
+    proposition_A: "Paul's Galatians 1-2 supplies his self-reported sequence of Arabia/Damascus/Jerusalem/Syria-Cilicia and later Jerusalem encounter."
+    source_A: Galatians_1_2
+    proposition_B: "Acts supplies a different narrative sequence and framing of Paul's Jerusalem contacts."
+    source_B: Acts_9_15
+    can_both_be_true: PARTLY_WITH_RECONSTRUCTION
+    resolution_class: UNRESOLVED
+    manuscript_effect: "Paul's own letters control his self-reported chronology; Acts is compared, not silently harmonized."
+
+  - id: CONTR-PAUL-ACTS-002
+    topic: call_conversion_narrative
+    proposition_A: "Paul's own letters report persecution of the movement followed by a revelatory call/appearance, but do not narrate a Damascus-road dialogue."
+    source_A: [Galatians_1_13_17, First_Corinthians_9_1, First_Corinthians_15_8]
+    proposition_B: "Acts narrates Paul's call three times with developed road, light, voice, companion, and commissioning details."
+    source_B: [Acts_9, Acts_22, Acts_26]
+    can_both_be_true: YES_AT_BROAD_EVENT_LEVEL
+    resolution_class: UNRESOLVED_FOR_NARRATIVE_DETAIL
+    manuscript_effect: "Paul's letters control his self-reported chronology/experience floor; Acts supplies later narrative forms, not transcript detail."
