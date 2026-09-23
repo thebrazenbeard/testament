@@ -1,0 +1,50 @@
+schema_version: testament.second_temple_context_ledger.v1
+status: RESEARCH_ACTIVE
+
+records:
+  - id: SRC-DANIEL-7
+    kind: PRIMARY_TEXT
+    use: [beast_empires, heavenly_judgment, human_like_figure, kingdom, holy_ones]
+    relation_to_yeshua: CONTEXT_AND_POSSIBLE_INTERTEXT
+    limits:
+      - "Interpretation of human-like figure disputed."
+      - "Later Son of Man traditions must not be read back automatically."
+
+  - id: CORPUS-1-ENOCH
+    kind: PRIMARY_TEXT_COMPLEX
+    use: [watchers, judgment, resurrection, cosmic_order, Son_of_Man_Parables]
+    relation_to_yeshua: SECOND_TEMPLE_CONTEXT
+    limits:
+      - "Composite corpus with multiple dates."
+      - "Parables dating remains debated."
+
+  - id: CORPUS-DEAD-SEA-SCROLLS
+    kind: MATERIAL_AND_PRIMARY_TEXT_CORPUS
+    use: [textual_witnesses, law, purity, community, messianism, apocalypticism, wisdom]
+    relation_to_yeshua: CONTEXT
+    limits:
+      - "No default Essene-Jesus identification."
+      - "Text and sect identity must be source-specific."
+
+  - id: SRC-PSALMS-SOLOMON
+    kind: PRIMARY_TEXT
+    use: [Davidic_messiah, Jerusalem, judgment, political_theology]
+    relation_to_yeshua: CONTEXT_AND_COMPARISON
+    limits:
+      - "One messianic model among many."
+
+  - id: SRC-SIRACH
+    kind: PRIMARY_TEXT
+    use: [wisdom, Torah, ethics, wealth, friendship, justice]
+    relation_to_yeshua: CONTEXT_AND_POSSIBLE_TRADITIONAL_PARALLELS
+    limits:
+      - "Direct dependence requires evidence."
+
+  - id: SRC-WISDOM-SOLOMON
+    kind: PRIMARY_TEXT
+    use: [wisdom, creation, righteousness, immortality, Hellenistic_Jewish_thought]
+    relation_to_yeshua: CONTEXT_AND_LATER_CHRISTOLOGICAL_COMPARISON
+    limits:
+      - "Christian reception does not erase Jewish origin."
+
+completion_rule: "Contextual similarity never becomes direct literary dependence without a transmission argument."

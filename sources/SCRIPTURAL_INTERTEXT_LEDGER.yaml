@@ -1,0 +1,61 @@
+schema_version: testament.scriptural_intertext_ledger.v1
+status: RESEARCH_ACTIVE
+
+relations:
+  - id: INT-DOUBLE-LOVE-DEUT6-LEV19
+    source:
+      - Deuteronomy_6_4_5
+      - Leviticus_19_18
+    reception:
+      - Mark_12_28_34
+      - Matthew_22_34_40
+      - Luke_10_25_28
+    type: TORAH_SUMMARY_AND_COMBINATION
+    historical_claim: "The Jesus tradition combines already-existing Torah commands; Christianity is not treated as inventing love in contrast to Judaism."
+    dependence_guard: "Synoptic differences concern literary framing, ordering, and redaction; the scriptural inputs themselves are prior Jewish sources."
+    supersession_guard: "Do not narrate love as replacing Jewish law; the move is Jewish scriptural interpretation."
+
+  - id: INT-ISAIAH40-JOHN
+    source: Isaiah_40_3
+    reception: [Mark_1, Matthew_3, Luke_3, John_1]
+    type: EARLY_CHRISTIAN_SCRIPTURAL_IDENTIFICATION
+    original_prediction_of_named_person: NOT_ESTABLISHED
+
+  - id: INT-ISAIAH-SERVANT-JESUS
+    source: Isaiah_40_55_servant_complex
+    reception: [Gospels, Acts, early_Christian_literature]
+    type: EARLY_CHRISTIAN_RECEPTION
+    prechristian_individual_messianic_reading: PARTIALLY_ATTESTED_AND_DISPUTED
+    historical_self_application_by_yeshua: UNRESOLVED
+
+  - id: INT-ISAIAH61-LUKE4
+    source: Isaiah_61_plus_related_Isaiah_material
+    reception: Luke_4
+    type: PROGRAMMATIC_SCRIPTURAL_RECEPTION
+    exact_historical_synagogue_reading: UNRESOLVED
+
+  - id: INT-MALACHI-JOHN
+    source: Malachi_3_1_and_4_5_6
+    reception: Gospel_John_the_Baptist_traditions
+    type: EARLY_CHRISTIAN_RECEPTION_WITH_PRECHRISTIAN_INTERPRETIVE_HISTORY
+    original_prediction_of_john: NOT_ESTABLISHED
+
+  - id: INT-PSALM22-PASSION
+    source: Psalm_22
+    reception: Passion_narratives
+    type: SCRIPTURAL_SHAPING_AND_INTERPRETATION
+    event_to_text_direction: REQUIRES_PASSAGE_LEVEL_ANALYSIS
+
+  - id: INT-PSALM110-CHRIST
+    source: Psalm_110
+    reception: [Synoptics, Acts, Paul_related_early_christology, Hebrews]
+    type: EXALTATION_CHRISTOLOGY_INTERTEXT
+    historical_yeshua_self_application: UNRESOLVED
+
+  - id: INT-ZECH9-ENTRY
+    source: Zechariah_9_9
+    reception: Jerusalem_entry_traditions
+    type: SCRIPTURAL_INTERPRETATION_WITH_POSSIBLE_SYMBOLIC_ACTION
+    historical_intent: PLAUSIBLE_BUT_UNRESOLVED
+
+invariant: "Reception of scripture is historical evidence for interpretation even when predictive fulfillment is not established."

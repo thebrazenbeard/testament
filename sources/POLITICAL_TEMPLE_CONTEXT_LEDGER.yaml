@@ -1,0 +1,44 @@
+schema_version: testament.political_temple_context_ledger.v1
+status: RESEARCH_ACTIVE
+
+nodes:
+  - id: INST-JERUSALEM-TEMPLE
+    type: SACRED_POLITICAL_ECONOMIC_INSTITUTION
+    functions: [sacrifice, pilgrimage, treasury, priesthood, purity, identity, eschatological_symbol]
+    guard: "Do not reduce to corruption or commerce."
+
+  - id: PERSON-CAIAPHAS
+    type: HIGH_PRIEST
+    approximate_tenure: "18–36/37 CE"
+    evidence: [Josephus, Gospel_traditions, inscriptional_family_context]
+    guard: "Political accommodation does not equal simple collaborator psychology."
+
+  - id: PERSON-HEROD-ANTIPAS
+    type: TETRARCH
+    domain: Galilee_and_Peraea
+    relation: [John_the_Baptist_context, Yeshua_Galilean_political_environment]
+    guard: "Do not invent continuous pursuit absent from sources."
+
+  - id: GROUP-PHARISEES
+    type: JEWISH_MOVEMENT
+    evidence: [Josephus, New_Testament, Qumran_comparanda, later_rabbinic_reception]
+    guard: "Not synonym for hypocrite; later rabbis not direct one-to-one proxy."
+
+  - id: GROUP-SADDUCEES
+    type: JEWISH_MOVEMENT
+    evidence: [Josephus, New_Testament, later_sources]
+    guard: "Do not equate every priest with Sadducee."
+
+  - id: ROLE-SCRIBE
+    type: LITERATE_LEGAL_ADMINISTRATIVE_ROLE
+    guard: "Role, not one sect."
+
+  - id: EVENT-PASSOVER-JERUSALEM
+    type: PILGRIMAGE_FESTIVAL_CONTEXT
+    effects: [crowds, Temple_intensity, liberation_memory, public_order_risk]
+    guard: "Avoid unsupported crowd numbers."
+
+invariants:
+  - "Roman execution responsibility remains distinct from local-elite involvement."
+  - "Jewish internal dispute is not Christianity-versus-Judaism by default."
+  - "Temple practice is reconstructed on its own terms before Christian theological reinterpretation."

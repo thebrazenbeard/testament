@@ -1,0 +1,155 @@
+schema_version: testament.scene_construction_budgets.v1
+status: ACTIVE
+rule: "Construction may create readability, never evidence."
+
+scenes:
+  - id: SCN-I-BIRTH
+    book: I
+    topic: infancy_and_family_origin
+    minimum_reconstruction: "Yeshua was associated with Nazareth/Galilee; Matthew and Luke preserve distinct birth narratives."
+    prohibited_as_fact:
+      - exact_birth_date
+      - fused_magi_shepherds_sequence
+      - exact_census_solution
+      - exact_paternity
+    allowed_construction:
+      dialogue: HIGH_IF_EXPLICITLY_AUTHORED
+      interiority: HIGH_IF_EXPLICITLY_AUTHORED
+      chronology: NO_FUSED_HARMONY
+    stop_condition: "If the scene needs both Matthew and Luke to be exact sequential reportage, redesign."
+
+  - id: SCN-II-BAPTISM
+    book: II
+    topic: baptism_by_John
+    minimum_reconstruction: "Yeshua was historically associated with and probably baptized by John."
+    prohibited_as_fact:
+      - exact_heavenly_voice_wording
+      - visible_dove_as_observed_mechanism
+      - exact_private_phenomenology
+      - John_publicly_identifying_Yeshua_as_unique_Messiah
+    allowed_construction:
+      dialogue: MINIMAL
+      interiority: PROHIBITED_UNLESS_MARKED
+      phenomenology: SOURCE_PLURAL
+    stop_condition: "If narration must decide whether the voice was external, internal, literary, divine, or absent, change point of view."
+
+  - id: SCN-II-HEALING
+    book: II
+    topic: representative_healing_or_exorcism
+    minimum_reconstruction: "Healing/exorcistic practice is historically plausible and prominent in Synoptic tradition."
+    prohibited_as_fact:
+      - modern_diagnosis_without_evidence
+      - supernatural_mechanism
+      - fraud_mechanism
+      - exact_motive_from_narrator_omniscience
+    allowed_construction:
+      composite_patient: ONLY_IF_DECLARED
+      dialogue: SOURCE_BOUND_OR_DECLARED
+      outcome: DESCRIBE_WITNESSABLE_CHANGE_NOT_MECHANISM
+
+  - id: SCN-II-TEMPLE
+    book: II
+    topic: Temple_action
+    minimum_reconstruction: "An underlying Temple confrontation/action is historically plausible/probable and may have contributed to execution risk."
+    prohibited_as_fact:
+      - exact_scale
+      - exact_sequence_of_tables_and_vendors
+      - exact_words
+      - one_settled_motive
+      - fourfold_independent_attestation
+    allowed_construction:
+      chronology: DECLARE_SELECTED_FRAMEWORK
+      crowd_reaction: SOURCE_BOUND_OR_DECLARED
+      elite_interiority: PROHIBITED
+    stop_condition: "If scene requires knowing Caiaphas/Pilate's private thoughts, redesign."
+
+  - id: SCN-II-ARREST_TRIAL
+    book: II
+    topic: arrest_and_hearings
+    minimum_reconstruction: "Yeshua was arrested and Roman authority under Pilate ordered crucifixion; local elite involvement is plausible but procedure is contested."
+    prohibited_as_fact:
+      - verbatim_trial_transcripts
+      - one_harmonized_Sanhedrin_procedure
+      - Pilate_private_reluctance
+      - collective_Jewish_guilt
+    allowed_construction:
+      procedural_sequence: SOURCE_SPECIFIC_OR_DECLARED_RECONSTRUCTION
+      dialogue: LOW
+      interiority: PROHIBITED
+
+  - id: SCN-II-CRUCIFIXION
+    book: II
+    topic: crucifixion
+    minimum_reconstruction: "Roman crucifixion under Pontius Pilate around Passover."
+    prohibited_as_fact:
+      - exact_nail_rope_configuration_from_Yehohanan
+      - complete_harmonized_last_words
+      - exact_hour_if_calendar_model_unresolved
+      - cosmic_signs_as_neutral_observation_without_source_label
+    allowed_construction:
+      physical_detail: ROMAN_CONTEXT_BOUNDED
+      crowd_detail: SOURCE_BOUND
+      interiority: PROHIBITED
+
+  - id: SCN-IV-BURIAL
+    book: IV
+    topic: burial
+    minimum_reconstruction: "Body disposal/burial occurred somehow; burial tradition is early and plausible."
+    prohibited_as_fact:
+      - Joseph_exact_role_without_confidence_label
+      - tomb_ownership
+      - exact_tomb_architecture
+      - sealed_guarded_tomb_as_cross_Gospel_floor
+    allowed_construction:
+      location: UNKNOWN_UNLESS_SELECTED_AS_DECLARED_RECONSTRUCTION
+      dialogue: MINIMAL
+
+  - id: SCN-IV-TOMB
+    book: IV
+    topic: empty_tomb_traditions
+    minimum_reconstruction: "Mark is the earliest extant canonical tomb narrative under common dating; later accounts diverge."
+    prohibited_as_fact:
+      - omniscient_camera_inside_tomb
+      - fused_visitor_list
+      - fused_angel_count
+      - empty_tomb_equals_resurrection_mechanism
+    allowed_construction:
+      viewpoint: FOLLOW_NAMED_SOURCE_CHARACTER_OR_MULTIPLE_MEMORIES
+
+  - id: SCN-IV-APPEARANCES
+    book: IV
+    topic: resurrection_appearance_claims
+    minimum_reconstruction: "Very early followers proclaimed appearances; Paul's received tradition names Cephas, the Twelve, James and others."
+    prohibited_as_fact:
+      - objective_vs_subjective_mechanism
+      - one_uncontested_first_appearance
+      - fused_Galilee_Jerusalem_sequence
+      - host_reinstantiation
+    allowed_construction:
+      phenomenology: SOURCE_SPECIFIC
+      interpretation: MULTIPLE_MODELS
+    stop_condition: "If the prose resolves mechanism, move that material to Book VII or label theology."
+
+  - id: SCN-IV-JERUSALEM
+    book: IV
+    topic: earliest_Jerusalem_movement
+    minimum_reconstruction: "A pre-Pauline movement with Cephas/James and Jerusalem connections existed."
+    prohibited_as_fact:
+      - Acts_shared_property_summary_as_unqualified_floor
+      - seamless_Twelve_governance
+      - no_conflict
+    allowed_construction:
+      Acts_material: LATER_WITNESS_WITH_CROSSCHECK
+      Paul_material: PRIORITY_FOR_PAUL_CONNECTED_EVENTS
+
+  - id: SCN-IV-SAUL_CALL
+    book: IV
+    topic: Paul_call_conversion
+    minimum_reconstruction: "Paul reports persecuting the movement and later experiencing a revelatory call/appearance."
+    prohibited_as_fact:
+      - fused_Acts_three_accounts
+      - exact_road_dialogue_as_transcript
+      - chronology_that_overrides_Galatians
+    allowed_construction:
+      Paul_self_report: PRIMARY_FOR_SELF_CHRONOLOGY
+      Acts: LATER_NARRATIVE_COMPARISON
