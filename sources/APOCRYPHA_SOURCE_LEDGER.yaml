@@ -1,0 +1,197 @@
+schema_version: testament.apocrypha_source_ledger.v1
+status: RESEARCH_ACTIVE
+
+records:
+  - id: SRC-GOSPEL-THOMAS
+    kind: PRIMARY_TEXT_FOR_EARLY_CHRISTIAN_RECEPTION
+    category: sayings_gospel
+    witnesses:
+      - "Nag Hammadi Codex II, complete Coptic copy"
+      - "P.Oxy. 1, Greek fragment"
+      - "P.Oxy. 654, Greek fragment"
+      - "P.Oxy. 655, Greek fragment"
+    witness_control:
+      direct_cluster_witness:
+        - WIT-NHC-II-GOSPEL-THOMAS
+      current_cluster_scope:
+        - Thomas_54
+        - Thomas_68
+        - Thomas_69
+      greek_fragment_guard: "P.Oxy. 1, 654 and 655 do not preserve Thomas 54, 68 or 69; do not cite them as Greek witnesses for the Beatitudes cluster."
+      ask_seek_cluster:
+        direct_witnesses:
+          - WIT-POXY-654-GOSPEL-THOMAS
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_2:
+          greek: WIT-POXY-654-GOSPEL-THOMAS
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          guard: "Greek P.Oxy. 654 is fragmentary; reconstructed lacunae remain reconstruction."
+        Thomas_92:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          guard: "Do not infer an extant Greek Thomas 92 from the existence of other Oxyrhynchus Thomas fragments."
+      parable_cluster:
+        direct_witnesses:
+          - WIT-NHC-II-GOSPEL-THOMAS
+        sayings:
+          - Thomas_9
+          - Thomas_20
+        greek: NONE_SURVIVING_CURRENTLY_BOUND
+        guard: "P.Oxy. 654 stops within logion 7; P.Oxy. 1 and 655 preserve later but non-overlapping sayings. Do not cite any surviving Greek Thomas fragment as witness for logia 9 or 20."
+      caesar_cluster:
+        direct_witnesses:
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_100:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          distinctive_form: "Caesar/God division plus an additional final claim by Jesus absent from the Synoptic forms."
+          guard: "Do not cite P.Oxy. 1, 654, or 655 as Greek witnesses for logion 100."
+      lost_sheep_cluster:
+        direct_witnesses:
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_107:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          distinctive_form: "The lost sheep is the largest, and the shepherd says he loves it more than the ninety-nine."
+          guard: "Do not cite P.Oxy. 1, 654, or 655 as Greek witnesses for logion 107."
+      first_last_cluster:
+        direct_witnesses:
+          - WIT-POXY-654-GOSPEL-THOMAS
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_4:
+          greek: WIT-POXY-654-GOSPEL-THOMAS
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          transmission_difference: "Greek P.Oxy. 654 includes reciprocal last-to-first wording absent from the extant Coptic NHC II form."
+          guard: "Do not resolve the Greek/Coptic divergence by silently normalizing either witness to the Synoptic maxim."
+      family_renunciation_cluster:
+        direct_witnesses:
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_55:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          distinctive_form: "Family hatred language is joined to cross-bearing and worthiness language."
+        Thomas_101:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          witness_state: EXTANT_WITH_LACUNAE
+          distinctive_form: "Related family saying develops a hate/love antithesis and damaged mother language."
+        guard: "Do not treat Thomas 55 and 101 as duplicate independent historical attestations merely because they occur twice within one work."
+      judge_speck_cluster:
+        direct_witnesses:
+          - WIT-POXY-1-GOSPEL-THOMAS
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_26:
+          greek: WIT-POXY-1-GOSPEL-THOMAS
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek_state: EXTANT_FRAGMENTARY
+          guard: "P.Oxy. 1 begins within logion 26; do not fill missing Greek wording from the Coptic text without marking reconstruction."
+      kingdom_location_cluster:
+        direct_witnesses:
+          - WIT-POXY-654-GOSPEL-THOMAS
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_3:
+          greek: WIT-POXY-654-GOSPEL-THOMAS
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek_state: EXTANT_FRAGMENTARY
+          guard: "Greek P.Oxy. 654 is lacunose in parts of logion 3; Coptic backfill is reconstruction."
+        Thomas_113:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          guard: "Do not infer an extant Greek Thomas 113 from the existence of other Oxyrhynchus Thomas fragments."
+      wicked_tenants_cluster:
+        direct_witnesses:
+          - WIT-NHC-II-GOSPEL-THOMAS
+        Thomas_65:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          distinctive_form: "Vineyard/tenants narrative survives without the Synoptic rejected-stone citation inside the same logion."
+        Thomas_66:
+          coptic: WIT-NHC-II-GOSPEL-THOMAS
+          greek: NONE_SURVIVING_CURRENTLY_BOUND
+          distinctive_form: "Rejected-stone saying follows as a separate adjacent logion."
+        guard: "Adjacent Thomas 65 and 66 are one work's literary arrangement, not two independent historical witnesses."
+    dependence_control:
+      bibliography: research/bibliography/THOMAS_SYNOPTIC_DEPENDENCE_V1.md
+      model: PER_SAYING_NOT_GLOBAL_BOOLEAN
+      allowed_local_states:
+        - DIRECT_DEPENDENCE_STRONGLY_SUPPORTED
+        - SYNOPTIC_INFLUENCE_PROBABLE_DIRECTION_OR_MECHANISM_UNCERTAIN
+        - COMMON_TRADITION_PLAUSIBLE
+        - MIXED_OR_MULTISTAGE_TRANSMISSION_PLAUSIBLE
+        - RELATION_DISPUTED
+        - INSUFFICIENT_EVIDENCE
+      guards:
+        - "Redactional fingerprints and extended non-formulaic agreement weigh more heavily than short formulaic overlap."
+        - "Shorter Thomas form never automatically means earlier."
+        - "Thomas genre/narrative absence never automatically means independence."
+        - "Dependence and historicity remain separate axes."
+        - "No global Thomas-dependent or Thomas-independent flag may silently decide a cluster."
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-thomas/"
+    limits:
+      - "Composition history and relation to Synoptics remain debated."
+      - "Individual sayings may have different histories."
+
+  - id: SRC-GOSPEL-MARY
+    kind: PRIMARY_TEXT_FOR_EARLY_CHRISTIAN_RECEPTION
+    category: revelatory_dialogue
+    witnesses:
+      - "Berlin Codex 8502, Coptic, fourth/fifth century, incomplete"
+      - "P.Ryl. 463, Greek, third century"
+      - "P.Oxy. 3525, Greek, third century"
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-mary/"
+    limits:
+      - "Less than half the work survives."
+      - "Later witness to Mary reception, not automatic first-generation biography."
+
+  - id: SRC-GOSPEL-PETER
+    kind: PRIMARY_TEXT_FOR_CHRISTIAN_RECEPTION
+    category: passion_gospel
+    witnesses:
+      - "BAAM 0522, Greek, sixth/seventh century"
+      - "fragmentary Oxyrhynchus evidence"
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-peter/"
+    limits:
+      - "Physical witness is much later than narrated events."
+      - "Composition and dependence require separate analysis."
+
+  - id: SRC-PROTEVANGELIUM-JAMES
+    kind: PRIMARY_TEXT_FOR_CHRISTIAN_RECEPTION
+    category: infancy_gospel
+    composition: "latter half of second century per current NASSCAL summary"
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/protevangelium-of-james/"
+    limits:
+      - "Major Marian reception source, not first-century biography."
+
+  - id: SRC-INFANCY-GOSPEL-THOMAS
+    kind: PRIMARY_TEXT_FOR_CHRISTIAN_RECEPTION
+    category: infancy_gospel
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/infancy-gospel-of-thomas/"
+    limits:
+      - "Complex multilingual transmission."
+      - "Not evidence that undocumented childhood episodes occurred."
+
+  - id: SRC-GOSPEL-EBIONITES
+    kind: FRAGMENTARY_LATER_PRESERVATION
+    category: jewish_christian_gospel_modern_label
+    preservation: "Known through Epiphanius and other later evidence; non-extant as an independent manuscript."
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-the-ebionites/"
+    limits:
+      - "Modern scholarly title."
+      - "Later heresiological mediation."
+
+  - id: SRC-GOSPEL-HEBREWS
+    kind: FRAGMENTARY_LATER_PRESERVATION
+    category: jewish_christian_gospel
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-the-hebrews/"
+    limits:
+      - "Fragmentary, later citations."
+      - "Relationship to other Jewish-Christian gospel labels disputed."
+
+  - id: SRC-GOSPEL-NAZARENES
+    kind: FRAGMENTARY_LATER_PRESERVATION
+    category: jewish_christian_gospel
+    source: "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-the-nazarenes/"
+    limits:
+      - "Taxonomy and source identity remain difficult."
+
+completion_rule: "Each record requires composition scholarship, witness-level dates, dependence analysis, and passage-level claims before manuscript use."

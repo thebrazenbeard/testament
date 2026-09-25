@@ -1,0 +1,43 @@
+{
+  "schema": "TESTAMENT_EXODUS_CHECKPOINT_RECEIPT_V1",
+  "status": "STARTING_SNAPSHOT_FRESHNESS_REQUIRED_BEFORE_EFFECT",
+  "date": "2026-09-19",
+  "repository": "thebrazenbeard/testament",
+  "branch": "foundation/testament-v1",
+  "checkpoint": {
+    "path": "state/exodus/TESTAMENT_EXODUS_CHECKPOINT_20260919_V1.md",
+    "source_commit": "79fc8127d858758e488d7716bec6631348531111",
+    "git_blob": "5b5a4f52b69d69fedd90d68f6878a2a515b98d36",
+    "sha256": "cef143ba81f36d9bd1efa4a906ec9053b174baf499f4fc2a5ddbd6d3de012710",
+    "bytes": 8917
+  },
+  "runtime_contract": {
+    "path": "docs/TESTAMENT_RUNTIME_RECONSTRUCTION_V1.md",
+    "introduced_commit": "1b93ca8cedd7a217e19bee2468e7bcd76ca0c288",
+    "git_blob": "235aa34f425b62e8879e968b0fab99baf2f7ed5b"
+  },
+  "draft_v1": {
+    "source_commit": "a7925b0aab8c28dd89c1e67b4ed8d1a7b50e2648",
+    "root": "manuscript/draft_v1/README.md",
+    "validated_words": 13743,
+    "validated_files": 12,
+    "diff_check": "PASS"
+  },
+  "bus": {
+    "topology_owner_commit": "f90d52e66d655e9c3cfac63cb529914ac51d3a88",
+    "topology_path": "architecture/contracts/RADAR_TOPOLOGY_V1.json",
+    "topology_blob": "69e505031d4e53dcb853578dac23817649af1918",
+    "vera_route": "bus/vera-v2",
+    "exodus_architecture_pr": 128,
+    "exodus_architecture_head_observed": "1af84ba0650bb646b696dfc31e4f79b498d100af",
+    "exodus_architecture_status": "SOURCE_CANDIDATE_NOT_MERGED_AT_RECEIPT_TIME"
+  },
+  "chat_dependency": {
+    "permanent_testament_chat_required": false,
+    "old_chat_checkpoints": "HISTORICAL_EVIDENCE_ONLY",
+    "chat_url_required_for_recovery": false
+  },
+  "protected_effects_performed_by_this_exodus": [],
+  "next_interface": "Vera",
+  "next_directive": "TESTAMENT::RECONSTRUCT_FROM_GITHUB_AND_BUS::FRESH_CHECK_THEN_HOSTILE_REVIEW_DRAFT_V1"
+}

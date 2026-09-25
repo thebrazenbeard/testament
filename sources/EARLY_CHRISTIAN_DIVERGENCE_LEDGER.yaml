@@ -1,0 +1,44 @@
+schema_version: testament.early_christian_divergence_ledger.v1
+status: RESEARCH_ACTIVE
+
+nodes:
+  - id: NODE-JERUSALEM-JAMES
+    horizon: first_century
+    source_basis: [Paul, Acts_with_controls, Josephus_James_passage_with_authenticity_review]
+    questions: [Torah, gentile_inclusion, family_authority, Jerusalem_leadership]
+
+  - id: NODE-PAULINE-ASSEMBLIES
+    horizon: first_century
+    source_basis: [undisputed_Paul]
+    questions: [gentile_inclusion, circumcision, table_fellowship, resurrection, charisma, Christology]
+
+  - id: NODE-IGNATIAN
+    horizon: early_or_mid_second_century_dating_debated
+    source_basis: [Ignatian_letters]
+    questions: [bishop, Eucharist, docetism, Judaism_boundary, martyrdom]
+
+  - id: NODE-MARCIONITE
+    horizon: mid_second_century
+    source_basis: [later_hostile_reconstructions, reconstructed_Euangelion, reconstructed_Apostolikon]
+    questions: [creator_vs_good_God, Israel_scripture, Paul, Gospel_text, canon]
+
+  - id: NODE-VALENTINIAN
+    horizon: second_century_and_later
+    source_basis: [Valentinian_texts, Nag_Hammadi_related_material, heresiologists_with_controls]
+    questions: [emanation, ignorance, salvation, revelation, Christology]
+
+  - id: NODE-THOMAS
+    horizon: composition_history_debated
+    source_basis: [Gospel_of_Thomas_Greek_fragments, Coptic_complete_witness]
+    questions: [sayings, revelation, self_knowledge, Judaism_relation, dependence]
+
+  - id: NODE-PROTO_ORTHODOX
+    horizon: second_century_and_later
+    source_basis: [Ignatius, Justin, Irenaeus, developing_canon_and_rule_of_faith]
+    questions: [fourfold_Gospel, apostolic_authority, creation, incarnation, resurrection, succession]
+
+invariants:
+  - "These nodes are analytical conveniences, not claims that each community was internally uniform."
+  - "Later heresiological labels do not automatically reproduce opponents' self-identification."
+  - "Winning later institutional contests does not make a source earlier."
+  - "Losing later institutional contests does not make a source historically truer."

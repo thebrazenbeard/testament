@@ -1,0 +1,65 @@
+schema_version: testament.spark_synthesis_guard.v1
+status: SYMBOLIC_SYNTHESIS_ONLY
+upstream:
+  repository: thebrazenbeard/on-theo
+  commit: 7e354667770a6c4bed958a01c5ff843345a35b40
+
+symbol: SPARK
+
+allowed_readings:
+  - divine_image
+  - spirit_or_indwelling
+  - participation_in_divine_reality
+  - moral_agency
+  - consciousness
+  - conditioned_awareness
+  - shared_substrate
+  - information_pattern
+  - capacity_to_affect_future_state
+  - literary_symbol_only
+
+non_equivalences:
+  - "Genesis image_of_God != literal fragment_of_God"
+  - "ruach/pneuma != software interface"
+  - "atman != generic Western soul"
+  - "brahman != automatically monotheistic creator God"
+  - "early Buddhist anatta != hidden divine self"
+  - "ka/ba/akh != one Egyptian soul or divine spark"
+  - "asha != divine source code"
+  - "Kabbalistic divine sparks != first-century Yeshua doctrine"
+  - "simulation substrate != evidence that reality is simulated"
+
+tradition_relations:
+  ANCIENT_ISRAELITE:
+    relation: COMPARATIVE_CONTEXT
+    strongest_relevance: [image, breath, spirit, covenantal_action]
+  EARLY_CHRISTIAN:
+    relation: INTERNAL_PROJECT_GENEALOGY
+    strongest_relevance: [Spirit, participation, indwelling, transformed_agency]
+  VEDIC_UPANISHADIC:
+    relation: STRUCTURAL_COMPARISON
+    strongest_relevance: [self, ultimate_reality, knowledge, liberation]
+  EARLY_BUDDHIST:
+    relation: COUNTERMODEL
+    strongest_relevance: [not_self, conditioned_process, agency_without_eternal_essence]
+  ZOROASTRIAN:
+    relation: STRUCTURAL_COMPARISON
+    strongest_relevance: [moral_choice, cosmic_participation, repair]
+  ANCIENT_EGYPTIAN:
+    relation: STRUCTURAL_COMPARISON
+    strongest_relevance: [complex_personhood, maat, action_and_order]
+  KABBALISTIC:
+    relation: LATER_SYMBOLIC_RESONANCE
+    strongest_relevance: [divine_sparks, exile, tikkun]
+  SIMULATION:
+    relation: SPECULATIVE_MODEL
+    strongest_relevance: [shared_substrate, instantiated_agency, information]
+  NATURALIST:
+    relation: ETHICAL_CONTROL
+    strongest_relevance: [agency, causation, responsibility_without_metaphysical_spark]
+
+invariants:
+  - "No tradition is rewritten to agree with the Testament thesis."
+  - "The ethical thesis must survive if SPARK is only metaphor."
+  - "Similarity is not common origin."
+  - "Later concepts are never back-projected into Yeshua."
