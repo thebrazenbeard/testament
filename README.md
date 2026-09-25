@@ -22,7 +22,7 @@ It contains:
 - a source/provenance map;
 - editorial revision gates.
 
-Draft V1 is explicitly exploratory authored prose. Its existence does not upgrade research confidence, close open witness debt, authorize manuscript promotion, or authorize merge.
+Draft V1 is explicitly exploratory authored prose. Its existence does not upgrade research confidence, close open witness debt, establish publication readiness, or promote narrative material into evidence.
 
 ## Upstream research dependency
 
@@ -57,7 +57,7 @@ Testament does not require a persistent ChatGPT conversation.
 
 Fresh runtimes reconstruct the project from GitHub/Bus state using:
 - `docs/TESTAMENT_RUNTIME_RECONSTRUCTION_V1.md`;
-- the current exact PR #1 / `foundation/testament-v1` state;
+- the current `main` branch and its exact commit state;
 - current evidence/review ledgers;
 - `manuscript/draft_v1/`;
 - the current Bus topology and coordination route.
