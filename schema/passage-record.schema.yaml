@@ -1,0 +1,54 @@
+schema_version: testament.passage_record.v1
+
+required:
+  - id
+  - manuscript_location
+  - status
+  - proposition_dependencies
+  - construction
+
+fields:
+  id: stable string
+  manuscript_location:
+    book: string
+    chapter: string
+    scene: string
+  status:
+    one_of:
+      - OUTLINE
+      - RESEARCHING
+      - DRAFT
+      - SOURCE_REVIEWED
+      - HOSTILE_REVIEWED
+      - FROZEN
+  proposition_dependencies:
+    type: list
+    item:
+      claim: exact proposition
+      evidence_class:
+        - PRIMARY_TEXT
+        - MATERIAL_EVIDENCE
+        - HISTORICAL_RECONSTRUCTION
+        - LATER_TRADITION
+        - SCHOLARLY_INTERPRETATION
+        - PROJECT_INFERENCE
+        - SPECULATIVE_MODEL
+        - UNKNOWN
+      on_theo_claim_id: optional string
+      source_refs: list
+      witness_refs: list
+      confidence: high | medium | low | unresolved
+      conflicts: list
+  construction:
+    authored_dialogue: boolean
+    authored_interiority: boolean
+    chronology_compression: boolean
+    composite_characters: boolean
+    symbolic_synthesis: boolean
+    speculative_overlay: boolean
+    notes: string
+  review:
+    source_review: pending | pass | fail
+    chronology_review: pending | pass | fail
+    bias_review: pending | pass | fail
+    simulation_backprojection_review: pending | pass | fail
