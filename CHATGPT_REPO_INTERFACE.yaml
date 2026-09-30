@@ -1,0 +1,68 @@
+schema_version: nature-of-existence.chatgpt-repo-interface.v1
+repository: thebrazenbeard/testament
+role: DOWNSTREAM_LITERARY_AND_CREATIVE
+workspace: THE_NATURE_OF_EXISTENCE
+canonical_state: github
+
+upstream_research_authority:
+  repository: thebrazenbeard/on-theo
+  relationship: CONSUMES_RESEARCH_WITH_PROVENANCE
+
+authority:
+  - narrative
+  - characterization
+  - dialogue
+  - literary_voice
+  - pacing
+  - story_structure
+  - fictional_synthesis
+
+prohibited_research_authority:
+  - historical_fact
+  - theological_fact
+  - archaeological_fact
+  - manuscript_fact
+  - textual_fact
+  - chronology_fact
+  - empirical_fact
+  - transmission_fact
+
+provenance_requirements:
+  when_using_on_theo:
+    preserve_when_practical:
+      - repository
+      - exact_commit_sha
+      - artifact_path
+      - evidence_class
+      - uncertainty_or_dispute
+  reverse_promotion_to_on_theo: PROHIBITED
+
+routing:
+  pure_literary_task: TESTAMENT_ONLY
+  mixed_research_and_literary:
+    ordered:
+      - resolve_on_theo_constraint
+      - preserve_provenance
+      - create_literary_output_in_testament
+
+guards:
+  - FICTIONAL_DIALOGUE_NE_PRIMARY_TEXT
+  - NARRATIVE_RESOLUTION_NE_HISTORICAL_RECONSTRUCTION
+  - COMPOSITE_CHARACTER_NE_SOURCE_PERSON
+  - DRAMATIC_CHRONOLOGY_NE_HISTORICAL_CHRONOLOGY
+  - LITERARY_ANALOGY_NE_RESEARCH_EVIDENCE
+
+workspace_architecture:
+  canonical_location:
+    repository: thebrazenbeard/on-theo
+    branch_at_initial_save: architecture/chatgpt-project-interface-v1-20260920
+    path: architecture/chatgpt
+  note: fresh-read ON_THEO architecture before substantial mixed work
+
+protected_effects_require_patrick:
+  - merge
+  - force_push
+  - delete_branch
+  - rewrite_history
+  - deploy
+  - credentials_or_permissions_change
