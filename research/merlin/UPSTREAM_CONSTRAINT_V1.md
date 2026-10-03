@@ -8,7 +8,7 @@ Date: 2026-10-03
 Repository: `thebrazenbeard/on-theo`
 Draft PR: #173
 Branch: `research/merlin-historical-core-v1-20261003`
-Exact upstream head consumed here: `c9e64f7c5f58f1def6a17eafcf7a21605511f9ed`
+Exact upstream head consumed here: `f1822e21e89af0aba731c931a8e302e018ba50eb`
 Artifact: `research/packets/merlin-historical-core-v1.md`
 
 This Testament branch does not upgrade any upstream claim.
@@ -71,3 +71,17 @@ Use these tags in notes/apparatus:
 - UNKNOWN
 
 Narrative beauty never upgrades confidence.
+
+
+## Stratigraphy extension consumed
+
+Additional upstream artifact:
+`research/packets/merlin-poetry-stratigraphy-v1.md`
+
+Additional constraints:
+- the Black Book witness of `Yr Afallennau` is excerpted rather than complete;
+- the early Myrddin corpus is a multi-manuscript witness network, not a single-text tradition;
+- current linguistic work places `Cyfoesi Myrddin a Gwenddydd ei Chwaer` around the beginning of the thirteenth century;
+- prophetic authorship/voice is demonstrably fluid across transmission;
+- Lailoken/Merlin identity is itself marked uncertain within the Latin transmission;
+- a single-biography model is not the default historical reconstruction.
