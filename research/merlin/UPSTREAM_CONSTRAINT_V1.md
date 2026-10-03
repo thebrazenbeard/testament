@@ -8,7 +8,7 @@ Date: 2026-10-03
 Repository: `thebrazenbeard/on-theo`
 Draft PR: #173
 Branch: `research/merlin-historical-core-v1-20261003`
-Exact upstream head consumed here: `f1822e21e89af0aba731c931a8e302e018ba50eb`
+Exact upstream head consumed here: `c3eba193feaf36839a8bd666dcefb929ff621d00`
 Artifact: `research/packets/merlin-historical-core-v1.md`
 
 This Testament branch does not upgrade any upstream claim.
@@ -85,3 +85,21 @@ Additional constraints:
 - prophetic authorship/voice is demonstrably fluid across transmission;
 - Lailoken/Merlin identity is itself marked uncertain within the Latin transmission;
 - a single-biography model is not the default historical reconstruction.
+
+
+## Pre-Geoffrey Myrddin correction
+
+ON_THEO now admits a stronger pre-Geoffrey control:
+- the tenth-century prophetic poem *Armes Prydein Vawr* contains `Dysgogan Myrddin` ("Myrddin foretells/prophesies");
+- therefore a named prophetic authority called Myrddin predates Geoffrey;
+- this still does not establish that the named prophet was the northern forest survivor or a sixth-century historical person.
+
+## Lailoken witness-control extension
+
+Additional upstream artifact:
+`research/packets/merlin-lailoken-witness-control-v1.md`
+
+Literary consequence:
+- Lailoken must remain a later northern witness identity, not a reveal of the protagonist's "true name";
+- the source itself preserves uncertainty about Lailoken = Merlin;
+- Book IV should dramatize the act of identification rather than assert it.
