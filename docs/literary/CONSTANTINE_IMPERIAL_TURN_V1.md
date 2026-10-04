@@ -9,9 +9,11 @@ Date: 2026-10-04
 Research authority:
 - repository: `thebrazenbeard/on-theo`
 - PR: `#175`
-- exact head consumed: `4ff134c66ed1715c5f899bbb77f7c64a649e1167`
+- exact head consumed: `f023360224670bcf2ef0e5c52714a74b5f9a319c`
 - artifact:
   `research/yeshua/reception/constantine-imperial-christianization-control-v1.md`
+- selection-pressure synthesis:
+  `research/yeshua/reception/imperial-selection-pressure-312-380-v1.md`
 
 Historical ceiling:
 - Constantine did not create Christianity.
@@ -211,3 +213,214 @@ This downstream document cannot establish:
 - Roman authorship of Christianity.
 
 Those require independent ON_THEO evidence.
+
+
+## When memory gets a budget
+
+The manuscript should make a distinction that is easy to miss:
+
+Before imperial patronage, Christian memory competes through:
+- preaching;
+- copying;
+- local patronage;
+- travel;
+- charisma;
+- argument;
+- communal survival.
+
+After Constantine, some Christian memory can also travel through:
+- imperial money;
+- state transport;
+- monumental architecture;
+- legal privilege;
+- official councils;
+- confiscated property;
+- exile;
+- targeted book suppression.
+
+The book should ask:
+
+> What happens when one memory can afford marble?
+
+That question is historically grounded without assuming the monumentalized
+memory is false.
+
+## Yeshua becomes geography
+
+Constantine's Palestinian building program should be treated as a major
+transformation in the history of Jesus-memory.
+
+A first-century Jewish teacher had been transmitted primarily through:
+- people;
+- sayings;
+- stories;
+- letters;
+- ritual;
+- texts.
+
+The Constantinian world increasingly gives him:
+- an imperial tomb complex;
+- an imperial Bethlehem;
+- an imperial Mount of Olives;
+- pilgrimage routes;
+- churches built to make selected episodes physically encounterable.
+
+The literary point:
+
+> A place can become authoritative because people remember it.
+>
+> But people can also remember a place because an emperor built there.
+
+Do not imply that every Constantinian site is false.
+Do not let later sacred geography silently prove first-century authenticity.
+
+## The Jewish teacher and the imperial calendar
+
+Constantine's post-Nicene Easter rhetoric creates a particularly important
+contrast for the manuscript.
+
+Yeshua's life is unintelligible apart from Jewish:
+- scripture;
+- festivals;
+- Temple;
+- law;
+- messianic expectation;
+- apocalypticism.
+
+Yet fourth-century imperial Christianity can define ritual unity partly by
+distancing itself from contemporary Jewish calendrical authority.
+
+That gives the manuscript a historical arc:
+
+`JEWISH YESHUA -> JEWISH JESUS MOVEMENT -> INCREASINGLY GENTILE CHRISTIANITY -> IMPERIALLY STANDARDIZED CHRISTIAN CALENDAR`.
+
+No single step erases what came before.
+
+But the endpoint can obscure the beginning.
+
+## The four Gospels become an interface
+
+Eusebius' Canon Tables deserve a small literary-historical interlude.
+
+Their importance is not that Constantine ordered them.
+
+He did not, as far as the evidence shows.
+
+Their importance is that a Constantinian-era bishop who also participates in
+imperial scripture production creates a durable reading technology that makes
+Matthew, Mark, Luke, and John function visibly as **one fourfold corpus**.
+
+Possible narrator line:
+
+> Four books did not become one book by losing their disagreements. They became
+> one book by learning how to sit beside one another.
+
+That helps explain canon as material technology rather than only ecclesial vote.
+
+## The books that burn
+
+Use cautiously.
+
+The manuscript may mention the Constantinian order, preserved by later
+ecclesiastical historians, that Arius' writings be burned and that concealment
+could receive severe punishment.
+
+The literary point is not:
+"Constantine burned the lost gospels."
+
+The point is:
+
+> Once the emperor can decide a condemned theologian's books should disappear,
+> theology has acquired a police power it did not possess before.
+
+Immediately add:
+- enforcement is not fully reconstructable;
+- this does not establish a general purge of noncanonical Christian literature.
+
+## "The Great"
+
+Do not play the epithet as a cheap joke.
+
+Contemporary inscriptions already call Constantine `Maximus` and
+`Maximus Victor`.
+
+In this world, "great" means something closer to:
+- victorious;
+- supreme;
+- founder;
+- world-changing;
+- worthy of monumental memory.
+
+It does not mean morally good.
+
+That distinction permits the manuscript to put side by side:
+- the founder of Constantinople;
+- patron of monumental churches;
+- imperial Christian unifier;
+- ruler responsible for coercion;
+- emperor under whom Crispus and Fausta died in 326;
+- later saintly/heroic Constantinian memory.
+
+Possible line:
+
+> History did not call him great because he was gentle. It called him great
+> because afterward the world was not the same.
+
+## Constantine's own memory is evidence
+
+The manuscript should use Constantine himself as a control case for memory
+formation.
+
+Eusebius compares him with:
+- Cyrus;
+- Alexander;
+- Moses.
+
+Later tradition adds:
+- sainthood;
+- Equal-to-the-Apostles status;
+- an increasingly legendary Helena;
+- Helena's discovery of the True Cross, which is not securely attested in
+  Eusebius and emerges later in the fourth century.
+
+That gives the reader a demonstration:
+
+> We can watch historical memory becoming sacred memory in a case where we
+> possess far more documentation than we do for Yeshua.
+
+This should train the reader how to read the earlier Jesus traditions.
+
+## Revised structural sequence
+
+Book V / Imperial Christ should now move through:
+
+1. **Before the Emperor** — plurality already exists.
+2. **The Emperor Converts** — patronage, not creation.
+3. **Which Church?** — Donatism and recognition.
+4. **One Date** — Easter and the politics of uniformity.
+5. **One Council** — Nicaea and the new scale of theological conflict.
+6. **The Books That Travel** — fifty Scripture copies.
+7. **The Books That Burn** — targeted textual coercion.
+8. **A Tomb Made Imperial** — sacred geography and the Holy Sepulchre.
+9. **Four Gospels, One Interface** — Eusebian textual technology.
+10. **The Emperor Who Would Not Stay Nicene** — reversals and Arius.
+11. **The Great** — how Constantine's own memory is constructed.
+12. **The Machine Outlives Him** — Constantius, Julian, Theodosius.
+13. **The Winning Memory** — power affects reach, not automatic truth.
+
+## Updated historical firewall
+
+Downstream narrative may show:
+- unequal amplification;
+- coercive conditions;
+- the making of holy geography;
+- imperial interest in religious unity;
+- the construction of Constantine's own sacred memory.
+
+It may not conclude without upstream evidence:
+- that Constantine knowingly falsified Yeshua;
+- that the canonical Gospels were chosen for political obedience;
+- that excluded texts were historically superior;
+- that Rome deliberately erased Yeshua's Judaism;
+- that Constantine was a cynical unbeliever;
+- that "the Great" was originally ironic.
