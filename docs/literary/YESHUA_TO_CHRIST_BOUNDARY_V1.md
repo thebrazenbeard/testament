@@ -9,7 +9,7 @@ Date: 2026-10-04
 Research authority:
 - repository: `thebrazenbeard/on-theo`
 - PR: `#176`
-- exact head consumed: `91147d2c7b039d1c808e5bf315fed12ed9b1cd09`
+- exact head consumed: `b013696c5553a496357d8ed948c5fff485b813ce`
 - artifact:
   `research/yeshua/transformation/yeshua-to-jesus-christ-transformation-map-v1.md`
 
@@ -241,7 +241,7 @@ The harder question is:
 
 ## Revised backbone: two different mysteries
 
-The research now separates two questions that the manuscript must never collapse.
+The research now separates two questions that the manuscript must never collapse. The first-generation packet further narrows the origin problem: although `~30–55 CE` is the documentary window, the decisive transformation may already have occurred within the first decade after execution.
 
 ### Mystery One — How Yeshua became Christ
 
