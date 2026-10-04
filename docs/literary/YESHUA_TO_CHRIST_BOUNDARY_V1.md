@@ -9,7 +9,7 @@ Date: 2026-10-04
 Research authority:
 - repository: `thebrazenbeard/on-theo`
 - PR: `#176`
-- exact head consumed: `1d92ebff22b51e7a1fe253f09789b45e9c387460`
+- exact head consumed: `91147d2c7b039d1c808e5bf315fed12ed9b1cd09`
 - artifact:
   `research/yeshua/transformation/yeshua-to-jesus-christ-transformation-map-v1.md`
 
@@ -192,8 +192,12 @@ recoverable attestation and evidence layer:
 - Trinity;
 - imperial ruler.
 
-This should eventually consume the upstream
-`YESHUA_TO_CHRIST_CLAIM_CLOCK_V1`.
+This now consumes the upstream:
+- `research/yeshua/transformation/yeshua-to-christ-claim-clock-v1.md`
+- six parallel source lanes;
+- same-runtime hostile review.
+
+The apparatus must preserve the upstream distinction between **earliest surviving attestation** and **first invention**.
 
 ## Literary payoff
 
@@ -233,3 +237,124 @@ The harder question is:
 
 > At which step are we no longer reconstructing Yeshua's life and instead
 > reconstructing the history of what people believed Yeshua meant?
+
+
+## Revised backbone: two different mysteries
+
+The research now separates two questions that the manuscript must never collapse.
+
+### Mystery One — How Yeshua became Christ
+
+Critical interval:
+`~30–55 CE`.
+
+By Paul's surviving letters, the movement already contains inherited:
+- Christ/Messiah language;
+- resurrection/vindication proclamation;
+- salvific interpretation of death;
+- direct Lord invocation, including Aramaic `Maranatha`;
+- expected return;
+- powerful Son/Lord language.
+
+Paul then gives us the earliest surviving extensive architecture:
+- `in Christ`;
+- Adam/Christ;
+- participation in death/resurrection;
+- eschatological rule;
+- creation/redemption language.
+
+This is the project's highest-value origin problem.
+
+### Mystery Two — Which Christ won
+
+Longer interval:
+`~70–400 CE`.
+
+This includes:
+- Gospel narrativization;
+- infancy Christologies;
+- Logos Christology;
+- rival second-century Christologies;
+- four-Gospel consolidation;
+- third-century metaphysics;
+- Nicaea;
+- imperial selection pressure.
+
+Constantine belongs here.
+
+## Do not write a simple ascent ladder
+
+The literary structure must not imply:
+
+`ordinary man -> slightly divine -> very divine -> Nicene God`.
+
+The upstream research shows branching:
+- resurrection/exaltation;
+- Lord devotion;
+- Adamic Christology;
+- baptismal/Spirit sonship;
+- preexistence;
+- Logos;
+- recapitulation;
+- Marcionite dualism;
+- Valentinian cosmology;
+- eternal-generation theology.
+
+Some branches disappear.
+Some merge.
+Some are rejected.
+Some become orthodox.
+
+The reader should see competition, not inevitability.
+
+## Claim-clock visual logic
+
+For each major claim, the manuscript apparatus should show four things:
+
+`CLAIM`
+`EARLIEST RECOVERABLE SOURCE`
+`CAN IT BE TRACED TO YESHUA?`
+`LATER AMPLIFICATION`
+
+Example:
+
+**Virgin conception**
+- earliest clear sources: Matthew/Luke;
+- not present in undisputed Paul or Mark;
+- historical status unresolved;
+- later becomes creedal/orthodox.
+
+**Preexistent Logos**
+- earliest clear source: John;
+- historical-Yeshua self-claim not established;
+- amplified by Justin and later metaphysical theology.
+
+**Jesus as Christ**
+- already pre-Pauline;
+- possible Yeshua self-identification unresolved;
+- becomes foundational Christian identity before any Gospel survives.
+
+This apparatus should visually teach the reader not to confuse:
+`EARLY`
+with
+`HISTORICAL`,
+or:
+`LATE`
+with
+`FALSE`.
+
+## Strongest literary transition
+
+The manuscript should make the reader feel that something has already happened
+before Paul appears.
+
+Possible structural line:
+
+> Paul did not meet a dead Galilean teacher and decide to call him Christ.
+> He entered a movement that was already doing it.
+
+Then immediately complicate it:
+
+> What Paul inherited and what Paul transformed are not the same question.
+
+That is the transition the research now needs to reconstruct.
