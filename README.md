@@ -1,69 +1,70 @@
-> **License:** Source-visible, not open source. Original material is proprietary. Commercial use, redistribution, hosted-service use, and commercial derivative products require written permission. See [LICENSE](LICENSE) and [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md). Separately identified third-party components retain their own licenses.
+# Testament — *The Testament of the Spark*
 
-# Testament
+**An authored, source-critical literary exploration of Yeshua (Jesus), his reception across traditions, and the relationship between divinity and human agency.**
 
-A multi-tradition, source-critical literary reimagining of Jesus/Yeshua’s life and legacy, drawing across Jewish, Christian, apocryphal, mystical, Islamic, historical, and speculative sources to explore divinity, human agency, and the nature of reality.
+Testament is a reading and research corpus, not an installable application or a recovered ancient testament. It develops a modern eight-book narrative from historical inquiry, competing religious traditions, philosophical interpretation, and clearly identified imaginative material. Readers can explore the manuscript and its source controls; reuse of the material is governed by the [license](LICENSE).
 
-## What this repository is
+## Start reading
 
-Testament is the authored literary and theological project. It is not a replacement for historical research and it is not permitted to manufacture evidence for itself.
+The [first sustained manuscript draft](manuscript/draft_v1/README.md) provides a prologue, an exploratory prose traversal of Books I–VIII, a provenance map, and editorial notes.
 
-The working literary title is **The Testament of the Spark**. The repository name remains deliberately simpler: **testament**.
+1. [Prologue](manuscript/draft_v1/PROLOGUE.md)
+2. [Book I — The World](manuscript/draft_v1/BOOK_I_THE_WORLD.md)
+3. [Book II — Yeshua](manuscript/draft_v1/BOOK_II_YESHUA.md)
+4. [Book III — The Sayings](manuscript/draft_v1/BOOK_III_THE_SAYINGS.md)
+5. [Book IV — Death and What Followed](manuscript/draft_v1/BOOK_IV_DEATH_AND_WHAT_FOLLOWED.md)
+6. [Book V — The Many Christs](manuscript/draft_v1/BOOK_V_THE_MANY_CHRISTS.md)
+7. [Book VI — Echoes](manuscript/draft_v1/BOOK_VI_ECHOES.md)
+8. [Book VII — The Kingdom Within](manuscript/draft_v1/BOOK_VII_THE_KINGDOM_WITHIN.md)
+9. [Book VIII — The Testament of the Spark](manuscript/draft_v1/BOOK_VIII_THE_TESTAMENT_OF_THE_SPARK.md)
 
-## First sustained manuscript draft
+For the distinction between sourced passages and authorial additions, consult the draft's [source map](manuscript/draft_v1/SOURCE_MAP.md) and [editorial notes](manuscript/draft_v1/EDITORIAL_NOTES.md).
 
-The first complete prose traversal of the eight-book architecture now lives at:
+## The inquiry
 
-- `manuscript/draft_v1/README.md`
+The project asks what remains of Yeshua and his legacy when canonical, noncanonical, Jewish, Christian, hostile, mystical, Islamic, material, historical, and speculative accounts remain visible rather than being forcibly harmonized.
 
-It contains:
-- a full prologue;
-- exploratory prose for Books I–VIII;
-- a source/provenance map;
-- editorial revision gates.
+Its ethical center does not depend on accepting any one metaphysical explanation:
 
-Draft V1 is explicitly exploratory authored prose. Its existence does not upgrade research confidence, close open witness debt, establish publication readiness, or promote narrative material into evidence.
+> Human beings should not surrender authorship of their lives to an externalized divine authority. If there is a divine spark, image, spirit, substrate, code, conscience, or participation in reality within us, that increases responsibility rather than eliminating it.
 
-## Upstream research dependency
+That is the work's **authorial proposition**, not a conclusion imposed on historical Yeshua or a finding established by ancient sources.
 
-Primary research dependency: https://github.com/thebrazenbeard/on-theo
+## Historical evidence is not the manuscript
 
-Dependency direction is one-way:
+Testament draws upstream research discipline from [On-Theo](https://github.com/thebrazenbeard/on-theo). The dependency runs in one direction:
 
-**On-Theo evidence and source criticism -> Testament authored reconstruction**
+**On-Theo evidence and source criticism → Testament reconstruction and literary work.**
 
-Never:
+The reverse does not apply. A compelling scene, saying, interpretation, or analogy written here does not become historical evidence by appearing in the manuscript.
 
-**Testament narrative -> On-Theo evidence**
+The repository's [epistemic contract](docs/EPISTEMIC_CONTRACT.md) distinguishes:
 
-A compelling scene, saying, interpretation, or simulation analogy written here cannot become historical evidence merely because it appears in the manuscript.
+- **Identified sources and material evidence:** what an attested text or object shows, including its witness and date limitations.
+- **Historical reconstruction:** bounded inferences that remain open to contradiction and new evidence.
+- **Later traditions and scholarly interpretation:** attributed views that do not automatically establish earlier events.
+- **Authored construction and symbolic synthesis:** deliberate literary work, including reconstructed dialogue and connections between traditions.
+- **Speculative models:** metaphysical and simulation analogies offered as hypotheses, not historical findings or revelations.
 
-## Core proposition
+The [historical baseline](docs/HISTORICAL_BASELINE.md), [textual-base policy](docs/TEXTUAL_BASE_POLICY.md), and [review protocol](docs/REVIEW_PROTOCOL.md) describe how claims should be sourced and challenged. A review pass means a draft respects its stated evidence ceiling; it does **not** establish that the depicted events happened.
 
-The project asks what remains of Yeshua and his legacy when canonical, noncanonical, Jewish, Christian, hostile, mystical, Islamic, material, historical, and speculative evidence are allowed to remain visible rather than forcibly harmonized.
+## Current status and limitations
 
-Its ethical center is independent of any one metaphysics:
+The first eight-book prose traversal exists as **Draft V1: exploratory authored manuscript**. It is not a publication-ready edition, a canonical reconstruction, or a completed historical proof. Textual-witness work, primary-source deepening, and adversarial review remain open. Books VII–VIII are explicitly modern philosophical and literary work; Book VIII's first-person voice is not attributed to Yeshua, divine authority, or an ancient witness.
 
-**Human beings should not surrender authorship of their lives to an externalized divine authority. If there is a divine spark, image, spirit, substrate, code, conscience, or participation in reality within us, that increases responsibility rather than eliminating it.**
+Simulation theory remains speculative and must not be used to explain away contradictory historical evidence. The argument about human agency is intended to remain examinable even if a particular metaphysical model fails.
 
-## Status
+## Research, review, and contribution
 
-Foundation V1 remains an active research architecture and manuscript foundation. The exploratory full-manuscript Draft V1 now exists, but historical claims remain reviewable and source-bound. Simulation theory remains a speculative model, not a historical conclusion.
+Readers interested in following or challenging the research can begin with:
 
+- [Research and editorial workflow](docs/WORKFLOW.md)
+- [Review protocol](docs/REVIEW_PROTOCOL.md)
+- [Epistemic contract](docs/EPISTEMIC_CONTRACT.md)
+- [Manuscript source map](manuscript/draft_v1/SOURCE_MAP.md)
 
-## Chatless continuation
+Current repository content and review ledgers are the relevant evidence for evaluating a proposed change. Historical conversation and continuation files are preserved as provenance, not as current instructions. The [runtime reconstruction guide](docs/TESTAMENT_RUNTIME_RECONSTRUCTION_V1.md) documents that distinction for maintainers. The repository also contains source-scoped regression checks for a removed workspace startup-loader vector; those checks do not verify any reader's machine or old checkout.
 
-Testament does not require a persistent ChatGPT conversation.
+## Copyright and permitted use
 
-Fresh runtimes reconstruct the project from GitHub/Bus state using:
-- `docs/TESTAMENT_RUNTIME_RECONSTRUCTION_V1.md`;
-- the current `main` branch and its exact commit state;
-- current evidence/review ledgers;
-- `manuscript/draft_v1/`;
-- the current Bus topology and coordination route.
-
-Files under `state/continuation/` and `state/conversation/` that refer to former chats are retained as historical provenance only. They are not current-state locators or startup dependencies.
-
-## Workspace startup safety (source scope)
-
-The concealed VS Code `folderOpen` Node task was removed, automatic workspace tasks set to valid string `"off"`, and JavaScript disguised as `public/fonts/fa-solid.lkf` removed from tracked source. Static regression tests and read-only CI check the known loader vector. Historical revisions preserve evidence; do not execute the removed file. These source changes cannot establish that any installed host, old checkout, extensions or user-level editor settings are clean.
+Copyright © 2026 Patrick Sims. All rights reserved. Original material is **source-visible and proprietary, not open source**. The [LICENSE](LICENSE) permits specified private noncommercial evaluation, education, and research, but does not grant general redistribution, publication of derivatives, commercial reuse, or commercial model-training rights. See [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md) for commercial licensing and [CONTRIBUTING.md](CONTRIBUTING.md) and [CLA.md](CLA.md) for contribution terms. Separately identified third-party materials remain under their own licenses.
